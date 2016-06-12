@@ -1,0 +1,96 @@
+
+$color_red:                     #CE1126;
+$color_blue:                    #0038A8;
+$color_yellow:                  #FCD116;
+
+$color_primary:                 $color_red;
+$color_secondary:               $color_primary - 30;
+
+$color_bg:                      #ffffff;
+
+// Text
+$color_text:                    #333333;
+$color_text_dark:               #111111;
+$color_text_darker:             #000000;
+$color_text_light:              $color_text + 20;
+$color_text_lighter:            $color_text + 50;
+$color_text_highlight:          $color_text_darker;
+
+// Link
+$color_link:			        #FFB90F;
+$color_link_underline:	        $color_link - 100;
+
+// Heading
+$color_heading_text:            black;
+
+// Header
+$color_header_title:            black;
+$color_header_title_tag:        black;
+$color_header_bg:               #dedddd;
+$color_header_border_top:       $color_primary;
+$color_header_border_bottom:    $color_primary;
+
+// Code
+$color_code:                    #a3a3a3;
+$color_code_highlight:          #eeeeee;
+$color_code_bg:                 #202020;
+$color_syntax_bg:               #2a2a2a;
+
+$color_table_border:            #404040;
+$color_table_th_bg:             #efefef;
+
+// Horizontal line
+$color_hr_default:              $color_bg;
+$color_hr_dark:                 #404040;
+$color_hr_darker:               $color_bg;
+
+
+
+// Specifics
+// -----------------------------------------------------------------------------
+
+// Navigation
+$color_nav:                     $color_text;
+$color_nav_bg:                  $color_header_bg;
+
+// Announcement
+$color_announcement_title:      $color_red;
+$color_announcement_date:       $color_text;
+$color_announcement_text:       $color_text;
+
+// News Hub
+$color_news_hub_title:          $color_heading_text;
+$color_news_hub_date:           $color_red - 50;
+$color_news_hub_excerpt:        $color_text;
+
+// News Article
+$color_news_title:              $color_heading_text;
+$color_news_date:               $color_red - 50;
+$color_news_excerpt:            $color_text;
+$color_news_text:               $color_text;
+
+// Sidebar
+$color_sidebar_bg:              #efefef;
+$color_label:                   $color_text;
+
+// Aside
+$color_aside_text:              $color_text;
+$color_aside_bg:                $color_header_bg;
+$color_aside_border:            $color_red - 100;
+
+// Post tag
+$color_tag_text:                $color_text;
+$color_tag_bg:                  #dddddd;
+
+// Quote
+$color_quote_text:              black;
+$color_quote_author:            black; //$color_red - 50;
+
+// Footer
+$color_footer_text:             black;
+$color_footer_link:             $color_link;
+$color_footer_bg:               #cdcccc;
+$color_footer_border_top:       $color_primary;
+
+// Social media buttons
+$color_socmed_text:             white;

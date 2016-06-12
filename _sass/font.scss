@@ -1,0 +1,115 @@
+
+// Liberation Sans is too narrow
+// Merriweather is good but seems a bit thick
+// Playfair looks nice in bigger sizes, like titles or headings
+
+//@import url("//fonts.googleapis.com/css?family=PT Serif");
+//@import url("//fonts.googleapis.com/css?family=Droid Serif");
+//@import url("//fonts.googleapis.com/css?family=Roboto Slab");
+//@import url("//fonts.googleapis.com/css?family=Merriweather:400,700");
+//@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato:400,400italic,700|Merriweather:400");
+@import url("//fonts.googleapis.com/css?family=Liberation Serif:400,400italic,700");
+//@import url("//fonts.googleapis.com/css?family=Open Sans");
+@import url("//fonts.googleapis.com/css?family=Lato:400, 400italic, 700");
+
+
+
+// Unused
+//@import url("//fonts.googleapis.com/css?family=Droid Serif");
+
+
+$font_serif:                "Liberation Serif", Garamond, Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif_thin:           "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+
+$font_sans:                 Helvetica, Arial, sans-serif;
+$font_sans_thin:            "Lato", Helvetica, "Lucida Sans", Arial, sans-serif;
+
+$font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
+
+// Title
+$font_title:                $font_serif_thin;
+$font_weight_title:         bold;
+$font_size_title:           30px;
+$font_title_tagline:        $font_serif_thin;
+$font_size_title_tagline:   14px;
+
+// Default
+$font_default:              $font_serif_thin;
+$font_size_default:         14px;
+$font_default_thin:         $font_sans_thin;
+$font_size_default_thin:    12px;
+$font_heading:              $font_serif_thin;
+$font_size_heading:         24px;                   // Base of all heading tags
+
+// Code
+$font_code:                 $font_monospace;
+$font_size_code:            14px;
+$font_size_code_in_text:    14px;
+
+// Table
+$font_size_table_heading:   $font_size_default;
+$font_size_table_data:      $font_size_default;
+
+// Add whitespace between words
+// Normal whitespace between is 0.25em
+$word_spacing:              0.155em;
+
+
+
+// Specifics
+// -----------------------------------------------------------------------------
+
+// Navigation
+$font_nav:                  $font_serif_thin;
+$font_size_nav:	            14px;
+$font_size_page_nav:        $font_size_nav + 2;
+
+// Label
+$font_label:                $font_sans;
+$font_size_label:           13px;
+
+// Announcement
+$font_announcement_title:       $font_label;
+$font_announcement_date:        $font_label;
+$font_size_announcement_date:   $font_size_label - 2;
+$font_announcement_text:        $font_serif_thin;
+
+// News Hub
+$font_news_hub_title:               $font_serif_thin;
+$font_size_news_hub_latest_title:   20px;
+$font_size_news_hub_latest_date:    12px;
+$font_size_news_hub_next_title:     15px;
+$font_size_news_hub_next_date:      12px;
+$font_news_hub_excerpt:             $font_serif_thin;
+$font_size_news_hub_excerpt:        14px;
+
+// News Article
+$font_news_title:           $font_serif_thin;
+$font_size_news_title:      14px;
+$font_news_text:            $font_serif_thin;
+$font_size_news_text:       13px;
+
+// Sidebar
+$font_sidebar_label:        $font_label;
+$font_size_sidebar_label:   13px;
+$font_sidebar:              $font_serif_thin;
+$font_size_sidebar:         14px;
+
+// Quote
+$font_quote:                $font_sans;
+$font_size_quote:           13px;
+$font_quote_author:         $font_serif_thin;
+$font_size_quote_author:    13px;
+
+// Aside
+$font_aside:                $font_serif_thin;
+$font_size_aside_text:      $font_size_default + 1;
+
+// Footer
+$font_footer:               $font_default;
+$font_size_footer:          13px;
+$font_size_license:         13px;
+
+// Social media buttons
+$font_socmed:               $font_sans_thin;
+$font_size_socmed:          13px;
