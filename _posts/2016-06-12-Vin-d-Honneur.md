@@ -1,7 +1,7 @@
 ---
 title: "The Vin d’Honneur"
 excerpt: What does it mean?
-date: June 12, 2016
+date: June 12, 2016 11:26:03
 layout: post
 group: Posts
 categories: [Blog]
