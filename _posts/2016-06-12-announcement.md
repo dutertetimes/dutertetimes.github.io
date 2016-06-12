@@ -1,0 +1,10 @@
+---
+title: Philippine Independence Day
+excerpt:
+date: June 12, 2016
+group: Announcement
+image: /images/public/Flag_of_the_Philippines-32px.svg.png
+---
+
+Araw ng Kasarinlan; also known as "Araw ng Kalayaan", (or "Day of Freedom") is an annual national holiday of the Philippines observed on June 12, commemorating the Philippine Declaration of Independence from Spain on June 12, 1898. Since 1962, it has been the country's National Day.
+&#x25cf;&nbsp;[[Source](https://en.wikipedia.org/wiki/Independence_Day_(Philippines))].
