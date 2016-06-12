@@ -1,8 +1,11 @@
 <div id="announcement">
+    {% capture nowdate %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+    {% assign found = false %}
     {% for post in site.posts limit:10 %}
-        {% if post.group == "Announcement" %}
+        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+        {% if post.group == "Announcement" and postdate == nowdate %}
             <div class="announcement_heading">
-                <img src="{{ post.image }}" alt="Philippine Flag" class="label"/>
+                <img src="{{ post.image }}" class="label"/>
                 <h1>{{ post.title }}</h1>
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
@@ -13,7 +16,13 @@
                     <p class="excerpt">{{ post.excerpt }}</p>
                 {% endif %}
             </div>
+            {% assign found = true %}
             {% break %}
         {% endif %}
     {% endfor %}
+    {% if found == false %}
+        <h1>Images Contributions</h1>
+        <p class="date">{{ nowdate | date: "%A, %B %d, %Y" }}</p>
+        <p class="excerpt">If anyone wants to contribute images that could be used for the news articles please contact me via email dutertetimes@protonmail.com.</p>
+    {% endif %}
 </div>
