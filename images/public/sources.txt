@@ -1,0 +1,7 @@
+https://upload.wikimedia.org/wikipedia/commons/f/f0/Emilio_Aguinaldo_Shrine.jpg
+https://upload.wikimedia.org/wikipedia/commons/c/ca/Php_bill_5_back.jpg
+https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines.svg
+    page url: https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Philippines.svg
+    file url: https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg
+    attribution: By User:Achim1999 [Public domain], via Wikimedia Commons
+    attribution html: By User:Achim1999 [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Philippines.svg">via Wikimedia Commons</a>
