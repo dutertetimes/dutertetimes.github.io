@@ -509,7 +509,7 @@ section.column_left_sidebar {
     p {
         font-family: $font_announcement_text;
         font-size: $font_size_sidebar;
-        line-height: $font_size_sidebar + 2;
+        line-height: $font_size_sidebar + 1;
         text-align: left;
         color: $color_announcement_text;
         
@@ -581,6 +581,17 @@ section.page_column_main {
         margin-left: 15px;
         margin-right: 15px;
     }
+    
+    p {
+        @include min-screen(721px) {
+            font-size: $font_size_default + 0;
+            line-height: $font_size_default + 6;
+        }
+        @include max-screen(720px) {
+            font-size: $font_size_default + 3;
+            line-height: $font_size_default + 8;
+        }
+    }
 }
 
 
@@ -614,6 +625,7 @@ section.hub_column_main {
         p.date {
             color: $color_news_hub_date;
             text-transform: uppercase;
+            margin-top: 10px;
             margin-bottom: 4px;
         }
         p.excerpt {
@@ -621,6 +633,7 @@ section.hub_column_main {
             font-size: $font_size_news_hub_excerpt;
             line-height: $font_size_news_hub_excerpt + 2;
             color: $color_news_hub_excerpt;
+            margin-top: 6px;
         }
 
         div.news_latest {
@@ -716,8 +729,8 @@ section.post_column_main {
     p, li, dl {
         font-family: $font_default;
         @include min-screen(721px) {
-            font-size: $font_size_default;
-            line-height: $font_size_default + 2;
+            font-size: $font_size_default + 3;
+            line-height: $font_size_default + 8;
         }
         @include max-screen(720px) {
             font-size: $font_size_default + 3;
@@ -732,8 +745,8 @@ section.post_column_main {
     }
 
     p {
-        letter-spacing: 0.25px;
-        word-spacing: $word_spacing;
+        //letter-spacing: 0.25px;
+        //word-spacing: $word_spacing;
         text-align: left;
         @include bottom_margin;
 
@@ -742,6 +755,7 @@ section.post_column_main {
         &.category {
             font-size: $font_size_default - 1;
             font-style: italic;
+            line-height: $font_size_default + 1;
             color: $color_text;
             margin: 0;
         }
@@ -1050,7 +1064,7 @@ section.column_right_sidebar {
         @include sidebar_component;
     }
 
-    div.news_roll {
+    #news_roll {
         @include sidebar_component_scroll;
         background: $color_sidebar_bg;
 
@@ -1080,6 +1094,15 @@ section.column_right_sidebar {
                     font-size: $font_size_news_text;
                 }
             }
+        }
+    }
+    
+    #related_posts,
+    #recent_posts {
+        ul {
+            padding: 0;
+            margin-top: 0;
+            list-style-type: none;
         }
     }
     
