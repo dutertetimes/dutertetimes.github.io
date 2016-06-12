@@ -1,0 +1,46 @@
+<!-- Add vertical space before the 'hr' so it does not look cramped -->
+<p class="padding_bottom_5" />
+<hr class="thin">
+<div class="padding_bottom_25">
+    <p>
+        <img src="/images/tag.png" height="42" width="42" class="tagsymbol"/>
+        {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </p>
+    <br/>
+
+    <div class="padding_bottom_25">
+        {% include socmed_twitter.html %}
+        {% include socmed_google_plus.html %}
+    </div>
+    <!--
+    <div id="page_previous">
+        {% if page.previous != nil %}
+            <p class="padding_bottom_5">&#x25C0;&nbsp;&nbsp;Previous</p>
+            <p class="padding_bottom_5"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a><br/>
+                <i>
+                {{ page.previous.excerpt }}<br/>
+                {{ page.previous.date | | date: "%b %-d, %Y" }}
+                </i>
+            </p>
+            
+            <p class="back_to_top padding_bottom_5"><a href="#">Back to Top</a></p>
+        {% endif %}
+    </div>
+
+    <div id="page_next">
+        {% if page.next != nil %}
+            <p class="padding_bottom_5">Next&nbsp;&nbsp;&#x25B6;</a></p>
+            <p class="padding_bottom_5"><a href="{{ page.next.url }}">{{ page.next.title }}</a><br/>
+                <i>
+                {{ page.next.excerpt }}<br/>
+                {{ page.next.date | | date: "%b %-d, %Y" }}
+                </i>
+            </p>
+            
+            <p class="back_to_top padding_bottom_5"><a href="#">Back to Top</a></p>
+        {% endif %}
+    </div>
+    -->
+</div>

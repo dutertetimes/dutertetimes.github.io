@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include post_left_sidebar.html %}
+
+<section class="post_column_main">
+
+    <h1 class="pagetitle">{{ page.title }}</h1>
+    <p class="excerpt">{{ page.excerpt }}</p>
+    {% if page.date != nil %}
+        <p class="date">{{ page.date | date_to_string }}</p>
+    {% else %}
+        <p class="date">Undated</p>
+    {% endif %}
+    <p class="category padding_bottom_25">Filed under:&nbsp;
+        {% for category in page.categories %}
+            <span>{{ category }}</span>&nbsp;
+        {% endfor %}
+    </p>
+
+    {{ content }}
+
+    {% include post_bottom.html %}
+
+</section>
+
+{% include post_right_sidebar.html %}

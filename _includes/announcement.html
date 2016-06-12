@@ -1,0 +1,19 @@
+<div id="announcement">
+    {% for post in site.posts limit:10 %}
+        {% if post.group == "Announcement" %}
+            <div class="announcement_heading">
+                <img src="{{ post.image }}" alt="Philippine Flag" class="label"/>
+                <h1>{{ post.title }}</h1>
+                {% if post.date == nil %}
+                    <p class="date">Undated</p>
+                {% else %}
+                    <p class="date">{{ post.date | date: "%A, %B %d, %Y" }}</p>
+                {% endif %}
+                {% if post.excerpt != nil %}
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                {% endif %}
+            </div>
+            {% break %}
+        {% endif %}
+    {% endfor %}
+</div>

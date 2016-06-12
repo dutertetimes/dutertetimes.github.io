@@ -1,0 +1,45 @@
+<header>
+    <!-- Site-wide information, reminder, etc. -->
+	<!-- <p><a href="http://matthewjamestaylor.com/blog/perfect-multi-column-liquid-layouts" title="Perfect multi-column liquid layouts - iPhone compatible">&laquo; Back to the CSS article</a> by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a></p> -->
+    <div id="site_header">
+        <h1>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+        </h1>
+        <p>
+            {{ site.description }}<br/>
+        </p>
+    </div>
+    
+    {% include socmed_links.html %}
+    
+    <nav class="left">
+        {% for nav_item in site.data.nav %}
+            <a href="{{ nav_item.link }}" {% if page.url == nav_item.link %} class="active" {% endif %} class="nav_button">
+                {{ nav_item.name }}
+            </a>&nbsp;
+        {% endfor %}
+        <!--
+        <a href="">Home</a>&nbsp;
+        <a href="">News</a>&nbsp;
+        <a href="">Links</a>
+        -->
+        
+        <!-- NOTE: -->
+        <!-- For two-line items, wrap the second line between <span></span> -->
+        <!-- Adjust the width padding in #header nav li a -->
+        <!-- Class 'active' highlights the entire box -->
+        <!-- {% for p in site.pages_list %} -->
+            <!-- {% if page.group == p[0] %} --> 
+            <!-- <li><a href="{{ site.baseurl }}{{ p[1]  }}" class="active">{{ p[0] }}</a></li> -->
+            <!-- {% else %} -->
+            <!-- <li><a href="{{ site.baseurl }}{{ p[1]  }}">{{ p[0] }}</a></li> -->
+            <!-- {% endif %} -->
+        <!-- {% endfor %} -->
+	</nav>
+    
+    <!-- Hide -->
+    <!-- <nav class="right"> -->
+    <!--     <li><a href="https://github.com/rmaicle/rmaicle.github.io" title="GitHub" target="_blank">GitHub</a></li> -->
+    <!-- </nav> -->
+    </div>
+</header>
