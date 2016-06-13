@@ -11,11 +11,6 @@ body {
     color: $color_text;
     margin: 0;
     padding: 0;
-    /*
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-right: 0px;
-    */
     
     // 'Hide' horizontal scrollbar when viewed in small media
     // https://css-tricks.com/findingfixing-unintended-body-overflow/
@@ -249,7 +244,12 @@ header {
                 &:hover {
                     border: none;
                 }
+                @include max-screen(720px) {
+                    font-size: $font_size_title - 10;
+                    line-height: $font_size_title - 10;
+                }
             }
+            
         }
 
         p {
@@ -435,6 +435,14 @@ section.column_left_sidebar {
                 p {
                     font-family: $font_news_text;
                     font-size: $font_size_news_text;
+                    margin-top: 2px;
+                    padding: 0;
+                    &.date {
+                        color: $color_news_bit_date;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        padding: 0;
+                    }
                 }
             }
         }
@@ -528,7 +536,7 @@ section.column_left_sidebar {
         font-family: $font_quote;
         font-size: $font_size_quote;
         font-style: normal;
-        line-height: $font_size_quote + 3;
+        line-height: $font_line_height_quote;
         letter-spacing: 0.25px;
         color: $color_quote_text;
         margin-top: 0px;

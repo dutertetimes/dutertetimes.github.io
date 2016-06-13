@@ -7,6 +7,7 @@
 //@import url("//fonts.googleapis.com/css?family=PT Serif");
 //@import url("//fonts.googleapis.com/css?family=Droid Serif");
 //@import url("//fonts.googleapis.com/css?family=Roboto Slab");
+@import url("//fonts.googleapis.com/css?family=Roboto");
 //@import url("//fonts.googleapis.com/css?family=Merriweather:400,700");
 //@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato:400,400italic,700|Merriweather:400");
 @import url("//fonts.googleapis.com/css?family="Liberation Serif":400,400italic,700");
@@ -15,7 +16,7 @@
 $font_serif:                "Liberation Serif", Garamond, Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 $font_serif_thin:           "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 
-$font_sans:                 Helvetica, Arial, sans-serif;
+$font_sans:                 "Roboto", Helvetica, Arial, sans-serif;
 $font_sans_thin:            "Lato", Helvetica, "Lucida Sans", Arial, sans-serif;
 
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
@@ -112,7 +113,8 @@ $font_size_related_post_excerpt:    12px;
 
 // Quote
 $font_quote:                $font_sans;
-$font_size_quote:           13px;
+$font_size_quote:           12px;
+$font_line_height_quote:    $font_size_quote + 4;
 $font_quote_author:         $font_serif_thin;
 $font_size_quote_author:    13px;
 

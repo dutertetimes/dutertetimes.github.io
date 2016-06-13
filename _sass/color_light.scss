@@ -74,6 +74,9 @@ $color_news_date:               $color_red - 50;
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
 
+// New bit
+$color_news_bit_date:           $color_red - 50;
+
 // Sidebar
 $color_sidebar_label:           $color_text;
 $color_sidebar_text:            $color_text;
@@ -89,8 +92,8 @@ $color_tag_text:                $color_text;
 $color_tag_bg:                  #dddddd;
 
 // Quote
-$color_quote_text:              black;
-$color_quote_author:            black; //$color_red - 50;
+$color_quote_text:              $color_text;
+$color_quote_author:            $color_text;
 
 // Footer
 $color_footer_text:             black;
