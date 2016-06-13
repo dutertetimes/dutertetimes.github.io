@@ -11,11 +11,13 @@
         <h1>News Bits</h1>
         <div class="newsbits">
             {% for post in site.categories['newsbit'] limit: 10 %}
+                {% if post.publish %}
                 <div class="newsbit">
                     <!-- <p class="date">{{ post.date | date: "%F %r" }}</p> -->
                     <p class="date">{{ post.date | date: "%F" }}</p>
                     <p>{{ post.content | | remove: '<p>' | remove: '</p>'}}</p>
                 </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
