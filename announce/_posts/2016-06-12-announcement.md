@@ -1,8 +1,7 @@
 ---
 title: Philippine Independence Day
-excerpt:
 date: June 12, 2016
-group: Announcement
+excerpt:
 image: /images/public/Flag_of_the_Philippines-32px.svg.png
 ---
 
