@@ -748,6 +748,12 @@ section.post_column_main {
             line-height: $font_size_default + 8;
         }
         text-align: left;
+        
+        & a {
+            font-size: $font_size_default + 3;
+            line-height: $font_size_default + 8;
+        }
+        
         & code {
             @include min-screen(721px) { font-size: $font_size_default - 1; }
             @include max-screen(720px) { font-size: $font_size_default + 1; }
