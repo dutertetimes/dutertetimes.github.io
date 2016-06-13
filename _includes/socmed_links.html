@@ -1,5 +1,16 @@
-<div id="socialmedia_links">
+<div id="social_media_links">
+    <!--
     <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="socmed_button">Twitter</a>&nbsp;
     <a href="{{ site.author.youtube }}" target="_blank" class="socmed_button">Youtube</a>&nbsp;
     <a href="mailto:{{ site.author.email }}"   target="_blank" class="socmed_button">Email Us</a>
+    -->
+    <ul>
+    {% for item in site.data.socmed %}
+        <li>
+            <a href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %} >
+                {{ item.name }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
 </div>

@@ -16,9 +16,9 @@ The site aims to provide Filipino online citizens an alternative source of news 
 <br/>
 <br/>
 
-<a href="{{ site.author.twitter }}" class="socmed_button socmed_button_color">Twitter</a>&nbsp;
-<a href="{{ site.author.youtube }}" class="socmed_button socmed_button_color">Youtube</a>&nbsp;
-<a href="{{ site.author.email }}"   class="socmed_button socmed_button_color">Email</a>
+<div class="social_media_links">
+{% include socmed_links.html %}
+</div>
 
 <br/>
 <br/>

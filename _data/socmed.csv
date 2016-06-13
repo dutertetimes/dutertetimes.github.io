@@ -1,0 +1,4 @@
+name,link
+Twitter,https://twitter.com/{{ site.author.twitter }}
+Youtube,{{ site.author.youtube }}
+Email,mailto:{{ site.author.email }}

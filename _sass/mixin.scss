@@ -26,3 +26,41 @@
     //padding: 12px 3px 15px 15px;
     padding: 10px 2px 13px 13px;
 }
+
+@mixin button {
+    font-family: $font_button;
+    font-size: $font_size_button;
+    font-weight: normal;
+
+    white-space: nowrap;
+    
+    color: $color_button_text;
+    background-color: $color_button_bg;
+
+    padding: 4px 10px 5px 10px;
+    border-radius: 4px;
+    
+    
+    cursor: pointer;
+    background-image: none;
+    
+    &:hover {
+        background-color: $color_button_hover_bg;
+    }
+}
+
+@mixin top_button {
+    padding: 4px 10px 3px 10px;
+    border-radius: 4px 4px 0 0;
+    border: 1 solid $color_button_bg;
+}
+
+@mixin left_button {
+    color: $color_text;
+    padding: 4px 10px 6px 10px;
+    border-radius: 0px;
+    border: 0;
+    &:hover {
+        color: $color_button_text;
+    }
+}

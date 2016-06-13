@@ -259,58 +259,46 @@ header {
         }
     }
     
-    nav {
-        background: $color_nav_bg;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 9px;
-        padding-bottom: 2px;
-
-        &.left {
+    #nav_top,
+    #social_media_links {
+        ul {
+            padding: 0;
+            
+            li {
+                text-align: center;
+                // Display list items horizontally
+                display: inline;
+                list-style-type: none;
+                padding: 0;
+                margin-right: 5px;
+                a {
+                    @include button;
+                    @include top_button;
+                }
+            }
+        }
+    }
+    
+    
+    #nav_top {
+        @include min-screen(721px) {
             float: left;
             margin-left: 15px;
         }
-
-        &.right {
-            float: right;
-            margin-right: 15px;
-        }
-        
-        a {
-            font-family: $font_nav;
-            font-size: $font_size_nav;
-            font-weight: normal;
-            text-align: left;
-            color: $color_nav;
-        }
-    }
-    
-    // Fix when mobile device settings are off
-    #socialmedia_links {
-        margin-left: 15px;
-    }
-    
-    @include min-screen(721px) {
-        height: 100px;
-        #site_header {
-            float: left;
-        }
-        #socialmedia_links {
-            float: right;
-            text-align: right;
-            margin-top: 10px;
-            margin-right: 20px;
-        }
-    }
-    
-    @include max-screen(720px) {
-        height: 100px;
-        nav {
+        @include max-screen(720px) {
             display: none;
         }
-        #socialmedia_links {
-            margin-top: 10px;
-            margin-left: 15px;
+    }
+        
+    #social_media_links {
+        @include min-screen(721px) {
+            float: right;
+            // Offset the div right margin with the list item right margin
+            margin-right: 10px;
+        }
+        @include max-screen(720px) {
+            float: left;
+            margin-left: 5px;
         }
     }
 }
@@ -440,48 +428,31 @@ section.column_left_sidebar {
 }
 
 #nav_left {
-
+    
     @include min-screen(721px) {
         display: none;
     }
     
-    @include max-screen(720px) {
-        border-radius: 3px;
-        padding: 12px 15px 15px 15px;
-        background: $color_sidebar_bg;
-        margin-bottom: 12px;
+    border-radius: 3px;
+    padding: 12px 15px 15px 15px;
+    background: $color_sidebar_bg;
+    margin-bottom: 12px;
 
+    ul {
+        margin: 3px 0 0 0;
+        padding: 0;
+        
         li {
             list-style-type: none;
-            width: 100px;
-            margin-right: 1px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-
+            padding: 0;
             a {
-                font-family: $font_sidebar_label;
-                font-size: $font_size_sidebar_label;
-                font-weight: normal;
-                color: $color_primary;
-
-                text-transform: uppercase;
-
-                padding-left: 0px;
-                border-bottom: none;
-
-                span.arrow {
-                    color: $color_sidebar_bg;
-                    padding-right: 6px;
-                    padding-bottom: 2px;
+                @include button;
+                @include left_button;
+                background-color: transparent;
+                &:hover {
+                    background-color: $color_button_hover_bg;
                 }
-
-                &.active, &.active span.arrow {
-                    color: $color_primary;
-                }
-
-                &:hover, &:hover span.arrow {
-                    color: $color_text;
-                }
+                display: block;
             }
         }
     }
@@ -590,6 +561,24 @@ section.page_column_main {
         @include max-screen(720px) {
             font-size: $font_size_default + 3;
             line-height: $font_size_default + 8;
+        }
+    }
+    
+    div.social_media_links {
+        ul {
+            padding: 0;
+            
+            li {
+                text-align: center;
+                // Display list items horizontally
+                display: inline;
+                list-style-type: none;
+                padding: 0;
+                margin-right: 5px;
+                a {
+                    @include button;
+                }
+            }
         }
     }
 }
@@ -1257,60 +1246,4 @@ footer {
 
 .padding_left_none {
     padding-left: 0px !important;
-}
-
-a.nav_button {
-    font-family: $font_socmed;
-    font-size: $font_size_socmed;
-    font-weight: normal;
-
-    text-align: center;
-    white-space: nowrap;
-    
-    color: $color_socmed_text;
-    background-color: $color_primary;
-    
-    padding: 2px 8px 4px 8px;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    //-webkit-user-select: none;
-    
-    cursor: pointer;
-    background-image: none;
-    
-    &:hover {
-        &.socmed_button {
-        background-color: black;
-        }
-    }
-}
-
-a.socmed_button {
-    font-family: $font_socmed;
-    font-size: $font_size_socmed;
-    font-weight: normal;
-
-    text-align: center;
-    white-space: nowrap;
-    
-    color: $color_socmed_text;
-    background-color: $color_primary;
-    
-    padding: 2px 8px 3px 8px;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    //-webkit-user-select: none;
-    
-    cursor: pointer;
-    background-image: none;
-    
-    &:hover {
-        &.socmed_button {
-        background-color: black;
-        }
-    }
-}
-
-.socmed_twitter:before {
-    content: "\f099";
 }

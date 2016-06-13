@@ -12,29 +12,8 @@
     
     {% include socmed_links.html %}
     
-    <nav class="left">
-        {% for nav_item in site.data.nav %}
-            <a href="{{ nav_item.link }}" {% if page.url == nav_item.link %} class="active" {% endif %} class="nav_button">
-                {{ nav_item.name }}
-            </a>&nbsp;
-        {% endfor %}
-        <!--
-        <a href="">Home</a>&nbsp;
-        <a href="">News</a>&nbsp;
-        <a href="">Links</a>
-        -->
-        
-        <!-- NOTE: -->
-        <!-- For two-line items, wrap the second line between <span></span> -->
-        <!-- Adjust the width padding in #header nav li a -->
-        <!-- Class 'active' highlights the entire box -->
-        <!-- {% for p in site.pages_list %} -->
-            <!-- {% if page.group == p[0] %} --> 
-            <!-- <li><a href="{{ site.baseurl }}{{ p[1]  }}" class="active">{{ p[0] }}</a></li> -->
-            <!-- {% else %} -->
-            <!-- <li><a href="{{ site.baseurl }}{{ p[1]  }}">{{ p[0] }}</a></li> -->
-            <!-- {% endif %} -->
-        <!-- {% endfor %} -->
+    <nav id="nav_top">
+        {% include common_menu.html %}
 	</nav>
     
     <!-- Hide -->
