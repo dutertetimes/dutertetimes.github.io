@@ -30,6 +30,7 @@ $font_size_title_tagline:   14px;
 // Default
 $font_default:              $font_serif_thin;
 $font_size_default:         14px;
+$font_line_height_default:  17px;
 $font_default_thin:         $font_sans_thin;
 $font_size_default_thin:    12px;
 $font_heading:              $font_serif_thin;
@@ -68,12 +69,23 @@ $font_announcement_date:        $font_label;
 $font_size_announcement_date:   $font_size_label - 2;
 $font_announcement_text:        $font_serif_thin;
 
+// Page
+$font_page_title:               $font_heading;
+$font_size_page_title:          $font_size_heading;
+$font_line_height_page_title:   $font_size_heading;
+$font_page_text:                $font_default;
+$font_size_page_text:           $font_size_default + 3;
+$font_line_height_page_text:    $font_line_height_default + 3;
+$font_page_meta:                $font_page_text;
+$font_size_page_meta:           $font_size_default - 1;
+$font_line_height_page_meta:     $font_size_default + 1;
+
 // News Hub
 $font_news_hub_title:               $font_serif_thin;
 $font_news_hub_date:                $font_serif_thin;
-$font_size_news_hub_latest_title:   20px;
+$font_size_news_hub_latest_title:   $font_size_heading - 4;
 $font_size_news_hub_latest_date:    12px;
-$font_size_news_hub_next_title:     15px;
+$font_size_news_hub_next_title:     $font_size_heading - 8;
 $font_size_news_hub_next_date:      12px;
 $font_news_hub_excerpt:             $font_serif_thin;
 $font_size_news_hub_excerpt:        14px;
