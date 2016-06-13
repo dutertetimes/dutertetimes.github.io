@@ -520,6 +520,8 @@ section.column_left_sidebar {
    
     @include sidebar_component;
     background: $color_sidebar_bg;
+    // Less vertical space
+    padding-bottom: 8px;
     margin-bottom: 12px;
     
     table {
