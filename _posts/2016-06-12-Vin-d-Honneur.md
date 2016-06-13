@@ -1,19 +1,18 @@
 ---
 title: "Vin d’Honneur"
-excerpt: What does it mean?
 date: June 12, 2016 11:26:03 PM
+excerpt: What does it mean?
 layout: post
-group: Posts
-categories: [Blog]
+categories: [post]
 tags: [independence day, "vin d'honneur"]
 ---
 
-The term "Vin d’Honneur" means “wine of honor".
-The French practice traditionally takes place at the end of inaugurations, speeches, and ceremonies that marks the social life of French provinces.
-The tradition of celebration was adopted by the United States of America from the British tradition of holding a New Year's Day Levee.
-During the American Colonial Period, it was adopted in the Philippines and always took place on the first of January.
-The annual New Year's reception was quite the social event for high government officials, former presidential families, members of Congress, Judiciary, the Diplomatic Corps, business and social circles.
-The event is later known as the "Vin d’Honneur" from the administration of late president Corazon C. Aquino.
+The British New Year's Day Levee was adopted by the Americans and later by the Philippines.
+The annual event, simply called New Year's reception, has become a social event for high government officials, former presidential families, members of Congress, Judiciary, the Diplomatic Corps, business and social circles.
+After the administration of Presidents Quezon and Roxas, the receptions were no longer confined to the first day of January.
+After the EDSA revolution, the event was continued but came to be known as a Vin d'Honneur.
+The French term "Vin d’Honneur" means “wine of honor" and traditionally takes place after inaugurations, speeches, and ceremonies.
+The event is now being held twice a year, during the New Year and during the celebration of the Philippine Independence Day.
 Over the years, it has come to be considered primarily a diplomatic event highlighted by a toast between the President and the Papal Nuncio.
 &#x25cf;&nbsp;[Source](http://www.gov.ph/2013/01/10/briefer-on-the-new-year-vin-dhonneur-2013/)
 
