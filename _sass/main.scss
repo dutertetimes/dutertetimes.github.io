@@ -397,7 +397,7 @@ section.column_left_sidebar {
         background: $color_sidebar_bg;
 
         h1 {
-            color: $color_label;
+            color: $color_sidebar_label;
         }
 
         div.newsbits {
@@ -1024,17 +1024,18 @@ section.column_right_sidebar {
         padding-left: 20px;
 
         li {
-            font-family: $font_default_thin;
-            font-size: $font_size_default_thin;
+            font-family: $font_sidebar;
+            font-size: $font_size_sidebar;
             padding: 0 0 0 0px;
-            line-height: $font_size_default_thin + 4;
+            line-height: $font_size_sidebar + 4;
             a {
-                font-family: $font_default_thin;
-                font-size: $font_size_default_thin;
-                color: $color_text_dark;
+                font-family: $font_sidebar;
+                font-size: $font_size_sidebar;
+                color: $color_sidebar_text;
                 border-bottom: none;
                 &:hover {
                     color: $color_primary;
+                    
                 }
             }
         }
@@ -1058,7 +1059,7 @@ section.column_right_sidebar {
         background: $color_sidebar_bg;
 
         h1 {
-            color: $color_label;
+            color: $color_sidebar_label;
         }
 
         div.news_items {
@@ -1092,7 +1093,38 @@ section.column_right_sidebar {
             padding: 0;
             margin-top: 0;
             list-style-type: none;
+            
+            li {
+                h2 {
+                    line-height: $font_size_related_post_title;
+                }
+                h2, p {
+                    margin: 0px 0 2px 0;
+                }
+                h2 a {
+                    font-family: $font_related_post_title;
+                    font-size: $font_size_related_post_title;
+                }
+                p {
+                    &.date {
+                        font-family: $font_related_post_date;
+                        font-size: $font_size_related_post_date;
+                        text-transform: uppercase;
+                    }
+                    &.excerpt {
+                        font-family: $font_related_post_excerpt;
+                        font-size: $font_size_related_post_excerpt;
+                        font-style: italic;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
         }
+    }
+    
+    #recent_posts {
+        // Add vertical space after the related posts block
+        margin-top: 20px;
     }
     
     #twitter_feed {
