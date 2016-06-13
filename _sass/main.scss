@@ -1250,7 +1250,7 @@ footer {
 
         #footer_column_one,
         #footer_column_four {
-            width: 260px;
+            width: 240px;
         }
 
         #footer_column_two,
@@ -1258,7 +1258,7 @@ footer {
             width: 300px;
         }
 
-        .license {
+        div.license {
             p, p a {
                 font-size: $font_size_license;
             }
@@ -1269,8 +1269,19 @@ footer {
             p {
                 padding: 0px;
                 word-wrap: normal;
+                & img {
+                    margin-bottom: 5px;
+                }
+            }
+            span.plain_color a {
+                color: $color_footer_text !important;
+            }
+            span.highlight_cc {
+                font-weight: bold;
             }
         }
+        
+        
 
         #footer_column_four {
             float: right;
@@ -1305,6 +1316,8 @@ footer {
         padding-right: 30px;
     }
 }
+
+
 
 .list_style_none {
     list-style-type: none;
