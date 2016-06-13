@@ -12,17 +12,58 @@
                 {% else %}
                     <p class="date">{{ post.date | date: "%A, %B %d, %Y" }}</p>
                 {% endif %}
-                {% if post.excerpt != nil %}
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                {% endif %}
             </div>
+            {% if post.excerpt != nil %}
+                <p class="excerpt">{{ post.excerpt }}</p>
+            {% endif %}
             {% assign found = true %}
             {% break %}
         {% endif %}
     {% endfor %}
     {% if found == false %}
-        <h1>Images Contributions</h1>
-        <p class="date">{{ nowdate | date: "%A, %B %d, %Y" }}</p>
-        <p class="excerpt">If anyone wants to contribute images that could be used for the news articles please contact me via email dutertetimes@protonmail.com.</p>
+        <!--
+        <div class="announcement_heading">
+            <h1>Image Contributions</h1>
+            <p class="date">{{ nowdate | date: "%A, %B %d, %Y" }}</p>
+        </div>
+        <p class="excerpt">If anyone wants to contribute images that could be used for the news articles please email me via <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+        -->
+        <!-- Random announcement -->
+        <script type="text/javascript">
+            var announce_title = [{% for announce in site.data.announcement %}"{{ announce.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+            var announce_text =  [{% for announce in site.data.announcement %}"{{ announce.text }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+            
+            var total = announce_title.length;
+            var count = 1;
+            
+            if (total == 1) {
+                document.write("<div class='announcement_heading'>");
+                document.write("<h1>" + announce_title[0] + "</h1>");
+                document.write("<p class='excerpt'>" + announce_text[0] + "</p>");
+                document.write("</div>");
+            } else {
+                // Keep used random number here so we could check which
+                // numbers where already used and not use them again.
+                var randomUsed = [];
+                var counter = 0;
+
+                if (total > 0) {
+                    while (counter < count) {
+                        var randomIndex = Math.floor(Math.random() * total);
+                        if (randomUsed.indexOf(randomIndex) == "-1") {
+                        
+                            document.write("<div class='announcement_heading'>");
+                            document.write("<h1>" + announce_title[randomIndex] + "</h1>");
+                            document.write("</div>");
+                            document.write("<p class='excerpt'>" + announce_text[randomIndex] + "</p>");
+                            
+                            // Store the new random number
+                            randomUsed.push(randomIndex);
+                            counter++;
+                        }
+                    }
+                }
+            }
+        </script>
     {% endif %}
 </div>
