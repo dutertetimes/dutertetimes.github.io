@@ -14,18 +14,9 @@ This is a personal site with no affiliation with other news sources in the Phili
 The site aims to provide Filipino online citizens an alternative source of news and information.
 
 <br/>
-<br/>
 
 <div class="social_media_links">
 {% include socmed_links.html %}
 </div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>

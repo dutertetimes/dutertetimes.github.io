@@ -6,7 +6,11 @@ $color_yellow:                  #FCD116;
 $color_primary:                 $color_red;
 $color_secondary:               $color_primary - 30;
 
-$color_bg:                      #ffffff;
+// Background is the color of the footer background.
+// This avoids the footer from showing a different
+// color if the content of the page is shorter.
+$color_bg:                      #cdcccc;
+$color_main_bg:                 #ffffff;
 
 // Text
 $color_text:                    #333333;
@@ -91,7 +95,7 @@ $color_quote_author:            black; //$color_red - 50;
 // Footer
 $color_footer_text:             black;
 $color_footer_link:             $color_link;
-$color_footer_bg:               #cdcccc;
+$color_footer_bg:               $color_bg;
 $color_footer_border_top:       $color_primary;
 
 // Button links

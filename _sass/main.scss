@@ -317,7 +317,10 @@ header {
 
 
 main {
-    margin-top: 15px;
+    width: 100%;
+    padding-top: 15px;
+    float: left;
+    background: $color_main_bg;
 }
 
 
