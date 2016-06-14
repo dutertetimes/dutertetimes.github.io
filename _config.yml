@@ -65,7 +65,7 @@ sass:
 # Setup
 title:          "Duterte Times"
 tagline:        ""
-description:    "Alternative Philippine online news. (CC BY-SA)"
+description:    "Alternative Philippine online news."
 
 author:
   name:         'dutertetimes'
