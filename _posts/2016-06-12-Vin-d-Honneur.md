@@ -4,7 +4,7 @@ date: June 12, 2016 11:26:03 PM
 excerpt: What does it mean?
 layout: post
 categories: [post]
-tags: [independence day, "vin d'honneur"]
+tags: [independence day, vin d honneur]
 ---
 
 The British New Year's Day Levee was adopted by the Americans and later by the Philippines.

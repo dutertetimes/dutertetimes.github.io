@@ -4,7 +4,7 @@ date: 2016-06-12 10:07:10 PM
 excerpt: Message of President Benigno Aquino III during the 118th Philppine Independence Day Vin D’Honneur at Rizal Hall, Malacañan Palace, Philippines.
 layout: post
 categories: [post]
-tags: [independence day, aquino, pnoy]
+tags: [independence day, vin d honneur, aquino, pnoy]
 ---
 
 [Watch the 118th Philippine Independence Day Vin D’Honneur](https://www.youtube.com/watch?v=ekiXQM5D-s4) led by President Benigno S. Aquino III.
