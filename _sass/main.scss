@@ -497,6 +497,9 @@ section.column_left_sidebar {
     p {
         font-family: $font_quote;
         font-size: $font_size_quote;
+        @include max-screen(720px) {
+            font-size: $font_size_quote + 1;
+        }
         font-style: normal;
         line-height: $font_line_height_quote;
         letter-spacing: 0.25px;
