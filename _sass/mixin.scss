@@ -39,6 +39,7 @@
 
     padding: 4px 10px 5px 10px;
     border-radius: 4px;
+    border-bottom: 1px solid $color_link_underline;
     
     
     cursor: pointer;
@@ -52,7 +53,6 @@
 @mixin top_button {
     padding: 4px 10px 3px 10px;
     border-radius: 4px 4px 0 0;
-    border: 1 solid $color_button_bg;
 }
 
 @mixin left_button {

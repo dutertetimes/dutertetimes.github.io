@@ -21,8 +21,8 @@ $color_text_lighter:            $color_text + 50;
 $color_text_highlight:          $color_text_darker;
 
 // Link
-$color_link:			        #FFB90F;
-$color_link_underline:	        $color_link - 100;
+$color_link:			        $color_primary;
+$color_link_underline:	        $color_primary;
 
 // Heading
 $color_heading_text:            black;

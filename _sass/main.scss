@@ -32,7 +32,7 @@ a {
     text-decoration: none;
     &:hover {
         color: $color_primary;
-        border-bottom: 1px dotted $color_primary;
+        border-bottom: 1px dotted $color_link_underline;
     }
 }
 
