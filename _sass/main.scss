@@ -233,6 +233,9 @@ header {
                 height: 40px;
                 float: left;
                 margin: 10px 15px 0 15px;
+                @include min-screen(721px) {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+                }
             }
             h1 {
                 float: left;
@@ -412,8 +415,6 @@ section.column_left_sidebar {
     div.links {
         @include sidebar_component;
     }
-
-
 }
 
 #nav_left {
@@ -496,7 +497,7 @@ section.column_left_sidebar {
     background: $color_sidebar_bg;
     // Less vertical space
     padding-bottom: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     
     table {
         margin: 0px;
@@ -538,6 +539,7 @@ section.column_left_sidebar {
 #newsbits_roll {
     @include sidebar_component_scroll;
     background: $color_sidebar_bg;
+    margin-bottom: 15px;
 
     h1 {
         color: $color_sidebar_label;
