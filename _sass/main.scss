@@ -646,7 +646,6 @@ section.page_column_main {
 /* Hub main column                                                           */
 /* ------------------------------------------------------------------------- */
 
-
 section.hub_column_main {
     div#news_top {
         h1, h2, h3, h4, h5, h6 {
@@ -693,7 +692,7 @@ section.hub_column_main {
                 margin-bottom: 7px;
                 a {
                     font-size: $font_size_news_hub_latest_title;
-                    line-height: $font_size_news_hub_latest_title + 2;
+                    line-height: $font_size_news_hub_latest_title + 4;
                 }
             }
             p.date {
@@ -703,7 +702,7 @@ section.hub_column_main {
         div.news_next {
             h2 a {
                 font-size: $font_size_news_hub_next_title;
-                line-height: $font_size_news_hub_next_title + 2;
+                line-height: $font_size_news_hub_next_title + 4;
             }
             p.date {
                 font-size: $font_size_news_hub_next_date;
