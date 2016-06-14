@@ -50,7 +50,7 @@ baseurl: ""
 relative_permalinks: false
 
 # Outputting
-permalink:     date
+permalink:     none
 paginate_path: /page:num
 timezone:      null
 
