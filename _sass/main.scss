@@ -218,7 +218,9 @@ header {
     z-index: 1000;
     background: $color_header_bg;
     border-bottom: 5px solid $color_header_border_bottom;
-    position: fixed;
+    @include min-screen(721px) {
+        position: fixed;
+    }
 
     #site_header {
     
@@ -328,10 +330,10 @@ main {
     float: left;
     background: $color_main_bg;
     
-    display: block;
-
-    float: clear;
-    padding-top: 120px;
+    @include min-screen(721px) {
+        float: clear;
+        padding-top: 120px;
+    }
 }
 
 
