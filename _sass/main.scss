@@ -441,9 +441,13 @@ section.column_left_sidebar {
 }
 
 #announcement {
+    @include max-screen(720px) {
+        margin-top: 15px;
+    }
     margin-bottom: 20px;
+
     div.announcement_heading {
-        
+
         img.label {
             margin-right: 5px;
             vertical-align: bottom;
@@ -456,7 +460,7 @@ section.column_left_sidebar {
             font-weight: normal;
             color: $color_announcement_title;
             vertical-align: top;
-            padding: 0 0 2px 0;
+            padding: 0 0 0px 0;
         }
     }
 
@@ -466,6 +470,9 @@ section.column_left_sidebar {
         line-height: $font_size_sidebar + 2;
         text-align: left;
         color: $color_announcement_text;
+        
+        margin-top: 15px;
+        margin-bottom: 15px;
         
         &.date {
                 font-family: $font_announcement_date;
