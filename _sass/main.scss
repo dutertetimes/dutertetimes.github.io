@@ -789,13 +789,16 @@ section.post_column_main {
         }
         @include max-screen(720px) {
             font-size: $font_size_page_text;
-            line-height: $font_line_height_page_text;
+            line-height: $font_line_height_page_text + 3;
         }
         text-align: left;
         
         & a {
             font-size: $font_size_page_text;
             line-height: $font_line_height_page_text;
+            @include max-screen(720px) {
+                line-height: $font_line_height_page_text + 3;
+            }
         }
         
         & code {
