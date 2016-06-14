@@ -406,47 +406,7 @@ section.column_left_sidebar {
         @include sidebar_component;
     }
 
-    div.newsbits_roll {
-        @include sidebar_component_scroll;
-        background: $color_sidebar_bg;
 
-        h1 {
-            color: $color_sidebar_label;
-        }
-
-        div.newsbits {
-            margin-bottom: 0px;
-            @include min-screen(721px) {
-                height: 500px;
-                overflow-y: scroll;
-            }
-            @include max-screen(720px) {
-                padding-right: 15px;
-            }
-            overflow-x: hidden;
-            background: $color_sidebar_bg;
-
-            div.newsbit {
-                h2 {
-                    font-family: $font_news_title;
-                    font-size: $font_size_news_title;
-                    font-weight: bold;
-                }
-                p {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
-                    margin-top: 2px;
-                    padding: 0;
-                    &.date {
-                        color: $color_news_bit_date;
-                        margin-top: 0px;
-                        margin-bottom: 0px;
-                        padding: 0;
-                    }
-                }
-            }
-        }
-    }
 }
 
 #nav_left {
@@ -556,7 +516,48 @@ section.column_left_sidebar {
             font-weight: normal;
         }
     }
+}
 
+#newsbits_roll {
+    @include sidebar_component_scroll;
+    background: $color_sidebar_bg;
+
+    h1 {
+        color: $color_sidebar_label;
+    }
+
+    div.newsbits {
+        margin-bottom: 0px;
+        @include min-screen(721px) {
+            height: 500px;
+            overflow-y: scroll;
+        }
+        @include max-screen(720px) {
+            padding-right: 15px;
+        }
+        overflow-x: hidden;
+        background: $color_sidebar_bg;
+
+        div.newsbit {
+            h2 {
+                font-family: $font_news_title;
+                font-size: $font_size_news_title;
+                font-weight: bold;
+            }
+            p {
+                font-family: $font_news_text;
+                font-size: $font_size_news_text;
+                margin-top: 2px;
+                padding: 0;
+                &.date {
+                    color: $color_news_bit_date;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding: 0;
+                }
+            }
+        }
+    }
 }
 
 
