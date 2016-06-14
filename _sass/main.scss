@@ -558,6 +558,9 @@ section.column_left_sidebar {
                 font-family: $font_news_text;
                 font-size: $font_size_news_text;
                 margin-top: 2px;
+                @include max-screen(720px) {
+                    margin-top: 5px;
+                }
                 padding: 0;
                 &.date {
                     color: $color_news_bit_date;
