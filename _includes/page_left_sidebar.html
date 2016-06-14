@@ -7,15 +7,20 @@
     
     {% include quotes.html %}
     
-    <div class="newsbits_roll">
+    <div id="newsbits_roll">
         <h1>News Bits</h1>
         <div class="newsbits">
             {% for post in site.categories['newsbit'] limit: 10 %}
-                {% if post.publish %}
+                {% assign newsbit_content = post.content | strip_newlines | remove: '<p>' | remove: '</p>'%}
+                {% if post.publish and newsbit_content != "" %}
                 <div class="newsbit">
-                    <!-- <p class="date">{{ post.date | date: "%F %r" }}</p> -->
-                    <p class="date">{{ post.date | date: "%F" }}</p>
-                    <p>{{ post.content | | remove: '<p>' | remove: '</p>'}}</p>
+                    <p class="date">{{ post.date | date: "%F %r %Z" }}</p>
+                    <p>
+                        {{ newsbit_content }}
+                        {% if post.reference != nil %}
+                             &#x25cf; {{ post.reference }}
+                        {% endif %}
+                    </p>
                 </div>
                 {% endif %}
             {% endfor %}
