@@ -30,7 +30,7 @@
 @mixin button {
     font-family: $font_button;
     font-size: $font_size_button;
-    font-weight: normal;
+    font-weight: bold;
 
     white-space: nowrap;
     
@@ -56,6 +56,7 @@
 }
 
 @mixin left_button {
+    font-weight: normal;
     color: $color_text;
     padding: 4px 10px 6px 10px;
     border-radius: 0px;
