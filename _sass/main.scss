@@ -820,7 +820,7 @@ section.post_column_main {
             font-style: italic;
             line-height: $font_line_height_page_meta;
             @include max-screen(720px) {
-                line-height: $font_line_height_page_meta + 1;
+                line-height: $font_line_height_page_meta + 2;
             }
             color: $color_text;
             margin: 0;
