@@ -681,7 +681,7 @@ section.hub_column_main {
                 font-family: $font_news_hub_excerpt;
                 font-size: $font_size_news_hub_excerpt;
                 font-style: italic;
-                line-height: $font_size_news_hub_excerpt + 2;
+                line-height: $font_size_news_hub_excerpt + 4;
                 color: $color_news_hub_excerpt;
                 margin-bottom: 10px;
             }
@@ -702,7 +702,7 @@ section.hub_column_main {
         div.news_next {
             h2 a {
                 font-size: $font_size_news_hub_next_title;
-                line-height: $font_size_news_hub_next_title + 4;
+                line-height: $font_size_news_hub_next_title + 6;
             }
             p.date {
                 font-size: $font_size_news_hub_next_date;
