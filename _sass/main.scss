@@ -252,6 +252,9 @@ header {
                     &:hover {
                         border: none;
                     }
+                    @include max-screen(720px) {
+                        font-size: $font_size_title - 1;
+                    }
                 }
                 
             }
