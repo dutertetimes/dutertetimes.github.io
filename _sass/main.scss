@@ -1056,21 +1056,41 @@ section.post_column_main {
         }
 
     }
-
-    img.tagsymbol {
-        //font-size: $font_size_default + 4;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-    }
     
-    .tag {
-        font-size: $font_size_default - 1;
-        background: $color_tag_bg;
-        padding: 2px 8px 4px 8px;
-        border-radius: 1px;
-        margin-right: 3px;
+    table.tags {
+        border: none;
+        padding: 0;
+        tr {
+            border: none;
+            padding: 0;
+            td {
+                border: none;
+                padding: 0;
+                vertical-align: top;
+                
+                img.tagsymbol {
+                    width: 16px;
+                    height: 16px;
+                    vertical-align: middle;
+                    padding-top: 5px;
+                    padding-right: 10px;
+                }
+                
+                span.tag {
+                    font-size: $font_size_default - 1;
+                    line-height: $font_size_default + 10;
+                    background: $color_tag_bg;
+                    padding: 2px 8px 4px 8px;
+                    border-radius: 2px;
+                    margin-right: 5px;
+                }
+            }
+        }
     }
+
+    
+    
+
 }
 
 

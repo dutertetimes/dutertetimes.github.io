@@ -3,10 +3,17 @@
 <hr class="thin">
 <div class="padding_bottom_25">
     <p>
-        <img src="/images/tag.png" height="42" width="42" class="tagsymbol"/>
-        {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-        {% endfor %}
+        <table class="tags">
+            <tr>
+                <td><img src="/images/tag.png" height="42" width="42" class="tagsymbol"/></td>
+                <td>
+                    {% for tag in page.tags %}
+                        <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </td>
+            </tr>
+        </table>
+        
     </p>
     <br/>
 
