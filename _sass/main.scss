@@ -212,61 +212,61 @@ div.footnotes {
 header {
 
     width: 100%;
+    height: 95px;
     padding-top: 5px;
     margin: 0;
-    z-index: 100;
+    z-index: 1000;
     background: $color_header_bg;
     border-bottom: 5px solid $color_header_border_bottom;
-    
-    @include min-screen(721px) {
-        height: 100px;
-        #site_header {
-            float: left;
-        }
-    }
-    
-    @include max-screen(720px) {
-        height: 90px;
-    }
-    
+    position: fixed;
+
     #site_header {
+    
         width: 100%;
-        h1 {
-            margin: 5px 0 0 15px;
-            a {
-                font-family: $font_title;
-                font-size: $font_size_title;
-                font-weight: $font_weight_title;
-                text-align: left;
-                line-height: $font_size_title;
-                color: $color_header_title;
-                border: none;
-                &:hover {
-                    border: none;
-                }
-                @include max-screen(720px) {
-                    font-size: $font_size_title - 10;
-                    line-height: $font_size_title - 10;
-                }
+        float: left;
+        
+        #site_title {
+            width: 300px;
+            height: 50px;
+            img {
+                width: 40px;
+                height: 40px;
+                float: left;
+                margin: 10px 15px 0 15px;
             }
-            
-        }
+            h1 {
+                float: left;
+                display: block;
+                margin: 7px 0 0 0px;
+                a {
+                    font-family: $font_title;
+                    font-size: $font_size_title;
+                    font-weight: $font_weight_title;
+                    text-align: left;
+                    line-height: $font_size_title;
+                    color: $color_header_title;
+                    border: none;
+                    &:hover {
+                        border: none;
+                    }
+                }
+                
+            }
 
-        p {
-            font-family: $font_title_tagline;
-            font-weight: normal;
-            font-size: $font_size_title_tagline;
-            letter-spacing: 0px;
-            text-align: left;
-            line-height: $font_size_title_tagline + 1;
-            color: $color_header_title_tag;
+            p {
+                float: left;
+                font-family: $font_title_tagline;
+                font-weight: normal;
+                font-size: $font_size_title_tagline;
+                letter-spacing: 0px;
+                text-align: left;
+                line-height: $font_size_title_tagline + 1;
+                color: $color_header_title_tag;
 
-            margin: 0;
-            // If the title changes, the top padding may need to be adjusted
-            padding: 7px 0 10px 15px;
-            // When viewed in small media, the text is displayed too close to the
-            // vertical scrollbar so we add some padding on the right
-            //padding-right: 15px;
+                margin: 0;
+                // If the title changes, the top padding may need to be adjusted
+                padding: 4px 0 10px 0px;
+            }
         }
     }
     
@@ -321,6 +321,11 @@ main {
     padding-top: 15px;
     float: left;
     background: $color_main_bg;
+    
+    display: block;
+
+    float: clear;
+    padding-top: 120px;
 }
 
 
@@ -539,7 +544,7 @@ section.column_left_sidebar {
     div.newsbits {
         margin-bottom: 0px;
         @include min-screen(721px) {
-            height: 500px;
+            height: 300px;
             overflow-y: scroll;
         }
         @include max-screen(720px) {
@@ -681,6 +686,7 @@ section.hub_column_main {
                 margin-bottom: 7px;
                 a {
                     font-size: $font_size_news_hub_latest_title;
+                    line-height: $font_size_news_hub_latest_title + 2;
                 }
             }
             p.date {
@@ -690,6 +696,7 @@ section.hub_column_main {
         div.news_next {
             h2 a {
                 font-size: $font_size_news_hub_next_title;
+                line-height: $font_size_news_hub_next_title + 2;
             }
             p.date {
                 font-size: $font_size_news_hub_next_date;
