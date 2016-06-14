@@ -475,10 +475,10 @@ section.column_left_sidebar {
         margin-bottom: 15px;
         
         &.date {
-                font-family: $font_announcement_date;
-                font-size: $font_size_announcement_date;
-                color: $color_announcement_date;
-                margin: 0;
+            font-family: $font_announcement_date;
+            font-size: $font_size_announcement_date;
+            color: $color_announcement_date;
+            margin: 0;
         }
     }
 }
