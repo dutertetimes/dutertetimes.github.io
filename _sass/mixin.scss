@@ -7,8 +7,11 @@
 
 @mixin sidebar_component_label {
     font-family: $font_label;
-    font-weight: normal;
     font-size: $font_size_label;
+    @include max-screen(720px) {
+        font-size: $font_size_label + 1;
+    }
+    font-weight: normal;
     color: $color_secondary;
     text-transform: uppercase;
     margin: 0;
