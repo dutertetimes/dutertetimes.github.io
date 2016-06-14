@@ -30,6 +30,9 @@
 @mixin button {
     font-family: $font_button;
     font-size: $font_size_button;
+    @include max-screen(720px) {
+        font-size: $font_size_button + 1;
+    }
     font-weight: bold;
 
     white-space: nowrap;
