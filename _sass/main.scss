@@ -723,6 +723,22 @@ section.post_column_main {
     h4 code { font-size: $font_size_page_title - 8; }
     h5 code { font-size: $font_size_page_title - 10; }
     h6 code { font-size: $font_size_page_title - 11; }
+    
+    @include max-screen(720px) {
+        h1 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title;     }
+        h2 { font-size: $font_size_page_title - 5; line-height: $font_line_height_page_title - 2; }
+        h3 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
+        h4 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
+        h5 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
+        h6 { font-size: $font_size_page_title - 9; line-height: $font_line_height_page_title - 2; }
+        
+        h1 code { font-size: $font_size_page_title - 4; }
+        h2 code { font-size: $font_size_page_title - 5; }
+        h3 code { font-size: $font_size_page_title - 6; }
+        h4 code { font-size: $font_size_page_title - 7; }
+        h5 code { font-size: $font_size_page_title - 8; }
+        h6 code { font-size: $font_size_page_title - 9; }
+    }
 
     h1, h2, h3, h4, h5, h6 {
         font-family: $font_page_title;
