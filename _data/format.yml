@@ -1,0 +1,3 @@
+long:      "%a %b %d, %Y %I:%M %p %Z"
+same_year: "%a %b %d %I:%M %p %Z"
+same_day:  "%I:%M %p %Z"
