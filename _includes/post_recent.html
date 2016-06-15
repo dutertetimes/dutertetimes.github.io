@@ -1,6 +1,8 @@
 <div id="recent_posts">
     <h1>Recent Posts</h1>
     <ul>
+        {% capture nowdate  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+        {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
         {% for post in site.categories['post'] limit:5 %}
             {% if post.title != page.title %}
                 <li>
@@ -8,7 +10,15 @@
                     {% if post.date == nil %}
                         <p class="date">Undated</p>
                     {% else %}
-                        <p class="date">{{ post.date | date: "%F %r %Z" }}</p>
+                        <p class="date">
+                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if postdate == nowdate %}
+                                {{ post.date | date: site.data.format.same_day }}
+                            {% elsif postyear == nowyear %}
+                                {{ post.date | date: site.data.format.same_year }}
+                            {% endif %}
+                        </p>
                     {% endif %}
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </li>

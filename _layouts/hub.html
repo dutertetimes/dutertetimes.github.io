@@ -10,6 +10,8 @@ layout: default
     
     <div id="news_top">
     {% assign counter = 0 %}
+    {% capture nowdate  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+    {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
     {% for post in site.categories['post'] limit:5 %}
         {% if counter == 0 %}
             <div class="news_latest">
@@ -17,7 +19,15 @@ layout: default
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}
-                    <p class="date">{{ post.date | date: "%F %r %Z" }}</p>
+                    <p class="date">
+                        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if postdate == nowdate %}
+                            {{ post.date | date: site.data.format.same_day }}
+                        {% elsif postyear == nowyear %}
+                            {{ post.date | date: site.data.format.same_year }}
+                        {% endif %}
+                    </p>
                 {% endif %}
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>
@@ -28,7 +38,15 @@ layout: default
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}
-                    <p class="date">{{ post.date | date: "%F %r %Z" }}</p>
+                    <p class="date">
+                        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if postdate == nowdate %}
+                            {{ post.date | date: site.data.format.same_day }}
+                        {% elsif postyear == nowyear %}
+                            {{ post.date | date: site.data.format.same_year }}
+                        {% endif %}
+                    </p>
                 {% endif %}
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>

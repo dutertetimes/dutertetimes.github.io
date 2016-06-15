@@ -10,11 +10,21 @@
     <div id="newsbits_roll">
         <h1>News Bits</h1>
         <div class="newsbits">
+            {% capture nowdate  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+            {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
             {% for post in site.categories['newsbit'] limit: 10 %}
                 {% assign newsbit_content = post.content | strip_newlines | remove: '<p>' | remove: '</p>'%}
                 {% if post.publish and newsbit_content != "" %}
                 <div class="newsbit">
-                    <p class="date">{{ post.date | date: "%F %r %Z" }}</p>
+                    <p class="date">
+                        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if postdate == nowdate %}
+                            {{ post.date | date: site.data.format.same_day }}
+                        {% elsif postyear == nowyear %}
+                            {{ post.date | date: site.data.format.same_year }}
+                        {% endif %}
+                    </p>
                     <p>
                         {{ newsbit_content }}
                         {% if post.reference != nil %}
