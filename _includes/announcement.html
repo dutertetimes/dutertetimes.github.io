@@ -1,16 +1,24 @@
 <div id="announcement">
-    {% capture nowdate %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+    {% capture nowday %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+    {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
     {% assign found = false %}
     {% for post in site.categories['announce'] limit:1 %}
         {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-        {% if postdate == nowdate %}
+        {% if postdate == nowday %}
             <div class="announcement_heading">
                 <img src="{{ post.image }}" class="label"/>
                 <h1>{{ post.title }}</h1>
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}
-                    <p class="date">{{ post.date | date: "%A, %B %d, %Y" }}</p>
+                    <p class="date">
+                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if postdate == nowday %}
+                            {{ post.date | date: site.data.format.same_day }}
+                        {% elsif postyear == nowyear %}
+                            {{ post.date | date: site.data.format.same_year }}
+                        {% endif %}
+                    </p>
                 {% endif %}
             </div>
             {% if post.excerpt != nil %}
