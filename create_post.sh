@@ -3,9 +3,13 @@
 # Create a post file at current directory
 # File format: YYYY-MM-DD-hhmmss.md
 
+current_time=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
+filename=$current_time.md
+
+
 function show_usage {
     echo "create_post"
-    echo "  Create file in current directory in 'YYYY-MM-DD-YYYYMMDDhhmmss.md' format."
+    echo "  Create file in current directory in 'YYYY-MM-DD-YYYYMMDDhhmmssUTC.md' format."
     echo "Usage: create_post [option]"
     echo ""
     echo "Options:"
@@ -16,9 +20,6 @@ function show_usage {
 }
 
 function create_post {
-    current_time=$(date +"%Y-%m-%d-%Y%m%d%H%M%S")
-    filename=$current_time.md
-
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
     else
@@ -26,7 +27,7 @@ function create_post {
 
         echo "---" >> $filename
         echo "title: " >> $filename
-        echo "date: $(date +'%B %d, %Y %I:%M:%S %p')" >> $filename
+        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
         echo "category: post" >> $filename
         echo "publish: true" >> $filename
         echo --- >> $filename
@@ -36,9 +37,6 @@ function create_post {
 }
 
 function create_newsbit {
-    current_time=$(date +"%Y-%m-%d-%Y%m%d%H%M%S")
-    filename=$current_time.md
-    
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
     else
@@ -46,7 +44,7 @@ function create_newsbit {
 
         echo "---" >> $filename
         echo "title: News Bit" >> $filename
-        echo "date: $(date +'%B %d, %Y %I:%M:%S %p')" >> $filename
+        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
         echo "category: newsbit" >> $filename
         echo "publish: true" >> $filename
         echo "reference: " >> $filename
@@ -57,9 +55,6 @@ function create_newsbit {
 }
 
 function create_announcement {
-    current_time=$(date +"%Y-%m-%d-%Y%m%d%H%M%S")
-    filename=$current_time.md
-
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
     else
@@ -67,9 +62,10 @@ function create_announcement {
 
         echo "---" >> $filename
         echo "title: Announcement" >> $filename
-        echo "date: $(date +'%B %d, %Y %I:%M:%S %p')" >> $filename
+        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
         echo "category: announcement" >> $filename
         echo "publish: true" >> $filename
+        echo "permalink: "
         echo --- >> $filename
 
         echo "Announcement file created: $filename"
