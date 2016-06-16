@@ -3,6 +3,19 @@
 @import "font";
 @import "mixin";
 
+// Default
+$video_width_default:       640px;
+$video_height_default:      360px;
+
+// 3/4
+$video_width_75:            ($video_width_default / 4) * 3;
+$video_height_75:           ($video_height_default / 4) * 3;
+
+// 1/2
+$video_width_50:            $video_width_default / 2;
+$video_height_50:           $video_height_default / 2;
+
+
 body {
     background: $color_bg;
     font-family: $font_default;
@@ -730,6 +743,26 @@ section.post_column_main {
     // Applied to p, pre, ul, ol
     @mixin bottom_margin {
         margin: 0 0 12px 0;
+    }
+    
+    div.video {
+        width: $video_width_75;
+        background: $color_bg;
+        padding: 5px 5px 5px 5px;
+        margin: 0 0 20px 0;
+        iframe {
+            width: $video_width_75;
+            height: $video_height_75;
+            
+        }
+        p.attribution {
+            padding: 2px 0px 3px 0px;
+            margin: 2px 0 0 0;
+            font-size: $font_size_page_meta;
+            font-style: italic;
+            line-height: $font_line_height_page_meta;
+            color: $color_text;
+        }
     }
 
     h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
