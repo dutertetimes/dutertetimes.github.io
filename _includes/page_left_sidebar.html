@@ -14,7 +14,7 @@
         <div class="newsbits">
             {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
             {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
-            {% for post in site.categories['newsbit'] %}
+            {% for post in site.categories['newsbit'] limit:20 %}
                 {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
                     {% assign newsbit_content = post.content | remove: '<p>' | remove: '</p>'%}
                     {% if post.publish and newsbit_content != "" %}
