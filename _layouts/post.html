@@ -9,7 +9,16 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p class="excerpt">{{ page.excerpt }}</p>
     {% if page.date != nil %}
-        <p class="date">{{ page.date | date_to_string }}</p>
+        {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+        {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
+        {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
+        <p class="date">
+            {% if postdate == nowday %}
+                {{ page.date | date: site.data.format.same_day }}
+            {% elsif postyear == nowyear %}
+                {{ page.date | date: site.data.format.same_year }}
+            {% endif %}
+        </p>
     {% else %}
         <p class="date">Undated</p>
     {% endif %}
@@ -19,6 +28,13 @@ layout: default
         {% endfor %}
     </p>
 
+    {% if page.video != nil %}
+        <div class="video">
+            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
+            <p class="attribution">&nbsp;— video courtesy of {{ page.videoref }}</p>
+        </div>
+    {% endif %}
+    
     {{ content }}
 
     {% include post_bottom.html %}

@@ -10,8 +10,8 @@ layout: default
     
     <div id="news_top">
     {% assign counter = 0 %}
-    {% capture nowdate  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-    {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
+    {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+    {% capture nowyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
     {% for post in site.categories['post'] limit:5 %}
         {% if counter == 0 %}
             <div class="news_latest">
@@ -22,7 +22,7 @@ layout: default
                     <p class="date">
                         {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
                         {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowdate %}
+                        {% if postdate == nowday %}
                             {{ post.date | date: site.data.format.same_day }}
                         {% elsif postyear == nowyear %}
                             {{ post.date | date: site.data.format.same_year }}
@@ -41,7 +41,7 @@ layout: default
                     <p class="date">
                         {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
                         {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowdate %}
+                        {% if postdate == nowday %}
                             {{ post.date | date: site.data.format.same_day }}
                         {% elsif postyear == nowyear %}
                             {{ post.date | date: site.data.format.same_year }}

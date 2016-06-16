@@ -675,7 +675,6 @@ section.hub_column_main {
             &.date {
                 font-family: $font_news_hub_date;
                 color: $color_news_hub_date;
-                text-transform: uppercase;
             }
             &.excerpt {
                 font-family: $font_news_hub_excerpt;
@@ -1218,7 +1217,6 @@ section.column_right_sidebar {
                     &.date {
                         font-family: $font_related_post_date;
                         font-size: $font_size_related_post_date;
-                        text-transform: uppercase;
                     }
                     &.excerpt {
                         font-family: $font_related_post_excerpt;
