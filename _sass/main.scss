@@ -628,7 +628,7 @@ section.page_column_main {
     
     @include common_heading;
     
-    p {
+    p, a, li {
         font-family: $font_page_text;
         @include min-screen(721px) {
             font-size: $font_size_page_text;
