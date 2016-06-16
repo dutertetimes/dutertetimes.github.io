@@ -466,7 +466,7 @@ section.column_left_sidebar {
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     div.announcement_heading {
 
@@ -482,7 +482,7 @@ section.column_left_sidebar {
             font-weight: normal;
             color: $color_announcement_title;
             vertical-align: top;
-            padding: 0 0 0px 0;
+            padding: 0 0 10px 0;
         }
     }
 
@@ -493,8 +493,7 @@ section.column_left_sidebar {
         text-align: left;
         color: $color_announcement_text;
         
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin: 0;
         
         &.date {
             font-family: $font_announcement_date;
@@ -552,7 +551,6 @@ section.column_left_sidebar {
 
 #newsbits_roll {
     @include sidebar_component_scroll;
-    background: $color_sidebar_bg;
     margin-bottom: 15px;
 
     h1 {
@@ -678,7 +676,7 @@ section.hub_column_main {
             }
         }
         
-        h1, h2, p {
+        h1, h2 {
             margin: 0px 0 5px 0;
         }
 
@@ -686,6 +684,7 @@ section.hub_column_main {
             &.date {
                 font-family: $font_news_hub_date;
                 color: $color_news_hub_date;
+                margin: 0;
             }
             &.excerpt {
                 font-family: $font_news_hub_excerpt;
@@ -693,13 +692,13 @@ section.hub_column_main {
                 font-style: italic;
                 line-height: $font_size_news_hub_excerpt + 4;
                 color: $color_news_hub_excerpt;
-                margin-bottom: 10px;
+                margin-top: 2px;
+                margin-bottom: 13px;
             }
         }
 
         div.news_latest {
             h1 {
-                margin-bottom: 7px;
                 a {
                     font-size: $font_size_news_hub_latest_title;
                     line-height: $font_size_news_hub_latest_title + 4;

@@ -21,6 +21,7 @@
 @mixin sidebar_component {
     border-radius: 3px;
     padding: 10px 13px 12px 13px;
+    background: $color_sidebar_bg;
     @include min-screen(721px) {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
     }
@@ -29,6 +30,7 @@
 @mixin sidebar_component_scroll {
     border-radius: 3px;
     padding: 10px 2px 13px 13px;
+    background: $color_sidebar_bg;
     @include min-screen(721px) {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
     }
