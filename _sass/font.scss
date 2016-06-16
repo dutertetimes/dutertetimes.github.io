@@ -76,18 +76,18 @@ $font_size_page_title:          $font_size_heading;
 $font_line_height_page_title:   $font_size_heading;
 $font_page_text:                $font_default;
 $font_size_page_text:           $font_size_default + 3;
-$font_line_height_page_text:    $font_line_height_default + 3;
+$font_line_height_page_text:    $font_line_height_default + 4;
 $font_page_meta:                $font_page_text;
-$font_size_page_meta:           $font_size_default - 1;
-$font_line_height_page_meta:    $font_size_default + 1;
+$font_size_page_meta:           $font_size_default;
+$font_line_height_page_meta:    $font_size_default + 4;
 
 // News Hub
 $font_news_hub_title:               $font_serif_thin;
 $font_news_hub_date:                $font_serif_thin;
 $font_size_news_hub_latest_title:   $font_size_heading - 4;
-$font_size_news_hub_latest_date:    12px;
+$font_size_news_hub_latest_date:    13px;
 $font_size_news_hub_next_title:     $font_size_heading - 8;
-$font_size_news_hub_next_date:      12px;
+$font_size_news_hub_next_date:      13px;
 $font_news_hub_excerpt:             $font_serif_thin;
 $font_size_news_hub_excerpt:        14px;
 
@@ -107,9 +107,9 @@ $font_size_sidebar:         14px;
 $font_related_post_title:           $font_serif_thin;
 $font_size_related_post_title:      14px;
 $font_related_post_date:            $font_serif_thin;
-$font_size_related_post_date:       12px;
+$font_size_related_post_date:       13px;
 $font_related_post_excerpt:         $font_serif_thin;
-$font_size_related_post_excerpt:    12px;
+$font_size_related_post_excerpt:    13px;
 
 // Quote
 $font_quote:                $font_sans;
