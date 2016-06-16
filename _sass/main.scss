@@ -380,14 +380,9 @@ section {
         @include max-screen(720px)  { width: 93%; }
     }
 
-    &.hub_column_main {
-        @include min-screen(1281px) { width: 51%; }
-        @include max-screen(1280px) { width: 44%; }
-        @include max-screen(1024px) { width: 62%; }
-        @include max-screen(720px)  { width: 93%; }
-    }
-
-    &.post_column_main {
+    &.hub_column_main,
+    &.post_column_main,
+    &.page_column_main {
         @include min-screen(1281px) { width: 51%; }
         @include max-screen(1280px) { width: 44%; }
         @include max-screen(1024px) { width: 62%; }
