@@ -1,0 +1,21 @@
+<div id="datetime">
+    <script type="text/javascript">
+        $(function() {
+            setInterval(function() {
+                var dtutc = $('#datetime_utc');
+                var dtlocal = $('#datetime_local');
+                var dtsite = $('#datetime_site');
+                //var fmt = 'ddd D MMMM YYYY hh:mm:ss a ZZ';
+                var fmt = 'ddd D MMM hh:mm:ss a ZZ';
+                
+                dtutc.text(moment.utc().format(fmt));
+                
+                var localTime = moment.utc().toDate();
+                dtlocal.text(moment(localTime).format(fmt));
+            }, 1000);
+        });
+    </script>
+    <p id="datetime_utc"></p>
+    <!-- <p id="datetime_local">{{ 'now' | date: site.data.format.long }}</p> -->
+    <p id="datetime_local"></p>
+</div>
