@@ -570,6 +570,7 @@ section.column_left_sidebar {
     }
 
     div.newsbits {
+        margin-top: 5px;
         margin-bottom: 0px;
         @include min-screen(721px) {
             height: 300px;
@@ -587,20 +588,28 @@ section.column_left_sidebar {
                 font-size: $font_size_news_title;
                 font-weight: bold;
             }
-            p {
+            ul {
+                margin-top: 2px;
+                padding-left: 25px;
+            }
+            p, li {
                 font-family: $font_news_text;
                 font-size: $font_size_news_text;
                 margin-top: 2px;
+                margin-bottom: 2px;
                 @include max-screen(720px) {
                     margin-top: 5px;
                 }
                 padding: 0;
                 &.date {
                     color: $color_news_bit_date;
-                    margin-top: 0px;
                     margin-bottom: 0px;
                     padding: 0;
                 }
+            }
+            li {
+                margin-top: 0px;
+                margin-bottom: 0px;
             }
         }
     }
