@@ -764,24 +764,15 @@ section.post_column_main {
     
     @include common_heading;
 
-    p, li, dl {
+    p, a, li, dl {
         font-family: $font_page_text;
-        @include min-screen(721px) {
-            font-size: $font_size_page_text;
-            line-height: $font_line_height_page_text;
-        }
+        font-size: $font_size_page_text;
+        line-height: $font_line_height_page_text;
+        text-align: left;
+        
         @include max-screen(720px) {
             font-size: $font_size_page_text;
             line-height: $font_line_height_page_text + 3;
-        }
-        text-align: left;
-        
-        & a {
-            font-size: $font_size_page_text;
-            line-height: $font_line_height_page_text;
-            @include max-screen(720px) {
-                line-height: $font_line_height_page_text + 3;
-            }
         }
         
         & code {
