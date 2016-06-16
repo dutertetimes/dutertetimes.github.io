@@ -2,20 +2,37 @@
     <script type="text/javascript">
         $(function() {
             setInterval(function() {
+                var dayfmt = 'dddd';
+                var datefmt = 'D MMMM YYYY';
+                var fmt = 'hh:mm:ss a';
+                
+                /*
+                var dayutc = $('#day_utc');
+                var dateutc = $('#date_utc');
                 var dtutc = $('#datetime_utc');
+                var now_utc = moment.utc();
+                dayutc.text(now_utc.format(dayfmt));
+                dateutc.text(now_utc.format(datefmt));
+                dtutc.text(now_utc.format(fmt));
+                */
+                
+                var daylocal = $('#day_local');
+                var datelocal = $('#date_local');
                 var dtlocal = $('#datetime_local');
-                var dtsite = $('#datetime_site');
-                //var fmt = 'ddd D MMMM YYYY hh:mm:ss a ZZ';
-                var fmt = 'ddd D MMM hh:mm:ss a ZZ';
                 
-                dtutc.text(moment.utc().format(fmt));
-                
-                var localTime = moment.utc().toDate();
-                dtlocal.text(moment(localTime).format(fmt));
+                var localTime = moment(moment.utc().toDate());
+                daylocal.text(localTime.format(dayfmt));
+                datelocal.text(localTime.format(datefmt));
+                dtlocal.text(localTime.format(fmt));
             }, 1000);
         });
     </script>
-    <p id="datetime_utc"></p>
-    <!-- <p id="datetime_local">{{ 'now' | date: site.data.format.long }}</p> -->
-    <p id="datetime_local"></p>
+    
+    <div>
+        <p>
+            <span id="day_local"></span>&nbsp;&nbsp;
+            <span id="date_local"></span>&nbsp;&nbsp;
+            <span id="datetime_local"></span>
+        </p>
+    </div>
 </div>

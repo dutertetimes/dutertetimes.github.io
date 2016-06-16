@@ -438,7 +438,8 @@ section.column_left_sidebar {
         font-family: $font_sidebar;
         font-size: $font_size_sidebar - 1;
         line-height: $font_size_sidebar + 2;
-        margin: 0px 0 2px 0;
+        margin: 0;
+        padding: 0;
     }
 }
 
