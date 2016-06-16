@@ -13,6 +13,14 @@ When asked, how long will the boycott last, the President elect answered, "Until
 This is a personal site with no affiliation with other news sources in the Philippines or outside the country.
 The site aims to provide Filipino online citizens an alternative source of news and information.
 
+###### License
+
+Except where otherwise noted, the content on this site (Duterte Times) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)]({{ site.data.links.cc_by_sa_license }}). You are free to copy reproduce, distribute, display, and make adaptations but you must provide [proper attribution]({{ site.data.link.attribution }}).
+
+* Visit the [Creative Commons]({{ site.data.links.creative_commons }}) website.
+* Read about [proper attribution]({{ site.data.link.attribution }}).
+
+
 <br/>
 
 <div class="social_media_links">
