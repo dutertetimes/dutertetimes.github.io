@@ -14,9 +14,28 @@ function show_usage {
     echo ""
     echo "Options:"
     echo "  -a              Announcement file"
+    echo "  -d, --draft     Draft post file"
     echo "  -nb             News bit file"
     echo "  -p              Post file"
     echo "  -h, --help      Show usage"
+}
+
+function add_yaml_bar {
+    echo "---" >> $filename
+}
+
+function add_default {
+    if [ $# -eq 0 ]; then
+        echo "title: " >> $filename
+    else
+        echo "title: $1" >> $filename
+    fi
+    echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
+}
+
+function add_empty {
+    echo >> $filename
+    echo "Empty." >> $filename
 }
 
 function create_post {
@@ -25,12 +44,22 @@ function create_post {
     else
         touch $filename
 
-        echo "---" >> $filename
-        echo "title: " >> $filename
-        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
-        echo "category: post" >> $filename
-        echo "publish: true" >> $filename
-        echo --- >> $filename
+        add_yaml_bar
+        add_default
+        echo "excerpt: " >> $filename
+        echo "layout: post" >> $filename
+        echo "categories: [post]" >> $filename
+        echo "tags: " >> $filename
+        if [ $# -eq 0 ]; then
+            echo "published: true" >> $filename
+        fi
+        if [ "$1" = "draft" ]; then
+            echo "published: false" >> $filename
+        else
+            echo "published: true" >> $filename
+        fi
+        add_yaml_bar
+        add_empty
 
         echo "Post file created: $filename"
     fi
@@ -42,13 +71,13 @@ function create_newsbit {
     else
         touch $filename
 
-        echo "---" >> $filename
-        echo "title: News Bit" >> $filename
-        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
-        echo "category: newsbit" >> $filename
-        echo "publish: true" >> $filename
+        add_yaml_bar
+        add_default "News Bit"
+        echo "categories: [newsbit]" >> $filename
+        echo "published: true" >> $filename
         echo "reference: " >> $filename
-        echo --- >> $filename
+        add_yaml_bar
+        add_empty
 
         echo "News bit file created: $filename"
     fi
@@ -60,13 +89,13 @@ function create_announcement {
     else
         touch $filename
 
-        echo "---" >> $filename
-        echo "title: Announcement" >> $filename
-        echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
-        echo "category: announcement" >> $filename
-        echo "publish: true" >> $filename
-        echo "permalink: "
-        echo --- >> $filename
+        add_yaml_bar
+        add_default "Announcement"
+        echo "categories: [announcement]" >> $filename
+        echo "published: true" >> $filename
+        echo "permalink: " >> $filename
+        add_yaml_bar
+        add_empty
 
         echo "Announcement file created: $filename"
     fi
@@ -80,6 +109,9 @@ fi
 
 case $1 in
     -a )            create_announcement
+                    exit
+                    ;;
+    -d | --draft )  create_post draft
                     exit
                     ;;
     -nb )           create_newsbit
