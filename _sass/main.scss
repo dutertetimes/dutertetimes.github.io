@@ -604,7 +604,6 @@ section.column_left_sidebar {
                 &.date {
                     color: $color_news_bit_date;
                     margin-bottom: 0px;
-                    padding: 0;
                 }
             }
             li {
@@ -679,9 +678,7 @@ section.hub_column_main {
             font-family: $font_news_hub_title;
             font-weight: bold;
             color: $color_news_hub_title;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            padding-top: 0px;
+            margin: 0;
             code {
                 color: $color_news_hub_title;
             }
@@ -690,14 +687,15 @@ section.hub_column_main {
                 &:hover {
                     color: $color_news_hub_title;
                     border-bottom: 1px dotted $color_news_hub_title;
+                    padding-bottom: 2px;
                 }
             }
         }
         
-        h1, h2 {
-            margin: 0px 0 5px 0;
+        h1 {
+            padding: 0 0 1px 0;
         }
-
+        
         p {
             &.date {
                 font-family: $font_news_hub_date;
