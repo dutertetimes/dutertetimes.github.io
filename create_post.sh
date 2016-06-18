@@ -74,7 +74,7 @@ function create_newsbit {
         add_yaml_bar
         add_default "News Bit"
         echo "categories: [newsbit]" >> $filename
-        echo "published: true" >> $filename
+        echo "published: false" >> $filename
         echo "reference: " >> $filename
         add_yaml_bar
         add_empty
