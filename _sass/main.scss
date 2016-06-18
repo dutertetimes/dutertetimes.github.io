@@ -306,6 +306,7 @@ header {
                 a {
                     @include button;
                     @include top_button;
+                    border: 1px solid $color_button_bg;
                 }
             }
         }

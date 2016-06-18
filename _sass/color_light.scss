@@ -27,11 +27,11 @@ $color_link_underline:	        $color_primary;
 $color_heading_text:            black;
 
 // Header
-$color_header_title:            black;
-$color_header_title_tag:        black;
-$color_header_bg:               #f0f0f0;
+$color_header_title:            $color_main_bg;
+$color_header_title_tag:        $color_main_bg;
+$color_header_bg:               $color_red;
 $color_header_border_top:       $color_primary;
-$color_header_border_bottom:    $color_primary;
+$color_header_border_bottom:    $color_main_bg;
 
 // Code
 $color_code:                    #a3a3a3;
@@ -47,6 +47,9 @@ $color_table_th_bg:             #efefef;
 $color_hr_default:              #e7e7e7;
 $color_hr_dark:                 #404040;
 $color_hr_darker:               $color_bg;
+
+// Blockquote
+$color_blockquote:              #dcdcdc;
 
 
 
@@ -101,6 +104,7 @@ $color_footer_bg:               $color_bg;
 $color_footer_border_top:       $color_primary;
 
 // Button links
-$color_button_text:             white;
-$color_button_bg:               $color_primary;
-$color_button_hover_bg:         black;
+$color_button_text:             $color_header_bg;
+$color_button_bg:               $color_header_border_bottom;
+$color_button_hover_text:       $color_button_bg;
+$color_button_hover_bg:         $color_header_bg;

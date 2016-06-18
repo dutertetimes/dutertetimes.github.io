@@ -115,7 +115,7 @@
     @include max-screen(720px) {
         font-size: $font_size_button + 1;
     }
-    font-weight: bold;
+    font-weight: normal;
 
     white-space: nowrap;
     
@@ -123,19 +123,21 @@
     background-color: $color_button_bg;
 
     padding: 5px 10px 5px 10px;
-    border-radius: 4px;
+    border-radius: 3px;
     
     cursor: pointer;
     background-image: none;
     
     &:hover {
+        font-weight: bold;
+        color: $color_button_hover_text;
         background-color: $color_button_hover_bg;
         border-bottom: 1px solid $color_button_hover_bg;
     }
 }
 
 @mixin top_button {
-    border-radius: 4px 4px 0 0;
+    border-radius: 3px 3px 0 0;
 }
 
 @mixin left_button {
@@ -148,3 +150,4 @@
         color: $color_button_text;
     }
 }
+
