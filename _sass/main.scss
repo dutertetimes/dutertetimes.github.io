@@ -635,7 +635,7 @@ section.page_column_main {
     
     @include common_heading;
     
-    p, a, li {
+    p, em, a, li {
         font-family: $font_page_text;
         @include min-screen(721px) {
             font-size: $font_size_page_text;
@@ -770,7 +770,7 @@ section.post_column_main {
     
     @include common_heading;
 
-    p, a, li, dl {
+    p, em, a, li, dl {
         font-family: $font_page_text;
         font-size: $font_size_page_text;
         line-height: $font_line_height_page_text;
