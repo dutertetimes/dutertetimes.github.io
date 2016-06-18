@@ -122,8 +122,9 @@
     color: $color_button_text;
     background-color: $color_button_bg;
 
-    padding: 5px 10px 5px 10px;
+    padding: 4px 10px 5px 10px;
     border-radius: 3px;
+    border: 1px solid $color_button_text;
     
     cursor: pointer;
     background-image: none;
@@ -138,6 +139,15 @@
 
 @mixin top_button {
     border-radius: 3px 3px 0 0;
+    color: $color_button_text;
+    background-color: $color_button_bg;
+    
+    &:hover {
+        font-weight: bold;
+        color: $color_button_hover_text;
+        background-color: $color_button_hover_bg;
+        border-bottom: 1px solid $color_button_hover_bg;
+    }
 }
 
 @mixin left_button {

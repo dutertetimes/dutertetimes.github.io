@@ -104,28 +104,21 @@ ol {
 }
 
 strong {
-    //font-family: $font_default !important;
-    //font-size: $font_size_default;
-    font-weight: normal;
-    color: $color_text_highlight;
+    font-weight: bold;
+    color: $color_text;
 }
 
 b {
-    font-family: $font_default !important;
-    font-size: $font_size_default;
-    font-weight: normal;
-    color: $color_text_highlight;
+    font-weight: bold;
 }
 
 em {
-    font-size: $font_size_default;
-    font-weight: normal;
-    color: $color_text_highlight;
+    font-weight: bold;
+    font-style: italic;
 }
 
 i {
-    font-size: $font_size_default;
-    font-weight: normal;
+    font-style: italic;
 }
 
 mark {
@@ -140,18 +133,6 @@ pre {
 p code {
     font-family: $font_code;
     font-size: $font_size_code;
-}
-
-blockquote {
-    font-size: $font_size_default;
-    font-style: italic;
-    color: $color_text_highlight;
-    border-left: 4px solid $color_blockquote;
-    margin-left: 17px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 0 0 0 12px;
-    width: 80%;
 }
 
 aside {
@@ -172,7 +153,7 @@ sup {
     a {
         font-family: $font_default;
         font-size: $font_size_default - 3;
-        color: $color_text_highlight;
+        color: $color_text;
         border-bottom: none;
     }
     a::before {
@@ -783,6 +764,11 @@ section.post_column_main {
             line-height: $font_line_height_page_text + 3;
         }
         
+        & em {
+            font-weight: normal;
+            font-style: normal;
+        }
+        
         & code {
             @include min-screen(721px) { font-size: $font_size_default - 1; }
             @include max-screen(720px) { font-size: $font_size_default + 1; }
@@ -926,7 +912,7 @@ section.post_column_main {
         }
 
         pre {
-            color: $color_text_lighter;
+            color: $color_text;
             background: $color_code_bg + 3;
             border: 1px dotted $color_syntax_bg + 15;
             border-left: 6px solid $color_syntax_bg + 18;
@@ -936,7 +922,7 @@ section.post_column_main {
             // Bottom margin takes into account that a paragraph may follow a definition list
             margin: 0 15px 10px 15px;
             dt {
-                color: $color_text_highlight;
+                color: $color_text;
                 text-align: left;
                 font-weight: normal;
             }
@@ -1036,7 +1022,28 @@ section.post_column_main {
                 }
             }
         }
-
+    }
+    
+    blockquote {
+        border-left: 6px solid $color_blockquote_bar;
+        //margin-left: 17px;
+        //margin-top: 12px;
+        //margin-bottom: 12px;
+        margin: 12px 0 12px 30px;
+        padding: 10px 12px 2px 12px;
+        border-radius: 0 4px 4px 0;
+        width: 80%;
+        background: $color_blockquote_bg;
+        
+        p {
+            font-family: $font_blockquote;
+            font-size: $font_size_blockquote;
+            font-style: normal;
+            line-height: $font_line_height_blockquote;
+            color: $color_blockquote;
+            margin-bottom: 8px;
+            word-spacing: $word_spacing_blockquote;
+        }
     }
     
     table.tags {
@@ -1061,6 +1068,7 @@ section.post_column_main {
                 span.tag {
                     font-size: $font_size_default - 1;
                     line-height: $font_size_default + 10;
+                    color: $color_tag_text;
                     background: $color_tag_bg;
                     padding: 2px 8px 4px 8px;
                     border-radius: 2px;
@@ -1170,14 +1178,19 @@ section.column_right_sidebar {
             
             li {
                 h2 {
+                    // h2 settings only used for 'no related posts'
+                    font-family: $font_related_post_title;
+                    font-size: $font_size_related_post_title;
+                    font-weight: normal;
                     line-height: $font_size_related_post_title;
+                    a {
+                        font-family: $font_related_post_title;
+                        font-size: $font_size_related_post_title;
+                        line-height: $font_size_related_post_title;
+                    }
                 }
                 h2, p {
                     margin: 0px 0 2px 0;
-                }
-                h2 a {
-                    font-family: $font_related_post_title;
-                    font-size: $font_size_related_post_title;
                 }
                 p {
                     &.date {

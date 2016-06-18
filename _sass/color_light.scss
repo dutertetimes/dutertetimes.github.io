@@ -12,12 +12,12 @@ $color_bg:                      #dedddd;
 $color_main_bg:                 #ffffff;
 
 // Text
-$color_text:                    #333333;
-$color_text_dark:               #111111;
-$color_text_darker:             #000000;
-$color_text_light:              $color_text + 20;
-$color_text_lighter:            $color_text + 50;
-$color_text_highlight:          $color_text_darker;
+$color_text:                    black;
+//$color_text_dark:               #111111;
+//$color_text_darker:             #000000;
+//$color_text_light:              $color_text + 20;
+//$color_text_lighter:            $color_text + 50;
+//$color_text_highlight:          $color_text_darker;
 
 // Link
 $color_link:			        $color_primary;
@@ -29,7 +29,7 @@ $color_heading_text:            black;
 // Header
 $color_header_title:            $color_main_bg;
 $color_header_title_tag:        $color_main_bg;
-$color_header_bg:               $color_red;
+$color_header_bg:               $color_primary;
 $color_header_border_top:       $color_primary;
 $color_header_border_bottom:    $color_main_bg;
 
@@ -49,7 +49,9 @@ $color_hr_dark:                 #404040;
 $color_hr_darker:               $color_bg;
 
 // Blockquote
-$color_blockquote:              #dcdcdc;
+$color_blockquote:              lighten($color_text, 30%);
+$color_blockquote_bar:          darken($color_main_bg, 7%);
+$color_blockquote_bg:           darken($color_main_bg, 2%);
 
 
 
@@ -90,7 +92,7 @@ $color_aside_bg:                $color_header_bg;
 $color_aside_border:            $color_red - 100;
 
 // Post tag
-$color_tag_text:                $color_text;
+$color_tag_text:                lighten($color_text, 30%);
 $color_tag_bg:                  #ededed;
 
 // Quote
