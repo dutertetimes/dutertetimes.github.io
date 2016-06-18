@@ -1,5 +1,7 @@
 # Local directories for local testing
 .sass-cache/**
+assets/**
+scratch/**
 _data/drafts.yml
 _drafts/**
 _site
