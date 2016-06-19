@@ -5,11 +5,9 @@
     <a href="mailto:{{ site.author.email }}"   target="_blank" class="socmed_button">Email Us</a>
     -->
     <ul>
-    {% for item in site.data.socmed %}
+    {% for item in site.author.social_media %}
         <li>
-            <a href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %} >
-                {{ item.name }}
-            </a>
+            <a href="{{ item.link }}" target="{{ item.target }}">{{ item.name }}</a>
         </li>
     {% endfor %}
     </ul>
