@@ -1026,16 +1026,13 @@ section.post_column_main {
     
     blockquote {
         border-left: 6px solid $color_blockquote_bar;
-        //margin-left: 17px;
-        //margin-top: 12px;
-        //margin-bottom: 12px;
         margin: 12px 0 12px 30px;
         padding: 10px 12px 2px 12px;
         border-radius: 0 4px 4px 0;
         width: 80%;
         background: $color_blockquote_bg;
         
-        p {
+        p, em, a {
             font-family: $font_blockquote;
             font-size: $font_size_blockquote;
             font-style: normal;
@@ -1043,6 +1040,16 @@ section.post_column_main {
             color: $color_blockquote;
             margin-bottom: 8px;
             word-spacing: $word_spacing_blockquote;
+            e {
+                font-style: normal;
+            }
+            a {
+                margin-bottom: 0px;
+                &:hover {
+                    color: $color_link;
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
         }
     }
     
