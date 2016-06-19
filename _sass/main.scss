@@ -1197,6 +1197,7 @@ section.column_right_sidebar {
                     &.date {
                         font-family: $font_related_post_date;
                         font-size: $font_size_related_post_date;
+                        margin-bottom: 1px;
                     }
                     &.excerpt {
                         font-family: $font_related_post_excerpt;
