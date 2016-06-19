@@ -73,6 +73,13 @@ function create_post {
 }
 
 function create_newsbit {
+    if [ $# -gt 0 ]; then
+        if [ ${#1} -gt 140 ]; then
+            echo "News bit text is more than 140 character. Aborting..."
+            exit
+        fi
+    fi
+    
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
     else
@@ -90,6 +97,9 @@ function create_newsbit {
         add_yaml_bar
         if [ $# -gt 0 ]; then
             add_content "$1"
+            # Twitter client t does not allow tweets with more than 140 characters.
+            # Truncation for now does nothing because of the check above which
+            # does not allow messages with more than 140 characters.
             if [ ${#1} -gt 140 ]; then
                 echo "News bit text with ${#1} character(s) truncated."
                 t update "${1:0:137}..."
