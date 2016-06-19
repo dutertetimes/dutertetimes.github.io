@@ -28,7 +28,11 @@
     <meta name="twitter:site" content="@dutertetimes" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt }}" />
-    <meta name="twitter:image:src" content="{{ site.baseurl }}/images/favicon/duterte_times.png" />
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.baseurl }}{{ page.image }}" />
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.baseurl }}/images/favicon/duterte_times_twitter_summary_card_01.png" />
+    {% endif %}
 
     <!-- Stylesheets -->
     <!------------------------------------------------------------------------>
