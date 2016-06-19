@@ -90,8 +90,12 @@ function create_newsbit {
         add_yaml_bar
         if [ $# -gt 0 ]; then
             add_content "$1"
-            echo "News bit with ${#1} character(s)."
-            t update "$1"
+            if [ ${#1} -gt 140 ]; then
+                echo "News bit text with ${#1} character(s) truncated."
+                t update "${1:0:137}..."
+            else
+                t update "$1"
+            fi
         else
             add_empty
         fi
