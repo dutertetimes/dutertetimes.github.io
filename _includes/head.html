@@ -18,10 +18,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <meta name="description" content="News" />
+    {% if page.excerpt %}
+    <meta name="description" content={{ page.excerpt }} />
+    {% else %}
+    <meta name="description" content={{ site.description }} />
+    {% endif %}
 	<meta name="keywords" content="news duterte" />
 	<meta name="robots" content="index, follow" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon/duterte_times_twitter_summary_card_01.png">
+    {% if page.excerpt %}
+    <link rel="icon" type="image/png" href="/images/favicon/duterte_times_twitter_summary_card_01.png">
+    {% else %}
+    <link rel="icon" type="image/png" href="/images/favicon/duterte_times_twitter_summary_card_01.png">
+    {% endif %}
     
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
@@ -29,9 +37,9 @@
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{{ page.excerpt }}" />
     {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.baseurl }}{{ page.image }}" />
+    <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}" />
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.baseurl }}/images/favicon/duterte_times_twitter_summary_card_01.png" />
+    <meta name="twitter:image:src" content="{{ site.url }}{{ site.author.icon }}" />
     {% endif %}
 
     <!-- Stylesheets -->

@@ -69,6 +69,7 @@ description:    "Alternative Philippine news."
 
 author:
   name:         'dutertetimes'
+  icon:         duterte_times_twitter_summary_card_01.png
   url:          http://dutertetimes.github.io/
   github:       http://github.com/dutertetimes
   social_media:
