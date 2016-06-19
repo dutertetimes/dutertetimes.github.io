@@ -38,6 +38,13 @@ function add_empty {
     echo "Empty." >> $filename
 }
 
+function add_content {
+    if [ $# -gt 0 ]; then
+        echo >> $filename
+        echo "$1" >> $filename
+    fi
+}
+
 function create_post {
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
@@ -74,11 +81,21 @@ function create_newsbit {
         add_yaml_bar
         add_default "News Bit"
         echo "categories: [newsbit]" >> $filename
-        echo "published: false" >> $filename
+        if [ $# -gt 0 ]; then
+            echo "published: true" >> $filename
+        else
+            echo "published: false" >> $filename
+        fi
         echo "reference: " >> $filename
         add_yaml_bar
-        add_empty
-
+        if [ $# -gt 0 ]; then
+            add_content "$1"
+            echo "News bit with ${#1} character(s)."
+            t update "$1"
+        else
+            add_empty
+        fi
+        
         echo "News bit file created: $filename"
     fi
 }
@@ -114,7 +131,7 @@ case $1 in
     -d | --draft )  create_post draft
                     exit
                     ;;
-    -nb )           create_newsbit
+    -nb )           create_newsbit "$2"
                     exit
                     ;;
     -p )            create_post
