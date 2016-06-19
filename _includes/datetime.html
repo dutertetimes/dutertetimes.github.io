@@ -2,36 +2,52 @@
     <script type="text/javascript">
         $(function() {
             setInterval(function() {
-                var dayfmt = 'dddd';
-                var datefmt = 'D MMMM YYYY';
-                var fmt = 'hh:mm:ss a';
+                var datefmt = 'dddd D MMMM YYYY';
+                var timefmt = 'hh:mm:ss A';
+                var timefmt24 = 'HH:mm:ss';
                 
-                /*
-                var dayutc = $('#day_utc');
-                var dateutc = $('#date_utc');
-                var dtutc = $('#datetime_utc');
-                var now_utc = moment.utc();
-                dayutc.text(now_utc.format(dayfmt));
-                dateutc.text(now_utc.format(datefmt));
-                dtutc.text(now_utc.format(fmt));
-                */
-                
-                var daylocal = $('#day_local');
                 var datelocal = $('#date_local');
-                var dtlocal = $('#datetime_local');
+                var timelocal = $('#time_local');
+                var timelocal24 = $('#time24_local');
                 
                 var localTime = moment(moment.utc().toDate());
-                daylocal.text(localTime.format(dayfmt));
                 datelocal.text(localTime.format(datefmt));
-                dtlocal.text(localTime.format(fmt));
+                timelocal.text(localTime.format(timefmt));
+                timelocal24.text(localTime.format(timefmt24));
+                
+                var dateutc = $('#date_utc');
+                var timeutc = $('#time_utc');
+                var timeutc24 = $('#time24_utc');
+                
+                var utcTime = moment.utc();
+                dateutc.text(utcTime.format(datefmt));
+                timeutc.text(utcTime.format(timefmt));
+                timeutc24.text(utcTime.format(timefmt24));
             }, 1000);
         });
     </script>
     
     <div>
-        <p>
-            <span id="day_local"></span>&nbsp;<span id="date_local"></span>&nbsp;&nbsp;
-            <span id="datetime_local"></span>
-        </p>
+        <table>
+            <tr>
+                <td>
+                    <p class="datetime">
+                        <span id="date_local"></span><br/>
+                        <span id="time_local"></span>&nbsp;PHT<br/>
+                        <span id="time24_local"></span>&nbsp;PHT
+                    </p>
+                </td>
+                <td class="filler">
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <p class="datetime">
+                        <span id="date_utc"></span><br/>
+                        <span id="time_utc"></span>&nbsp;UTC<br/>
+                        <span id="time24_utc"></span>&nbsp;UTC
+                    </p>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>

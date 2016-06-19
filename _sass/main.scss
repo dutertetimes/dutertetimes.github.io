@@ -416,6 +416,16 @@ section.column_left_sidebar {
 
 #datetime {
     margin-bottom: 12px;
+    
+    table {
+        width: 100%;
+        tr td {
+            white-space: nowrap;
+            .filler {
+                width: 100%
+            }
+        }
+    }
 
     p {
         font-family: $font_sidebar;
@@ -423,6 +433,9 @@ section.column_left_sidebar {
         line-height: $font_size_sidebar + 2;
         margin: 0;
         padding: 0;
+        &.datetime {
+            text-align: center;
+        }
     }
 }
 
