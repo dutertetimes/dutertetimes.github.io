@@ -16,6 +16,24 @@ $video_width_50:            $video_width_default / 2;
 $video_height_50:           $video_height_default / 2;
 
 
+@page { size:8.5in 11in; margin: 1in }
+
+@page:right {
+    @bottom-left {
+        margin: 10pt 0 30pt 0;
+        border-top: .25pt solid #666;
+        content: "Duterte Times";
+        font-size: 9pt;
+        color: #333;
+    }
+}
+
+@page:left{
+    @bottom-left {
+        content: "Page " counter(page) " of " counter(pages);
+    }
+}
+
 body {
     background: $color_bg;
     font-family: $font_default;
@@ -24,7 +42,7 @@ body {
     color: $color_text;
     margin: 0;
     padding: 0;
-    
+
     // 'Hide' horizontal scrollbar when viewed in small media
     // https://css-tricks.com/findingfixing-unintended-body-overflow/
     overflow-x: hidden;
@@ -210,7 +228,9 @@ header {
     padding-top: 5px;
     margin: 0;
     z-index: 1000;
-    background: $color_header_bg;
+    @media screen {
+        background: $color_header_bg;
+    }
     border-bottom: 5px solid $color_header_border_bottom;
     @include min-screen(721px) {
         position: fixed;
@@ -224,12 +244,20 @@ header {
         #site_title {
             width: 300px;
             height: 50px;
+            margin-bottom: 10px;
+            float: left;
+            
             img {
                 width: 40px;
                 height: 40px;
                 float: left;
                 margin: 10px 15px 0 15px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+                @media screen {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+                }
+                @media print {
+                    display: none;
+                }
             }
             h1 {
                 float: left;
@@ -242,6 +270,9 @@ header {
                     text-align: left;
                     line-height: $font_size_title;
                     color: $color_header_title;
+                    @media print {
+                        color: black;
+                    }
                     border: none;
                     &:hover {
                         border: none;
@@ -257,22 +288,55 @@ header {
                 float: left;
                 font-family: $font_title_tagline;
                 font-weight: bold;
+                @media print {
+                    font-weight: normal;
+                }
                 font-size: $font_size_title_tagline;
                 font-style: italic;
                 letter-spacing: 0px;
                 text-align: left;
                 line-height: $font_size_title_tagline + 1;
                 color: $color_header_title_tag;
+                @media print {
+                    color: black;
+                }
 
                 margin: 0;
                 // If the title changes, the top padding may need to be adjusted
                 padding: 4px 0 10px 0px;
             }
         }
+        
+        #site_title_right {
+            @media screen {
+                display: none;
+            }
+            @media print {
+                float: right;
+                width: 175px;
+                height: 50px;
+                @include print_copyright;
+                /*
+                p, a {
+                    font-size: 8px;
+                    line-height: 9px;
+                    a {
+                        border: none;
+                    }
+                    img {
+                        display: none;
+                    }
+                }
+                */
+            }
+        }
     }
     
     #nav_top,
     #social_media_links {
+        @media print {
+            display: none;
+        }
         ul {
             margin: 0;
             margin-top: 10px;
@@ -390,6 +454,9 @@ section {
 /* ------------------------------------------------------------------------- */
 
 section.column_left_sidebar {
+    @media print {
+        margin-left: 0;
+    }
     h1 {
         @include sidebar_component_label;
     }
@@ -415,6 +482,9 @@ section.column_left_sidebar {
 }
 
 #datetime {
+    @media print {
+        display: none;
+    }
     margin-bottom: 12px;
     
     table {
@@ -440,7 +510,9 @@ section.column_left_sidebar {
 }
 
 #nav_left {
-    
+    @media print {
+        display: none;
+    }
     @include min-screen(721px) {
         display: none;
     }
@@ -471,6 +543,7 @@ section.column_left_sidebar {
 }
 
 #announcement {
+
     @include max-screen(720px) {
         margin-top: 20px;
     }
@@ -519,6 +592,9 @@ section.column_left_sidebar {
     // Less vertical space
     padding-bottom: 8px;
     margin-bottom: 20px;
+    @media print {
+        padding: 10px 50px 12px 50px;
+    }
     
     table {
         margin: 0px;
@@ -558,6 +634,9 @@ section.column_left_sidebar {
 }
 
 #newsbits_roll {
+    @media print {
+        padding-left: 0;
+    }
     @include sidebar_component_scroll;
     margin-bottom: 15px;
 
@@ -618,7 +697,9 @@ section.column_left_sidebar {
 /* ------------------------------------------------------------------------- */
 
 section.page_column_main {
-
+    @media print {
+        padding-left: 0;
+    }
     @include min-screen(721px) { width: 50%; }
     @include max-screen(720px) { width: 93%; }
     
@@ -670,6 +751,9 @@ section.page_column_main {
 /* ------------------------------------------------------------------------- */
 
 section.hub_column_main {
+    @media print {
+        margin-left: 0;
+    }
     div#news_top {
         h1, h2, h3, h4, h5, h6 {
             font-family: $font_news_hub_title;
@@ -763,6 +847,18 @@ section.post_column_main {
             line-height: $font_line_height_page_meta;
             color: $color_text;
         }
+        @media screen {
+            p.video_link {
+                display: none;
+            }
+        }
+        @media print {
+            padding: 0;
+            iframe,
+            p.attribution {
+                display: none;
+            }
+        }
     }
     
     @include common_heading;
@@ -776,6 +872,10 @@ section.post_column_main {
         @include max-screen(720px) {
             font-size: $font_size_page_text;
             line-height: $font_line_height_page_text + 3;
+        }
+        
+        @media print {
+            line-height: $font_size_page_text + 4;
         }
         
         & em {
@@ -1068,6 +1168,9 @@ section.post_column_main {
     }
     
     table.tags {
+        @media print {
+            display: none;
+        }
         border: none;
         padding: 0;
         tr {
@@ -1356,8 +1459,6 @@ footer {
             }
         }
         
-        
-
         #footer_column_four {
             float: right;
             text-align: right;
@@ -1373,6 +1474,16 @@ footer {
         p a {
             color: $color_primary;
             border: none;
+        }
+    }
+    
+    @media print {
+        border: none;
+        #footer_column_one,
+        #footer_column_two,
+        #footer_column_three,
+        #footer_column_four {
+            display: none;
         }
     }
 }

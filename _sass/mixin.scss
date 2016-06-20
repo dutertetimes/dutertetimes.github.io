@@ -161,3 +161,15 @@
     }
 }
 
+@mixin print_copyright {
+    p, a {
+        font-size: 10px;
+        line-height: 12px;
+        a {
+            border: none;
+        }
+        img {
+            display: none;
+        }
+    }
+}
