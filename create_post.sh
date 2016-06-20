@@ -100,6 +100,8 @@ function create_newsbit {
             # Twitter client t does not allow tweets with more than 140 characters.
             # Truncation for now does nothing because of the check above which
             # does not allow messages with more than 140 characters.
+            #
+            # https://github.com/sferik/t
             if [ ${#1} -gt 140 ]; then
                 echo "News bit text with ${#1} character(s) truncated."
                 t update "${1:0:137}..."
