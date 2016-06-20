@@ -35,7 +35,7 @@ function add_default {
 
 function add_empty {
     echo >> $filename
-    echo "Empty." >> $filename
+    echo "Empty.&nbsp;&#x25cf;" >> $filename
 }
 
 function add_content {
