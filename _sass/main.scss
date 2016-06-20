@@ -773,7 +773,7 @@ section.hub_column_main {
             }
         }
         
-        h1 {
+        h1, h2 {
             padding: 0 0 1px 0;
             @include max-screen(720px) {
                 padding: 0 0 5px 0;
