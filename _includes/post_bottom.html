@@ -1,7 +1,7 @@
 <!-- Add vertical space before the 'hr' so it does not look cramped -->
-<p class="padding_bottom_5" />
+<!-- <p class="padding_bottom_5" /> -->
 <hr class="thin">
-<div class="padding_bottom_25">
+<div>
     <p>
         <table class="tags">
             <tr>
@@ -15,11 +15,12 @@
         </table>
         
     </p>
-    <br/>
 
-    <div class="padding_bottom_25">
-        {% include socmed_twitter.html %}
-        {% include socmed_google_plus.html %}
+    <div id="post_operations">
+        <ul>
+            <li><a href="javascript:window.print()">Print</a></li>
+            <li><a href="https://twitter.com/share">Tweet</a></li>
+        </ul>
     </div>
     <!--
     <div id="page_previous">
