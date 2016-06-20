@@ -106,6 +106,9 @@ function create_newsbit {
             else
                 t update "$1"
             fi
+            git add $filename
+            git commit -m "Add news bit"
+            git push origin
         else
             add_empty
         fi
