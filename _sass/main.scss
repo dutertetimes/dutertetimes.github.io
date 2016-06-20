@@ -769,15 +769,15 @@ section.hub_column_main {
                     color: $color_news_hub_title;
                     border-bottom: 1px dotted $color_news_hub_title;
                     padding-bottom: 2px;
+                    @include max-screen(720px) {
+                        padding-bottom: 0px;
+                    }
                 }
             }
         }
         
         h1, h2 {
             padding: 0 0 1px 0;
-            @include max-screen(720px) {
-                margin: 0 0 4px 0;
-            }
         }
         
         p {
