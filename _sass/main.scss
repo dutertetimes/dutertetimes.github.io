@@ -934,6 +934,7 @@ section.post_column_main {
 
     ul, ol {
         @include bottom_margin;
+        margin-right: 30px;
         // Collapse bottom margin of inner 'ul'
         ul, ol {
             margin-bottom: 0px;
