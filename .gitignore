@@ -1,4 +1,5 @@
 # Local directories for local testing
+newsbit/scratch.txt
 Gemfile.lock
 .sass-cache/**
 assets/**
