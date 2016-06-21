@@ -5,7 +5,11 @@
         <div id="site_title">
             <img src="/images/du_times_02.1.png" width="35" height="35" alt='Duterte Times' />
             <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h1>
-            <p>{{ site.description }}</p>
+            {% if site.description %}
+                <p>{{ site.description }}</p>
+            {% else %}
+                <p>{{ site.tagline }}</p>
+            {% endif %}
         </div>
         <div id="site_title_right">
             <p><a rel="license" href="{{ site.data.links.cc_by_sa }}" target="_blank">Licensed under a <a rel="license" href="{{ site.data.links.cc_by_sa_license }}" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a> (<span class='highlight_cc'>CC BY-SA</span>). You are free to copy, reproduce, distribute, display, and make adaptations but you must provide proper attribution.</p>
