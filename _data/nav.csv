@@ -1,4 +1,4 @@
-name,link
-Home,/
-Government,/gov.html
-About,/about.html
+name,fa_icon,link
+Home,fa fa-home fa-lg,/
+Government,fa fa-institution,/gov.html
+About,fa fa-info fa-lg,/about.html

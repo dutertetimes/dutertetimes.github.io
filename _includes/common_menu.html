@@ -8,10 +8,11 @@
 {% endfor %}
 -->
 <ul>
-{% for nav_item in site.data.nav %}
+{% for item in site.data.nav %}
     <li>
-        <a href="{{ nav_item.link }}" {% if page.url == nav_item.link %} class="active" {% endif %}>
-            {{ nav_item.name }}
+        <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
+            <i class="{{ item.fa_icon }}" aria-hidden="true"></i>&nbsp;
+            {{ item.name }}
         </a>
     </li>
 {% endfor %}

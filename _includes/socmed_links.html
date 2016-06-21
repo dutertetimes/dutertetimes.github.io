@@ -5,9 +5,13 @@
     <a href="mailto:{{ site.author.email }}"   target="_blank" class="socmed_button">Email Us</a>
     -->
     <ul>
-    {% for item in site.author.social_media %}
+    {% for item in site.data.socmed %}
         <li>
-            <a href="{{ item.link }}" target="{{ item.target }}">{{ item.name }}</a>
+            <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}" class="tooltip">
+                <span class="tooltiptext">{{ item.name }}</span>
+                <i class="{{ item.fa_icon }}" aria-hidden="true"></i>&nbsp;
+                {{ item.name }}
+            </a>
         </li>
     {% endfor %}
     </ul>

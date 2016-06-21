@@ -7,7 +7,10 @@
         {% if postdate == nowday %}
             <div class="announcement_heading">
                 <img src="{{ post.image }}" class="label"/>
-                <h1>{{ post.title }}</h1>
+                <h1>
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;
+                    {{ post.title }}
+                </h1>
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}

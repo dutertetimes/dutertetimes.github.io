@@ -72,19 +72,6 @@ author:
   name:         'dutertetimes'
   icon:         duterte_times_twitter_summary_card_01.png
   github:       http://github.com/dutertetimes
-  social_media:
-    - name:     Email
-      address:  dutertetimes@gmail.com
-      link:     mailto:dutertetimes@gmail.com
-      target:   
-    - name:     Twitter
-      address:  dutertetimes
-      link:     https://twitter.com/dutertetimes
-      target:   _blank
-    - name:     YouTube
-      address:  https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1
-      link:     https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1
-      target:   _blank
   #wordpress:   http://dutertetimes.wordpress.com/
 
 defaults:
