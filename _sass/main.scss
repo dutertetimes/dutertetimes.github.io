@@ -224,14 +224,15 @@ div.footnotes {
 header {
 
     width: 100%;
-    height: 91px;
+    height: 90px;
     padding-top: 5px;
     margin: 0;
     z-index: 1000;
     @media screen {
         background: $color_header_bg;
     }
-    border-bottom: 5px solid $color_header_border_bottom;
+    border-bottom: 15px solid $color_header_border_bottom;
+
     @include min-screen(721px) {
         position: fixed;
     }
@@ -382,6 +383,22 @@ header {
     }
 }
 
+div.border_fade {
+    float: left;
+    z-index: 1001;
+    margin-top: 110px;
+    height: 15px;
+    width: 100%;
+    position: fixed;
+    /* fallback for old browsers */
+    background: white;
+    /* simple linear gradient */
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));        /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));      /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));     /* Standard syntax (must be last) */
+}
+
 
 
 main {
@@ -410,12 +427,7 @@ section {
     &.column_right_sidebar {
         float: left;
         font-family: $font_default;
-        margin: 0px 15px 15px 15px;
-    }
-    &.hub_column_main,
-    &.post_column_main,
-    &.page_column_main {
-        margin-top: 5px;
+        margin: 10px 15px 15px 15px;
     }
 }
 
@@ -559,9 +571,6 @@ section.column_left_sidebar {
         
         h1 {
             @include sidebar_component_label;
-            font-family: $font_announcement_title;
-            font-weight: normal;
-            color: $color_announcement_title;
             vertical-align: top;
             padding: 0 0 10px 0;
         }
@@ -618,6 +627,10 @@ section.column_left_sidebar {
         color: $color_quote_text;
         margin-top: 0px;
         margin-bottom: 0px;
+        
+        i.fa-quote-left {
+            color: lighten($color_quote_text, 65%);
+        }
         
         span {
             font-family: $font_quote_author;
@@ -1435,12 +1448,15 @@ footer {
     float: left;
     width: 100%;
 
-    font-family: $font_footer;
-    font-size: $font_size_footer;
-    color: $color_footer_text;
     background: $color_footer_bg;
     border-top: 3px solid $color_footer_border_top;
     padding: 20px 0px 20px 0px;
+    
+    p, em, a, li {
+        font-family: $font_footer;
+        font-size: $font_size_footer;
+        color: $color_footer_text;
+    }
 
     #footer_content {
         padding: 0px 0 0 25px;
@@ -1450,8 +1466,6 @@ footer {
         #footer_column_three,
         #footer_column_four {
             float: left;
-            //width: 282px;
-            //width: 260px;
             padding-right: 30px;
         }
 
@@ -1540,4 +1554,33 @@ footer {
 
 .padding_left_none {
     padding-left: 0px !important;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltiptext {
+    font-family: $font_default;
+    font-size: $font_size_default;
+    font-weight: normal;
+    visibility: hidden;
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 12px 5px 12px;
+    
+    bottom: 120%;
+    border-radius: 2px;
+    border: 1px solid black;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
