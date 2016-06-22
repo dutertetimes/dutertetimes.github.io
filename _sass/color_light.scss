@@ -101,7 +101,7 @@ $color_footer_bg:               $color_bg;
 $color_footer_border_top:       $color_primary;
 
 // Button links
-$color_button_text:             $color_header_bg;
-$color_button_bg:               $color_header_border_bottom;
+$color_button_text:             $color_header_title;
+$color_button_bg:               $color_header_bg;
 $color_button_hover_text:       $color_button_bg;
-$color_button_hover_bg:         $color_header_bg;
+$color_button_hover_bg:         $color_header_border_bottom;

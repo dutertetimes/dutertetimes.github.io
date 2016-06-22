@@ -125,7 +125,7 @@
 
     padding: 4px 10px 5px 10px;
     border-radius: 3px;
-    border: 1px solid $color_button_text;
+    border-bottom: none;
     
     cursor: pointer;
     background-image: none;
@@ -134,7 +134,7 @@
         font-weight: normal;
         color: $color_button_hover_text;
         background-color: $color_button_hover_bg;
-        border-bottom: 1px solid $color_button_hover_bg;
+        border-bottom: none;
     }
 }
 
@@ -142,6 +142,7 @@
     border-radius: 3px 3px 0 0;
     color: $color_button_text;
     background-color: $color_button_bg;
+    border-bottom: none;
     
     &:hover {
         font-weight: normal;
