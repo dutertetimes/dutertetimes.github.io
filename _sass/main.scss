@@ -865,11 +865,18 @@ section.post_column_main {
         width: $video_width_75;
         background: $color_bg;
         padding: 5px 5px 5px 5px;
-        margin: 0 0 20px 0;
+        margin: 0 0px 20px 0;
         iframe {
             width: $video_width_75;
             height: $video_height_75;
-            
+            @include max-screen(768px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+        @include max-screen(768px) {
+            width: calc(100% - 15px);
+            height: auto;
         }
         p.attribution {
             padding: 2px 0px 3px 0px;
