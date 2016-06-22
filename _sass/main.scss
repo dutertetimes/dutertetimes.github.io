@@ -356,8 +356,6 @@ header {
                     @include button;
                     @include top_button;
                     border: 1px solid $color_button_bg;
-                    // Override button styling
-                    padding-right: 7px;
                 }
             }
         }
@@ -383,6 +381,9 @@ header {
         @include max-screen(720px) {
             float: left;
             margin-left: 15px;
+        }
+        ul li a {
+            padding-right: 7px;
         }
     }
 }
