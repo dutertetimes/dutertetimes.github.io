@@ -18,13 +18,21 @@
     <div id="post_operations">
         <ul>
             <li>
-                <a href="javascript:window.print()">
+                <a href="javascript:window.print()"
+                    data-toggle="tooltip" 
+                    data-placement="top"
+                    title="Print the page or save as a PDF file"
+                >
                     <i class="fa fa-print fa-lg" aria-hidden="true"></i>&nbsp;
                     Print
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/share" data-via="{{ twitter }}">
+                <a href="https://twitter.com/share" data-via="{{ twitter }}"
+                    data-toggle="tooltip" 
+                    data-placement="top"
+                    title="Tweet this page"
+                >
                     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;
                     Tweet
                 </a>
