@@ -1,5 +1,5 @@
-name,address,link,target,fa_icon
-Email,dutertetimes@gmail.com,mailto:dutertetimes@gmail.com,,fa fa-envelope
-Twitter,@dutertetimes,https://twitter.com/dutertetimes,_blank,fa fa-twitter fa-lg
-YouTube,https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1,https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1,_blank,fa fa-youtube-play fa-lg
-RSS,/feed.xml,/feed.xml,_blank,fa fa-feed
+name,address,link,target,fa_icon,message
+Email,dutertetimes@gmail.com,mailto:dutertetimes@gmail.com,,fa fa-envelope,Send email to dutertetimes@gmail.com
+Twitter,@dutertetimes,https://twitter.com/dutertetimes,_blank,fa fa-twitter fa-lg,Open Duterte Times (@dutertetimes) twitter account
+YouTube,https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1,https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1,_blank,fa fa-youtube-play fa-lg,Open Duterte Times YouTube account
+RSS,/feed.xml,/feed.xml,_blank,fa fa-feed,Go to RSS feed

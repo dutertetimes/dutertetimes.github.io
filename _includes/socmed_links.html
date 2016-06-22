@@ -7,8 +7,10 @@
     <ul>
     {% for item in site.data.socmed %}
         <li>
-            <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}" class="tooltip">
-                <span class="tooltiptext">{{ item.name }}</span>
+            <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}"
+                data-toggle="tooltip" 
+                data-placement="top"
+                title="{{ item.message }}">
                 <i class="{{ item.fa_icon }}" aria-hidden="true"></i>&nbsp;
                 {{ item.name }}
             </a>
