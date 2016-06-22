@@ -236,6 +236,9 @@ header {
     @include min-screen(721px) {
         position: fixed;
     }
+    @include max-screen(720px) {
+        border-bottom: none;
+    }
 
     #site_header {
     
@@ -398,6 +401,10 @@ div.border_fade {
     background: -o-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));        /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));      /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.1));     /* Standard syntax (must be last) */
+    
+    @include max-screen(720px) {
+        display: none;
+    }
 }
 
 
@@ -411,6 +418,9 @@ main {
     @include min-screen(721px) {
         float: clear;
         padding-top: 110px;
+    }
+    @include max-screen(720px) {
+        padding-top: 0px;
     }
 }
 
