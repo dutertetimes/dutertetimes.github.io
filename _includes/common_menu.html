@@ -11,8 +11,8 @@
 {% for item in site.data.nav %}
     <li>
         <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
-            <i class="{{ item.fa_icon }}" aria-hidden="true"></i>&nbsp;
-            {{ item.name }}
+            <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
+            <span class="name">{{ item.name }}</span>
         </a>
     </li>
 {% endfor %}

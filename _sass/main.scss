@@ -344,7 +344,6 @@ header {
             padding: 0;
             
             li {
-                text-align: center;
                 // Display list items horizontally
                 display: inline;
                 list-style-type: none;
@@ -354,6 +353,8 @@ header {
                     @include button;
                     @include top_button;
                     border: 1px solid $color_button_bg;
+                    // Override button styling
+                    padding-right: 7px;
                 }
             }
         }
@@ -539,11 +540,13 @@ section.column_left_sidebar {
         padding: 0;
         
         li {
+            
             list-style-type: none;
             padding: 0;
             a {
                 @include button;
                 @include left_button;
+                text-align: left;
                 background-color: transparent;
                 &:hover {
                     background-color: $color_button_hover_bg;
