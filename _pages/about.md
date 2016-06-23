@@ -2,6 +2,7 @@
 layout: page
 title: About
 excerpt:
+permalink: /about/
 ---
 
 Duterte Times is an alternative online news.

@@ -1,4 +1,4 @@
 name,fa_icon,link
 Home,fa fa-home fa-fw,/
-Government,fa fa-institution fa-fw,/gov.html
-About,fa fa-exclamation-circle fa-rotate-180 fa-fw,/about.html
+Government,fa fa-institution fa-fw,/gov/
+About,fa fa-exclamation-circle fa-rotate-180 fa-fw,/about/
