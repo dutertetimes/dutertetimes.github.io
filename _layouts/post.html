@@ -7,8 +7,8 @@ layout: default
 <section class="post_column_main">
 
     <h1>{{ page.title }}</h1>
-    <p class="excerpt">{{ page.excerpt }}</p>
-    {% if page.date != nil %}
+    {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
+    {% if page.date %}
         {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
         {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
@@ -22,13 +22,13 @@ layout: default
     {% else %}
         <p class="date">Undated</p>
     {% endif %}
-    <p class="category padding_bottom_25">Filed under:&nbsp;
+    <p class="category">Filed under:&nbsp;
         {% for category in page.categories %}
             <span>{{ category }}</span>&nbsp;
         {% endfor %}
     </p>
 
-    {% if page.video != nil %}
+    {% if page.video %}
         <div class="video">
             <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video}}">https://www.youtube.com/watch?v={{ page.video}}</a></p>
             <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
