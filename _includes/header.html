@@ -4,7 +4,7 @@
     <div id="site_header">
         <div id="site_title">
             <img src="/images/du_times_02.1.png" width="35" height="35" alt='Duterte Times' />
-            <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h1>
+            <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}{% if site.development == true %}&nbsp;(Dev){% endif %}</a></h1>
             {% if site.description %}
                 <p>{{ site.description }}</p>
             {% else %}
