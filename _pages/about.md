@@ -19,7 +19,7 @@ The site aims to provide Filipino online citizens an alternative source of news 
 Except where otherwise noted, the content on this site (Duterte Times) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)]({{ site.data.links.cc_by_sa_license }}). You are free to copy reproduce, distribute, display, and make adaptations but you must provide [proper attribution]({{ site.data.link.attribution }}).
 
 * Visit the [Creative Commons]({{ site.data.links.creative_commons }}) website.
-* Read about [proper attribution]({{ site.data.link.attribution }}).
+* Read about [proper attribution]({{ site.data.links.attribution }}).
 
 
 <br/>
