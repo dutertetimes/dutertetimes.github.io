@@ -90,3 +90,13 @@ defaults:
 
 # Custom vars
 version:        0.1.0
+
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path
+    title: People
+  org:
+    output: true
+    permalink: /:collection/:path
+    title: Organization

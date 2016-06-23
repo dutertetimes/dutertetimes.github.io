@@ -1,7 +1,10 @@
 ---
-layout: page
 title: Philippine Government
-excerpt:
+excerpt: List of organizations
+layout: post
+categories: [org]
+tags: []
+published: true
 permalink: /gov/
 ---
 
