@@ -381,8 +381,11 @@ header {
             float: left;
             margin-left: 15px;
         }
-        ul li a {
-            padding-right: 7px;
+        ul li {
+            margin-right: 0px;
+            a {
+                padding-right: 7px;
+            }
         }
     }
 }
