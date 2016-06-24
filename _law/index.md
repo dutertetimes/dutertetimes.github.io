@@ -7,12 +7,7 @@ tags: []
 published: true
 ---
 
-{% if site.law == 0 %}
-No entries.
-{% else %}
-    {% for item in site.law %}
-        {% if item.url != page.url %}
-* [{{ item.title }}]({{ item.url }})
-        {% endif %}
-    {% endfor %}
-{% endif %}
+|-------------------------|--------------------------|--------------|
+| Official                | A.K.A.                   |
+|-------------------------|--------------------------|--------------|
+| Republic Act No. 10173  | Data Privacy Act of 2012 | [Link](http://www.gov.ph/2012/08/15/republic-act-no-10173/)
