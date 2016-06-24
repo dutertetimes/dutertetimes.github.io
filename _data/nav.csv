@@ -1,5 +1,5 @@
 name,mode,fa_icon,link
 Home,,fa fa-home fa-fw,/
-Government,,fa fa-institution fa-fw,/gov/
+Gov,,fa fa-institution fa-fw,/gov/
 About,,fa fa-exclamation-circle fa-rotate-180 fa-fw,/about/
 Info,dev,fa fa-exclamation-circle fa-rotate-180 fa-fw,/info/
