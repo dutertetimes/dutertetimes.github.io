@@ -100,3 +100,7 @@ collections:
     output: true
     permalink: /:collection/:path
     title: Organization
+  law:
+    output: true
+    permalink: /:collection/:path
+    title: Law
