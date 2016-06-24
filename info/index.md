@@ -8,7 +8,9 @@ published: true
 ---
 
 <ul>
+    <li><a href="/map/">Philippine Map</a></li>
     <li><a href="/people/">People</a></li>
     <li><a href="/org/">Organization</a></li>
+    <li><a href="/gov/">Government</a></li>
     <li><a href="/law/">Law</a></li>
 </ul>
