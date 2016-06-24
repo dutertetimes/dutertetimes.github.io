@@ -985,38 +985,53 @@ section.post_column_main {
     }
 
     table {
+        border-collapse: collapse;
         letter-spacing: 0px;
         border: 1px solid $color_table_border;
+        /*
         th, td {
             font-family: $font_default_thin;
             line-height: $font_size_default + 3;
-            border: 1px solid $color_table_border;
+            
             i, em {
                 font-family: $font_default_thin;
                 font-size: $font_size_default - 1;
                 line-height: $font_size_default;
             }
         }
+        */
 
         th {
+            font-family: $font_default_thin;
             font-size: $font_size_table_heading;
             font-weight: normal;
+            vertical-align: middle;
             padding: 5px 6px;
             background: $color_table_th_bg;
+            border: 1px solid $color_table_border;
+            
         }
 
         td {
+            font-family: $font_default_thin;
             font-size: $font_size_table_data;
-            vertical-align: top;
-            padding: 2px 6px 3px 6px;
+            vertical-align: middle;
+            padding: 1px 6px 1px 6px;
+            border: 1px solid $color_table_border;
 
             p {
-                margin: 5px 0 0 0;
+                margin: 0px 0 0 0;
                 &.label {
                     line-height: 19px;
                     margin: 0;
                     white-space: nowrap !important;
                 }
+            }
+            a {
+                font-family: $font_default_thin;
+                font-size: $font_size_table_data;
+                margin: 0px 0 0 0;
+                padding: 0;
             }
 
             ul, ol {
