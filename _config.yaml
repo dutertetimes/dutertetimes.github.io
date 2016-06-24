@@ -108,3 +108,8 @@ collections:
     output: true
     permalink: /:collection/:path
     title: Law
+  map:
+    output: true
+    permalink: /:collection/:path
+    title: Map
+    
