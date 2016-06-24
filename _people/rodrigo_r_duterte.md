@@ -9,4 +9,4 @@ published: true
 permalink: /:collection/:path
 ---
 
-This is a sample people collection entry.
+16th President of the Republic of the Philippines.
