@@ -21,7 +21,7 @@
 
 {% if site.development == true %}
     {% for item in site.data.nav %}
-        {% if item.mode == dev %}
+        {% if item.mode == "dev" %}
         <li>
             <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
                 <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
