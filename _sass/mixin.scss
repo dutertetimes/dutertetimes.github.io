@@ -120,21 +120,21 @@
 
     white-space: nowrap;
     
-    color: $color_button_text;
-    background-color: $color_button_bg;
+    color: $color_button_bg;
+    background-color: $color_button_text;
 
     padding: 4px 10px 5px 10px;
     border-radius: 3px;
-    border-bottom: none;
+    border: 1px solid $color_button_bg;
+    //border-bottom: none;
     
     cursor: pointer;
     background-image: none;
     
     &:hover {
         font-weight: normal;
-        color: $color_button_hover_text;
-        background-color: $color_button_hover_bg;
-        border-bottom: none;
+        color: $color_button_hover_bg;
+        background-color: $color_button_hover_text;
     }
 }
 
@@ -142,7 +142,7 @@
     border-radius: 3px 3px 0 0;
     color: $color_button_text;
     background-color: $color_button_bg;
-    border-bottom: none;
+    border: none;
     
     &:hover {
         font-weight: normal;
