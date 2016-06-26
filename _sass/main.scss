@@ -662,14 +662,14 @@ section.column_left_sidebar {
     }
 }
 
-#micro_news_roll {
+#newsbits_roll {
     @media print {
         padding-left: 0;
     }
     @include sidebar_component_scroll;
     margin-bottom: 15px;
 
-    div.micro_news {
+    div.newsbits {
         margin-top: 5px;
         margin-bottom: 0px;
         @include min-screen(721px) {
@@ -682,7 +682,7 @@ section.column_left_sidebar {
         overflow-x: hidden;
         background: $color_sidebar_bg;
 
-        div.entry {
+        div.newsbit {
             margin-right: 5px;
             h2 {
                 font-family: $font_news_title;
@@ -704,7 +704,7 @@ section.column_left_sidebar {
                 padding: 0;
             }
             p.date {
-                color: $color_micro_news_date;
+                color: $color_news_bit_date;
                 margin-bottom: 0px;
             }
             li {
@@ -1415,7 +1415,7 @@ section.column_right_sidebar {
                     }
                     padding: 0;
                     &.date {
-                        color: $color_micro_news_date;
+                        color: $color_news_bit_date;
                         margin-bottom: 0px;
                     }
                 }
