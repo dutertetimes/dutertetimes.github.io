@@ -23,4 +23,8 @@ collections:
     output: true
     permalink: /:collection/:path
     title: Map
+  sources:
+    output: true
+    permalink: /:collection/:path
+    title: Sources
     
