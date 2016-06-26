@@ -11,7 +11,7 @@ published: true
 {% for item in site.collections %}
     {% if item.title %}
     <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>
+        <a href="/{{ item.label }}">{{ item.title }}</a>
     </li>
     {% endif %}
 {% endfor %}
