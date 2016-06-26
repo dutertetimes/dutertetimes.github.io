@@ -2,7 +2,7 @@
 title: Government
 excerpt: Philippine Government
 layout: info
-categories: [people]
+categories: [government]
 tags: []
 published: true
 ---
