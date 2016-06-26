@@ -2,7 +2,7 @@
 title: Department of Education (DepEd)
 date: 2016-06-20T21:33:20UTC
 excerpt: Information about the Department of Education
-layout: post
+layout: info
 categories: [government]
 tags: []
 published: true
