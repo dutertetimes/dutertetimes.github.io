@@ -7,10 +7,12 @@ tags: []
 published: true
 ---
 
-<ul>
-    <li><a href="/map/">Philippine Map</a></li>
-    <li><a href="/people/">People</a></li>
-    <li><a href="/org/">Organization</a></li>
-    <li><a href="/gov/">Government</a></li>
-    <li><a href="/law/">Law</a></li>
-</ul>
+<ol>
+{% for item in site.collections %}
+    {% if item.title %}
+    <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {% endif %}
+{% endfor %}
+</ol>
