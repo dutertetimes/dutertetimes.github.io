@@ -1,1 +1,26 @@
 development: true
+
+
+
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path
+    title: People
+  org:
+    output: true
+    permalink: /:collection/:path
+    title: Organization
+  gov:
+    output: true
+    permalink: /:collection/:path
+    title: Government
+  law:
+    output: true
+    permalink: /:collection/:path
+    title: Law
+  map:
+    output: true
+    permalink: /:collection/:path
+    title: Map
+    
