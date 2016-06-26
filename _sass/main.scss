@@ -662,18 +662,14 @@ section.column_left_sidebar {
     }
 }
 
-#newsbits_roll {
+#micro_news_roll {
     @media print {
         padding-left: 0;
     }
     @include sidebar_component_scroll;
     margin-bottom: 15px;
 
-    h1 {
-        color: $color_sidebar_label;
-    }
-
-    div.newsbits {
+    div.micro_news {
         margin-top: 5px;
         margin-bottom: 0px;
         @include min-screen(721px) {
@@ -686,7 +682,7 @@ section.column_left_sidebar {
         overflow-x: hidden;
         background: $color_sidebar_bg;
 
-        div.newsbit {
+        div.entry {
             margin-right: 5px;
             h2 {
                 font-family: $font_news_title;
@@ -697,7 +693,7 @@ section.column_left_sidebar {
                 margin-top: 2px;
                 padding-left: 25px;
             }
-            p, li {
+            p, li, a {
                 font-family: $font_news_text;
                 font-size: $font_size_news_text;
                 margin-top: 2px;
@@ -706,10 +702,10 @@ section.column_left_sidebar {
                     margin-top: 5px;
                 }
                 padding: 0;
-                &.date {
-                    color: $color_news_bit_date;
-                    margin-bottom: 0px;
-                }
+            }
+            p.date {
+                color: $color_micro_news_date;
+                margin-bottom: 0px;
             }
             li {
                 margin-top: 0px;
@@ -1340,6 +1336,7 @@ section.column_right_sidebar {
         @include sidebar_component;
     }
 
+    /*
     #news_roll {
         @include sidebar_component_scroll;
         background: $color_sidebar_bg;
@@ -1368,6 +1365,63 @@ section.column_right_sidebar {
                 p {
                     font-family: $font_news_text;
                     font-size: $font_size_news_text;
+                }
+            }
+        }
+    }
+    */
+    #rssfeeds_roll {
+        @media print {
+            padding-left: 0;
+        }
+        @include sidebar_component_scroll;
+        margin-bottom: 15px;
+
+        h1 {
+            color: $color_sidebar_label;
+        }
+
+        div.rssfeeds {
+            margin-top: 5px;
+            margin-bottom: 0px;
+            @include min-screen(721px) {
+                height: 300px;
+                overflow-y: scroll;
+            }
+            @include max-screen(720px) {
+                padding-right: 15px;
+            }
+            overflow-x: hidden;
+            background: $color_sidebar_bg;
+
+            div.rssfeed {
+                margin-right: 5px;
+                h2 {
+                    font-family: $font_news_title;
+                    font-size: $font_size_news_title;
+                    font-weight: bold;
+                }
+                ul {
+                    margin-top: 2px;
+                    padding-left: 25px;
+                }
+                p, li, a {
+                    font-family: $font_news_text;
+                    font-size: $font_size_news_text;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                    @include max-screen(720px) {
+                        margin-top: 5px;
+                    }
+                    padding: 0;
+                    &.date {
+                        color: $color_micro_news_date;
+                        margin-bottom: 0px;
+                    }
+                }
+                li {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
                 }
             }
         }
@@ -1583,6 +1637,14 @@ footer {
         padding-right: 30px;
     }
 }
+
+
+
+// -------------------------------------------------------------------------
+// Same for left/right sidebar
+// -------------------------------------------------------------------------
+
+
 
 
 

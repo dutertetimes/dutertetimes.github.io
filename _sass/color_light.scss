@@ -73,8 +73,8 @@ $color_news_date:               $color_red - 50;
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
 
-// News bit
-$color_news_bit_date:           $color_red - 50;
+// Micro News
+$color_micro_news_date:         lighten($color_text, 50%);
 
 // Sidebar
 $color_sidebar_label:           $color_text;

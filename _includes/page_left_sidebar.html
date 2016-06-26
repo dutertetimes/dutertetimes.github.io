@@ -9,16 +9,16 @@
     
     {% include quotes.html %}
     
-    <div id="newsbits_roll">
-        <h1>News Bits</h1>
-        <div class="newsbits">
+    <div id="micro_news_roll">
+        <h1>Micro News</h1>
+        <div class="micro_news">
             {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
             {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
             {% for post in site.categories['newsbit'] limit:20 %}
                 {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
                     {% assign newsbit_content = post.excerpt | remove: '<p>' | remove: '</p>'%}
                     {% if newsbit_content != "" %}
-                    <div class="newsbit">
+                    <div class="entry">
                         <p class="date">
                             {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
                             {% if postdate == nowday %}
