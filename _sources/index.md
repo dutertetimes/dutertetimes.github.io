@@ -7,12 +7,8 @@ tags: []
 published: true
 ---
 
-<ul>
 {% for item in site.sources %}
     {% if item.url != page.url %}
-    <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-    </li>
+* [{{ item.title }}]({{ item.url }})
     {% endif %}
 {% endfor %}
-</ul>
