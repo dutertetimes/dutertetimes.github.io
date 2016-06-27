@@ -1,4 +1,5 @@
 # Local directories for local testing
+images/temp
 newsbit/_posts/post.sh
 newsbit/scratch.txt
 Gemfile.lock
