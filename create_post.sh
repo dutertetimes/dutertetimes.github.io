@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Create a post file at current directory
-# File format: YYYY-MM-DD-hhmmss.md
+# File format: YYYY-MM-DD-YYYYMMDDThhmmss.md
 
 current_time=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
 filename=$current_time.md
