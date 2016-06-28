@@ -570,42 +570,52 @@ section.column_left_sidebar {
     }
 }
 
-#announcement {
+#announcements {
 
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    margin-bottom: 15px;
-
-    div.announcement_heading {
-        margin: 0;
-        
-        img.label {
-            margin-right: 5px;
-            vertical-align: bottom;
-            float: right;
+    // Offset div.announcement bottom
+    margin-bottom: 3px;
+    
+    div.announcement {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 12px;
+       
+        div.announcement_heading {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            
+            img.label {
+                margin-right: 5px;
+                vertical-align: bottom;
+                float: right;
+            }
+            
+            h1 {
+                @include sidebar_component_label;
+                vertical-align: top;
+                padding-bottom: 0px;
+            }
         }
-        
-        h1 {
-            @include sidebar_component_label;
-            vertical-align: top;
-        }
-    }
-
-    p {
-        font-family: $font_announcement_text;
-        font-size: $font_size_sidebar;
-        line-height: $font_size_sidebar + 2;
-        text-align: left;
-        color: $color_announcement_text;
-        
-        margin: 0;
-        
-        &.date {
-            font-family: $font_announcement_date;
-            font-size: $font_size_announcement_date;
-            color: $color_announcement_date;
-            margin: 0;
+    
+        p {
+            font-family: $font_announcement_text;
+            font-size: $font_size_announcement_text;
+            //line-height: $font_size_sidebar + 2;
+            text-align: left;
+            color: $color_announcement_text;
+            
+            margin-top: 2px;
+            margin-bottom: 2px;
+            
+            &.date {
+                font-family: $font_announcement_date;
+                font-size: $font_size_announcement_date;
+                color: $color_announcement_date;
+                //margin: 0;
+            }
         }
     }
 }

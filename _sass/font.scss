@@ -63,9 +63,10 @@ $font_size_label:           11px;
 
 // Announcement
 $font_announcement_title:       $font_label;
-$font_announcement_date:        $font_label;
-$font_size_announcement_date:   $font_size_label - 2;
+$font_announcement_date:        $font_serif_thin;
+$font_size_announcement_date:   13px;
 $font_announcement_text:        $font_serif_thin;
+$font_size_announcement_text:   13px;
 
 // Page and Post
 $font_page_title:               $font_heading;

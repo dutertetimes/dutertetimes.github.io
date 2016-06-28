@@ -59,7 +59,7 @@ $color_nav_bg:                  $color_header_bg;
 
 // Announcement
 $color_announcement_title:      $color_red;
-$color_announcement_date:       $color_text;
+$color_announcement_date:       lighten($color_text, 30%);
 $color_announcement_text:       $color_text;
 
 // News Hub
