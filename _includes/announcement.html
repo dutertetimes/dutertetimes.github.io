@@ -1,7 +1,7 @@
 <div id="announcements">
     {% assign found = false %}
     {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
-    {% for post in site.categories['announce'] %}
+    {% for post in site.categories['announcement'] %}
         {% capture postdatestart %}{{ post.datestart | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture eventdatestart %}{{ post.eventdatestart | date: '%Y-%m-%d' }}{% endcapture %}
