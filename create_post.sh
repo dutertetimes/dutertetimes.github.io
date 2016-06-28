@@ -134,8 +134,10 @@ function create_announcement {
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
         echo "permalink: " >> $filename
+        echo "link: " >> $filename
         add_yaml_bar
-        add_empty
+        echo "" >> $filename
+        echo "{% if page.link %} [read more...](/post/{{ page.link }}.html) &#x25cf; {% else %} &#x25cf; {% endif %}" >> $filename
 
         echo "Announcement file created: $filename"
     fi
