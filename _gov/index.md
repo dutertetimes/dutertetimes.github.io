@@ -12,30 +12,24 @@ You may check out what we have for now.
 
 ## Executive
 
-{% for item in site.gov %}
-    {% if item.url != page.url %}
-        {% if item.branch == "executive" %}
-* [{{ item.title }}]({{ item.url }})
-        {% endif %}
-    {% endif %}
-{% endfor %}
+|------|------|
+| Name | Link |
+|------|------|
+{% for item in site.gov %} {% if item.url != page.url %} {% if item.branch == "executive" %} {{ item.title }} | [Link]({{ item.url }})
+{% endif %} {% endif %} {% endfor %}
 
 ## Legislative
 
-{% for item in site.gov %}
-    {% if item.url != page.url %}
-        {% if item.branch == "legislative" %}
-* [{{ item.title }}]({{ item.url }})
-        {% endif %}
-    {% endif %}
-{% endfor %}
+|------|------|
+| Name | Link |
+|------|------|
+{% for item in site.gov %} {% if item.url != page.url %} {% if item.branch == "legislative" %} {{ item.title }} | [Link]({{ item.url }})
+{% endif %} {% endif %} {% endfor %}
 
 ## Judiciary
 
-{% for item in site.gov %}
-    {% if item.url != page.url %}
-        {% if item.branch == "judiciary" %}
-* [{{ item.title }}]({{ item.url }})
-        {% endif %}
-    {% endif %}
-{% endfor %}
+|------|------|
+| Name | Link |
+|------|------|
+{% for item in site.gov %} {% if item.url != page.url %} {% if item.branch == "judiciary" %} {{ item.title }} | [Link]({{ item.url }})
+{% endif %} {% endif %} {% endfor %}

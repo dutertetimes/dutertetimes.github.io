@@ -9,14 +9,23 @@ published: true
 
 ## Commerce and Industry
 
-[Philippine Chamber of Commerce and Industry](http://www.philippinechamber.com/)
+|------|------|
+| Name | Link |
+|------|------|
+| Philippine Chamber of Commerce and Industry (PCCI) | [Link](http://www.philippinechamber.com/)
+| Open Energy Info (OpenEI) | [Link](http://en.openei.org/wiki/Philippines)
 
 ## Mapping
 
-[Philippine Geoportal](http://geoportal.gov.ph/viewer/)
-[Map Central]()
+|------|------|
+| Name | Link |
+|------|------|
+| Philippine Geoportal | [Link](http://geoportal.gov.ph/viewer/)
+| Map Central | [Link](#)
 
 ## Other Supporting Information Sources
 
-[Max Defense](http://maxdefense.blogspot.com/)<br/>
-A personal viewpoint on defense matters in the Philippines and Asia-Pacific region.
+|------|------|
+| Name | Link |
+|------|------|
+| Max Defense Blog | [Link](http://maxdefense.blogspot.com/)

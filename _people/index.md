@@ -7,12 +7,8 @@ tags: []
 published: true
 ---
 
-<ul>
-{% for item in site.people %}
-    {% if item.url != page.url %}
-    <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-    </li>
-    {% endif %}
-{% endfor %}
-</ul>
+|------|------|
+| Name | Link |
+|------|------|
+{% for item in site.people %} {% if item.url != page.url %} {{ item.title }} | [Link]({{ item.url }})
+{% endif %} {% endfor %}

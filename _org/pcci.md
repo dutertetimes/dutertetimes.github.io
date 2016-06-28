@@ -1,5 +1,5 @@
 ---
-title: Philippine Chamber of Commerce and Industry
+title: Philippine Chamber of Commerce and Industry (PCCI)
 date: 2016-06-20T21:33:20UTC
 excerpt: What is the Philippine Chamber of Commerce and Industry?
 layout: post
