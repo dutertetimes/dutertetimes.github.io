@@ -578,7 +578,8 @@ section.column_left_sidebar {
     margin-bottom: 15px;
 
     div.announcement_heading {
-
+        margin: 0;
+        
         img.label {
             margin-right: 5px;
             vertical-align: bottom;
@@ -588,7 +589,6 @@ section.column_left_sidebar {
         h1 {
             @include sidebar_component_label;
             vertical-align: top;
-            padding: 0 0 10px 0;
         }
     }
 
