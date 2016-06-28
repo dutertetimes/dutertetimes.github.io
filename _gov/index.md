@@ -10,12 +10,32 @@ published: true
 Duterte Times is in the process of collecting and building its database.
 You may check out what we have for now.
 
-<ul>
+## Executive
+
 {% for item in site.gov %}
     {% if item.url != page.url %}
-    <li>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-    </li>
+        {% if item.branch == "executive" %}
+* [{{ item.title }}]({{ item.url }})
+        {% endif %}
     {% endif %}
 {% endfor %}
-</ul>
+
+## Legislative
+
+{% for item in site.gov %}
+    {% if item.url != page.url %}
+        {% if item.branch == "legislative" %}
+* [{{ item.title }}]({{ item.url }})
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+## Judiciary
+
+{% for item in site.gov %}
+    {% if item.url != page.url %}
+        {% if item.branch == "judiciary" %}
+* [{{ item.title }}]({{ item.url }})
+        {% endif %}
+    {% endif %}
+{% endfor %}
