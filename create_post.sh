@@ -124,9 +124,13 @@ function create_announcement {
         echo "File ($(filename)) already exists."
     else
         touch $filename
-
+        
         add_yaml_bar
         add_default "Announcement"
+        echo "datestart:      $(date -u +'%Y-%m-%d')" >> $filename
+        echo "dateend:        $(date -u +'%Y-%m-%d')" >> $filename
+        echo "eventdatestart: $(date -u +'%Y-%m-%d')" >> $filename
+        echo "eventdateend:   $(date -u +'%Y-%m-%d')" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
         echo "permalink: " >> $filename
