@@ -600,7 +600,7 @@ section.column_left_sidebar {
             }
         }
     
-        p {
+        p, a {
             font-family: $font_announcement_text;
             font-size: $font_size_announcement_text;
             //line-height: $font_size_sidebar + 2;
