@@ -12,7 +12,7 @@ layout: default
     {% assign counter = 0 %}
     {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
     {% capture nowyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
-    {% for post in site.categories['post'] limit:5 %}
+    {% for post in site.categories['post'] limit:10 %}
         {% if counter == 0 %}
             <div class="news_latest">
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
