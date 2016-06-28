@@ -1,33 +1,31 @@
-<div id="announcement">
-    {% capture nowday %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-    {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
+<div id="announcements">
     {% assign found = false %}
-    {% for post in site.categories['announce'] limit:1 %}
-        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-        {% if postdate == nowday %}
-            <div class="announcement_heading">
-                <img src="{{ post.image }}" class="label"/>
-                <h1>
-                    <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;
-                    {{ post.title }}
-                </h1>
-                {% if post.date == nil %}
-                    <p class="date">Undated</p>
-                {% else %}
+    {% capture currentdate %}{{ site.time | date: '%F' }}{% endcapture %}
+    {% for post in site.categories['announce'] %}
+        {% capture postdatestart %}{{ post.datestart | date: '%Y-%m-%d' }}{% endcapture %}
+        {% capture postdateend %}{{ post.dateend | date: '%Y-%m-%d' }}{% endcapture %}
+        {% if currentdate >= postdatestart and currentdate <= postdateend %}
+            <div class="announcement">
+                <div class="announcement_heading">
+                    <img src="{{ post.image }}" class="label"/>
+                    <h1>
+                        {{ post.title }}
+                        <i class="fa fa-exclamation-circle fa-fw fa-lg" aria-hidden="true"></i>
+                    </h1>
                     <p class="date">
-                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowday %}
-                            {{ post.date | date: site.data.format.same_day }}
-                        {% elsif postyear == nowyear %}
-                            {{ post.date | date: site.data.format.same_year }}
+                        {% if postdatestart != postdateend %}
+                            {{ post.datestart | date: '%a %d %b %Y' }} - {{ post.dateend | date: '%a %d %b %Y' }}
+                        {% else %}
+                            {{ post.datestart | date: '%a %d %b %Y' }}
                         {% endif %}
                     </p>
+                </div>
+                {% if post.excerpt %}
+                    <p class="excerpt">{{ post.content }}</p>
                 {% endif %}
             </div>
-            {% if post.excerpt != nil %}
-                <p class="excerpt">{{ post.excerpt }}</p>
-            {% endif %}
             {% assign found = true %}
+        {% else %}
             {% break %}
         {% endif %}
     {% endfor %}
