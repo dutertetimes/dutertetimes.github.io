@@ -4,6 +4,8 @@
     {% for post in site.categories['announce'] %}
         {% capture postdatestart %}{{ post.datestart | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%Y-%m-%d' }}{% endcapture %}
+        {% capture eventdatestart %}{{ post.eventdatestart | date: '%Y-%m-%d' }}{% endcapture %}
+        {% capture eventdateend %}{{ post.eventdateend | date: '%Y-%m-%d' }}{% endcapture %}
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
             <div class="announcement">
                 <div class="announcement_heading">
@@ -13,10 +15,10 @@
                         <i class="fa fa-exclamation-circle fa-fw fa-lg" aria-hidden="true"></i>
                     </h1>
                     <p class="date">
-                        {% if postdatestart != postdateend %}
-                            {{ post.datestart | date: '%a %d %b %Y' }} - {{ post.dateend | date: '%a %d %b %Y' }}
+                        {% if eventdatestart != eventdateend %}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
                         {% else %}
-                            {{ post.datestart | date: '%a %d %b %Y' }}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }}
                         {% endif %}
                     </p>
                 </div>
