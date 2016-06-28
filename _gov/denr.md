@@ -1,5 +1,6 @@
 ---
 title: Department of Environment and Natural Resources (DENR)
+branch: executive
 date: 2016-06-20T21:33:20UTC
 excerpt: Information about the Department of Environment and Natural Resources
 layout: info

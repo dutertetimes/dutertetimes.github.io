@@ -1,5 +1,6 @@
 ---
 title: Philippine National Police (PNP)
+branch: executive
 date: 2016-06-20T21:33:20UTC
 excerpt: Information about the Philippine National Police
 layout: info
