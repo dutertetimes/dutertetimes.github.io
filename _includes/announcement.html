@@ -4,6 +4,7 @@
     {% for post in site.categories['announcement'] %}
         {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
+        <p>{{ currentdate }}&nbsp;&nbsp;&nbsp;{{ postdatestart }}&nbsp;&nbsp;&nbsp;{{ postdateend }}</p>
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
             <div class="announcement">
                 <div class="announcement_heading">
