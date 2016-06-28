@@ -23,15 +23,6 @@
                 dateutc.text(utcTime.format(datefmt));
                 timeutc.text(utcTime.format(timefmt));
                 timeutc24.text(utcTime.format(timefmt24));
-                
-                var dateserver = $('#date_server');
-                var timeserver = $('#time_server');
-                var timeserver24 = $('#time24_server');
-                
-                var serverTime = moment(moment.utc().toDate());
-                dateserver.text(serverTime.format(datefmt));
-                timeserver.text(serverTime.format(timefmt));
-                timeserver24.text(serverTime.format(timefmt24));
             }, 1000);
         });
     </script>
@@ -76,27 +67,6 @@
                 <td>
                     <p class="datetime24">
                         <span id="time24_utc"></span>
-                    </p>
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <p class="label">SRV&nbsp;&nbsp;</p>
-                </td>
-                <td>
-                    <p class="datetime">
-                        <span id="date_server"></span>
-                    </p>
-                </td>
-                <td>
-                    <p class="datetime">
-                        <span id="time_server"></span>
-                    </p>
-                </td>
-                <td>
-                    <p class="datetime24">
-                        <span id="time24_server"></span>
                     </p>
                 </td>
             </tr>
