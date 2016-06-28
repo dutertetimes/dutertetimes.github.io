@@ -7,8 +7,16 @@ tags: []
 published: true
 ---
 
-{% for item in site.sources %}
-    {% if item.url != page.url %}
-* [{{ item.title }}]({{ item.url }})
-    {% endif %}
-{% endfor %}
+## Commerce and Industry
+
+[Philippine Chamber of Commerce and Industry](http://www.philippinechamber.com/)
+
+## Mapping
+
+[Philippine Geoportal](http://geoportal.gov.ph/viewer/)
+[Map Central]()
+
+## Other Supporting Information Sources
+
+[Max Defense](http://maxdefense.blogspot.com/)<br/>
+A personal viewpoint on defense matters in the Philippines and Asia-Pacific region.
