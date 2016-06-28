@@ -515,21 +515,30 @@ section.column_left_sidebar {
     
     table {
         width: 100%;
-        tr td {
-            white-space: nowrap;
-            .filler {
-                width: 100%
+        tr {
+            margin: 0;
+            padding: 0;
+            td {
+                margin: 0;
+                padding: 0;
+                white-space: nowrap;
             }
         }
     }
 
     p {
-        font-family: $font_sidebar;
+        font-family: $font_sans_thin;
         font-size: $font_size_sidebar - 1;
         line-height: $font_size_sidebar + 2;
         margin: 0;
         padding: 0;
+        &.label {
+            text-align: left;
+        }
         &.datetime {
+            text-align: center;
+        }
+        &.datetime24 {
             text-align: center;
         }
     }
