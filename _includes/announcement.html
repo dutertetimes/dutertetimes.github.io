@@ -4,9 +4,9 @@
     {% for post in site.categories['announcement'] %}
         {% capture postdatestart %}{{ post.datestart | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%Y-%m-%d' }}{% endcapture %}
-        {% capture eventdatestart %}{{ post.eventdatestart | date: '%Y-%m-%d' }}{% endcapture %}
-        {% capture eventdateend %}{{ post.eventdateend | date: '%Y-%m-%d' }}{% endcapture %}
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
+            {% capture eventdatestart %}{{ post.eventdatestart | date: '%Y-%m-%d' }}{% endcapture %}
+            {% capture eventdateend %}{{ post.eventdateend | date: '%Y-%m-%d' }}{% endcapture %}
             <div class="announcement">
                 <div class="announcement_heading">
                     <img src="{{ post.image }}" class="label"/>
@@ -27,8 +27,6 @@
                 {% endif %}
             </div>
             {% assign found = true %}
-        {% else %}
-            {% break %}
         {% endif %}
     {% endfor %}
     {% if found == false %}
