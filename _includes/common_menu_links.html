@@ -1,0 +1,27 @@
+<div id="common_menu_links">
+    <ul>
+    {% for item in site.data.nav %}
+        {% if item.mode != "dev" %}
+        <li>
+            <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
+                <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
+                <span class="name">{{ item.name }}</span>
+            </a>
+        </li>
+        {% endif %}
+    {% endfor %}
+
+    {% if site.development == true %}
+        {% for item in site.data.nav %}
+            {% if item.mode == "dev" %}
+            <li>
+                <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
+                    <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
+                    <span class="name">{{ item.name }}</span>
+                </a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    </ul>
+</div>

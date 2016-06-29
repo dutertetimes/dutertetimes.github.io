@@ -22,9 +22,9 @@ $color_link_underline:	        $color_primary;
 $color_heading_text:            black;
 
 // Header
-$color_header_title:            $color_main_bg;
-$color_header_title_tag:        $color_main_bg;
-$color_header_bg:               $color_primary;
+$color_header_title:            $color_text;
+$color_header_title_tag:        $color_text;
+$color_header_bg:               darken($color_main_bg, 0%);
 $color_header_border_top:       $color_primary;
 $color_header_border_bottom:    $color_main_bg;
 
@@ -101,7 +101,7 @@ $color_footer_bg:               $color_bg;
 $color_footer_border_top:       $color_primary;
 
 // Button links
-$color_button_text:             $color_header_title;
-$color_button_bg:               $color_header_bg;
+$color_button_text:             $color_main_bg;
+$color_button_bg:               $color_primary;
 $color_button_hover_text:       $color_button_bg;
 $color_button_hover_bg:         $color_header_border_bottom;
