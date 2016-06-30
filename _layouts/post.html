@@ -28,6 +28,14 @@ layout: default
         {% endfor %}
     </p>
 
+    {% if page.image %}
+        <div class="image">
+            <img width="100%" height="auto" src="{{ page.image }}" />
+            <p class="attribution">&nbsp;— image courtesy of {{ page.imageref }}</p>
+        </div>
+    {% else %}
+    {% endif %}
+    
     {% if page.video %}
         <div class="video">
             <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video}}">https://www.youtube.com/watch?v={{ page.video}}</a></p>
