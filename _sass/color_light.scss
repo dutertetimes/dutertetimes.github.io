@@ -79,7 +79,7 @@ $color_news_bit_date:         lighten($color_text, 30%);
 // Sidebar
 $color_sidebar_label:           $color_text;
 $color_sidebar_text:            $color_text;
-$color_sidebar_bg:              #f5f5f5;
+$color_sidebar_bg:              $color_main_bg;
 
 // Aside
 $color_aside_text:              $color_text;
