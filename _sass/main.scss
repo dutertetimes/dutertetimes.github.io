@@ -584,7 +584,6 @@ section.column_left_sidebar {
         p, a {
             font-family: $font_announcement_text;
             font-size: $font_size_announcement_text;
-            //line-height: $font_size_sidebar + 2;
             text-align: left;
             color: $color_announcement_text;
             
@@ -595,7 +594,6 @@ section.column_left_sidebar {
                 font-family: $font_announcement_date;
                 font-size: $font_size_announcement_date;
                 color: $color_announcement_date;
-                //margin: 0;
             }
         }
     }
