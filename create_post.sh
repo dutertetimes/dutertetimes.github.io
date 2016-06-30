@@ -137,7 +137,7 @@ function create_announcement {
         echo "link: " >> $filename
         add_yaml_bar
         echo "" >> $filename
-        echo "{% if page.link %} [read more...](/post/{{ page.link }}.html) &#x25cf; {% else %} &#x25cf; {% endif %}" >> $filename
+        echo "<a href='/post/{{ page.link }}.html'>[read more...]</a> &#x25cf;" >> $filename;
 
         echo "Announcement file created: $filename"
     fi
