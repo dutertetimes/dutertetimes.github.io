@@ -138,16 +138,15 @@
 }
 
 @mixin top_button {
-    border-radius: 3px 3px 0 0;
+    border-radius: 4px 4px 0 0;
     color: $color_button_text;
     background-color: $color_button_bg;
-    border: none;
+    border: 1px solid $color_button_bg;
     
     &:hover {
         font-weight: normal;
         color: $color_button_hover_text;
         background-color: $color_button_hover_bg;
-        border-bottom: 1px solid $color_button_hover_bg;
     }
 }
 
