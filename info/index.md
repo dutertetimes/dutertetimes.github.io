@@ -1,7 +1,7 @@
 ---
 title: Information Hub
 excerpt: List of information categories
-layout: post
+layout: info
 categories: [info]
 tags: []
 published: true
