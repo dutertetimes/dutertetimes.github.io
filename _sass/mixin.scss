@@ -85,28 +85,78 @@
         font-size: $font_size_label + 1;
     }
     font-weight: bold;
-    color: $color_secondary;
+    color: $color_sidebar_label;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-top: 1px;
+}
+
+@mixin sidebar_component {
+    margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 @mixin sidebar_component_boxed {
+    @include sidebar_component;
     border-radius: 3px;
     padding: 10px 13px 12px 13px;
-    background: $color_sidebar_bg;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
-}
-
-@mixin sidebar_component_scroll {
-    border-radius: 3px;
-    padding: 10px 2px 13px 13px;
     @include max-screen(720px) {
         padding: 10px 0px 0px 0px;
     }
     background: $color_sidebar_bg;
     @include min-screen(721px) {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
+    }
+}
+
+@mixin sidebar_component_scroll {
+    @include sidebar_component_boxed;
+    padding-right: 2px;
+    //padding: 10px 2px 13px 13px;
+}
+
+@mixin sidebar_component_scroll_internal($height) {
+    margin-top: 5px + 3px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    @include min-screen(721px) {
+        height: $height;
+        overflow-y: scroll;
+    }
+    @include max-screen(720px) {
+        padding-right: 15px;
+    }
+    overflow-x: hidden;
+    background: $color_sidebar_bg;
+}
+
+@mixin component_entry {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+@mixin component_entry_heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@mixin component_entry_content {
+    ul {
+        margin-top: 2px;
+        padding-left: 25px;
+    }
+    p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        @include max-screen(720px) {
+            margin-top: 5px;
+        }
+        padding: 0;
+    }
+    li {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
 

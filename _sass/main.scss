@@ -546,77 +546,86 @@ section.column_left_sidebar {
     }
 }
 
-#random_quotes div.quote {
-   
-    margin-bottom: 15px;
-    padding-top: 10px;
+#random_quotes_block {
+
+    @include sidebar_component;
     @media print {
         padding: 10px 50px 12px 50px;
     }
-        
-    table {
-        margin: 0px;
-        margin-top: 8px;
-    }
-    table tr td {
-        vertical-align: top;
-        border: none;
-        padding: 0px;
-    }
     
-    p {
-        font-family: $font_quote;
-        font-size: $font_size_quote;
-        @include max-screen(720px) {
-            font-size: $font_size_quote + 1;
-        }
-        font-style: normal;
-        line-height: $font_line_height_quote;
-        letter-spacing: 0.25px;
-        color: $color_quote_text;
-        margin-top: 0px;
-        margin-bottom: 0px;
+    div.random_quotes {
+        div.quote {
         
-        i.fa-quote-left {
-            color: lighten($color_quote_text, 65%);
-        }
-        
-        span {
-            font-family: $font_quote_author;
-            font-size: $font_size_quote_author;
-            font-style: normal;
-            color: $color_quote_author;
+            p {
+                font-family: $font_quote;
+                font-size: $font_size_quote;
+                @include max-screen(720px) {
+                    font-size: $font_size_quote + 1;
+                }
+                font-style: normal;
+                line-height: $font_line_height_quote;
+                letter-spacing: 0.25px;
+                color: $color_quote_text;
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+                i.fa-quote-left {
+                    color: lighten($color_sidebar_label, 15%);
+                }
+            }
             
-        }
-        span.qauthor {
-            text-transform: uppercase;
-            font-weight: normal;
+            table {
+                border-collapse: collapse;
+                margin: 3px 0px 0px 0px;
+                padding: 0px;
+            }
+            table tbody {
+                tr {
+                    margin: 0px;
+                    padding: 0px;
+                    
+                    td {
+                        margin: 0px;
+                        padding: 0px;
+
+                        p {
+                            margin: 0px;
+                            padding: 0px;
+                            
+                            font-family: $font_quote_author;
+                            font-size: $font_size_quote_author;
+                            font-weight: normal;
+
+                            &.qauthor {
+                                font-style: normal;
+                                text-transform: uppercase;
+                                color: $color_quote_author;
+                                // To center the author with the emdash on the left column
+                                padding-top: 2px;
+                            }
+                            &.context {
+                                color: lighten($color_quote_author, 20%);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 #announcements_block {
     
+    @include sidebar_component;
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    margin-bottom: 15px;
-    padding-top: 10px;
-    
-    h1 {
-        margin-bottom: 12px;
-    }
     
     div.announcements {
-    
         div.announcement {
-            margin-top: 0px;
-            margin-bottom: 15px;
+            @include component_entry;
            
             div.announcement_heading {
-                margin-bottom: 0px;
-                padding-bottom: 0px;
-                
                 img.label {
                     margin-right: 5px;
                     vertical-align: bottom;
@@ -629,26 +638,11 @@ section.column_left_sidebar {
                     font-weight: bold;
                     color: $color_announcement_title;
                     text-transform: uppercase;
-                    margin-bottom: 2px;
+                    @include component_entry_heading;
                 }
             }
             
-            ul {
-                margin-top: 2px;
-                padding-left: 25px;
-            }
-            p {
-                margin-top: 2px;
-                margin-bottom: 2px;
-                @include max-screen(720px) {
-                    margin-top: 5px;
-                }
-                padding: 0;            
-            }
-            li {
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
+            @include component_entry_content;
         
             p, li, a {
                 font-family: $font_announcement_text;
@@ -672,65 +666,27 @@ section.column_left_sidebar {
         padding-left: 0;
     }
     @include sidebar_component_scroll;
-    margin-top: 30px;
-    @include max-screen(720px) {
-        margin-top: 20px;
-    }
-    margin-bottom: 15px;
-    
-    h1 {
-        margin-top: 1px;
-    }
+    margin-top: 25px;
 
     // Because of the scroll div the news bit "titles" cannot have top margin.
     // to align the first news bit "title" with the top of the scroll div.
     // This means we have to offset the news bit div.
     div.newsbits {
-        // plus offset
-        margin-top: 5px + 3px;
-        margin-bottom: 0px;
-        @include min-screen(721px) {
-            height: 300px;
-            overflow-y: scroll;
-        }
-        @include max-screen(720px) {
-            padding-right: 15px;
-        }
-        overflow-x: hidden;
-        background: $color_sidebar_bg;
+        @include sidebar_component_scroll_internal(300px);
 
         div.newsbit {
-            margin-right: 5px;
-            margin-bottom: 10px;
+            @include component_entry;
             
             div.newsbit_heading {
-                margin-bottom: 0px;
-                padding-bottom: 0px;
                 h2 {
                     font-family: $font_news_text;
                     font-size: $font_size_news_text;
                     font-weight: normal;
                     color: $color_news_bit_date;
-                    margin-top: 0px;
-                    margin-bottom: 2px;
+                    @include component_entry_heading;
                 }
             }
-            ul {
-                margin-top: 2px;
-                padding-left: 25px;
-            }
-            p {
-                margin-top: 2px;
-                margin-bottom: 2px;
-                @include max-screen(720px) {
-                    margin-top: 5px;
-                }
-                padding: 0;            
-            }
-            li {
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
+            @include component_entry_content;
             p, li, a {
                 font-family: $font_news_text;
                 font-size: $font_size_news_text;
@@ -1373,15 +1329,15 @@ section.column_right_sidebar {
     }
 
     div {
-        margin-bottom: 12px;
+        //margin-bottom: 12px;
     }
 
     #rssfeeds_roll {
         @media print {
             padding-left: 0;
         }
-        @include sidebar_component_scroll;
-        margin-bottom: 15px;
+        @include sidebar_component_boxed;
+        //margin-bottom: 15px;
 
         h1 {
             color: $color_sidebar_label;
@@ -1433,30 +1389,40 @@ section.column_right_sidebar {
         }
     }
     
-    #related_posts,
-    #recent_posts {
-        ul {
-            padding: 0;
-            margin-top: 0;
-            list-style-type: none;
+    #related_posts_block,
+    #recent_posts_block {
+    
+        @include sidebar_component_boxed;
+        
+        div.related_posts,
+        div.recent_posts {
+        
+            div.related_post,
+            div.recent_post {
             
-            li {
-                h2 {
-                    // h2 settings only used for 'no related posts'
-                    font-family: $font_related_post_title;
-                    font-size: $font_size_related_post_title;
-                    font-weight: normal;
-                    line-height: $font_size_related_post_title;
-                    a {
+                @include component_entry;
+            
+                div.related_post_heading,
+                div.recent_post_heading {
+                    // <h2> tags used for 'no related posts'
+                    // while <a> for the actual heading and link
+                    h2 {
                         font-family: $font_related_post_title;
                         font-size: $font_size_related_post_title;
-                        font-weight: bold;
-                        line-height: $font_size_related_post_title + 2;
+                        font-weight: normal;
+                        line-height: $font_size_related_post_title;
+                        a {
+                            font-family: $font_related_post_title;
+                            font-size: $font_size_related_post_title;
+                            font-weight: bold;
+                            line-height: $font_size_related_post_title + 2;
+                        }
+                        @include component_entry_heading;
                     }
                 }
-                h2, p {
-                    margin: 0px 0 2px 0;
-                }
+                
+                @include component_entry_content;
+                
                 p {
                     &.date {
                         font-family: $font_related_post_date;
