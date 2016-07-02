@@ -15,6 +15,7 @@ function show_usage {
     echo "Options:"
     echo "  -a              Announcement file"
     echo "  -d, --draft     Draft post file"
+    echo "  -f, --feature   Feature post file"
     echo "  -nb             News bit file"
     echo "  -p              Post file"
     echo "  -h, --help      Show usage"
@@ -69,6 +70,33 @@ function create_post {
         add_empty
 
         echo "Post file created: $filename"
+    fi
+}
+
+function create_feature_post {
+    if [ -e $filename ]; then
+        echo "File ($(filename)) already exists."
+    else
+        touch $filename
+
+        add_yaml_bar
+        add_default
+        echo "excerpt: " >> $filename
+        echo "layout: post" >> $filename
+        echo "categories: [feature]" >> $filename
+        echo "tags: " >> $filename
+        if [ $# -eq 0 ]; then
+            echo "published: true" >> $filename
+        fi
+        if [ "$1" = "draft" ]; then
+            echo "published: false" >> $filename
+        else
+            echo "published: true" >> $filename
+        fi
+        add_yaml_bar
+        add_empty
+
+        echo "Feature post file created: $filename"
     fi
 }
 
@@ -150,19 +178,22 @@ if [ $# -eq 0 ]; then
 fi
 
 case $1 in
-    -a )            create_announcement
-                    exit
-                    ;;
-    -d | --draft )  create_post draft
-                    exit
-                    ;;
-    -nb )           create_newsbit "$2"
-                    exit
-                    ;;
-    -p )            create_post
-                    exit
-                    ;;
-    -h | --help )   show_usage
-                    exit
-                    ;;
+    -a )                create_announcement
+                        exit
+                        ;;
+    -d | --draft )      create_post draft
+                        exit
+                        ;;
+    -f | --feature )    create_feature_post draft
+                        exit
+                        ;;
+    -nb )               create_newsbit "$2"
+                        exit
+                        ;;
+    -p )                create_post
+                        exit
+                        ;;
+    -h | --help )       show_usage
+                        exit
+                        ;;
 esac
