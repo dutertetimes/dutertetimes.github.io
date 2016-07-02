@@ -8,20 +8,22 @@
                 {% assign newsbit_content = post.excerpt | remove: '<p>' | remove: '</p>'%}
                 {% if newsbit_content != "" %}
                 <div class="newsbit">
-                    <p class="date">
-                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowday %}
-                            {{ post.date | date: site.data.format.same_day }}
-                        {% elsif postyear == nowyear %}
-                            {{ post.date | date: site.data.format.same_year }}
-                        {% endif %}
-                    </p>
-                    <p>
-                        {{ newsbit_content }}
-                        {% if post.reference != nil %}
-                             &#x25cf; {{ post.reference }}
-                        {% endif %}
-                    </p>
+                    <div class="newsbit_heading">
+                        <h2>
+                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if postdate == nowday %}
+                                {{ post.date | date: site.data.format.same_day }}
+                            {% elsif postyear == nowyear %}
+                                {{ post.date | date: site.data.format.same_year }}
+                            {% endif %}
+                        </h2>
+                        <p>
+                            {{ newsbit_content }}
+                            {% if post.reference != nil %}
+                                 &#x25cf; {{ post.reference }}
+                            {% endif %}
+                        </p>
+                    </div>
                 </div>
                 {% endif %}
         {% endfor %}

@@ -1,4 +1,6 @@
-<div id="announcements">
+<div id="announcements_block">
+    <h1>Announcements</h1>
+    <div class="announcements">
     {% assign found = false %}
     {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
     {% for post in site.categories['announcement'] %}
@@ -10,7 +12,7 @@
                     {% if post.image != nil %}
                         <img src="{{ post.image }}" class="label"/>
                     {% endif %}
-                    <h1>{{ post.title }}<i class="fa fa-exclamation-circle fa-fw fa-lg" aria-hidden="true"></i></h1>
+                    <h2>{{ post.title }}<i class="fa fa-exclamation-circle fa-fw fa-lg" aria-hidden="true"></i></h2>
                     <p class="date">
                         {% if post.eventdatestart != post.eventdateend %}
                             {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
@@ -50,7 +52,7 @@
                         if (randomUsed.indexOf(randomIndex) == "-1") {
                         
                             document.write("<div class='announcement_heading'>");
-                            document.write("<h1>" + announce_title[randomIndex] + "</h1>");
+                            document.write("<h2>" + announce_title[randomIndex] + "</h2>");
                             document.write("<p>" + announce_text[randomIndex] + "</p>");
                             document.write("</div>");
                             // Store the new random number
@@ -62,4 +64,5 @@
             }
         </script>
     {% endif %}
+    </div>
 </div>

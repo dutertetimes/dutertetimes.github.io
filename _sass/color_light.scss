@@ -58,12 +58,12 @@ $color_nav:                     $color_text;
 $color_nav_bg:                  $color_header_bg;
 
 // Announcement
-$color_announcement_title:      $color_red;
+$color_announcement_title:      lighten($color_text, 30%);
 $color_announcement_date:       lighten($color_text, 30%);
 $color_announcement_text:       $color_text;
 
 // News Hub
-$color_news_hub_title:          $color_heading_text;
+$color_news_hub_title:          lighten($color_text, 15%);
 $color_news_hub_date:           $color_red - 50;
 $color_news_hub_excerpt:        $color_text;
 

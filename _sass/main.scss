@@ -469,18 +469,13 @@ section.column_left_sidebar {
             color: $color_text;
         }
     }
-
-    div {
-        margin-bottom: 12px;
-    }
-
-    div.links {
-        @include sidebar_component;
-    }
 }
 
 #datetime {
     @media print {
+        display: none;
+    }
+    @include max-screen(720px) {
         display: none;
     }
     margin-bottom: 12px;
@@ -551,49 +546,73 @@ section.column_left_sidebar {
     }
 }
 
-#announcements {
-
+#announcements_block {
+    
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    // Offset div.announcement bottom
-    margin-bottom: 3px;
+    margin-bottom: 15px;
+    padding-top: 10px;
     
-    div.announcement {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 12px;
-       
-        div.announcement_heading {
-            margin-bottom: 0px;
-            padding-bottom: 0px;
-            
-            img.label {
-                margin-right: 5px;
-                vertical-align: bottom;
-                float: right;
-            }
-            
-            h1 {
-                @include sidebar_component_label;
-                vertical-align: top;
+    h1 {
+        margin-bottom: 12px;
+    }
+    
+    div.announcements {
+    
+        div.announcement {
+            margin-top: 0px;
+            margin-bottom: 15px;
+           
+            div.announcement_heading {
+                margin-bottom: 0px;
                 padding-bottom: 0px;
+                
+                img.label {
+                    margin-right: 5px;
+                    vertical-align: bottom;
+                    float: right;
+                }
+                
+                h2 {
+                    font-family: $font_announcement_title;
+                    font-size: $font_size_announcement_title;
+                    font-weight: bold;
+                    color: $color_announcement_title;
+                    text-transform: uppercase;
+                    margin-bottom: 2px;
+                }
             }
-        }
-    
-        p, a {
-            font-family: $font_announcement_text;
-            font-size: $font_size_announcement_text;
-            text-align: left;
-            color: $color_announcement_text;
             
-            margin-top: 2px;
-            margin-bottom: 2px;
-            
-            &.date {
-                font-family: $font_announcement_date;
-                font-size: $font_size_announcement_date;
-                color: $color_announcement_date;
+            ul {
+                margin-top: 2px;
+                padding-left: 25px;
+            }
+            p {
+                margin-top: 2px;
+                margin-bottom: 2px;
+                @include max-screen(720px) {
+                    margin-top: 5px;
+                }
+                padding: 0;            
+            }
+            li {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        
+            p, li, a {
+                font-family: $font_announcement_text;
+                font-size: $font_size_announcement_text;
+                color: $color_announcement_text;
+                &.date {
+                    font-family: $font_announcement_date;
+                    font-size: $font_size_announcement_date;
+                    color: $color_announcement_date;
+                }
+                em {
+                    font-style: italic;
+                }
             }
         }
     }
@@ -601,15 +620,12 @@ section.column_left_sidebar {
 
 #random_quotes div.quote {
    
-    @include sidebar_component;
-    background: $color_sidebar_bg;
-    // Less vertical space
-    padding-bottom: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding-top: 10px;
     @media print {
         padding: 10px 50px 12px 50px;
     }
-    
+        
     table {
         margin: 0px;
         margin-top: 8px;
@@ -656,10 +672,22 @@ section.column_left_sidebar {
         padding-left: 0;
     }
     @include sidebar_component_scroll;
+    margin-top: 30px;
+    @include max-screen(720px) {
+        margin-top: 20px;
+    }
     margin-bottom: 15px;
+    
+    h1 {
+        margin-top: 1px;
+    }
 
+    // Because of the scroll div the news bit "titles" cannot have top margin.
+    // to align the first news bit "title" with the top of the scroll div.
+    // This means we have to offset the news bit div.
     div.newsbits {
-        margin-top: 5px;
+        // plus offset
+        margin-top: 5px + 3px;
         margin-bottom: 0px;
         @include min-screen(721px) {
             height: 300px;
@@ -673,35 +701,47 @@ section.column_left_sidebar {
 
         div.newsbit {
             margin-right: 5px;
-            h2 {
-                font-family: $font_news_title;
-                font-size: $font_size_news_title;
-                font-weight: bold;
+            margin-bottom: 10px;
+            
+            div.newsbit_heading {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                h2 {
+                    font-family: $font_news_text;
+                    font-size: $font_size_news_text;
+                    font-weight: normal;
+                    color: $color_news_bit_date;
+                    margin-top: 0px;
+                    margin-bottom: 2px;
+                }
             }
             ul {
                 margin-top: 2px;
                 padding-left: 25px;
             }
-            p, li, a {
-                font-family: $font_news_text;
-                font-size: $font_size_news_text;
+            p {
                 margin-top: 2px;
                 margin-bottom: 2px;
                 @include max-screen(720px) {
                     margin-top: 5px;
                 }
-                padding: 0;
-            }
-            p.date {
-                color: $color_news_bit_date;
-                margin-bottom: 0px;
+                padding: 0;            
             }
             li {
                 margin-top: 0px;
                 margin-bottom: 0px;
             }
+            p, li, a {
+                font-family: $font_news_text;
+                font-size: $font_size_news_text;
+                color: $color_news_text;
+                em {
+                    font-style: italic;
+                }
+            }
         }
     }
+
 }
 
 
@@ -778,6 +818,7 @@ section.hub_column_main {
                 color: $color_news_hub_title;
             }
             a {
+                color: $color_news_hub_title;
                 border-bottom: none;
                 &:hover {
                     color: $color_news_hub_title;
@@ -1335,44 +1376,6 @@ section.column_right_sidebar {
         margin-bottom: 12px;
     }
 
-    div.links {
-        @include sidebar_component;
-    }
-
-    /*
-    #news_roll {
-        @include sidebar_component_scroll;
-        background: $color_sidebar_bg;
-
-        h1 {
-            color: $color_sidebar_label;
-        }
-
-        div.news_items {
-            margin-bottom: 0px;
-            @include min-screen(721px) {
-                height: 500px;
-                overflow-y: scroll;
-            }
-            @include max-screen(720px) {
-                padding-right: 15px;
-            }
-            overflow-x: hidden;
-
-            div.news_item {
-                h2 {
-                    font-family: $font_news_title;
-                    font-size: $font_size_news_title;
-                    font-weight: bold;
-                }
-                p {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
-                }
-            }
-        }
-    }
-    */
     #rssfeeds_roll {
         @media print {
             padding-left: 0;
