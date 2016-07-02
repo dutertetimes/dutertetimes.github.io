@@ -546,6 +546,55 @@ section.column_left_sidebar {
     }
 }
 
+#random_quotes div.quote {
+   
+    margin-bottom: 15px;
+    padding-top: 10px;
+    @media print {
+        padding: 10px 50px 12px 50px;
+    }
+        
+    table {
+        margin: 0px;
+        margin-top: 8px;
+    }
+    table tr td {
+        vertical-align: top;
+        border: none;
+        padding: 0px;
+    }
+    
+    p {
+        font-family: $font_quote;
+        font-size: $font_size_quote;
+        @include max-screen(720px) {
+            font-size: $font_size_quote + 1;
+        }
+        font-style: normal;
+        line-height: $font_line_height_quote;
+        letter-spacing: 0.25px;
+        color: $color_quote_text;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        i.fa-quote-left {
+            color: lighten($color_quote_text, 65%);
+        }
+        
+        span {
+            font-family: $font_quote_author;
+            font-size: $font_size_quote_author;
+            font-style: normal;
+            color: $color_quote_author;
+            
+        }
+        span.qauthor {
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+    }
+}
+
 #announcements_block {
     
     @include max-screen(720px) {
@@ -614,55 +663,6 @@ section.column_left_sidebar {
                     font-style: italic;
                 }
             }
-        }
-    }
-}
-
-#random_quotes div.quote {
-   
-    margin-bottom: 15px;
-    padding-top: 10px;
-    @media print {
-        padding: 10px 50px 12px 50px;
-    }
-        
-    table {
-        margin: 0px;
-        margin-top: 8px;
-    }
-    table tr td {
-        vertical-align: top;
-        border: none;
-        padding: 0px;
-    }
-    
-    p {
-        font-family: $font_quote;
-        font-size: $font_size_quote;
-        @include max-screen(720px) {
-            font-size: $font_size_quote + 1;
-        }
-        font-style: normal;
-        line-height: $font_line_height_quote;
-        letter-spacing: 0.25px;
-        color: $color_quote_text;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
-        i.fa-quote-left {
-            color: lighten($color_quote_text, 65%);
-        }
-        
-        span {
-            font-family: $font_quote_author;
-            font-size: $font_size_quote_author;
-            font-style: normal;
-            color: $color_quote_author;
-            
-        }
-        span.qauthor {
-            text-transform: uppercase;
-            font-weight: normal;
         }
     }
 }
