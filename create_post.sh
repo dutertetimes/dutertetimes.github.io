@@ -83,7 +83,11 @@ function create_feature_post {
         add_default
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [feature]" >> $filename
+        echo "datestart:  $(date -u +'%Y-%m-%d')" >> $filename
+        echo "dateend:    $(date -u +'%Y-%m-%d')" >> $filename
+        echo "categories: [info_feature]" >> $filename
+        echo "categories: [info_schedule]" >> $filename
+        echo "categories: [info_fallback]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
