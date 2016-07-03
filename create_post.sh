@@ -165,7 +165,8 @@ function create_announcement {
         echo "eventdateend:   $(date -u +'%Y-%m-%d')" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
-        echo "permalink: " >> $filename
+        echo "image: " >> $filename
+        echo "image_attribution: " >> $filename
         echo "link: " >> $filename
         add_yaml_bar
         echo "" >> $filename
