@@ -9,10 +9,13 @@
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
             <div class="announcement">
                 <div class="announcement_heading">
+                    <h2>{{ post.title }}</h2>
                     {% if post.image != nil %}
-                        <img src="{{ post.image }}" class="label"/>
+                        <div class="image">
+                            <img src="{{ post.image }}" class="label" width="100%" height="auto"/>
+                            <p class="attribution">image by {{ post.image_attribution }}&nbsp;</p>
+                        </div>
                     {% endif %}
-                    <h2>{{ post.title }}<i class="fa fa-exclamation-circle fa-fw fa-lg" aria-hidden="true"></i></h2>
                     <p class="date">
                         {% if post.eventdatestart != post.eventdateend %}
                             {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}

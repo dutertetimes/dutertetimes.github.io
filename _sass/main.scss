@@ -637,12 +637,20 @@ section.column_left_sidebar {
             @include component_entry;
            
             div.announcement_heading {
-                img.label {
-                    margin-right: 5px;
-                    vertical-align: bottom;
-                    float: right;
+                div.image {
+                    background: $color_image_bg;
+                    padding: 5px 5px 5px 5px;
+                    margin: 5px 0px 5px 0;
+                    p.attribution {
+                        font-size: $font_size_page_meta - 2;
+                        font-style: italic;
+                        line-height: $font_size_page_meta - 6;
+                        color: $color_image_attribution;
+                        text-align: right;
+                        padding: 2px 0px 3px 0px;
+                        margin: 2px 0 0 0;
+                    }
                 }
-                
                 h2 {
                     font-family: $font_announcement_title;
                     font-size: $font_size_announcement_title;
