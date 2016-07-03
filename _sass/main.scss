@@ -1502,20 +1502,6 @@ section.column_right_sidebar {
             @include component_entry;
            
             div.info_heading {
-                div.image {
-                    background: $color_image_bg;
-                    padding: 5px 5px 5px 5px;
-                    margin: 5px 0px 5px 0;
-                    p.attribution {
-                        font-size: $font_size_page_meta - 2;
-                        font-style: italic;
-                        line-height: $font_size_page_meta - 6;
-                        color: $color_image_attribution;
-                        text-align: right;
-                        padding: 2px 0px 3px 0px;
-                        margin: 2px 0 0 0;
-                    }
-                }
                 h2 {
                     font-family: $font_info_title;
                     font-size: $font_size_info_title;
@@ -1525,21 +1511,42 @@ section.column_right_sidebar {
                     @include component_entry_heading;
                 }
             }
-            
+            p.date {
+                font-family: $font_info_date;
+                font-size: $font_size_info_date;
+                color: $color_info_date;
+            }
+            div.image {
+                background: $color_image_bg;
+                padding: 5px 5px 5px 5px;
+                margin: 5px 0px 5px 0;
+                p.attribution {
+                    font-size: $font_size_page_meta - 2;
+                    font-style: italic;
+                    line-height: $font_size_page_meta - 6;
+                    color: $color_image_attribution;
+                    text-align: right;
+                    padding: 2px 0px 3px 0px;
+                    margin: 2px 0 0 0;
+                }
+            }
+            div.image_small {
+                float: right;
+                width: 40%;
+                margin-top: 0px;
+            }
+
             @include component_entry_content;
-        
             p, li, a {
                 font-family: $font_info_text;
                 font-size: $font_size_info_text;
                 color: $color_info_text;
-                &.date {
-                    font-family: $font_info_date;
-                    font-size: $font_size_info_date;
-                    color: $color_info_date;
-                }
                 em {
                     font-style: italic;
                 }
+            }
+            p {
+                margin-top: 5px;
             }
         }
     }
