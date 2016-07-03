@@ -31,7 +31,7 @@ layout: default
     {% if page.image %}
         <div class="image">
             <img width="100%" height="auto" src="{{ page.image }}" />
-            <p class="attribution">&nbsp;— image courtesy of {{ page.imageref }}</p>
+            <p class="attribution">image by {{ page.imageref }}&nbsp;</p>
         </div>
     {% else %}
     {% endif %}
@@ -40,7 +40,7 @@ layout: default
         <div class="video">
             <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video}}">https://www.youtube.com/watch?v={{ page.video}}</a></p>
             <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
-            <p class="attribution">&nbsp;— video courtesy of {{ page.videoref }}</p>
+            <p class="attribution">video by {{ page.videoref }}&nbsp;</p>
         </div>
     {% else %}
     {% endif %}
