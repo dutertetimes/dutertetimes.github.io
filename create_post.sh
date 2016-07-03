@@ -85,9 +85,8 @@ function create_feature_post {
         echo "layout: post" >> $filename
         echo "datestart:  $(date -u +'%Y-%m-%d')" >> $filename
         echo "dateend:    $(date -u +'%Y-%m-%d')" >> $filename
-        echo "categories: [info_feature]" >> $filename
-        echo "categories: [info_schedule]" >> $filename
-        echo "categories: [info_fallback]" >> $filename
+        echo "style: blank | horizontal" >> $filename
+        echo "categories: [info_feature | info_schedule | info_fallback]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -97,6 +96,9 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
+        echo "image: " >> $filename
+        echo "image_attribution: " >> $filename
+        echo "link: " >> $filename
         add_yaml_bar
         add_empty
 
