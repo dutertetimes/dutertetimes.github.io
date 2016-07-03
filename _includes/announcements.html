@@ -27,7 +27,7 @@
                 <p>
                     {{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
                     {% if post.link != nil %}
-                        <a href="/post/{{ page.link }}.html">Read more...</a>
+                        <a href="/post/{{ post.link }}.html">Read more...</a>
                     {% endif%}
                 </p>
             </div>
