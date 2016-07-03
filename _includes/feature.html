@@ -1,0 +1,98 @@
+<div id="info_block">
+    <h1>Information</h1>
+    <div class="infos">
+    {% assign found = false %}
+    {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
+    
+    {% for post in site.categories['info_feature'] limit:2 %}
+        {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
+        {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
+        {% if currentdate >= postdatestart and currentdate <= postdateend %}
+            <div class="info">
+                <div class="info_heading">
+                    <h2>{{ post.title }}</h2>
+                    {% if post.image != nil %}
+                        <div class="image">
+                            <img src="{{ post.image }}" class="label" width="100%" height="auto"/>
+                            <p class="attribution">{{ post.image_attribution }}</p>
+                        </div>
+                    {% endif %}
+                    <p class="date">
+                        {% if post.eventdatestart != post.eventdateend %}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
+                        {% else %}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }}
+                        {% endif %}
+                    </p>
+                </div>
+                <p>{{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}</p>
+            </div>
+            {% assign found = true %}
+        {% endif %}
+    {% endfor %}
+    
+    {% for post in site.categories['info_scheduled'] limit:2 %}
+        {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
+        {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
+        {% if currentdate >= postdatestart and currentdate <= postdateend %}
+            <div class="info">
+                <div class="info_heading">
+                    <h2>{{ post.title }}</h2>
+                    {% if post.image != nil %}
+                        <img src="{{ post.image }}" class="label"/>
+                    {% endif %}
+                    <p class="date">
+                        {% if post.eventdatestart != post.eventdateend %}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
+                        {% else %}
+                            {{ post.eventdatestart | date: '%a %d %b %Y' }}
+                        {% endif %}
+                    </p>
+                </div>
+                <p>{{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}</p>
+            </div>
+            {% assign found = true %}
+        {% endif %}
+    {% endfor %}
+    
+    {% if found == false %}
+        <!-- Random feature -->
+        <script type="text/javascript">
+            var total = {{ site.data.info_fallback.size }};
+            var count = 1;
+
+            if (total == 0) {
+                
+            } else if (total == 1) {
+                document.write("<div class='info'>");
+                document.write("<div class='info_heading'>");
+                document.write("<h2>{{ site.data.info_fallback[0].title }}</h2>");
+                document.write("<p>{{ site.data.info_fallback[0].text }}</p>");
+                document.write("</div>");
+                document.write("</div>");
+            } else {
+                var info_text =  [{% for info in site.data.info_fallback %}"{{ info.text }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+                var info_title = [{% for info in site.data.info_fallback %}"{{ info.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+                // Keep used random number here so we could check which
+                // numbers where already used and not use them again.
+                var randomUsed = [];
+                var counter = 0;
+                while (counter < count) {
+                    var randomIndex = Math.floor(Math.random() * total);
+                    if (randomUsed.indexOf(randomIndex) == "-1") {
+                        document.write("<div class='info'>");
+                        document.write("<div class='info_heading'>");
+                        document.write("<h2>" + info_title[randomIndex] + "</h2>");
+                        document.write("<p>"  + info_text[randomIndex] + "</p>");
+                        document.write("</div>");
+                        document.write("</div>");
+                        // Store the new random number
+                        randomUsed.push(randomIndex);
+                        counter++;
+                    }
+                }
+            }
+        </script>
+    {% endif %}
+    </div>
+</div>

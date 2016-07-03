@@ -48,7 +48,8 @@ $color_blockquote:              lighten($color_text, 30%);
 $color_blockquote_bar:          darken($color_main_bg, 7%);
 $color_blockquote_bg:           darken($color_main_bg, 2%);
 
-
+$color_image_bg:                lighten($color_bg, 5%);
+$color_image_attribution:       lighten($color_text, 20%);
 
 // Specifics
 // -----------------------------------------------------------------------------
@@ -61,6 +62,11 @@ $color_nav_bg:                  $color_header_bg;
 $color_announcement_title:      lighten($color_text, 30%);
 $color_announcement_date:       lighten($color_text, 30%);
 $color_announcement_text:       $color_text;
+
+// Info
+$color_info_title:              lighten($color_text, 30%);
+$color_info_date:               lighten($color_text, 30%);
+$color_info_text:               $color_text;
 
 // News Hub
 $color_news_hub_title:          lighten($color_text, 15%);

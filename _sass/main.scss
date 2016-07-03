@@ -668,6 +668,9 @@ section.column_left_sidebar {
                     font-style: italic;
                 }
             }
+            li {
+                line-height: $font_size_info_text;
+            }
         }
     }
 }
@@ -705,6 +708,9 @@ section.column_left_sidebar {
                 em {
                     font-style: italic;
                 }
+            }
+            li {
+                line-height: $font_size_info_text;
             }
         }
     }
@@ -1465,6 +1471,67 @@ section.column_right_sidebar {
         padding: 0px 3px 2px 3px;
         background: $color_sidebar_bg;
         height: 400px;
+    }
+}
+
+#info_block {
+    @media print {
+        display: none;
+    }
+    
+    @include sidebar_component;
+    // Because this is a top component we remove the top padding
+    padding-top: 0px;
+    
+    @include max-screen(720px) {
+        margin-top: 20px;
+    }
+    
+    div.infos {
+        div.info {
+            @include component_entry;
+           
+            div.info_heading {
+                div.image {
+                    background: $color_image_bg;
+                    padding: 5px 5px 5px 5px;
+                    margin: 5px 0px 5px 0;
+                    p.attribution {
+                        font-size: $font_size_page_meta - 2;
+                        font-style: italic;
+                        line-height: $font_size_page_meta - 6;
+                        color: $color_image_attribution;
+                        text-align: right;
+                        padding: 2px 0px 3px 0px;
+                        margin: 2px 0 0 0;
+                    }
+                }
+                h2 {
+                    font-family: $font_info_title;
+                    font-size: $font_size_info_title;
+                    font-weight: bold;
+                    color: $color_info_title;
+                    text-transform: uppercase;
+                    @include component_entry_heading;
+                }
+            }
+            
+            @include component_entry_content;
+        
+            p, li, a {
+                font-family: $font_info_text;
+                font-size: $font_size_info_text;
+                color: $color_info_text;
+                &.date {
+                    font-family: $font_info_date;
+                    font-size: $font_size_info_date;
+                    color: $color_info_date;
+                }
+                em {
+                    font-style: italic;
+                }
+            }
+        }
     }
 }
 
