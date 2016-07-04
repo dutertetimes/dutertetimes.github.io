@@ -56,6 +56,7 @@ function create_post {
         add_default
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
+        echo "style: blank | horizontal" >> $filename
         echo "categories: [post]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
@@ -66,6 +67,8 @@ function create_post {
         else
             echo "published: true" >> $filename
         fi
+        echo "image: " >> $filename
+        echo "image_attribution: " >> $filename
         add_yaml_bar
         add_empty
 
