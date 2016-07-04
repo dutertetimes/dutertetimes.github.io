@@ -1,5 +1,5 @@
 <div id="info_block">
-    <h1>Information</h1>
+    <h1>Featured</h1>
     <div class="infos">
     {% assign found = false %}
     {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
@@ -70,7 +70,7 @@
     {% if found == false %}
         <!-- Random feature -->
         <script type="text/javascript">
-            var total = {{ site.data.info_fallback.size }};
+            var total = {{ site.data.feature_fallback.size }};
             var count = 1;
 
             if (total == 0) {
@@ -83,8 +83,8 @@
                 document.write("</div>");
                 document.write("</div>");
             } else {
-                var info_text =  [{% for info in site.data.info_fallback %}"{{ info.text }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-                var info_title = [{% for info in site.data.info_fallback %}"{{ info.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+                var info_text =  [{% for info in site.data.feature_fallback %}"{{ info.text }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+                var info_title = [{% for info in site.data.feature_fallback %}"{{ info.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
                 // Keep used random number here so we could check which
                 // numbers where already used and not use them again.
                 var randomUsed = [];
