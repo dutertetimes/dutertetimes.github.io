@@ -1,7 +1,7 @@
 ---
 title: People
 excerpt: List of people
-layout: post
+layout: info
 categories: [people]
 tags: []
 published: true

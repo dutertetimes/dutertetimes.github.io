@@ -6,7 +6,7 @@ layout: post
 categories: [org]
 tags: []
 published: true
-permalink: /:collection/:path
+permalink: 
 ---
 
 * [PCCI President George T. Barcelon presents Top 10 actionable recommendations to President-Elect Duterte](http://www.philippinechamber.com/index.php?option=com_content&view=article&id=869:pcci-president-george-t-barcelon-presents-top-10-actionable-recommendations-to-president-elect-duterte&catid=53&Itemid=246)

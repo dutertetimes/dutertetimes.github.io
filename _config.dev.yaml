@@ -5,26 +5,26 @@ development: true
 collections:
   people:
     output: true
-    permalink: /:collection/:path
+    permalink: /info/:collection/:path
     title: People
   org:
     output: true
-    permalink: /:collection/:path
+    permalink: /info/:collection/:path
     title: Organization
   gov:
     output: true
-    permalink: /:collection/:path
+    permalink: /info/:collection/:path
     title: Government
   law:
     output: true
-    permalink: /:collection/:path
+    permalink: /info/:collection/:path
     title: Law
-  map:
-    output: true
-    permalink: /:collection/:path
-    title: Map
+#  map:
+#    output: true
+#    permalink: /:collection/:path
+#    title: Map
   sources:
     output: true
-    permalink: /:collection/:path
+    permalink: /info/:collection/:path
     title: Sources
     

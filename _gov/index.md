@@ -5,6 +5,7 @@ layout: info
 categories: [government]
 tags: []
 published: true
+permalink: 
 ---
 
 Duterte Times is in the process of collecting and building its database.

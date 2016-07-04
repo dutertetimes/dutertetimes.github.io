@@ -1,7 +1,7 @@
 ---
 title: Organizations
 excerpt: List of organizations
-layout: post
+layout: info
 categories: [org]
 tags: []
 published: true

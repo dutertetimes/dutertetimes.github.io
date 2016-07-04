@@ -7,7 +7,7 @@ layout: info
 categories: [government]
 tags: []
 published: true
-permalink: /:collection/:path
+permalink: 
 official_url: 
 rss:
 ---

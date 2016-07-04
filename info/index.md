@@ -9,10 +9,10 @@ published: true
 
 <ol>
 {% for item in site.collections %}
-    {% if item.title and item.title != 'Sources' %}
-    <li>
-        <a href="/{{ item.label }}">{{ item.title }}</a>
-    </li>
+    {% if item.title %}
+        <li>
+            <a href="/info/{{ item.label }}">{{ item.title }}</a>
+        </li>
     {% endif %}
 {% endfor %}
 </ol>

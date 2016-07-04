@@ -1,7 +1,7 @@
 ---
 title: Law
 excerpt: List of Philippine laws
-layout: post
+layout: info
 categories: [law]
 tags: []
 published: true
