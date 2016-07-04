@@ -29,10 +29,17 @@ layout: default
     </p>
 
     {% if page.image %}
-        <div class="image">
-            <img width="100%" height="auto" src="{{ page.image }}" />
-            <p class="attribution">image by {{ page.imageref }}&nbsp;</p>
-        </div>
+        {% if page.style == "horizontal" %}
+            <div class="image_small">
+                <img width="auto" height="auto" src="{{ page.image }}" />
+                <p class="attribution">image by {{ page.image_attribution }}&nbsp;</p>
+            </div>
+        {% else %}
+            <div class="image">
+                <img width="100%" height="auto" src="{{ page.image }}" />
+                <p class="attribution">image by {{ page.image_attribution }}&nbsp;</p>
+            </div>
+        {% endif %}
     {% else %}
     {% endif %}
     

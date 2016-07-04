@@ -888,6 +888,21 @@ section.post_column_main {
             margin: 2px 0 0 0;
         }
     }
+    div.image_small {
+        float: right;
+        background: $color_image_bg;
+        padding: 5px 5px 5px 5px;
+        margin: 0 0px 20px 10px;
+        p.attribution {
+            font-size: $font_size_page_meta;
+            font-style: italic;
+            line-height: $font_line_height_page_meta - 8;
+            color: $color_image_attribution;
+            text-align: right;
+            padding: 2px 0px 3px 0px;
+            margin: 2px 0 0 0;
+        }
+    }
     
     div.video {
         width: $video_width_75;
