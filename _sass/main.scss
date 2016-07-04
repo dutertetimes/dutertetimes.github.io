@@ -1548,7 +1548,7 @@ section.column_right_sidebar {
             div.image_small {
                 float: right;
                 width: 40%;
-                margin-top: 0px;
+                margin: 5px 0px 0px 5px;
             }
 
             @include component_entry_content;
