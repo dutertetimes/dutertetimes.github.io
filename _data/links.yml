@@ -1,5 +1,28 @@
+gov_da: /info/gov/da
+gov_dar: /info/gov/dar
+gov_dbm: /info/gov/dbm
+gov_denr: /info/gov/denr
+gov_deped: /info/gov/deped
+gov_doe: /info/gov/doe
+gov_doj: /info/gov/doj
+gov_dost: /info/gov/dost
+gov_dpwh: /info/gov/dpwh
+gov_dti: /info/gov/dti
+gov_nationalmuseum: /info/gov/nationalmuseum
+gov_neda: /info/gov/neda
+gov_npc: /info/gov/npc
+gov_pcoo: /info/gov/pcoo
+gov_pia: /info/gov/pia
+gov_pnp: /info/gov/pnp
+gov_psa: /info/gov/psa
+gov_sc: /info/gov/sc
+gov_senate: /info/gov/senate
+
+org_pcci: /info/org/pcci
+
 cc_by_sa: http://creativecommons.org/licenses/by-sa/4.0/
 cc_by_sa_image: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 cc_by_sa_license: http://creativecommons.org/licenses/by-sa/4.0/
 creative_commons: https://creativecommons.org/
 attribution: https://wiki.creativecommons.org/wiki/Best_practices_for_attribution
+
