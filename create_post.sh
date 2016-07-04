@@ -3,8 +3,13 @@
 # Create a post file at current directory
 # File format: YYYY-MM-DD-YYYYMMDDThhmmss.md
 
-current_time=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
-filename=$current_time.md
+#current=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
+current=`date -u`
+current_date=`date --date="$current" +'%Y-%m-%d'`
+current_iso8601=`date --date="$current" +'%Y-%m-%dT%H:%M:%S%Z'`
+current_short=`date --date="$current" +'%Y%m%dT%H%M%S'`
+filename=`date --date="$current" +'%Y-%m-%d-%Y%m%dT%H%M%S'`.md
+
 
 
 function show_usage {
@@ -31,7 +36,7 @@ function add_default {
     else
         echo "title: $1" >> $filename
     fi
-    echo "date: $(date -u +'%Y-%m-%dT%H:%M:%S%Z')" >> $filename
+    echo "date: $current_iso8601" >> $filename
 }
 
 function add_empty {
@@ -53,7 +58,7 @@ function create_post {
         touch $filename
 
         add_yaml_bar
-        add_default
+        add_default "Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
         echo "style: blank | horizontal" >> $filename
@@ -83,11 +88,11 @@ function create_feature_post {
         touch $filename
 
         add_yaml_bar
-        add_default
+        add_default "Feature Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "datestart:  $(date -u +'%Y-%m-%d')" >> $filename
-        echo "dateend:    $(date -u +'%Y-%m-%d')" >> $filename
+        echo "datestart:  $current_date" >> $filename
+        echo "dateend:    $current_date" >> $filename
         echo "style: blank | horizontal" >> $filename
         echo "categories: [info_feature | info_schedule | info_fallback]" >> $filename
         echo "tags: " >> $filename
@@ -99,9 +104,10 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
+        echo "permalink: /feature/$current_short" >> $filename
         echo "image: " >> $filename
         echo "image_attribution: " >> $filename
-        echo "link: " >> $filename
+        echo "link: $current_short" >> $filename
         add_yaml_bar
         add_empty
 
@@ -110,6 +116,10 @@ function create_feature_post {
 }
 
 function create_newsbit {
+    if [ $# -eq 0 ]; then
+        echo "News bit text not supplied."
+        exit
+    fi
     if [ $# -gt 0 ]; then
         if [ ${#1} -gt 140 ]; then
             echo "News bit text is more than 140 character. Aborting..."
@@ -164,10 +174,10 @@ function create_announcement {
         
         add_yaml_bar
         add_default "Announcement"
-        echo "datestart:      $(date -u +'%Y-%m-%d')" >> $filename
-        echo "dateend:        $(date -u +'%Y-%m-%d')" >> $filename
-        echo "eventdatestart: $(date -u +'%Y-%m-%d')" >> $filename
-        echo "eventdateend:   $(date -u +'%Y-%m-%d')" >> $filename
+        echo "datestart:      $current_date" >> $filename
+        echo "dateend:        $current_date" >> $filename
+        echo "eventdatestart: $current_date" >> $filename
+        echo "eventdateend:   $current_date" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
         echo "image: " >> $filename
