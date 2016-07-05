@@ -809,8 +809,8 @@ section.hub_column_main {
                 color: $color_news_hub_title;
                 border-bottom: none;
                 &:hover {
-                    color: $color_news_hub_title;
-                    border-bottom: 1px dotted $color_news_hub_title;
+                    color: $color_link;
+                    //border-bottom: 1px dotted $color_news_hub_title;
                     padding-bottom: 2px;
                     @include max-screen(720px) {
                         padding-bottom: 0px;
@@ -835,8 +835,8 @@ section.hub_column_main {
             &.excerpt {
                 font-family: $font_news_hub_excerpt;
                 font-size: $font_size_news_hub_excerpt;
-                font-style: italic;
-                line-height: $font_size_news_hub_excerpt + 4;
+                font-style: normal;
+                line-height: $font_line_height_news_hub_excerpt;
                 color: $color_news_hub_excerpt;
                 margin-top: 2px;
                 margin-bottom: 13px;
@@ -844,20 +844,30 @@ section.hub_column_main {
         }
 
         div.news_latest {
-            h1 {
-                a {
-                    font-size: $font_size_news_hub_latest_title;
-                    line-height: $font_size_news_hub_latest_title + 4;
-                }
+            margin-bottom: 10px;
+            border-bottom: 1px solid $color_news_hub_line;
+            width: 100%;
+            h1 a {
+                font-size: $font_size_news_hub_latest_title;
+                line-height: $font_size_news_hub_latest_title + 4;
             }
             p.date {
                 font-size: $font_size_news_hub_latest_date;
             }
         }
         div.news_next {
-            h2 a {
-                font-size: $font_size_news_hub_next_title;
-                line-height: $font_size_news_hub_next_title + 6;
+            width: 52%;
+            float: left;
+            div.news_entry {
+                h2 a {
+                    font-size: $font_size_news_hub_next_title;
+                    line-height: $font_size_news_hub_next_title;
+                }
+                p.date {
+                    font-size: $font_size_news_hub_next_date;
+                }
+            }
+        }
             }
             p.date {
                 font-size: $font_size_news_hub_next_date;
