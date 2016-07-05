@@ -492,9 +492,11 @@ section.column_left_sidebar {
     @include max-screen(720px) {
         display: none;
     }
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     
     table {
+        border: none;
+        border-collapse:collapse;
         width: 100%;
         tr {
             margin: 0;
