@@ -424,6 +424,11 @@ section {
         font-family: $font_default;
         margin: 10px 15px 15px 15px;
     }
+    &.hub_column_main,
+    &.post_column_main,
+    &.page_column_main {
+        margin-top: 8px;
+    }
 }
 
 // Media screen sizes
