@@ -19,10 +19,10 @@ function show_usage {
     echo ""
     echo "Options:"
     echo "  -a              Announcement file"
-    echo "  -d, --draft     Draft post file"
+    echo "  -d, --draft     Draft news post file"
     echo "  -f, --feature   Feature post file"
     echo "  -nb             News bit file"
-    echo "  -p              Post file"
+    echo "  -p              News post file"
     echo "  -h, --help      Show usage"
 }
 
