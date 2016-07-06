@@ -16,6 +16,7 @@ layout: default
         {% if counter == 0 %}
             <div class="news_latest">
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                {% comment %}
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}
@@ -29,12 +30,14 @@ layout: default
                         {% endif %}
                     </p>
                 {% endif %}
+                {% endcomment %}
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>
             <div class="news_next">
         {% else %}
             <div class="news_entry">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {% comment %}
                 {% if post.date == nil %}
                     <p class="date">Undated</p>
                 {% else %}
@@ -48,6 +51,7 @@ layout: default
                         {% endif %}
                     </p>
                 {% endif %}
+                {% endcomment %}
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>
         {% endif %}
