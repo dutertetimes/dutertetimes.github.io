@@ -16,6 +16,7 @@
                             <p class="attribution">image by {{ post.image_attribution }}&nbsp;</p>
                         </div>
                     {% endif %}
+                    {% comment %}
                     <p class="date">
                         {% if post.eventdatestart != post.eventdateend %}
                             {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
@@ -23,6 +24,7 @@
                             {{ post.eventdatestart | date: '%a %d %b %Y' }}
                         {% endif %}
                     </p>
+                    {% endcomment %}
                 </div>
                 <p>
                     {{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
