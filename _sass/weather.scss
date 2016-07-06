@@ -1,0 +1,30 @@
+//@import "color_light";
+
+#weather_satellite {
+    @include sidebar_component;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    div.image {
+        //width: 100%;
+        background: $color_image_bg;
+        background: black;
+        padding: 5px 5px 5px 5px;
+        margin: 5px 0px 5px 0;
+        img {
+            object-fit: cover;
+            //height: 260px;
+            //width: 100%;
+            overflow: hidden;
+        }
+        p.attribution {
+            font-size: $font_size_page_meta - 2;
+            font-style: italic;
+            line-height: $font_size_page_meta - 6;
+            color: lighten($color_image_attribution, 30%);
+            text-align: right;
+            padding: 0px 0px 3px 0px;
+            margin: 0px 0 0 0;
+        }
+    }
+}
