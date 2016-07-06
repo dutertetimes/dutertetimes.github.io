@@ -10,6 +10,7 @@ $color_secondary:               $color_primary - 30;
 // color if the content of the page is shorter.
 $color_bg:                      #dedddd;
 $color_main_bg:                 #ffffff;
+$color_box:                     #eee;
 
 // Text
 $color_text:                    black;
@@ -69,15 +70,11 @@ $color_info_date:               lighten($color_text, 30%);
 $color_info_text:               $color_text;
 
 // News Hub
-$color_news_hub_title:          lighten($color_text, 20%);
-$color_news_hub_date:           $color_red - 50;
-$color_news_hub_excerpt:        $color_text;
-
-// News Article
-$color_news_title:              $color_heading_text;
-$color_news_date:               $color_red - 50;
+$color_news_title:              lighten($color_text, 20%);
+$color_news_date:               lighten($color_primary, 30%);
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
+$color_news_line:               #eee;
 
 // News bit
 $color_news_bit_date:         lighten($color_text, 30%);

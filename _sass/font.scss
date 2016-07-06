@@ -88,22 +88,15 @@ $font_page_meta:                $font_page_text;
 $font_size_page_meta:           $font_size_default - 1;
 $font_line_height_page_meta:    $font_size_default + 4;
 
-// News Hub
-$font_news_hub_title:               $font_serif_thin;
-$font_news_hub_date:                $font_serif_thin;
-$font_size_news_hub_latest_title:   16px;
-$font_size_news_hub_latest_date:    13px;
-$font_size_news_hub_next_title:     14px;
-$font_size_news_hub_next_date:      13px;
-$font_news_hub_excerpt:             $font_serif_thin;
-$font_size_news_hub_excerpt:        13px;
-$font_line_height_news_hub_excerpt: 15px;
-
 // News
-$font_news_title:           $font_serif_thin;
-$font_size_news_title:      14px;
-$font_news_text:            $font_serif_thin;
-$font_size_news_text:       13px;
+$font_news_title:               $font_serif_thin;
+$font_news_date:                $font_serif_thin;
+$font_news_excerpt:             $font_serif_thin;
+$font_news_text:                $font_serif_thin;
+$font_size_news_title:          15px;
+$font_size_news_date:           13px;
+$font_size_news_excerpt:        13px;
+$font_size_news_text:           13px;
 
 // Sidebar
 $font_sidebar_label:        $font_label;

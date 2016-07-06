@@ -88,5 +88,16 @@ defaults:
     values:
       layout:   "post"
 
+collections:
+  top:
+    output: true
+    permalink: /news/top/:collection/:path
+  articles:
+    output: true
+    permalink: /news/articles/:collection/:path
+  sections:
+    output: true
+    permalink: /news/sections/:collection/:path
+    
 # Custom vars
 version:        0.1.0

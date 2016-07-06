@@ -637,6 +637,9 @@ section.column_left_sidebar {
         display: none;
     }
     @include sidebar_component;
+    // Override top padding
+    padding-top: 0px;
+    
     @include max-screen(720px) {
         margin-top: 20px;
     }
@@ -696,14 +699,14 @@ section.column_left_sidebar {
     @media print {
         display: none;
     }
-    @include sidebar_component_scroll;
-    margin-top: 25px;
+    @include sidebar_component_scroll(1);
+    margin-top: 20px;
 
     // Because of the scroll div the news bit "titles" cannot have top margin.
     // to align the first news bit "title" with the top of the scroll div.
     // This means we have to offset the news bit div.
     div.newsbits {
-        @include sidebar_component_scroll_internal(300px);
+        @include sidebar_component_scroll_internal(250px);
 
         div.newsbit {
             @include component_entry;
@@ -798,84 +801,83 @@ section.hub_column_main {
     @media print {
         margin-left: 0;
     }
-    div#news_top {
-        h1, h2, h3, h4, h5, h6 {
-            font-family: $font_news_hub_title;
+    
+    h2 {
+        a {
+            font-family: $font_news_title;
             font-weight: bold;
-            color: $color_news_hub_title;
-            margin: 0;
-            code {
-                color: $color_news_hub_title;
-            }
-            a {
-                color: $color_news_hub_title;
-                border-bottom: none;
-                &:hover {
-                    color: $color_link;
-                    //border-bottom: 1px dotted $color_news_hub_title;
-                    padding-bottom: 2px;
-                    @include max-screen(720px) {
-                        padding-bottom: 0px;
-                    }
-                }
-            }
+            color: $color_news_title;
+            border-bottom: none;
         }
-        
-        h1, h2 {
-            padding: 0 0 1px 0;
-            @include max-screen(720px) {
-                padding: 0 0 2px 0;
-            }
-        }
-        
-        p {
-            &.date {
-                font-family: $font_news_hub_date;
-                color: $color_news_hub_date;
-                margin: 0;
-            }
-            &.excerpt {
-                font-family: $font_news_hub_excerpt;
-                font-size: $font_size_news_hub_excerpt;
-                font-style: normal;
-                line-height: $font_line_height_news_hub_excerpt;
-                color: $color_news_hub_excerpt;
-                margin-top: 2px;
-                margin-bottom: 13px;
-            }
-        }
-
-        div.news_latest {
-            margin-bottom: 10px;
-            border-bottom: 1px solid $color_news_hub_line;
-            width: 100%;
-            h1 a {
-                font-size: $font_size_news_hub_latest_title;
-                line-height: $font_size_news_hub_latest_title + 4;
-            }
-            p.date {
-                font-size: $font_size_news_hub_latest_date;
-            }
-        }
-        div.news_next {
-            width: 52%;
-            float: left;
-            div.news_entry {
-                h2 a {
-                    font-size: $font_size_news_hub_next_title;
-                    line-height: $font_size_news_hub_next_title;
-                }
-                p.date {
-                    font-size: $font_size_news_hub_next_date;
-                }
-            }
-        }
-            }
-            p.date {
-                font-size: $font_size_news_hub_next_date;
-             }
+        margin: 0;
+        padding: 0 0 1px 0;
+        @include max-screen(720px) {
+            padding: 0 0 2px 0;
         }
     }
+    
+    p {
+        &.date {
+            font-family: $font_news_date;
+            font-size: $font_size_news_date;
+            color: $color_news_date;
+        }
+        &.excerpt {
+            font-family: $font_news_excerpt;
+            font-size: $font_size_news_excerpt;
+            line-height: $font_size_news_excerpt;
+            font-style: normal;
+            color: $color_news_excerpt;
+            margin-top: 2px;
+            margin-bottom: 13px;
+        }
+    }
+
+    div.news_tops {
+        margin-bottom: 10px;
+        border-bottom: 1px solid $color_news_line;
+        width: 100%;
+        div.news_top {
+            h2 a {
+                font-size: $font_size_news_title;
+                line-height: $font_size_news_title;
+            }
+        }
+    }
+
+    div.news_articles {
+        width: 52%;
+        float: left;
+        div.news_article {
+            h2 a {
+                font-size: $font_size_news_title - 1;
+                line-height: $font_size_news_title - 1;
+            }
+        }
+    }
+    
+    div.news_sections_block {
+        padding-left: 10px;
+        // Add left vertical dividing line
+        border-left: 1px solid $color_box;
+        width: 45%;
+        float: right;
+            
+        h1 {
+            @include sidebar_component_label;
+        }
+        
+        div.news_sections {
+            div.news_section {
+                @include component_entry;
+                h2 a {
+                    font-size: $font_size_news_title - 2;
+                    line-height: $font_size_news_title - 2;
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -1399,8 +1401,7 @@ section.column_right_sidebar {
         @media print {
             padding-left: 0;
         }
-        @include sidebar_component_boxed;
-        //margin-bottom: 15px;
+        @include sidebar_component_boxed(1);
 
         h1 {
             color: $color_sidebar_label;

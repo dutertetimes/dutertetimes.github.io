@@ -48,10 +48,10 @@
     h1, h2, h3, h4, h5, h6 {
         font-family: $font_page_title;
         font-weight: bold;
-        color: $color_heading_text;
+        color: $color_news_title;
         margin-bottom: 13px;
         code {
-            color: $color_heading_text;
+            color: $color_news_title;
         }
     }
     h1 {
@@ -113,23 +113,28 @@
     padding: 10px 0px 0px 0px;
 }
 
-@mixin sidebar_component_boxed {
+@mixin sidebar_component_boxed($shadow) {
     @include sidebar_component;
+    border: 1px solid $color_box;
     border-radius: 3px;
-    padding: 10px 13px 12px 13px;
+
+    padding-right: 13px;
+    padding-bottom: 12px;
+    padding-left: 13px;
     @include max-screen(720px) {
         padding: 10px 0px 0px 0px;
     }
     background: $color_sidebar_bg;
     @include min-screen(721px) {
-        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
+        @if $shadow > 0 {
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19), 0 2px 10px 0 rgba(0, 0, 0, 0.18);
+        }
     }
 }
 
-@mixin sidebar_component_scroll {
-    @include sidebar_component_boxed;
+@mixin sidebar_component_scroll($shadow) {
+    @include sidebar_component_boxed($shadow);
     padding-right: 2px;
-    //padding: 10px 2px 13px 13px;
 }
 
 @mixin sidebar_component_scroll_internal($height) {
