@@ -11,4 +11,4 @@ permalink:
 official_url: http://www.senate.gov.ph/
 ---
 
-[Official Site](page.official_url)
+[Official Site]({{ page.official_url }})

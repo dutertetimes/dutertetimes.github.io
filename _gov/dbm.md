@@ -12,5 +12,5 @@ official_url: http://www.dbm.gov.ph/
 rss:
 ---
 
-[Official Site](page.official_url)
+[Official Site]({{ page.official_url }})
 

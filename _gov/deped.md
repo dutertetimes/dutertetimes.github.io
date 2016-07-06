@@ -11,8 +11,4 @@ permalink:
 official_url: http://www.deped.gov.ph/
 ---
 
-[Official Site](page.official_url)
-
-|----------|------|
-| Projects | Date |
-|
+[Official Site]({{ page.official_url }})

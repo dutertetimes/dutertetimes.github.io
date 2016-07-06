@@ -13,7 +13,7 @@ rss:
 ---
 
 {% if page.official_url %}
-[Official Site](page.official_url)
+[Official Site]({{ page.official_url }})
 {% endif %}
 
 |----------|--------|
