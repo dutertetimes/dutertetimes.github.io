@@ -61,7 +61,6 @@ function create_post {
         add_default "Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "style: blank | horizontal" >> $filename
         echo "categories: [post]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
@@ -72,8 +71,10 @@ function create_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "image: " >> $filename
-        echo "image_attribution: " >> $filename
+        echo "image:"
+        echo "  layout: auto_width" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
         add_yaml_bar
         add_empty
 
@@ -104,9 +105,11 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
+        echo "image:"
+        echo "  layout: auto_width" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
         echo "permalink: /feature/$current_short" >> $filename
-        echo "image: " >> $filename
-        echo "image_attribution: " >> $filename
         echo "link: $current_short" >> $filename
         add_yaml_bar
         add_empty
@@ -180,8 +183,9 @@ function create_announcement {
         echo "eventdateend:   $current_date" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
-        echo "image: " >> $filename
-        echo "image_attribution: " >> $filename
+        echo "image:"
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
         echo "link: " >> $filename
         add_yaml_bar
         echo "" >> $filename
