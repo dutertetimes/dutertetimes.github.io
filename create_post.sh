@@ -213,7 +213,7 @@ case $1 in
     -nb )               create_newsbit "$2"
                         exit
                         ;;
-    -p )                create_news_post
+    -n | --news )       create_news_post
                         exit
                         ;;
     -h | --help )       show_usage
