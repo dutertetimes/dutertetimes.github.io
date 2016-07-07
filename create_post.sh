@@ -51,7 +51,7 @@ function add_content {
     fi
 }
 
-function create_post {
+function create_news_post {
     if [ -e $filename ]; then
         echo "File ($(filename)) already exists."
     else
@@ -204,7 +204,7 @@ case $1 in
     -a )                create_announcement
                         exit
                         ;;
-    -d | --draft )      create_post draft
+    -d | --draft )      create_news_post draft
                         exit
                         ;;
     -f | --feature )    create_feature_post draft
@@ -213,7 +213,7 @@ case $1 in
     -nb )               create_newsbit "$2"
                         exit
                         ;;
-    -p )                create_post
+    -p )                create_news_post
                         exit
                         ;;
     -h | --help )       show_usage
