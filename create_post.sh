@@ -65,11 +65,12 @@ function create_news_post {
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
-        fi
-        if [ "$1" = "draft" ]; then
-            echo "published: false" >> $filename
         else
-            echo "published: true" >> $filename
+            if [ "$1" = "draft" ]; then
+                echo "published: false" >> $filename
+            else
+                echo "published: true" >> $filename
+            fi
         fi
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
