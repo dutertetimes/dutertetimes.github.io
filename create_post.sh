@@ -58,7 +58,7 @@ function create_news_post {
         touch $filename
 
         add_yaml_bar
-        add_default "Post"
+        add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
         echo "categories: [news_top | news_article | news_section]" >> $filename
