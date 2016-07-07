@@ -110,7 +110,6 @@
 }
 
 @mixin sidebar_component {
-    margin: 0px 0px 15px 0px;
     padding: 10px 13px 12px 13px;
     @include max-screen(720px) {
         padding: 10px 0px 0px 0px;
