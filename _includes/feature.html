@@ -20,15 +20,15 @@
                         {{ post.eventdatestart | date: '%a %d %b %Y' }}
                     {% endif %}
                 </p>
-                {% if post.image != nil %}
+                {% if post.image.source != nil %}
                     {% if post.style == "horizontal" %}
                     <div class="image_small">
-                        <img src="{{ post.image }}" class="label" width="100%" height="auto"/>
+                        <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
                     </div>
                     {% else %}
                     <div class="image">
-                        <img src="{{ post.image }}" class="label" width="100%" height="auto"/>
-                        <p class="attribution">image by {{ post.image_attribution }}&nbsp;</p>
+                        <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                        <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                     </div>
                     {% endif %}
                 {% endif %}

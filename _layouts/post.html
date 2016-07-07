@@ -28,19 +28,20 @@ layout: default
         {% endfor %}
     </p>
 
-    {% if page.image %}
-        {% if page.style == "horizontal" %}
-            <div class="image_small">
-                <img width="auto" height="auto" src="{{ page.image }}" />
-                <p class="attribution">image by {{ page.image_attribution }}&nbsp;</p>
+    {% if page.image.source != nil %}
+        <div class="image_container">
+        {% if page.image.layout == "auto_width" %}
+            <div class="image_auto_width">
+                <img width="auto" height="auto" src="{{ page.image.source }}" />
+                <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
             </div>
         {% else %}
-            <div class="image">
-                <img width="100%" height="auto" src="{{ page.image }}" />
-                <p class="attribution">image by {{ page.image_attribution }}&nbsp;</p>
+            <div>
+                <img width="100%" height="auto" src="{{ page.image.source }}" />
+                <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
             </div>
         {% endif %}
-    {% else %}
+        </div>
     {% endif %}
     
     {% if page.video %}
@@ -49,7 +50,6 @@ layout: default
             <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
             <p class="attribution">video by {{ page.videoref }}&nbsp;</p>
         </div>
-    {% else %}
     {% endif %}
     
     {{ content }}
