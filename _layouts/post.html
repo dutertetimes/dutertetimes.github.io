@@ -44,15 +44,23 @@ layout: default
         </div>
     {% endif %}
     
-    {% if page.video %}
+    {% if page.video.source != nil and page.video.layout == "top" %}
         <div class="video">
-            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video}}">https://www.youtube.com/watch?v={{ page.video}}</a></p>
-            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
-            <p class="attribution">video by {{ page.videoref }}&nbsp;</p>
+            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
+            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
+            <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
         </div>
     {% endif %}
     
     {{ content }}
+    
+    {% if page.video.source != nil and page.video.layout == "bottom" %}
+        <div class="video">
+            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
+            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
+            <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
+        </div>
+    {% endif %}
 
     {% include post_bottom.html %}
 
