@@ -76,6 +76,10 @@ function create_news_post {
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "video:" >> $filename
+        echo "  layout: [ top | bottom ]" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
         add_yaml_bar
         add_empty
 
