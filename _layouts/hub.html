@@ -8,84 +8,87 @@ layout: default
 
     {{ content }}
     
-    <div class="news_tops">
-    {% assign top_id = nil %}
-    {% for post in site.categories['news_top'] limit:1 %}
-        {% assign top_id = post.date %}
-        <div class="news_top">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {% comment %}
-            {% if post.date == nil %}
-                <p class="date">Undated</p>
-            {% else %}
-                <p class="date">
-                    {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                    {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                    {% if postdate == nowday %}
-                        {{ post.date | date: site.data.format.same_day }}
-                    {% elsif postyear == nowyear %}
-                        {{ post.date | date: site.data.format.same_year }}
+    <div id="news_tops_block">
+        <h1>Top News</h1>
+        <div class="news_tops">
+            {% assign top_id = nil %}
+            {% for post in site.categories['news_top'] limit:1 %}
+                {% assign top_id = post.date %}
+                <div class="news_top">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {% comment %}
+                    {% if post.date == nil %}
+                        <p class="date">Undated</p>
+                    {% else %}
+                        <p class="date">
+                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if postdate == nowday %}
+                                {{ post.date | date: site.data.format.same_day }}
+                            {% elsif postyear == nowyear %}
+                                {{ post.date | date: site.data.format.same_year }}
+                            {% endif %}
+                        </p>
                     {% endif %}
-                </p>
-            {% endif %}
-            {% endcomment %}
-            <p class="excerpt">{{ post.excerpt }}</p>
+                    {% endcomment %}
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
     </div>
     
-    <div class="news_articles">
-    {% for post in site.categories['news_article'] limit:10 %}
-        {% if post.date != top_id %}
-        <div class="news_article">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {% comment %}
-            {% if post.date == nil %}
-                <p class="date">Undated</p>
-            {% else %}
-                <p class="date">
-                    {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                    {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                    {% if postdate == nowday %}
-                        {{ post.date | date: site.data.format.same_day }}
-                    {% elsif postyear == nowyear %}
-                        {{ post.date | date: site.data.format.same_year }}
+    <div id="news_articles_block">
+        <h1>Articles</h1>
+        <div class="news_articles">
+            {% for post in site.categories['news_article'] %}
+                {% if post.date != top_id %}
+                <div class="news_article">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {% comment %}
+                    {% if post.date == nil %}
+                        <p class="date">Undated</p>
+                    {% else %}
+                        <p class="date">
+                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if postdate == nowday %}
+                                {{ post.date | date: site.data.format.same_day }}
+                            {% elsif postyear == nowyear %}
+                                {{ post.date | date: site.data.format.same_year }}
+                            {% endif %}
+                        </p>
                     {% endif %}
-                </p>
-            {% endif %}
-            {% endcomment %}
-            <p class="excerpt">{{ post.excerpt }}</p>
-        </div>
-        {% endif %}
-    {% endfor %}
-    </div>
-    
-    <div class="news_sections_block">
-        <div class="news_sections">
-            {% comment %}
-            <h1>Sections</h1>
-            {% endcomment %}
-            
-            {% for post in site.categories['news_section'] limit:10 %}
-            <div class="news_section">
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {% comment %}
-                {% if post.date == nil %}
-                    <p class="date">Undated</p>
-                {% else %}
-                    <p class="date">
-                        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowday %}
-                            {{ post.date | date: site.data.format.same_day }}
-                        {% elsif postyear == nowyear %}
-                            {{ post.date | date: site.data.format.same_year }}
-                        {% endif %}
-                    </p>
+                    {% endcomment %}
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                </div>
                 {% endif %}
-                {% endcomment %}
-                <p class="excerpt">{{ post.excerpt }}</p>
-            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    <div id="news_sections_block">
+        <h1>Sections</h1>
+        <div class="news_sections">
+            {% for post in site.categories['news_section'] limit:10 %}
+                <div class="news_section">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {% comment %}
+                    {% if post.date == nil %}
+                        <p class="date">Undated</p>
+                    {% else %}
+                        <p class="date">
+                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if postdate == nowday %}
+                                {{ post.date | date: site.data.format.same_day }}
+                            {% elsif postyear == nowyear %}
+                                {{ post.date | date: site.data.format.same_year }}
+                            {% endif %}
+                        </p>
+                    {% endif %}
+                    {% endcomment %}
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                </div>
             {% endfor %}
         </div>
     </div>

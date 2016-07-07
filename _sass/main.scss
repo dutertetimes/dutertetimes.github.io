@@ -836,41 +836,73 @@ section.hub_column_main {
         }
     }
 
-    div.news_tops {
-        margin-bottom: 10px;
-        border-bottom: 1px solid $color_news_line;
-        width: 100%;
-        div.news_top {
-            h2 a {
-                font-size: $font_size_news_title;
-                line-height: $font_size_news_title;
+    #news_tops_block {
+        h1 {
+            display: none;
+        }
+        @include max-screen(720px) {
+            @include sidebar_component;
+            h1 {
+                @include sidebar_component_label;
+            }
+        }
+        @include min-screen(721px) {
+            border-bottom: 1px solid $color_news_line;
+        }
+        div.news_tops {
+            @include sidebar_component_internal;
+            width: 100%;
+            div.news_top {
+                h2 a {
+                    font-size: $font_size_news_title;
+                    line-height: $font_size_news_title;
+                }
             }
         }
     }
 
-    div.news_articles {
+    #news_articles_block {
         width: 52%;
-        float: left;
-        div.news_article {
-            h2 a {
-                font-size: $font_size_news_title - 1;
-                line-height: $font_size_news_title - 1;
+        h1 {
+            display: none;
+        }
+        @include max-screen(720px) {
+            @include sidebar_component;
+            width: 100%;
+            h1 {
+                @include sidebar_component_label;
+            }
+        }    
+        div.news_articles {
+            @include sidebar_component_internal;
+            float: left;
+            div.news_article {
+                h2 a {
+                    font-size: $font_size_news_title - 1;
+                    line-height: $font_size_news_title - 1;
+                }
             }
         }
     }
     
-    div.news_sections_block {
+    #news_sections_block {
+        h1 {
+            display: none;
+        }
         padding-left: 10px;
         // Add left vertical dividing line
         border-left: 1px solid $color_box;
         width: 45%;
-        float: right;
-            
-        h1 {
-            @include sidebar_component_label;
+        @include max-screen(720px) {
+            @include sidebar_component;
+            width: 100%;
+            h1 {
+                @include sidebar_component_label;
+            }
         }
-        
+        float: right;
         div.news_sections {
+            @include sidebar_component_internal;
             div.news_section {
                 @include component_entry;
                 h2 a {
@@ -880,7 +912,6 @@ section.hub_column_main {
             }
         }
     }
-
 }
 
 
@@ -898,33 +929,34 @@ section.post_column_main {
         margin: 0 0 12px 0;
     }
     
-    div.image {
-        background: $color_image_bg;
-        padding: 5px 5px 5px 5px;
-        margin: 0 0px 20px 0;
-        p.attribution {
-            font-size: $font_size_page_meta;
-            font-style: italic;
-            line-height: $font_line_height_page_meta - 8;
-            color: $color_image_attribution;
-            text-align: right;
-            padding: 2px 0px 3px 0px;
-            margin: 2px 0 0 0;
+    div.image_container {
+        width: auto;
+        @include max-screen(768px - 1px) {
+            width: 100%;
+            display: inline-block;
         }
-    }
-    div.image_small {
-        float: right;
-        background: $color_image_bg;
-        padding: 5px 5px 5px 5px;
-        margin: 0 0px 20px 10px;
-        p.attribution {
-            font-size: $font_size_page_meta;
-            font-style: italic;
-            line-height: $font_line_height_page_meta - 8;
-            color: $color_image_attribution;
-            text-align: right;
-            padding: 2px 0px 3px 0px;
-            margin: 2px 0 0 0;
+        div {
+            width: auto;
+            background: $color_image_bg;
+            margin: 0 0px 20px 0;
+            padding: 5px 5px 5px 5px;
+            p.attribution {
+                font-size: $font_size_page_meta;
+                font-style: italic;
+                line-height: $font_line_height_page_meta - 8;
+                color: $color_image_attribution;
+                text-align: right;
+                padding: 2px 0px 3px 0px;
+                margin: 2px 0 0 0;
+            }
+            &.image_auto_width {
+                float: right;
+                margin-left: 10px;
+                @include max-screen(768px - 1px) {
+                    float: left;
+                    margin-left: 0px;
+                }
+            }
         }
     }
     
