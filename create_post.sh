@@ -71,7 +71,7 @@ function create_news_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "image:" >> $flename
+        echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
