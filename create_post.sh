@@ -71,7 +71,7 @@ function create_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "image:"
+        echo "image:" >> $flename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
@@ -105,7 +105,7 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "image:"
+        echo "image:" >> $flename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
@@ -183,7 +183,7 @@ function create_announcement {
         echo "eventdateend:   $current_date" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
-        echo "image:"
+        echo "image:" >> $flename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "link: " >> $filename
