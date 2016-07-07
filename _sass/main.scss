@@ -645,6 +645,8 @@ section.column_left_sidebar {
     }
     
     div.announcements {
+        @include sidebar_component_internal;
+        
         div.announcement {
             @include component_entry;
            
@@ -703,7 +705,6 @@ section.column_left_sidebar {
         display: none;
     }
     @include sidebar_component_scroll(1);
-    margin-top: 20px;
 
     // Because of the scroll div the news bit "titles" cannot have top margin.
     // to align the first news bit "title" with the top of the scroll div.
@@ -1568,6 +1569,7 @@ section.column_right_sidebar {
     }
     
     div.infos {
+        @include sidebar_component_internal;
         div.info {
             @include component_entry;
            
