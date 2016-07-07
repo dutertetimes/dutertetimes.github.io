@@ -61,7 +61,7 @@ function create_post {
         add_default "Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [post]" >> $filename
+        echo "categories: [news_top | news_article | news_section]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
