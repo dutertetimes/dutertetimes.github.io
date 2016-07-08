@@ -567,6 +567,7 @@ section.column_left_sidebar {
 #random_quotes_block {
 
     @include sidebar_component;
+    
     @media print {
         display: none;
     }
@@ -705,6 +706,7 @@ section.column_left_sidebar {
         display: none;
     }
     @include sidebar_component_scroll(1);
+    margin-bottom: 20px;
 
     // Because of the scroll div the news bit "titles" cannot have top margin.
     // to align the first news bit "title" with the top of the scroll div.
@@ -738,7 +740,6 @@ section.column_left_sidebar {
             }
         }
     }
-
 }
 
 
@@ -864,6 +865,7 @@ section.hub_column_main {
 
     #news_articles_block {
         width: 52%;
+        float: left;
         h1 {
             display: none;
         }
@@ -876,7 +878,6 @@ section.hub_column_main {
         }    
         div.news_articles {
             @include sidebar_component_internal;
-            float: left;
             div.news_article {
                 h2 a {
                     font-size: $font_size_news_title - 1;
@@ -891,8 +892,6 @@ section.hub_column_main {
             display: none;
         }
         padding-left: 10px;
-        // Add left vertical dividing line
-        border-left: 1px solid $color_box;
         width: 45%;
         @include max-screen(720px) {
             @include sidebar_component;
@@ -1500,6 +1499,7 @@ section.column_right_sidebar {
         
         div.related_posts,
         div.recent_posts {
+            @include sidebar_component_internal;
         
             div.related_post,
             div.recent_post {
@@ -1544,6 +1544,11 @@ section.column_right_sidebar {
                 }
             }
         }
+    }
+    
+    #recent_posts_block {
+        // Because this is a top component we remove the top padding
+        padding-top: 0px;
     }
     
     #twitter_feed {

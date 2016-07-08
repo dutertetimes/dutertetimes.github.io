@@ -6,7 +6,7 @@ layout: post
 datestart:  2016-07-03
 dateend:    2022-07-03
 style:
-categories: [info_feature]
+categories: [org]
 tags: [first pacific, mvp]
 published: true
 permalink: /feature/20160703T231228

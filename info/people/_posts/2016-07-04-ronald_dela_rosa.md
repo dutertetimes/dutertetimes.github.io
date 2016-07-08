@@ -6,8 +6,8 @@ layout: post
 datestart:  2016-07-01
 dateend:    2022-07-01
 style: horizontal
-categories: [info_feature]
-tags: [pnp]
+categories: [people]
+tags: [pnp, pnp chief]
 published: true
 permalink: /feature/20160704T043353
 link: 20160704T043353

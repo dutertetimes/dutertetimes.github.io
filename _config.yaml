@@ -90,14 +90,23 @@ defaults:
 
 collections:
   top:
-    output: true
+    output:    true
     permalink: /news/top/:collection/:path
   articles:
-    output: true
+    output:    true
     permalink: /news/articles/:collection/:path
   sections:
-    output: true
+    output:    true
     permalink: /news/sections/:collection/:path
+  people:
+    output:    true
+    permalink: /info/people/:collection/:path
+  org:
+    output:    true
+    permalink: /info/org/:collection/:path
+  gov:
+    output:    true
+    permalink: /info/gov/:collection/:path
     
 # Custom vars
 version:        0.1.0

@@ -110,7 +110,8 @@
 }
 
 @mixin sidebar_component {
-    padding: 10px 13px 12px 13px;
+    padding-top: 10px;
+    padding-bottom: 12px;
     @include max-screen(720px) {
         padding: 10px 0px 0px 0px;
     }
@@ -128,6 +129,8 @@
 
 @mixin sidebar_component_boxed($shadow) {
     @include sidebar_component;
+    padding-left: 13px;
+    padding-right: 13px;
     border: 1px solid $color_box;
     border-radius: 3px;
     @include min-screen(721px) {

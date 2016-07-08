@@ -6,7 +6,7 @@ layout: post
 categories: [people]
 tags: []
 published: true
-permalink: /:collection/:path
+permalink:
 ---
 
 Department of Social Welfare and Development (DSWD) Secretary under Benigo Simeon Aquino III and will be ending her public office on June 30.

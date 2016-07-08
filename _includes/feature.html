@@ -1,6 +1,89 @@
 <div id="info_block">
     <h1>Featured</h1>
     <div class="infos">
+    
+    {% for post in site.categories['people'] limit:1 %}
+        <div class="info">
+            <div class="info_heading">
+                <h2>{{ post.title }}</h2>
+            </div>
+            {% if post.image.source != nil %}
+                {% if post.style == "horizontal" %}
+                <div class="image_small">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                </div>
+                {% else %}
+                <div class="image">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
+                </div>
+                {% endif %}
+            {% endif %}
+            <p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
+                {% if post.link != nil %}
+                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                {% endif%}
+            </p>
+        </div>
+    {% endfor %}
+    
+    {% for post in site.categories['org'] limit:1 %}
+        <div class="info">
+            <div class="info_heading">
+                <h2>{{ post.title }}</h2>
+            </div>
+            {% if post.image.source != nil %}
+                {% if post.style == "horizontal" %}
+                <div class="image_small">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                </div>
+                {% else %}
+                <div class="image">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
+                </div>
+                {% endif %}
+            {% endif %}
+            <p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
+                {% if post.link != nil %}
+                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                {% endif%}
+            </p>
+        </div>
+    {% endfor %}
+    
+    {% for post in site.categories['places'] limit:1 %}
+        <div class="info">
+            <div class="info_heading">
+                <h2>{{ post.title }}</h2>
+            </div>
+            {% if post.image.source != nil %}
+                {% if post.style == "horizontal" %}
+                <div class="image_small">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                </div>
+                {% else %}
+                <div class="image">
+                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
+                </div>
+                {% endif %}
+            {% endif %}
+            <p>
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
+                {% if post.link != nil %}
+                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                {% endif%}
+            </p>
+        </div>
+    {% endfor %}
+
+
+
+    {% comment %}
+    
     {% assign found = false %}
     {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
     
@@ -9,7 +92,6 @@
         {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
             <div class="info">
-                
                 <div class="info_heading">
                     <h2>{{ post.title }}</h2>
                 </div>
@@ -106,5 +188,7 @@
             }
         </script>
     {% endif %}
+    
+    {% endcomment %}
     </div>
 </div>

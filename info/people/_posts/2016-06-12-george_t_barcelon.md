@@ -6,7 +6,7 @@ layout: post
 categories: [people]
 tags: []
 published: true
-permalink: /:collection/:path
+permalink:
 ---
 
 [PCCI elects new chairman, president](http://www.philstar.com/business/2015/12/08/1530168/pcci-elects-new-chairman-president)

@@ -6,7 +6,7 @@ layout: post
 datestart: 2016-07-02
 dateend: 2022-07-03
 style: horizontal
-categories: [info_feature]
+categories: [people]
 tags: [mvp, first pacific]
 published: true
 permalink: /feature/20160702T191414
