@@ -72,6 +72,7 @@ function create_news_post {
                 echo "published: true" >> $filename
             fi
         fi
+        echo "permalink: /:path" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
