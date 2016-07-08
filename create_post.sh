@@ -111,12 +111,12 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
+        echo "permalink: /feature/$current_short" >> $filename
+        echo "link: $current_short" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
-        echo "permalink: /feature/$current_short" >> $filename
-        echo "link: $current_short" >> $filename
         add_yaml_bar
         add_empty
 
@@ -189,10 +189,10 @@ function create_announcement {
         echo "eventdateend:   $current_date" >> $filename
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
+        echo "link: " >> $filename
         echo "image:" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
-        echo "link: " >> $filename
         add_yaml_bar
         echo "" >> $filename
 
