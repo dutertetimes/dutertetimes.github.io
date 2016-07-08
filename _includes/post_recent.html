@@ -3,7 +3,7 @@
     <div class="recent_posts">
         {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
         {% capture nowyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
-        {% for post in site.categories['post'] limit:5 %}
+        {% for post in site.categories['news_article'] limit:5 %}
             {% if post.title != page.title %}
                 <div class="recent_post">
                     <div class="recent_post_heading">
