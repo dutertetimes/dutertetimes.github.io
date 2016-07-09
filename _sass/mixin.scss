@@ -183,6 +183,14 @@
     }
 }
 
+@mixin attribution {
+    font-size: $font_attribution;
+    font-style: italic;
+    line-height: $font_size_attribution;
+    color: $color_image_attribution;
+    text-align: right;
+}
+
 @mixin button {
     font-family: $font_button;
     font-size: $font_size_button;
