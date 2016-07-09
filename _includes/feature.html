@@ -22,7 +22,7 @@
             <p>
                 {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
                 {% if post.link != nil %}
-                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                    <a href="{{ post.link }}.html">Read more...</a>
                 {% endif%}
             </p>
         </div>
@@ -48,7 +48,7 @@
             <p>
                 {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
                 {% if post.link != nil %}
-                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                    <a href="{{ post.link }}.html">Read more...</a>
                 {% endif%}
             </p>
         </div>
@@ -74,7 +74,7 @@
             <p>
                 {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
                 {% if post.link != nil %}
-                    <a href="/feature/{{ post.link }}.html">Read more...</a>
+                    <a href="{{ post.link }}.html">Read more...</a>
                 {% endif%}
             </p>
         </div>
