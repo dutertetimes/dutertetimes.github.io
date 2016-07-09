@@ -111,8 +111,8 @@ function create_feature_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "permalink: /feature/$current_short" >> $filename
-        echo "link: $current_short" >> $filename
+        echo "permalink: /info/.../$current_short" >> $filename
+        echo "link: /info/.../$current_short" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
