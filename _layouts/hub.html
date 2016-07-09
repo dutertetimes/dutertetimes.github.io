@@ -12,7 +12,7 @@ layout: default
         <h1>Top News</h1>
         <div class="news_tops">
             {% assign top_id = nil %}
-            {% for post in site.categories['news_top'] limit:1 %}
+            {% for post in site.categories['topnews'] limit:1 %}
                 {% assign top_id = post.date %}
                 <div class="news_top">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -74,8 +74,8 @@ layout: default
     <div id="news_articles_block">
         <h1>Other News</h1>
         <div class="news_articles">
-            {% for post in site.categories['news_article'] limit:8 %}
-                {% if post.date != top_id %}
+            {% for post in site.categories['articles'] limit:8 %}
+                {% if post.date != top_id and post.categories != 'business' and post.categories != 'other' %}
                 <div class="news_article">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     {% comment %}
@@ -104,7 +104,7 @@ layout: default
         <div class="news_section_business_block">
             <h1>Commerce and Industry</h1>
             <div class="news_section_business">
-                {% for post in site.categories['news_business'] limit:3 %}
+                {% for post in site.categories['business'] limit:3 %}
                     <div class="news_section_entry">
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="excerpt">{{ post.excerpt }}</p>
