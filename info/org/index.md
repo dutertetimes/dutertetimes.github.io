@@ -2,7 +2,7 @@
 title: Organizations
 excerpt: List of organizations
 layout: info
-categories: [org]
+categories: []
 tags: []
 published: true
 ---
@@ -10,5 +10,5 @@ published: true
 |------|------|
 | Name | Link |
 |------|------|
-{% for item in site.org %} {% if item.url != page.url %} {{ item.title }} | [Link]({{ item.url }})
-{% endif %} {% endfor %}
+{% for item in site.categories['org'] %} {{ item.title }} | [Link]({{ item.url }}) |
+{% endfor %}

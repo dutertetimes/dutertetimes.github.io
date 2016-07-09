@@ -5,11 +5,10 @@ excerpt: One of the richest men of the Republic of the Philippines. It is said t
 layout: post
 datestart: 2016-07-02
 dateend: 2022-07-03
-style: horizontal
 categories: [people]
 tags: [mvp, first pacific]
 published: true
-permalink: /feature/20160702T191414
+permalink: /info/people/20160702T191414
 link: 20160702T191414
 image:
   layout: auto_width

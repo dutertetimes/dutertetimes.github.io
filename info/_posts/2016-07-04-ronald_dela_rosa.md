@@ -5,11 +5,10 @@ excerpt: From humble beginnings in Davao del Sur and now that he is the 21st PNP
 layout: post
 datestart:  2016-07-01
 dateend:    2022-07-01
-style: horizontal
 categories: [people]
 tags: [pnp, pnp chief]
 published: true
-permalink: /feature/20160704T043353
+permalink: /info/people/20160704T043353
 link: 20160704T043353
 image:
   layout: auto_width

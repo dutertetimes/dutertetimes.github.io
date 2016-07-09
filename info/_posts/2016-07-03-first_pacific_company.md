@@ -6,10 +6,10 @@ layout: post
 datestart:  2016-07-03
 dateend:    2022-07-03
 style:
-categories: [org, company]
+categories: [company]
 tags: [first pacific, mvp, salim]
 published: true
-permalink: /feature/20160703T231228
+permalink: /info/company/20160703T231228
 link: 20160703T231228
 image:
   layout:

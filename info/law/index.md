@@ -1,13 +1,14 @@
 ---
 title: Law
-excerpt: List of Philippine laws
+excerpt: List of Laws
 layout: info
-categories: [law]
+categories: []
 tags: []
 published: true
 ---
 
-|-------------------------|--------------------------|--------------|
-| Official                | A.K.A.                   | Link         |
-|-------------------------|--------------------------|--------------|
-| Republic Act No. 10173  | Data Privacy Act of 2012 | [Link](http://www.gov.ph/2012/08/15/republic-act-no-10173/)
+|------|------|
+| Name | Link |
+|------|------|
+{% for item in site.categories['law'] %} {{ item.title }} | [Link]({{ item.url }}) |
+{% endfor %}
