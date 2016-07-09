@@ -11,11 +11,8 @@
             overflow: hidden;
         }
         p.attribution {
-            font-size: $font_size_page_meta - 2;
-            font-style: italic;
-            line-height: $font_size_page_meta - 6;
+            @include attribution;
             color: lighten($color_image_attribution, 30%);
-            text-align: right;
             padding: 0px 0px 3px 0px;
             margin: 0px 0 0 0;
         }
