@@ -7,12 +7,9 @@ tags: []
 published: true
 ---
 
-<ol>
-{% for item in site.collections %}
-    {% if item.title %}
-        <li>
-            <a href="/info/{{ item.label }}">{{ item.title }}</a>
-        </li>
-    {% endif %}
-{% endfor %}
-</ol>
+1. [Law](/info/law/)
+2. [People](/info/people/)
+3. [Places](/info/places/)
+4. [Organization](/info/org/)
+5. [Company](/info/company/)
+6. [News Sources](/info/sources/)
