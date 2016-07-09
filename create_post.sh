@@ -41,7 +41,8 @@ function add_default {
 
 function add_empty {
     echo >> $filename
-    echo "Empty.&nbsp;&#x25cf;" >> $filename
+    echo "Empty." >> $filename
+    echo "&#x25cf;" >> $filename
 }
 
 function add_content {
@@ -100,8 +101,7 @@ function create_feature_post {
         echo "layout: post" >> $filename
         echo "datestart:  $current_date" >> $filename
         echo "dateend:    $current_date" >> $filename
-        echo "style: blank | horizontal" >> $filename
-        echo "categories: [info_feature | info_schedule | info_fallback]" >> $filename
+        echo "categories: [org | company | people | law | places]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -194,7 +194,7 @@ function create_announcement {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         add_yaml_bar
-        echo "" >> $filename
+        add_empty
 
         echo "Announcement file created: $filename"
     fi
