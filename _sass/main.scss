@@ -133,7 +133,6 @@ b {
 }
 
 em {
-    font-weight: bold;
     font-style: italic;
 }
 
@@ -478,7 +477,6 @@ section.column_left_sidebar {
     p, li, dl {
         font-family: $font_sidebar;
         font-size: $font_size_sidebar;
-        line-height: $font_size_sidebar + 2;
         text-align: left;
         & code {
             font-size: $font_size_sidebar - 1;
@@ -818,6 +816,8 @@ section.hub_column_main {
     }
     
     p {
+        font-family: $font_news_text;
+        font-size: $font_size_news_text;
         &.date {
             font-family: $font_news_date;
             font-size: $font_size_news_date;
@@ -835,32 +835,68 @@ section.hub_column_main {
     }
 
     #news_tops_block {
+        width: 53%;
+        float: left;
+        margin-right: 20px;
         h1 {
             display: none;
         }
         @include max-screen(720px) {
             @include sidebar_component;
+            width: 100%;
             h1 {
                 @include sidebar_component_label;
             }
         }
         @include min-screen(721px) {
-            border-bottom: 1px solid $color_news_line;
+            //border-bottom: 1px solid $color_news_line;
         }
         div.news_tops {
             @include sidebar_component_internal;
-            width: 100%;
             div.news_top {
                 h2 a {
                     font-size: $font_size_news_title;
                     line-height: $font_size_news_title;
+                }
+                p {
+                    font-family: $font_news_text;
+                    font-size: $font_size_news_text;
+                }
+                div.image_container {
+                    display: inline-block;
+                    float: right;
+                    div {
+                        width: auto;
+                        background: $color_image_bg;
+                        margin: 0 0px 20px 0;
+                        padding: 5px 5px 5px 5px;
+                        p.attribution {
+                            @include attribution;
+                            padding: 2px 0px 3px 0px;
+                            margin: 2px 0 0 0;
+                        }
+
+                        &.image_auto_width {
+                            float: right;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                p {
+                    text-align: justify;
+                    margin: 0px 0px 12px 0px;
+                    float: left;
+                    &.excerpt {
+                        margin-top: 10px;
+                        font-style: italic;
+                    }
                 }
             }
         }
     }
 
     #news_articles_block {
-        width: 52%;
+        width: 44%;
         float: left;
         h1 {
             display: none;
@@ -876,34 +912,129 @@ section.hub_column_main {
             @include sidebar_component_internal;
             div.news_article {
                 h2 a {
-                    font-size: $font_size_news_title - 1;
-                    line-height: $font_size_news_title - 1;
+                    font-size: $font_size_news_title - 2;
+                    line-height: $font_size_news_title - 2;
                 }
+                @include component_entry;
+                @include component_entry_content;
             }
         }
     }
     
-    #news_sections_block {
+    #news_section_horizontal_container {
+        width: 100%;
+        float: left;
+        border-top: 1px solid $color_news_line;
+        @include sidebar_component;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
         h1 {
-            display: none;
+            @include sidebar_component_label;
         }
-        padding-left: 10px;
-        width: 45%;
-        @include max-screen(720px) {
-            @include sidebar_component;
-            width: 100%;
-            h1 {
-                @include sidebar_component_label;
+        h2 {
+            @include component_entry_heading;
+            a {
+                font-size: $font_size_news_title - 2;
+                line-height: $font_size_news_title - 2;
             }
         }
-        float: right;
-        div.news_sections {
-            @include sidebar_component_internal;
-            div.news_section {
-                @include component_entry;
-                h2 a {
-                    font-size: $font_size_news_title - 2;
-                    line-height: $font_size_news_title - 2;
+
+        div.news_section_business_block {
+            width: 53%;
+            @include max-screen(720px) {
+                width: 100%;
+            }
+            padding-right: 15px;
+            @include sidebar_component;
+            padding-bottom: 0px;
+            
+            div.news_section_business {
+                float: clear;
+                @include sidebar_component_internal;
+                div {
+                    @include component_entry;
+                    @include component_entry_content;
+                }
+            }
+        }
+    }
+
+    #news_section_vertical_container {
+
+        width: 100%;
+        float: left;
+        border-top: 1px solid $color_news_line;
+        @include sidebar_component;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+        h1 {
+            @include sidebar_component_label;
+        }
+        h2 {
+            @include component_entry_heading;
+            a {
+                font-size: $font_size_news_title - 3;
+                line-height: $font_size_news_title - 3;
+            }
+        }
+
+        div.news_section_agriculture_block {
+            width: 31%;
+            float: left;
+            padding-right: 15px;
+            @include sidebar_component;
+            div.news_section_agriculture {
+                @include sidebar_component_internal;
+                div {
+                    @include component_entry_content;
+                }
+            }
+        }
+        
+        div.news_section_scitech_block {
+            width: 31%;
+            float: left;
+            @include sidebar_component;
+            //h1 {
+            //    @include sidebar_component_label;
+            //}
+            div.news_section_scitech {
+                @include sidebar_component_internal;
+                
+                div {
+                    @include component_entry_content;
+                    //h2 {
+                    //    @include component_entry_heading;
+                    //    a {
+                    //        font-size: $font_size_news_title - 3;
+                    //        line-height: $font_size_news_title - 3;
+                    //    }
+                    //}
+                }
+            }
+        }
+        
+        div.news_section_transport_block {
+            width: 31%;
+            float: left;
+            @include sidebar_component;
+            //h1 {
+            //    @include sidebar_component_label;
+            //}
+            div.news_section_transport {
+                @include sidebar_component_internal;
+                
+                div {
+                    @include component_entry_content;
+                    //h2 {
+                    //    @include component_entry_heading;
+                    //    a {
+                    //        font-size: $font_size_news_title - 3;
+                    //        line-height: $font_size_news_title - 3;
+                    //    }
+                    //}
                 }
             }
         }
@@ -1386,7 +1517,7 @@ section.column_right_sidebar {
     p, li, dl {
         font-family: $font_sidebar;
         font-size: $font_size_sidebar;
-        line-height: $font_size_sidebar + 2;
+        //line-height: $font_size_sidebar + 2;
         text-align: left;
         & code {
             font-size: $font_size_sidebar - 1;

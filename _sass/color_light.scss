@@ -13,7 +13,7 @@ $color_main_bg:                 #ffffff;
 $color_box:                     #eee;
 
 // Text
-$color_text:                    black;
+$color_text:                    lighten(black, 10%);
 
 // Link
 $color_link:			        $color_primary;

@@ -32,15 +32,49 @@ layout: default
                     {% endif %}
                     {% endcomment %}
                     <p class="excerpt">{{ post.excerpt }}</p>
+                    
+                    {% comment %}
+                    {% if post.image.source != nil %}
+                        <div class="image_container">
+                        {% if post.image.layout == "auto_width" %}
+                            <div class="image_auto_width">
+                                <img width="50%" height="auto" src="{{ post.image.source }}" />
+                                {% comment %}
+                                <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
+                                {% endcomment %}
+                            </div>
+                        {% else %}
+                            <div>
+                                <img width="100%" height="auto" src="{{ post.image.source }}" />
+                                {% comment %}
+                                <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
+                                {% endcomment %}
+                            </div>
+                        {% endif %}
+                        </div>
+                    {% endif %}
+                    {% endcomment %}
+                
+                    {% if post.video.source != nil and post.video.layout == "top" %}
+                        <div class="video">
+                            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ post.video.source }}">https://www.youtube.com/watch?v={{ post.video.source }}</a></p>
+                            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ post.video.source }}" frameborder="0"></iframe>
+                            {% comment %}
+                            <p class="attribution">video by {{ post.video.attribution }}&nbsp;</p>
+                            {% endcomment %}
+                        </div>
+                    {% endif %}
+                    
+                    {{ post.content }}
                 </div>
             {% endfor %}
         </div>
     </div>
     
     <div id="news_articles_block">
-        <h1>Articles</h1>
+        <h1>Other News</h1>
         <div class="news_articles">
-            {% for post in site.categories['news_article'] limit:10 %}
+            {% for post in site.categories['news_article'] limit:8 %}
                 {% if post.date != top_id %}
                 <div class="news_article">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -66,33 +100,59 @@ layout: default
         </div>
     </div>
     
-    <div id="news_sections_block">
-        <h1>Sections</h1>
-        <div class="news_sections">
-            {% for post in site.categories['news_section'] limit:10 %}
-                <div class="news_section">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    {% comment %}
-                    {% if post.date == nil %}
-                        <p class="date">Undated</p>
-                    {% else %}
-                        <p class="date">
-                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                            {% if postdate == nowday %}
-                                {{ post.date | date: site.data.format.same_day }}
-                            {% elsif postyear == nowyear %}
-                                {{ post.date | date: site.data.format.same_year }}
-                            {% endif %}
-                        </p>
-                    {% endif %}
-                    {% endcomment %}
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                </div>
-            {% endfor %}
+    <div id="news_section_horizontal_container">
+        <div class="news_section_business_block">
+            <h1>Commerce and Industry</h1>
+            <div class="news_section_business">
+                {% for post in site.categories['news_business'] limit:3 %}
+                    <div class="news_section_entry">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
+    
+    {% comment %}
+    <div id="news_section_vertical_container">
+        <div class="news_section_agriculture_block">
+            <h1>Agriculture</h1>
+            <div class="news_section_agriculture">
+                {% for post in site.categories['news_section'] limit:3 %}
+                    <div class="news_section_entry">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="news_section_scitech_block">
+            <h1>Science and Technology</h1>
+            <div class="news_section_scitech">
+                {% for post in site.categories['news_section'] limit:3 %}
+                    <div class="news_section_entry">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="news_section_transport_block">
+            <h1>Transportation</h1>
+            <div class="news_section_transport">
+                {% for post in site.categories['news_section'] limit:3 %}
+                    <div class="news_section_entry">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endcomment %}
     
 </section>
 
 {% include hub_right_sidebar.html %}
+

@@ -102,6 +102,7 @@
     }
     font-weight: bold;
     color: $color_sidebar_label;
+    text-align: left;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 15px;
@@ -184,9 +185,10 @@
 }
 
 @mixin attribution {
-    font-size: $font_attribution;
+    font-family: $font_attribution;
+    font-size: $font_size_attribution;
     font-style: italic;
-    line-height: $font_size_attribution;
+    line-height: $font_line_height_attribution;
     color: $color_image_attribution;
     text-align: right;
 }
