@@ -564,13 +564,15 @@ section.column_left_sidebar {
 
 #random_quotes_block {
 
-    @include sidebar_component;
-    
     @media print {
         display: none;
     }
     
+    @include sidebar_component;
+   
     div.random_quotes {
+        @include sidebar_component_internal;
+
         div.quote {
         
             p {
