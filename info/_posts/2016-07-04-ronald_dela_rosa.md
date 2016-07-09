@@ -1,5 +1,5 @@
 ---
-title: PNP Chief PDG Ronald Dela Rosa
+title: Ronald Dela Rosa
 date: 2016-07-04T04:33:53UTC
 excerpt: From humble beginnings in Davao del Sur and now that he is the 21st PNP Chief, Police Director General Ronald 'Bato' Dela Rosa never dreamed of being in his position now. He believes it must be destiny that placed him there and because he has a crucial job for his country.
 layout: post
