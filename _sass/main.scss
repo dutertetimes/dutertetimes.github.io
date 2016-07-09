@@ -667,6 +667,9 @@ section.column_left_sidebar {
                     color: $color_announcement_title;
                     text-transform: uppercase;
                     @include component_entry_heading;
+                    @include max-screen(720px) {
+                        font-size: $font_size_announcement_title + 1;
+                    }
                 }
             }
             
@@ -683,6 +686,9 @@ section.column_left_sidebar {
                 }
                 em {
                     font-style: italic;
+                }
+                @include max-screen(720px) {
+                    line-height: $font_size_announcement_text + 3;
                 }
             }
             li {
@@ -832,6 +838,9 @@ section.hub_column_main {
             margin-top: 2px;
             margin-bottom: 13px;
         }
+        @include max-screen(720px) {
+            line-height: $font_size_news_excerpt + 3;
+        }
     }
 
     #news_tops_block {
@@ -858,10 +867,6 @@ section.hub_column_main {
                     font-size: $font_size_news_title;
                     line-height: $font_size_news_title;
                 }
-                p {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
-                }
                 div.image_container {
                     display: inline-block;
                     float: right;
@@ -883,12 +888,17 @@ section.hub_column_main {
                     }
                 }
                 p {
+                    font-family: $font_news_text;
+                    font-size: $font_size_news_text;
                     text-align: justify;
                     margin: 0px 0px 12px 0px;
                     float: left;
                     &.excerpt {
                         margin-top: 10px;
                         font-style: italic;
+                    }
+                    @include max-screen(720px) {
+                        line-height: $font_size_news_text + 3;
                     }
                 }
             }
@@ -917,6 +927,11 @@ section.hub_column_main {
                 }
                 @include component_entry;
                 @include component_entry_content;
+                p {
+                    @include max-screen(720px) {
+                        line-height: $font_size_news_text + 3;
+                    }
+                }
             }
         }
     }
@@ -955,6 +970,11 @@ section.hub_column_main {
                 div {
                     @include component_entry;
                     @include component_entry_content;
+                    p {
+                        @include max-screen(720px) {
+                            line-height: $font_size_news_text + 3;
+                        }
+                    }
                 }
             }
         }
@@ -979,6 +999,12 @@ section.hub_column_main {
                 line-height: $font_size_news_title - 3;
             }
         }
+        p {
+            @include max-screen(720px) {
+                line-height: $font_size_news_text + 3;
+            }
+        }
+
 
         div.news_section_agriculture_block {
             width: 31%;
@@ -997,21 +1023,10 @@ section.hub_column_main {
             width: 31%;
             float: left;
             @include sidebar_component;
-            //h1 {
-            //    @include sidebar_component_label;
-            //}
             div.news_section_scitech {
                 @include sidebar_component_internal;
-                
                 div {
                     @include component_entry_content;
-                    //h2 {
-                    //    @include component_entry_heading;
-                    //    a {
-                    //        font-size: $font_size_news_title - 3;
-                    //        line-height: $font_size_news_title - 3;
-                    //    }
-                    //}
                 }
             }
         }
@@ -1020,21 +1035,10 @@ section.hub_column_main {
             width: 31%;
             float: left;
             @include sidebar_component;
-            //h1 {
-            //    @include sidebar_component_label;
-            //}
             div.news_section_transport {
                 @include sidebar_component_internal;
-                
                 div {
                     @include component_entry_content;
-                    //h2 {
-                    //    @include component_entry_heading;
-                    //    a {
-                    //        font-size: $font_size_news_title - 3;
-                    //        line-height: $font_size_news_title - 3;
-                    //    }
-                    //}
                 }
             }
         }
@@ -1739,6 +1743,9 @@ section.column_right_sidebar {
             }
             p {
                 margin-top: 5px;
+                @include max-screen(720px) {
+                    line-height: $font_size_news_text + 3;
+                }
             }
         }
     }
