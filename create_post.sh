@@ -22,7 +22,7 @@ function show_usage {
     echo "  -d, --draft     Draft news post file"
     echo "  -f, --feature   Feature post file"
     echo "  -nb             News bit file"
-    echo "  -p              News post file"
+    echo "  -n, --news      News post file"
     echo "  -h, --help      Show usage"
 }
 
@@ -85,7 +85,7 @@ function create_news_post {
         add_yaml_bar
         add_empty
 
-        echo "Post file created: $filename"
+        echo "News post file created: $filename"
     fi
 }
 
