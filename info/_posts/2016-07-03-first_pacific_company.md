@@ -10,7 +10,7 @@ categories: [company]
 tags: [first pacific, mvp, salim]
 published: true
 permalink: /info/company/20160703T231228
-link: 20160703T231228
+link: /info/company/20160703T231228
 image:
   layout:
   source:
