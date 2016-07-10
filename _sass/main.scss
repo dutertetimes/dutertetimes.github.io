@@ -1673,6 +1673,9 @@ section.column_right_sidebar {
                 @include component_entry_content;
                 
                 p {
+                    @include max-screen(720px) {
+                        line-height: $font_size_related_post_excerpt + 3;
+                    }
                     &.date {
                         font-family: $font_related_post_date;
                         font-size: $font_size_related_post_date;
