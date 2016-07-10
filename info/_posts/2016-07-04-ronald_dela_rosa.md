@@ -12,7 +12,7 @@ permalink: /info/people/20160704T043353
 link: /info/people/20160704T043353
 image:
   layout: auto_width
-  source: https://dl.dropboxusercontent.com/u/47611946/duterte/post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png
+  source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png
   attribution: RTVM
 ---
 

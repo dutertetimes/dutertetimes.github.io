@@ -12,7 +12,7 @@ permalink: /info/people/20160702T191414
 link: /info/people/20160702T191414
 image:
   layout: auto_width
-  source: https://dl.dropboxusercontent.com/u/47611946/duterte/post/manuel_velez_pangilinan.jpg
+  source: /post/manuel_velez_pangilinan.jpg
   attribution: Wikipedia Unknown CC BY-SA 3.0
 ---
 

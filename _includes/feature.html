@@ -10,11 +10,11 @@
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                 </div>
                 {% else %}
                 <div class="image">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                     <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                 </div>
                 {% endif %}
@@ -36,11 +36,11 @@
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                 </div>
                 {% else %}
                 <div class="image">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                     <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                 </div>
                 {% endif %}
@@ -62,11 +62,11 @@
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                 </div>
                 {% else %}
                 <div class="image">
-                    <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                    <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                     <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                 </div>
                 {% endif %}

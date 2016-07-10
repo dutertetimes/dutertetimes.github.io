@@ -12,7 +12,7 @@
                     <h2>{{ post.title }}</h2>
                     {% if post.image.source != nil %}
                         <div class="image">
-                            <img src="{{ post.image.source }}" class="label" width="100%" height="auto"/>
+                            <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                             <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                         </div>
                     {% endif %}
