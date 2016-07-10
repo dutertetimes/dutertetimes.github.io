@@ -67,6 +67,7 @@ title:          "Duterte Times"
 tagline:        "The times, they are a-changin'"
 description:
 url:            https://dutertetimes.github.io/
+image_source:   https://dl.dropboxusercontent.com/u/47611946/dutertetimes
 
 author:
   name:         'dutertetimes'
