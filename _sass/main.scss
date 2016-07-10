@@ -645,6 +645,12 @@ section.column_left_sidebar {
         margin-top: 20px;
     }
     
+    h1 {
+        @include min-screen(721px) {
+            display: none;
+        }
+    }
+    
     div.announcements {
         @include sidebar_component_internal;
         
@@ -922,7 +928,7 @@ section.hub_column_main {
             h1 {
                 @include sidebar_component_label;
             }
-        }    
+        }
         div.news_articles {
             @include sidebar_component_internal;
             div.news_article {
