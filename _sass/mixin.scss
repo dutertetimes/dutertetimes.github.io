@@ -1,3 +1,40 @@
+@mixin compact {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin set_margin_v($top: 0px, $bottom: 0px) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+@mixin set_padding_v($top: 0px, $bottom: 0px) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+@mixin set_margin_h($left: 0px, $right: 0px) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+@mixin set_padding_h($left: 0px, $right: 0px) {
+    padding-left: $left;
+    padding-right: $right;
+}
+
+@mixin set_font($font, $size, $color, $weight: normal, $style: normal) {
+    font-family: $font;
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+    line-height: $size;
+    color: $color;
+    @media print {
+        color: black;
+    }
+}
+
 @mixin common_heading {
     h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
     h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
@@ -63,15 +100,11 @@
         padding-top: 20px;
     }
     h5, h6 {
-        margin-top: 0px;
-        margin-bottom: 10px;
+        @include set_margin_v(0, 10px);
         padding-top: 10px;
         // For bread crumbs
         a {
-            font-family: $font_heading;
-            font-size: $font_size_default;
-            font-weight: normal;
-            color: $color_primary;
+            @include set_font($font_heading, $font_size_default, $color_primary);
             border-bottom: none;
         }
         &.bread_crumb {
@@ -95,15 +128,13 @@
 }
 
 @mixin sidebar_component_label {
-    font-family: $font_label;
-    font-size: $font_size_label;
+    @include set_font($font_label, $font_size_label, $color_sidebar_label, bold);
     @include max-screen(720px) {
         font-size: $font_size_label + 1;
     }
-    font-weight: bold;
-    color: $color_sidebar_label;
     text-align: left;
     text-transform: uppercase;
+    letter-spacing: 0.25px;
     margin: 0;
     margin-bottom: 15px;
     padding-top: 1px;
@@ -111,17 +142,16 @@
 }
 
 @mixin sidebar_component {
-    padding-top: 10px;
-    padding-bottom: 12px;
+    @include compact;
+    @include set_padding_v(10px, 12px);
     @include max-screen(720px) {
-        padding: 10px 0px 0px 0px;
+        padding-top: 10px;
     }
     background: $color_sidebar_bg;
 }
 
 @mixin sidebar_component_internal {
-    margin-top: 5px + 3px;
-    margin-bottom: 0px;
+    @include set_margin_v(5px + 3px, 0px);
     margin-right: 0px;
     @include max-screen(720px) {
         padding-right: 10px;
@@ -130,8 +160,7 @@
 
 @mixin sidebar_component_boxed($shadow) {
     @include sidebar_component;
-    padding-left: 13px;
-    padding-right: 13px;
+    @include set_padding_h(13px, 13px);
     border: 1px solid $color_box;
     border-radius: 3px;
     @include min-screen(721px) {
@@ -156,13 +185,25 @@
 }
 
 @mixin component_entry {
-    margin-top: 0px;
-    margin-bottom: 15px;
+    @include set_margin_v(0px, 15px);
 }
 
-@mixin component_entry_heading {
-    margin-top: 0px;
-    margin-bottom: 0px;
+@mixin component_entry_heading_base($font, $size, $color) {
+    @include set_font($font, $size, $color, bold);
+    @include max-screen(720px) {
+        line-height: $size + 2;
+    }
+    border-bottom: none;
+    @include compact;
+}
+
+@mixin component_entry_heading($font, $size, $color) {
+    @include component_entry_heading_base($font, $size, $color);
+    margin-bottom: 5px;
+}
+
+@mixin component_entry_heading_link($font, $size, $color) {
+    @include component_entry_heading_base($font, $size, $color);
 }
 
 @mixin component_entry_content {
@@ -171,40 +212,41 @@
         padding-left: 25px;
     }
     p {
-        margin-top: 2px;
-        margin-bottom: 2px;
+        @include set_margin_v(2px, 2px);
         @include max-screen(720px) {
             margin-top: 5px;
         }
         padding: 0;
     }
     li {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        @include set_margin_v;
     }
+}
+
+@mixin image_frame {
+    background: $color_image_bg;
+    margin: 5px 0px 5px 0;
+    padding: 5px 5px 5px 5px;
+}
+
+@mixin video_frame {
+    @include image_frame;
 }
 
 @mixin attribution {
-    font-family: $font_attribution;
-    font-size: $font_size_attribution;
-    font-style: italic;
-    line-height: $font_line_height_attribution;
-    color: $color_image_attribution;
+    @include set_font($font_attribution, $font_size_attribution, $color_image_attribution, normal, italic);
     text-align: right;
+    padding: 2px 0px 3px 0px;
+    margin: 2px 0 0 0;
 }
 
 @mixin button {
-    font-family: $font_button;
-    font-size: $font_size_button;
+    @include set_font($font_button, $font_size_button, $color_button_bg);
     @include max-screen(720px) {
         font-size: $font_size_button + 1;
     }
-    font-weight: normal;
     text-align: center;
-
     white-space: nowrap;
-    
-    color: $color_button_bg;
     background-color: $color_button_text;
 
     padding: 5px 10px 5px 10px;

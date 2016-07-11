@@ -147,11 +147,11 @@ mark {
 pre {
     font-family: $font_code;
     font-size: $font_size_code;
+    line-height: $font_line_height_code;
 }
 
 p code {
-    font-family: $font_code;
-    font-size: $font_size_code;
+    @extend pre;
 }
 
 aside {
@@ -273,15 +273,8 @@ header {
                 display: block;
                 margin: 9px 0 0 0px;
                 a {
-                    font-family: $font_title;
-                    font-size: $font_size_title;
-                    font-weight: $font_weight_title;
+                    @include set_font($font_title, $font_size_title, $color_header_title, $font_weight_title);
                     text-align: left;
-                    line-height: $font_size_title;
-                    color: $color_header_title;
-                    @media print {
-                        color: black;
-                    }
                     border: none;
                     &:hover {
                         border: none;
@@ -295,21 +288,10 @@ header {
 
             p {
                 float: left;
-                font-family: $font_title_tagline;
-                font-weight: normal;
-                @media print {
-                    font-weight: normal;
-                }
-                font-size: $font_size_title_tagline;
-                font-style: italic;
+                @include set_font($font_title_tagline, $font_size_title_tagline, $color_header_title_tag, normal, italic);
                 letter-spacing: 0px;
                 text-align: left;
                 line-height: $font_size_title_tagline + 1;
-                color: $color_header_title_tag;
-                @media print {
-                    color: black;
-                }
-
                 margin: 3px 0 0 0;
             }
         }
@@ -348,9 +330,7 @@ header {
             display: none;
         }
         ul {
-            margin: 0;
-            padding: 0;
-            
+            @include compact;
             li {
                 // Display list items horizontally
                 display: inline;
@@ -425,6 +405,39 @@ section {
         font-family: $font_default;
         margin: 10px 15px 15px 15px;
     }
+    &.column_left_sidebar,
+    &.column_right_sidebar {
+        h1 {
+            @include sidebar_component_label;
+        }
+        h2 {
+            @include component_entry_heading($font_sidebar_entry_title, $font_size_sidebar_entry_title, $color_sidebar_entry_title);
+            a {
+                @include component_entry_heading_link($font_sidebar_entry_title, $font_size_sidebar_entry_title, $color_sidebar_entry_title);
+            }
+        }
+        
+        p, li, dl, a {
+            @include set_font($font_sidebar, $font_size_sidebar, $color_sidebar);
+            text-align: left;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+
+            li {
+                padding: 0px;
+                line-height: $font_size_sidebar + 4;
+                a {
+                    border-bottom: none;
+                    &:hover {
+                        color: $color_primary;
+                    }
+                }
+            }
+        }
+    }
+    
     &.hub_column_main,
     &.post_column_main,
     &.page_column_main {
@@ -470,19 +483,6 @@ section.column_left_sidebar {
     @media print {
         margin: 0px;
     }
-    h1 {
-        @include sidebar_component_label;
-    }
-
-    p, li, dl {
-        font-family: $font_sidebar;
-        font-size: $font_size_sidebar;
-        text-align: left;
-        & code {
-            font-size: $font_size_sidebar - 1;
-            color: $color_text;
-        }
-    }
 }
 
 #datetime {
@@ -498,23 +498,16 @@ section.column_left_sidebar {
         border: none;
         border-collapse:collapse;
         width: 100%;
-        tr {
-            margin: 0;
-            padding: 0;
-            td {
-                margin: 0;
-                padding: 0;
-                white-space: nowrap;
-            }
+        tr, td {
+            @include compact;
+        }
+        td {
+            white-space: nowrap;
         }
     }
 
     p {
-        font-family: $font_sidebar;
-        font-size: $font_size_sidebar - 1;
-        line-height: $font_size_sidebar + 2;
-        margin: 0;
-        padding: 0;
+        @include compact;
         &.label {
             text-align: left;
         }
@@ -541,11 +534,9 @@ section.column_left_sidebar {
     margin-bottom: 12px;
 
     ul {
-        margin: 3px 0 0 0;
-        padding: 0;
-        
+        @include compact;
+        margin-top: 3px;
         li {
-            
             list-style-type: none;
             padding: 0;
             a {
@@ -563,69 +554,49 @@ section.column_left_sidebar {
 }
 
 #random_quotes_block {
-
     @media print {
         display: none;
     }
-    
     @include sidebar_component;
    
     div.random_quotes {
         @include sidebar_component_internal;
 
         div.quote {
-        
             p {
-                font-family: $font_quote;
-                font-size: $font_size_quote;
+                @include compact;
+                @include set_font($font_quote, $font_size_quote, $color_quote_text);
                 @include max-screen(720px) {
                     font-size: $font_size_quote + 1;
                 }
-                font-style: normal;
                 line-height: $font_line_height_quote;
                 letter-spacing: 0.25px;
-                color: $color_quote_text;
-                margin-top: 0px;
-                margin-bottom: 0px;
-
+                
                 i.fa-quote-left {
                     color: lighten($color_sidebar_label, 15%);
                 }
             }
             
+            table, tbody, tr, td {
+                @include compact;
+            }
+            
             table {
                 border-collapse: collapse;
-                margin: 3px 0px 0px 0px;
-                padding: 0px;
+                margin-top: 3px;
             }
-            table tbody {
-                tr {
-                    margin: 0px;
-                    padding: 0px;
-                    
-                    td {
-                        margin: 0px;
-                        padding: 0px;
-
-                        p {
-                            margin: 0px;
-                            padding: 0px;
-                            
-                            font-family: $font_quote_author;
-                            font-size: $font_size_quote_author;
-                            font-weight: normal;
-
-                            &.qauthor {
-                                font-style: normal;
-                                text-transform: uppercase;
-                                color: $color_quote_author;
-                                // To center the author with the emdash on the left column
-                                padding-top: 2px;
-                            }
-                            &.context {
-                                color: lighten($color_quote_author, 20%);
-                            }
-                        }
+            
+            td {
+                p {
+                    @include compact;
+                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                    &.qauthor {
+                        text-transform: uppercase;
+                        // To center the author with the emdash on the left column
+                        padding-top: 2px;
+                    }
+                    &.context {
+                        color: lighten($color_quote_author, 15%);
                     }
                 }
             }
@@ -638,7 +609,7 @@ section.column_left_sidebar {
         display: none;
     }
     @include sidebar_component;
-    // Override top padding
+    // Override top padding since this component is at the top
     padding-top: 0px;
     
     @include max-screen(720px) {
@@ -659,22 +630,14 @@ section.column_left_sidebar {
            
             div.announcement_heading {
                 div.image {
-                    background: $color_image_bg;
-                    padding: 5px 5px 5px 5px;
-                    margin: 5px 0px 5px 0;
+                    @include image_frame;
                     p.attribution {
                         @include attribution;
-                        padding: 2px 0px 3px 0px;
-                        margin: 2px 0 0 0;
                     }
                 }
                 h2 {
-                    font-family: $font_announcement_title;
-                    font-size: $font_size_announcement_title;
-                    font-weight: bold;
-                    color: $color_announcement_title;
+                    @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);
                     text-transform: uppercase;
-                    @include component_entry_heading;
                     @include max-screen(720px) {
                         font-size: $font_size_announcement_title + 1;
                     }
@@ -684,23 +647,13 @@ section.column_left_sidebar {
             @include component_entry_content;
         
             p, li, a {
-                font-family: $font_announcement_text;
-                font-size: $font_size_announcement_text;
-                color: $color_announcement_text;
+                @include set_font($font_announcement_text, $font_size_announcement_text, $color_announcement_text);
                 &.date {
-                    font-family: $font_announcement_date;
-                    font-size: $font_size_announcement_date;
-                    color: $color_announcement_date;
-                }
-                em {
-                    font-style: italic;
+                    @include set_font($font_announcement_date, $font_size_announcement_date, $color_announcement_date);
                 }
                 @include max-screen(720px) {
                     line-height: $font_size_announcement_text + 3;
                 }
-            }
-            li {
-                line-height: $font_size_info_text;
             }
         }
     }
@@ -727,25 +680,11 @@ section.column_left_sidebar {
             
             div.newsbit_heading {
                 h2 {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
+                    @include component_entry_heading($font_news_text, $font_size_news_text, $color_news_bit_date);
                     font-weight: normal;
-                    color: $color_news_bit_date;
-                    @include component_entry_heading;
                 }
             }
             @include component_entry_content;
-            p, li, a {
-                font-family: $font_news_text;
-                font-size: $font_size_news_text;
-                color: $color_news_text;
-                em {
-                    font-style: italic;
-                }
-            }
-            li {
-                line-height: $font_size_info_text;
-            }
         }
     }
 }
@@ -762,27 +701,17 @@ section.page_column_main {
     }
     @include min-screen(721px) { width: 50%; }
     @include max-screen(720px) { width: 93%; }
-    
-    margin-left: 50px;
-    margin-right: 40px;
+
+    @include set_margin_h(50px, 40px);
     
     @include max-screen(720px) {
-        margin-left: 15px;
-        margin-right: 15px;
+        @include set_margin_h(15px, 15px);
     }
     
     @include common_heading;
     
-    p, em, a, li {
-        font-family: $font_page_text;
-        @include min-screen(721px) {
-            font-size: $font_size_page_text;
-            line-height: $font_line_height_page_text;
-        }
-        @include max-screen(720px) {
-            font-size: $font_size_page_text;
-            line-height: $font_line_height_page_text;
-        }
+    p, li {
+        @include set_font($font_page_text, $font_size_page_text, $color_page_text)
     }
     
     div.social_media_links {
@@ -815,81 +744,64 @@ section.hub_column_main {
         margin-left: 0;
     }
     
+    h1 {
+        @include sidebar_component_label;
+    }
     h2 {
+        @include component_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
         a {
-            font-family: $font_news_title;
-            font-weight: bold;
-            color: $color_news_title;
-            border-bottom: none;
-        }
-        margin: 0;
-        padding: 0 0 1px 0;
-        @include max-screen(720px) {
-            padding: 0 0 2px 0;
+            @include component_entry_heading_link($font_news_title, $font_size_news_title, $color_news_title);
         }
     }
-    
+
     p {
-        font-family: $font_news_text;
-        font-size: $font_size_news_text;
+        @include set_font($font_news_text, $font_size_news_text, $color_news_text);
+        line-height: $font_line_height_news_text;
+        @include max-screen(720px) {
+            line-height: $font_line_height_news_text + 3;
+        }
         &.date {
-            font-family: $font_news_date;
-            font-size: $font_size_news_date;
-            color: $color_news_date;
+            @include set_font($font_news_date, $font_size_news_date, $color_news_date);
+            line-height: $font_line_height_news_date;
         }
         &.excerpt {
-            font-family: $font_news_excerpt;
-            font-size: $font_size_news_excerpt;
-            line-height: $font_size_news_excerpt;
-            font-style: normal;
-            color: $color_news_excerpt;
-            margin-top: 2px;
-            margin-bottom: 13px;
-        }
-        @include max-screen(720px) {
-            line-height: $font_size_news_excerpt + 3;
+            @include set_font($font_news_excerpt, $font_size_news_excerpt, $color_news_excerpt);
+            line-height: $font_line_height_news_excerpt;
         }
     }
 
     #news_tops_block {
-        width: 53%;
         float: left;
         margin-right: 20px;
-        h1 {
-            display: none;
+        @include min-screen(721px) {
+            width: 53%;
         }
         @include max-screen(720px) {
             @include sidebar_component;
             width: 100%;
-            h1 {
-                @include sidebar_component_label;
+        }
+        h1 {
+            @include min-screen(721px) {
+                display: none;
+            }
+            @include max-screen(720px) {
+                display: inline;
             }
         }
-        @include min-screen(721px) {
-            //border-bottom: 1px solid $color_news_line;
-        }
+        
         div.news_tops {
             @include sidebar_component_internal;
             div.news_top {
-                h2 a {
-                    font-size: $font_size_news_title;
-                    line-height: $font_size_news_title;
-                    @include max-screen(720px) {
-                        line-height: $font_size_news_title + 4;
-                    }
-                }
+                @include component_entry;
+                @include component_entry_content;
                 div.image_container {
                     display: inline-block;
                     float: right;
                     div {
                         width: auto;
-                        background: $color_image_bg;
-                        margin: 0 0px 20px 0;
-                        padding: 5px 5px 5px 5px;
+                        @include image_frame;
                         p.attribution {
                             @include attribution;
-                            padding: 2px 0px 3px 0px;
-                            margin: 2px 0 0 0;
                         }
 
                         &.image_auto_width {
@@ -898,29 +810,17 @@ section.hub_column_main {
                         }
                     }
                 }
-                p {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
-                    text-align: justify;
-                    margin: 0px 0px 12px 0px;
-                    float: left;
-                    &.excerpt {
-                        margin-top: 10px;
-                        font-style: italic;
-                    }
-                    @include max-screen(720px) {
-                        line-height: $font_size_news_text + 3;
-                    }
-                }
             }
         }
     }
 
     #news_articles_block {
-        width: 44%;
         float: left;
-        h1 {
-            display: none;
+        @include min-screen(721px) {
+            width: 44%;
+            h1 {
+                display: none;
+            }
         }
         @include max-screen(720px) {
             @include sidebar_component;
@@ -929,71 +829,52 @@ section.hub_column_main {
                 @include sidebar_component_label;
             }
         }
+        
         div.news_articles {
             @include sidebar_component_internal;
             div.news_article {
-                h2 a {
-                    font-size: $font_size_news_title - 2;
-                    line-height: $font_size_news_title - 2;
-                    @include max-screen(720px) {
-                        line-height: $font_size_news_title;
-                    }
-                }
                 @include component_entry;
                 @include component_entry_content;
-                p {
-                    @include max-screen(720px) {
-                        line-height: $font_size_news_text + 3;
-                    }
-                }
             }
         }
     }
     
-    #news_section_horizontal_container {
+    #news_section_business_container,
+    #news_section_agriculture_container {
         width: 100%;
         float: left;
         border-top: 1px solid $color_news_line;
         @include sidebar_component;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        
-        h1 {
-            @include sidebar_component_label;
-        }
-        h2 {
-            @include component_entry_heading;
-            a {
-                font-size: $font_size_news_title - 2;
-                line-height: $font_size_news_title - 2;
-                @include max-screen(720px) {
-                    line-height: $font_size_news_title;
-                }
-            }
-        }
+        @include set_padding_v;
 
-        div.news_section_business_block {
+        div.news_section_block {
+            float: left;
             width: 53%;
             @include max-screen(720px) {
                 width: 100%;
             }
-            padding-right: 15px;
+            margin-right: 20px;
             @include sidebar_component;
             padding-bottom: 0px;
             
-            div.news_section_business {
+            div.news_section {
                 float: clear;
                 @include sidebar_component_internal;
                 div {
                     @include component_entry;
                     @include component_entry_content;
-                    p {
-                        @include max-screen(720px) {
-                            line-height: $font_size_news_text + 3;
-                        }
-                    }
                 }
             }
+        }
+        
+        div.news_section_block_right {
+            float: left;
+            width: 44%;
+            @include max-screen(720px) {
+                width: 100%;
+            }
+            @include sidebar_component;
+            padding-bottom: 0px;
         }
     }
 
@@ -1003,29 +884,8 @@ section.hub_column_main {
         float: left;
         border-top: 1px solid $color_news_line;
         @include sidebar_component;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        @include set_padding_v;
         
-        h1 {
-            @include sidebar_component_label;
-        }
-        h2 {
-            @include component_entry_heading;
-            a {
-                font-size: $font_size_news_title - 3;
-                line-height: $font_size_news_title - 3;
-                @include max-screen(720px) {
-                    line-height: $font_size_news_title - 1;
-                }
-            }
-        }
-        p {
-            @include max-screen(720px) {
-                line-height: $font_size_news_text + 3;
-            }
-        }
-
-
         div.news_section_agriculture_block {
             width: 31%;
             float: left;
@@ -1145,24 +1005,17 @@ section.post_column_main {
     
     @include common_heading;
 
-    p, em, a, li, dl {
-        font-family: $font_page_text;
-        font-size: $font_size_page_text;
-        line-height: $font_line_height_page_text;
+    p, a, li, dl {
+        @include set_font($font_page_text, $font_size_page_text, $color_page_text);
         text-align: left;
         
+        line-height: $font_line_height_page_text;
         @include max-screen(720px) {
-            font-size: $font_size_page_text;
             line-height: $font_line_height_page_text + 3;
         }
         
         @media print {
             line-height: $font_size_page_text + 4;
-        }
-        
-        & em {
-            font-weight: normal;
-            font-style: italic;
         }
         
         & code {
@@ -1179,13 +1032,11 @@ section.post_column_main {
         &.excerpt,
         &.date,
         &.category {
-            font-size: $font_size_page_meta;
-            font-style: italic;
+            @include set_font($font_size_page_meta, $font_size_page_meta, $color_page_text, normal, italic);
             line-height: $font_line_height_page_meta;
             @include max-screen(720px) {
                 line-height: $font_line_height_page_meta + 2;
             }
-            color: $color_text;
             margin: 0;
         }
 
@@ -1228,23 +1079,9 @@ section.post_column_main {
         border-collapse: collapse;
         letter-spacing: 0px;
         border: 1px solid $color_table_border;
-        /*
-        th, td {
-            font-family: $font_default_thin;
-            line-height: $font_size_default + 3;
-            
-            i, em {
-                font-family: $font_default_thin;
-                font-size: $font_size_default - 1;
-                line-height: $font_size_default;
-            }
-        }
-        */
-
+        
         th {
-            font-family: $font_default_thin;
-            font-size: $font_size_table_heading;
-            font-weight: normal;
+            @include set_font($font_table_heading, $font_size_table_heading, $color_text);
             vertical-align: middle;
             padding: 5px 6px;
             background: $color_table_th_bg;
@@ -1253,14 +1090,13 @@ section.post_column_main {
         }
 
         td {
-            font-family: $font_default_thin;
-            font-size: $font_size_table_data;
+            @include set_font($font_table_data, $font_size_table_data, $color_text);
             vertical-align: middle;
             padding: 1px 6px 1px 6px;
             border: 1px solid $color_table_border;
 
             p {
-                margin: 0px 0 0 0;
+                margin: 0;
                 &.label {
                     line-height: 19px;
                     margin: 0;
@@ -1268,10 +1104,9 @@ section.post_column_main {
                 }
             }
             a {
-                font-family: $font_default_thin;
+                font-family: $font_table_data;
                 font-size: $font_size_table_data;
-                margin: 0px 0 0 0;
-                padding: 0;
+                @include compact;
             }
 
             ul, ol {
@@ -1304,8 +1139,7 @@ section.post_column_main {
                 margin-top: 12px;
             }
             ul {
-                margin-top: 2px;
-                margin-bottom: 2px;
+                @include set_margin_v(2px, 2px);
             }
         }
     }
@@ -1348,28 +1182,25 @@ section.post_column_main {
                     margin-bottom: 0px;
                 }
                 p + dl {
-                    margin-top: 12px;
-                    margin-bottom: 0px;
+                    @include set_margin_v(12px, 0px);
                 }
                 pre {
                     margin: 12px 0px 12px 0px;
                 }
                 table {
-                    margin-top: 8px;
-                    margin-bottom: 4px;
+                    @include set_margin_v(8px, 4px);
                     border: 1px solid $color_table_border + 5;
-                    th, td {
-                        font-family: $font_default_thin;
-                        line-height: $font_size_default + 3;
-                        border: 1px solid $color_table_border + 5;
-                    }
                     th {
-                        font-size: $font_size_table_heading;
+                        @include set_font($font_table_heading, $font_size_table_heading, $color_text);
+                        line-height: $font_size_table_heading + 3;
+                        border: 1px solid $color_table_border + 5;
                         padding: 5px 6px;
                         background: $color_table_th_bg + 5;
                     }
                     td {
-                        font-size: $font_size_table_data;
+                        @include set_font($font_table_data, $font_size_table_data, $color_text);
+                        line-height: $font_size_table_data + 3;
+                        border: 1px solid $color_table_border + 5;
                         padding: 2px 6px 3px 6px;
                     }
 
@@ -1379,10 +1210,7 @@ section.post_column_main {
     }
 
     code {
-        font-family: $font_code;
-        font-size: $font_size_code_in_text;
-        font-style: normal;
-        color: $color_code_highlight;
+        @include set_font($font_code, $font_size_code_in_text, $color_code_highlight);
         margin: 0 0px;
     }
 
@@ -1405,9 +1233,7 @@ section.post_column_main {
         overflow-y: hidden;
 
         code {
-            font-family: $font_code;
-            font-size: $font_size_code;
-            color: $color_code;
+            @include set_font($font_code, $font_size_code, $color_code);
             text-shadow: none;
             border: none;
             border-radius: 0px;
@@ -1445,11 +1271,8 @@ section.post_column_main {
         background: $color_blockquote_bg;
         
         p, em, a {
-            font-family: $font_blockquote;
-            font-size: $font_size_blockquote;
-            font-style: normal;
+            @include set_font($font_blockquote, $font_size_blockquote, $color_blockquote);
             line-height: $font_line_height_blockquote;
-            color: $color_blockquote;
             margin-bottom: 8px;
             word-spacing: $word_spacing_blockquote;
             e {
@@ -1533,177 +1356,68 @@ section.column_right_sidebar {
     @media print {
         margin: 0px;
     }
+}
+
+#related_posts_block,
+#recent_posts_block {
+
+    @include sidebar_component;
+    @media print {
+        @include compact;
+    }
     
-    h1 {
-        @include sidebar_component_label;
-    }
-
-    p, li, dl {
-        font-family: $font_sidebar;
-        font-size: $font_size_sidebar;
-        //line-height: $font_size_sidebar + 2;
-        text-align: left;
-        & code {
-            font-size: $font_size_sidebar - 1;
-            color: $color_text;
-        }
-    }
-
-    ul, ol {
-        padding-left: 20px;
-
-        li {
-            font-family: $font_sidebar;
-            font-size: $font_size_sidebar;
-            padding: 0 0 0 0px;
-            line-height: $font_size_sidebar + 4;
-            a {
-                font-family: $font_sidebar;
-                font-size: $font_size_sidebar;
-                color: $color_sidebar_text;
-                border-bottom: none;
-                &:hover {
-                    color: $color_primary;
-                    
-                }
-            }
-        }
-
-        li.current,
-        a.current {
-            color: $color_primary;
-        }
-    }
-
-    #rssfeeds_roll {
-        @media print {
-            padding-left: 0;
-        }
-        @include sidebar_component_boxed(1);
-
-        h1 {
-            color: $color_sidebar_label;
-        }
-
-        div.rssfeeds {
-            margin-top: 5px;
-            margin-bottom: 0px;
-            @include min-screen(721px) {
-                height: 300px;
-                overflow-y: scroll;
-            }
-            @include max-screen(720px) {
-                padding-right: 15px;
-            }
-            overflow-x: hidden;
-            background: $color_sidebar_bg;
-
-            div.rssfeed {
-                margin-right: 5px;
+    div.related_posts,
+    div.recent_posts {
+        @include sidebar_component_internal;
+    
+        div.related_post,
+        div.recent_post {
+        
+            @include component_entry;
+        
+            div.related_post_heading,
+            div.recent_post_heading {
                 h2 {
-                    font-family: $font_news_title;
-                    font-size: $font_size_news_title;
-                    font-weight: bold;
-                }
-                ul {
-                    margin-top: 2px;
-                    padding-left: 25px;
-                }
-                p, li, a {
-                    font-family: $font_news_text;
-                    font-size: $font_size_news_text;
-                    margin-top: 2px;
-                    margin-bottom: 2px;
-                    @include max-screen(720px) {
-                        margin-top: 5px;
-                    }
-                    padding: 0;
-                    &.date {
-                        color: $color_news_bit_date;
-                        margin-bottom: 0px;
-                    }
-                }
-                li {
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-                }
-            }
-        }
-    }
-    
-    #related_posts_block,
-    #recent_posts_block {
-    
-        @include sidebar_component;
-        @media print {
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        div.related_posts,
-        div.recent_posts {
-            @include sidebar_component_internal;
-        
-            div.related_post,
-            div.recent_post {
-            
-                @include component_entry;
-            
-                div.related_post_heading,
-                div.recent_post_heading {
+                    @include component_entry_heading($font_related_post_title, $font_size_related_post_title, $color_news_title);
                     // <h2> tags used for 'no related posts'
                     // while <a> for the actual heading and link
-                    h2 {
-                        font-family: $font_related_post_title;
-                        font-size: $font_size_related_post_title;
-                        font-weight: normal;
-                        line-height: $font_size_related_post_title;
-                        a {
-                            font-family: $font_related_post_title;
-                            font-size: $font_size_related_post_title;
-                            font-weight: bold;
-                            line-height: $font_size_related_post_title + 2;
-                            color: $color_news_title;
-                            border-bottom: none;
-                            display: block;
-                        }
-                        @include component_entry_heading;
+                    font-weight: normal;
+                    a {
+                        @include component_entry_heading_link($font_related_post_title, $font_size_related_post_title, $color_news_title);
                     }
                 }
-                
-                @include component_entry_content;
-                
-                p {
-                    @include max-screen(720px) {
-                        line-height: $font_size_related_post_excerpt + 3;
-                    }
-                    &.date {
-                        font-family: $font_related_post_date;
-                        font-size: $font_size_related_post_date;
-                        margin-bottom: 1px;
-                    }
-                    &.excerpt {
-                        font-family: $font_related_post_excerpt;
-                        font-size: $font_size_related_post_excerpt;
-                    }
+            }
+            
+            @include component_entry_content;
+            
+            p {
+                @include max-screen(720px) {
+                    line-height: $font_size_related_post_excerpt + 3;
+                }
+                &.date {
+                    @include set_font($font_related_post_date, $font_size_related_post_date, $color_news_text);
+                }
+                &.excerpt {
+                    @include set_font($font_related_post_excerpt, $font_size_related_post_excerpt, $color_news_text);
                 }
             }
         }
     }
-    
-    #recent_posts_block {
-        // Because this is a top component we remove the top padding
-        padding-top: 0px;
-    }
-    
-    #twitter_feed {
-        // Twitter container defines 10px padding on all sides
-        // We just offset to match our settings
-        padding: 0px 3px 2px 3px;
-        background: $color_sidebar_bg;
-        height: 400px;
-    }
 }
+
+#recent_posts_block {
+    // Because this is a top component we remove the top padding
+    padding-top: 0px;
+}
+
+#twitter_feed {
+    // Twitter container defines 10px padding on all sides
+    // We just offset to match our settings
+    padding: 0px 3px 2px 3px;
+    background: $color_sidebar_bg;
+    height: 400px;
+}
+
 
 #info_block {
     @media print {
@@ -1723,29 +1437,18 @@ section.column_right_sidebar {
         div.info {
             @include component_entry;
            
-            div.info_heading {
-                h2 {
-                    font-family: $font_info_title;
-                    font-size: $font_size_info_title;
-                    font-weight: bold;
-                    color: $color_info_title;
-                    text-transform: uppercase;
-                    @include component_entry_heading;
-                }
+            h2 {
+                @include component_entry_heading($font_info_title, $font_size_info_title, $color_info_title);
+                text-transform: uppercase;
             }
+
             p.date {
-                font-family: $font_info_date;
-                font-size: $font_size_info_date;
-                color: $color_info_date;
+                @include set_font($font_info_date, $font_size_info_date, $color_info_date);
             }
             div.image {
-                background: $color_image_bg;
-                padding: 5px 5px 5px 5px;
-                margin: 5px 0px 5px 0;
+                @include image_frame;
                 p.attribution {
                     @include attribution;
-                    padding: 2px 0px 3px 0px;
-                    margin: 2px 0 0 0;
                 }
             }
             div.image_small {
@@ -1756,15 +1459,12 @@ section.column_right_sidebar {
 
             @include component_entry_content;
             p, li, a {
-                font-family: $font_info_text;
-                font-size: $font_size_info_text;
-                color: $color_info_text;
+                @include set_font($font_info_text, $font_size_info_text, $color_info_text);
                 em {
                     font-style: italic;
                 }
             }
             p {
-                margin-top: 5px;
                 @include max-screen(720px) {
                     line-height: $font_size_news_text + 3;
                 }
@@ -1784,11 +1484,8 @@ section.column_right_sidebar {
     width: 50%;
 
     a {
-        font-family: $font_heading;
-        font-size: $font_size_default + 4;
-        font-weight: normal;
+        @include set_font($font_heading, $font_size_default + 4, $color_primary);
         line-height: 1.3em;
-        color: $color_primary;
         border-bottom: none;
         text-shadow: 1px 1px 1px #000;
         margin: 0;

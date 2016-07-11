@@ -76,12 +76,16 @@ $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
 $color_news_line:               #eee;
 
+// Page/Post
+$color_page_text:               $color_text;
+
 // News bit
-$color_news_bit_date:         lighten($color_text, 30%);
+$color_news_bit_date:           lighten($color_text, 30%);
 
 // Sidebar
 $color_sidebar_label:           $color_primary;
-$color_sidebar_text:            $color_text;
+$color_sidebar_entry_title:     $color_text;
+$color_sidebar:                 $color_text;
 $color_sidebar_bg:              $color_main_bg;
 
 // Aside

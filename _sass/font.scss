@@ -1,11 +1,11 @@
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+//@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url("//fonts.googleapis.com/css?family='Liberation Serif':400,400italic,700");
 
 $font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_serif_thin:           "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif_thin:           "Liberation Serif", "Frank+Ruhl+Libre", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 
 $font_sans:                 "Droid Sans", Helvetica, "Lucida Sans", Arial, sans-serif;
 $font_sans_thin:            "Source Sans Pro", Helvetica, Arial, sans-serif;
@@ -31,9 +31,12 @@ $font_size_heading:         24px;                   // Base of all heading tags
 // Code
 $font_code:                 $font_monospace;
 $font_size_code:            14px;
+$font_line_height_code:     14px;
 $font_size_code_in_text:    14px;
 
 // Table
+$font_table_heading:        $font_sans_thin;
+$font_table_data:           $font_sans_thin;
 $font_size_table_heading:   $font_size_default;
 $font_size_table_data:      $font_size_default;
 
@@ -53,16 +56,16 @@ $word_spacing:              0.155em;
 // -----------------------------------------------------------------------------
 
 // Navigation
-$font_nav:                  $font_serif_thin;
-$font_size_nav:	            14px;
-$font_size_page_nav:        $font_size_nav + 2;
+$font_nav:                      $font_serif_thin;
+$font_size_nav:	                14px;
+$font_size_page_nav:            $font_size_nav + 2;
 
 $font_attribution:              $font_serif_thin;
 $font_size_attribution:         11px;
 $font_line_height_attribution:  10px;
 
 // Label
-$font_label:                    $font_sans;
+$font_label:                    $font_sans_thin;
 $font_size_label:               11px;
 
 // Announcement
@@ -97,16 +100,22 @@ $font_news_title:               $font_serif_thin;
 $font_news_date:                $font_serif_thin;
 $font_news_excerpt:             $font_serif_thin;
 $font_news_text:                $font_serif_thin;
-$font_size_news_title:          16px;
+$font_size_news_title:          14px;
 $font_size_news_date:           13px;
 $font_size_news_excerpt:        13px;
 $font_size_news_text:           13px;
+$font_line_height_news_title:   14px;
+$font_line_height_news_date:    13px;
+$font_line_height_news_excerpt: 13px;
+$font_line_height_news_text:    13px;
 
 // Sidebar
-$font_sidebar_label:        $font_label;
-$font_size_sidebar_label:   13px;
-$font_sidebar:              $font_serif_thin;
-$font_size_sidebar:         14px;
+$font_sidebar_label:                $font_label;
+$font_size_sidebar_label:           13px;
+$font_sidebar_entry_title:          $font_label;
+$font_size_sidebar_entry_title:     14px;
+$font_sidebar:                      $font_default;
+$font_size_sidebar:                 13px;
 
 // Related Post
 $font_related_post_title:           $font_serif_thin;
