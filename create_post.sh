@@ -5,10 +5,10 @@
 
 #current=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
 current=`date -u`
-current_date=`date --date="$current" +'%Y-%m-%d'`
-current_iso8601=`date --date="$current" +'%Y-%m-%dT%H:%M:%S%Z'`
-current_short=`date --date="$current" +'%Y%m%dT%H%M%S'`
-filename=`date --date="$current" +'%Y-%m-%d-%Y%m%dT%H%M%S'`.md
+current_date=`date -u --date="$current" +'%Y-%m-%d'`
+current_iso8601=`date -u --date="$current" +'%Y-%m-%dT%H:%M:%S%Z'`
+current_short=`date -u --date="$current" +'%Y%m%dT%H%M%S'`
+filename=`date -u --date="$current" +'%Y-%m-%d-%Y%m%dT%H%M%S'`.md
 
 
 
