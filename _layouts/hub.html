@@ -12,61 +12,34 @@ layout: default
         <h1>Top News</h1>
         <div class="news_tops">
             {% assign top_id = nil %}
-            {% for post in site.categories['topnews'] limit:1 %}
-                {% assign top_id = post.date %}
-                <div class="news_top">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    {% comment %}
-                    {% if post.date == nil %}
-                        <p class="date">Undated</p>
-                    {% else %}
-                        <p class="date">
-                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                            {% if postdate == nowday %}
-                                {{ post.date | date: site.data.format.same_day }}
-                            {% elsif postyear == nowyear %}
-                                {{ post.date | date: site.data.format.same_year }}
-                            {% endif %}
-                        </p>
-                    {% endif %}
-                    {% endcomment %}
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                    
-                    {% comment %}
-                    {% if post.image.source != nil %}
-                        <div class="image_container">
-                        {% if post.image.layout == "auto_width" %}
-                            <div class="image_auto_width">
-                                <img width="50%" height="auto" src="{{ post.image.source }}" />
-                                {% comment %}
-                                <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
-                                {% endcomment %}
-                            </div>
+            {% assign postCount = 0 %}
+            {% for post in site.categories['articles'] %}
+                {% if post.categories contains 'topnews' or post.categories contains 'article' %}
+                    {% assign top_id = post.date %}
+                    <div class="news_top">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        {% comment %}
+                        {% if post.date == nil %}
+                            <p class="date">Undated</p>
                         {% else %}
-                            <div>
-                                <img width="100%" height="auto" src="{{ post.image.source }}" />
-                                {% comment %}
-                                <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
-                                {% endcomment %}
-                            </div>
+                            <p class="date">
+                                {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                                {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                                {% if postdate == nowday %}
+                                    {{ post.date | date: site.data.format.same_day }}
+                                {% elsif postyear == nowyear %}
+                                    {{ post.date | date: site.data.format.same_year }}
+                                {% endif %}
+                            </p>
                         {% endif %}
-                        </div>
+                        {% endcomment %}
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                    {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
+                    {% if postCount == '7' %}
+                        {% break %}
                     {% endif %}
-                    {% endcomment %}
-                
-                    {% if post.video.source != nil and post.video.layout == "top" %}
-                        <div class="video">
-                            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ post.video.source }}">https://www.youtube.com/watch?v={{ post.video.source }}</a></p>
-                            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ post.video.source }}" frameborder="0"></iframe>
-                            {% comment %}
-                            <p class="attribution">video by {{ post.video.attribution }}&nbsp;</p>
-                            {% endcomment %}
-                        </div>
-                    {% endif %}
-                    
-                    {{ post.content }}
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -74,8 +47,9 @@ layout: default
     <div id="news_articles_block">
         <h1>Other News</h1>
         <div class="news_articles">
-            {% for post in site.categories['articles'] limit:8 %}
-                {% if post.date != top_id and post.categories != 'business' and post.categories != 'other' %}
+            {% assign postCount = 0 %}
+            {% for post in site.categories['other'] %}
+                {% if post.date != top_id %}
                 <div class="news_article">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     {% comment %}
@@ -95,15 +69,19 @@ layout: default
                     {% endcomment %}
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
+                {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
+                {% if postCount == '7' %}
+                    {% break %}
+                {% endif %}
                 {% endif %}
             {% endfor %}
         </div>
     </div>
     
-    <div id="news_section_horizontal_container">
-        <div class="news_section_business_block">
+    <div id="news_section_business_container">
+        <div class="news_section_block">
             <h1>Commerce and Industry</h1>
-            <div class="news_section_business">
+            <div class="news_section">
                 {% for post in site.categories['business'] limit:3 %}
                     <div class="news_section_entry">
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -111,6 +89,8 @@ layout: default
                     </div>
                 {% endfor %}
             </div>
+        </div>
+        <div class="news_section_block_right">
         </div>
     </div>
     
