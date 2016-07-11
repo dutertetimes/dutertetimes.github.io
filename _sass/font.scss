@@ -1,15 +1,20 @@
+// Miriam Libre
+// Letters are narrower than Droid Sans.
+// In smaller fonts, it is a bit readable than Droid Sans.
+// @import url("https://fonts.googleapis.com/css?family=Miriam+Libre");
 
-//@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans");
+// Droid Serif
+// Droid Serif is narrower than Liberation Serif.
+// In smaller fonts, it appears readable than Liberation Serif.
+//@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-@import url("//fonts.googleapis.com/css?family='Liberation Serif':400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family='Liberation+Serif':normal,italic,normalitalic,bolditalic");
 
-$font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_serif_thin:           "Liberation Serif", "Frank+Ruhl+Libre", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-
-$font_sans:                 "Droid Sans", Helvetica, "Lucida Sans", Arial, sans-serif;
-$font_sans_thin:            "Source Sans Pro", Helvetica, Arial, sans-serif;
-
+$font_serif:                Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif_thin:           "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_sans:                 "Open Sans", Helvetica, "Lucida Sans", Arial, sans-serif;
+$font_sans_thin:            "Source Sans Pro", Helvetica, "Lucida Sans", Arial, sans-serif;
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
 // Title
@@ -21,8 +26,8 @@ $font_size_title_tagline:   14px;
 
 // Default
 $font_default:              $font_serif_thin;
-$font_size_default:         14px;
-$font_line_height_default:  17px;
+$font_size_default:         13px;
+$font_line_height_default:  15px;
 $font_default_thin:         $font_sans_thin;
 $font_size_default_thin:    12px;
 $font_heading:              $font_serif_thin;
@@ -69,20 +74,22 @@ $font_label:                    $font_sans_thin;
 $font_size_label:               11px;
 
 // Announcement
-$font_announcement_title:       $font_label;
-$font_size_announcement_title:  11px;
-$font_announcement_date:        $font_serif_thin;
-$font_size_announcement_date:   13px;
-$font_announcement_text:        $font_serif_thin;
-$font_size_announcement_text:   13px;
+$font_announcement_title:               $font_label;
+$font_size_announcement_title:          11px;
+$font_announcement_date:                $font_serif_thin;
+$font_size_announcement_date:           12px;
+$font_announcement_text:                $font_serif_thin;
+$font_size_announcement_text:           12px;
+$font_line_height_announcement_text:    15px;
 
 // Info
 $font_info_title:               $font_label;
 $font_size_info_title:          11px;
-$font_info_date:                $font_serif_thin;
-$font_size_info_date:           13px;
-$font_info_text:                $font_serif_thin;
-$font_size_info_text:           13px;
+$font_info_date:                $font_default;
+$font_size_info_date:           $font_size_default;
+$font_info_text:                $font_default;
+$font_size_info_text:           $font_size_default;
+$font_line_height_info_text:    $font_line_height_default;
 
 // Page and Post
 $font_page_title:               $font_heading;
@@ -90,40 +97,42 @@ $font_size_page_title:          $font_size_heading;
 $font_line_height_page_title:   $font_size_heading;
 $font_page_text:                $font_default;
 $font_size_page_text:           $font_size_default + 3;
-$font_line_height_page_text:    $font_line_height_default + 8;
+$font_line_height_page_text:    $font_line_height_default + 5;
 $font_page_meta:                $font_page_text;
-$font_size_page_meta:           $font_size_default - 1;
+$font_size_page_meta:           $font_size_default;
 $font_line_height_page_meta:    $font_size_default + 4;
 
 // News
 $font_news_title:               $font_serif_thin;
-$font_news_date:                $font_serif_thin;
-$font_news_excerpt:             $font_serif_thin;
-$font_news_text:                $font_serif_thin;
+$font_news_date:                $font_default;
+$font_news_excerpt:             $font_default;
+$font_news_text:                $font_default;
 $font_size_news_title:          14px;
-$font_size_news_date:           13px;
-$font_size_news_excerpt:        13px;
-$font_size_news_text:           13px;
-$font_line_height_news_title:   14px;
-$font_line_height_news_date:    13px;
-$font_line_height_news_excerpt: 13px;
-$font_line_height_news_text:    13px;
+$font_size_news_date:           $font_size_default;
+$font_size_news_excerpt:        $font_size_default;
+$font_size_news_text:           $font_size_default;
+$font_line_height_news_title:   16px;
+$font_line_height_news_date:    $font_line_height_default;
+$font_line_height_news_excerpt: $font_line_height_default;
+$font_line_height_news_text:    $font_line_height_default;
 
 // Sidebar
-$font_sidebar_label:                $font_label;
-$font_size_sidebar_label:           13px;
-$font_sidebar_entry_title:          $font_label;
-$font_size_sidebar_entry_title:     14px;
-$font_sidebar:                      $font_default;
-$font_size_sidebar:                 13px;
+$font_sidebar_entry_title:              $font_label;
+$font_size_sidebar_entry_title:         14px;
+$font_line_height_sidebar_entry_title:  15px;
+$font_sidebar_entry_text:               $font_default;
+$font_size_sidebar_entry_text:          $font_size_default;
+$font_line_height_sidebar_text:         $font_line_height_default;
 
 // Related Post
-$font_related_post_title:           $font_serif_thin;
-$font_size_related_post_title:      14px;
-$font_related_post_date:            $font_serif_thin;
-$font_size_related_post_date:       13px;
-$font_related_post_excerpt:         $font_serif_thin;
-$font_size_related_post_excerpt:    13px;
+$font_related_post_title:               $font_serif_thin;
+$font_size_related_post_title:          14px;
+$font_line_height_related_post_title:   16px;
+$font_related_post_date:                $font_default;
+$font_size_related_post_date:           $font_size_default;
+$font_related_post_excerpt:             $font_default;
+$font_size_related_post_excerpt:        $font_size_default;
+$font_line_height_related_post_excerpt: $font_line_height_default;
 
 // Quote
 $font_quote:                $font_sans_thin;
@@ -133,8 +142,9 @@ $font_quote_author:         $font_serif_thin;
 $font_size_quote_author:    13px;
 
 // Aside
-$font_aside:                $font_serif_thin;
-$font_size_aside_text:      $font_size_default + 1;
+$font_aside:                    $font_default;
+$font_size_aside_text:          $font_size_default + 2;
+$font_line_height_aside_text:   $font_line_height_default + 4;
 
 // Footer
 $font_footer:               $font_serif_thin;

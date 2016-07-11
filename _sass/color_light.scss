@@ -85,7 +85,7 @@ $color_news_bit_date:           lighten($color_text, 30%);
 // Sidebar
 $color_sidebar_label:           $color_primary;
 $color_sidebar_entry_title:     $color_text;
-$color_sidebar:                 $color_text;
+$color_sidebar_entry_text:      $color_text;
 $color_sidebar_bg:              $color_main_bg;
 
 // Aside
@@ -98,7 +98,7 @@ $color_tag_text:                lighten($color_text, 30%);
 $color_tag_bg:                  #ededed;
 
 // Quote
-$color_quote_text:              $color_text;
+$color_quote_text:              lighten($color_text, 20%);
 $color_quote_author:            $color_text;
 
 // Footer
