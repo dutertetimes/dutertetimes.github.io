@@ -4,9 +4,7 @@
     
     {% for post in site.categories['people'] limit:1 %}
         <div class="info">
-            <div class="info_heading">
-                <h2>{{ post.title }}</h2>
-            </div>
+            <h2>{{ post.title }}</h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
@@ -30,9 +28,7 @@
     
     {% for post in site.categories['org'] limit:1 %}
         <div class="info">
-            <div class="info_heading">
-                <h2>{{ post.title }}</h2>
-            </div>
+            <h2>{{ post.title }}</h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
@@ -56,9 +52,7 @@
     
     {% for post in site.categories['places'] limit:1 %}
         <div class="info">
-            <div class="info_heading">
-                <h2>{{ post.title }}</h2>
-            </div>
+            <h2>{{ post.title }}</h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
