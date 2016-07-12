@@ -919,6 +919,9 @@ section.hub_column_main {
         div.news_section_transport_block,
         div.news_section_scitech_block {
             width: 31%;
+            @include max-screen(720px) {
+                width: 100%;
+            }
             float: left;
             @include sidebar_component;
 
