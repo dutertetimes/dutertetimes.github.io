@@ -115,6 +115,7 @@ layout: default
     {% endif %}
 
     <div id="news_section_vertical_container">
+        {% if site.categories['landreform'].size > 0 %}
         <div class="news_section_landreform_block">
             <h1>Land Reform</h1>
             <div class="news_section">
@@ -126,10 +127,12 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+        {% endif %}
+        {% if site.categories['transportation'].size > 0 %}
         <div class="news_section_transport_block">
             <h1>Transportation</h1>
             <div class="news_section">
-                {% for post in site.categories['transport'] limit:3 %}
+                {% for post in site.categories['transportation'] limit:3 %}
                     <div class="news_section_entry">
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="excerpt">{{ post.excerpt }}</p>
@@ -137,6 +140,8 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+        {% endif %}
+        {% if site.categories['scitech'].size > 0 %}
         <div class="news_section_scitech_block">
             <h1>Science and Technology</h1>
             <div class="news_section">
@@ -148,6 +153,7 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+        {% endif %}
     </div>
     
 </section>
