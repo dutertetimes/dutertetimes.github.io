@@ -78,6 +78,7 @@ layout: default
         </div>
     </div>
     
+    {% if site.categories['business'].size > 0 %}
     <div id="news_section_business_container">
         <div class="news_section_block">
             <h1>Commerce and Industry</h1>
@@ -93,7 +94,9 @@ layout: default
         <div class="news_section_block_right">
         </div>
     </div>
+    {% endif %}
     
+    {% if site.categories['agriculture'].size > 0 %}
     <div id="news_section_agriculture_container">
         <div class="news_section_block">
             <h1>Agriculture</h1>
@@ -109,6 +112,7 @@ layout: default
         <div class="news_section_block_right">
         </div>
     </div>
+    {% endif %}
 
     <div id="news_section_vertical_container">
         <div class="news_section_landreform_block">
