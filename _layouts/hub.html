@@ -110,23 +110,11 @@ layout: default
         </div>
     </div>
 
-    {% comment %}
     <div id="news_section_vertical_container">
-        <div class="news_section_agriculture_block">
-            <h1>Agriculture</h1>
-            <div class="news_section_agriculture">
-                {% for post in site.categories['news_section'] limit:3 %}
-                    <div class="news_section_entry">
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p class="excerpt">{{ post.excerpt }}</p>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="news_section_scitech_block">
-            <h1>Science and Technology</h1>
-            <div class="news_section_scitech">
-                {% for post in site.categories['news_section'] limit:3 %}
+        <div class="news_section_landreform_block">
+            <h1>Land Reform</h1>
+            <div class="news_section">
+                {% for post in site.categories['landreform'] limit:3 %}
                     <div class="news_section_entry">
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="excerpt">{{ post.excerpt }}</p>
@@ -136,8 +124,19 @@ layout: default
         </div>
         <div class="news_section_transport_block">
             <h1>Transportation</h1>
-            <div class="news_section_transport">
-                {% for post in site.categories['news_section'] limit:3 %}
+            <div class="news_section">
+                {% for post in site.categories['transport'] limit:3 %}
+                    <div class="news_section_entry">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="news_section_scitech_block">
+            <h1>Science and Technology</h1>
+            <div class="news_section">
+                {% for post in site.categories['scitech'] limit:3 %}
                     <div class="news_section_entry">
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="excerpt">{{ post.excerpt }}</p>
@@ -146,7 +145,6 @@ layout: default
             </div>
         </div>
     </div>
-    {% endcomment %}
     
 </section>
 
