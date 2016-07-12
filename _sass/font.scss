@@ -73,10 +73,18 @@ $font_line_height_attribution:  10px;
 $font_label:                    $font_sans_thin;
 $font_size_label:               11px;
 
+// Sidebar
+$font_sidebar_entry_title:              $font_label;
+$font_size_sidebar_entry_title:         11px;
+$font_line_height_sidebar_entry_title:  13px;
+$font_sidebar_entry_text:               $font_default;
+$font_size_sidebar_entry_text:          $font_size_default;
+$font_line_height_sidebar_text:         $font_line_height_default;
+
 // Announcement
-$font_announcement_title:               $font_label;
-$font_size_announcement_title:          11px;
-$font_line_height_announcement_title:   13px;
+$font_announcement_title:               $font_sidebar_entry_title;
+$font_size_announcement_title:          $font_size_sidebar_entry_title;
+$font_line_height_announcement_title:   $font_line_height_sidebar_entry_title;
 $font_announcement_date:                $font_serif_thin;
 $font_size_announcement_date:           $font_size_default;
 $font_line_height_announcement_date:    $font_line_height_default;
@@ -85,8 +93,9 @@ $font_size_announcement_text:           $font_size_default;
 $font_line_height_announcement_text:    $font_line_height_default;
 
 // Info
-$font_info_title:               $font_label;
-$font_size_info_title:          11px;
+$font_info_title:               $font_sidebar_entry_title;
+$font_size_info_title:          $font_size_sidebar_entry_title;
+$font_line_height_info_title:   $font_line_height_sidebar_entry_title;
 $font_info_date:                $font_default;
 $font_size_info_date:           $font_size_default;
 $font_info_text:                $font_default;
@@ -117,14 +126,6 @@ $font_line_height_news_title:   16px;
 $font_line_height_news_date:    $font_line_height_default;
 $font_line_height_news_excerpt: $font_line_height_default;
 $font_line_height_news_text:    $font_line_height_default;
-
-// Sidebar
-$font_sidebar_entry_title:              $font_label;
-$font_size_sidebar_entry_title:         14px;
-$font_line_height_sidebar_entry_title:  16px;
-$font_sidebar_entry_text:               $font_default;
-$font_size_sidebar_entry_text:          $font_size_default;
-$font_line_height_sidebar_text:         $font_line_height_default;
 
 // Related Post
 $font_related_post_title:               $font_serif_thin;

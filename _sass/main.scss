@@ -1454,6 +1454,7 @@ section.column_right_sidebar {
            
             h2 {
                 @include component_entry_heading($font_info_title, $font_size_info_title, $color_info_title);
+                line-height: $font_line_height_info_title;
                 text-transform: uppercase;
                 letter-spacing: 0.2px;
                 word-spacing: 0.175em;
