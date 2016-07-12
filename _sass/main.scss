@@ -1368,6 +1368,12 @@ section.column_right_sidebar {
     @media print {
         margin: 0px;
     }
+    @include max-screen(768px) {
+        float: right;
+    }
+    @include max-screen(720px) {
+        float: left;
+    }
 }
 
 #related_posts_block,
