@@ -640,6 +640,7 @@ section.column_left_sidebar {
                 }
                 h2 {
                     @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);
+                    line-height: $font_line_height_announcement_title;
                     text-transform: uppercase;
                     letter-spacing: 0.2px;
                     word-spacing: 0.175em;
