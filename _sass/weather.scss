@@ -1,4 +1,9 @@
 #weather_block {
+    h1 {
+        @include min-screen(720px + 1px) {
+            display: none;
+        }
+    }
     div.weather_satellite {
         margin-top: 0px;
         margin-bottom: 0px;
