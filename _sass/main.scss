@@ -1557,23 +1557,30 @@ footer {
 
     background: $color_footer_bg;
     border-top: 3px solid $color_footer_border_top;
-    padding: 20px 0px 20px 0px;
+    @include compact;
     
-    p, em, a, li {
+    p, a, li {
         font-family: $font_footer;
         font-size: $font_size_footer;
         color: $color_footer_text;
+        @include compact;
+    }
+    ul {
+        margin-top: 0;
+        @include min-screen(768px + 1)
     }
 
     #footer_content {
-        padding: 0px 0 0 25px;
+        margin: 25px 25px 0px 25px;
+        padding: 0;
 
         #footer_column_one,
         #footer_column_two,
         #footer_column_three,
         #footer_column_four {
             float: left;
-            padding-right: 30px;
+            @include compact;
+            margin-bottom: 25px;
         }
 
         #footer_column_one,
@@ -1583,6 +1590,9 @@ footer {
 
         #footer_column_two,
         #footer_column_three {
+            @include min-screen(768px + 1px) {
+                margin-left: 25px;
+            }
             width: 300px;
         }
 
@@ -1610,8 +1620,10 @@ footer {
         }
         
         #footer_column_four {
-            float: right;
-            text-align: right;
+            @include min-screen(768px + 1px) {
+                float: right;
+                text-align: right;
+            }
         }
     }
 
