@@ -924,7 +924,7 @@ section.hub_column_main {
             }
             float: left;
             @include sidebar_component;
-
+            padding-bottom: 0px;
         }
         
         div.news_section_landreform_block,
