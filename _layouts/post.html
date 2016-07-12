@@ -32,7 +32,7 @@ layout: default
         <div class="image_container">
         {% if page.image.layout == "auto_width" %}
             <div class="image_auto_width">
-                <img width="auto" height="auto" src="{{ site.image_source }}{{ page.image.source }}" />
+                <img width="100%" height="auto" src="{{ site.image_source }}{{ page.image.source }}" />
                 <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
             </div>
         {% else %}

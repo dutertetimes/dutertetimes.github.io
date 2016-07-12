@@ -953,26 +953,18 @@ section.post_column_main {
     }
     
     div.image_container {
-        width: auto;
-        @include max-screen(768px - 1px) {
-            width: 100%;
-            display: inline-block;
-        }
         div {
-            width: auto;
-            background: $color_image_bg;
-            margin: 0 0px 20px 0;
-            padding: 5px 5px 5px 5px;
+            @include image_frame;
             p.attribution {
                 @include attribution;
-                padding: 2px 0px 3px 0px;
-                margin: 2px 0 0 0;
             }
             &.image_auto_width {
                 float: right;
                 margin-left: 10px;
-                @include max-screen(768px - 1px) {
+                width: 300px;
+                @include max-screen(500px) {
                     float: left;
+                    width: 270px;
                     margin-left: 0px;
                 }
             }
