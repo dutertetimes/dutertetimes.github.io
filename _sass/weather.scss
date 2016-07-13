@@ -1,4 +1,5 @@
 #weather_block {
+    @include sidebar_component;
     h1 {
         @include min-screen(720px + 1px) {
             display: none;
