@@ -761,6 +761,9 @@ section.hub_column_main {
     h2 {
         @include component_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
         line-height: $font_line_height_news_title;
+        @include max-screen(720px) {
+            line-height: $font_line_height_news_title + 2;
+        }
         a {
             @include component_entry_heading_link($font_news_title, $font_size_news_title, $color_news_title);
         }
@@ -904,6 +907,9 @@ section.hub_column_main {
             $local_font_size_title: $font_size_sidebar_entry_title;
             @include component_entry_heading($font_sidebar_entry_title, $local_font_size_title, $color_news_title);
             line-height: $font_line_height_sidebar_entry_title;
+            @include max-screen(720px) {
+                line-height: $font_line_height_sidebar_entry_title + 2;
+            }
             text-transform: uppercase;
             a {
                 @include component_entry_heading_link($font_sidebar_entry_title, $local_font_size_title, $color_news_title);
@@ -1388,6 +1394,9 @@ section.column_right_sidebar {
                     // while <a> for the actual heading and link
                     font-weight: normal;
                     line-height: $font_line_height_related_post_title;
+                    @include max-screen(720px) {
+                        line-height: $font_line_height_related_post_title + 2;
+                    }
                     a {
                         @include component_entry_heading_link($font_related_post_title, $font_size_related_post_title, $color_news_title);
                     }
