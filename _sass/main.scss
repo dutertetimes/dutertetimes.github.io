@@ -902,6 +902,10 @@ section.hub_column_main {
         border-top: 1px solid $color_news_line;
         @include sidebar_component;
         @include set_padding_v;
+        // Add bottom vertical space because the right sidebar components follows below in mobile device display
+        @include max-screen(720px) {
+            padding-bottom: 12px;
+        }
         
         h2 {
             $local_font_size_title: $font_size_sidebar_entry_title;
