@@ -340,6 +340,8 @@ header {
                 a {
                     @include button;
                     @include top_button;
+                    font-weight: bold;
+                    text-transform: uppercase;
                 }
             }
         }

@@ -74,10 +74,10 @@ $color_news_title:              lighten($color_text, 20%);
 $color_news_date:               lighten($color_primary, 30%);
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
-$color_news_line:               #eee;
+$color_news_line:               #ddd;
 
 // Page/Post
-$color_page_text:               $color_text;
+$color_page_text:               lighten($color_text, 10%);
 
 // News bit
 $color_news_bit_date:           lighten($color_text, 30%);
