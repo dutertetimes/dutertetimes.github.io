@@ -1334,19 +1334,19 @@ section.post_column_main {
             }
         }
     }
+
+    table.tags,
+    tr td {
+        border: none;
+        padding: 0;
+    }
     
     table.tags {
         @media print {
             display: none;
         }
-        border: none;
-        padding: 0;
         tr {
-            border: none;
-            padding: 0;
             td {
-                border: none;
-                padding: 0;
                 vertical-align: top;
                 
                 img.tagsymbol {
