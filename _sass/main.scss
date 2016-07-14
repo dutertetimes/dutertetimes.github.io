@@ -537,8 +537,9 @@ section.column_left_sidebar {
         border: none;
         border-collapse:collapse;
         width: 100%;
-        tr, td {
+        tr, th, td {
             @include compact;
+            border: none;
         }
         td {
             white-space: nowrap;
@@ -614,27 +615,27 @@ section.column_left_sidebar {
                 }
             }
             
-            table, tbody, tr, td {
+            table, tr, th, td {
                 @include compact;
+                border: none;
             }
             
             table {
                 border-collapse: collapse;
                 margin-top: 3px;
-            }
-            
-            td {
-                p {
-                    @include compact;
-                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
-                    &.qauthor {
-                        text-transform: uppercase;
-                        // To center the author with the emdash on the left column
-                        padding-top: 2px;
-                    }
-                    &.context {
-                        color: lighten($color_quote_author, 15%);
-                        padding-top: 2px;
+                td {
+                    p {
+                        @include compact;
+                        @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                        &.qauthor {
+                            text-transform: uppercase;
+                            // To center the author with the emdash on the left column
+                            padding-top: 2px;
+                        }
+                        &.context {
+                            color: lighten($color_quote_author, 15%);
+                            padding-top: 2px;
+                        }
                     }
                 }
             }
