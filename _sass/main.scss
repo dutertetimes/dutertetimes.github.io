@@ -612,61 +612,69 @@ section.column_left_sidebar {
     }
 }
 
-#announcements_block {
-    @media print {
+#announcements_container {
+    // Announcement container is necessary only to enable
+    // hiding of the announcement block in post layout
+    // when viewed using mobile devices
+    @include max-screen(720px) {
         display: none;
     }
-    @include sidebar_component;
-    // Override top padding since this component is at the top
-    padding-top: 0px;
-    
-    @include max-screen(720px) {
-        margin-top: 20px;
-    }
-    
-    h1 {
-        @include min-screen(721px) {
+    #announcements_block {
+        @media print {
             display: none;
         }
-    }
-    
-    div.announcements {
-        @include sidebar_component_internal;
+        @include sidebar_component;
+        // Override top padding since this component is at the top
+        padding-top: 0px;
         
-        div.announcement {
-            @include component_entry;
-           
-            div.announcement_heading {
-                div.image {
-                    @include image_frame;
-                    p.attribution {
-                        @include attribution;
-                    }
-                }
-                h2 {
-                    @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);
-                    line-height: $font_line_height_announcement_title;
-                    text-transform: uppercase;
-                    letter-spacing: 0.2px;
-                    word-spacing: 0.175em;
-                    @include max-screen(720px) {
-                        font-size: $font_size_announcement_title + 1;
-                    }
-                }
+        @include max-screen(720px) {
+            margin-top: 20px;
+        }
+        
+        h1 {
+            @include min-screen(721px) {
+                display: none;
             }
-            
-            @include component_entry_content;
+        }
         
-            p, li, a {
-                @include set_font($font_announcement_text, $font_size_announcement_text, $color_announcement_text);
-                line-height: $font_line_height_announcement_text;
-                @include max-screen(720px) {
-                    line-height: $font_line_height_announcement_text + 2;
+        div.announcements {
+            @include sidebar_component_internal;
+            
+            div.announcement {
+                @include component_entry;
+               
+                div.announcement_heading {
+                    div.image {
+                        @include image_frame;
+                        p.attribution {
+                            @include attribution;
+                        }
+                    }
+                    h2 {
+                        @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);
+                        line-height: $font_line_height_announcement_title;
+                        text-transform: uppercase;
+                        letter-spacing: 0.2px;
+                        word-spacing: 0.175em;
+                        @include max-screen(720px) {
+                            font-size: $font_size_announcement_title + 1;
+                        }
+                    }
                 }
-                &.date {
-                    @include set_font($font_announcement_date, $font_size_announcement_date, $color_announcement_date);
+                
+                @include component_entry_content;
+            
+                p, li, a {
+                    @include set_font($font_announcement_text, $font_size_announcement_text, $color_announcement_text);
+                    line-height: $font_line_height_announcement_text;
                     @include max-screen(720px) {
-                        line-height: $font_line_height_announcement_date + 2;
+                        line-height: $font_line_height_announcement_text + 2;
+                    }
+                    &.date {
+                        @include set_font($font_announcement_date, $font_size_announcement_date, $color_announcement_date);
+                        @include max-screen(720px) {
+                            line-height: $font_line_height_announcement_date + 2;
+                        }
                     }
                 }
             }
