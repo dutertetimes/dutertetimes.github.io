@@ -35,9 +35,9 @@ $font_size_heading:         25px;                   // Base of all heading tags
 
 // Code
 $font_code:                 $font_monospace;
-$font_size_code:            14px;
-$font_line_height_code:     14px;
-$font_size_code_in_text:    14px;
+$font_size_code:            12px;
+$font_line_height_code:     12px;
+$font_size_code_in_text:    12px;
 
 // Table
 $font_table_heading:        $font_sans_thin;
@@ -47,7 +47,7 @@ $font_size_table_data:      $font_size_default;
 
 // Block Quote
 $font_blockquote:               $font_sans_thin;
-$font_size_blockquote:          15px;
+$font_size_blockquote:          $font_size_default;
 $font_line_height_blockquote:   $font_size_blockquote + 4;
 $word_spacing_blockquote:       0.1em;
 
@@ -106,12 +106,13 @@ $font_line_height_info_text:    $font_line_height_default;
 $font_page_title:               $font_heading;
 $font_size_page_title:          $font_size_heading;
 $font_line_height_page_title:   $font_size_heading;
+$font_size_page_title_code:     $font_size_heading;
 $font_page_text:                $font_default;
-$font_size_page_text:           $font_size_default + 6;
-$font_line_height_page_text:    $font_line_height_default + 12;
+$font_size_page_text:           $font_size_default !global;
+$font_line_height_page_text:    $font_line_height_default !global;
 $font_page_meta:                $font_page_text;
 $font_size_page_meta:           $font_size_default;
-$font_line_height_page_meta:    $font_size_default + 4;
+$font_line_height_page_meta:    $font_line_height_default;
 
 // News
 $font_news_title:               $font_serif_thin;

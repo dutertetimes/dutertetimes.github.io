@@ -105,22 +105,23 @@ hr {
     }
 }
 
-ul {
-    list-style-type: disc;
-    list-style-image: none;
-    padding-left: 30px;
+ol, ul {
+    padding-left: 40px;
+    @include max-screen(720px) {
+        padding-left: 25px;
+    }
     margin-bottom: 0;
     li {
         padding-left: 5px;
+        @include max-screen(720px) {
+            padding-left: 2px;
+        }
     }
 }
 
-ol {
-    padding-left: 40px;
-    margin-bottom: 0;
-    li {
-        padding-left: 5px;
-    }
+ul {
+    list-style-type: disc;
+    list-style-image: none;
 }
 
 strong {
@@ -1023,26 +1024,40 @@ section.post_column_main {
             }
         }
     }
-    
+
     @include common_heading;
 
     p, a, li, dl {
-        @include set_font($font_page_text, $font_size_page_text, $color_page_text);
         text-align: left;
-        
+
+        @include set_font($font_page_text, $font_size_page_text, $color_page_text);
         line-height: $font_line_height_page_text;
-        @include max-screen(720px) {
-            line-height: $font_line_height_page_text + 2;
+
+        @include min-screen(720px + 1px) {
+            @include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
+            line-height: $font_line_height_page_text + 12;
         }
-        
         @media print {
-            line-height: $font_size_page_text + 4;
+            @include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
+            line-height: $font_size_page_text + 6 + 4;
         }
         
-        & code {
-            @include min-screen(721px) { font-size: $font_size_default - 1; }
-            @include max-screen(720px) { font-size: $font_size_default + 1; }
+        & code,
+        & code.highlighter-rouge {
+            @include max-screen(720px) {
+                font-size: $font_size_code_in_text - 1;
+                line-height: $font_size_code_in_text - 1;
+            }
+            @include min-screen(720px + 1px) {
+                font-size: $font_size_code_in_text + 3;
+                line-height: $font_size_code_in_text + 3;
+            }
+            @media print {
+                font-size: $font_size_code_in_text + 3;
+                line-height: $font_size_code_in_text + 3;
+            }
             color: $color_text;
+            background: none;
         }
     }
 
@@ -1070,6 +1085,13 @@ section.post_column_main {
         &.category {
             padding-bottom: 15px;
         }
+
+        &.excerpt,
+        &.category {
+            @media print {
+                display: none;
+            }
+        }
     }
 
     @include max-screen(720px) {
@@ -1082,7 +1104,9 @@ section.post_column_main {
 
     ul, ol {
         @include bottom_margin;
-        margin-right: 30px;
+        @include min-screen(720px + 1px) {
+            margin-right: 30px;
+        }
     }
 
     // Markdown fix on unsorted list
@@ -1103,7 +1127,6 @@ section.post_column_main {
             padding: 5px 6px;
             background: $color_table_th_bg;
             border: 1px solid $color_table_border;
-            
         }
 
         td {
@@ -1226,16 +1249,9 @@ section.post_column_main {
         }
     }
 
-    code {
-        @include set_font($font_code, $font_size_code_in_text, $color_code_highlight);
-        margin: 0 0px;
-    }
-
-    em code {
-        font-style: italic;
-    }
-
-    // Fenced code blocks are converted to div.highlight pre code.language-text
+    // - Rouge converts fenced code blocks to
+    //   div.highlighter-rouge pre.highlight code
+    // - Fenced code blocks are converted to div.highlight pre code.language-text
     div.highlight { }
 
     pre {
@@ -1278,7 +1294,7 @@ section.post_column_main {
             }
         }
     }
-    
+
     blockquote {
         border-left: 6px solid $color_blockquote_bar;
         margin: 12px 0 12px 30px;
@@ -1287,11 +1303,22 @@ section.post_column_main {
         width: 80%;
         background: $color_blockquote_bg;
         
-        p, em, a {
+        p, a, li {
             @include set_font($font_blockquote, $font_size_blockquote, $color_blockquote);
             line-height: $font_line_height_blockquote;
-            margin-bottom: 8px;
             word-spacing: $word_spacing_blockquote;
+
+            @include min-screen(720px + 1px) {
+                @include set_font($font_blockquote, $font_size_blockquote + 4, $color_blockquote);
+                line-height: $font_size_blockquote + 12;
+            }
+            @media print {
+                @include set_font($font_blockquote, $font_size_blockquote + 4, $color_blockquote);
+                line-height: $font_size_blockquote + 12;
+            }
+
+            margin-bottom: 8px;
+
             e {
                 font-style: normal;
             }
