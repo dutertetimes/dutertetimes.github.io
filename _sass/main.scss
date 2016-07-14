@@ -1413,7 +1413,7 @@ section.column_right_sidebar {
 
     @include sidebar_component;
     @media print {
-        @include compact;
+        display: none;
     }
     
     div.related_posts,
