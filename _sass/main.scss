@@ -1413,9 +1413,13 @@ section.column_right_sidebar {
 #related_posts_block,
 #recent_posts_block {
 
-    @include sidebar_component;
     @media print {
         display: none;
+    }
+    
+    @include sidebar_component;
+    @include max-screen(720px) {
+        margin-top: 20px;
     }
     
     div.related_posts,
