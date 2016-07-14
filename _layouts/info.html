@@ -7,26 +7,28 @@ layout: default
 <section class="post_column_main">
 
     <h1>{{ page.title }}</h1>
-    {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
-    {% if page.date %}
-        {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-        {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
-        {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
-        <p class="date">
-            {% if postdate == nowday %}
-                {{ page.date | date: site.data.format.same_day }}
-            {% elsif postyear == nowyear %}
-                {{ page.date | date: site.data.format.same_year }}
-            {% endif %}
+    <div class="meta">
+        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
+        {% if page.date %}
+            {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+            {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
+            {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
+            <p class="date">
+                {% if postdate == nowday %}
+                    {{ page.date | date: site.data.format.same_day }}
+                {% elsif postyear == nowyear %}
+                    {{ page.date | date: site.data.format.same_year }}
+                {% endif %}
+            </p>
+        {% else %}
+            <p class="date">Undated</p>
+        {% endif %}
+        <p class="category">Filed under:&nbsp;
+            {% for category in page.categories %}
+                <span>{{ category }}</span>&nbsp;
+            {% endfor %}
         </p>
-    {% else %}
-        <p class="date">Undated</p>
-    {% endif %}
-    <p class="category">Filed under:&nbsp;
-        {% for category in page.categories %}
-            <span>{{ category }}</span>&nbsp;
-        {% endfor %}
-    </p>
+    </div>
 
     {% if page.video %}
         <div class="video">
