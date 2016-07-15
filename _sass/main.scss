@@ -3,6 +3,7 @@
 @import "font";
 @import "mixin";
 
+@import "header";
 @import "weather";
 
 // Default
@@ -249,157 +250,8 @@ div.footnotes {
 
 
 /* ------------------------------------------------------------------------- */
-/* Header and header navigation                                              */
+/* Main                                                                      */
 /* ------------------------------------------------------------------------- */
-
-header {
-
-    @include min-screen(721px) {
-        position: fixed;
-    }
-    width: 100%;
-    height: 85px;
-    padding-top: 5px;
-    margin: 0;
-    z-index: 1000;
-    @media screen {
-        background: $color_header_bg;
-    }
-
-    border-bottom: 5px solid $color_primary;
-    @media print {
-        border-bottom: none;
-    }
-
-    @include max-screen(720px) {
-        border-bottom: none;
-    }
-
-    #site_header {
-    
-        width: 100%;
-        float: left;
-        
-        #site_title {
-            width: 300px;
-            height: 45px;
-            margin-bottom: 10px;
-            float: left;
-            
-            img {
-                width: 35px;
-                height: 35px;
-                float: left;
-                margin: 10px 15px 0 15px;
-                @media screen {
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-                }
-                @media print {
-                    display: none;
-                }
-            }
-            h1 {
-                float: left;
-                display: block;
-                margin: 9px 0 0 0px;
-                a {
-                    @include set_font($font_title, $font_size_title, $color_header_title, $font_weight_title);
-                    text-align: left;
-                    border: none;
-                    &:hover {
-                        border: none;
-                    }
-                    @include max-screen(720px) {
-                        font-size: $font_size_title - 1;
-                    }
-                }
-                
-            }
-
-            p {
-                float: left;
-                @include set_font($font_title_tagline, $font_size_title_tagline, $color_header_title_tag, normal, italic);
-                letter-spacing: 0px;
-                text-align: left;
-                line-height: $font_size_title_tagline + 1;
-                margin: 3px 0 0 0;
-            }
-        }
-        
-        #site_title_right {
-            @media screen {
-                display: none;
-            }
-            @media print {
-                float: right;
-                width: 175px;
-                height: 50px;
-                @include print_copyright;
-            }
-        }
-    }
-    
-    #nav_top {
-        width: 100%;
-        margin-top: 11px;
-        margin-left: 15px;
-        background: $color_nav_bg;
-        @include min-screen(721px) {
-            float: left;
-        }
-        @include max-screen(720px) {
-            display: none;
-        }
-    }
-    
-    $button_gap: 2px;
-    
-    #common_menu_links,
-    #social_media_links {
-        @media print {
-            display: none;
-        }
-        ul {
-            @include compact;
-            li {
-                // Display list items horizontally
-                display: inline;
-                list-style-type: none;
-                padding: 0;
-                margin-right: $button_gap;
-                a {
-                    @include button;
-                    @include top_button;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                }
-            }
-        }
-    }
-    
-    #common_menu_links {
-        float: left;
-    }
-    
-    #social_media_links {
-        @include min-screen(721px) {
-            float: right;
-            // Offset the div right margin with the list item right margin
-            margin-right: 30px;
-        }
-        @include max-screen(720px) {
-            float: left;
-        }
-        ul li {
-            margin-right: $button_gap;
-            a {
-                padding-right: 7px;
-            }
-        }
-    }
-}
-
-
 
 main {
     width: 100%;
@@ -412,8 +264,8 @@ main {
     }
     
     @include min-screen(721px) {
-        float: clear;
-        padding-top: 110px;
+        //float: clear;
+        padding-top: 40px;
     }
     
     @include max-screen(720px) {
@@ -421,13 +273,33 @@ main {
     }
 }
 
-
-
-/* ------------------------------------------------------------------------- */
-/* Columns                                                                   */
-/* ------------------------------------------------------------------------- */
-
 section {
+    &.column_left_sidebar {
+        @include min-screen(1281px) { width: 270px; }
+        @include max-screen(1280px) { width: 23%; }
+        @include max-screen(1024px) { width: 30%; }
+        @include max-screen(720px)  { width: 93%; }
+    }
+
+    &.hub_column_main,
+    &.post_column_main,
+    &.page_column_main {
+        @include min-screen(1281px) { width: 51%; }
+        @include max-screen(1280px) { width: 44%; }
+        @include max-screen(1024px) { width: 62%; }
+        @include max-screen(720px)  { width: 93%; }
+    }
+
+    &.column_right_sidebar {
+        @include min-screen(1281px) { width: 270px; }
+        @include max-screen(1280px) { width: 23%; }
+        @include max-screen(1024px) { width: 62%; }
+        @include max-screen(720px)  { width: 93%; }
+    }
+}
+    
+    
+section {    
     &.column_left_sidebar,
     &.hub_column_main,
     &.post_column_main,
@@ -477,38 +349,13 @@ section {
         }
     }
     
-    &.hub_column_main,
-    &.post_column_main,
-    &.page_column_main {
+    &.hub_column_main {
         margin-top: 8px;
     }
-}
-
-// Media screen sizes
-// https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-
-section {
-    &.column_left_sidebar {
-        @include min-screen(1281px) { width: 270px; }
-        @include max-screen(1280px) { width: 23%; }
-        @include max-screen(1024px) { width: 30%; }
-        @include max-screen(720px)  { width: 93%; }
-    }
-
-    &.hub_column_main,
+    
     &.post_column_main,
     &.page_column_main {
-        @include min-screen(1281px) { width: 51%; }
-        @include max-screen(1280px) { width: 44%; }
-        @include max-screen(1024px) { width: 62%; }
-        @include max-screen(720px)  { width: 93%; }
-    }
-
-    &.column_right_sidebar {
-        @include min-screen(1281px) { width: 270px; }
-        @include max-screen(1280px) { width: 23%; }
-        @include max-screen(1024px) { width: 62%; }
-        @include max-screen(720px)  { width: 93%; }
+        margin-top: 15px;
     }
 }
 
@@ -682,6 +529,7 @@ section.column_left_sidebar {
                     p.attribution {
                         @include attribution;
                     }
+                    //width: 100%;
                 }
                 h2 {
                     @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);

@@ -1,27 +1,40 @@
-<div id="common_menu_links">
-    <ul>
-    {% for item in site.data.nav %}
-        {% if item.mode != "dev" %}
-        <li>
-            <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
-                <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
-                <span class="name">{{ item.name }}</span>
+<div>
+<ul id="nav_top">
+    <li>
+        <a href="/">{{ site.title }}</a>
+    </li>
+    {% comment %}
+    <li>
+        <a href="/">Sections</a>
+    </li>
+    {% endcomment %}
+    {% if site.development %}
+    <li class="dropdown">
+        <a href="/info/" class="dropdown_link">Info</a>
+        <div class="dropdown_content">
+            {% for item in site.data.sections %}
+                {% if item.mode != "dev" %}
+            <a href="{{ item.link }}">{{ item.name }}</a>
+                {% endif %}
+            {% endfor %}
+            {% for item in site.data.sections %}
+                {% if item.mode == "dev" %}
+            <a href="{{ item.link }}">{{ item.name }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </li>
+    {% endif %}
+
+    {% for item in site.data.socmed %}
+        <li class="right">
+            <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}"
+                data-toggle="tooltip" 
+                data-placement="top"
+                title="{{ item.message }}">
+                <i class="{{ item.fa_icon }} fa-lg" aria-hidden="true"></i>
             </a>
         </li>
-        {% endif %}
     {% endfor %}
-
-    {% if site.development == true %}
-        {% for item in site.data.nav %}
-            {% if item.mode == "dev" %}
-            <li>
-                <a href="{{ item.link }}"  {% if page.url == nav_item.link %} class="active" {% endif %}>
-                    <i class="{{ item.fa_icon }}" aria-hidden="true"></i>
-                    <span class="name">{{ item.name }}</span>
-                </a>
-            </li>
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-    </ul>
+</ul>
 </div>

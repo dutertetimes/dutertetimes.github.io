@@ -1,28 +1,15 @@
 <header>
-    <!-- Site-wide information, reminder, etc. -->
-	<!-- <p><a href="http://matthewjamestaylor.com/blog/perfect-multi-column-liquid-layouts" title="Perfect multi-column liquid layouts - iPhone compatible">&laquo; Back to the CSS article</a> by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a></p> -->
-    <div id="site_header">
-        <div id="site_title">
-            <img src="/images/du_times_02.1.png" width="35" height="35" alt='Duterte Times' />
-            <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}{% if site.development == true %}&nbsp;(Dev){% endif %}</a></h1>
-            {% if site.description %}
-                <p>{{ site.description }}</p>
-            {% else %}
-                <p>{{ site.tagline }}</p>
-            {% endif %}
-        </div>
-        <div id="site_title_right">
-            <p><a rel="license" href="{{ site.data.links.cc_by_sa }}" target="_blank">Licensed under a <a rel="license" href="{{ site.data.links.cc_by_sa_license }}" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a> (<span class='highlight_cc'>CC BY-SA</span>). You are free to copy, reproduce, distribute, display, and make adaptations but you must provide proper attribution.</p>
-        </div>
-    </div>
-    
-    <nav id="nav_top">
-        {% include common_menu_links.html %}
-        {% include social_media_links.html %}
-	</nav>
+    <h1>{{ site.title }}</h1>
+    {% if site.description %}
+        <p>{{ site.description }}</p>
+    {% else %}
+        <p>{{ site.tagline }}</p>
+    {% endif %}
+    <p>
+        Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA).<br/>
+        You are free to copy, reproduce, distribute, display, and make adaptations but you must provide proper attribution.
+    </p>
 </header>
+    
+{% include common_menu_links.html %}
 
-<!--
-<div class="border_fade">
-</div>
--->
