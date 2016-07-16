@@ -102,7 +102,7 @@
     var slideIndex = 1;
     showSlides(slideIndex);
     {% else %}
-    var slideIndex = 0;
+    var slideIndex = Math.floor(Math.random() * {{ counter }});
     autoShowSlides();
     {% endif %}
 
