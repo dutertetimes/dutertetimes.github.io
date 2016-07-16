@@ -1,0 +1,104 @@
+// Announcement container is necessary only to enable
+// hiding of the announcement block in post layout
+// when viewed using mobile devices
+#announcements_container {
+    @include max-screen(720px) {
+        display: none;
+    }
+
+}
+
+#announcements_block {
+    @media print {
+        display: none;
+    }
+    @include compact;
+    // Override top padding since this component is at the top
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    @include max-screen(720px) {
+        margin-top: 20px;
+    }
+    
+    border-bottom: 1px solid $color_news_line;
+    
+    div.announcement_links {
+        margin-top: 5px;
+        @include max-screen(720px) {
+            margin-top: 10px;
+        }
+        overflow: hidden;
+    }
+
+    h1 {
+        @include min-screen(721px) {
+            display: none;
+        }
+    }
+
+    div.announcements {
+        @include sidebar_component_internal;
+
+        div.announcement {
+            @include component_entry;
+
+            div.announcement_heading {
+                div.image {
+                    @include image_frame;
+                    p.attribution {
+                        @include attribution;
+                    }
+                    //width: 100%;
+                }
+                h2 {
+                    @include component_entry_heading($font_announcement_title, $font_size_announcement_title, $color_announcement_title);
+                    line-height: $font_line_height_announcement_title;
+                    text-transform: uppercase;
+                    letter-spacing: 0.2px;
+                    word-spacing: 0.175em;
+                    @include max-screen(720px) {
+                        font-size: $font_size_announcement_title + 1;
+                    }
+                }
+            }
+
+            @include component_entry_content;
+
+            p, li, a {
+                @include set_font($font_announcement_text, $font_size_announcement_text, $color_announcement_text);
+                line-height: $font_line_height_announcement_text;
+                @include max-screen(720px) {
+                    line-height: $font_line_height_announcement_text + 2;
+                }
+                &.date {
+                    @include set_font($font_announcement_date, $font_size_announcement_date, $color_announcement_date);
+                    @include max-screen(720px) {
+                        line-height: $font_line_height_announcement_date + 2;
+                    }
+                }
+            }
+        }
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 4px 0 0;
+        @include max-screen(720px) {
+            margin: 0 10px 0 0;
+        }
+        background-color: $color_bg;
+        //border-radius: 50%;
+        border-radius: 2px;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: $color_link;
+    }
+}
+

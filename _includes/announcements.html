@@ -1,5 +1,24 @@
 <div id="announcements_block">
     <h1>Announcements</h1>
+    
+    {% assign counter = 0 %}
+    {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
+    {% for post in site.categories['announcement'] %}
+        {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
+        {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
+        {% if currentdate >= postdatestart and currentdate <= postdateend %}
+            {% assign counter = counter | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    <div class="announcement_links">
+        {% if counter > 10 %}
+            {% assign counter = 10 %}
+        {% endif %}
+        {% for i in (1..counter) %}
+            <span class="dot" onclick="currentSlide({{ i }})"></span>
+        {% endfor %}
+    </div>
+    
     <div class="announcements">
     {% assign found = false %}
     {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
@@ -10,13 +29,13 @@
             <div class="announcement">
                 <div class="announcement_heading">
                     <h2>{{ post.title }}</h2>
+                    {% comment %}
                     {% if post.image.source != nil %}
                         <div class="image">
                             <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
                             <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
                         </div>
                     {% endif %}
-                    {% comment %}
                     <p class="date">
                         {% if post.eventdatestart != post.eventdateend %}
                             {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
@@ -77,3 +96,54 @@
     {% endif %}
     </div>
 </div>
+
+<script>
+    {% if site.development %}
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    {% else %}
+    var slideIndex = 0;
+    autoShowSlides();
+    {% endif %}
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("announcement");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    
+    function autoShowSlides() {
+        var i;
+        var slides = document.getElementsByClassName("announcement");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(autoShowSlides, 60000);
+    }
+</script>
