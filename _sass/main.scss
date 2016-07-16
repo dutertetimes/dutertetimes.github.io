@@ -654,6 +654,9 @@ section.hub_column_main {
         }
         a {
             @include component_entry_heading_link($font_news_title, $font_size_news_title, $color_news_title);
+            &:hover {
+                color: $color_link;
+            }
         }
     }
 
