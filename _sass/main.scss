@@ -446,6 +446,7 @@ section.column_left_sidebar {
         display: none;
     }
     @include sidebar_component;
+    padding-top: 5px;
    
     div.random_quotes {
         @include sidebar_component_internal;
@@ -453,38 +454,28 @@ section.column_left_sidebar {
         div.quote {
             p {
                 @include compact;
-                @include set_font($font_quote, $font_size_quote, $color_quote_text, normal, normal);
-                @include max-screen(720px) {
-                    font-size: $font_size_quote + 1;
-                }
-                line-height: $font_line_height_quote;
-                i.fa-quote-left {
-                    color: lighten($color_sidebar_label, 15%);
-                }
-            }
-            
-            table, tr, th, td {
-                @include compact;
-                border: none;
-            }
-            
-            table {
-                border-collapse: collapse;
-                margin-top: 3px;
-                td {
-                    p {
-                        @include compact;
-                        @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
-                        &.qauthor {
-                            text-transform: uppercase;
-                            // To center the author with the emdash on the left column
-                            padding-top: 2px;
-                        }
-                        &.context {
-                            color: lighten($color_quote_author, 15%);
-                            padding-top: 2px;
-                        }
+                &.qtext {
+                    @include set_font($font_quote, $font_size_quote, $color_quote_text, normal, normal);
+                    @include max-screen(720px) {
+                        font-size: $font_size_quote + 1;
                     }
+                    line-height: $font_line_height_quote;
+                    i.fa-quote-left {
+                        color: lighten($color_sidebar_label, 15%);
+                    }
+                }
+
+                &.qauthor {
+                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                    text-transform: uppercase;
+                    padding-top: 5px;
+                }
+                &.context {
+                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                    font-style: italic;
+                    color: lighten($color_quote_author, 15%);
+                    margin-left: 20px;
+                    padding-top: 2px;
                 }
             }
         }
