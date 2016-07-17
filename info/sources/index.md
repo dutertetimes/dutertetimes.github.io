@@ -38,8 +38,7 @@ published: true
 | Business |
 |----------|
 | [International Business Times](http://www.ibtimes.com/)
-| [Manila Bulletin](http://www.mb.com.ph/)
-| [CNN Philippines](http://cnnphilippines.com/)
+| [Malaya Business Insights](http://www.malaya.com.ph/)
 
 &nbsp;
 
@@ -56,6 +55,7 @@ published: true
 | [International Monetary Fund](http://www.imf.org/external/index.htm)
 | [International Finance Corporation](http://www.ifc.org/)
 | [World Bank](http://www.worldbank.org/)
+| [Asia-Europe Meeting](http://www.aseminfoboard.org/)
 
 &nbsp;
 
