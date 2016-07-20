@@ -67,7 +67,7 @@ permalink: /
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>
             {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
-            {% if postCount == '7' %}
+            {% if postCount == '5' %}
                 {% break %}
             {% endif %}
             {% endif %}
