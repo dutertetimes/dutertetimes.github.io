@@ -396,6 +396,8 @@ section.column_left_sidebar {
 
     p {
         @include compact;
+        font-family: $font_datetime;
+        font-size: $font_size_datetime;
         &.label {
             text-align: left;
         }
