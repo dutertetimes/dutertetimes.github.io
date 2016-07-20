@@ -63,3 +63,11 @@ published: true
 | Foreign News |
 |--------------|
 | [China Daily](http://www.chinadaily.com.cn/)
+
+&nbsp;
+
+|---------|
+| Surveys |
+|---------|
+| [Pulse Asia](http://www.pulseasia.ph/)
+| [Social Weather Stations](http://www.sws.org.ph/)
