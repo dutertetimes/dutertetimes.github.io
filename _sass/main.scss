@@ -5,6 +5,7 @@
 
 @import "header";
 @import "announcements";
+@import "datetime";
 @import "weather";
 
 // Default
@@ -369,44 +370,6 @@ section {
 section.column_left_sidebar {
     @media print {
         margin: 0px;
-    }
-}
-
-#datetime {
-    @media print {
-        display: none;
-    }
-    @include max-screen(720px) {
-        display: none;
-    }
-    margin-bottom: 0px;
-    
-    table {
-        border: none;
-        border-collapse:collapse;
-        width: 100%;
-        tr, th, td {
-            @include compact;
-            border: none;
-        }
-        td {
-            white-space: nowrap;
-        }
-    }
-
-    p {
-        @include compact;
-        font-family: $font_datetime;
-        font-size: $font_size_datetime;
-        &.label {
-            text-align: left;
-        }
-        &.datetime {
-            text-align: center;
-        }
-        &.datetime24 {
-            text-align: center;
-        }
     }
 }
 
