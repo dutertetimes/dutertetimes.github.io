@@ -37,8 +37,18 @@ published: true
 |----------|
 | Business |
 |----------|
+| [Business World](http://www.bworldonline.com/)
 | [International Business Times](http://www.ibtimes.com/)
 | [Malaya Business Insights](http://www.malaya.com.ph/)
+
+&nbsp;
+
+|----------------------------------|
+| Chamber of Commerce and Industry |
+|----------------------------------|
+| [Bulacan](http://bulacanchamber.ph/)
+| [Davao](http://davaochamber.com/)
+| [Makati](http://www.makatichamber.com/)
 
 &nbsp;
 
