@@ -8,6 +8,7 @@
 @import "announcements";
 @import "datetime";
 @import "weather";
+@import "newsbits";
 
 // Default
 $video_width_default:       640px;
@@ -403,36 +404,6 @@ section.column_left_sidebar {
                 }
                 display: block;
             }
-        }
-    }
-}
-
-#newsbits_roll {
-    @media print {
-        display: none;
-    }
-    @include max-screen(720px) {
-        display: none;
-    }
-    @include sidebar_component_scroll(1);
-    margin-bottom: 20px;
-
-    // Because of the scroll div the news bit "titles" cannot have top margin.
-    // to align the first news bit "title" with the top of the scroll div.
-    // This means we have to offset the news bit div.
-    div.newsbits {
-        @include sidebar_component_scroll_internal(270px);
-
-        div.newsbit {
-            @include component_entry;
-            
-            div.newsbit_heading {
-                h2 {
-                    @include component_entry_heading($font_news_text, $font_size_news_text, $color_news_bit_date);
-                    font-weight: normal;
-                }
-            }
-            @include component_entry_content;
         }
     }
 }
