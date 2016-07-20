@@ -1,0 +1,44 @@
+
+#random_quotes_block {
+    @media print {
+        display: none;
+    }
+    @include sidebar_component;
+    // Override top padding since this component is at the top
+    padding-top: 0px;
+
+    //border-bottom: 1px solid $color_news_line;
+
+    div.random_quotes {
+        @include sidebar_component_internal;
+
+        div.quote {
+            p {
+                @include compact;
+                &.qtext {
+                    @include set_font($font_quote, $font_size_quote, $color_quote_text, normal, normal);
+                    @include max-screen(720px) {
+                        font-size: $font_size_quote + 1;
+                    }
+                    line-height: $font_line_height_quote;
+                    i.fa-quote-left {
+                        color: lighten($color_sidebar_label, 15%);
+                    }
+                }
+
+                &.qauthor {
+                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                    text-transform: uppercase;
+                    padding-top: 5px;
+                }
+                &.context {
+                    @include set_font($font_quote_author, $font_size_quote_author, $color_quote_author);
+                    font-style: italic;
+                    color: lighten($color_quote_author, 15%);
+                    margin-left: 20px;
+                    padding-top: 2px;
+                }
+            }
+        }
+    }
+}
