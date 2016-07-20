@@ -353,10 +353,6 @@ section {
         }
     }
     
-    &.hub_column_main {
-        margin-top: 8px;
-    }
-    
     &.post_column_main,
     &.page_column_main {
         margin-top: 15px;
@@ -458,7 +454,9 @@ section.hub_column_main {
     @media print {
         margin-left: 0;
     }
-    
+    @include max-screen(720px) {
+        margin-top: 10px;
+    }
     h1 {
         @include sidebar_component_label;
     }
