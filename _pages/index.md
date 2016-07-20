@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <div id="news_tops_block">
-    <h1>Top News</h1>
+    <h1>Headlines</h1>
     <div class="news_tops">
         {% assign top_id = nil %}
         {% assign postCount = 0 %}
