@@ -12,30 +12,33 @@
     @media print {
         display: none;
     }
-    @include compact;
+    @include sidebar_component;
+    //@include compact;
     // Override top padding since this component is at the top
-    padding-top: 0px;
-    padding-bottom: 0px;
+    //padding-top: 0px;
+    //padding-bottom: 0px;
 
     @include max-screen(720px) {
         margin-top: 20px;
     }
     
-    border-bottom: 1px solid $color_news_line;
+    //border-top: 1px solid $color_news_line;
     
     div.announcement_links {
-        margin-top: 5px;
+        margin-top: 10px;
         @include max-screen(720px) {
             margin-top: 10px;
         }
         overflow: hidden;
     }
 
+    /*
     h1 {
         @include min-screen(721px) {
             display: none;
         }
     }
+    */
 
     div.announcements {
         @include sidebar_component_internal;
