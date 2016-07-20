@@ -1,20 +1,24 @@
 #weather_block {
-    @include sidebar_component;
-    h1 {
-        @include min-screen(720px + 1px) {
+    @include min-screen(720px + 1px) {
+        @include compact;
+        h1 {
             display: none;
         }
     }
+    @include max-screen(720px) {
+        @include sidebar_component;
+    }
     div.weather_satellite {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 5px;
+        @include min-screen(720px + 1px) {
+            @include compact;
+        }
+        @include max-screen(720px) {
+            @include sidebar_component_internal;
+        }
         div.image {
             background: black;
-            padding: 5px 5px 5px 5px;
-            margin: 5px 0px 5px 0;
             @include max-screen(720px) {
-                margin-right: 5px;
+                margin: 5px 0px 5px 0;
             }
             img {
                 overflow: hidden;
