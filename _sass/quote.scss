@@ -4,10 +4,10 @@
         display: none;
     }
     @include sidebar_component;
-    // Override top padding since this component is at the top
-    padding-top: 0px;
-
-    //border-bottom: 1px solid $color_news_line;
+    @include min-screen(720px + 1px) {
+        // Override top padding since this component is at the top
+        padding-top: 0px;
+    }
 
     div.random_quotes {
         @include sidebar_component_internal;
