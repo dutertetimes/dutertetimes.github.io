@@ -21,6 +21,7 @@ published: true
 | [Philippine Statistics Authority](http://psa.gov.ph/)
 | [Senate of the Philippines](http://www.senate.gov.ph/)
 | [Bureau of Corrections](http://www.bucor.gov.ph/)
+| [National Historical Commission of the Philippines](http://nhcp.gov.ph/)
 
 &nbsp;
 
