@@ -29,11 +29,7 @@
     {% endif %}
 	<meta name="keywords" content="news duterte" />
 	<meta name="robots" content="index, follow" />
-    {% if page.excerpt %}
-    <link rel="icon" type="image/png" href="/images/favicon/duterte_times_twitter_summary_card_01.png">
-    {% else %}
-    <link rel="icon" type="image/png" href="/images/favicon/duterte_times_twitter_summary_card_01.png">
-    {% endif %}
+    <link rel="icon" type="image/png" href="/images/favicon/{{ site.author.icon }}">
     
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
@@ -43,7 +39,7 @@
     {% if page.image.source != nil %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ page.image.source }}" />
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}images/favicon/{{ site.author.icon }}" />
+    <meta name="twitter:image:src" content="{{ site.url }}images/twitter_summary_card_01.png" />
     {% endif %}
 
     <!-- Stylesheets -->
