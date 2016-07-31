@@ -13,37 +13,39 @@
                 {% continue %}
             {% endif %}
             
-            {% for thisTag in page.tags %}
-                {% if post.title != page.title and post.tags contains thisTag %}
-                    {% assign foundPost = true %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-                
-            {% if post.title != page.title and foundPost == true %}
-                <div class="related_post">
-                    <div class="related_post_heading">
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    </div>
-                    {% if post.date == nil %}
-                        <p class="date">Undated</p>
-                    {% else %}
-                        <p class="date">
-                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                            {% if postdate == nowday %}
-                                {{ post.date | date: site.data.format.same_day }}
-                            {% elsif postyear == nowyear %}
-                                {{ post.date | date: site.data.format.same_year }}
-                            {% endif %}
-                        </p>
+            {% if post.title != page.title %}
+                {% for thisTag in page.tags %}
+                    {% if post.tags contains thisTag %}
+                        {% assign foundPost = true %}
+                        {% break %}
                     {% endif %}
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                </div>
-                {% assign foundPost = false %}
-                {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
-                {% if postCount == '5' %}
-                    {% break %}
+                {% endfor %}
+            
+                {% if foundPost == true %}
+                    <div class="related_post">
+                        <div class="related_post_heading">
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        </div>
+                        {% if post.date == nil %}
+                            <p class="date">Undated</p>
+                        {% else %}
+                            <p class="date">
+                                {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                                {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                                {% if postdate == nowday %}
+                                    {{ post.date | date: site.data.format.same_day }}
+                                {% elsif postyear == nowyear %}
+                                    {{ post.date | date: site.data.format.same_year }}
+                                {% endif %}
+                            </p>
+                        {% endif %}
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                    </div>
+                    {% assign foundPost = false %}
+                    {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
+                    {% if postCount == '5' %}
+                        {% break %}
+                    {% endif %}
                 {% endif %}
             {% endif %}
 
