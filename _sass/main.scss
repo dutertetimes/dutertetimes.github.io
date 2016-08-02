@@ -23,7 +23,7 @@ $video_width_50:            $video_width_default / 2;
 $video_height_50:           $video_height_default / 2;
 
 
-@page { size:8.5in 11in; margin: 1in }
+@page { size:8.5in 11in; margin: 1in; margin-left: 1.5in }
 
 @page:right {
     @bottom-left {
