@@ -1132,7 +1132,7 @@ section.column_right_sidebar {
                     @include set_font($font_related_post_excerpt, $font_size_related_post_excerpt, $color_news_text);
                     line-height: $font_line_height_related_post_excerpt;
                     @include max-screen(720px) {
-                        line-height: $font_line_height_related_post_excerpt + 2;
+                        line-height: $font_line_height_related_post_excerpt + 4;
                     }
                 }
             }
