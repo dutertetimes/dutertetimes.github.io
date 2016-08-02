@@ -736,7 +736,7 @@ section.post_column_main {
         
         @include max-screen(720px) {
             @include set_font($font_page_text, $font_size_page_text, $color_page_text);
-            line-height: $font_line_height_page_text + 2;
+            line-height: $font_line_height_page_text + 4;
         }
         @media print {
             //@include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
