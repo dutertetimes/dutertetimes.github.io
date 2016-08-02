@@ -14,11 +14,19 @@ header {
     height: 85px;
     @include compact;
     
-    h1, p {
+    h1 {
+        // Avoid clipping of top part of text
         margin: 5px 0 0 0;
     }
-    p {
-        padding: 5px 0 0 0;
+    @media print {
+        p {
+            padding: 5px 0 0 0;
+            @include set_font($font_title_tagline, $font_size_title_tagline, $color_text);
+            line-height: $font_size_title_tagline + 2;
+            &.license {
+                font-style: italic;
+            }
+        }
     }
 }
 
