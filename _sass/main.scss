@@ -1273,9 +1273,11 @@ footer {
     @include compact;
     
     p, a, li {
-        font-family: $font_footer;
-        font-size: $font_size_footer;
-        color: $color_footer_text;
+        @include set_font($font_footer, $font_size_footer, $color_footer_text);
+        line-height: $font_line_height_footer;
+        @include max-screen(720px) {
+            line-height: $font_line_height_footer + 2;
+        }
         @include compact;
     }
     ul {

@@ -157,8 +157,9 @@ $font_line_height_aside_text:   $font_line_height_default + 4;
 
 // Footer
 $font_footer:               $font_serif_thin;
-$font_size_footer:          13px;
-$font_size_license:         13px;
+$font_size_footer:          $font_size_default;
+$font_size_license:         $font_size_default;
+$font_line_height_footer:   $font_line_height_default;
 
 // Link buttons
 $font_button:               $font_sans_thin;
