@@ -1,0 +1,40 @@
+---
+layout:
+---
+
+{% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
+{% capture nowyear %}{{ 'now' | date: '%Y' }}{% endcapture %}
+{% assign postCount = 0 %}
+{% for post in site.categories['news'] %}
+    {% if post.categories contains 'newsbit' %}
+        {% continue %}
+    {% endif %}
+    
+    {% if post.title != page.title %}
+        <div class="recent_post">
+            <div class="recent_post_heading">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </div>
+        
+            {% if post.date == nil %}
+                <p class="date">Undated</p>
+            {% else %}
+                <p class="date">
+                    {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
+                    {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+                    {% if postdate == nowday %}
+                        {{ post.date | date: site.data.format.same_day }}
+                    {% elsif postyear == nowyear %}
+                        {{ post.date | date: site.data.format.same_year }}
+                    {% endif %}
+                </p>
+            {% endif %}
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+        {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
+        {% if postCount == '5' %}
+            {% break %}
+        {% endif %}
+    {% endif %}
+    
+{% endfor %}
