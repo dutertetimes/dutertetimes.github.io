@@ -6,7 +6,7 @@ layout: post
 categories: [business]
 tags: [commerce, industry, scci]
 published: true
-permalink: /:path
+permalink: /news/business/2016-06-28-20160628T172635
 ---
 
 The 25th Mindanao Business Conference (MinBizCon) will be held on 24-26 August 2016 at the Philippine Gateway Hotel in Surigao City.

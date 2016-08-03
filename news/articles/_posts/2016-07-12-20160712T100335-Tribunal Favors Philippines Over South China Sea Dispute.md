@@ -6,7 +6,7 @@ layout: post
 categories: [topnews]
 tags: [spratly, scarborough, south china sea, west philippine sea, hague, kalayaan islands, panatag shoal, bajo de masinloc]
 published: true
-permalink: /:path
+permalink: /news/top/2016-07-12-20160712T100335
 image:
   layout: auto_width
   source: 

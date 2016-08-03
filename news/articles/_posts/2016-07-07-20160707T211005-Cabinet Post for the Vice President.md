@@ -6,7 +6,7 @@ layout: post
 categories: [article]
 tags: 
 published: true
-permalink: /:path
+permalink: /news/article/2016-07-07-20160707T211005
 image:
   layout: auto_width
   source: 

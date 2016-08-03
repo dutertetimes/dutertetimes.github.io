@@ -6,7 +6,7 @@ layout: post
 categories: [topnews]
 tags: [pnp, drugs, napolcom]
 published: true
-permalink: /:path
+permalink: /news/top/2016-07-05-20160705T222147
 image:
   layout: auto_width
   source: 

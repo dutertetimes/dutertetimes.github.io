@@ -6,7 +6,7 @@ layout: post
 categories: [topnews]
 tags: [inauguration, president, duterte]
 published: true
-permalink: /:path
+permalink: /news/top/2016-06-30-20160630T002859
 image:
   layout:
   source: /post/duterte_inauguration_20160630.png

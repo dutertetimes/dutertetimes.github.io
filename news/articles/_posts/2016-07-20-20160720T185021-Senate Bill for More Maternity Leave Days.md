@@ -1,12 +1,12 @@
 ---
-title: Senate Bill for More Maternity Leave Days 
+title: Senate Bill for More Maternity Leave Days
 date: 2016-07-20T18:50:21UTC
 excerpt: If passed into law, Senate Bill No. 205 or the Expanded Maternity Leave Law of 2016 will provide maternal workers more days of maternity leave and additional benefits.
 layout: post
 categories: [other]
 tags: [senate bill, bill, maternity leave]
 published: true
-permalink: /:path
+permalink: /news/other/2016-07-20-20160720T185021
 image:
   layout: auto_width
   source: 

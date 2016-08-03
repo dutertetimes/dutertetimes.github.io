@@ -1,12 +1,12 @@
 ---
-title: Mariano Breaks Open Welded DAR Gates
+title: Secretary Mariano Breaks Open Welded DAR Gates
 date: 2016-07-06T18:55:59UTC
 excerpt: The new Department of Agrarian Reform Secretary opened the welded and chained gates of the DAR building which has been closed for 18 years to communicate the intent of the new administration and welcome farmers and protesters.
 layout: post
 categories: [agrarianreform]
 tags: 
 published: true
-permalink: /:path
+permalink: /news/agrarianreform/2016-07-06-20160706T185559
 image:
   layout: auto_width
   source: 

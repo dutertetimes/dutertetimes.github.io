@@ -6,7 +6,7 @@ layout: post
 categories: [business]
 tags: [commerce, industry, economy, social, socioeconomic]
 published: true
-permalink: /:path
+permalink: /news/business/2016-06-20-20160620T213320
 ---
 
 A two-day economic forum, "Sulong Pilipinas: Hakbang Tungo sa Kaunlaran", starting 20 June 2016 was held in Davao to discuss the incoming Duterte administration socioeconomic agenda.

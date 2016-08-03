@@ -6,7 +6,7 @@ layout: post
 categories: [business, mining]
 tags: [industry, mining, nickel, denr, suspension]
 published: true
-permalink: /:path
+permalink: /news/business/2016-07-09-20160709T143348
 image:
   layout: auto_width
   source: 

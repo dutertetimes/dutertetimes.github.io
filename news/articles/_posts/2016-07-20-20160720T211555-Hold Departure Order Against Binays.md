@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [hdo, binay, graft, sandiganbayan, makati]
 published: true
-permalink: /:path
+permalink: /news/other/2016-07-20-20160720T211555
 image:
   layout: auto_width
   source: 

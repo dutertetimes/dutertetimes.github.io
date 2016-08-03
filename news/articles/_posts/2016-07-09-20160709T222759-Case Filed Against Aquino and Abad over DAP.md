@@ -6,7 +6,7 @@ layout: post
 categories: [article]
 tags: [aquino, abad, malversation, dap, ombudsman]
 published: true
-permalink: /:path
+permalink: /news/article/2016-07-09-20160709T222759
 image:
   layout: auto_width
   source: 

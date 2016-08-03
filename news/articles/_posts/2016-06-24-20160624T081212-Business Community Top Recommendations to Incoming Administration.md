@@ -6,7 +6,7 @@ layout: post
 categories: [business]
 tags: [commerce, industry, pcci]
 published: true
-permalink: /:path
+permalink: /news/business/2016-06-24-20160624T081212
 ---
 
 The business community has come up with recommendations to the incoming President Rodrigo R. Duterte and his cabinet in conclusion of the business consultation forum held on June 20-21, 2016 in Davao.

@@ -1,12 +1,12 @@
 ---
-title: Completion of the North Mindanao Import Facility 
+title: Completion of the North Mindanao Import Facility
 date: 2016-07-20T15:37:20UTC
 excerpt: Shell Philippines completes the North Mindanao Import Facility in Cagayan de Oro worth P3.6 billion to accomodate increasing demands in Mindanao and Visayas region.
 layout: post
 categories: [business]
 tags: [shell, pspc, petroleum, nmif, import facility, cagayan de oro]
 published: true
-permalink: /:path
+permalink: /news/business/2016-07-20-20160720T153720
 image:
   layout: auto_width
   source: 

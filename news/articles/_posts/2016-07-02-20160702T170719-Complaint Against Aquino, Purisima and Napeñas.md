@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [saf44, mamasapano, ombudsman, vacc]
 published: true
-permalink: /:path
+permalink: /news/other/2016-07-02-20160702T170719
 image:
   layout: auto_width
   source: 

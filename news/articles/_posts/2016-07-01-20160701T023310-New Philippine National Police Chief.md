@@ -6,7 +6,7 @@ layout: post
 categories: [topnews]
 tags: [pnp, chief of police, assumption of command]
 published: true
-permalink: /:path
+permalink: /news/top/2016-07-01-20160701T023310
 image:
   layout: auto_width
   source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png

@@ -6,7 +6,7 @@ layout: post
 categories: [article]
 tags: [dfa, asem, asia, europe, summit, mongolia]
 published: true
-permalink: /:path
+permalink: /news/article/2016-07-17-20160717T155723
 image:
   layout: auto_width
   source: 

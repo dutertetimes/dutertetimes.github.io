@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [disaster, ndrrmc, eo137]
 published: true
-permalink: /:path
+permalink: /news/other/2016-07-05-20160705T122300
 image:
   layout: auto_width
   source: 

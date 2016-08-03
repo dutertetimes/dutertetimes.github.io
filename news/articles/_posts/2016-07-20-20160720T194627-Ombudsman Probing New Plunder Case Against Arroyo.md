@@ -6,7 +6,7 @@ layout: post
 categories: [topnews]
 tags: [arroyo, plunder, dismissal, supreme court, pcso, ombudsman]
 published: true
-permalink: /:path
+permalink: /news/top/2016-07-20-20160720T194627
 image:
   layout: auto_width
   source: 
