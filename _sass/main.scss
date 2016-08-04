@@ -162,20 +162,36 @@ aside {
     
 table {
     border-collapse: collapse;
-    border: 1px solid $color_table_border;
     width: 100%;
     overflow: scroll;
     thead, tbody, tfoot, tr, th, td {
         @include compact;
     }
-    th, td {
-        border: 1px solid $color_table_border;
+    
+    tr:first-of-type {
+        border-top: 1px solid $color_table_border;
     }
+    tr {
+        border-bottom: 1px solid $color_table_border;
+        th:first-of-type,
+        td:first-of-type {
+            border-left: 1px solid $color_table_border;
+        }
+        th,
+        td {
+            border-right: 1px solid $color_table_border;
+        }
+    }
+
     thead {
         background: $color_table_th_bg;
         tr {
             th {
-                @include set_font($font_table_heading, $font_size_table_heading, $color_text);
+                @include set_font($font_table_heading, $font_size_table_heading + 4, $color_text);
+                @include max-screen(720px) {
+                    font-size: $font_size_table_heading;
+                }
+
                 padding: 5px 6px;
             }
         }
@@ -187,8 +203,13 @@ table {
             td p,
             td a,
             td li {
-                @include set_font($font_table_data, $font_size_table_data, $color_text);
-                line-height: $font_size_table_data;
+                @include set_font($font_table_data, $font_size_table_data + 4, $color_text);
+                line-height: $font_line_height_table_data + 4;
+
+                @include max-screen(720px) {
+                    font-size: $font_size_table_data;
+                    line-height: $font_line_height_table_data;
+                }
             }
             td {
                 padding: 2px 4px 3px 4px;
@@ -846,8 +867,13 @@ section.post_column_main {
             td p,
             td a,
             td li {
-                @include set_font($font_table_data, $font_size_table_data, $color_text);
-                line-height: $font_line_height_table_data;
+                @include set_font($font_table_data, $font_size_table_data + 4, $color_text);
+                line-height: $font_line_height_table_data + 4;
+
+                @include max-screen(720px) {
+                    font-size: $font_size_table_data;
+                    line-height: $font_line_height_table_data;
+                }
             }
         }
         tbody tr td {
