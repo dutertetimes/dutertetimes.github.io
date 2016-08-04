@@ -159,44 +159,56 @@ aside {
     margin-left: 10px;
     border-right: 3px solid $color_aside_border;
 }
-
+    
 table {
     border-collapse: collapse;
     border: 1px solid $color_table_border;
     width: 100%;
+    overflow: scroll;
     thead, tbody, tfoot, tr, th, td {
         @include compact;
     }
-    tr, th, td {
+    th, td {
         border: 1px solid $color_table_border;
     }
     thead {
         background: $color_table_th_bg;
-    }
-    th {
-        @include set_font($font_table_heading, $font_size_table_heading, $color_text);
-        padding: 5px 6px;
-        white-space: nowrap;
-    }
-    td {
-        @include set_font($font_table_data, $font_size_table_data, $color_text);
-        line-height: $font_size_table_data;
-        padding: 1px 6px 1px 6px;
-        white-space: nowrap;
-        p {
-            margin: 0;
-            &.label {
-                line-height: 19px;
-                margin: 0;
-                white-space: nowrap !important;
+        tr {
+            th {
+                @include set_font($font_table_heading, $font_size_table_heading, $color_text);
+                padding: 5px 6px;
             }
         }
-        a {
-            @include compact;
-        }
-        ul, ol {
-            list-style-type: square;
-            margin-bottom: 0px;
+    }
+
+    tbody {
+        tr {
+            td,
+            td p,
+            td a,
+            td li {
+                @include set_font($font_table_data, $font_size_table_data, $color_text);
+                line-height: $font_size_table_data;
+            }
+            td {
+                padding: 2px 4px 3px 4px;
+                word-wrap: break-word;
+                p {
+                    margin: 0;
+                    &.label {
+                        //line-height: 19px;
+                        margin: 0;
+                        white-space: nowrap !important;
+                    }
+                }
+                a {
+                    @include compact;
+                }
+                ul, ol {
+                    list-style-type: square;
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -766,6 +778,9 @@ section.post_column_main {
     p {
         @include bottom_margin;
     }
+    table ~ p {
+        margin-top: 12px;
+    }
     
     div.meta {
         p {
@@ -801,7 +816,6 @@ section.post_column_main {
         }
     }
 
-
     @include max-screen(720px) {
         sup {
             a {
@@ -824,9 +838,40 @@ section.post_column_main {
         margin-bottom: 0;
     }
 
-    table td a {
-        font-family: $font_table_data;
-        font-size: $font_size_table_data;
+    table {
+        width: 100%;
+        overflow: scroll;
+        tbody tr {
+            td,
+            td p,
+            td a,
+            td li {
+                @include set_font($font_table_data, $font_size_table_data, $color_text);
+                line-height: $font_line_height_table_data;
+            }
+        }
+        tbody tr td {
+            padding: 2px 4px 3px 4px;
+            @include wrap;
+            a {
+                @include compact;
+                border-bottom: none;
+                text-decoration: none;
+                line-height: $font_line_height_table_data + 2;
+                &::after {
+                    content: "\00a0\21d2";
+                    font-weight: normal;
+                }
+                &:hover {
+                    color: $color_link;
+                }
+            }
+        }
+        td:first-child {
+            vertical-align: top;
+            white-space: nowrap;
+            word-wrap: nowrap;
+        }
     }
 
     dl {
