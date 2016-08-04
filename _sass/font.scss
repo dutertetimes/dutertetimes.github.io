@@ -40,10 +40,11 @@ $font_line_height_code:     12px;
 $font_size_code_in_text:    12px;
 
 // Table
-$font_table_heading:        $font_sans_thin;
-$font_table_data:           $font_sans_thin;
-$font_size_table_heading:   $font_size_default;
-$font_size_table_data:      $font_size_default;
+$font_table_heading:            $font_sans_thin;
+$font_table_data:               $font_sans_thin;
+$font_size_table_heading:       $font_size_default;
+$font_size_table_data:          $font_size_default;
+$font_line_height_table_data:   $font_size_default + 2;
 
 // Block Quote
 $font_blockquote:               $font_sans_thin;
