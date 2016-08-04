@@ -27,7 +27,7 @@ $font_size_title_tagline:   14px;
 // Default
 $font_default:              $font_serif_thin;
 $font_size_default:         13px;
-$font_line_height_default:  15px;
+$font_line_height_default:  $font_size_default + 2;
 $font_default_thin:         $font_sans_thin;
 $font_size_default_thin:    12px;
 $font_heading:              $font_serif_thin;
