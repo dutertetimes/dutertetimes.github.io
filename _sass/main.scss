@@ -1000,46 +1000,29 @@ section.post_column_main {
         }
     }
 
-    table.tags {
-        &, tr, td {
-            border: none;
-            padding: 0;
-        }
-        td.tags_column {
-            width: 10px;
-        }
-    }
-    
-    table.tags {
+    #post_tags {
         @media print {
             display: none;
         }
-        tr {
-            td {
-                vertical-align: top;
-                
-                img.tagsymbol {
-                    width: 16px;
-                    height: 16px;
-                    vertical-align: middle;
-                    padding-top: 5px;
-                    padding-right: 10px;
+        ul {
+            @include compact;
+            list-style-type: none;
+            li {
+                @include set_font($font_tag, $font_size_tag + 4, $color_tag_text);
+                @include max-screen(720px) {
+                    font-size: $font_size_tag;
                 }
-                
-                span.tag {
-                    font-size: $font_size_default - 1;
-                    line-height: $font_size_default + 10;
-                    color: $color_tag_text;
-                    background: $color_tag_bg;
-                    padding: 0px 8px 2px 8px;
-                    border-radius: 2px;
-                    margin: 2px 2px 2px 0;
-                    display: inline-block;
+                line-height: $font_line_height_tag;
+                display: inline;
+                padding: 0;
+                margin-right: 10px;
+                i.fa {
+                    color: lighten($color_text, 70%);
                 }
             }
         }
     }
-    
+                
     #post_operations {
         @media print {
             display: none;

@@ -1,23 +1,21 @@
 <!-- Add vertical space before the 'hr' so it does not look cramped -->
 <!-- <p class="padding_bottom_5" /> -->
 <hr class="thin">
-<div>
-    <p>
-        <table class="tags">
-            <tr>
-                <td class="tags_column"><img src="/images/tag.png" height="42" width="42" class="tagsymbol"/></td>
-                <td>
-                    {% if page.tags.size == 0 %}
-                        <span class="tag">no tags</span>
-                    {% else %}
-                        {% for tag in page.tags %}
-                            <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    {% endif %}
-                </td>
-            </tr>
-        </table>
-    </p>
+
+<div id="post_bottom">
+
+    <div id="post_tags">
+        <ul>
+        {% if page.tags.size == 0 %}
+            <li>no tags</li>
+        {% else %}
+            {% for tag in page.tags %}
+                <li><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ tag }}</li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+
 
     <div id="post_operations">
         <ul>
