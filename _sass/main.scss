@@ -1030,12 +1030,12 @@ section.post_column_main {
         margin-top: 20px;
         ul {
             padding: 0;
-            
+            list-style-type: none;
             li {
                 text-align: center;
                 // Display list items horizontally
                 display: inline;
-                list-style-type: none;
+
                 padding: 0;
                 margin-right: 5px;
                 a {
