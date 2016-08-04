@@ -99,7 +99,14 @@ layout:
 </div>
 
 <script>
+    // Slide index starts at one.
+    // This assignment is for offsetting the initial value.
     var slideIndex = 0;
+    
+    function currentSlide(n) {
+        slideIndex = n - 1;
+        autoShowSlides()
+    }
     
     function autoShowSlides() {
         var i;
