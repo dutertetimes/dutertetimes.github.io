@@ -54,7 +54,7 @@ function add_content {
 
 function create_news_post {
     if [ -e $filename ]; then
-        echo "File ($(filename)) already exists."
+        echo "File ($filename) already exists."
     else
         touch $filename
 
@@ -91,7 +91,7 @@ function create_news_post {
 
 function create_feature_post {
     if [ -e $filename ]; then
-        echo "File ($(filename)) already exists."
+        echo "File ($filename) already exists."
     else
         touch $filename
 
@@ -137,7 +137,7 @@ function create_newsbit {
     fi
     
     if [ -e $filename ]; then
-        echo "File ($(filename)) already exists."
+        echo "File ($filename) already exists."
     else
         touch $filename
 
@@ -177,7 +177,7 @@ function create_newsbit {
 
 function create_announcement {
     if [ -e $filename ]; then
-        echo "File ($(filename)) already exists."
+        echo "File ($filename) already exists."
     else
         touch $filename
         
