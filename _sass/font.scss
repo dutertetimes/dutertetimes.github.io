@@ -158,6 +158,11 @@ $font_aside:                    $font_default;
 $font_size_aside_text:          $font_size_default + 2;
 $font_line_height_aside_text:   $font_line_height_default + 4;
 
+// Post tags
+$font_tag:                      $font_default_thin;
+$font_size_tag:                 $font_size_default - 1;
+$font_line_height_tag:          $font_size_default + 4;
+
 // Footer
 $font_footer:               $font_serif_thin;
 $font_size_footer:          $font_size_default;
