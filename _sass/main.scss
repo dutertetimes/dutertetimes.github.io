@@ -1070,48 +1070,51 @@ section.post_column_main {
             }
         }
     }
+}
 
-    #post_tags {
-        @media print {
-            display: none;
-        }
-        ul {
-            @include compact;
-            list-style-type: none;
-            li {
-                @include set_font($font_tag, $font_size_tag + 4, $color_tag_text);
-                @include max-screen(720px) {
-                    font-size: $font_size_tag;
-                }
-                line-height: $font_line_height_tag;
-                display: inline;
-                padding: 0;
-                margin-right: 10px;
-                i.fa {
-                    color: lighten($color_text, 70%);
-                }
+#post_tags {
+    @media print {
+        display: none;
+    }
+    ul {
+        @include compact;
+        list-style-type: none;
+        li {
+            @include set_font($font_tag, $font_size_tag + 4, $color_tag_text);
+            @include max-screen(720px) {
+                font-size: $font_size_tag;
+            }
+            line-height: $font_line_height_tag;
+            display: inline;
+            padding: 1px 8px 4px 6px;
+            margin-right: 10px;
+            background: $color_hr_default;
+            border-radius: 3px;
+            i.fa {
+                vertical-align: middle;
+                color: darken($color_hr_default, 10%);
             }
         }
     }
-                
-    #post_operations {
-        @media print {
-            display: none;
-        }
-        margin-top: 20px;
-        ul {
-            padding: 0;
-            list-style-type: none;
-            li {
-                text-align: center;
-                // Display list items horizontally
-                display: inline;
+}
 
-                padding: 0;
-                margin-right: 5px;
-                a {
-                    @include button;
-                }
+#post_operations {
+    @media print {
+        display: none;
+    }
+    margin-top: 20px;
+    ul {
+        padding: 0;
+        list-style-type: none;
+        li {
+            text-align: center;
+            // Display list items horizontally
+            display: inline;
+
+            padding: 0;
+            margin-right: 5px;
+            a {
+                @include button;
             }
         }
     }
