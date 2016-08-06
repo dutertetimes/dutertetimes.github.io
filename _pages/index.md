@@ -15,21 +15,7 @@ permalink: /
                 {% assign top_id = post.date %}
                 <div class="news_top">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    {% comment %}
-                    {% if post.date == nil %}
-                        <p class="date">Undated</p>
-                    {% else %}
-                        <p class="date">
-                            {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                            {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                            {% if postdate == nowday %}
-                                {{ post.date | date: site.data.format.same_day }}
-                            {% elsif postyear == nowyear %}
-                                {{ post.date | date: site.data.format.same_year }}
-                            {% endif %}
-                        </p>
-                    {% endif %}
-                    {% endcomment %}
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
                 {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
@@ -49,21 +35,7 @@ permalink: /
             {% if post.date != top_id %}
             <div class="news_article">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {% comment %}
-                {% if post.date == nil %}
-                    <p class="date">Undated</p>
-                {% else %}
-                    <p class="date">
-                        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-                        {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if postdate == nowday %}
-                            {{ post.date | date: site.data.format.same_day }}
-                        {% elsif postyear == nowyear %}
-                            {{ post.date | date: site.data.format.same_year }}
-                        {% endif %}
-                    </p>
-                {% endif %}
-                {% endcomment %}
+                <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                 <p class="excerpt">{{ post.excerpt }}</p>
             </div>
             {% capture postCount %}{{ postCount | plus: 1 }}{% endcapture %}
@@ -83,6 +55,7 @@ permalink: /
             {% for post in site.categories['business'] limit:3 %}
                 <div class="news_section_entry">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
             {% endfor %}
@@ -101,6 +74,7 @@ permalink: /
             {% for post in site.categories['agriculture'] limit:3 %}
                 <div class="news_section_entry">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
             {% endfor %}
@@ -119,6 +93,7 @@ permalink: /
             {% for post in site.categories['agrarianreform'] limit:3 %}
                 <div class="news_section_entry">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
             {% endfor %}
@@ -132,6 +107,7 @@ permalink: /
             {% for post in site.categories['transportation'] limit:3 %}
                 <div class="news_section_entry">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
             {% endfor %}
@@ -145,6 +121,7 @@ permalink: /
             {% for post in site.categories['scitech'] limit:3 %}
                 <div class="news_section_entry">
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                     <p class="excerpt">{{ post.excerpt }}</p>
                 </div>
             {% endfor %}

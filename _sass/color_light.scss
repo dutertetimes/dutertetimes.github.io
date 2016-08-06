@@ -71,7 +71,7 @@ $color_info_text:               $color_text;
 
 // News Hub
 $color_news_title:              lighten($color_text, 20%);
-$color_news_date:               lighten($color_primary, 30%);
+$color_news_date:               darken($color_primary, 5%);
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
 $color_news_line:               #ddd;
