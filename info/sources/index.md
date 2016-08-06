@@ -22,6 +22,7 @@ published: true
 | [Senate of the Philippines](http://www.senate.gov.ph/)
 | [Bureau of Corrections](http://www.bucor.gov.ph/)
 | [National Historical Commission of the Philippines](http://nhcp.gov.ph/)
+| [Banko Sentral ng Pilipinas](http://www.bsp.gov.ph/)
 
 &nbsp;
 
