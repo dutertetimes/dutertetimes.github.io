@@ -23,6 +23,8 @@ published: true
 | [Bureau of Corrections](http://www.bucor.gov.ph/)
 | [National Historical Commission of the Philippines](http://nhcp.gov.ph/)
 | [Banko Sentral ng Pilipinas](http://www.bsp.gov.ph/)
+| [Department of Labor and Employment](http://www.dole.gov.ph/)
+| [Department of Science and Technology](http://www.dost.gov.ph/)
 
 &nbsp;
 
