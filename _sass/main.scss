@@ -1077,7 +1077,7 @@ section.post_column_main {
                 font-size: $font_size_tag;
             }
             line-height: $font_line_height_tag;
-            display: inline;
+            display: inline-block;
             padding: 1px 8px 4px 6px;
             margin-right: 10px;
             background: $color_hr_default;
