@@ -38,6 +38,7 @@ ul#nav_top {
         position: fixed;
         top: 0;
     }
+    z-index: 1001;
     width: 100%;
     list-style-type: none;
     background-color: $color_button_bg;
