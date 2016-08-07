@@ -11,20 +11,7 @@ layout: default
         {% comment %}
         {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
         {% endcomment %}
-        {% if page.date %}
-            {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-            {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
-            {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
-            <p class="date">
-                {% if postdate == nowday %}
-                    {{ page.date | date: site.data.format.same_day }}
-                {% elsif postyear == nowyear %}
-                    {{ page.date | date: site.data.format.same_year }}
-                {% endif %}
-            </p>
-        {% else %}
-            <p class="date">Undated</p>
-        {% endif %}
+        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
         <p class="category">Filed under:&nbsp;
             {% for category in page.categories %}
                 <span>{{ category }}</span>&nbsp;
