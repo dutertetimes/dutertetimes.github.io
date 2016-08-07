@@ -42,8 +42,8 @@ $font_size_code_in_text:    12px;
 // Table
 $font_table_heading:            $font_sans_thin;
 $font_table_data:               $font_sans_thin;
-$font_size_table_heading:       $font_size_default;
-$font_size_table_data:          $font_size_default;
+$font_size_table_heading:       $font_size_default + 1;
+$font_size_table_data:          $font_size_default + 1;
 $font_line_height_table_data:   $font_size_default + 2;
 
 // Block Quote
