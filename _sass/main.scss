@@ -176,7 +176,7 @@ table {
         background: $color_table_th_bg;
         tr {
             th {
-                @include set_font($font_table_heading, $font_size_table_heading + 4, $color_text);
+                @include set_font($font_table_heading, $font_size_table_heading + 2, $color_text, bold);
                 @include max-screen(720px) {
                     font-size: $font_size_table_heading;
                 }
@@ -192,8 +192,8 @@ table {
             td p,
             td a,
             td li {
-                @include set_font($font_table_data, $font_size_table_data + 4, $color_text);
-                line-height: $font_line_height_table_data + 4;
+                @include set_font($font_table_data, $font_size_table_data + 2, $color_text);
+                line-height: $font_line_height_table_data + 2;
 
                 @include max-screen(720px) {
                     font-size: $font_size_table_data;
@@ -201,12 +201,12 @@ table {
                 }
             }
             td {
+                vertical-align: top;
                 padding: 2px 4px 3px 4px;
                 word-wrap: break-word;
                 p {
                     margin: 0;
                     &.label {
-                        //line-height: 19px;
                         margin: 0;
                         white-space: nowrap !important;
                     }
@@ -858,8 +858,8 @@ section.post_column_main {
             td p,
             td a,
             td li {
-                @include set_font($font_table_data, $font_size_table_data + 4, $color_text);
-                line-height: $font_line_height_table_data + 4;
+                @include set_font($font_table_data, $font_size_table_data + 2, $color_text);
+                line-height: $font_line_height_table_data + 2;
 
                 @include max-screen(720px) {
                     font-size: $font_size_table_data;
@@ -868,13 +868,13 @@ section.post_column_main {
             }
         }
         tbody tr td {
+            vertical-align: top;
             padding: 2px 4px 3px 4px;
             @include wrap;
             a {
                 @include compact;
                 border-bottom: none;
                 text-decoration: none;
-                line-height: $font_line_height_table_data + 2;
                 &::after {
                     content: "\00a0\21d2";
                     font-weight: normal;
@@ -885,7 +885,6 @@ section.post_column_main {
             }
         }
         td:first-child {
-            vertical-align: top;
             white-space: nowrap;
             word-wrap: nowrap;
         }
