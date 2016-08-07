@@ -1,4 +1,4 @@
 long:      "%a %b %d, %Y %I:%M %p %Z"
 same_year: "%a %d %b %I:%M %p %Z"
 same_day:  "%I:%M %p %Z"
-date_only: "%a %d %b %Y"
+date_only: "%a %d %B %Y"
