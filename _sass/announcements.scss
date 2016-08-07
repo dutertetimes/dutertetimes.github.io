@@ -5,7 +5,7 @@
     @include max-screen(720px) {
         display: none;
     }
-    
+
 }
 
 #announcements_block {
@@ -23,7 +23,7 @@
     }
     min-height: 170px;
     //border-top: 1px solid $color_news_line;
-    
+
     div.announcement_links {
         margin-top: 10px;
         @include max-screen(720px) {
@@ -83,7 +83,7 @@
             }
         }
     }
-    
+
     /* The dots/bullets/indicators */
     .dot {
         cursor: pointer;

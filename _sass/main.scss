@@ -148,7 +148,7 @@ aside {
     margin-left: 10px;
     border-right: 3px solid $color_aside_border;
 }
-    
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -156,7 +156,7 @@ table {
     thead, tbody, tfoot, tr, th, td {
         @include compact;
     }
-    
+
     tr:first-of-type {
         border-top: 1px solid $color_table_border;
     }
@@ -284,16 +284,16 @@ main {
     padding-top: 15px;
     float: left;
     background: $color_main_bg;
-    
+
     @media print {
         padding-top: 0px;
     }
-    
+
     @include min-screen(721px) {
         //float: clear;
         padding-top: 40px;
     }
-    
+
     @include max-screen(720px) {
         padding-top: 0px;
     }
@@ -323,9 +323,9 @@ section {
         @include max-screen(720px)  { width: 93%; }
     }
 }
-    
-    
-section {    
+
+
+section {
     &.column_left_sidebar,
     &.hub_column_main,
     &.post_column_main,
@@ -350,7 +350,7 @@ section {
                 @include component_entry_heading_link($font_sidebar_entry_title, $font_size_sidebar_entry_title, $color_sidebar_entry_title);
             }
         }
-        
+
         p, li, dl, a {
             @include set_font($font_sidebar_entry_text, $font_size_sidebar_entry_text, $color_sidebar_entry_text);
             line-height: $font_line_height_sidebar_text;
@@ -374,7 +374,7 @@ section {
             }
         }
     }
-    
+
     &.post_column_main,
     &.page_column_main {
         margin-top: 15px;
@@ -400,7 +400,7 @@ section.column_left_sidebar {
     @include min-screen(721px) {
         display: none;
     }
-    
+
     border-radius: 3px;
     padding: 12px 15px 15px 15px;
     background: $color_sidebar_bg;
@@ -440,17 +440,17 @@ section.page_column_main {
     @include max-screen(768px) {
         @include set_margin_h(15px, 15px);
     }
-    
+
     @include common_heading;
-    
+
     p, li {
         @include set_font($font_page_text, $font_size_page_text, $color_page_text)
     }
-    
+
     div.social_media_links {
         ul {
             padding: 0;
-            
+
             li {
                 text-align: center;
                 // Display list items horizontally
@@ -534,7 +534,7 @@ section.hub_column_main {
                 display: inline;
             }
         }
-        
+
         div.news_tops {
             @include sidebar_component_internal;
             div.news_top {
@@ -573,7 +573,7 @@ section.hub_column_main {
                 @include sidebar_component_label;
             }
         }
-        
+
         div.news_articles {
             @include sidebar_component_internal;
             div.news_article {
@@ -582,7 +582,7 @@ section.hub_column_main {
             }
         }
     }
-    
+
     #news_section_business_container,
     #news_section_agriculture_container {
         width: 100%;
@@ -600,7 +600,7 @@ section.hub_column_main {
             margin-right: 20px;
             @include sidebar_component;
             padding-bottom: 0px;
-            
+
             div.news_section {
                 float: clear;
                 @include sidebar_component_internal;
@@ -610,7 +610,7 @@ section.hub_column_main {
                 }
             }
         }
-        
+
         div.news_section_block_right {
             float: left;
             width: 44%;
@@ -633,7 +633,7 @@ section.hub_column_main {
         @include max-screen(720px) {
             padding-bottom: 12px;
         }
-        
+
         h2 {
             $local_font_size_title: $font_size_sidebar_entry_title;
             @include component_entry_heading($font_sidebar_entry_title, $local_font_size_title, $color_news_title);
@@ -646,14 +646,14 @@ section.hub_column_main {
                 @include component_entry_heading_link($font_sidebar_entry_title, $local_font_size_title, $color_news_title);
             }
         }
-        
+
         div.news_section {
             @include sidebar_component_internal;
             div {
                 @include component_entry_content;
             }
         }
-        
+
         div.news_section_agrarianreform_block,
         div.news_section_transport_block,
         div.news_section_scitech_block {
@@ -665,7 +665,7 @@ section.hub_column_main {
             @include sidebar_component;
             padding-bottom: 0px;
         }
-        
+
         div.news_section_landreform_block,
         div.news_section_transport_block {
             padding-right: 15px;
@@ -692,7 +692,7 @@ section.post_column_main {
     div.meta {
         margin-bottom: 15px;
     }
-    
+
     div.image_container {
         div {
             @include image_frame;
@@ -757,7 +757,7 @@ section.post_column_main {
 
         @include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
         line-height: $font_line_height_page_text + 12;
-        
+
         @include max-screen(720px) {
             @include set_font($font_page_text, $font_size_page_text, $color_page_text);
             line-height: $font_line_height_page_text + 4;
@@ -767,7 +767,7 @@ section.post_column_main {
             @include set_font($font_page_text, $font_size_page_text + 4, $color_page_text);
             line-height: $font_size_page_text + 6 + 4;
         }
-        
+
         & code,
         & code.highlighter-rouge {
             @include max-screen(720px) {
@@ -793,7 +793,7 @@ section.post_column_main {
     table ~ p {
         margin-top: 12px;
     }
-    
+
     div.meta {
         p {
             &.excerpt,
@@ -1031,7 +1031,7 @@ section.post_column_main {
         border-radius: 0 4px 4px 0;
         width: 80%;
         background: $color_blockquote_bg;
-        
+
         p, a, li {
             @include set_font($font_blockquote, $font_size_blockquote, $color_blockquote);
             line-height: $font_line_height_blockquote;
@@ -1142,16 +1142,16 @@ section.column_right_sidebar {
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    
+
     div.related_posts,
     div.recent_posts {
         @include sidebar_component_internal;
-    
+
         div.related_post,
         div.recent_post {
-        
+
             @include component_entry;
-        
+
             div.related_post_heading,
             div.recent_post_heading {
                 h2 {
@@ -1168,9 +1168,9 @@ section.column_right_sidebar {
                     }
                 }
             }
-            
+
             @include component_entry_content;
-            
+
             p {
                 &.date {
                     @include set_font($font_related_post_date, $font_size_related_post_date, $color_news_text);
@@ -1208,20 +1208,20 @@ section.column_right_sidebar {
     @media print {
         display: none;
     }
-    
+
     @include sidebar_component;
     // Because this is a top component we remove the top padding
     padding-top: 0px;
-    
+
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    
+
     div.infos {
         @include sidebar_component_internal;
         div.info {
             @include component_entry;
-           
+
             h2 {
                 @include component_entry_heading($font_info_title, $font_size_info_title, $color_info_title);
                 line-height: $font_line_height_info_title;
@@ -1248,7 +1248,7 @@ section.column_right_sidebar {
             @include component_entry_content;
             p, li, a {
                 @include set_font($font_info_text, $font_size_info_text, $color_info_text);
-                
+
                 em {
                     font-style: italic;
                 }
@@ -1321,7 +1321,7 @@ footer {
     background: $color_footer_bg;
     border-top: 3px solid $color_footer_border_top;
     @include compact;
-    
+
     p, a, li {
         @include set_font($font_footer, $font_size_footer, $color_footer_text);
         line-height: $font_line_height_footer;
@@ -1383,7 +1383,7 @@ footer {
                 font-weight: bold;
             }
         }
-        
+
         #footer_column_four {
             @include min-screen(768px + 1px) {
                 float: right;
@@ -1403,7 +1403,7 @@ footer {
             border: none;
         }
     }
-    
+
     @media print {
         border: none;
         #footer_column_one,

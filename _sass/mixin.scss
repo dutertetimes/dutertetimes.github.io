@@ -49,7 +49,7 @@
     h4 code { font-size: $font_size_page_title - 8; }
     h5 code { font-size: $font_size_page_title - 10; }
     h6 code { font-size: $font_size_page_title - 11; }
-    
+
     @include max-screen(720px) {
         $font_size_page_title: $font_size_news_title;
         $font_line_height_page_title: $font_line_height_news_title;
@@ -67,7 +67,7 @@
         h5 code { font-size: $font_size_page_title - 10; }
         h6 code { font-size: $font_size_page_title - 11; }
     }
-    
+
     @media print {
         $font_size_page_title: 20px;
         $font_line_height_page_title: $font_size_page_title;
@@ -283,10 +283,10 @@
     padding: 5px 10px 5px 10px;
     border-radius: 3px;
     border: 1px solid $color_button_bg;
-    
+
     cursor: pointer;
     background-image: none;
-    
+
     &:hover {
         font-weight: normal;
         color: $color_button_hover_bg;
