@@ -3,7 +3,7 @@ title: Secretary Dominguez III Oath Taking as Monetary Board Member
 date: 2016-08-05T20:53:51UTC
 excerpt: Finance Secretary Carlos G. Dominguez III took oath of office on 4 August 2016 as the seventh-member of the Monetary Board.
 layout: post
-categories: [article]
+categories: [other]
 tags: [monetary board, oath taking, bsp]
 published: true
 permalink: /news/article/2016-08-05-20160805T205351
