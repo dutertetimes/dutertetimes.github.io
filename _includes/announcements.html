@@ -7,7 +7,53 @@
 <script>
     $('#announcements_content').load('/resource/announcements.html',
         function() {
-            autoShowSlides();
+            currentAnnouncementSlide(1);
         }
     );
+
+    // Using data attribute to store/fetch timer id.
+    // http://clarkeulmer.com/handling-multiple-timers-with-javascripts-setinterval-and-jquery/
+
+    const announcementElement = "#announcements_block";
+    const announcementAttr = "announcement-timer-id";
+    // Slide index starts at one.
+    // This assignment is for offsetting the initial value.
+    var slideIndex = 0;
+
+    // Argument must be greater than zero.
+    function currentAnnouncementSlide(n) {
+        if (n == 0) {
+            n = 1;
+        }
+        slideIndex = n - 1;
+        let timerId = $(announcementElement).attr(announcementAttr);
+        if (timerId != undefined) {
+            $(announcementElement).removeAttr(announcementAttr);
+            clearTimeout(timerId);
+        }
+        showAnnouncementSlides();
+    }
+
+    function showAnnouncementSlides() {
+        let i;
+        let slides = document.getElementsByClassName("announcement");
+        let dots = document.getElementsByClassName("announcement_dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+
+        {% if site.development %}
+            let timerId = setTimeout(showAnnouncementSlides, 3000);
+        {% else %}
+            let timerId = setTimeout(showAnnouncementSlides, 15000);
+        {% endif %}
+        $(announcementElement).attr(announcementAttr, timerId);
+    }
 </script>

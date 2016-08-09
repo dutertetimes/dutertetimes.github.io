@@ -1,7 +1,7 @@
 ---
 layout:
 ---
-    
+
 {% assign counter = 0 %}
 {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
 {% for post in site.categories['announcement'] %}
@@ -16,7 +16,7 @@ layout:
         {% assign counter = 10 %}
     {% endif %}
     {% for i in (1..counter) %}
-        <span class="dot" onclick="currentSlide({{ i }})"></span>
+        <span class="announcement_dot" onclick="currentAnnouncementSlide({{ i }})"></span>
     {% endfor %}
 </div>
 
@@ -64,7 +64,7 @@ layout:
         var count = 1;
 
         if (total == 0) {
-            
+
         } else if (total == 1) {
             document.write("<div class='announcement'>");
             document.write("<div class='announcement_heading'>");
@@ -97,36 +97,3 @@ layout:
     </script>
 {% endif %}
 </div>
-
-<script>
-    // Slide index starts at one.
-    // This assignment is for offsetting the initial value.
-    var slideIndex = 0;
-    
-    function currentSlide(n) {
-        slideIndex = n - 1;
-        autoShowSlides()
-    }
-    
-    function autoShowSlides() {
-        var i;
-        var slides = document.getElementsByClassName("announcement");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-           slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex> slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        {% if site.development %}
-            setTimeout(autoShowSlides, 1000);
-        {% else %}
-            setTimeout(autoShowSlides, 15000);
-        {% endif %}
-    }
-</script>
-
