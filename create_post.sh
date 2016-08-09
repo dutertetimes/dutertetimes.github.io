@@ -62,7 +62,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [topnews | article | business]" >> $filename
+        echo "categories: [topnews | business | mining | manufacturing | services | agrarian | agriculture | environment | transport | scitech ]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -135,7 +135,7 @@ function create_newsbit {
             exit
         fi
     fi
-    
+
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -143,7 +143,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [newsbit]" >> $filename
+        echo "categories: [newsbit | business | mining | manufacturing | services | agrarian | agriculture | environment | transport | scitech ]" >> $filename
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
@@ -170,7 +170,7 @@ function create_newsbit {
         else
             add_empty
         fi
-        
+
         echo "News bit file created: $filename"
     fi
 }
@@ -180,7 +180,7 @@ function create_announcement {
         echo "File ($filename) already exists."
     else
         touch $filename
-        
+
         add_yaml_bar
         add_default "Announcement"
         echo "datestart:      $current_date" >> $filename
