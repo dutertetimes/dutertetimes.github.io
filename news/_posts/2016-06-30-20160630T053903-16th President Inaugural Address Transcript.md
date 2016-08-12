@@ -3,10 +3,10 @@ title: 16th President Inaugural Address Transcript
 date: 2016-06-30T05:39:03UTC
 excerpt: Transcript of the Inaugural Address of the 16th President of the Republic of the Philippines, Rodrigo Roa Duterte.
 layout: post
-categories: [article]
+categories: [other]
 tags: [inauguration, speech, address, president, duterte]
 published: true
-permalink: /news/article/2016-06-30-20160630T053903
+permalink: /news/other/2016-06-30-20160630T053903
 image:
   layout:
   source: /post/duterte_inaugural_address.png

@@ -3,10 +3,10 @@ title: New President Meets Militant Groups
 date: 2016-06-30T15:21:01UTC
 excerpt: After the presidential inauguration in Malacañan Palace, militant groups marched towards the venue and was escorted by the Presidential Security Group.
 layout: post
-categories: [article]
+categories: [other]
 tags: [inauguration, speech, address, president, duterte]
 published: true
-permalink: /news/article/2016-06-30-20160630T152101
+permalink: /news/other/2016-06-30-20160630T152101
 image:
   layout:
   source: /post/duterte_inauguration_multi_sectoral_meeting.png

@@ -3,10 +3,10 @@ title: Cabinet Post for the Vice President
 date: 2016-07-07T21:10:05PHT
 excerpt: Vice President, Leni Robredo, received a phone call from the President asking her if she would like to head the Housing and Urban Development Coordinating Council.
 layout: post
-categories: [article]
+categories: [other]
 tags: 
 published: true
-permalink: /news/article/2016-07-07-20160707T211005
+permalink: /news/other/2016-07-07-20160707T211005
 image:
   layout: auto_width
   source: 

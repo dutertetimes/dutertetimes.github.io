@@ -3,10 +3,10 @@ title: Drilon Files Transportation Crisis Act of 2016
 date: 2016-07-02T19:29:59PHT
 excerpt: Transporation Crisis Act of 2016 or Senate Bill No. 11 seeks to grant emergency powers to the Duterte administration to "capacitate him in addressing the horrendous traffic situation within and outside Metro Manila."
 layout: post
-categories: [article]
+categories: [other]
 tags: [bill, transportation crisis act, emergency powers, traffic, transportation]
 published: true
-permalink: /news/article/2016-07-02-20160702T192959
+permalink: /news/other/2016-07-02-20160702T192959
 image:
   layout:
   source: 

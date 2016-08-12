@@ -3,7 +3,7 @@ title: DENR Suspends 2 Mining Firms in Zambales
 date: 2016-07-09T14:33:48UTC
 excerpt: The Department of Environment and Natural Resources suspended two nickel mining firms in Zambales on 7 July due to alleged environmental crimes, violation of mining and environmental laws.
 layout: post
-categories: [business, mining]
+categories: [top, environment, mining]
 tags: [industry, mining, nickel, denr, suspension]
 published: true
 permalink: /news/business/2016-07-09-20160709T143348

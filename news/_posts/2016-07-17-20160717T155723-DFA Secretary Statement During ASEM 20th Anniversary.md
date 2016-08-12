@@ -3,10 +3,10 @@ title: DFA Secretary Statement During ASEM 20th Anniversary
 date: 2016-07-17T15:57:23UTC
 excerpt: The Department of Foreign Affairs Secretary Perfrecto Yasay attended the 20th Anniversary of Asia-Europe Meeting in Ulaanbaatar, Mongolia on 15-16 July 2016.
 layout: post
-categories: [article]
+categories: [other, foreign affairs]
 tags: [dfa, asem, asia, europe, summit, mongolia]
 published: true
-permalink: /news/article/2016-07-17-20160717T155723
+permalink: /news/foreign_affairs/2016-07-17-20160717T155723
 image:
   layout: auto_width
   source: 

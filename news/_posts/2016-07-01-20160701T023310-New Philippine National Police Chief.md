@@ -3,10 +3,10 @@ title: New Philippine National Police Chief
 date: 2016-07-01T02:33:10UTC
 excerpt: The new President attended the Assumption of Command of Police Chief Superintendent Ronald Dela Rosa as the new Philippine National Police Chief in Camp Crame, Quezon City.
 layout: post
-categories: [topnews]
+categories: [headline]
 tags: [pnp, chief of police, assumption of command]
 published: true
-permalink: /news/top/2016-07-01-20160701T023310
+permalink: /news/headline/2016-07-01-20160701T023310
 image:
   layout: auto_width
   source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png

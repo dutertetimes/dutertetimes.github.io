@@ -3,10 +3,10 @@ title: Plunder Case Against Gloria Arroyo Dismissed
 date: 2016-07-20T17:13:33UTC
 excerpt: The Supreme Court dismissed the P366-million plunder case against former President Gloria Macapagal Arroyo for lack of evidence and ordered her immediate release after nearly four years of detention.
 layout: post
-categories: [topnews]
+categories: [headline]
 tags: [arroyo, plunder, dismissal, supreme court, ombudsman, sandiganbayan, pcso]
 published: true
-permalink: /news/top/2016-07-20-20160720T171333
+permalink: /news/headline/2016-07-20-20160720T171333
 image:
   layout: auto_width
   source: 

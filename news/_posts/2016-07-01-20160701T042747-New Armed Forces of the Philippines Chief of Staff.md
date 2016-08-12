@@ -3,10 +3,10 @@ title: New Armed Forces of the Philippines Chief of Staff
 date: 2016-07-01T04:27:47UTC
 excerpt: President Rodrigo Roa Duterte led the Armed Forces of the Philippines Change of Command in Camp Aguinaldo in honor of outgoing Acting Chief of Staff Lt. Gen. Glorioso V. Miranda and the incoming Chief of Staff Lt. Gen. Ricardo R. Visaya.
 layout: post
-categories: [topnews]
+categories: [headline]
 tags: [afp, chief of staff, change of command]
 published: true
-permalink: /news/top/2016-07-01-20160701T042747
+permalink: /news/headline/2016-07-01-20160701T042747
 image:
   layout: auto_width
   source: /post/afp_chief_of_staff_ltgen_ricardo_r_visaya_300x.png

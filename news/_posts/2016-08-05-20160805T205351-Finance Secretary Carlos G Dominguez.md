@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [monetary board, oath taking, bsp]
 published: true
-permalink: /news/article/2016-08-05-20160805T205351
+permalink: /news/other/2016-08-05-20160805T205351
 image:
   layout: auto_width
   source: 
