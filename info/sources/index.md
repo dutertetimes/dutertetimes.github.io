@@ -25,6 +25,10 @@ published: true
 | [Banko Sentral ng Pilipinas](http://www.bsp.gov.ph/)
 | [Department of Labor and Employment](http://www.dole.gov.ph/)
 | [Department of Science and Technology](http://www.dost.gov.ph/)
+| [Department of Foreign Affairs](http://dfa.gov.ph/)
+| [Office of the Presidential Adviser on the Peace Process](http://www.opapp.gov.ph/)
+| [National Economic and Development Authority](http://www.neda.gov.ph/)
+| [Department of Interior and Local Government](http://dilg.gov.ph/)
 
 &nbsp;
 
@@ -38,13 +42,19 @@ published: true
 | [Eagle News](http://www.eaglenews.ph/)
 | [Metro Cebu](http://metrocebu.com.ph/)
 | [Mindanao Times](http://mindanaotimes.net/)
+| [Mindanao Gold Star Daily](http://mindanaogoldstardaily.com/)
 | [Altermidya](http://www.altermidya.net/)
+| [MindaNews](http://www.mindanews.com/)
+| [Bulatlat](http://bulatlat.com/main/)
+| [Pinoy Weekly](http://pinoyweekly.org/)
+| [Kadao](http://kodao.org/)
 
 &nbsp;
 
 |----------|
 | Business |
 |----------|
+| [Business Mirror](http://www.businessmirror.com.ph/)
 | [Business World](http://www.bworldonline.com/)
 | [International Business Times](http://www.ibtimes.com/)
 | [Malaya Business Insights](http://www.malaya.com.ph/)
@@ -64,6 +74,7 @@ published: true
 | Organization |
 |--------------|
 | [National Competitiveness Council](http://www.competitive.org.ph/)
+| [Anakpawis](http://www.anakpawis.net/)
 
 &nbsp;
 
@@ -81,6 +92,10 @@ published: true
 | Foreign News |
 |--------------|
 | [China Daily](http://www.chinadaily.com.cn/)
+| [Japan Times](http://www.japantimes.co.jp/)
+| [The Japan News](http://the-japan-news.com/)
+| [News on Japan](http://www.newsonjapan.com/)
+| [Japan Today](http://www.japantoday.com/)
 
 &nbsp;
 
@@ -96,11 +111,6 @@ published: true
 | Alternative Sources |
 |---------------------|
 | [GRP](http://www.getrealphilippines.com/blog/)
-
-
-&nbsp;
-
-|---------------------|
-| Alternative Sources |
-|---------------------|
 | [Kalikasan](http://www.kalikasan.net/)
+| [News Now](http://www.newsnow.ph/)
+| [Arangkada Philippines](http://www.investphilippines.info/)
