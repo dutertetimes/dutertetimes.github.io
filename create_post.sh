@@ -20,7 +20,7 @@ function show_usage {
     echo "Options:"
     echo "  -a              Announcement file"
     echo "  -d, --draft     Draft news post file"
-    echo "  -f, --feature   Feature post file"
+    echo "  -i, --info      Informational post file"
     echo "  -nb             News bit file"
     echo "  -n, --news      News post file"
     echo "  -h, --help      Show usage"
@@ -62,8 +62,8 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [topnews | business | mining | manufacturing | services | agrarian | agriculture | environment | transport | scitech ]" >> $filename
-        echo "tags: " >> $filename
+        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf ]" >> $filename
+        echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
         else
@@ -79,9 +79,12 @@ function create_news_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: top | bottom" >> $filename
+        echo "  layout: [top | bottom]" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "sources:" >> $filename
+        echo "  - label:" >> $filename
+        echo "     link:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -89,14 +92,14 @@ function create_news_post {
     fi
 }
 
-function create_feature_post {
+function create_info_post {
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
         touch $filename
 
         add_yaml_bar
-        add_default "Feature Post"
+        add_default "Info Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
         echo "datestart:  $current_date" >> $filename
@@ -117,10 +120,13 @@ function create_feature_post {
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "sources:" >> $filename
+        echo "  - label:" >> $filename
+        echo "     link:" >> $filename
         add_yaml_bar
         add_empty
 
-        echo "Feature post file created: $filename"
+        echo "Information post file created: $filename"
     fi
 }
 
@@ -143,7 +149,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [newsbit | business | mining | manufacturing | services | agrarian | agriculture | environment | transport | scitech ]" >> $filename
+        echo "categories: [ newsbit | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf ]" >> $filename
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
@@ -193,6 +199,9 @@ function create_announcement {
         echo "image:" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "sources:" >> $filename
+        echo "  - label:" >> $filename
+        echo "     link:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -213,7 +222,7 @@ case $1 in
     -d | --draft )      create_news_post draft
                         exit
                         ;;
-    -f | --feature )    create_feature_post draft
+    -i | --info )       create_info_post draft
                         exit
                         ;;
     -nb )               create_newsbit "$2"
