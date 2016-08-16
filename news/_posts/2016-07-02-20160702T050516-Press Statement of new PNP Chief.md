@@ -11,6 +11,13 @@ image:
   layout: auto_width
   source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png
   attribution: RTVM
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label: PNP
+    link: http://pnp.gov.ph/portal/index.php/press-news-releases/latest-news/3431-press-statement-of-the-chief-pnp-pdg-ronald-m-dela-rosa
 ---
 
 July 1, 2016
@@ -28,5 +35,4 @@ Some Regional Directors, meanwhile, had to be reassigned to other equally-import
 I urge the entire 170,000 strong officers, men and women of the PNP to rally behind the newly reorganized Team PNP.
 
 Thank you.
-
-&#x25cf; [[Source](http://pnp.gov.ph/portal/index.php/press-news-releases/latest-news/3431-press-statement-of-the-chief-pnp-pdg-ronald-m-dela-rosa)]
+&#x25cf;

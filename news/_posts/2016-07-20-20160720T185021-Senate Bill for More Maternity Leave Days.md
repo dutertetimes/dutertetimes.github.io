@@ -14,7 +14,10 @@ image:
 video:
   layout: top | bottom
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: Philippine Information Agency
+    link:
 ---
 
 Akbayan Senator Risa Hontiveros has filed Senate Bill No. 205 or otherwise known as the 'Expanded Maternity Leave Law of 2016' seeking to advance a longer maternity leave and expand the benefits of maternal workers.
@@ -27,4 +30,4 @@ The current maternal leave law in the Philippines states that women may take a m
 Whereas, the International Labor Organization (ILO) mandates a standard _minimum_ set of 98 days for maternity leave.
 
 "The government must carry a new and progressive perspective on how it responds to women workers’ pre and post-natal health care needs," said Hontiveros in her statement.
-&#x25cf; [PIA]
+&#x25cf;

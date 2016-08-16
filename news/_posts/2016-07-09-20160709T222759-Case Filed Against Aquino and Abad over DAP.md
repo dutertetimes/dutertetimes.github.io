@@ -14,7 +14,10 @@ image:
 video:
   layout:
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: Bayan
+    link: http://www.bayan.ph/2016/07/08/groups-file-malversation-raps-vs-ex-pres-aquino-abad/
 ---
 
 Cause-oriented groups filed today a malversation case against the former President Benigno Simeon Aquino III and former Department of Budget and Management (DBM) Secretary Florencio "Butch" Abad over the approval and implementation of the Disbursement Acceleration Program (DAP).
@@ -38,6 +41,6 @@ Bayan Muna Partylist Representative Carlos Zarate said, "Aside from technical ma
 BAYAN secretary general Renato Reyes said the allegations were originally from the impeachment complaint against Aquino that was filed in 2014 before the House of Representatives wherein the complainants were not given the chance to present evidence. He added, "It is only now that Aquino is no longer in power that we are able to revive our push for accountability."
 
 The complaintants are Bayan Muna Partylist Rep. Carlos Isagani Zarate, Bagong Alyansang Makabayan (BAYAN) Secretary General Renato M. Reyes, Jr., Alliance of Concerned Teachers (ACT) National Chairperson Benjamin Valbuena, Confederation For Unity, Recognition and Advancement of Government Employees (COURAGE) President Ferdinand Gaite, Volunteers Against Crime and Corruption (VACC) Founding Chairman/President Dante LA. Jimenez, Mae P. Paner of the Juana Change Movement, Kilusang Magbubukid ng Philipinas (KMP) Secretary General Antonio Flores, GABRIELA Secretary General Joan Mae Salvador, Kalipunan ng Damayang Mahihirap (KADAMAY) National Chairperson Gloria G. Arellano and Philippine Heart Center Employees Association-Alliance of Health Workers President Bonifacio S. Carmona, Jr.
-&#x25cf; [[Bayan](http://www.bayan.ph/2016/07/08/groups-file-malversation-raps-vs-ex-pres-aquino-abad/)]
+&#x25cf;
 
 Bayan website [download link (PDF, 248kB)](http://www.bayan.ph/wp-content/uploads/2016/07/DAP-Complaint-Affidavit.pdf) of a copy of the complaint affidavit filed at the Offce of the Ombudsman.

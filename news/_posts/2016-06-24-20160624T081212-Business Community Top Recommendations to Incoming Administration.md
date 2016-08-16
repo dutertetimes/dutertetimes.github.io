@@ -7,6 +7,17 @@ categories: [top, business]
 tags: [commerce, industry, pcci]
 published: true
 permalink: /news/business/2016-06-24-20160624T081212
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label: Philippine Chamber of Commerce and Industry
+    link: http://www.philippinechamber.com/index.php?option=com_content&view=article&id=869:pcci-president-george-t-barcelon-presents-top-10-actionable-recommendations-to-president-elect-duterte&catid=53&Itemid=246
 ---
 
 The business community has come up with recommendations to the incoming President Rodrigo R. Duterte and his cabinet in conclusion of the business consultation forum held on June 20-21, 2016 in Davao.
@@ -30,4 +41,4 @@ The following top ten actionable recommendations of the business community was p
 10. Streamline implementations of Private-Public Partnership (PPP) and infrastructure projects.
 
 Mindanao Business Council Chairman Vicente Lao said, "We look forward to you as our CEO with your whole cabinet as your COOs to assist you. You can give the signal and the whole country will follow."
-&#x25cf; [[Source](http://www.philippinechamber.com/index.php?option=com_content&view=article&id=869:pcci-president-george-t-barcelon-presents-top-10-actionable-recommendations-to-president-elect-duterte&catid=53&Itemid=246)]
+&#x25cf;

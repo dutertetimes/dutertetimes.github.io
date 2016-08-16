@@ -14,7 +14,10 @@ image:
 video:
   layout: top | bottom
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: Permanent Court of Arbitration
+    link: https://pca-cpa.org/en/news/pca-press-release-the-south-china-sea-arbitration-the-republic-of-the-philippines-v-the-peoples-republic-of-china/
 ---
 
 The Scarborough Shoal (Panatag Shoal or Bajo de Masinloc) and certain maritime features in the Spratly Islands (Kalayaan Islands) are being claimed by China, stating that those features are under China's "nine-dash line".
@@ -57,4 +60,4 @@ China, which refused to participate in the tribunal’s proceedings, reiterated 
 President Xi Jinping said after the arbitration ruling was announced that China is committed to resolving disputes through direct negotiations, but its national sovereignty and maritime interests will not be influenced under any circumstances by the South China Sea ruling.
 
 In The Diplomat magazine, Monday, Harvard University professor Graham Allison wrote, "In fact, none of the five permanent members of the UN Security Council have ever accepted any international court's ruling when (in their view) it infringed on their sovereignty or national security interests. Thus, when China rejects the Court's decision in this case, it will be doing just what the other great powers have repeatedly done for decades."
-&#x25cf; [Source](https://pca-cpa.org/en/news/pca-press-release-the-south-china-sea-arbitration-the-republic-of-the-philippines-v-the-peoples-republic-of-china/)
+&#x25cf;

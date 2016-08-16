@@ -7,10 +7,17 @@ categories: [other]
 tags: [pnp, statement, reorganization]
 published: true
 permalink: /news/other/2016-07-02-20160702T095631
-image: 
-  layout:
+image:
+  layout: auto_width
   source:
-  attribution: 
+  attribution:
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label: PNP
+    link: http://pnp.gov.ph/portal/index.php/press-news-releases/features/3432-dela-rosa-names-new-officials-to-team-pnp
 ---
 
 The new PNP Chief PDG Ronald M Dela Rosa approved the reorganization of senior police officers in key positions of the Philippine National Police (PNP) which was recommended by the Senior Officers Placement and Promotion Board (SOPPB) for immediate implementation by the Directorate for Personnel and Records Management (DPRM). The key positions mentioned refer to the PNP includes the PNP Command Group, Directorial Staff, Police Regional Offices and National Support Units.
@@ -64,4 +71,4 @@ The following PNP officers are designated to new positions effective 1 July 2016
 
 <br/>
 PDG Dela Rosa said, "This reorganization followed the time-honored tradition in the police service that recognizes merit, seniority and competence in the selection process."
-&#x25cf; [[Source](http://pnp.gov.ph/portal/index.php/press-news-releases/features/3432-dela-rosa-names-new-officials-to-team-pnp)]
+&#x25cf;

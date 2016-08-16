@@ -14,7 +14,10 @@ image:
 video:
   layout:
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: Inquirer News
+    link:
 ---
 
 According to Japan International Cooperation Agency (JICA) 2013 press release, the Philppines economically and financially loses an estimated P2.4 billion a day due to traffic congestion. In 2014, JICA study concluded that without intervention, traffic costs will be likely to increase to P6 billion a day.
@@ -30,4 +33,4 @@ The proposed bill includes other modes of procurement like procurement from a pr
 Prohibition of Temporary Restraining Orders (TROs) on transportation related projects that could inhibit right-of-way acquisition, bids and awards for transportation projects, the implementation or operation of any transportation project identified by the President, the termination of transportation projects and "the undertaking or authorization of any other lawful activity necessary for any transportation project identified by the President."
 
 The bill will also allow the President to reorganize agencies; abolish or create offices; split or merge positions; transfer functions, equipments, properties, records and personnel; institute drastic cost-cutting measures; and other related actions to solving the transportation crisis.
-&#x25cf; [Sourced from Inquirer]
+&#x25cf;

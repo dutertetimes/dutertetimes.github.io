@@ -14,7 +14,10 @@ image:
 video:
   layout: top | bottom
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: DENR
+    link:
 ---
 
 
@@ -30,4 +33,4 @@ The DENR will audit the mining operations of both firms to determine compliance 
 
 In 2014, the DENR also suspended two other nickel mines in Zambales; the LNL Archipelago Minerals, lnc. and Eramen Minerals, Inc.
 All four large-scale mining operations in Zambales are now suspended.
-&#x25cf; [DENR]
+&#x25cf;

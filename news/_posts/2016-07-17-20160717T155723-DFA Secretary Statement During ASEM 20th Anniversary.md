@@ -14,7 +14,10 @@ image:
 video:
   layout: top | bottom
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: PIA
+    link:
 ---
 
 The Asia-Europe Meeting (ASEM) celebrated its 20th Anniversary on 15-16 July 2016 at the 11th ASEM Summit (ASEM11) in Ulaanbaatar, Mongolia. Established on 1996 in Bangkok, Thailand; ASEM is an informal process of dialogue and cooperation which addresses political, economic, as well as social, cultural, and educational issues, with the objective of strengthening the relationship between the two regions in a spirit of mutual respect and equal partnership.
@@ -50,4 +53,4 @@ The following transcript is the statement of Secretary Yasay during the event.
 > Thank you, Mr. Chair."
 
 The Philippines is a founding member of ASEM and has participated actively since its establishment. The ASEM Summit is held every two years.
-&#x25cf; [PIA]
+&#x25cf;

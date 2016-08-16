@@ -7,6 +7,17 @@ categories: [other]
 tags: [comelec, election, soce, christian robert lim]
 published: true
 permalink: /news/other/2016-06-20-20160620T161719
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label:
+    link:
 ---
 
 Commissioner Christian Robert Lim has filed his irrevocable resignation as Comelec Campaign Finance Officer (CFO) after the Comelec en banc extended the deadline of the filing of the Statement of Contributions and Expenditures (SOCE) up to June 30, 2016.

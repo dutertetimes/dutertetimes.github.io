@@ -14,7 +14,10 @@ image:
 video:
   layout: top | bottom
   source: 
-  attribution: 
+  attribution:
+sources:
+  - label: Presidential Communications Operations Office
+    link:
 ---
 
 The following is the transcript of the First State of the Nation Address of President Rodrigo R. Duterte, held at the Batasan Pambansa Complex in Quezon City on 25 July 2016.
@@ -938,4 +941,4 @@ So that all the mirrors in the world will reflect the face of a passion that has
 
 Daghang Salamat.
 
-&#x25cf; [Presidential Communications Operations Office]
+&#x25cf;

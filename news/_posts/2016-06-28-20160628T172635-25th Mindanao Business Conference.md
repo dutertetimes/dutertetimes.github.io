@@ -7,6 +7,19 @@ categories: [business]
 tags: [commerce, industry, scci]
 published: true
 permalink: /news/business/2016-06-28-20160628T172635
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label: PIA
+    link: http://news.pia.gov.ph/article/view/2041466644047/25th-minbizcon-to-expand-business-opportunities#sthash.vA5Au64C.dpuf
+  - label: Mindanao Gold Star Daily
+    link: http://mindanaogoldstardaily.com/surigao-chamber-of-commerce-officially-launches-25th-minbizcon-slated-on-august/
 ---
 
 The 25th Mindanao Business Conference (MinBizCon) will be held on 24-26 August 2016 at the Philippine Gateway Hotel in Surigao City.
@@ -19,10 +32,4 @@ Invited guest speakers for the event are National Economic and Development Autho
 The event is expected to be attended by 800 - 1,000 delegates comprising Cabinet Secretaries of the new administration, Chambers of Commerce and Industry in Mindanao, investors, business leaders, policy-makers, industry players, mining companies, contractors, micro/small/medium enterprises, heavy equipment companies and other allied services, business professionals and students.
 
 The conference objectives are to tackle business issues and policies that undermine development, identify solutions, and pass resolutions aimed to position Mindanao as the next growth area in the ASEAN. "This Mindanao Policy and Program Agenda will then be endorsed to His Excellency Rodrigo Duterte as input to the six-year Mindanao Development Plan,” Paqueo iterated.
-&#x25cf; [[Source](http://news.pia.gov.ph/article/view/2041466644047/25th-minbizcon-to-expand-business-opportunities#sthash.vA5Au64C.dpuf)]
-
-
-
-{% comment %}
-http://mindanaogoldstardaily.com/surigao-chamber-of-commerce-officially-launches-25th-minbizcon-slated-on-august/
-{% endcomment %}
+&#x25cf;

@@ -7,6 +7,17 @@ categories: [top, business]
 tags: [commerce, industry, economy, social, socioeconomic]
 published: true
 permalink: /news/business/2016-06-20-20160620T213320
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: top | bottom
+  source:
+  attribution:
+sources:
+  - label: Business World Online
+    link: http://www.bworldonline.com/content.php?section=TopStory&title=&145more-audacious&8217-policy-making-planned&id=129289
 ---
 
 A two-day economic forum, "Sulong Pilipinas: Hakbang Tungo sa Kaunlaran", starting 20 June 2016 was held in Davao to discuss the incoming Duterte administration socioeconomic agenda.
@@ -27,4 +38,4 @@ The following is the updated 10-point socioeconomic agenda:
 10. Strengthen implementation of the Responsible Parenthood and Reproductive Health Law to enable especially poor couples to make informed choices on financial and family planning.
 
 Benjamin E. Diokno, designated Budget Secretary of the incoming Duterte administration, told reporters. "We are planning to spend as much as 5% to 6% for infrastructure; we’re thinking about P800 billion to P1 trillion for infrastructure." In addition, he said that the incoming administration will focus investments on agriculture and human capital development and bring economic growth to the countryside.
-&#x25cf; [Sources: [Business World Online](http://www.bworldonline.com/content.php?section=TopStory&title=&145more-audacious&8217-policy-making-planned&id=129289)]
+&#x25cf;
