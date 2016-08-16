@@ -1,0 +1,443 @@
+
+section.post_column_main {
+    @media print {
+        @include compact;
+        margin-top: 20px;
+    }
+    // Applied to p, pre, ul, ol
+    @mixin bottom_margin {
+        margin: 0 0 12px 0;
+    }
+
+    div.meta {
+        margin-bottom: 15px;
+    }
+
+    div.image_container {
+        div {
+            @include image_frame;
+            p.attribution {
+                @include attribution;
+            }
+            &.image_auto_width {
+                float: right;
+                margin-left: 10px;
+                width: 300px;
+                @include max-screen(500px) {
+                    float: left;
+                    width: 270px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+
+    div.video_container {
+
+        @include video_frame;
+        width: calc(100% - 10px);
+
+        div.video {
+            width: 100%;
+            height: 0;
+            position: relative;
+            padding-bottom: 56.25%;
+
+            iframe {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        p.attribution {
+            @include attribution;
+            padding-top: 5px;
+        }
+
+        @media screen {
+            p.video_link {
+                display: none;
+            }
+        }
+
+        @media print {
+            padding: 0;
+            iframe,
+            p.attribution {
+                display: none;
+            }
+        }
+    }
+
+    @include common_heading;
+
+    p, a, li, dl {
+        text-align: left;
+
+        @include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
+        line-height: $font_line_height_page_text + 12;
+
+        @include max-screen(720px) {
+            @include set_font($font_page_text, $font_size_page_text, $color_page_text);
+            line-height: $font_line_height_page_text + 4;
+        }
+        @media print {
+            //@include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
+            @include set_font($font_page_text, $font_size_page_text + 4, $color_page_text);
+            line-height: $font_size_page_text + 6 + 4;
+        }
+
+        & code,
+        & code.highlighter-rouge {
+            @include max-screen(720px) {
+                font-size: $font_size_code_in_text - 1;
+                line-height: $font_size_code_in_text - 1;
+            }
+            @include min-screen(720px + 1px) {
+                font-size: $font_size_code_in_text + 3;
+                line-height: $font_size_code_in_text + 3;
+            }
+            @media print {
+                font-size: $font_size_code_in_text + 3;
+                line-height: $font_size_code_in_text + 3;
+            }
+            color: $color_text;
+            background: none;
+        }
+    }
+
+    p {
+        @include bottom_margin;
+    }
+    table ~ p {
+        margin-top: 12px;
+    }
+
+    div.meta {
+        p {
+            &.excerpt,
+            &.date,
+            &.category,
+            &.tag {
+                @include set_font($font_size_page_meta, $font_size_page_meta, $color_page_text);
+                line-height: $font_line_height_page_meta;
+                @include max-screen(720px) {
+                    line-height: $font_line_height_page_meta + 2;
+                }
+                margin: 0;
+            }
+
+            &.excerpt + h2,
+            &.date + h2,
+            &.category + h2,
+            &.tag {
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+
+            @media print {
+                &.excerpt,
+                &.category,
+                &.tag {
+                        display: none;
+                }
+
+                &.date {
+                    font-size: $font_size_page_meta + 2;
+                }
+            }
+        }
+    }
+
+    @include max-screen(720px) {
+        sup {
+            a {
+                font-size: $font_size_default_thin - 2;
+            }
+        }
+    }
+
+    ul, ol {
+        @include bottom_margin;
+        @include min-screen(720px + 1px) {
+            margin-right: 30px;
+        }
+    }
+
+    // Markdown fix on unsorted list
+    // It is translated as ul li p wherein p should no be present.
+    // We just remove the extra spaces between p
+    ul li p {
+        margin-bottom: 0;
+    }
+
+    table {
+        width: 100%;
+        overflow: scroll;
+        tbody tr {
+            td,
+            td p,
+            td a,
+            td li {
+                @include set_font($font_table_data, $font_size_table_data + 2, $color_text);
+                line-height: $font_line_height_table_data + 2;
+
+                @include max-screen(720px) {
+                    font-size: $font_size_table_data;
+                    line-height: $font_line_height_table_data;
+                }
+            }
+        }
+        tbody tr td {
+            vertical-align: top;
+            padding: 2px 4px 3px 4px;
+            @include wrap;
+            a {
+                @include compact;
+                border-bottom: none;
+                text-decoration: none;
+                &::after {
+                    content: "\00a0\21d2";
+                    font-weight: normal;
+                }
+                &:hover {
+                    color: $color_link;
+                }
+            }
+        }
+        td:first-child {
+            white-space: nowrap;
+            word-wrap: nowrap;
+        }
+    }
+
+    dl {
+        margin: 0 20px 12px 20px;
+        dt {
+            color: $color_text;
+            text-align: left;
+            font-weight: normal;
+        }
+
+        dd {
+            margin: 0 0 0 30px;
+            padding: 0 0 0.5em 0;
+            // Usually blocks have bottom margins but since the first dd line
+            // is not interpreted as a paragraph, we add vertical spacing to the
+            // 'next' block to achieve the effect.
+            p {
+                margin-top: 12px;
+            }
+            ul {
+                @include set_margin_v(2px, 2px);
+            }
+        }
+    }
+
+    div.syntax {
+        @include bottom_margin;
+        padding: 10px 12px 4px 12px;
+        background: $color_syntax_bg;
+        border: 1px dotted $color_syntax_bg + 15;
+        border-left: 3px solid $color_syntax_bg + 15;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        h6 {
+            padding-top: 1px;
+        }
+
+        pre {
+            color: $color_text;
+            background: $color_code_bg + 3;
+            border: 1px dotted $color_syntax_bg + 15;
+            border-left: 6px solid $color_syntax_bg + 18;
+        }
+
+        dl {
+            // Bottom margin takes into account that a paragraph may follow a definition list
+            margin: 0 15px 10px 15px;
+            dt {
+                color: $color_text;
+                text-align: left;
+                font-weight: normal;
+            }
+
+            dd {
+                margin: 0 0 0 30px;
+                padding: 0 0 12px 0;
+                // A term definition may have a subsequent paragraph.
+                p {
+                    text-align: left;
+                    margin-bottom: 0px;
+                }
+                p + dl {
+                    @include set_margin_v(12px, 0px);
+                }
+                pre {
+                    margin: 12px 0px 12px 0px;
+                }
+                table {
+                    @include set_margin_v(8px, 4px);
+                    border: 1px solid $color_table_border + 5;
+                    th {
+                        @include set_font($font_table_heading, $font_size_table_heading, $color_text);
+                        line-height: $font_size_table_heading + 3;
+                        border: 1px solid $color_table_border + 5;
+                        padding: 5px 6px;
+                        background: $color_table_th_bg + 5;
+                    }
+                    td {
+                        @include set_font($font_table_data, $font_size_table_data, $color_text);
+                        line-height: $font_size_table_data + 3;
+                        border: 1px solid $color_table_border + 5;
+                        padding: 2px 6px 3px 6px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    // - Rouge converts fenced code blocks to
+    //   div.highlighter-rouge pre.highlight code
+    // - Fenced code blocks are converted to div.highlight pre code.language-text
+    div.highlight { }
+
+    pre {
+        font-family: $font_code;
+        line-height: 18px;
+        padding: 4px 5px 5px 8px;
+        background: none;
+        background: $color_code_bg;
+        border: none;
+        @include bottom_margin;
+        overflow: auto;
+        overflow-y: hidden;
+
+        code {
+            @include set_font($font_code, $font_size_code, $color_code);
+            text-shadow: none;
+            border: none;
+            border-radius: 0px;
+            margin: 0;
+
+            table {
+                border: none;
+                margin-bottom: 0px;
+
+                tr {
+                    td {
+                        padding: 0;
+                        border: none;
+                        code {
+                            padding: 0;
+                        }
+                        pre.lineno {
+                            padding: 4px 7px 0px 3px;
+                        }
+                        pre {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    blockquote {
+        border-left: 6px solid $color_blockquote_bar;
+        margin: 12px 0 12px 30px;
+        padding: 10px 12px 2px 12px;
+        border-radius: 0 4px 4px 0;
+        width: 80%;
+        background: $color_blockquote_bg;
+
+        p, a, li {
+            @include set_font($font_blockquote, $font_size_blockquote, $color_blockquote);
+            line-height: $font_line_height_blockquote;
+            word-spacing: $word_spacing_blockquote;
+
+            @include min-screen(720px + 1px) {
+                @include set_font($font_blockquote, $font_size_blockquote + 4, $color_blockquote);
+                line-height: $font_size_blockquote + 12;
+            }
+            @media print {
+                @include set_font($font_blockquote, $font_size_blockquote + 4, $color_blockquote);
+                line-height: $font_size_blockquote + 12;
+            }
+
+            margin-bottom: 8px;
+
+            e {
+                font-style: normal;
+            }
+            a {
+                margin-bottom: 0px;
+                &:hover {
+                    color: $color_link;
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
+        }
+    }
+}
+
+
+
+#post_tags {
+    @media print {
+        display: none;
+    }
+    ul {
+        @include compact;
+        list-style-type: none;
+        li {
+            @include set_font($font_tag, $font_size_tag + 2, $color_tag_text);
+            @include max-screen(720px) {
+                font-size: $font_size_tag;
+            }
+            line-height: $font_line_height_tag;
+            display: inline-block;
+            padding: 2px 8px 4px 6px;
+            margin-right: 5px;
+            margin-bottom: 8px;
+            background: $color_hr_default;
+            border-radius: 3px;
+            i.fa {
+                vertical-align: middle;
+                color: darken($color_hr_default, 10%);
+            }
+        }
+    }
+}
+
+#post_operations {
+    @media print {
+        display: none;
+    }
+    margin-top: 20px;
+    ul {
+        padding: 0;
+        list-style-type: none;
+        li {
+            text-align: center;
+            // Display list items horizontally
+            display: inline;
+
+            padding: 0;
+            margin-right: 5px;
+            a {
+                @include button;
+            }
+        }
+    }
+}
+
+#related_posts_block,
+#recent_posts_block {
+    @media print {
+        display: none;
+    }
+}

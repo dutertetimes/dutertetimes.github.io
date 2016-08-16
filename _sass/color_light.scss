@@ -59,12 +59,19 @@ $color_image_attribution:       lighten($color_text, 20%);
 $color_nav:                     $color_text;
 $color_nav_bg:                  $color_header_bg;
 
+// Compact components entries
+$color_compact_title:           lighten($color_text, 20%);
+$color_compact_date:            lighten($color_text, 30%);
+$color_compact_text:            $color_text;
+
 // Announcement
+// Rename as compact color style
 $color_announcement_title:      lighten($color_text, 20%);
 $color_announcement_date:       lighten($color_text, 30%);
 $color_announcement_text:       $color_text;
 
 // Info
+// Rename as compact color style
 $color_info_title:              lighten($color_text, 20%);
 $color_info_date:               lighten($color_text, 30%);
 $color_info_text:               $color_text;

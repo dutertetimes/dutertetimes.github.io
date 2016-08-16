@@ -1,9 +1,3 @@
-//@import "media-queries";
-//@import "font";
-//@import "color_light";
-
-//@import "mixin";
-
 header {
     display: none;
     @media print {
@@ -72,6 +66,10 @@ ul#nav_top {
                 border: none;
             }
             &.active { background-color: #4CAF50; }
+            i.fa-angle-down {
+                //vertical-align: top;
+                font-weight: bold;
+            }
         }
     }
 

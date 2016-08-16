@@ -1,0 +1,33 @@
+{% assign environmentPostCount = 0 %}
+{% if site.categories['environment'].size > 0 %}
+    {% for post in site.categories['environment'] %}
+        {% if post.categories contains 'top' or post.categories contains 'headline' %}
+            {% continue %}
+        {% endif %}
+        {% assign environmentPostCount = environmentPostCount | plus: 1 %}
+        {% break %}
+    {% endfor %}
+{% endif %}
+
+{% if environmentPostCount > 0 %}
+    {% assign environmentPostCount = 0 %}
+<div class="block block_default_fonts">
+    <h1>Environment</h1>
+    <div class="entries">
+        {% for post in site.categories['environment'] %}
+        {% if post.categories contains 'top' or post.categories contains 'headline' %}
+            {% continue %}
+        {% endif %}
+        <div class="entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+            {% assign environmentPostCount = environmentPostCount | plus: 1 %}
+            {% if environmentPostCount == 3 %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

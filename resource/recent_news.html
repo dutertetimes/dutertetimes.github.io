@@ -1,0 +1,28 @@
+---
+layout:
+---
+
+{% assign postCount = 0 %}
+{% for post in site.categories['news'] %}
+    {% if post.categories contains 'newsbit' %}
+        {% continue %}
+    {% endif %}
+    
+    {% if post.title != page.title %}
+        <div class="entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+
+            {% if post.date == nil %}
+                <p class="date">Undated</p>
+            {% else %}
+                <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            {% endif %}
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+        {% assign postCount = postCount | plus: 1 %}
+        {% if postCount == 5 %}
+            {% break %}
+        {% endif %}
+    {% endif %}
+    
+{% endfor %}

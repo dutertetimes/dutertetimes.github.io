@@ -1,0 +1,34 @@
+[
+    {
+        "name":       "Email",
+        "address":    "dutertetimes@gmail.com",
+        "link":       "mailto:dutertetimes@gmail.com",
+        "target":     "",
+        "fa_icon":    "fa fa-envelope fa-fw fa-lg",
+        "message":    "Send an email to dutertetimes@gmail.com"
+    },
+    {
+        "name":       "Twitter",
+        "address":    "@dutertetimes",
+        "link":       "https://twitter.com/dutertetimes",
+        "target":     "_blank",
+        "fa_icon":    "fa fa-twitter fa-fw fa-lg",
+        "message":    "Open Duterte Times (@dutertetimes) twitter account"
+    },
+    {
+        "name":       "YouTube",
+        "address":    "https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1",
+        "link":       "https://www.youtube.com/channel/UCLVSH-SgxfD5JE43ypNiYqg?sub_confirmation=1",
+        "target":     "_blank",
+        "fa_icon":    "fa fa-youtube-play fa-fw fa-lg",
+        "message":    "Open Duterte Times YouTube account"
+    },
+    {
+        "name":       "RSS",
+        "address":    "/feed.xml",
+        "link":       "/feed.xml",
+        "target":     "_blank",
+        "fa_icon":    "fa fa-feed fa-fw fa-lg",
+        "message":    "Go to RSS feed"
+    }
+]

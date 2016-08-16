@@ -1,0 +1,32 @@
+{% assign headlinePostCount = 0 %}
+{% for post in site.categories['headline'] %}
+    {% assign headlinePostCount = headlinePostCount | plus: 1 %}
+    {% if headlinePostCount == 7 %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% if headlinePostCount > 0 %}
+<div class="block block_default_fonts">
+    <h1>Headlines</h1>
+    <div class="links headline_links">
+        {% for i in (1..headlinePostCount) %}
+        <span class="headline_dot slideshow_dot" onclick="currentHeadlineSlide({{ i }})"></span>
+        {% endfor %}
+    </div>
+    <div class="entries">
+        {% assign headlinePostCount = 0 %}
+        {% for post in site.categories['headline'] %}
+        <div class="entry headline_news_entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+            {% assign headlinePostCount = headlinePostCount | plus: 1 %}
+            {% if headlinePostCount == 7 %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

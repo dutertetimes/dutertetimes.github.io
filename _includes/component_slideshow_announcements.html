@@ -1,11 +1,8 @@
-<div id="announcements_block">
-    <h1>Announcements</h1>
-    <div id="announcements_content">
-    </div>
+<div id="announcements_block" class="block block_compact_fonts">
 </div>
 
 <script>
-    $('#announcements_content').load('/resource/announcements.html',
+    $('#announcements_block').load('/resource/announcements.html',
         function() {
             currentAnnouncementSlide(1);
         }
@@ -36,7 +33,7 @@
 
     function showAnnouncementSlides() {
         let i;
-        let slides = document.getElementsByClassName("announcement");
+        let slides = document.getElementsByClassName("announcement_entry");
         let dots = document.getElementsByClassName("announcement_dot");
         for (i = 0; i < slides.length; i++) {
            slides[i].style.display = "none";
@@ -44,10 +41,10 @@
         slideIndex++;
         if (slideIndex> slides.length) {slideIndex = 1}
         for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
+            dots[i].className = dots[i].className.replace(" slideshow_active", "");
         }
         slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+        dots[slideIndex - 1].className += " slideshow_active";
 
         {% if site.development %}
             let timerId = setTimeout(showAnnouncementSlides, 3000);

@@ -3,42 +3,37 @@
     @media print {
         display: none;
     }
-    @include max-screen(720px) {
-        display: none;
-    }
-    @include sidebar_component;
-    // Override top padding since this component is at the top
-    padding-top: 0px;
-    //margin-bottom: 0px;
 
-    div.datetime {
-        @include sidebar_component_internal;
-        table {
-            border: none;
-            border-collapse:collapse;
-            width: 100%;
-            tr, th, td {
+    div.entries {
+        width: 100%;
+
+        div.entry {
+
+            p.date,
+            p.time {
                 @include compact;
-                border: none;
+                color: $color_news_title;
+                letter-spacing: 0.25px;
             }
-            td {
-                white-space: nowrap;
+            div.utc {
             }
-        }
+            p.date {
+                font-family: $font_datetime_date;
+                font-size: $font_size_datetime_date;
+                line-height: $font_size_datetime_date + 2;
+                @include max-screen(720px) {
+                    font-size: $font_size_datetime_date + 1;
+                }
+            }
+            p.time {
+                font-family: $font_datetime_time;
+                font-size: $font_size_datetime_time;
+                line-height: $font_size_datetime_time + 2;
+                @include max-screen(720px) {
+                    font-size: $font_size_datetime_time + 1;
+                }
+            }
 
-        p {
-            @include compact;
-            font-family: $font_datetime;
-            font-size: $font_size_datetime;
-            &.label {
-                text-align: left;
-            }
-            &.datetime {
-                text-align: center;
-            }
-            &.datetime24 {
-                text-align: center;
-            }
         }
     }
 }

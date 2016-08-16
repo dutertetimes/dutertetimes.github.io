@@ -82,6 +82,18 @@ $font_sidebar_entry_text:               $font_default;
 $font_size_sidebar_entry_text:          $font_size_default;
 $font_line_height_sidebar_text:         $font_line_height_default;
 
+// Compact components entries
+$font_compact_title:               $font_sidebar_entry_title;
+$font_size_compact_title:          $font_size_sidebar_entry_title;
+$font_line_height_compact_title:   $font_line_height_sidebar_entry_title + 2;
+$font_compact_date:                $font_default;
+$font_size_compact_date:           $font_size_default;
+$font_line_height_compact_date:    $font_line_height_default;
+$font_compact_text:                $font_default;
+$font_size_compact_text:           $font_size_default;
+$font_line_height_compact_text:    $font_line_height_default;
+
+/*
 // Announcement
 $font_announcement_title:               $font_sidebar_entry_title;
 $font_size_announcement_title:          $font_size_sidebar_entry_title;
@@ -102,6 +114,7 @@ $font_size_info_date:           $font_size_default;
 $font_info_text:                $font_default;
 $font_size_info_text:           $font_size_default;
 $font_line_height_info_text:    $font_line_height_default;
+*/
 
 // Page and Post
 $font_page_title:               $font_heading;
@@ -150,8 +163,10 @@ $font_quote_context:        $font_serif_thin;
 $font_size_quote_context:   13px;
 
 // Current date/time
-$font_datetime:             $font_sans_thin;
-$font_size_datetime:        12px;
+$font_datetime_date:        $font_sans_thin;
+$font_size_datetime_date:   $font_size_default;
+$font_datetime_time:        $font_sans_thin;
+$font_size_datetime_time:   $font_size_default;
 
 // Aside
 $font_aside:                    $font_default;

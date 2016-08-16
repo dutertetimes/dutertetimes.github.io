@@ -39,8 +39,8 @@ excerpt_separator: "\n\n"
 # Serving
 detach:  false
 port:    4001
-#host:    0.0.0.0
-host:    127.0.0.1
+host:    0.0.0.0
+#host:    127.0.0.1
 # For projects, use the baseurl to set host/[baseurl]/
 # http://blog.parkermoore.de/2014/04/27/clearing-up-confusion-around-baseurl/
 # baseurl: "/project" # does not include hostname
@@ -65,7 +65,7 @@ sass:
 # Setup
 title:          "Duterte Times"
 tagline:        "The times, they are a-changin'"
-description:
+description:    "Philippines alternative social news website"
 url:            https://dutertetimes.github.io/
 image_source:   https://dl.dropboxusercontent.com/u/47611946/dutertetimes
 
@@ -89,25 +89,5 @@ defaults:
     values:
       layout:   "post"
 
-#collections:
-#  top:
-#    output:    true
-#    permalink: /news/top/:collection/:path
-#  articles:
-#    output:    true
-#    permalink: /news/articles/:collection/:path
-#  sections:
-#    output:    true
-#    permalink: /news/sections/:collection/:path
-#  people:
-#    output:    true
-#    permalink: /info/people/:collection/:path
-#  org:
-#    output:    true
-#    permalink: /info/org/:collection/:path
-#  gov:
-#    output:    true
-#    permalink: /info/gov/:collection/:path
-    
 # Custom vars
 version:        0.1.0

@@ -14,6 +14,7 @@
             <a href="/news/agrarian/">Agrarian</a>
             <a href="/news/environment/">Environment</a>
             <a href="/news/foreign_affairs/">Foreign Affairs</a>
+            <a href="/news/peace/">Peace Process</a>
             <a href="/news/other/">Other News</a>
             {% if item.mode == "dev" %}
             {% endif %}
@@ -55,15 +56,6 @@
     </li>
     {% endif %}
 
-    {% for item in site.data.socmed %}
-        <li class="right">
-            <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}"
-                data-toggle="tooltip" 
-                data-placement="top"
-                title="{{ item.message }}">
-                <i class="{{ item.fa_icon }} fa-lg" aria-hidden="true"></i>
-            </a>
-        </li>
-    {% endfor %}
+    {% include links_social_media.html %}
 </ul>
 </div>

@@ -8,16 +8,13 @@ layout: default
 
     <h1>{{ page.title }}</h1>
     <div class="meta">
-        {% comment %}
-        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
-        {% endcomment %}
-        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
         {% if site.development %}
-        <p class="category">Filed under:&nbsp;
-            {% for category in page.categories %}
-                <span>{{ category }}</span>&nbsp;
-            {% endfor %}
-        </p>
+        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.long }} {% else %} Undated {% endif %}</p>
+        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
+        <p class="category">Categories:&nbsp;{{ page.categories | join: ", "}}</p>
+        <p class="tag">Tags:&nbsp;{{ page.tags | join: ", " }}</p>
+        {% else %}
+        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
         {% endif %}
     </div>
 
@@ -56,6 +53,20 @@ layout: default
             <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
         </div>
         <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
+    </div>
+    {% endif %}
+
+    {% if page.sources.size > 0 %}
+    <div class="info_sources">
+        <p>Sources:
+            {% for source in page.sources %}
+                {% if source.link %}
+            <span><a href="{{ source.link }}">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
+                {% else %}
+            <span>{{ source.label }}</span>{% unless forloop.last %},{% endunless %}
+                {% endif %}
+            {% endfor %}
+        </p>
     </div>
     {% endif %}
 

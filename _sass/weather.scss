@@ -1,33 +1,25 @@
 #weather_block {
-    @include min-screen(720px + 1px) {
-        @include compact;
-        h1 {
-            display: none;
-        }
+    @media print {
+        display: none;
     }
-    @include max-screen(720px) {
-        @include sidebar_component;
-    }
+
     div.weather_satellite {
-        @include min-screen(720px + 1px) {
-            @include compact;
-        }
-        @include max-screen(720px) {
-            @include sidebar_component_internal;
-        }
+        @include compact;
+        float: left;
+
         div.image {
+            @include compact;
             background: black;
-            @include max-screen(720px) {
-                margin: 5px 0px 5px 0;
-            }
+
+            margin: 5px 0 5px 0;
             img {
-                overflow: hidden;
+                width: calc(100% - 10px);
+                margin: 5px 0 0 5px;
             }
             p.attribution {
                 @include attribution;
                 color: lighten($color_image_attribution, 30%);
-                padding: 0px 0px 3px 0px;
-                margin: 0px 0 0 0;
+                padding-top: 0;
             }
         }
     }

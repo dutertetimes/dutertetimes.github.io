@@ -1,9 +1,15 @@
-<div id="recent_posts_block">
-    <h1>Recent News</h1>
-    <div class="recent_posts">
+<div id="recent_posts_block" class="block block_default_fonts">
+    <h1>Recent News</h1><div class="right_filler">&nbsp;</div>
+    {% comment %}
+    The following div uses an id for use in the script below which
+    requires a unique id. Otherwise, the html content previously
+    created will be fetched if we use 'entries' as selector in the
+    script.
+    {% endcomment %}
+    <div id="recent_post_entries" class="entries">
     </div>
 </div>
 
 <script>
-$('.recent_posts').load('/resource/recent.html div.recent_post');
+$('#recent_post_entries').load('/resource/recent_news.html div.entry');
 </script>

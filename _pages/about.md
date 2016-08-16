@@ -25,7 +25,9 @@ Except where otherwise noted, the content on this site (Duterte Times) is licens
 <br/>
 
 <div class="social_media_links">
-{% include social_media_links.html %}
+    <ul>
+        {% include links_social_media.html %}
+    </ul>
 </div>
 
 <br/>

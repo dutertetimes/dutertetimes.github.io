@@ -7,38 +7,19 @@ layout: default
 <section class="post_column_main">
 
     <h1>{{ page.title }}</h1>
+    {% if site.development %}
     <div class="meta">
         {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
         {% if page.date %}
-            {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-            {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
-            {% capture postyear %}{{ page.date | date: '%Y' }}{% endcapture %}
-            <p class="date">
-                {% if postdate == nowday %}
-                    {{ page.date | date: site.data.format.same_day }}
-                {% elsif postyear == nowyear %}
-                    {{ page.date | date: site.data.format.same_year }}
-                {% endif %}
-            </p>
+            <p class="date">{{ page.date | date: site.data.format.date_only }}</p>
         {% else %}
             <p class="date">Undated</p>
         {% endif %}
-        <p class="category">Filed under:&nbsp;
-            {% for category in page.categories %}
-                <span>{{ category }}</span>&nbsp;
-            {% endfor %}
-        </p>
+        <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
+        <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
     </div>
-
-    {% if page.video %}
-        <div class="video">
-            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video}}">https://www.youtube.com/watch?v={{ page.video}}</a></p>
-            <iframe width="{{ site.data.youtube.width }}" height="{{ site.data.youtube.height }}" src="https://www.youtube.com/embed/{{ page.video}}" frameborder="0"></iframe>
-            <p class="attribution">&nbsp;— video courtesy of {{ page.videoref }}</p>
-        </div>
-    {% else %}
     {% endif %}
-    
+
     {{ content }}
 
 </section>

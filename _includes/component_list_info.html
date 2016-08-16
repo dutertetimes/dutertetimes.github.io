@@ -1,10 +1,10 @@
-<div id="info_block">
-    <h1>Featured</h1>
-    <div class="infos">
+<div id="info_block" class="block block_compact_fonts">
+    <h1>Information</h1>
+    <div class="entries">
     
     {% for post in site.categories['people'] limit:1 %}
-        <div class="info">
-            <h2>{{ post.title }}</h2>
+        <div class="entry">
+            <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
@@ -27,8 +27,8 @@
     {% endfor %}
     
     {% for post in site.categories['org'] limit:1 %}
-        <div class="info">
-            <h2>{{ post.title }}</h2>
+        <div class="entry">
+            <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
@@ -51,8 +51,8 @@
     {% endfor %}
     
     {% for post in site.categories['places'] limit:1 %}
-        <div class="info">
-            <h2>{{ post.title }}</h2>
+        <div class="entry">
+            <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
             {% if post.image.source != nil %}
                 {% if post.image.layout == "auto_width" %}
                 <div class="image_small">
@@ -85,7 +85,7 @@
         {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
-            <div class="info">
+            <div class="entry">
                 <div class="info_heading">
                     <h2>{{ post.title }}</h2>
                 </div>
@@ -123,7 +123,7 @@
         {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
         {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
         {% if currentdate >= postdatestart and currentdate <= postdateend %}
-            <div class="info">
+            <div class="entry">
                 <div class="info_heading">
                     <h2>{{ post.title }}</h2>
                     {% if post.image != nil %}
@@ -152,7 +152,7 @@
             if (total == 0) {
                 
             } else if (total == 1) {
-                document.write("<div class='info'>");
+                document.write("<div class='entry'>");
                 document.write("<div class='info_heading'>");
                 document.write("<h2>{{ site.data.info_fallback[0].title }}</h2>");
                 document.write("<p>{{ site.data.info_fallback[0].text }}</p>");
@@ -168,7 +168,7 @@
                 while (counter < count) {
                     var randomIndex = Math.floor(Math.random() * total);
                     if (randomUsed.indexOf(randomIndex) == "-1") {
-                        document.write("<div class='info'>");
+                        document.write("<div class='entry'>");
                         document.write("<div class='info_heading'>");
                         document.write("<h2>" + info_title[randomIndex] + "</h2>");
                         document.write("<p>"  + info_text[randomIndex] + "</p>");

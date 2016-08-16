@@ -1,0 +1,33 @@
+{% assign foreignAffairsPostCount = 0 %}
+{% if site.categories['foreign affairs'].size > 0 %}
+    {% for post in site.categories['foreign affairs'] %}
+        {% if post.categories contains 'top' or post.categories contains 'headline' %}
+            {% continue %}
+        {% endif %}
+        {% assign foreignAffairsPostCount = foreignAffairsPostCount | plus: 1 %}
+        {% break %}
+    {% endfor %}
+{% endif %}
+
+{% if foreignAffairsPostCount > 0 %}
+    {% assign foreignAffairsPostCount = 0 %}
+<div class="block block_default_fonts">
+    <h1>Foreign Affairs</h1>
+    <div class="entries">
+        {% for post in site.categories['foreign affairs'] %}
+            {% if post.categories contains 'top' or post.categories contains 'headline' %}
+                {% continue %}
+            {% endif %}
+        <div class="entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+            {% assign foreignAffairsPostCount = foreignAffairsPostCount | plus: 1 %}
+            {% if foreignAffairsPostCount == 3 %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

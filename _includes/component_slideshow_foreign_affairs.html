@@ -1,0 +1,36 @@
+{% assign foreignAffairsPostCount = 0 %}
+{% for post in site.categories['foreign affairs'] %}
+    {% if post.categories contains 'top' %}
+        {% assign foreignAffairsPostCount = foreignAffairsPostCount | plus: 1 %}
+        {% if foreignAffairsPostCount == 7 %}
+            {% break %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% if foreignAffairsPostCount > 0 %}
+<div class="block block_default_fonts">
+    <h1>Foreign Affairs</h1>
+    <div class="links foreignaffailrs_links">
+        {% for i in (1..foreignAffairsPostCount) %}
+        <span class="foreignaffairs_dot slideshow_dot" onclick="currentForeignAffairsSlide({{ i }})"></span>
+        {% endfor %}
+    </div>
+    <div class="entries">
+        {% assign foreignAffairsPostCount = 0 %}
+        {% for post in site.categories['foreign affairs'] %}
+            {% if post.categories contains 'top' %}
+        <div class="entry foreignaffairs_news_entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+                {% assign foreignAffairsPostCount = foreignAffairsPostCount | plus: 1 %}
+                {% if foreignAffairsPostCount == 7 %}
+                    {% break %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

@@ -1,34 +1,11 @@
-<div id="newsbits_block">
+<div id="newsbits_block" class="block block_default_fonts">
     <h1>News Bits</h1>
-    <div class="newsbits">
-        {% capture nowday  %}{{ 'now' | date: '%Y-%m-%d' }}{% endcapture %}
-        {% capture nowyear  %}{{ 'now' | date: '%Y' }}{% endcapture %}
+    <div class="entries">
         {% for post in site.categories['newsbit'] limit:20 %}
-        {% capture postdate %}{{ post.date | date: '%Y-%m-%d' }}{% endcapture %}
-        {% assign newsbit_content = post.excerpt | remove: '<p>' | remove: '</p>'%}
-        {% if newsbit_content != "" %}
-        <div class="newsbit">
-            <div class="newsbit_heading">
-                <h2>
-                    {% comment %}
-                    {% capture postyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-                    {% if postdate == nowday %}
-                    {{ post.date | date: site.data.format.same_day }}
-                    {% elsif postyear == nowyear %}
-                    {{ post.date | date: site.data.format.same_year }}
-                    {% endif %}
-                    {% endcomment %}
-                    {{ post.date | date: '%a %d %B %Y' }}
-                </h2>
-                <p>
-                    {{ newsbit_content }}
-                    {% if post.reference != nil %}
-                    &#x25cf; {{ post.reference }}
-                    {% endif %}
-                </p>
-            </div>
+        <div class="entry">
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}</p>
         </div>
-        {% endif %}
         {% endfor %}
     </div>
 </div>

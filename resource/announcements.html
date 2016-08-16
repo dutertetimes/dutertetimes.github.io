@@ -2,6 +2,8 @@
 layout:
 ---
 
+<h1>Announcements</h1>
+
 {% assign counter = 0 %}
 {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
 {% for post in site.categories['announcement'] %}
@@ -11,52 +13,51 @@ layout:
         {% assign counter = counter | plus: 1 %}
     {% endif %}
 {% endfor %}
-<div class="announcement_links">
-    {% if counter > 10 %}
-        {% assign counter = 10 %}
+
+<div class="links">
+    {% if counter > 8 %}
+        {% assign counter = 8 %}
     {% endif %}
+    {% assign counter = counter | plus: site.data.announcements.size %}
     {% for i in (1..counter) %}
-        <span class="announcement_dot" onclick="currentAnnouncementSlide({{ i }})"></span>
+        <span class="announcement_dot slideshow_dot" onclick="currentAnnouncementSlide({{ i }})"></span>
     {% endfor %}
 </div>
 
-<div class="announcements">
-{% assign found = false %}
-{% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
-{% for post in site.categories['announcement'] %}
-    {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
-    {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
-    {% if currentdate >= postdatestart and currentdate <= postdateend %}
-        <div class="announcement">
-            <div class="announcement_heading">
-                <h2>{{ post.title }}</h2>
-                {% comment %}
-                {% if post.image.source != nil %}
-                    <div class="image">
-                        <img src="{{ site.image_source }}{{ post.image.source }}" class="label" width="100%" height="auto"/>
-                        <p class="attribution">image by {{ post.image.attribution }}&nbsp;</p>
-                    </div>
-                {% endif %}
-                <p class="date">
-                    {% if post.eventdatestart != post.eventdateend %}
-                        {{ post.eventdatestart | date: '%a %d %b %Y' }} - {{ post.eventdateend | date: '%a %d %b %Y' }}
-                    {% else %}
-                        {{ post.eventdatestart | date: '%a %d %b %Y' }}
-                    {% endif %}
-                </p>
-                {% endcomment %}
-            </div>
-            <p>
-                {{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
-                {% if post.link != nil %}
-                    <a href="{{ post.link }}.html">Read more...</a>
-                {% endif%}
-            </p>
-        </div>
-        {% assign found = true %}
-    {% endif %}
-{% endfor %}
+<div class="entries">
+    {% assign found = false %}
+    {% capture currentdate %}{{ 'now' | date: '%F' }}{% endcapture %}
+    {% for post in site.categories['announcement'] %}
+        {% capture postdatestart %}{{ post.datestart | date: '%F' }}{% endcapture %}
+        {% capture postdateend %}{{ post.dateend | date: '%F' }}{% endcapture %}
+        {% if currentdate >= postdatestart and currentdate <= postdateend %}
+    <div class="entry announcement_entry">
+        <h2>{{ post.title }}</h2>
+        <p>
+            {{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
+            {% if post.link != nil %}
+            <a href="{{ post.link }}.html">Read more...</a>
+            {% endif%}
+        </p>
+    </div>
+            {% assign found = true %}
+        {% endif %}
+    {% endfor %}
 
+    {% for post in site.data.announcements %}
+    <div class="entry announcement_entry">
+        <h2>{{ post.title }}</h2>
+        <p>
+            {{ post.content | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}
+            {% if post.link != nil %}
+            <a href="{{ post.link }}.html">Read more...</a>
+            {% endif%}
+        </p>
+    </div>
+    {% endfor %}
+</div>
+
+{% comment %}
 {% if found == false %}
     <!-- Random announcement -->
     <script type="text/javascript">
@@ -96,4 +97,5 @@ layout:
         }
     </script>
 {% endif %}
-</div>
+{% endcomment %}
+

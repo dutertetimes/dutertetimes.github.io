@@ -28,7 +28,6 @@
     font-size: $size;
     font-weight: $weight;
     font-style: $style;
-    line-height: $size;
     color: $color;
     @media print {
         color: black;
@@ -160,35 +159,15 @@
                     background-clip: padding-box;
 }
 
-@mixin sidebar_component_label {
-    @include set_font($font_label, $font_size_label, $color_sidebar_label, bold);
-    @include max-screen(720px) {
-        font-size: $font_size_label + 1;
-    }
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 0.25px;
-    margin: 0;
-    margin-bottom: 15px;
-    padding-top: 1px;
-    display: inline;
-}
-
+// Component block
 @mixin sidebar_component {
     @include compact;
     @include set_padding_v(10px, 12px);
-
+    float: left;
     background: $color_sidebar_bg;
 }
 
-@mixin sidebar_component_internal {
-    @include set_margin_v(5px + 3px, 0px);
-    margin-right: 0px;
-    @include max-screen(720px) {
-        padding-right: 10px;
-    }
-}
-
+// Component block that has borders
 @mixin sidebar_component_boxed($shadow) {
     @include sidebar_component;
     @include set_padding_h(13px, 13px);
@@ -201,11 +180,52 @@
     }
 }
 
+// Component block that is scrollable
+// Used with an scrollable internal component block
 @mixin sidebar_component_scroll($shadow) {
     @include sidebar_component_boxed($shadow);
     padding-right: 2px;
 }
 
+// Component block header text
+// Header text h1 is inside the component block
+@mixin sidebar_component_label {
+    @include set_font($font_label, $font_size_label, $color_sidebar_label, bold);
+    @include max-screen(720px) {
+        font-size: $font_size_label + 1;
+    }
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    margin: 0;
+    margin-bottom: 0;
+    padding-top: 1px;
+    float: left;
+    display: inline;
+}
+
+// Component block header links
+// header links are at the right side of the component block header text
+@mixin component_links {
+    margin: 0 0 0 10px;
+    padding: 0;
+    float: left;
+    display: inline;
+}
+
+// Internal of component block
+// Holds the contents of the component block
+@mixin sidebar_component_internal {
+    @include set_margin_v(5px + 3px, 0px);
+    margin-right: 0px;
+    @include max-screen(720px) {
+        padding-right: 10px;
+    }
+    float: left;
+}
+
+// Scrollable internal component block
+// Holds the contents of the component block
 @mixin sidebar_component_scroll_internal($height) {
     @include sidebar_component_internal;
     @include min-screen(721px) {
@@ -215,39 +235,39 @@
     overflow-x: hidden;
 }
 
+// An item in the contents of the component block
 @mixin component_entry {
-    @include set_margin_v(0px, 15px);
+    @include set_margin_v(0px, 10px);
 }
 
+// Common item heading in the contents of the component block
 @mixin component_entry_heading_base($font, $size, $color) {
     @include set_font($font, $size, $color, bold);
     @include max-screen(720px) {
         line-height: $size + 2;
     }
-    border-bottom: none;
     @include compact;
 }
 
+// Text item heading in the contents of the component block
 @mixin component_entry_heading($font, $size, $color) {
     @include component_entry_heading_base($font, $size, $color);
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
+// Link item heading in the contents of the component block
 @mixin component_entry_heading_link($font, $size, $color) {
     @include component_entry_heading_base($font, $size, $color);
+    border-bottom: none;
 }
 
 @mixin component_entry_content {
+    p {
+        @include compact;
+    }
     ul {
         margin-top: 2px;
         padding-left: 25px;
-    }
-    p {
-        @include set_margin_v(2px, 2px);
-        @include max-screen(720px) {
-            margin-top: 5px;
-        }
-        padding: 0;
     }
     li {
         @include set_margin_v;
