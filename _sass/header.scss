@@ -47,7 +47,8 @@ ul#nav_top {
         @include compact;
 
         a {
-            @include set_font($font_button, $font_size_button, $color_button_bg);
+            font-family: $font_button;
+            font-size: $font_size_button;
             @include max-screen(720px) {
                 font-size: $font_size_button + 1;
             }
@@ -57,8 +58,10 @@ ul#nav_top {
             text-decoration: none;
             color: $color_button_text;
             display: inline-block;
-            padding: 14px 16px;
+            margin: 7px 7px;
+            padding: 7px 9px;
             border: none;
+            border-radius: 3px;
             transition: background-color 0.2s ease;
             &:hover:not(.active) {
                 color: $color_button_hover_text;
@@ -67,8 +70,14 @@ ul#nav_top {
             }
             &.active { background-color: #4CAF50; }
             i.fa-angle-down {
-                //vertical-align: top;
                 font-weight: bold;
+            }
+        }
+
+        &:first-child {
+            a {
+                font-family: $font_sans;
+                font-size: $font_size_button + 2;
             }
         }
     }
@@ -95,18 +104,23 @@ ul#nav_top {
     .dropdown_content {
         display: none;
         position: absolute;
-        background-color: $color_button_hover_bg;
+        //background-color: $color_button_hover_bg;
+        background-color: $color_button_bg;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
     }
 
     .dropdown_content a {
         color: $color_text;
+        color: $color_button_text;
         display: block;
         text-align: left;
 
         &:hover {
             color: $color_button_hover_text;
+            background-color: $color_button_hover_bg;
             border: none;
         }
     }
