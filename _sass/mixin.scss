@@ -168,7 +168,7 @@
 }
 
 // Component block that has borders
-@mixin sidebar_component_boxed($shadow) {
+@mixin sidebar_component_boxed($shadow: 0) {
     @include sidebar_component;
     @include set_padding_h(13px, 13px);
     border: 1px solid $color_box;
@@ -182,7 +182,7 @@
 
 // Component block that is scrollable
 // Used with an scrollable internal component block
-@mixin sidebar_component_scroll($shadow) {
+@mixin sidebar_component_scroll($shadow: 0) {
     @include sidebar_component_boxed($shadow);
     padding-right: 2px;
 }
