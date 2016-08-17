@@ -77,7 +77,9 @@ ul#nav_top {
         &:first-child {
             a {
                 font-family: $font_sans;
-                font-size: $font_size_button + 2;
+                @include min-screen(720px + 1px) {
+                    font-size: $font_size_button + 1;
+                }
             }
         }
     }
