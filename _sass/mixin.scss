@@ -216,7 +216,7 @@
 // Internal of component block
 // Holds the contents of the component block
 @mixin sidebar_component_internal {
-    @include set_margin_v(5px + 3px, 0px);
+    @include set_margin_v;
     margin-right: 0px;
     @include max-screen(720px) {
         padding-right: 10px;
@@ -228,7 +228,7 @@
 
 // Scrollable internal component block
 // Holds the contents of the component block
-@mixin sidebar_component_scroll_internal($height) {
+@mixin sidebar_component_internal_scroll($height) {
     @include sidebar_component_internal;
     @include min-screen(721px) {
         height: $height;

@@ -4,7 +4,7 @@
         display: none;
     }
     div.entries {
-        @include sidebar_component_scroll_internal(calc(100vh - 125px));
+        @include sidebar_component_internal_scroll(calc(100vh - 125px));
         div.entry {
             width: calc(100% - 5px);
         }
