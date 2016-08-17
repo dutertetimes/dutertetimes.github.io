@@ -14,20 +14,38 @@ div.block {
 
     div.entries {
         @include sidebar_component_internal;
+        margin-bottom: 10px;
+
         p.no_entries {
             margin-bottom: 0;
             font-style: italic;
         }
+
         div.entry {
             width: 100%;
             float: left;
-            @include component_entry;
-            @include component_entry_content;
+
+            margin-top: 10px;
+            div.entries + & {
+                margin-top: 0;
+            }
 
             div.image {
                 @include image_frame;
                 p.attribution {
                     @include attribution;
+                }
+            }
+
+            p {
+                @include compact;
+            }
+
+            ul {
+                margin-top: 2px;
+                padding-left: 25px;
+                li {
+                    @include set_margin_v;
                 }
             }
 

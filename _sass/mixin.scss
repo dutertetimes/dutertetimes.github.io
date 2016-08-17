@@ -237,11 +237,6 @@
     overflow-x: hidden;
 }
 
-// An item in the contents of the component block
-@mixin component_entry {
-    @include set_margin_v(0px, 10px);
-}
-
 // Common item heading in the contents of the component block
 @mixin component_entry_heading_base($font, $size, $color) {
     @include set_font($font, $size, $color, bold);
@@ -261,19 +256,6 @@
 @mixin component_entry_heading_link($font, $size, $color) {
     @include component_entry_heading_base($font, $size, $color);
     border-bottom: none;
-}
-
-@mixin component_entry_content {
-    p {
-        @include compact;
-    }
-    ul {
-        margin-top: 2px;
-        padding-left: 25px;
-    }
-    li {
-        @include set_margin_v;
-    }
 }
 
 @mixin image_frame {
