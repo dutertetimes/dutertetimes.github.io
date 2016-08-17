@@ -15,7 +15,7 @@ div.block {
     div.entries {
         @include sidebar_component_internal;
         p.no_entries {
-            @include compact;
+            margin-bottom: 0;
             font-style: italic;
         }
         div.entry {
