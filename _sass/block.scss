@@ -14,6 +14,10 @@ div.block {
 
     div.entries {
         @include sidebar_component_internal;
+        p.no_entries {
+            @include compact;
+            font-style: italic;
+        }
         div.entry {
             width: 100%;
             float: left;
