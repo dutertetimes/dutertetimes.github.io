@@ -184,6 +184,7 @@
 // Used with an scrollable internal component block
 @mixin sidebar_component_scroll($shadow: 0) {
     @include sidebar_component_boxed($shadow);
+    // Padding between scrollbar and outer box
     padding-right: 2px;
 }
 
