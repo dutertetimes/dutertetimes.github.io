@@ -1,13 +1,11 @@
 <div id="nav_top">
-    <ul class="left">
+    <ul>
         <li>
             <a href="/">{{ site.title }}</a>
         </li>
 
         <li class="dropdown">
-            <a href="/news/" class="dropdown_link">
-                News&nbsp;&nbsp;<i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
-            </a>
+            <span>News&nbsp;&nbsp;<i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span>
             <div class="dropdown_content">
                 <a href="/news/headline/">Headlines</a>
                 <a href="/news/business/">Business</a>
@@ -16,42 +14,19 @@
                 <a href="/news/foreign_affairs/">Foreign Affairs</a>
                 <a href="/news/peace/">Peace Process</a>
                 <a href="/news/other/">Other News</a>
-                {% if item.mode == "dev" %}
-                {% endif %}
             </div>
         </li>
 
-        {% comment %}
-        <li>
-            <a href="/news/headline/">Headlines</a>
-        </li>
-        <li>
-            <a href="/news/business/">Business</a>
-        </li>
-        <li>
-            <a href="/news/other/">Other News</a>
-        </li>
-        <li>
-            <a href="/">Sections</a>
-        </li>
-        {% endcomment %}
-
         {% if site.development %}
         <li class="dropdown">
-            <a href="/info/" class="dropdown_link">
-                Info&nbsp;&nbsp;<i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
-            </a>
+            <a href="/info/" class="dropdown_link">Info&nbsp;&nbsp;<i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></a>
             <div class="dropdown_content">
-                {% for item in site.data.sections %}
-                    {% if item.mode != "dev" %}
-                <a href="{{ item.link }}">{{ item.name }}</a>
-                    {% endif %}
-                {% endfor %}
-                {% for item in site.data.sections %}
-                    {% if item.mode == "dev" %}
-                <a href="{{ item.link }}">{{ item.name }}</a>
-                    {% endif %}
-                {% endfor %}
+                <a href="/info/law/">Law</a>
+                <a href="/info/people/">People</a>
+                <a href="/info/places/">Places</a>
+                <a href="/info/org/">Organization</a>
+                <a href="/info/company/">Company</a>
+                <a href="/info/sources/">Info/News Sources</a>
             </div>
         </li>
         {% endif %}
