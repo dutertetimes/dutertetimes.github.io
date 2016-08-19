@@ -21,7 +21,7 @@ sources:
     link: http://www.dar.gov.ph/secretary-rafael-mariano/142-news-about-the-secretary/2163-recommended-by-no-more-farm-evictions-mariano
 ---
 
-Rafael Vitriolo Mariano or more commonly known as "Ka Paeng" to militants and progressives was born on Oktubre 24, 1956 in Barangay San Andres I, Quezon, Nueva Ecija. He has a Bachelor of Science degree in Agriculture from Liwag Colleges (1976 - 1977) and Agriculture Cooperatives at the Wesleyan University both in Cabanatuan City, Nueva Ecija, Philippines.
+Rafael Vitriolo Mariano or more commonly known as "Ka Paeng" to militants and progressives was born October 24, 1956 in Barangay San Andres I, Quezon, Nueva Ecija. He has a Bachelor of Science degree in Agriculture from Liwag Colleges (1976 - 1977) and Agriculture Cooperatives at the Wesleyan University both in Cabanatuan City, Nueva Ecija, Philippines.
 
 Rafael "Ka Paeng" Mariano is a founding member and former chair of the Kilusang Magbubukid ng Pilipinas (KMP).
 He was also President of Anakpawis party-list and chair of Bagong Alyansang Makabayan (Bayan).
@@ -29,7 +29,7 @@ He was Anakpawis party-list representative for 3 terms from 2004 to 2013 and aut
 
 He was a member of the House of Representatives in the 15th Congress of the Republic of the Philippines under the Anakpawis Partylist.
 He was Vice Chair on the Committee on Agriculture and Food.
-He was a member of 11 Committees: Congressional Oversight Committee on Labor and Employment, Housing and Urban Development, Human Rights, Special Committee on Globalization and TO, People's Participation, Government Enterprises and Privatization, Government Reorganization.
+He was a member of the following Committees: Agrarian Reform, Rural Development, Congressional Oversight Committee on Labor and Employment, Housing and Urban Development, Human Rights, Special Committee on Globalization and WTO, People's Participation, Government Enterprises and Privatization, Government Reorganization.
 He was also elected Barangay Councilor from 1981 to 1986 of San Andres I, Nueva Ecija, Philippines.
 
 ##### Afiliations
