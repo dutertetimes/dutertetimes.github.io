@@ -3,24 +3,20 @@
         display: none;
     }
 
-    div.weather_satellite {
+    div.image {
         @include compact;
-        float: left;
+        background: black;
+        margin: 5px 0 5px 0;
 
-        div.image {
-            @include compact;
-            background: black;
-
-            margin: 5px 0 5px 0;
-            img {
-                width: calc(100% - 10px);
-                margin: 5px 0 0 5px;
-            }
-            p.attribution {
-                @include attribution;
-                color: lighten($color_image_attribution, 30%);
-                padding-top: 0;
-            }
+        img {
+            width: calc(100% - 10px);
+            margin: 5px 0 0 5px;
+        }
+        
+        p.attribution {
+            @include attribution;
+            color: lighten($color_image_attribution, 30%);
+            padding-top: 0;
         }
     }
 }
