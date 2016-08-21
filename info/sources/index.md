@@ -37,6 +37,9 @@ published: true
 |-------------|
 | [Manila Bulletin](http://www.mb.com.ph/)
 | [The Standard](http://thestandard.com.ph/)
+| [Manila Times](http://www.manilatimes.net/)
+| [Manila Standard](http://thestandard.com.ph/)
+| [The Daily Tribune News](http://www.tribune.net.ph/)
 | [CNN Philippines](http://cnnphilippines.com/)
 | [Philippine Star](http://www.philstar.com/)
 | [Eagle News](http://www.eaglenews.ph/)
@@ -75,6 +78,7 @@ published: true
 |--------------|
 | [National Competitiveness Council](http://www.competitive.org.ph/)
 | [Anakpawis](http://www.anakpawis.net/)
+| [CPP](http://www.cpp.ph/)
 
 &nbsp;
 
