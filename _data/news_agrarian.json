@@ -5,7 +5,7 @@
         "excerpt":  "Conflict between two groups of agrarian reform beneficiaries in Hacienda Luisita.",
         "category": "",
         "tag":      "",
-        "link":     "http://newsinfo.inquirer.net/793822/luisita-tension-greets-new-dar-chief"
+        "link":     [{ "url": "http://newsinfo.inquirer.net/793822/luisita-tension-greets-new-dar-chief" }]
     },
     {
         "title":    "Cojuangcos busy 'securing landholdings'",
@@ -13,7 +13,7 @@
         "excerpt":  "",
         "category": "",
         "tag":      "",
-        "link":     "http://thestandard.com.ph/news/headlines/207151/dar-chief-vows-luisita-review.html"
+        "link":     [{ "url": "http://thestandard.com.ph/news/headlines/207151/dar-chief-vows-luisita-review.html" }]
     },
     {
         "title":    "Luisita farmers rejoice as DAR chief halts eviction, destruction of crops",
@@ -21,7 +21,7 @@
         "excerpt":  "",
         "category": "",
         "tag":      "",
-        "link":     "http://bulatlat.com/main/2016/07/08/luisita-farmers-rejoice-as-dar-chief-halts-eviction-destruction-of-crops/"
+        "link":     [{ "url": "http://bulatlat.com/main/2016/07/08/luisita-farmers-rejoice-as-dar-chief-halts-eviction-destruction-of-crops/" }]
     },
     {
         "title":    "Urban Agriculture Expo",
@@ -29,7 +29,7 @@
         "excerpt":  "",
         "category": "",
         "tag":      "",
-        "link":     "http://www.mb.com.ph/urban-agriculture-expo-slated-on-september-17-18/"
+        "link":     [{ "url": "http://www.mb.com.ph/urban-agriculture-expo-slated-on-september-17-18/" }]
     },
     {
         "title":    "Agrilink 2016",
@@ -37,10 +37,21 @@
         "excerpt":  "Agrilink Foodlink Aqualink is a 3 day event being held from 6th October to the 8th October 2016 at the World Trade Centre in Manila, Philippines.",
         "category": "",
         "tag":      "agrilink",
-        "link":     "http://www.mb.com.ph/agrilink-awaits-you/",
-        "link":     "http://10times.com/agrilink-foodlink-aqualinkhttp://10times.com/agrilink-foodlink-aqualink"
-    }
+        "link":     [
+            { "url": "http://www.mb.com.ph/agrilink-awaits-you/" },
+            { "url": "http://10times.com/agrilink-foodlink-aqualink" }
+        ]
+    },
+    {
+        "title":    "Agricultural damage from rains hit 256M",
+        "date":     "20 August 2016",
+        "excerpt":  "",
+        "category": "",
+        "tag":      "",
+        "link":     [
+            {
+                "url": "http://www.manilatimes.net/agri-damage-from-rains-hit-p256m/281155/"
+            },
+        ]
+    },
 ]
-
-
-

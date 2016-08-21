@@ -1,2 +1,53 @@
 [
+    {
+        "title":    "Palace and United Nations",
+        "date":     "21 August 2016",
+        "excerpt":  "Conflict between Malacanan and the United Nations Human Rights",
+        "category": "",
+        "tag":      "",
+        "link":     [
+            { "url": "http://www.tribune.net.ph/headlines/malacanang-to-un-you-re-unwelcome" },
+            { 
+                "excerpt": "Palace Hits UN Official's Meddling",
+                "url": "http://thestandard.com.ph/news/-main-stories/top-stories/213926/palace-hits-un-official-s-meddling.html"
+            },
+            {
+                "excerpt": "Palace denies inviting UN exec",
+                "url": "http://www.manilatimes.net/palace-denies-inviting-un-exec/281157/"
+            },
+            {
+                "excerpt": "Duterte threatens to pull out PH from the United Nations",
+                "url": "http://cnnphilippines.com/news/2016/08/21/Duterte-threatens-to-leave-U.N..html"
+            }
+        ]
+    },
+    {
+        "title":    "Leila De Lima",
+        "date":     "21 August 2016",
+        "excerpt":  "",
+        "category": "",
+        "tag":      "",
+        "link":     [
+            {
+                "excerpt": "De Lima willing to resign if proven her alleged involvement in the illegal drug trade",
+                "url": "http://thestandard.com.ph/news/-main-stories/top-stories/213924/de-lima-willing-to-resign.html"
+            },
+            {
+                "excerpt": "De Lima's silence points to guilt, Panelo claims",
+                "url": "http://thestandard.com.ph/news/-main-stories/top-stories/213925/leila-s-silence-points-to-guilt-panelo-claims.html"
+            },
+            {
+                "excerpt": "De Lima 'Should be ashamed of herself' - Sandra Cam",
+                "url": "http://www.tribune.net.ph/headlines/de-lima-should-be-ashamed-of-herself-cam"
+            },
+            {
+                "excerpt": "De Lima admits close ties with driver",
+                "url": "http://www.manilatimes.net/de-lima-admits-close-ties-with-driver/281158/"
+            },
+            {
+                "excerpt": "Duterte: De Lima affair with driver 'gave rise' to NBP corruption",
+                "url": "http://cnnphilippines.com/news/2016/08/21/Duterte-De-Lima-affair-with-driver-gave-rise-to-NBP-corruption.html"
+            },
+        ]
+    },
 ]
