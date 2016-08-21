@@ -11,7 +11,7 @@ published: true
 <div class="block block_default_fonts">
     <h1>TODO</h1>
     <div class="entries">
-    {% if site.data.news_foreign_affairs.size %}
+    {% if site.data.news_foreign_affairs.size and site.data.news_foreign_affairs.size > 0 %}
         {% for post in site.data.news_foreign_affairs %}
         <div class="entry">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
