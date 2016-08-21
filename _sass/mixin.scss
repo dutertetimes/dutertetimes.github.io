@@ -231,6 +231,7 @@
 // Holds the contents of the component block
 @mixin sidebar_component_internal_scroll($height) {
     @include sidebar_component_internal;
+    margin-top: 10px;
     @include min-screen(721px) {
         height: $height;
         overflow-y: scroll;
