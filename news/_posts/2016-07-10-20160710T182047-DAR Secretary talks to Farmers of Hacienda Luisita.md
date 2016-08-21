@@ -1,7 +1,7 @@
 ---
 title: DAR Secretary talks to Farmers of Hacienda Luisita
 date: 2016-07-10T18:20:47UTC
-excerpt: The Department of Agrarian Reform (DAR) Secretary Rafael Mariano met with the farmers of Hacienda Luisita on July 8 to
+excerpt: Department of Agrarian Reform Secretary Rafael Mariano met with the farmers of Hacienda Luisita on July 8 for a dialogue.
 layout: post
 categories: [top, agrarian, agrarian reform]
 tags: [hacienda luisita]

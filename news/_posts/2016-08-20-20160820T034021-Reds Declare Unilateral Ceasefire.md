@@ -1,7 +1,7 @@
 ---
 title: Reds Declare Unilateral Ceasefire
 date: 2016-08-20T03:40:21UTC
-excerpt: Upon recommendation of the negotiating panel of the National Democratic Front of the Philippines, the Central Committee of the Communist Party of the Philippines and the National Operational Command of the New People's Army on 19 August unilaterally declared a seven-day ceasefire starting 12:01 a.m. 21 August 2016.
+excerpt: Upon recommendation of the National Democratic Front of the Philippines, the Central Committee of the Communist Party of the Philippines and the National Operational Command of the New People's Army on 19 August unilaterally declared a seven-day ceasefire starting 12:01 a.m. 21 August 2016.
 layout: post
 categories: [peace process, cpp, npa, ndf]
 tags: [ceasefire, unilateral ceasefire]

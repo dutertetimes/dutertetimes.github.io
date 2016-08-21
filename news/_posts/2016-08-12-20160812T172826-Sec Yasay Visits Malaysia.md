@@ -1,7 +1,7 @@
 ---
 title: Secretary Yasay Visits Malaysia
 date: 2016-08-12T17:28:26UTC
-excerpt: Department of Foreign Affairs Secretary Perfect R. Yasay Jr. is scheduled for a three-day visit to Malaysia starting 12 August to meet with Malaysia Foreign Minister Dato' Sri Anifah Haji Aman as part of introductory visits to ASEAN member countries.
+excerpt: Department of Foreign Affairs Secretary Perfect R. Yasay Jr. will have a three-day visit to Malaysia on 12 August to meet with Malaysia Foreign Minister Dato' Sri Anifah Haji Aman as part of introductory visits to ASEAN member countries.
 layout: post
 categories: [foreign affairs, peace process]
 tags: [asean, malaysia, milf, peace and development roadmap]
