@@ -84,7 +84,7 @@ function create_news_post {
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
-        echo "     link:" >> $filename
+        echo "    link:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -122,7 +122,7 @@ function create_info_post {
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
-        echo "     link:" >> $filename
+        echo "    link:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -201,7 +201,7 @@ function create_announcement {
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
-        echo "     link:" >> $filename
+        echo "    link:" >> $filename
         add_yaml_bar
         add_empty
 
