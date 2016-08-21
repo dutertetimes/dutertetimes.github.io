@@ -46,9 +46,16 @@ div.block {
                 padding-left: 25px;
                 li {
                     @include set_margin_v;
+                    padding-left: 0;
                 }
             }
 
+            a.no_underline {
+                border-bottom: none;
+                &:hover {
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
         }
     }
 }

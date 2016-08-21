@@ -19,7 +19,20 @@ published: true
             <p class="excerpt">{{ post.excerpt }}</p>
             <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
             <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
-            <p>Link:&nbsp;<a href="{{ post.link }}">{{ post.link }}</a></p>
+            {% if post.link.size and post.link.size == 1 %}
+            <p>Link:&nbsp;<a href="{{ post.link[0].url }}" class="no_underline">{{ post.link[0].url }}</a></p>
+            {% else %}
+            <p>Links:</p>
+            <ul>
+                {% for linkitem in post.link %}
+                {% if linkitem.excerpt %}
+                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.excerpt }}</a></li>
+                {% else %}
+                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.url }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
         </div>
         {% endfor %}
     {% else %}
