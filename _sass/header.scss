@@ -25,6 +25,7 @@ header {
 }
 
 #nav_top {
+    $border_radius: 1px;
     @media print {
         display: none;
     }
@@ -95,7 +96,7 @@ header {
             color: $color_button_hover_text;
             background-color: $color_button_hover_bg;
             border: none;
-            border-radius: 2px;
+            border-radius: $border_radius;
         }
 
         li:first-child,
@@ -153,7 +154,7 @@ header {
 
         li.dropdown:hover span,
         li.dropdown:hover a.dropdown_link {
-            border-radius: 2px;
+            border-radius: $border_radius;
         }
     }
 }
