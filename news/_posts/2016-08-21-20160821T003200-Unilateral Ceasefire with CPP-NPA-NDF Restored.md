@@ -1,7 +1,7 @@
 ---
 title: Unilateral Ceasefire with CPP/NPA/NDF Restored
 date: 2016-08-21T00:32:00UTC
-excerpt: The President restored the unilateral ceasefire with the Communist Party of the Philippines/New People's Army/National Democratic Front effective 12 a.m. of August 21, 2016.
+excerpt: "The President restored the unilateral ceasefire with the Communist Party of the Philippines/New People's Army/National Democratic Front effective 12 a.m. of August 21, 2016 'which will last for as long as necessary'."
 layout: post
 categories: [headline, peace process]
 tags: [cpp, npa, ndf, ndfp, ceasefire, unilateral ceasefire]

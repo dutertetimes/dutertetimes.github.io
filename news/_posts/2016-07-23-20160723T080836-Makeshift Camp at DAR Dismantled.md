@@ -1,7 +1,7 @@
 ---
 title: Makeshift Camp at DAR Dismantled
 date: 2016-07-23T08:08:36UTC
-excerpt: The makeshift camp in front of the Department of Agrarian Reform (DAR) in Quezon City was voluntarilly dismantled on 22 July by the Pakisama groupled by Rene Cerilla after more than four years of picketing.
+excerpt: The makeshift camp in front of the Department of Agrarian Reform in Quezon City was voluntarilly dismantled on 22 July by the Pakisama group led by Rene Cerilla after picketing for more than four years.
 layout: post
 categories: [agrarian, agrarian reform]
 tags: [carp, pakisama, rene cerilla, danding cojuangco]
