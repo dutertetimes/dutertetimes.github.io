@@ -4,7 +4,7 @@
         "address":    "dutertetimes@gmail.com",
         "link":       "mailto:dutertetimes@gmail.com",
         "target":     "",
-        "fa_icon":    "fa fa-envelope fa-fw fa-lg",
+        "fa_icon":    "fa fa-envelope fa-fw",
         "message":    "Send an email to dutertetimes@gmail.com"
     },
     {
