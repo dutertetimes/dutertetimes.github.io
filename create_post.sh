@@ -62,7 +62,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf ]" >> $filename
+        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf | ofw ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -104,7 +104,7 @@ function create_info_post {
         echo "layout: post" >> $filename
         echo "datestart:  $current_date" >> $filename
         echo "dateend:    $current_date" >> $filename
-        echo "categories: [org | company | people | law | places]" >> $filename
+        echo "categories: [org | company | people | law | places | doc]" >> $filename
         echo "tags: " >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -149,7 +149,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [ newsbit | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf ]" >> $filename
+        echo "categories: [ newsbit | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace process | insurgency | cpp | mnlf | milf | ofw ]" >> $filename
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
