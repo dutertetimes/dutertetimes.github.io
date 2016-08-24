@@ -17,7 +17,16 @@ footer {
     }
     ul {
         margin-top: 0;
-        @include min-screen(768px + 1)
+
+        li {
+            padding-left: 0;
+            a {
+                border-bottom: none;
+                &:hover {
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
+        }
     }
 
     #footer_content {
@@ -51,7 +60,7 @@ footer {
                 font-size: $font_size_license;
             }
             p a {
-                color: $color_primary;
+                color: $color_link;
                 border: none;
             }
             p {
