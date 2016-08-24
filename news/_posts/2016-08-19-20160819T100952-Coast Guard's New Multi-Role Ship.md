@@ -24,7 +24,7 @@ sources:
     link: http://cnnphilippines.com/news/2016/08/18/Coast-Guard-new-ship-West-Philippine-Sea-patrol.html
 ---
 
-The first Multi-Role Response Vessel (MRRV) built by Japan Marine United Corporation (JMUC) at the Yokohama Shipyard under the Maritime Safety Capability Improvement Project (MSCIP) for the Philippine Coast Guard (PCG) under the new Department of Transportation (DOTr) has arrived on 18 August.
+The first Multi-Role Response Vessel (MRRV) built by Japan Marine United Corporation (JMUC) at the Yokohama Shipyard under the Maritime Safety Capability Improvement Project (MSCIP) for the Philippine Coast Guard (PCG) has arrived on 18 August.
 The ship departed from Japan on August 11 with two (2) PCG officers and ten (10) non-officers onboard.
 
 The MSCIP is implemented as an Official Development Assistance (ODA) via a tied loan extended by the Japan International Cooperation Agency (JICA).
@@ -34,7 +34,7 @@ The balance will be sourced from the Philippine counterpart of P1,434,000,000.
 In a statement, JICA Chief Representative Susumo Ito said "The cooperation aims to build the capacity of the Philippines in boosting Maritime safety for socio-economic development. As an archipelago, the Philippines will benefit greatly from the Japanese ship."
 
 The vessel was formally received by the PCG during the Arrival and Blessing Ceremony at the Headquarters Coast Guard Ready Force at Pier 13 of Manila South Harbor at 9am.
-The 44-meter, 25-knots vessel is officially named MRRV Tubbataha after the lighthouse in the Tubbataha Marine National Park in Palawan.
+The 44-meter, 25-knots vessel is officially named BRP Tubbataha after the lighthouse in the Tubbataha Marine National Park in Palawan.
 Nine more MRRVs will be delivered by Japan quarterly and the next will be arriving on December of this year.
 According to the Coast Guard, the other nine MRRVs "will also be named after primary lighthouses in the country to denote the important role of the lighthouse as an aid to navigation to mariners."
 
