@@ -26,7 +26,7 @@ The roadmap presented by Dureza proposed a strategy for massive on-ground develo
 
 President Duterte immediately directed that the executive order of the Office of the Presidential Adviser on the Peace Process (OPAPP) be amended to empower it to implement projects related to peace and enable it to oversee all development projects.
 
-##### Bangsamoro
+#### Bangsamoro
 
 President Duterte during that meeting said that the government is now on the "implementation stage" of the peace negotiations with the Bangsamoro "as the time for negotiations are over."
 
@@ -38,14 +38,14 @@ The roadmap entails the operationalization of a mechanism where an all-Moro body
 The Bangsamoro Transition Commission (BTC) provided for in the CAB will be reconstituted with representation coming from the MILF, MNLF, the ARMM and other Bangsamoro representatives.
 The work on the new bangsamoro enabling law of the reconstituted BTC will be undertaken simultaneous with the shift to federalism and will be mandated propose amendments to the Philippine Constitution that are pertinent to the bangsamoro as inputs towards the implementation of federalism.
 
-##### CPP/NPA/NDF
+#### CPP/NPA/NDF
 
 In the same Malacañan meeting, President Duterte also approved the way forward in the impending resumption of peace talks with communist rebels.
 Labor Secretary Silvestre Bello III, government panel chair to the talks with the CPP/NPA/NDF, led in the oath taking of the new panel members.
 The resumption of talks reset tentatively to the middle of August 2016 will be preceded by the release of some 11 leaders of the CPP/NPA/NDF, who are presently detained and who will participate in the talks.
 President Duterte directed that legal procedures be complied with to effect their temporary releases pursuant to the previously signed Joint Agreement on Safety and Immunity Guarantees (JASIG).
 
-##### Nur Misuari
+#### Nur Misuari
 
 After the President approved the peace roadmap, he talked to MNLF chairman Nur Misuari.
 

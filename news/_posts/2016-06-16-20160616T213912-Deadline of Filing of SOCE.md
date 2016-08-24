@@ -104,7 +104,7 @@ Meaning, that the filing of SOCE, may it be on time or late, does not prohibit a
 R.A. 7166 Section 14 says, if the filing is late then there are penalties.
 But doesn't it also states that until the elected person and his/her party files their SOCEs, the elected person shall not enter upon the duties of his office?
 
-### Is Comelec allowed by law to extend the SOCE filing deadline?
+#### Is Comelec allowed by law to extend the SOCE filing deadline?
 
 Aside from the recent decision, the Comelec has also moved the SOCE deadline twice in the 2013 national and local elections.
 They may have referred to their mandate in R.A. 7166 Section 35 which states,
@@ -118,7 +118,7 @@ But there is no amendment of R.A. 7166 mentioning or authorizing anyone to exten
 Therefore, is the extension of the deadline a violation not only of R.A. 7166 but also of Comelec Resolution 9991?
 As the Head of the Comelec Campaign Finance Office, Christian Robert Lim, said, "would be a reversal of the commission’s own resolution on the matter.”
 
-### Should COMELEC accept late filing of SOCEs?
+#### Should COMELEC accept late filing of SOCEs?
 
 R.A. 7166 Section 14 does not mention that late filing of SOCEs are prohibited.
 Otherwise, there should have been no penalties specified for late filing of SOCEs as stated,
@@ -145,7 +145,7 @@ Brillantes on Twitter said,
 
 Since R.A. 7166 Section 14 is clear about late filing of SOCEs, __why did Comelec include such a statement__ in their resolution that is clearly not in the Republic Act nor the Republic Act's intent?
 
-### Who said What?
+#### Who said What?
 
 Although, only a number of these information, among many others, have been gathered, some where in accord while others were not.
 A lot more may have been missed but pausing for now is beginning to sound like quite a good idea.

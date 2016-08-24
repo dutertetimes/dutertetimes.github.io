@@ -35,7 +35,7 @@ It clarified, however, that the ceasefire declaration will take effect even with
 
 "To further bolster peace negotiations, the CPP and NPA are also open to discuss the possibility of a longer ceasefire upon completion of the release of all political prisoners," said the CPP.
 
-##### Guidelines
+#### Guidelines
 
 During the ceasefire period, all NPA units and people's militia shall cease and desist from carrying out offensive military campaigns and operations against the uniformed armed personnel of the Armed Forces of the Philippines (AFP) and the Philippine National Police (PNP) of the Government of the Republic of the Philippines.
 

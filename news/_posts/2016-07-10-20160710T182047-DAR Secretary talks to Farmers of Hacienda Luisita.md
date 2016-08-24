@@ -25,7 +25,7 @@ Mariano promised to work on this for 30 days.
 Mariano also vowed to conduct an inventory of the Hacienda Luisita land that had been allegedly distributed to farmer-beneficiaries.
 "Walang mapapatalsik na magsasaka sa kanilang lupang sinasaka," Mariano promised the farmers during the dialogue.
 
-##### Hacienda Luisita
+#### Hacienda Luisita
 
 Hacienda Luisita is a 6,453-hectare sugar plantation in Tarlac that was borrowed by the Cojuangco-Aquino family from the farmers.
 The hacienda spans various municipalities in the province, including the capital Tarlac City.
