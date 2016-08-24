@@ -132,6 +132,7 @@ header {
                 color: $color_button_text;
                 display: block;
                 text-align: left;
+                white-space: nowrap;
 
                 &:first-child {
                     margin-top: 7px;
