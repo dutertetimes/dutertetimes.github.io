@@ -76,6 +76,7 @@ published: true
 |--------------|
 | Organization |
 |--------------|
+| [Migrante International](https://migranteinternational.org/)
 | [National Competitiveness Council](http://www.competitive.org.ph/)
 | [Anakpawis](http://www.anakpawis.net/)
 | [CPP](http://www.cpp.ph/)
@@ -100,6 +101,7 @@ published: true
 | [The Japan News](http://the-japan-news.com/)
 | [News on Japan](http://www.newsonjapan.com/)
 | [Japan Today](http://www.japantoday.com/)
+| [The Diplomat](http://thediplomat.com/)
 
 &nbsp;
 
