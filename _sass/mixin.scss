@@ -262,8 +262,8 @@
 
 @mixin image_frame {
     background: $color_image_bg;
-    margin: 5px 0px 5px 0;
-    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 0 0;
+    padding: 5px 5px 0 5px;
 }
 
 @mixin video_frame {

@@ -52,7 +52,6 @@ section.post_column_main {
 
         p.attribution {
             @include attribution;
-            padding-top: 5px;
         }
 
         @media screen {
@@ -71,6 +70,8 @@ section.post_column_main {
     }
 
     @include common_heading;
+
+
 
     p, a, li, dl {
         text-align: left;
