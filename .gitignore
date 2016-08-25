@@ -12,6 +12,7 @@ _data/drafts.yml
 _drafts/**
 _site
 _sass/*.map
+news/*.md
 _includes/.sass-cache/**
 _posts/.sass-cache/**
 _sass/.sass-cache/**
