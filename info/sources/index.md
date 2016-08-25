@@ -29,6 +29,8 @@ published: true
 | [Office of the Presidential Adviser on the Peace Process](http://www.opapp.gov.ph/)
 | [National Economic and Development Authority](http://www.neda.gov.ph/)
 | [Department of Interior and Local Government](http://dilg.gov.ph/)
+| [Philippine Drug Enforcement Agency](http://pdea.gov.ph/)
+| [Dangerous Drugs Board](http://www.ddb.gov.ph/)
 
 &nbsp;
 
