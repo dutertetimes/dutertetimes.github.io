@@ -11,6 +11,7 @@ published: true
 | Government Sources |
 |--------------------|
 | [Philippine Information Agency](http://news.pia.gov.ph/)
+| [Philippine News Agency](http://www.pna.gov.ph/index.php)
 | [Philippine Communications Office](http://news.pia.gov.ph/)
 | [Housing and Urban Development Coordinating Council](http://www.hudcc.gov.ph/)
 | [Department of Agriculture](http://www.dar.gov.ph/)
