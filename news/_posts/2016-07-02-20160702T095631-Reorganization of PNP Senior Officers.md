@@ -3,7 +3,7 @@ title: Reorganization of PNP Senior Officers
 date: 2016-07-02T09:56:31UTC
 excerpt: PNP Chief, PDG Ronald M Dela Rosa approved the reorganization of senior police officers in key positions of the PNP Command Group, Directorial Staff, Police Regional Offices and National Support Units.
 layout: post
-categories: [other]
+categories: [other, top, pnp]
 tags: [pnp, statement, reorganization]
 published: true
 permalink: /news/other/2016-07-02-20160702T095631

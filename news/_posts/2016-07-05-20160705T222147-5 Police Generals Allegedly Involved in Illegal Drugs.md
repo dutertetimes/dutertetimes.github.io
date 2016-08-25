@@ -3,8 +3,8 @@ title: 5 Police Generals Allegedly Involved in Illegal Drugs
 date: 2016-07-05T22:21:47PHT
 excerpt: President Duterte named five PNP Generals allegedly involved in illegal drugs during the 69th Anniversary of the Philippine Air Force celebration in Clark, Pampanga.
 layout: post
-categories: [headline]
-tags: [pnp, drugs, napolcom]
+categories: [headline, top, pnp, criminality]
+tags: [pnp, illegal drugs, napolcom]
 published: true
 permalink: /news/headline/2016-07-05-20160705T222147
 image:
