@@ -3,7 +3,7 @@ title: Ombudsman Probing New Plunder Case Against Arroyo
 date: 2016-07-20T19:46:27UTC
 excerpt: Ombudsman Morales said that the Ombudsman investigators and prosecutors are finalizing their preliminary investigation on possibly a new plunder and malversation case against former President Gloria Macapagal Arroyo after the Supreme Court recently dismissed a plunder case due to insufficient evidence.
 layout: post
-categories: [headline]
+categories: [headline, criminality]
 tags: [arroyo, plunder, dismissal, supreme court, pcso, ombudsman]
 published: true
 permalink: /news/headline/2016-07-20-20160720T194627

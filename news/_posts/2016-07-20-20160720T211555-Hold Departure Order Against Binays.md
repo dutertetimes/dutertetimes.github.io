@@ -3,7 +3,7 @@ title: Hold Departure Order Against Binays
 date: 2016-07-20T21:15:55UTC
 excerpt: SandiganBayan issued a hold departure order against former Vice President Jejomar Binay and his son, former Makati City mayor Junjun Binay, as well as 10 others.
 layout: post
-categories: [other]
+categories: [other, criminality]
 tags: [hdo, binay, graft, sandiganbayan, makati]
 published: true
 permalink: /news/other/2016-07-20-20160720T211555
