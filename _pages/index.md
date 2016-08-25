@@ -8,10 +8,11 @@ permalink: /
 <div class="news_top_container">
     <div class="left_container">
         {% include component_slideshow_headline.html %}
-        {% include component_slideshow_business.html %}
+        {% include component_slideshow_criminality.html %}
+        {% include component_slideshow_peace.html %}
         {% include component_slideshow_agrarian.html %}
         {% include component_slideshow_environment.html %}
-        {% include component_slideshow_peace.html %}
+        {% include component_slideshow_business.html %}
         {% include component_slideshow_foreign_affairs.html %}
     </div>
     <div class="right_container">
@@ -20,16 +21,18 @@ permalink: /
 </div>
 
 <div class="news_section_container">
-    {% include component_list_business.html %}
-    {% include component_list_agrarian.html %}
-</div>
-
-<div class="news_section_container">
-    {% include component_list_environment.html %}
+    {% include component_list_criminality.html %}
     {% include component_list_peace.html %}
+    
 </div>
 
 <div class="news_section_container">
+    {% include component_list_agrarian.html %}
+    {% include component_list_environment.html %}
+</div>
+
+<div class="news_section_container">
+    {% include component_list_business.html %}
     {% include component_list_foreign_affairs.html %}
 </div>
 
@@ -81,6 +84,7 @@ permalink: /
         var environmentSlideIndex = 1;
         var foreignAffairsSlideIndex = 1;
         var peaceProcessSlideIndex = 1;
+        var criminalitySlideIndex = 1;
 
         currentHeadlineSlide(1);
         currentBusinessSlide(1);
@@ -88,6 +92,7 @@ permalink: /
         currentEnvironmentSlide(1);
         currentForeignAffairsSlide(1);
         currentPeaceProcessSlide(1);
+        currentCriminalitySlide(1);
     });
 
     // Argument must be greater than zero.
@@ -121,6 +126,11 @@ permalink: /
         showPeaceProcessSlides();
     }
 
+    function currentCriminalitySlide(n) {
+        criminalitySlideIndex = n - 1;
+        showCriminalitySlides();
+    }
+
     function showHeadlineSlides() {
         showSlides("headline_dot", "headline_news_entry", headlineSlideIndex);
     }
@@ -143,6 +153,10 @@ permalink: /
 
     function showPeaceProcessSlides() {
         showSlides("peaceprocess_dot", "peaceprocess_news_entry", peaceProcessSlideIndex);
+    }
+
+    function showCriminalitySlides() {
+        showSlides("criminality_dot", "criminality_news_entry", criminalitySlideIndex);
     }
 
     function showSlides(links, entries, index) {
