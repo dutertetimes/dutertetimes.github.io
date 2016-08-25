@@ -167,6 +167,10 @@ section.post_column_main {
         @include min-screen(720px + 1px) {
             margin-right: 30px;
         }
+
+        ul, ol {
+            padding-left: 18px;
+        }
     }
 
     // Markdown fix on unsorted list
