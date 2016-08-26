@@ -1,7 +1,7 @@
 ---
 title: Duterte Receives Japan Foreign Minister
 date: 2016-08-12T16:28:57UTC
-excerpt: President Rodrigo Duterte received Japan Foreign Minister Fumio Kishida on 11 August 2016 at the Presidential Guest House in Davao. Mr Kishida is the first Foreign Minister to visit Davao and was treated to a merienda cena featuring the best of Philippine products.
+excerpt: President Rodrigo Duterte received Japan Foreign Minister Fumio Kishida on 11 August 2016 at the Presidential Guest House in Davao. Foreign Minister Kishida is the First Foreign Minister to be received by President Duterte in Mindanao.
 layout: post
 categories: [foreign affairs]
 tags: [japan foreign minister, fumio kishida]
