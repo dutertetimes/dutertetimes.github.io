@@ -13,7 +13,7 @@ image:
   attribution: 
 video:
   layout: top
-  source: https://www.youtube.com/watch?v=I5WbqN-LR8I
+  source: I5WbqN-LR8I
   attribution: RTVM
 sources:
   - label:
