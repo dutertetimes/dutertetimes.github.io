@@ -1,5 +1,5 @@
 ---
-title: Oath Taking of Government Appointees
+title: Oath-Taking of Government Appointees
 date: 2016-08-15T04:27:06UTC
 excerpt: Fourty two government appointees took their oath in the presence of President Rodrigo Duterte in Malacañang Palace on 15 August 2016.
 layout: post
@@ -12,13 +12,15 @@ image:
   source: 
   attribution: 
 video:
-  layout: [top | bottom]
-  source: 
-  attribution: 
+  layout: top
+  source: iKiXw7RALrs
+  attribution: RTVM
 sources:
   - label:
     link:
 ---
+
+Fourty two government appointees took their oath in the presence of President Rodrigo Duterte in Malacañang Palace on 15 August 2016.
 
 * Abraham Khalil Blanco Mitra - Chairperson, Games and Amusement Board
 * Abraham Sales - Executive Director, Toll Regulatory Board
