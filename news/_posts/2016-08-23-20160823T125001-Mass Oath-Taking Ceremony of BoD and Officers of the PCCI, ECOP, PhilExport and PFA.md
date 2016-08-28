@@ -20,13 +20,7 @@ sources:
    link:
 ---
 
-PRESIDENT RODRIGO ROA DUTERTE's SPEECH
-
-DURING THE OATHTAKING OF THE BOARD OF DIRECTORS AND OFFICERS OF THE PHILIPPINE CHAMBER OF COMMERCE AND INDUSTRY (PCCI), EMPLOYERS CONFEDERATION OF THE PHILIPPINES (ECOP), PHILIPPINE EXPORTERS CONFEDERATION, INC. (PHILEXPORT) AND PHILIPPINE FRANCHISE ASSOCIATION (PFA)
-
-Rizal Hall, Malacañang
-
-August 23, 2016
+President Rodrigo Roa Duterte's speech during the oathtaking of the Board of Directors and Officers of the Philippine Chamber of Commerce and Industry (PCCI), Employers Confederation of the Philippines (ECOP), Philippine Exporters Confederation, Inc (PhilExport) and Philippine Franchise Association (PFA) held at the Rizal Hall, Malacañang on 23 August 2016.
 
 We've all been introduced and I know almost everybody of you, if not personally, from the magazines that I read from time to time.
 

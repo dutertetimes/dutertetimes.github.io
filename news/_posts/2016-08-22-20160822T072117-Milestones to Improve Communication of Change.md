@@ -20,7 +20,7 @@ sources:
     link:
 ---
 
-MORE THAN 50 days coming in to this administration, we have always made it a point to put forward the best interest of the nation, by ensuring that everything we
+More than 50 days coming in to this administration, we have always made it a point to put forward the best interest of the nation, by ensuring that everything we
 communicate is part of our call for everyone a partner for change.
 
 Our battle cry has been evident in the initiatives that we did and have been doing through traditional, digital, and social media.

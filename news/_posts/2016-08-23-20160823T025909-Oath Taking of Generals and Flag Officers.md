@@ -20,13 +20,7 @@ sources:
     link:
 ---
 
-President Rodrigo Roa Duterte leads the oath-taking ceremony of newly appointed generals and flag officers at the Rizal Hall in Malacañan Palace.
-
-PRESIDENT RODRIGO ROA DUTERTE's SPEECH
-DURING THE OATH TAKING OF NEWLY-APPOINTED GENERALS 
-AND FLAG OFFICERS
-Rizal Hall, Malacañang 
-August 23, 2016
+President Rodrigo Roa Duterte leads the oath-taking ceremony of newly appointed generals and flag officers at the Rizal Hall in Malacañan Palace on 23 August 2016.
 
 This is really not part of the program. Pagkatapos mag-alis lang ako parang, umalis lang ako, parang wala. So as usual, same downstairs. I'd like to congratulate the Chief of Staff, sir, and the officers—newly promoted in the Armed Forces of the Philippines. 
 
