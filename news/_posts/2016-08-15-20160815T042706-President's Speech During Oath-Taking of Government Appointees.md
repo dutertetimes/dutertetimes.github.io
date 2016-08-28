@@ -1,5 +1,5 @@
 ---
-title: President's Speech During Oath-Taking of Government Appointees
+title: "President's Speech During Oath-Taking of Government Appointees"
 date: 2016-08-15T04:27:06UTC
 excerpt: Speech of the President after the oath taking of fourty two government appointees held in Malacañang Palace on 15 August 2016.
 layout: post
@@ -17,7 +17,7 @@ video:
  attribution: RTVM
 sources:
  - label: RTVM
-  link: http://rtvm.gov.ph/main/?p=41223
+   link: http://rtvm.gov.ph/main/?p=41223
 ---
 
 President Rodrigo Roa Duterte's speech during the oath taking of newly appointed government officials held in Malacañang Palace on 15 August 2016.
