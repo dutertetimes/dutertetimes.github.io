@@ -33,9 +33,12 @@ The orders of the President is to bring them back home.
 Bello said that the orders of the President was very precise, "Get them back at any cost."
 He added, "That demonstrates the concern of our President for the plight of our migrant workers."
 
-Bello said that he will lead a 40-man delegation to Saudi Arabia to assist the OFWs.
 There are so far only 1,700 Filipinos who have returned home and the government is working to complete the repatriation process as soon as possible.
+The secretary is set to fly to Saudi Arabia on 15 August to bring home the more than 9,000 OFWs still stranded in nine Saudi jobsites.
+"The immediate purpose of our visit is to bring home all of them," Bello said.
+The only reason that the OFWs will be allowed to extend their stay in Saudi Arabia is if they have managed to secure employment.
+"Of course, if some were able to get new employment, we will not blame them if they insist on staying," Bello added.
 
-The labor chief had said that he will lead a 40-man delegation to Saudi Arabia to assist the OFWs.
+The labor chief will lead a 40-man delegation to Saudi Arabia to assist the OFWs.
 The delegation is composed of representatives from the Department of Health (DOH), Department of Foreign Affairs (DFA), Department of Labor and Employment (DOLE), Department of Social Welfare and Development (DSWD), Philippine Overseas Employment Administration (POEA), Technical Education and Skills Development Authority (TESDA), Overseas Workers Welfare Administration (OWWA), and the Public Attorney’s Office (PAO).
 &#x25cf;
