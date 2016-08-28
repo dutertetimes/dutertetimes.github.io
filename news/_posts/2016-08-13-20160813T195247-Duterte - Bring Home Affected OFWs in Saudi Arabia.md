@@ -17,7 +17,9 @@ video:
   attribution: 
 sources:
   - label: Inquirer
-    link: http://globalnation.inquirer.net/142724/bring-stranded-ofws-home-saudi-duterte#ixzz4I5o51arc 
+    link: http://globalnation.inquirer.net/142724/bring-stranded-ofws-home-saudi-duterte
+  - label: Sun Star
+    link: http://www.sunstar.com.ph/manila/local-news/2016/08/14/dole-deploy-more-labor-attaches-saudi-491325
 ---
 
 "It will be a forced repatriation. It will be an involuntary repatriation. We cannot afford to let them stay and become a burden to the host country since it 

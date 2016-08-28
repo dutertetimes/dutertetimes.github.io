@@ -17,7 +17,7 @@ video:
   attribution:
 sources:
   - label: PIA
-    link: http://news.pia.gov.ph/article/view/2041466644047/25th-minbizcon-to-expand-business-opportunities#sthash.vA5Au64C.dpuf
+    link: http://news.pia.gov.ph/article/view/2041466644047/25th-minbizcon-to-expand-business-opportunities
   - label: Mindanao Gold Star Daily
     link: http://mindanaogoldstardaily.com/surigao-chamber-of-commerce-officially-launches-25th-minbizcon-slated-on-august/
 ---

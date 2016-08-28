@@ -17,7 +17,7 @@ video:
   attribution: 
 sources:
   - label: Manila Bulletin
-    link: http://www.mb.com.ph/read-full-transcript-of-speech-of-president-rodrigo-roa-duterte-during-the-state-of-mindanao-environmental-summit-2016/#iKfqpPVSXTgiGJT3.99
+    link: http://www.mb.com.ph/read-full-transcript-of-speech-of-president-rodrigo-roa-duterte-during-the-state-of-mindanao-environmental-summit-2016/
 ---
 
 President Rodrigo Roa Duterte led the commencement of the State of the Mindanao Environment Day (SOMEDay) on 4 August 2016.

@@ -17,7 +17,7 @@ video:
   attribution:
 sources:
   - label: Japan Times
-    link: http://www.japantimes.co.jp/news/2016/08/05/national/politics-diplomacy/kishida-visit-philippines-security-talks/#.V63yHmScHiw
+    link: http://www.japantimes.co.jp/news/2016/08/05/national/politics-diplomacy/kishida-visit-philippines-security-talks/
 ---
 
 Japan's Foreign Minister Fumio Kishida is scheduled to visit the Philippines on 10 August for a three-day visit.
