@@ -65,21 +65,17 @@ div.block {
 div.block_default_fonts {
     div.entries {
         div.entry {
-            h2 {
+            h2, a {
                 @include component_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
                 line-height: $font_line_height_news_title;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_news_title + 2;
+                    font-size: $font_size_news_title - 1;
                 }
-                a {
-                    @include component_entry_heading_link($font_news_title, $font_size_news_title, $color_news_title);
-                    line-height: $font_line_height_news_title;
-                    @include max-screen(720px) {
-                        line-height: $font_line_height_news_title + 2;
-                    }
-                    &:hover {
-                        color: $color_link;
-                    }
+            }
+            h2 a {
+                border-bottom: none;
+                &:hover {
+                    color: $color_link;
                 }
             }
 
@@ -114,34 +110,26 @@ div.block_compact_fonts {
     div.entries {
         div.entry {
             h2, h2 a {
-
                 text-transform: uppercase;
                 letter-spacing: 0.2px;
                 word-spacing: 0.175em;
             }
-
-            h2 {
-                @include component_entry_heading(
-                                $font_compact_title,
-                                $font_size_compact_title,
-                                $color_compact_title);
+            h2, a {
+                @include component_entry_heading($font_compact_title, $font_size_compact_title, $color_compact_title);
                 line-height: $font_line_height_compact_title;
                 @include max-screen(720px) {
                     line-height: $font_line_height_compact_title + 1;
                 }
-
-                a {
-                    @include component_entry_heading_link(
-                                    $font_compact_title,
-                                    $font_size_compact_title,
-                                    $color_compact_title);
-                    line-height: $font_line_height_compact_title;
-                    @include max-screen(720px) {
-                        line-height: $font_line_height_compact_title + 1;
-                    }
-                    &:hover {
-                        color: $color_link;
-                    }
+            }
+            h2 {
+                @include max-screen(720px) {
+                    padding-bottom: 2px;
+                }
+            }
+            h2 a {
+                border-bottom: none;
+                &:hover {
+                    color: $color_link;
                 }
             }
 
