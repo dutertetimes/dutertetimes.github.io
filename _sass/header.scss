@@ -64,32 +64,44 @@ header {
             }
         }
 
-        li > span {
-            cursor: pointer;
-        }
-
-        li > span,
+        li.dropdown > span,
         li a {
             @include compact;
-            font-family: $font_button;
-            font-size: $font_size_button;
-            @include max-screen(720px) {
-                font-size: $font_size_button + 1;
-            }
+            font-family: $font_nav;
             font-weight: bold;
             text-align: center;
-            text-transform: uppercase;
             text-decoration: none;
             color: $color_button_text;
             display: inline-block;
             margin: 7px 7px 7px 7px;
-            padding: 5px 9px;
+            padding: 5px 9px 5px 9px;
             border: none;
-            transition: background-color 0.2s ease;
+            transition: background-color 0.1s ease;
             i.fa-angle-down {
                 font-weight: bold;
             }
         }
+
+        li.dropdown > span {
+            cursor: pointer;
+            font-size: $font_size_nav;
+            @include max-screen(720px) {
+                font-size: $font_size_nav;
+            }
+            text-transform: uppercase;
+        }
+        li.dropdown > a {
+            font-size: $font_size_nav + 1;
+            @include max-screen(720px) {
+                font-size: $font_size_nav + 1;
+            }
+            text-transform: uppercase;
+        }
+        /*
+        li i {
+            color: darken($color_button_text, 20%);
+        }
+        */
 
         li > span:hover,
         li a:hover:not(.active) {
@@ -99,12 +111,13 @@ header {
             border-radius: $border_radius;
         }
 
-        li:first-child,
         li:first-child a {
-            font-family: $font_sans;
+            text-transform: uppercase;
+            font-family: $font_nav;
             @include min-screen(720px + 1px) {
-                font-size: $font_size_button + 1;
+                font-size: $font_size_nav + 2;
             }
+            padding: 5px 9px 4px 9px;
         }
 
         // Dropdown menu
