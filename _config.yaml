@@ -28,6 +28,9 @@ gems:
 # Search engine optimization for GitHub Pages
 # https://help.github.com/articles/search-engine-optimization-for-github-pages/
   - jekyll-seo-tag
+# Redirect visitors to the updated URL
+# https://help.github.com/articles/redirects-on-github-pages/
+  - jekyll-redirect-from
 
 # Conversion
 markdown:    kramdown
