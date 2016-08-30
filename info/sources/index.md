@@ -10,6 +10,14 @@ published: true
 |--------------------|
 | Government Sources |
 |--------------------|
+| [Official Gazette of the Republic of the Philippines](http://www.gov.ph/)
+| [Official Gazette of the Republic of the Philippines (facebook)](https://www.facebook.com/govph)
+| [President of the Republic of the Philippines](http://www.president.gov.ph/)
+| [Senate of the Philippines](http://www.senate.gov.ph/)
+| [House of Representatives of the Philippines](http://www.congress.gov.ph/)
+| [Presidential Communications (facebook)](https://www.facebook.com/presidentialcom)
+| [Laging Handa](http://www.gov.ph/laginghanda/)
+| [Laging Handa (facebook)](http://www.facebook.com/LagingHandaPHL)
 | [Philippine Information Agency](http://news.pia.gov.ph/)
 | [Philippine News Agency](http://www.pna.gov.ph/index.php)
 | [Philippine Communications Office](http://news.pia.gov.ph/)
@@ -20,7 +28,6 @@ published: true
 | [Department of Environment and Natural Resources](http://www.denr.gov.ph/)<br/>[Mines and Geosciences Bureau](http://www.mgb.gov.ph/)
 | [Office of the Ombudsman](http://www.ombudsman.gov.ph/)
 | [Philippine Statistics Authority](http://psa.gov.ph/)
-| [Senate of the Philippines](http://www.senate.gov.ph/)
 | [Bureau of Corrections](http://www.bucor.gov.ph/)
 | [National Historical Commission of the Philippines](http://nhcp.gov.ph/)
 | [Banko Sentral ng Pilipinas](http://www.bsp.gov.ph/)
@@ -32,6 +39,7 @@ published: true
 | [Department of Interior and Local Government](http://dilg.gov.ph/)
 | [Philippine Drug Enforcement Agency](http://pdea.gov.ph/)
 | [Dangerous Drugs Board](http://www.ddb.gov.ph/)
+| [Commission on Filipino Overseas](http://www.cfo.gov.ph/index.php)
 
 &nbsp;
 
@@ -83,6 +91,7 @@ published: true
 | [National Competitiveness Council](http://www.competitive.org.ph/)
 | [Anakpawis](http://www.anakpawis.net/)
 | [CPP](http://www.cpp.ph/)
+| [EcoWaste Coalition](http://ecowastecoalition.blogspot.com/)
 
 &nbsp;
 
