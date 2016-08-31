@@ -4,7 +4,7 @@ date: 2016-07-19T18:02:48UTC
 excerpt: President Rodrigo R. Duterte approved on 18 July 2016 the comprehensive peace roadmap presented by Presidential Adviser on Peace Process Jesus G. Dureza.
 layout: post
 categories: [top, peace process]
-tags: [peace and development roadmap, milf, mnlf, bangsamoro, cpp, npa, ndf]
+tags: [peace and development roadmap, milf, mnlf, bangsamoro, cpp, npa, ndf, ndfp]
 published: true
 permalink: /news/peace/2016-07-19-20160719T180248
 image:
