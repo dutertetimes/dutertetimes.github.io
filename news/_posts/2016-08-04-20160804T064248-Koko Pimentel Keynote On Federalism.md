@@ -6,7 +6,7 @@ layout: post
 categories: [other, senate]
 tags: [federalism, senate centennial lecture series, keynote]
 published: true
-permalink: /news/other/2016-08-04-20160804T064248
+permalink: /news/20160804T064248
 image:
   layout: auto_width
   source: 

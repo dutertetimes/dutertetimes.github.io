@@ -6,7 +6,7 @@ layout: post
 categories: [top, agrarian, agrarian reform]
 tags: [rafael mariano, assumption into office, virgilio de los reyes]
 published: true
-permalink: /news/agrarian/2016-07-06-20160706T064511
+permalink: /news/20160706T064511
 image:
   layout: auto_width
   source: 

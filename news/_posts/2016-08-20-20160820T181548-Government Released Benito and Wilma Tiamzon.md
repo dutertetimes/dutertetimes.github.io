@@ -6,7 +6,7 @@ layout: post
 categories: [top, peace process]
 tags: [cpp, npa, ndf, ndfp, tiamzon, benito tiamzon, wilma tiamzon]
 published: true
-permalink: /news/peace/2016-08-20-20160820T181548
+permalink: /news/20160820T181548
 image:
   layout: auto_width
   source: 

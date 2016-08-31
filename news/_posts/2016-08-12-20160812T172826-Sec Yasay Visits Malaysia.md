@@ -6,7 +6,7 @@ layout: post
 categories: [foreign affairs, peace process]
 tags: [asean, malaysia, milf, peace and development roadmap]
 published: true
-permalink: /news/foreign_affairs/2016-08-12-20160812T172826
+permalink: /news/20160812T172826
 image:
   layout: auto_width
   source: 

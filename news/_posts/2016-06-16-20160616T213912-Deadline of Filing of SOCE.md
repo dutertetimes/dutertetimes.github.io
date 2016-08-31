@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [comelec, election, soce, liberal party]
 published: true
-permalink: /news/other/2016-06-16-20160616T213912
+permalink: /news/20160616T213912
 redirect_from: /post/20160616T213912
 image:
   layout: auto_width

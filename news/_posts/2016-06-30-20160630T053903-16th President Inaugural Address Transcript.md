@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [inauguration, speech, address, president, duterte]
 published: true
-permalink: /news/other/2016-06-30-20160630T053903
+permalink: /news/20160630T053903
 redirect_from: /post/20160630T053903
 image:
   layout:

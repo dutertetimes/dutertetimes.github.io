@@ -6,7 +6,7 @@ layout: post
 categories: [headline, peace process]
 tags: [cpp, npa, ndf, ceasefire, peacetalk, davao del norte, cafgu, militia]
 published: true
-permalink: /news/headline/2016-07-29-20160729T021903
+permalink: /news/20160729T021903
 image:
   layout: auto_width
   source: 

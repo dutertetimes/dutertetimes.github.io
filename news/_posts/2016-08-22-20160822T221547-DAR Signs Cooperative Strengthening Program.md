@@ -6,7 +6,7 @@ layout: post
 categories: [agrarian, agrarian reform]
 tags: [cooperative, contracts, agreement]
 published: true
-permalink: /news/agrarian/2016-08-22-20160822T221547
+permalink: /news/20160822T221547
 image:
   layout: auto_width
   source: 

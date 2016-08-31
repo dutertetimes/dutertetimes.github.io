@@ -6,7 +6,7 @@ layout: post
 categories: [foreign affairs]
 tags: [dfa, asem, asia, europe, summit, mongolia]
 published: true
-permalink: /news/foreign_affairs/2016-07-17-20160717T155723
+permalink: /news/20160717T155723
 image:
   layout: auto_width
   source: 

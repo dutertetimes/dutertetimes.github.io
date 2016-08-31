@@ -6,7 +6,7 @@ layout: post
 categories: [other, labor]
 tags: [ofw, kingdom of saudi arabia, philippine overseas labor office, polo, riyadh, jeddah, al-khobar]
 published: true
-permalink: /news/labor/2016-08-28-20160828T095643
+permalink: /news/20160828T095643
 image:
   layout: auto_width
   source: 

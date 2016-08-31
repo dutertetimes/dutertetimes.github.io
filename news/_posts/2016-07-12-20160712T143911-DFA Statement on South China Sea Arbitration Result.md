@@ -6,7 +6,7 @@ layout: post
 categories: [top, foreign affairs]
 tags: [dfa, south china sea, west philippine sea, hague, spratly, scarborough,  kalayaan islands, panatag shoal, bajo de masinloc]
 published: true
-permalink: /news/foreign_affairs/2016-07-12-20160712T143911
+permalink: /news/20160712T143911
 image:
   layout: auto_width
   source: 

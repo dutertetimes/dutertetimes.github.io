@@ -6,7 +6,7 @@ layout: post
 categories: [other, business]
 tags: [oath taking]
 published: true
-permalink: /news/other/2016-08-23-20160823T125001
+permalink: /news/20160823T125001
 image:
  layout: auto_width
  source: 

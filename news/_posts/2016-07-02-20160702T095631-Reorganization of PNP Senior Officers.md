@@ -6,7 +6,7 @@ layout: post
 categories: [other, top, pnp]
 tags: [pnp, statement, reorganization]
 published: true
-permalink: /news/other/2016-07-02-20160702T095631
+permalink: /news/20160702T095631
 image:
   layout: auto_width
   source:

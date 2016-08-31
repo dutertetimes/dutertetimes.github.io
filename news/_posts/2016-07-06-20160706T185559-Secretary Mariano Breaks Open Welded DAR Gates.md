@@ -6,7 +6,7 @@ layout: post
 categories: [top, agrarian, agrarian reform]
 tags: [dar]
 published: true
-permalink: /news/agrarianreform/2016-07-06-20160706T185559
+permalink: /news/20160706T185559
 image:
   layout: auto_width
   source: 

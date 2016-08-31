@@ -6,7 +6,7 @@ layout: post
 categories: [headline]
 tags: [inauguration, president, duterte]
 published: true
-permalink: /news/headline/2016-06-30-20160630T002859
+permalink: /news/20160630T002859
 redirect_from: /post/20160630T002859
 image:
   layout:

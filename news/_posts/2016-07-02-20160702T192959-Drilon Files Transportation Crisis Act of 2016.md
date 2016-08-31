@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [bill, transportation crisis act, emergency powers, traffic, transportation]
 published: true
-permalink: /news/other/2016-07-02-20160702T192959
+permalink: /news/20160702T192959
 image:
   layout:
   source: 

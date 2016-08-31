@@ -6,7 +6,7 @@ layout: post
 categories: [top, peace process]
 tags: [peace and development roadmap, milf, mnlf, bangsamoro, cpp, npa, ndf, ndfp]
 published: true
-permalink: /news/peace/2016-07-19-20160719T180248
+permalink: /news/20160719T180248
 image:
   layout: auto_width
   source:

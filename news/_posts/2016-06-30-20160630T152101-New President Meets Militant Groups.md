@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [inauguration, speech, address, president, duterte]
 published: true
-permalink: /news/other/2016-06-30-20160630T152101
+permalink: /news/20160630T152101
 image:
   layout:
   source: /post/duterte_inauguration_multi_sectoral_meeting.png

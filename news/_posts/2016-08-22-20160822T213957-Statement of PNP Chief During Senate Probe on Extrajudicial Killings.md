@@ -6,7 +6,7 @@ layout: post
 categories: [top, criminality, senate]
 tags: [extrajudicial killings, ejk, senate probe, pnp chief, ronald de la rosa]
 published: true
-permalink: /news/other/2016-08-22-20160822T213957
+permalink: /news/20160822T213957
 image:
   layout: auto_width
   source: 

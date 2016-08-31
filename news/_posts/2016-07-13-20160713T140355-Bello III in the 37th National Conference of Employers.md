@@ -6,7 +6,7 @@ layout: post
 categories: [other, labor]
 tags: [speech, dole, national conference of employers]
 published: true
-permalink: /news/labor/2016-07-13-20160713T140355
+permalink: /news/20160713T140355
 image:
   layout: auto_width
   source: 

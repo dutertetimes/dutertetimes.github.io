@@ -6,7 +6,7 @@ layout: post
 categories: [foreign affairs]
 tags: [japan foreign minister, fumio kishida]
 published: true
-permalink: /news/foreign_affairs/2016-08-12-20160812T162857
+permalink: /news/20160812T162857
 image:
   layout: auto_width
   source: 

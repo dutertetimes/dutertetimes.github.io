@@ -6,7 +6,7 @@ layout: post
 categories: [business]
 tags: [commerce, industry, scci]
 published: true
-permalink: /news/business/2016-06-28-20160628T172635
+permalink: /news/20160628T172635
 redirect_from: /post/20160628T172635
 image:
   layout: auto_width

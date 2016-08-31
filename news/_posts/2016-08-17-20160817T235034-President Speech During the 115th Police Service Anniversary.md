@@ -6,7 +6,7 @@ layout: post
 categories: [other, pnp]
 tags: [event, police service anniversary]
 published: true
-permalink: /news/pnp/2016-08-17-20160817T235034
+permalink: /news/20160817T235034
 image:
  layout: auto_width
  source: 
@@ -51,7 +51,7 @@ Here is an immoral woman flaunting... well, of course, insofar as the wife of th
 I will show to you, I have the CD since you first investigated me in Davao for human rights violation. Before the press, entering the hotel lobby, she said, "I will prove that Duterte is connected with the DDS, the Davao Death Squad." Until now, she keeps on yakking, and she has forgotten that tape which I had recorded. I would like her to eat it in my presence, but I cannot do it because it is not an accepted, edible food for human beings.
 
 What's the problem? We inject politics? Only 1,000 died, and you put my country in peril, in jeopardy for the 600 now lives wasted, destroyed, families broken, children left, husband and wife together with so many orphans whose parents are alive. Iyan ang pinakamahirap dito sa bayan na ‘to. And frankly, one of the things that really prompted me was at the urgings of President Ramos, because he himself, as a matter of fact, knew what was going on. He came to me repeatedly and said, "You run so that you'll have a President from Mindanao and one who can save this nation."
-	
+
 The President is here, you can ask him. Long before we started the campaign, we already knew what was wrong with the PNP. And I had the... that's why, I had to do something about it. As President, I could not have started my administration with a corrupt Philippine National Police.
 
 Eh, alam mo, when I was mayor – and you can ask anybody, anybody for that matter, Davao City was one place where the police, during my time, was protected if they were in the performance of their duties. Once they were disciplined, and suspended, I had to pay for the basic salary, the take home pay, so that the family will not go hungry.

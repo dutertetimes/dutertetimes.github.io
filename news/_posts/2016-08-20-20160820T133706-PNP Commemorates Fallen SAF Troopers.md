@@ -6,7 +6,7 @@ layout: post
 categories: [pnp]
 tags: [saf, saf44, mamasapano, commemoration]
 published: true
-permalink: /news/pnp/2016-08-20-20160820T133706
+permalink: /news/20160820T133706
 image:
   layout: auto_width
   source: 

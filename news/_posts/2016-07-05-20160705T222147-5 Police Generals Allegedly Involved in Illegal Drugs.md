@@ -6,7 +6,7 @@ layout: post
 categories: [headline, top, pnp, criminality]
 tags: [pnp, illegal drugs, napolcom]
 published: true
-permalink: /news/headline/2016-07-05-20160705T222147
+permalink: /news/20160705T222147
 image:
   layout: auto_width
   source: 

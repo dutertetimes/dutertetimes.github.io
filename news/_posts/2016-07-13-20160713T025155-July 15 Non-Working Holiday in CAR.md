@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [car, special non-working holiday, car 29th foundation anniversary]
 published: true
-permalink: /news/other/2016-07-13-20160713T025155
+permalink: /news/20160713T025155
 image:
   layout: auto_width
   source: 

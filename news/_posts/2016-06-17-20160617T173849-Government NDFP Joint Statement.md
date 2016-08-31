@@ -6,7 +6,7 @@ layout: post
 categories: [peace process]
 tags: [ndfp, cpp, npa]
 published: true
-permalink: /news/peace/2016-06-17-20160617T173849
+permalink: /news/20160617T173849
 image:
   layout: auto_width
   source: 

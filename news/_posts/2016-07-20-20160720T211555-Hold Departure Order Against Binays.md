@@ -6,7 +6,7 @@ layout: post
 categories: [other, criminality]
 tags: [hdo, binay, graft, sandiganbayan, makati]
 published: true
-permalink: /news/other/2016-07-20-20160720T211555
+permalink: /news/20160720T211555
 image:
   layout: auto_width
   source: 

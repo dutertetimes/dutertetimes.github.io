@@ -6,7 +6,7 @@ layout: post
 categories: [environment]
 tags: [environment summit, someday, social justice]
 published: true
-permalink: /news/environment/2016-08-06-20160806T014721
+permalink: /news/20160806T014721
 image:
   layout: auto_width
   source: 

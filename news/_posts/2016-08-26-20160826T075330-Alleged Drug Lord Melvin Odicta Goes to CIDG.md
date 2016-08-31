@@ -6,7 +6,7 @@ layout: post
 categories: [criminality]
 tags: [odicta]
 published: true
-permalink: /news/criminality/2016-08-26-20160826T075330
+permalink: /news/20160826T075330
 image:
   layout: auto_width
   source: 

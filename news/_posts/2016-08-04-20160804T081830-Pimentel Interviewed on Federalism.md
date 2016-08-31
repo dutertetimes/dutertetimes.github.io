@@ -6,7 +6,7 @@ layout: post
 categories: [other, senate]
 tags: [federalism]
 published: true
-permalink: /news/other/2016-08-04-20160804T081830
+permalink: /news/20160804T081830
 image:
   layout: auto_width
   source: 

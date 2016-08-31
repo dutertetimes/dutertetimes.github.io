@@ -6,7 +6,7 @@ layout: post
 categories: [top, agrarian, agriculture]
 tags: [emmanuel piñol, department of agriculture, agriculture]
 published: true
-permalink: /news/agrarian/2016-07-02-20160702T235234
+permalink: /news/20160702T235234
 image:
   layout: auto_width
   source: 

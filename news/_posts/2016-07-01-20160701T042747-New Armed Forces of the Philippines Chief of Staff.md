@@ -6,7 +6,7 @@ layout: post
 categories: [headline, military]
 tags: [afp, chief of staff, change of command]
 published: true
-permalink: /news/headline/2016-07-01-20160701T042747
+permalink: /news/20160701T042747
 image:
   layout: auto_width
   source: /post/afp_chief_of_staff_ltgen_ricardo_r_visaya_300x.png

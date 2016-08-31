@@ -6,7 +6,7 @@ layout: post
 categories: [peace process, cba-cpla]
 tags: [cordillera administrative region, car, anniversary]
 published: true
-permalink: /news/peace/2016-07-20-20160720T014442
+permalink: /news/20160720T014442
 image:
   layout: auto_width
   source: 

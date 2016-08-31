@@ -6,7 +6,7 @@ layout: post
 categories: [top, business]
 tags: [commerce, industry, economy, social, socioeconomic]
 published: true
-permalink: /news/business/2016-06-20-20160620T213320
+permalink: /news/20160620T213320
 redirect_from: /post/20160620T213320
 image:
   layout: auto_width

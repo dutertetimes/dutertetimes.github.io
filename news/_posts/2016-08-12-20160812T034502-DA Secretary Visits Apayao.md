@@ -6,7 +6,7 @@ layout: post
 categories: [agrarian, agriculture]
 tags: [saad]
 published: true
-permalink: /news/agrarian/2016-08-12-20160812T034502
+permalink: /news/20160812T034502
 image:
   layout: auto_width
   source: 

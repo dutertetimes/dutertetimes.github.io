@@ -6,7 +6,7 @@ layout: post
 categories: [business]
 tags: [shell, pspc, petroleum, nmif, import facility, cagayan de oro]
 published: true
-permalink: /news/business/2016-07-20-20160720T153720
+permalink: /news/20160720T153720
 image:
   layout: auto_width
   source: 

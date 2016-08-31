@@ -6,7 +6,7 @@ layout: post
 categories: [other, top, military]
 tags: [oath taking]
 published: true
-permalink: /news/military/2016-08-23-20160823T025909
+permalink: /news/20160823T025909
 image:
   layout: auto_width
   source: 

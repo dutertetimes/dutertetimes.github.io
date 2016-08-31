@@ -6,7 +6,7 @@ layout: post
 categories: [foreign affairs]
 tags: [japan, kishida]
 published: true
-permalink: /news/foreign_affairs/2016-08-06-20160806T160213
+permalink: /news/20160806T160213
 image:
   layout: auto_width
   source: 

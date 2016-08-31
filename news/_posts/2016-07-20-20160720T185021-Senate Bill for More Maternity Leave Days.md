@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [senate bill, bill, maternity leave]
 published: true
-permalink: /news/other/2016-07-20-20160720T185021
+permalink: /news/20160720T185021
 image:
   layout: auto_width
   source: 

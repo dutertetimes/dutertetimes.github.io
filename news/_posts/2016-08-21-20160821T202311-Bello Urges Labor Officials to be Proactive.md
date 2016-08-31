@@ -6,7 +6,7 @@ layout: post
 categories: [other, labor]
 tags: [ofw, philippine overseas labor office, polo, oil crisis, kingdom of saudi arabia, riyadh, jeddah]
 published: true
-permalink: /news/labor/2016-08-21-20160821T202311
+permalink: /news/20160821T202311
 image:
   layout: auto_width
   source: 

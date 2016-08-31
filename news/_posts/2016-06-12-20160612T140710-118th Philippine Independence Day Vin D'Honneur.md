@@ -6,7 +6,7 @@ layout: post
 categories: [headline]
 tags: [independence day, vin d honneur, aquino, pnoy]
 published: true
-permalink: /news/headline/2016-06-12-20160612T140710
+permalink: /news/20160612T140710
 image:
   layout: auto_width
   source:

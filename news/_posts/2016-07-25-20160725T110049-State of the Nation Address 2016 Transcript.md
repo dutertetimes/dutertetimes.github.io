@@ -6,7 +6,7 @@ layout: post
 categories: [headline]
 tags: [sona, duterte]
 published: true
-permalink: /news/headline/2016-07-25-20160725T110049
+permalink: /news/20160725T110049
 image:
   layout: auto_width
   source: 

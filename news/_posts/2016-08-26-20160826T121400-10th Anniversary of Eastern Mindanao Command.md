@@ -6,7 +6,7 @@ layout: post
 categories: [other, military]
 tags: [10th anniversary, anniversary, eastmincom]
 published: true
-permalink: /news/military/2016-08-26-20160826T121400
+permalink: /news/20160826T121400
 image:
   layout: auto_width
   source: 

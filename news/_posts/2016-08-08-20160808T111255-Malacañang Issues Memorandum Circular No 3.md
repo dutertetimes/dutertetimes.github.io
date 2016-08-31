@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [memorandum circular, memorandum circular 3]
 published: true
-permalink: /news/other/2016-08-08-20160808T111255
+permalink: /news/20160808T111255
 image:
   layout: auto_width
   source: 

@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [mrrv, tubbataha, maritime safety capability improvement project, mscip, japan international cooperation agency, jica, official development assistance, oda]
 published: true
-permalink: /news/other/2016-08-19-20160819T100952
+permalink: /news/20160819T100952
 image:
   layout: auto_width
   source:

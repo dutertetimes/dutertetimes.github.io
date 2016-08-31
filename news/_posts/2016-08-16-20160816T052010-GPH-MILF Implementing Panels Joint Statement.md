@@ -6,7 +6,7 @@ layout: post
 categories: [peace process, milf]
 tags: [bangsamoro, bangsamoro peace agreement]
 published: true
-permalink: /news/peace/2016-08-16-20160816T052010
+permalink: /news/20160816T052010
 image:
   layout: auto_width
   source: 

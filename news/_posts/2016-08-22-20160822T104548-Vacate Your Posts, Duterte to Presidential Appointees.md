@@ -6,7 +6,7 @@ layout: post
 categories: [headline]
 tags: [lto, ltfrb, government appointee, memorandum circular 4]
 published: true
-permalink: /news/headline/2016-08-22-20160822T104548
+permalink: /news/20160822T104548
 image:
   layout: auto_width
   source: 

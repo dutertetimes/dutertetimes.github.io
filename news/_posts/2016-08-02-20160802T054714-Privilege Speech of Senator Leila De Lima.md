@@ -6,7 +6,7 @@ layout: post
 categories: [criminality, senate]
 tags: [senate, privilege speech, 17th congress, extrajudicial killings, ejk]
 published: true
-permalink: /news/criminality/2016-08-02-20160802T054714
+permalink: /news/20160802T054714
 image:
   layout: auto_width
   source: 

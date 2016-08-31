@@ -6,7 +6,7 @@ layout: post
 categories: [other, criminality]
 tags: [volunteers against crime and corruption, vacc, founding anniversary, anniversary]
 published: true
-permalink: /news/criminality/2016-08-29-20160829T105825
+permalink: /news/20160829T105825
 image:
   layout: auto_width
   source: 

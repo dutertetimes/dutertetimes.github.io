@@ -6,7 +6,7 @@ layout: post
 categories: [top, environment]
 tags: [oya mindanao, state of mindanao environment day]
 published: true
-permalink: /news/environment/2016-08-06-20160806T015945
+permalink: /news/20160806T015945
 image:
   layout: auto_width
   source: 

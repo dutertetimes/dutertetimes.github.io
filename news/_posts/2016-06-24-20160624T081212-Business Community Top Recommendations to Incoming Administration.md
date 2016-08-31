@@ -6,7 +6,7 @@ layout: post
 categories: [top, business]
 tags: [commerce, industry, pcci]
 published: true
-permalink: /news/business/2016-06-24-20160624T081212
+permalink: /news/20160624T081212
 redirect_from: /post/20160624T081212
 image:
   layout: auto_width

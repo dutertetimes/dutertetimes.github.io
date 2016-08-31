@@ -6,7 +6,7 @@ layout: post
 categories: [headline, governance]
 tags: [freedom of information, foi]
 published: true
-permalink: /news/other/2016-07-25-20160725T121359
+permalink: /news/20160725T121359
 image:
   layout: auto_width
   source: 

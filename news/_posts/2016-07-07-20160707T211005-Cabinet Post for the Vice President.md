@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: 
 published: true
-permalink: /news/other/2016-07-07-20160707T211005
+permalink: /news/20160707T211005
 image:
   layout: auto_width
   source: 

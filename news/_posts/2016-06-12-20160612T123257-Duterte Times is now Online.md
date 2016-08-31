@@ -6,7 +6,7 @@ layout: post
 categories: [headline]
 tags: [duterte times, online, launch]
 published: true
-permalink: /news/headline/2016-06-12-20160612T123257
+permalink: /news/20160612T123257
 image:
   layout: auto_width
   source:

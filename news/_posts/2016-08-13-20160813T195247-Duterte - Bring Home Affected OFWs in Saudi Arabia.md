@@ -6,7 +6,7 @@ layout: post
 categories: [other, labor]
 tags: [ofw, kingdom of saudi arabia, ksa, oil crisis]
 published: true
-permalink: /news/labor/2016-08-13-20160813T195247
+permalink: /news/20160813T195247
 image:
   layout: auto_width
   source: 

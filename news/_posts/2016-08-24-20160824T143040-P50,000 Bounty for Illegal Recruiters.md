@@ -6,7 +6,7 @@ layout: post
 categories: [other, labor]
 tags: [ofw, illegal recruiter, overseas]
 published: true
-permalink: /news/labor/2016-08-24-20160824T143040
+permalink: /news/20160824T143040
 image:
   layout: auto_width
   source: 

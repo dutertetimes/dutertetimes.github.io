@@ -6,7 +6,7 @@ layout: post
 categories: [peace process, mnlf, milf]
 tags: [mnlf, milf, bangsamoro]
 published: true
-permalink: /news/peace/2016-08-21-20160821T030047
+permalink: /news/20160821T030047
 image:
   layout: auto_width
   source: 

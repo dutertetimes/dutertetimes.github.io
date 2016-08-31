@@ -6,7 +6,7 @@ layout: post
 categories: [top, foreign affairs]
 tags: [asean, dfa]
 published: true
-permalink: /news/foreign_affairs/2016-08-08-20160808T152742
+permalink: /news/20160808T152742
 image:
   layout: auto_width
   source: 

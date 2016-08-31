@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [press conference]
 published: true
-permalink: /news/other/2016-08-22-20160822T041224
+permalink: /news/20160822T041224
 image:
   layout: auto_width
   source: 

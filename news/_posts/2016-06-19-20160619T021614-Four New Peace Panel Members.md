@@ -6,7 +6,7 @@ layout: post
 categories: [peace process]
 tags: [peace panel, hernani braganza, rene sarmiento, angela librado-trinidad, noel felongco]
 published: true
-permalink: /news/peace/2016-06-19-20160619T021614
+permalink: /news/20160619T021614
 image:
   layout: auto_width
   source: 

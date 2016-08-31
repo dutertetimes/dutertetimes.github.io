@@ -6,7 +6,7 @@ layout: post
 categories: [other, top, pnp]
 tags: [pnp, statement]
 published: true
-permalink: /news/other/2016-07-02-20160702T050516
+permalink: /news/20160702T050516
 image:
   layout: auto_width
   source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png

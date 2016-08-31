@@ -6,7 +6,7 @@ layout: post
 categories: [agrarian, agrarian reform]
 tags: [carp, pakisama, rene cerilla, danding cojuangco]
 published: true
-permalink: /news/agrarian/2016-07-23-20160723T080836
+permalink: /news/20160723T080836
 image:
   layout: auto_width
   source: 

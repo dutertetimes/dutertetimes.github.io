@@ -6,7 +6,7 @@ layout: post
 categories: [other, pnp]
 tags: [event, police service anniversary]
 published: true
-permalink: /news/pnp/2016-08-17-20160817T150602
+permalink: /news/20160817T150602
 image:
   layout: auto_width
   source: 

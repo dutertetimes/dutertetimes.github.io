@@ -6,7 +6,7 @@ layout: post
 categories: [peace process, milf]
 tags: [bangsamoro]
 published: true
-permalink: /news/peace/2016-08-15-20160815T052953
+permalink: /news/20160815T052953
 image:
   layout: auto_width
   source: 

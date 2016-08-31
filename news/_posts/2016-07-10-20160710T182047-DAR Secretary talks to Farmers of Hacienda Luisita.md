@@ -6,7 +6,7 @@ layout: post
 categories: [top, agrarian, agrarian reform]
 tags: [hacienda luisita]
 published: true
-permalink: /:path
+permalink: /news/20160710T182047
 image:
   layout: auto_width
   source: 

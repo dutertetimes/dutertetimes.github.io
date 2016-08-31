@@ -6,7 +6,7 @@ layout: post
 categories: [other, governance]
 tags: [presidential communication office]
 published: true
-permalink: /news/other/2016-08-22-20160822T072117
+permalink: /news/20160822T072117
 image:
   layout: auto_width
   source: 

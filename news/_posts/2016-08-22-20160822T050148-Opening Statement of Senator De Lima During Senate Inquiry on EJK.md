@@ -6,7 +6,7 @@ layout: post
 categories: [top, criminality]
 tags: [senate inquiry, extrajudicial killings, ejk]
 published: true
-permalink: /news/criminality/2016-08-22-20160822T050148
+permalink: /news/20160822T050148
 image:
   layout: auto_width
   source: 

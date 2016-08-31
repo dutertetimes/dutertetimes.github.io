@@ -6,7 +6,7 @@ layout: post
 categories: [peace process]
 tags: [cpp, npa, ndf, ndfp, ceasefire, unilateral ceasefire]
 published: true
-permalink: /news/peace/2016-07-31-20160731T022951
+permalink: /news/20160731T022951
 image:
   layout: auto_width
   source: 

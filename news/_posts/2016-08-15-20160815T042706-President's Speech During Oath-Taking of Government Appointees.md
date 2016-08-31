@@ -6,7 +6,7 @@ layout: post
 categories: [other, governance]
 tags: [oath taking]
 published: true
-permalink: /news/other/2016-08-15-20160815T042706
+permalink: /news/20160815T042706
 image:
  layout: auto_width
  source: 
