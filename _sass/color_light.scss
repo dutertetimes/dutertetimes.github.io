@@ -49,8 +49,8 @@ $color_blockquote:              lighten($color_text, 30%);
 $color_blockquote_bar:          darken($color_main_bg, 7%);
 $color_blockquote_bg:           darken($color_main_bg, 2%);
 
-$color_image_bg:                lighten($color_bg, 8%);
-$color_image_attribution:       lighten($color_text, 20%);
+$color_image_bg:                $color_bg;
+$color_image_attribution:       lighten($color_text, 10%);
 
 // Specifics
 // -----------------------------------------------------------------------------
