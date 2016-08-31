@@ -272,9 +272,17 @@
 
 @mixin attribution {
     @include set_font($font_attribution, $font_size_attribution, $color_image_attribution, normal, italic);
+    @include max-screen(720px) {
+        font-size: $font_size_attribution - 1;
+    }
     text-align: right;
-    padding: 2px 0px 3px 0px;
-    margin: 2px 0 0 0;
+    @include min-screen(720px + 1px) {
+        @include compact;
+    }
+    @include max-screen(720px) {
+        margin: 2px 0 0 0;
+        padding: 2px 0px 3px 0px;
+    }
 }
 
 @mixin button {
