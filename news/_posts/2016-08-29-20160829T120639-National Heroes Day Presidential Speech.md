@@ -6,7 +6,7 @@ layout: post
 categories: [other]
 tags: [national heroes day]
 published: true
-permalink: /news/other/2016-08-29-20160829T120639
+permalink: /news/20160829T120639
 image:
   layout: auto_width
   source: 

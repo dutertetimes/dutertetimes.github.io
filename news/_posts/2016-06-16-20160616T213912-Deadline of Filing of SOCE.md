@@ -7,6 +7,7 @@ categories: [other]
 tags: [comelec, election, soce, liberal party]
 published: true
 permalink: /news/other/2016-06-16-20160616T213912
+redirect_from: /post/20160616T213912
 ---
 
 [Republic Act 7166], approved on November 26, 1991 under former President Corazon C. Aquino, is an act providing for synchronized national and local elections and for electoral reforms, authorizing appropriations therefor, and for other purposes.

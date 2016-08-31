@@ -7,6 +7,7 @@ categories: [other]
 tags: [comelec, election, soce, christian robert lim]
 published: true
 permalink: /news/other/2016-06-20-20160620T161719
+redirect_from: /post/20160620T161719
 image:
   layout: auto_width
   source:
