@@ -8,6 +8,23 @@ tags: [comelec, election, soce, liberal party]
 published: true
 permalink: /news/other/2016-06-16-20160616T213912
 redirect_from: /post/20160616T213912
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: [top | bottom]
+  source:
+  attribution:
+sources:
+  - label: Manila Bulletin
+    link: http://www.mb.com.ph/comelec-grants-request-of-lp-and-roxas-to-extend-the-filing-of-soces-until-june-30/
+  - label: Philippine Daily Inquirer
+    link: http://newsinfo.inquirer.net/791038/comelec-explains-accepting-late-lp-soce-lets-not-defeat-peoples-will
+  - label: Manila Times
+    link: http://www.manilatimes.net/comelec-allows-late-soce-filing/268247/
+  - label: Interaksyon
+    link: http://interaksyon.com/article/128390/comelec-reminds-all-candidates-to-submit-their-statement-of-contributions-and-expenditures
 ---
 
 [Republic Act 7166], approved on November 26, 1991 under former President Corazon C. Aquino, is an act providing for synchronized national and local elections and for electoral reforms, authorizing appropriations therefor, and for other purposes.
@@ -178,15 +195,3 @@ Comelec spokesman Dan Jimenez on deadline extension: "_The decision was backed b
 [Republic Act 7166]: http://www.comelec.gov.ph/?r=References/RelatedLaws/ElectionLaws/SynchronizedNationalandLocal/RA7166
 [Resolution 9991]: http://www.comelec.gov.ph/?r=2016NLE/Resolutions/res9991
 [Rule 10, Section 2]: http://www.comelec.gov.ph/?r=2016NLE/Resolutions/res9991/rule10
-
-
-
-{% comment %}
-[](http://www.mb.com.ph/comelec-grants-request-of-lp-and-roxas-to-extend-the-filing-of-soces-until-june-30/)
-[](http://newsinfo.inquirer.net/791038/comelec-explains-accepting-late-lp-soce-lets-not-defeat-peoples-will)
-[](http://www.thinkingpinoy.net/2016/06/lenis-possible-defense-strike-down-soce.html)
-[](http://www.manilatimes.net/comelec-allows-late-soce-filing/268247/)
-[](http://www.thinkingpinoy.net/2016/06/june-30-soce-extension-leni-robredo.html)
-[](http://interaksyon.com/article/128390/comelec-reminds-all-candidates-to-submit-their-statement-of-contributions-and-expenditures)
-[](http://www.manilatimes.net/comelec-allows-late-soce-filing/268247/)
-{% endcomment %}

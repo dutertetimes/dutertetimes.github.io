@@ -7,10 +7,17 @@ categories: [headline]
 tags: [independence day, vin d honneur, aquino, pnoy]
 published: true
 permalink: /news/headline/2016-06-12-20160612T140710
+image:
+  layout: auto_width
+  source:
+  attribution:
 video:
   layout: top
   source: ekiXQM5D-s4
   attribution: RTVM
+Sources:
+  - label: Philippine Information Agency
+    link: http://news.pia.gov.ph/article/view/1141465540753
 ---
 
 Watch the 118th Philippine Independence Day Vin D’Honneur led by President Benigno S. Aquino III.
@@ -25,4 +32,3 @@ He addressed the Filipino people, saying,
 Here is a link to the full transcript of the [speech in English](http://www.gov.ph/2016/06/12/aquino-toast-kalayaan-english/).
 
 &#x25cf;
-[PIA News](http://news.pia.gov.ph/article/view/1141465540753)

@@ -7,6 +7,17 @@ categories: [headline]
 tags: [duterte times, online, launch]
 published: true
 permalink: /news/headline/2016-06-12-20160612T123257
+image:
+  layout: auto_width
+  source:
+  attribution:
+video:
+  layout: [top | bottom]
+  source:
+  attribution:
+Sources:
+  - label:
+    link:
 ---
 
 Duterte Times is an alternative online news about the Philippines.
