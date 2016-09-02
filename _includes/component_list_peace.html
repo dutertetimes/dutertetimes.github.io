@@ -11,8 +11,7 @@
 
 {% if peaceProcessPostCount > 0 %}
     {% assign peaceProcessPostCount = 0 %}
-<div class="block block_default_fonts right">
-    <h1>Peace Process</h1>
+<div class="block sub_block block_default_fonts right">
     <div class="entries">
         {% for post in site.categories['peace process'] %}
             {% if post.categories contains 'top' or post.categories contains 'headline' %}

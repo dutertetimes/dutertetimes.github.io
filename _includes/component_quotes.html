@@ -1,10 +1,10 @@
-<div id="random_quotes_block">
-    <div class="random_quotes">
+<div id="random_quotes_block" class="block">
+    <div id="random_quotes" class="entries">
     </div>
 </div>
 
 <script>
 var quoteTotal = {{ site.data.quotes.size }} ;
 var quoteIndex = Math.floor(Math.random() * quoteTotal);
-$('.random_quotes').load('/resource/quotes.html div#quote_' + quoteIndex);
+$('#random_quotes').load('/resource/quotes.html div#quote_' + quoteIndex);
 </script>

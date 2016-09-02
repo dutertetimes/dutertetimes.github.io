@@ -1,0 +1,48 @@
+{% assign opinionPostCount = 0 %}
+{% if site.categories['opinion'].size > 0 %}
+    {% for post in site.categories['opinion'] %}
+        {% if post.categories contains 'top' or post.categories contains 'headline' %}
+            {% continue %}
+        {% endif %}
+        {% assign opinionPostCount = opinionPostCount | plus: 1 %}
+        {% break %}
+    {% endfor %}
+{% endif %}
+
+{% if opinionPostCount > 0 %}
+<div id="opinion_block" class="block block_default_fonts">
+    <h1>Opinion</h1>
+    <div class="entries">
+        {% for post in site.categories['opinion'] limit:3 %}
+        <div class="entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            {% comment %}
+            <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip | remove: '"' }}</p>
+            {% endcomment %}
+            <p class="excerpt">
+                {{ post.content }}
+            </p>
+            {% if post.sources.size and post.sources.size > 0 and post.sources[0].link %}
+            <p>Sources:
+                {% for source in post.sources %}
+                    {% if source.link %}
+                <span><a href="{{ source.link }}">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
+                    {% else %}
+                <span>{{ source.label }}</span>{% unless forloop.last %},{% endunless %}
+                    {% endif %}
+                {% endfor %}
+            </p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% else %}
+<div id="opinion_block" class="block block_default_fonts">
+    <h1>Opinion</h1>
+    <div class="entries">
+        <p class="no_entries">There are no opinion posts available.</p>
+    </div>
+</div>
+{% endif %}

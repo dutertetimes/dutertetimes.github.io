@@ -3,13 +3,30 @@
 div.block {
     @include sidebar_component;
     padding-bottom: 0;
+    background: $color_sidebar_bg;
 
     h1 {
-        @include sidebar_component_label;
+        font-family: $font_label;
+        font-size: $font_size_label;
+        @include max-screen(720px) {
+            font-size: $font_size_label + 1;
+        }
+        font-weight: bold;
+        color: $color_sidebar_label;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.25px;
+        margin: 0;
+        padding-top: 1px;
+        float: left;
+        display: inline;
     }
 
     div.links {
-        @include component_links;
+        margin: 0 0 0 10px;
+        padding: 0;
+        float: left;
+        display: inline;
     }
 
     div.entries {
@@ -24,7 +41,8 @@ div.block {
         div.entry {
             width: 100%;
             float: left;
-
+            background: lighten($color_bg, 5%);
+            background: transparent;
             margin-top: 10px;
             div.entries + & {
                 margin-top: 0;
@@ -57,6 +75,20 @@ div.block {
                 }
             }
         }
+    }
+}
+
+
+
+div.sub_block {
+    // No padding at the top
+    // Less vertical spacing between the slider and list blocks
+    padding: 0 10px 10px 10px;
+    background: lighten($color_bg, 12%) !important;
+    border: 1px solid lighten($color_bg, 5%);
+    border-radius: 2px;
+    & > div.entries {
+        margin-bottom: 0 !important;
     }
 }
 

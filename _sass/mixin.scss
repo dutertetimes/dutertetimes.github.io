@@ -164,7 +164,7 @@
     @include compact;
     @include set_padding_v(10px, 12px);
     float: left;
-    background: $color_sidebar_bg;
+    //background: $color_sidebar_bg;
 }
 
 // Component block that has borders
@@ -186,32 +186,6 @@
     @include sidebar_component_boxed($shadow);
     // Padding between scrollbar and outer box
     padding-right: 2px;
-}
-
-// Component block header text
-// Header text h1 is inside the component block
-@mixin sidebar_component_label {
-    @include set_font($font_label, $font_size_label, $color_sidebar_label, bold);
-    @include max-screen(720px) {
-        font-size: $font_size_label + 1;
-    }
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 0.25px;
-    margin: 0;
-    margin-bottom: 0;
-    padding-top: 1px;
-    float: left;
-    display: inline;
-}
-
-// Component block header links
-// header links are at the right side of the component block header text
-@mixin component_links {
-    margin: 0 0 0 10px;
-    padding: 0;
-    float: left;
-    display: inline;
 }
 
 // Internal of component block

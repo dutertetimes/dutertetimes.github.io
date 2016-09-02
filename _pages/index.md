@@ -5,35 +5,50 @@ excerpt:
 permalink: /
 ---
 
-<div class="news_top_container">
+<div class="news_section_container">
     <div class="left_container">
         {% include component_slideshow_headline.html %}
-        {% include component_slideshow_criminality.html %}
-        {% include component_slideshow_peace.html %}
-        {% include component_slideshow_agrarian.html %}
-        {% include component_slideshow_environment.html %}
-        {% include component_slideshow_business.html %}
-        {% include component_slideshow_foreign_affairs.html %}
-    </div>
-    <div class="right_container">
         {% include component_list_others.html %}
     </div>
+    <div class="right_container">
+        {% include component_list_opinion.html %}
+    </div>
 </div>
 
 <div class="news_section_container">
+    <div class="left_container">
+    {% include component_slideshow_criminality.html %}
     {% include component_list_criminality.html %}
+    </div>
+
+    <div class="right_container">
+    {% include component_slideshow_peace.html %}
     {% include component_list_peace.html %}
-    
+    </div>
 </div>
 
 <div class="news_section_container">
+    <div class="left_container">
+    {% include component_slideshow_agrarian.html %}
     {% include component_list_agrarian.html %}
+    </div>
+
+    <div class="right_container">
+    {% include component_slideshow_environment.html %}
     {% include component_list_environment.html %}
+    </div>
 </div>
 
 <div class="news_section_container">
+    <div class="left_container">
+    {% include component_slideshow_business.html %}
     {% include component_list_business.html %}
+    </div>
+
+    <div class="right_container">
+    {% include component_slideshow_foreign_affairs.html %}
     {% include component_list_foreign_affairs.html %}
+    </div>
 </div>
 
 
