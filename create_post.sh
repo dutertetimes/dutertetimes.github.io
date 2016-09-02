@@ -23,6 +23,7 @@ function show_usage {
     echo "  -i, --info      Informational post file"
     echo "  -nb             News bit file"
     echo "  -n, --news      News post file"
+    echo "  -o, --opinion   Opinion post file"
     echo "  -h, --help      Show usage"
 }
 
@@ -73,7 +74,7 @@ function create_news_post {
                 echo "published: true" >> $filename
             fi
         fi
-        echo "permalink: /news/.../$current_date-$current_short" >> $filename
+        echo "permalink: /news/$current_short" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
@@ -89,6 +90,46 @@ function create_news_post {
         add_empty
 
         echo "News post file created: $filename"
+    fi
+}
+
+function create_opinion_post {
+    if [ -e $filename ]; then
+        echo "File ($filename) already exists."
+    else
+        touch $filename
+
+        add_yaml_bar
+        add_default "Opinion"
+        echo "excerpt: " >> $filename
+        echo "layout: post" >> $filename
+        echo "categories: [opinion]" >> $filename
+        echo "tags: []" >> $filename
+        if [ $# -eq 0 ]; then
+            echo "published: true" >> $filename
+        else
+            if [ "$1" = "draft" ]; then
+                echo "published: false" >> $filename
+            else
+                echo "published: true" >> $filename
+            fi
+        fi
+        echo "permalink: /news/$current_short" >> $filename
+        echo "image:" >> $filename
+        echo "  layout: auto_width" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
+        echo "video:" >> $filename
+        echo "  layout: [top | bottom]" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
+        echo "sources:" >> $filename
+        echo "  - label:" >> $filename
+        echo "    link:" >> $filename
+        add_yaml_bar
+        add_empty
+
+        echo "Opinion post file created: $filename"
     fi
 }
 
@@ -229,6 +270,9 @@ case $1 in
                         exit
                         ;;
     -n | --news )       create_news_post
+                        exit
+                        ;;
+    -o | --opinion )    create_opinion_post
                         exit
                         ;;
     -h | --help )       show_usage
