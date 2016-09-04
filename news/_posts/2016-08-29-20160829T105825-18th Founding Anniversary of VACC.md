@@ -20,7 +20,10 @@ sources:
     link:
 ---
 
-The Volunteers Against Crime and Corruption (VACC) celebrated their 18th founding anniversary in Malacañan Palace with the theme 'Kabalikat sa Tunay na Pagbabago'. President Duterte made a speech as their guest of honor. Senator Koko Pimentel was also in the event.
+The Volunteers Against Crime and Corruption (VACC) celebrated their 18th founding anniversary in Malacañan Palace with the theme 'Kabalikat sa Tunay na Pagbabago'.
+President Duterte made a speech as their guest of honor.
+Senator Koko Pimentel was also in the event.
 
-VACC was founded on 3 August, 1998 by eleven (11) incorporators who composedits first Board of Trustees. The original officers of the organization were mostly victims of heinouscrimes, noted lawyers, civic-minded businessmen and youth leaders led by Dante LA Jimenezand Lauro G. Vizconde.
+VACC was founded on 3 August, 1998 by eleven (11) incorporators who composed its first Board of Trustees.
+The original officers of the organization were mostly victims of heinous crimes, noted lawyers, civic-minded businessmen and youth leaders led by Dante LA. Jimenez and Lauro G. Vizconde.
 &#x25cf;
