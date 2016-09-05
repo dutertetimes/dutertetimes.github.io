@@ -57,9 +57,9 @@ section.hub_column_main {
             // No padding at the top
             // Less vertical spacing between the slider and list blocks
             padding: 0 10px 10px 10px;
-            background: lighten($color_bg, 12%);
+            background: $color_news_background;
             border-radius: 3px;
-            border: 1px solid lighten($color_bg, 5%);
+            border: 1px solid $color_news_line;
             flex: 1;
 
             & > div.entries {
