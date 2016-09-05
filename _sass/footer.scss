@@ -33,26 +33,37 @@ footer {
         margin: 25px 25px 0px 25px;
         padding: 0;
 
+        #footer_column_leftmost,
+        #footer_column_rightmost,
         #footer_column_one,
         #footer_column_two,
-        #footer_column_three,
-        #footer_column_four {
+        #footer_column_three {
             float: left;
             @include compact;
             margin-bottom: 25px;
         }
 
-        #footer_column_one,
-        #footer_column_four {
+        #footer_column_leftmost,
+        #footer_column_rightmost {
             width: 240px;
         }
 
+
+
+        #footer_column_one,
         #footer_column_two,
         #footer_column_three {
             @include min-screen(768px + 1px) {
                 margin-left: 25px;
             }
-            width: 300px;
+            width: 200px;
+        }
+
+        #footer_column_rightmost {
+            @include min-screen(768px + 1px) {
+                float: right;
+                text-align: right;
+            }
         }
 
         div.license {
@@ -77,13 +88,6 @@ footer {
                 font-weight: bold;
             }
         }
-
-        #footer_column_four {
-            @include min-screen(768px + 1px) {
-                float: right;
-                text-align: right;
-            }
-        }
     }
 
     #footer_bottom {
@@ -100,10 +104,11 @@ footer {
 
     @media print {
         border: none;
+        #footer_column_leftmost,
+        #footer_column_rightmost,
         #footer_column_one,
         #footer_column_two,
-        #footer_column_three,
-        #footer_column_four {
+        #footer_column_three {
             display: none;
         }
     }
@@ -114,10 +119,11 @@ footer {
     width: 100%;
     padding: 20px 0px 15px 0px;
     margin-left: 5px;
+    #footer_column_leftmost,
+    #footer_column_rightmost,
     #prefooter_column_one,
     #prefooter_column_two,
-    #prefooter_column_three,
-    #prefooter_column_four {
+    #prefooter_column_three {
         float: left;
         width: 282px;
         padding-right: 30px;
