@@ -12,6 +12,7 @@
 @import "layout_hub";
 @import "layout_post";
 @import "layout_page";
+@import "layout_info";
 
 @import "sources";
 
@@ -317,28 +318,13 @@ main {
 
 section {
 
-    @include min-screen(1281px) {
+    @include min-screen(1024px) {
         &.column_left_sidebar,
         &.column_right_sidebar  { width: 270px; }
         &.hub_column_main,
         &.post_column_main,
-        &.page_column_main      { width: calc(100% - 270px - 270px - 60px); }
-    }
-
-    @include max-screen(1280px) {
-        &.column_left_sidebar,
-        &.column_right_sidebar  { width: 270px; }
-        &.hub_column_main,
-        &.post_column_main,
-        &.page_column_main      { width: calc(100% - 270px - 270px - 60px); }
-    }
-
-    @include max-screen(1024px) {
-        &.column_left_sidebar,
-        &.column_right_sidebar  { width: 270px; }
-        &.hub_column_main,
-        &.post_column_main,
-        &.page_column_main      { width: calc(100% - 270px - 270px - 60px); }
+        &.page_column_main,
+        &.info_column_main      { width: calc(100% - 270px - 270px - 60px); }
     }
 
     @include max-screen(720px) {
@@ -356,6 +342,7 @@ section {
     &.hub_column_main,
     &.post_column_main,
     &.page_column_main,
+    &.info_column_main,
     &.column_right_sidebar {
         float: left;
         font-family: $font_default;
@@ -366,7 +353,8 @@ section {
     }
 
     &.post_column_main,
-    &.page_column_main {
+    &.page_column_main,
+    &.info_column_main {
         margin-top: 15px;
     }
 

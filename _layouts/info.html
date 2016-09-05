@@ -4,21 +4,9 @@ layout: default
 
 {% include info_left_sidebar.html %}
 
-<section class="post_column_main">
+<section class="info_column_main">
 
     <h1>{{ page.title }}</h1>
-    {% if site.development %}
-    <div class="meta">
-        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
-        {% if page.date %}
-            <p class="date">{{ page.date | date: site.data.format.date_only }}</p>
-        {% else %}
-            <p class="date">Undated</p>
-        {% endif %}
-        <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
-        <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
-    </div>
-    {% endif %}
 
     {{ content }}
 

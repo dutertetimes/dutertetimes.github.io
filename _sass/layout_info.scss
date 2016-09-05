@@ -1,0 +1,36 @@
+section.info_column_main {
+
+    @include set_margin_h(50px, 40px);
+    @include max-screen(768px) {
+        @include set_margin_h(15px, 15px);
+    }
+
+    div.left_container,
+    div.mid_container,
+    div.right_container {
+        float: left;
+        margin-top: 15px;
+
+        @include max-screen(1024px) {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        @include min-screen(1024px + 1px) {
+            width: calc(60%);
+        }
+
+        border-top: 3px solid $color_primary;
+    }
+
+    div.block {
+        h1 {
+            width: 100%;
+            display: inline-block;
+        }
+        h1 + p {
+            margin: 10px 0 0px 0;
+            padding-top: 10px;
+        }
+    }
+}

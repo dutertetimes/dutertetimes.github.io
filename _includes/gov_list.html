@@ -1,0 +1,47 @@
+{% assign executive = site.data.gov | where: "branch", include.branch | where: "scope", "top" %}
+<div class="block block_default_fonts">
+    <h1>{{ include.branch_name }}</h1>
+    <p>{{ executive[0].description }}</p>
+    <div class="entries">
+        {% for entry in executive %}
+        <div class="entry">
+            <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
+
+            {% if post.excerpt %}
+            <p class="excerpt">{{ entry.excerpt }}</p>
+            {% endif %}
+
+            <ul>
+            {% if entry.link.size and entry.link.size > 1 %}
+                {% for linkitem in entry.link offset: 1%}
+                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.label }}</a></li>
+                {% endfor %}
+            {% endif %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% assign executive = site.data.gov | where: "branch", include.branch | where: "scope", "department" %}
+<div class="block block_compact_fonts">
+    <div class="entries">
+        {% for entry in executive %}
+        <div class="entry">
+            <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
+
+            {% if post.excerpt %}
+            <p class="excerpt">{{ entry.excerpt }}</p>
+            {% endif %}
+
+            <ul>
+            {% if entry.link.size and entry.link.size > 1 %}
+                {% for linkitem in entry.link offset: 1%}
+                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.label }}</a></li>
+                {% endfor %}
+            {% endif %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>

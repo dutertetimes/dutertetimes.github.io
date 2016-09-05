@@ -1,0 +1,312 @@
+[
+    {
+        "name":         "Government of the Republic of the Philippines",
+        "description":  "The Philippines is a republic with a presidential form of government wherein power is equally divided among its three branches: executive, legislative, and judicial. One basic corollary in a presidential system of government is the principle of separation of powers wherein legislation belongs to Congress, execution to the Executive, and settlement of legal controversies to the Judiciary.",
+        "branch":       "gov",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.gov.ph/" },
+                            { "label": "Facebook", "url": "https://www.facebook.com/govph" },
+                        ]
+    },
+    {
+        "name":         "President",
+        "description":  "The Executive branch is composed of the President and the Vice President who are elected by direct popular vote and serve a term of six years. The Constitution grants the President authority to appoint his Cabinet. These departments form a large portion of the country’s bureaucracy.",
+        "branch":       "executive",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.president.gov.ph/" },
+                            { "label": "Facebook", "url": "http://facebook.com/govph" },
+                        ]
+    },
+    {
+        "name":         "Vice President",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.ovp.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Interior and Local Government",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dilg.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Trade and Industry",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dti.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Finance",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dof.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Health",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.doh.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Education",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.deped.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Science and Technology",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dost.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Agriculture",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.da.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Agrarian Reform",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dar.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Budget and Management",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dbm.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Budget and Management",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dbm.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Environment and Natural Resources",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.denr.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Labor and Employment",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dole.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Foreign Affairs",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dfa.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Energy",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.doe.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Information and Communications Technology",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dict.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Justice",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.doj.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of National Defense",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dnd.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Public Works and Highways",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dpwh.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Transportation",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dotc.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Social Welfare and Development",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dswd.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Tourism",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "department",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.tourism.gov.ph/pages/default.aspx" },
+                        ]
+    },
+    
+    
+    
+    {
+        "name":         "Senate",
+        "description":  "The Legislative branch is authorized to make laws, alter, and repeal them through the power vested in the Philippine Congress. This institution is divided into the Senate and the House of Representatives.",
+        "branch":       "legislative",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.senate.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "House of Representatives",
+        "description":  "",
+        "branch":       "legislative",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.congress.gov.ph/" },
+                        ]
+    },
+    
+    
+    
+    {
+        "name":         "Supreme Court",
+        "description":  "The Judicial branch holds the power to settle controversies involving rights that are legally demandable and enforceable. This branch determines whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part and instrumentality of the government. It is made up of a Supreme Court and lower courts. The Constitution expressly grants the Supreme Court the power of Judicial Review as the power to declare a treaty, international or executive agreement, law, presidential decree, proclamation, order, instruction, ordinance or regulation unconstitutional.",
+        "branch":       "judiciary",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://sc.judiciary.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Court of Appeals",
+        "description":  "",
+        "branch":       "judiciary",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://ca.judiciary.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Sandiganbayan",
+        "description":  "",
+        "branch":       "judiciary",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://sb.judiciary.gov.ph/" },
+                        ]
+    },
+    
+    
+    
+    {
+        "name":         "Civil Service Commission",
+        "description":  "",
+        "branch":       "commissions",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.csc.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Commission on Elections",
+        "description":  "",
+        "branch":       "commissions",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.comelec.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Commission on Audit",
+        "description":  "",
+        "branch":       "commissions",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.coa.gov.ph/" },
+                        ]
+    },
+    
+    
+    
+    {
+        "name":         "Office of the Ombudsman",
+        "description":  "",
+        "branch":       "ombudsman",
+        "scope":        "top",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.ombudsman.gov.ph/" },
+                        ]
+    },
+]
