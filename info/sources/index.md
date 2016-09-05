@@ -15,6 +15,7 @@ published: true
 | [President of the Republic of the Philippines](http://www.president.gov.ph/)
 | [Senate of the Philippines](http://www.senate.gov.ph/)
 | [House of Representatives of the Philippines](http://www.congress.gov.ph/)
+| [Supreme Court](http://sc.judiciary.gov.ph/)
 | [Presidential Communications (facebook)](https://www.facebook.com/presidentialcom)
 | [Laging Handa](http://www.gov.ph/laginghanda/)
 | [Laging Handa (facebook)](http://www.facebook.com/LagingHandaPHL)
@@ -132,3 +133,4 @@ published: true
 | [Kalikasan](http://www.kalikasan.net/)
 | [News Now](http://www.newsnow.ph/)
 | [Arangkada Philippines](http://www.investphilippines.info/)
+| [Northern Philippine Times](http://northphiltimes.blogspot.com/)
