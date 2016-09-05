@@ -25,4 +25,6 @@ President Rodrigo Roa Duterte will be going to Vientiane, Lao People's Democrati
 The three-day event will discuss the community building efforts especially with the implementation of the ASEAN Community Vision 2025, as well as focus on ASEAN's external relations and future direction, including the exchange of views on regional and international issues of common interest and concern.
 
 On the final day of the Summits, the ASEAN Chairmanship will be handed over to the Philippines where the country is set to host next year's Summits in conjunction with the Grand Commemorative Celebration of ASEAN's 50th Anniversary.
+
+During his speech at Davao airport before leaving for Lao, he laid out his agenda for the 28th and 29th ASEAN Summits saying, "I will take the opportunity to discuss with them important regional and international issues that impact on the peace, security, stability, and the prosperity of our region."
 &#x25cf;
