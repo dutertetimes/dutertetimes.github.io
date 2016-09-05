@@ -12,7 +12,7 @@ image:
   source: 
   attribution: 
 video:
-  layout: [top | bottom]
+  layout: top
   source: eJ8Zm7xSSSA
   attribution: RTVM
 sources:
