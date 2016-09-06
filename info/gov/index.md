@@ -29,7 +29,7 @@ published: true
     <div class="entries">
     {% for branch in branches %}
         <div class="entry">
-            <h2>{{ branch.branch }}</h2>
+            <h2>{{ branch.branch | capitalize }}</h2>
             <p>{{ branch.description }}</p>
         </div>
     {% endfor %}
