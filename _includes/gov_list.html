@@ -1,14 +1,16 @@
-{% assign executive = site.data.gov | where: "branch", include.branch | where: "scope", "top" %}
+{% assign branch = site.data.gov | where: "branch", include.branch | where: "scope", "top" %}
 <div class="block block_default_fonts">
     <h1>{{ include.branch_name }}</h1>
-    <p>{{ executive[0].description }}</p>
+    {% comment %}
+    <p>{{ branch[0].description }}</p>
+    {% endcomment %}
     <div class="entries">
-        {% for entry in executive %}
+        {% for entry in branch %}
         <div class="entry">
             <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
 
-            {% if post.excerpt %}
-            <p class="excerpt">{{ entry.excerpt }}</p>
+            {% if entry.head %}
+            <p class="excerpt">{{ entry.head }}</p>
             {% endif %}
 
             <ul>
@@ -23,15 +25,15 @@
     </div>
 </div>
 
-{% assign executive = site.data.gov | where: "branch", include.branch | where: "scope", "department" %}
+{% assign branch = site.data.gov | where: "branch", include.branch | where: "scope", "department" %}
 <div class="block block_compact_fonts">
     <div class="entries">
-        {% for entry in executive %}
+        {% for entry in branch %}
         <div class="entry">
             <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
 
-            {% if post.excerpt %}
-            <p class="excerpt">{{ entry.excerpt }}</p>
+            {% if entry.head %}
+            <p class="excerpt">{{ entry.head }}</p>
             {% endif %}
 
             <ul>

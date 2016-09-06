@@ -11,8 +11,10 @@
     {
         "name":         "President",
         "description":  "The Executive branch is composed of the President and the Vice President who are elected by direct popular vote and serve a term of six years. The Constitution grants the President authority to appoint his Cabinet. These departments form a large portion of the country’s bureaucracy.",
+        "described":    "yes",
         "branch":       "executive",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.president.gov.ph/" },
                             { "label": "Facebook", "url": "http://facebook.com/govph" },
@@ -23,6 +25,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.ovp.gov.ph/" },
                         ]
@@ -32,6 +35,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dilg.gov.ph/" },
                         ]
@@ -41,6 +45,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dti.gov.ph/" },
                         ]
@@ -50,6 +55,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dof.gov.ph/" },
                         ]
@@ -59,6 +65,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.doh.gov.ph/" },
                         ]
@@ -68,6 +75,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.deped.gov.ph/" },
                         ]
@@ -77,6 +85,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dost.gov.ph/" },
                         ]
@@ -86,6 +95,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "Emmanuel Piñol",
         "link":         [
                             { "label": "Official Site", "url": "http://www.da.gov.ph/" },
                         ]
@@ -95,6 +105,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "Rafael Mariano",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dar.gov.ph/" },
                         ]
@@ -104,15 +115,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.dbm.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Department of Budget and Management",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dbm.gov.ph/" },
                         ]
@@ -122,6 +125,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "Gina Lopez",
         "link":         [
                             { "label": "Official Site", "url": "http://www.denr.gov.ph/" },
                         ]
@@ -131,6 +135,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dole.gov.ph/" },
                         ]
@@ -140,6 +145,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dfa.gov.ph/" },
                         ]
@@ -149,6 +155,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.doe.gov.ph/" },
                         ]
@@ -158,6 +165,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dict.gov.ph/" },
                         ]
@@ -167,6 +175,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.doj.gov.ph/" },
                         ]
@@ -176,6 +185,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dnd.gov.ph/" },
                         ]
@@ -185,6 +195,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dpwh.gov.ph/" },
                         ]
@@ -194,6 +205,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dotc.gov.ph/" },
                         ]
@@ -203,6 +215,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dswd.gov.ph/" },
                         ]
@@ -212,6 +225,7 @@
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.tourism.gov.ph/pages/default.aspx" },
                         ]
@@ -222,8 +236,10 @@
     {
         "name":         "Senate",
         "description":  "The Legislative branch is authorized to make laws, alter, and repeal them through the power vested in the Philippine Congress. This institution is divided into the Senate and the House of Representatives.",
+        "described":    "yes",
         "branch":       "legislative",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.senate.gov.ph/" },
                         ]
@@ -233,6 +249,7 @@
         "description":  "",
         "branch":       "legislative",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://www.congress.gov.ph/" },
                         ]
@@ -243,8 +260,10 @@
     {
         "name":         "Supreme Court",
         "description":  "The Judicial branch holds the power to settle controversies involving rights that are legally demandable and enforceable. This branch determines whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part and instrumentality of the government. It is made up of a Supreme Court and lower courts. The Constitution expressly grants the Supreme Court the power of Judicial Review as the power to declare a treaty, international or executive agreement, law, presidential decree, proclamation, order, instruction, ordinance or regulation unconstitutional.",
+        "described":    "yes",
         "branch":       "judiciary",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://sc.judiciary.gov.ph/" },
                         ]
@@ -254,6 +273,7 @@
         "description":  "",
         "branch":       "judiciary",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://ca.judiciary.gov.ph/" },
                         ]
@@ -263,6 +283,7 @@
         "description":  "",
         "branch":       "judiciary",
         "scope":        "top",
+        "head":         "",
         "link":         [
                             { "label": "Official Site", "url": "http://sb.judiciary.gov.ph/" },
                         ]

@@ -1,8 +1,35 @@
 section.info_column_main {
 
-    @include set_margin_h(50px, 40px);
-    @include max-screen(768px) {
-        @include set_margin_h(15px, 15px);
+    h1 {
+        font-weight: normal;
+    }
+
+    div.gov_definition {
+    }
+
+    div.branch_definition {
+        width: 100%;
+        float: left;
+        margin: 15px 0 15px 0;
+
+        div.block > div.entries > div.entry {
+            float: left;
+            @include max-screen(720px) {
+                width: 100%;
+                margin-left: 0;
+            }
+            @include min-screen(720px + 1px) {
+                width: calc(33% - 10px);
+                margin-left: 15px;
+                margin-top: 0;
+            }
+        }
+
+        div.block > div.entries > div.entry:first-of-type {
+            @include min-screen(720px + 1px) {
+                margin-left: 0;
+            }
+        }
     }
 
     div.left_container,
@@ -21,16 +48,37 @@ section.info_column_main {
         }
 
         border-top: 3px solid $color_primary;
+
+        div.block {
+            h1 {
+                width: 100%;
+                display: inline-block;
+            }
+            h1 + p {
+                margin: 10px 0 0px 0;
+                padding-top: 10px;
+            }
+
+            div.entries {
+                div.entry {
+                    h2, h2 > a {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
     }
 
     div.block {
-        h1 {
-            width: 100%;
-            display: inline-block;
-        }
-        h1 + p {
-            margin: 10px 0 0px 0;
-            padding-top: 10px;
+        & ~ p,
+        & ~ li,
+        & ~ p > a,
+        & ~ li > a {
+            @include set_font($font_news_text, $font_size_news_text, $color_news_text);
+            line-height: $font_line_height_news_text;
+            @include max-screen(720px) {
+                line-height: $font_line_height_news_text + 4;
+            }
         }
     }
 }

@@ -7,6 +7,7 @@ tags: []
 published: true
 ---
 
+<div class="gov_definition">
 {% assign gov = site.data.gov | where: "branch", "gov" %}
 {% for entry in gov %}
 <p>{{ entry.description }}</p>
@@ -20,8 +21,21 @@ published: true
     {% endif %}
 </ul>
 {% endfor %}
+</div>
 
-&nbsp;
+<div class="branch_definition">
+{% assign branches = site.data.gov | where: "described", "yes" %}
+<div class="block block_default_fonts">
+    <div class="entries">
+    {% for branch in branches %}
+        <div class="entry">
+            <h2>{{ branch.branch }}</h2>
+            <p>{{ branch.description }}</p>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+</div>
 
 <div class="left_container">
 {% include gov_list.html branch="executive" branch_name="Executive" %}
