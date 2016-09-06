@@ -5,7 +5,7 @@ excerpt:
 permalink: /
 ---
 
-<div class="news_section_container">
+<div class="section_container">
     <div class="left_container">
         {% include component_slideshow_headline.html %}
         {% include component_list_others.html %}
@@ -15,7 +15,7 @@ permalink: /
     </div>
 </div>
 
-<div class="news_section_container">
+<div class="section_container">
     <div class="left_container">
     {% include component_slideshow_criminality.html %}
     {% include component_list_criminality.html %}
@@ -27,7 +27,7 @@ permalink: /
     </div>
 </div>
 
-<div class="news_section_container">
+<div class="section_container">
     <div class="left_container">
     {% include component_slideshow_agrarian.html %}
     {% include component_list_agrarian.html %}
@@ -39,7 +39,7 @@ permalink: /
     </div>
 </div>
 
-<div class="news_section_container">
+<div class="section_container">
     <div class="left_container">
     {% include component_slideshow_business.html %}
     {% include component_list_business.html %}
