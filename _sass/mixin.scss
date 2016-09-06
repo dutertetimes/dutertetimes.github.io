@@ -51,7 +51,7 @@
 
     @include max-screen(720px) {
         $font_size_page_title: $font_size_news_title;
-        $font_line_height_page_title: $font_line_height_news_title;
+        $font_line_height_page_title: $font_line_height_news_title + 6;
         h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
         h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
         h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
