@@ -89,9 +89,15 @@
         font-family: $font_page_title;
         font-weight: bold;
         color: $color_news_title;
+        @media print {
+            color: $color_text;
+        }
         margin-bottom: 13px;
         code {
             color: $color_news_title;
+            @media print {
+                color: $color_text;
+            }
         }
     }
     h1 {

@@ -84,10 +84,10 @@ section.post_column_main {
             line-height: $font_line_height_page_text + 4;
         }
         @media print {
-            //@include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
             @include set_font($font_page_text, $font_size_page_text + 4, $color_page_text);
             line-height: $font_size_page_text + 6 + 4;
         }
+        word-spacing: 0.1em;
 
         & code,
         & code.highlighter-rouge {

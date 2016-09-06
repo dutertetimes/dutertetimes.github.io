@@ -13,11 +13,19 @@ header {
         margin: 5px 0 0 0;
     }
     @media print {
+        h1 {
+            font-size: 14px;
+            line-height: 14px;
+        }
         p {
-            padding: 5px 0 0 0;
-            @include set_font($font_title_tagline, $font_size_title_tagline, $color_text);
-            line-height: $font_size_title_tagline + 2;
+            margin-top: 2px;
+            font-family: $font_title_tagline;
+            font-size: 10px;
+            line-height: 10px;
             &.license {
+                padding: 4px 0 0 0;
+                font-size: 10px;
+                line-height: 12px;
                 font-style: italic;
             }
         }

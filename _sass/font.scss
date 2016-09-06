@@ -8,11 +8,20 @@
 // In smaller fonts, it appears readable than Liberation Serif.
 //@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-@import url("https://fonts.googleapis.com/css?family=Liberation+Serif:normal,italic,normalitalic,bolditalic");
+//@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+//@import url("https://fonts.googleapis.com/css?family=Liberation+Serif:normal,italic,normalitalic,bolditalic");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:normal,italic,normalitalic,bolditalic");
 
-$font_serif:                Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_serif_thin:           "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+@font-face {
+    font-family:    'Source Sans Pro';
+    src:            local('Source Sans Pro'),
+                    local('SourceSansPro-Regular'),
+                    url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+    unicode-range:  U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+$font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif_thin:           "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 $font_sans:                 "Open Sans", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_sans_thin:            "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
@@ -26,11 +35,11 @@ $font_size_title_tagline:   14px;
 
 // Default
 $font_default:              $font_serif_thin;
-$font_size_default:         13px;
+$font_size_default:         11px;
 $font_line_height_default:  $font_size_default + 2;
 $font_default_thin:         $font_sans_thin;
 $font_size_default_thin:    12px;
-$font_heading:              $font_serif_thin;
+$font_heading:              $font_serif;
 $font_size_heading:         25px;                   // Base of all heading tags
 
 // Code
@@ -94,33 +103,10 @@ $font_compact_text:                $font_default;
 $font_size_compact_text:           $font_size_default;
 $font_line_height_compact_text:    $font_line_height_default;
 
-/*
-// Announcement
-$font_announcement_title:               $font_sidebar_entry_title;
-$font_size_announcement_title:          $font_size_sidebar_entry_title;
-$font_line_height_announcement_title:   $font_line_height_sidebar_entry_title;
-$font_announcement_date:                $font_default;
-$font_size_announcement_date:           $font_size_default;
-$font_line_height_announcement_date:    $font_line_height_default;
-$font_announcement_text:                $font_default;
-$font_size_announcement_text:           $font_size_default;
-$font_line_height_announcement_text:    $font_line_height_default;
-
-// Info
-$font_info_title:               $font_sidebar_entry_title;
-$font_size_info_title:          $font_size_sidebar_entry_title;
-$font_line_height_info_title:   $font_line_height_sidebar_entry_title;
-$font_info_date:                $font_default;
-$font_size_info_date:           $font_size_default;
-$font_info_text:                $font_default;
-$font_size_info_text:           $font_size_default;
-$font_line_height_info_text:    $font_line_height_default;
-*/
-
 // Page and Post
 $font_page_title:               $font_heading;
 $font_size_page_title:          $font_size_heading;
-$font_line_height_page_title:   $font_size_heading;
+$font_line_height_page_title:   $font_size_heading + 4;
 $font_size_page_title_code:     $font_size_heading;
 $font_page_text:                $font_default;
 $font_size_page_text:           $font_size_default !global;
@@ -130,7 +116,7 @@ $font_size_page_meta:           $font_size_default;
 $font_line_height_page_meta:    $font_line_height_default;
 
 // News
-$font_news_title:               $font_serif_thin;
+$font_news_title:               $font_heading;
 $font_news_date:                $font_default;
 $font_news_excerpt:             $font_default;
 $font_news_text:                $font_default;
@@ -138,7 +124,7 @@ $font_size_news_title:          14px;
 $font_size_news_date:           $font_size_default;
 $font_size_news_excerpt:        $font_size_default;
 $font_size_news_text:           $font_size_default;
-$font_line_height_news_title:   16px;
+$font_line_height_news_title:   22px;
 $font_line_height_news_date:    $font_line_height_default;
 $font_line_height_news_excerpt: $font_line_height_default;
 $font_line_height_news_text:    $font_line_height_default;
@@ -161,13 +147,13 @@ $font_line_height_quote:    $font_size_quote + 4;
 $font_quote_author:         $font_serif_thin;
 $font_size_quote_author:    13px;
 $font_quote_context:        $font_serif_thin;
-$font_size_quote_context:   13px;
+$font_size_quote_context:   11px;
 
 // Current date/time
 $font_datetime_date:        $font_sans_thin;
-$font_size_datetime_date:   $font_size_default;
+$font_size_datetime_date:   $font_size_default + 2;
 $font_datetime_time:        $font_sans_thin;
-$font_size_datetime_time:   $font_size_default;
+$font_size_datetime_time:   $font_size_default + 2;
 
 // Aside
 $font_aside:                    $font_default;

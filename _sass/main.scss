@@ -358,6 +358,8 @@ section {
         margin-top: 15px;
     }
 
+    &.post_column_main,
+    &.page_column_main,
     &.hub_column_main {
         @media print {
             margin: 0;
