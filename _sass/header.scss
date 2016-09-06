@@ -90,7 +90,7 @@ header {
             text-transform: uppercase;
         }
         li.dropdown > a {
-            font-size: $font_size_nav + 1;
+            font-size: $font_size_nav;
             @include max-screen(720px) {
                 font-size: $font_size_nav + 1;
             }
