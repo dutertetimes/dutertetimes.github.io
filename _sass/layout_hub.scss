@@ -7,6 +7,7 @@ section.hub_column_main {
         margin-top: 10px;
     }
 
+    div.image_container,
     div.section_container {
         float: left;
         width: 100%;
@@ -15,10 +16,6 @@ section.hub_column_main {
             margin-bottom: 15px;
             display: flex;
             flex-direction: row;
-        }
-
-        &:first-of-type {
-            border-top: none;
         }
 
         div.left_container,
@@ -38,6 +35,13 @@ section.hub_column_main {
             }
 
             border-top: 3px solid $color_primary;
+
+            img {
+                display: block;
+                max-width: calc(100% - 1px);
+                width: auto;
+                height: auto;
+            }
         }
 
         div.right_container {
@@ -66,5 +70,14 @@ section.hub_column_main {
                 margin-bottom: 0 !important;
             }
         }
+    }
+
+    div.image_container {
+        div.left_container,
+        div.right_container {
+            border-top: none;
+        }
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 }

@@ -1,6 +1,8 @@
 # Local directories for local testing
 CMakeLists.txt
 .idea/**
+images/top_1.png
+images/top_2.png
 images/temp
 newsbit/_posts/post.sh
 newsbit/scratch.txt

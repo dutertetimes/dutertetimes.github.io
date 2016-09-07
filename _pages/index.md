@@ -5,6 +5,25 @@ excerpt:
 permalink: /
 ---
 
+{% if site.development %}
+<div class="image_container">
+    <div class="left_container">
+    {% if site.development %}
+        <img src="/images/top_1.png" width="270px" height="auto" >
+    {% else %}
+        <img src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_1.png" width="270px" height="auto" >
+    {% endif %}
+    </div>
+    <div class="right_container">
+    {% if site.development %}
+        <img src="/images/top_2.png" width="270px" height="auto" >
+    {% else %}
+        <img src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_2.png" width="270px" height="auto" >
+    {% endif %}
+    </div>
+</div>
+{% endif %}
+
 <div class="section_container">
     <div class="left_container">
         {% include component_slideshow_headline.html %}
