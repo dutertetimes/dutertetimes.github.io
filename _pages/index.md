@@ -27,46 +27,46 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% include component_slideshow_headline.html %}
-        {% include component_list_others.html %}
+        {% include block_list.html category="other" max_count=8 %}
     </div>
     <div class="right_container">
-        {% include component_list_opinion.html %}
+        {% include block_list_opinion.html %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
     {% include component_slideshow_criminality.html %}
-    {% include component_list_criminality.html %}
+    {% include block_list.html category="criminality" max_count=3 %}
     </div>
 
     <div class="right_container">
     {% include component_slideshow_peace.html %}
-    {% include component_list_peace.html %}
+    {% include block_list.html category="peace process" max_count=3 %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
     {% include component_slideshow_agrarian.html %}
-    {% include component_list_agrarian.html %}
+    {% include block_list.html category="agrarian" max_count=3 %}
     </div>
 
     <div class="right_container">
     {% include component_slideshow_environment.html %}
-    {% include component_list_environment.html %}
+    {% include block_list.html category="environment" max_count=3 %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
     {% include component_slideshow_business.html %}
-    {% include component_list_business.html %}
+    {% include block_list.html category="business" max_count=3 %}
     </div>
 
     <div class="right_container">
     {% include component_slideshow_foreign_affairs.html %}
-    {% include component_list_foreign_affairs.html %}
+    {% include block_list.html category="foreign affairs" max_count=3 %}
     </div>
 </div>
 
