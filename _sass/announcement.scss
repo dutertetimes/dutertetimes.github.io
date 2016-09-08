@@ -6,7 +6,7 @@
     @include max-screen(720px) {
         margin-top: 20px;
     }
-    min-height: 150px;
+    min-height: 160px;
     @include max-screen(720px) {
         min-height: 200px;
     }
