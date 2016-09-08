@@ -1,7 +1,7 @@
 // A block is a collection of one or multiple items.
 // Each item is a title, date and excerpt.
 div.block {
-    @include sidebar_component;
+    @include block;
     padding-bottom: 0;
 
     h1 {
@@ -29,7 +29,7 @@ div.block {
     }
 
     div.entries {
-        @include sidebar_component_internal;
+        @include block_internal;
         margin-bottom: 10px;
 
         p.no_entries {
@@ -82,7 +82,7 @@ div.block_default_fonts {
     div.entries {
         div.entry {
             h2, h2 > a {
-                @include component_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
+                @include block_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
                 line-height: $font_line_height_news_title;
                 @include max-screen(720px) {
                     font-size: $font_size_news_title - 1;
@@ -131,7 +131,7 @@ div.block_compact_fonts {
                 word-spacing: 0.175em;
             }
             h2, h2 > a {
-                @include component_entry_heading($font_compact_title, $font_size_compact_title, $color_compact_title);
+                @include block_entry_heading($font_compact_title, $font_size_compact_title, $color_compact_title);
                 line-height: $font_line_height_compact_title;
                 @include max-screen(720px) {
                     line-height: $font_line_height_compact_title + 1;

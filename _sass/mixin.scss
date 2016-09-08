@@ -165,17 +165,17 @@
                     background-clip: padding-box;
 }
 
-// Component block
-@mixin sidebar_component {
+// Block
+@mixin block {
     @include compact;
     @include set_padding_v(10px, 12px);
     float: left;
     //background: $color_sidebar_bg;
 }
 
-// Component block that has borders
-@mixin sidebar_component_boxed($shadow: 0) {
-    @include sidebar_component;
+// Block with borders
+@mixin block_boxed($shadow: 0) {
+    @include sidebar_block;
     @include set_padding_h(13px, 13px);
     border: 1px solid $color_box;
     border-radius: 3px;
@@ -186,17 +186,17 @@
     }
 }
 
-// Component block that is scrollable
-// Used with an scrollable internal component block
-@mixin sidebar_component_scroll($shadow: 0) {
-    @include sidebar_component_boxed($shadow);
+// Scrollable Block
+// Used with scrollable internal block
+@mixin block_scroll($shadow: 0) {
+    @include sidebar_block_boxed($shadow);
     // Padding between scrollbar and outer box
     padding-right: 2px;
 }
 
-// Internal of component block
-// Holds the contents of the component block
-@mixin sidebar_component_internal {
+// Internal of block
+// Holds the contents of a block
+@mixin block_internal {
     @include set_margin_v;
     margin-right: 0px;
     @include max-screen(720px) {
@@ -207,10 +207,10 @@
     width: 100%;
 }
 
-// Scrollable internal component block
-// Holds the contents of the component block
-@mixin sidebar_component_internal_scroll($height) {
-    @include sidebar_component_internal;
+// Scrollable internal block
+// Holds the contents of a block
+@mixin block_internal_scroll($height) {
+    @include block_internal;
     margin-top: 10px;
     @include min-screen(721px) {
         height: $height;
@@ -219,8 +219,8 @@
     overflow-x: hidden;
 }
 
-// Common item heading in the contents of the component block
-@mixin component_entry_heading_base($font, $size, $color) {
+// Common item heading in the contents of a block
+@mixin block_entry_heading_base($font, $size, $color) {
     @include set_font($font, $size, $color, bold);
     @include max-screen(720px) {
         line-height: $size + 2;
@@ -228,15 +228,15 @@
     @include compact;
 }
 
-// Text item heading in the contents of the component block
-@mixin component_entry_heading($font, $size, $color) {
-    @include component_entry_heading_base($font, $size, $color);
+// Text item heading in the contents of a block
+@mixin block_entry_heading($font, $size, $color) {
+    @include block_entry_heading_base($font, $size, $color);
     margin-bottom: 0;
 }
 
-// Link item heading in the contents of the component block
-@mixin component_entry_heading_link($font, $size, $color) {
-    @include component_entry_heading_base($font, $size, $color);
+// Link item heading in the contents of a block
+@mixin block_entry_heading_link($font, $size, $color) {
+    @include block_entry_heading_base($font, $size, $color);
     border-bottom: none;
 }
 
