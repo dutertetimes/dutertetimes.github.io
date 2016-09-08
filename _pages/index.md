@@ -26,47 +26,56 @@ permalink: /
 
 <div class="section_container">
     <div class="left_container">
-        {% include block_slideshow_headline.html %}
+        {% assign section_posts = site.categories['headline'] %}
+        {% include block_slideshow.html category="headline" post_count=section_posts.size posts=section_posts %}
         {% include block_list.html category="other" max_count=8 %}
     </div>
     <div class="right_container">
+        {% assign section_posts = site.categories['opinion'] %}
+        {% include block_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
         {% include block_list.html category="opinion" max_count=8 %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
-    {% include block_slideshow_criminality.html %}
-    {% include block_list.html category="criminality" max_count=3 %}
+        {% assign section_posts = site.categories['criminality'] %}
+        {% include block_slideshow.html category="criminality" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="criminality" max_count=3 %}
     </div>
 
     <div class="right_container">
-    {% include block_slideshow_peace.html %}
-    {% include block_list.html category="peace process" max_count=3 %}
+        {% assign section_posts = site.categories['peace process'] %}
+        {% include block_slideshow.html category="peace process" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="peace process" max_count=3 %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
-    {% include block_slideshow_agrarian.html %}
-    {% include block_list.html category="agrarian" max_count=3 %}
+        {% assign section_posts = site.categories['agrarian'] %}
+        {% include block_slideshow.html category="agrarian" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="agrarian" max_count=3 %}
     </div>
 
     <div class="right_container">
-    {% include block_slideshow_environment.html %}
-    {% include block_list.html category="environment" max_count=3 %}
+        {% assign section_posts = site.categories['environment'] %}
+        {% include block_slideshow.html category="environment" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="environment" max_count=3 %}
     </div>
 </div>
 
 <div class="section_container">
     <div class="left_container">
-    {% include block_slideshow_business.html %}
-    {% include block_list.html category="business" max_count=3 %}
+        {% assign section_posts = site.categories['business'] %}
+        {% include block_slideshow.html category="business" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="business" max_count=3 %}
     </div>
 
     <div class="right_container">
-    {% include block_slideshow_foreign_affairs.html %}
-    {% include block_list.html category="foreign affairs" max_count=3 %}
+        {% assign section_posts = site.categories['foreign affairs'] %}
+        {% include block_slideshow.html category="foreign affairs" post_count=section_posts.size posts=section_posts %}
+        {% include block_list.html category="foreign affairs" max_count=3 %}
     </div>
 </div>
 
@@ -110,87 +119,71 @@ permalink: /
 
 <script>
     $(document).ready(function() {
-        // Slide index starts at one.
-        // This assignment is for offsetting the initial value.
-        var headlineSlideIndex = 1;
-        var businessSlideIndex = 1;
-        var agrarianSlideIndex = 1;
-        var environmentSlideIndex = 1;
-        var foreignAffairsSlideIndex = 1;
-        var peaceProcessSlideIndex = 1;
-        var criminalitySlideIndex = 1;
+        currentHeadlineSlide(0);
 
-        currentHeadlineSlide(1);
-        currentBusinessSlide(1);
-        currentAgrarianSlide(1);
-        currentEnvironmentSlide(1);
-        currentForeignAffairsSlide(1);
-        currentPeaceProcessSlide(1);
-        currentCriminalitySlide(1);
+        currentCriminalitySlide(0);
+        currentPeaceProcessSlide(0);
+        currentAgrarianSlide(0);
+        currentEnvironmentSlide(0);
+        currentBusinessSlide(0);
+        currentForeignAffairsSlide(0);
     });
 
     // Argument must be greater than zero.
     function currentHeadlineSlide(n) {
-        headlineSlideIndex = n - 1;
-        showHeadlineSlides();
+        showHeadlineSlides(n);
     }
 
     function currentBusinessSlide(n) {
-        businessSlideIndex = n - 1;
-        showBusinessSlides();
+        showBusinessSlides(n);
     }
 
     function currentAgrarianSlide(n) {
-        agrarianSlideIndex = n - 1;
-        showAgrarianSlides();
+        showAgrarianSlides(n);
     }
 
     function currentEnvironmentSlide(n) {
-        environmentSlideIndex = n - 1;
-        showEnvironmentSlides();
+        showEnvironmentSlides(n);
     }
 
     function currentForeignAffairsSlide(n) {
-        foreignAffairsSlideIndex = n - 1;
-        showForeignAffairsSlides();
+        showForeignAffairsSlides(n);
     }
 
     function currentPeaceProcessSlide(n) {
-        peaceProcessSlideIndex = n - 1;
-        showPeaceProcessSlides();
+        showPeaceProcessSlides(n);
     }
 
     function currentCriminalitySlide(n) {
-        criminalitySlideIndex = n - 1;
-        showCriminalitySlides();
+        showCriminalitySlides(n);
     }
 
-    function showHeadlineSlides() {
-        showSlides("headline_dot", "headline_news_entry", headlineSlideIndex);
+    function showHeadlineSlides(n) {
+        showSlides("headline_dot", "headline_news_entry", n);
     }
 
-    function showBusinessSlides() {
-        showSlides("business_dot", "business_news_entry", businessSlideIndex);
+    function showBusinessSlides(n) {
+        showSlides("business_dot", "business_news_entry", n);
     }
 
-    function showAgrarianSlides() {
-        showSlides("agrarian_dot", "agrarian_news_entry", agrarianSlideIndex);
+    function showAgrarianSlides(n) {
+        showSlides("agrarian_dot", "agrarian_news_entry", n);
     }
 
-    function showEnvironmentSlides() {
-        showSlides("environment_dot", "environment_news_entry", environmentSlideIndex);
+    function showEnvironmentSlides(n) {
+        showSlides("environment_dot", "environment_news_entry", n);
     }
 
-    function showForeignAffairsSlides() {
-        showSlides("foreignaffairs_dot", "foreignaffairs_news_entry", foreignAffairsSlideIndex);
+    function showForeignAffairsSlides(n) {
+        showSlides("foreign_affairs_dot", "foreign_affairs_news_entry", n);
     }
 
-    function showPeaceProcessSlides() {
-        showSlides("peaceprocess_dot", "peaceprocess_news_entry", peaceProcessSlideIndex);
+    function showPeaceProcessSlides(n) {
+        showSlides("peace_process_dot", "peace_process_news_entry", n);
     }
 
-    function showCriminalitySlides() {
-        showSlides("criminality_dot", "criminality_news_entry", criminalitySlideIndex);
+    function showCriminalitySlides(n) {
+        showSlides("criminality_dot", "criminality_news_entry", n);
     }
 
     function showSlides(links, entries, index) {

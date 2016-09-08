@@ -1,0 +1,63 @@
+{% comment %}
+{% assign postCount = site.categories['opinion'].size %}
+{% assign pp = site.categories['opinion'] %}
+
+
+<div class="block block_default_fonts">
+    <h1>Test {{ postCount }}</h1>
+    <div class="entries">
+{% for post in pp %}
+        <div class="entry headline_news_entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endcomment %}
+
+
+{% assign posts = "" | split: "" %}
+{% assign post_count = 0 %}
+
+{% if include.category == 'headline' %}
+    {% for post in include.posts %}
+        {% assign posts = posts | push: post %}
+        {% assign post_count = post_count | plus: 1 %}
+        {% if post_count == 7 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% for post in include.posts %}
+        {% if post.categories contains 'top' %}
+            {% assign posts = posts | push: post %}
+            {% assign post_count = post_count | plus: 1 %}
+            {% if post_count == 7 %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+<div class="block block_default_fonts">
+    <h1>{{ include.category | capitalize }}</h1>
+    <div class="links headline_links">
+        {% for i in (1..post_count) %}
+        <span class="{{ include.category | replace: ' ', '_' }}_dot slideshow_dot" onclick="current{{ include.category | capitalize }}Slide({{ i }})"></span>
+        {% endfor %}
+    </div>
+    <div class="entries">
+        {% for post in posts %}
+        <div class="entry {{ include.category | replace: ' ', '_' }}_news_entry">
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+        {% else %}
+        <p class="no_entries">There are no top posts for this section.</p>
+        {% endfor %}
+    </div>
+</div>
