@@ -10,20 +10,40 @@
 
 //@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 //@import url("https://fonts.googleapis.com/css?family=Liberation+Serif:normal,italic,normalitalic,bolditalic");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:normal,italic,normalitalic,bolditalic");
+//@import url("https://fonts.googleapis.com/css?family=Droid+Serif:normal,italic,normalitalic,bolditalic");
 
 @font-face {
-    font-family:    'Source Sans Pro';
-    src:            local('Source Sans Pro'),
-                    local('SourceSansPro-Regular'),
-                    url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
-    unicode-range:  U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-family:    'Droid Serif';
+    src:            local('Droid Serif'),
+                    local('DroidSerif-Regular'),
+                    url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+}
+
+@font-face {
+    font-family:    'Roboto';
+    src:            local('Roboto'),
+                    local('Roboto-Regular'),
+                    url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+}
+
+@font-face {
+    font-family:    'Roboto Condensed';
+    src:            local('Roboto Condensed'),
+                    local('RobotoCondensed-Regular'),
+                    url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+}
+
+@font-face {
+    font-family:    'Roboto Condensed Light';
+    src:            local('Roboto Condensed Light'),
+                    local('RobotoCondensed-Light'),
+                    url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 }
 
 $font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 $font_serif_thin:           "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_sans:                 "Open Sans", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-$font_sans_thin:            "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans:                 "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_thin:            "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
 // Title
@@ -70,9 +90,12 @@ $word_spacing:              0.155em;
 // Specifics
 // -----------------------------------------------------------------------------
 
+$font_site_title:               $font_sans_thin;
+$font_size_site_title:          13px;
+
 // Navigation
-$font_nav:                      $font_sans_thin;
-$font_size_nav:                 12px;
+$font_nav:                      $font_sans;
+$font_size_nav:                 11px;
 
 $font_size_page_nav:            $font_size_nav + 2;
 
@@ -81,21 +104,13 @@ $font_size_attribution:         11px;
 $font_line_height_attribution:  10px;
 
 // Label
-$font_label:                    $font_sans_thin;
-$font_size_label:               12px;
-
-// Sidebar
-$font_sidebar_entry_title:              $font_label;
-$font_size_sidebar_entry_title:         12px;
-$font_line_height_sidebar_entry_title:  14px;
-$font_sidebar_entry_text:               $font_default;
-$font_size_sidebar_entry_text:          $font_size_default;
-$font_line_height_sidebar_text:         $font_line_height_default;
+$font_label:                    $font_sans;
+$font_size_label:               11px;
 
 // Compact components entries
-$font_compact_title:               $font_sidebar_entry_title;
-$font_size_compact_title:          $font_size_sidebar_entry_title;
-$font_line_height_compact_title:   $font_line_height_sidebar_entry_title + 2;
+$font_compact_title:               $font_sans_thin;
+$font_size_compact_title:          12px;
+$font_line_height_compact_title:   16px;
 $font_compact_date:                $font_default;
 $font_size_compact_date:           $font_size_default;
 $font_line_height_compact_date:    $font_line_height_default;
@@ -141,7 +156,7 @@ $font_size_related_post_excerpt:        $font_size_default;
 $font_line_height_related_post_excerpt: $font_line_height_default;
 
 // Quote
-$font_quote:                $font_sans_thin;
+$font_quote:                $font_sans;
 $font_size_quote:           14px;
 $font_line_height_quote:    $font_size_quote + 4;
 $font_quote_author:         $font_serif_thin;
@@ -150,9 +165,9 @@ $font_quote_context:        $font_serif_thin;
 $font_size_quote_context:   11px;
 
 // Current date/time
-$font_datetime_date:        $font_sans_thin;
+$font_datetime_date:        $font_sans;
 $font_size_datetime_date:   $font_size_default + 2;
-$font_datetime_time:        $font_sans_thin;
+$font_datetime_time:        $font_sans;
 $font_size_datetime_time:   $font_size_default + 2;
 
 // Aside
