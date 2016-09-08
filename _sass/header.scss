@@ -80,13 +80,22 @@ header {
             text-decoration: none;
             color: $color_button_text;
             display: inline-block;
-            margin: 7px 7px 7px 7px;
+            margin: 9px 7px 7px 7px;
             padding: 5px 9px 5px 9px;
             border: none;
             transition: background-color 0.1s ease;
             i.fa-angle-down {
                 font-weight: bold;
             }
+        }
+
+        li:first-child a {
+            font-family: $font_site_title;
+            font-size: $font_size_site_title;
+            @include max-screen(720px) {
+                font-size: $font_size_site_title + 2;
+            }
+            text-transform: uppercase;
         }
 
         li.dropdown > span {
@@ -96,13 +105,16 @@ header {
                 font-size: $font_size_nav;
             }
             text-transform: uppercase;
+            padding-bottom: 4px;
         }
+
         li.dropdown > a {
             font-size: $font_size_nav;
             @include max-screen(720px) {
-                font-size: $font_size_nav + 1;
+                font-size: $font_size_nav;
             }
             text-transform: uppercase;
+            padding-bottom: 4px;
         }
 
         li > span:hover,
@@ -113,14 +125,10 @@ header {
             border-radius: $border_radius;
         }
 
-        li:first-child a {
-            text-transform: uppercase;
-            font-family: $font_nav;
-            @include min-screen(720px + 1px) {
-                font-size: $font_size_nav + 2;
-            }
-            padding: 5px 9px 4px 9px;
+        li:first-child > a {
         }
+
+
 
         // Dropdown menu
 
@@ -143,12 +151,13 @@ header {
 
             a {
                 margin: 0 7px 0 7px;
-                padding: 7px 11px;
+                padding: 8px 11px 6px 11px;
                 color: $color_button_text;
-                font-size: $font_size_nav + 1;
-                display: block;
+                font-size: $font_size_nav;
+                text-transform: uppercase;
                 text-align: left;
                 white-space: nowrap;
+                display: block;
 
                 &:first-child {
                     margin-top: 7px;
