@@ -37,16 +37,18 @@ published: true
 </div>
 </div>
 
-<div class="left_container">
-{% include gov_list.html branch="executive" branch_name="Executive" %}
-</div>
+<div class="section_container">
+    <div class="left_container">
+    {% include gov_list.html branch="executive" branch_name="Executive" %}
+    </div>
 
-<div class="mid_container">
-{% include gov_list.html branch="legislative" branch_name="Legislative" %}
-</div>
+    <div class="mid_container">
+    {% include gov_list.html branch="legislative" branch_name="Legislative" %}
+    </div>
 
-<div class="right_container">
-{% include gov_list.html branch="judiciary" branch_name="Judiciary" %}
+    <div class="right_container">
+    {% include gov_list.html branch="judiciary" branch_name="Judiciary" %}
+    </div>
 </div>
 
 {% comment %}
