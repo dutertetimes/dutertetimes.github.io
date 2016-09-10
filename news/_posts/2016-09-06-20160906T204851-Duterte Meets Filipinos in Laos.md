@@ -1,5 +1,5 @@
 ---
-title: Meeting With Filipinos in Laos
+title: Duterte Meets Filipinos in Laos
 date: 2016-09-06T20:48:51UTC
 excerpt: President Rodrigo Duterte met with the Filipino Community at Feungfar Convention Hall, Ban Phonsinuane in Laos on 5 September 2016 when he came to attend the 28th and 29th ASEAN Summits.
 layout: post
