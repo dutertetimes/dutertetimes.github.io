@@ -9,17 +9,29 @@ permalink: /
 <div class="image_container">
     <div class="left_container">
     {% if site.development %}
-        <img src="/images/top_1.png" width="270px" height="auto" >
+        <img id="source_top_1" class="modal_source" src="/images/top_1.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu diam ante. Mauris id semper libero, et pulvinar nulla. Nulla eu feugiat diam. Donec metus nisl, congue sit amet interdum quis, convallis eu ligula. Phasellus rutrum turpis efficitur, cursus sapien eu, molestie nisl. Nunc interdum nibh ut auctor tincidunt." width="270px" height="auto" >
     {% else %}
-        <img src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_1.png" width="270px" height="auto" >
+        <img id="source_top_1" class="modal_source" src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_1.png" width="270px" height="auto" >
     {% endif %}
+        <div id="modal_top_1" class="modal">
+            <div class="modal_content">
+                <img id="destination_top_1" class="modal_image">
+                <p id="caption_top_1" class="modal_caption"></p>
+            </div>
+        </div>
     </div>
     <div class="right_container">
     {% if site.development %}
-        <img src="/images/top_2.png" width="270px" height="auto" >
+        <img id="source_top_2" class="modal_source" src="/images/top_2.png" width="270px" height="auto" >
     {% else %}
-        <img src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_2.png" width="270px" height="auto" >
+        <img id="source_top_2" class="modal_source" src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_2.png" width="270px" height="auto" >
     {% endif %}
+        <div id="modal_top_2" class="modal">
+            <div class="modal_content">
+                <img id="destination_top_2" class="modal_image">
+                <p id="caption_top_2" class="modal_caption"></p>
+            </div>
+        </div>
     </div>
 </div>
 {% endif %}
@@ -128,6 +140,9 @@ permalink: /
         currentBusinessSlide(0);
         currentForeignAffairsSlide(0);
     });
+    
+    popupModal('modal_top_1', 'source_top_1', 'destination_top_1', 'caption_top_1');
+    popupModal('modal_top_2', 'source_top_2', 'destination_top_2', 'caption_top_2');
 
     // Argument must be greater than zero.
     function currentHeadlineSlide(n) {
