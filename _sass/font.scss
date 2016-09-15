@@ -180,6 +180,12 @@ $font_tag:                      $font_default_thin;
 $font_size_tag:                 $font_size_default - 1;
 $font_line_height_tag:          $font_size_default + 4;
 
+// Footnote
+$font_footnote_link:            $font_serif_thin;
+$font_size_footnote_link:       $font_size_default;
+$font_footnote:                 $font_serif;
+$font_size_footnote:            $font_size_default;
+
 // Footer
 $font_footer:               $font_serif_thin;
 $font_size_footer:          $font_size_default;

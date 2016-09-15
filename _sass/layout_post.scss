@@ -111,6 +111,55 @@ section.post_column_main {
     p {
         @include bottom_margin;
     }
+
+    p sup a.footnote {
+        @include compact;
+        font-family: $font_footnote_link;
+        font-size: $font_size_footnote_link;
+        @include min-screen(720px + 1px) { font-size: $font_size_default_thin; }
+        @include max-screen(720px) { font-size: $font_size_default_thin; }
+        line-height: $font_size_footnote_link;
+        //font-weight: bold;
+        color: $color_footnote_link;
+    }
+
+    div.footnotes {
+        padding-top: 30px;
+        hr {
+            height: 1px;
+            width: 30%;
+            // Must be the same as paragraph separator vertical space
+            margin-bottom: 12px;
+        }
+        ol {
+            padding-left: 20px;
+
+            li,
+            li p,
+            li p a {
+                font-family: $font_footnote;
+                font-size: $font_size_footnote + 4;
+                line-height: $font_size_footnote + 6;
+            }
+
+            li {
+                p {
+                    //line-height: $font_size_default + 6;
+                    margin-bottom: 0px;
+                    a {
+                        border-bottom: 1px dotted $color_link_underline;
+                        &:hover {
+                            color: $color_primary;
+                        }
+                    }
+                }
+                em {
+                    font-size: $font_size_default - 1;
+                }
+            }
+        }
+    }
+
     div.video_container ~ p {
         padding-top: 10px;
     }
