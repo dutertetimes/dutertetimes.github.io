@@ -193,15 +193,13 @@ table {
 
     thead {
         background: $color_table_th_bg;
-        tr {
-            th {
-                @include set_font($font_table_heading, $font_size_table_heading + 2, $color_text, bold);
-                @include max-screen(720px) {
-                    font-size: $font_size_table_heading;
-                }
-
-                padding: 5px 6px;
+        tr > th {
+            @include set_font($font_table_heading, $font_size_table_heading + 2, $color_text, bold);
+            @include max-screen(720px) {
+                font-size: $font_size_table_heading;
             }
+            text-transform: uppercase;
+            padding: 6px 6px 5px 6px;
         }
     }
 
@@ -220,8 +218,7 @@ table {
                 }
             }
             td {
-                vertical-align: top;
-                padding: 2px 4px 3px 4px;
+                padding: 4px 4px 3px 4px;
                 word-wrap: break-word;
                 p {
                     margin: 0;
