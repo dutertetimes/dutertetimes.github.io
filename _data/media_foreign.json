@@ -63,7 +63,7 @@
 
   {
     "name": "The Guardian",
-    "description": "",
+    "description": "The Guardian is a British national daily newspaper, known until 1959 as the Manchester Guardian. Along with its sister papers The Observer and The Guardian Weekly, The Guardian is part of the Guardian Media Group, owned by The Scott Trust Limited. The Trust was created in 1936 'to secure the financial and editorial independence of The Guardian in perpetuity and to safeguard the journalistic freedom and liberal values of The Guardian free from commercial or political interference.' The Scott Trust became a limited company in 2008, with a constitution to maintain the same protections for The Guardian. Profits are reinvested in journalism rather than to the benefit of an owner or shareholders.",
     "link": [
       {
         "label": "Official Site",
@@ -73,7 +73,10 @@
   },
   {
     "name": "Al Jazeera",
-    "description": "",
+    "description": "Al Jazeera, literally 'The Peninsula', referring to the Arabian Peninsula, also known as JSC (Jazeera Satellite Channel), is a Doha-based state-funded broadcaster owned by the Al Jazeera Media Network, which is partly funded by the House of Thani, the ruling family of Qatar. Initially launched as an Arabic news and current affairs satellite TV channel, Al Jazeera has since expanded into a network with several outlets, including the Internet and specialty TV channels in multiple languages.
+
+    Al Jazeera is among the largest news organizations with 80 bureaus around the world. Al Jazeera has been called a propaganda outlet for the Qatari government and its foreign policy, by analysts and by news reporters, including former Al Jazeera reporters. The network is sometimes perceived to have mainly Islamist perspectives, promoting the Muslim Brotherhood, and having a pro-Sunni and an anti-Shia bias in its reporting of regional issues. It's also accused of having an anti-Western bias. However, Al Jazeera insists it covers all sides of a debate, it says it presents Israel's view, Iran's view and even aired videos released by Osama bin Laden.
+    (Wikipedia: https://en.wikipedia.org/wiki/Al_Jazeera)",
     "link": [
       {
         "label": "Official Site",

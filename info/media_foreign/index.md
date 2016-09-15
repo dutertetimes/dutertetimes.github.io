@@ -19,11 +19,9 @@ published: true
         <div class="entry">
             <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
 
-            {% comment %}
-            {% if entry.description %}
+            {% if site.development and entry.description %}
             <p class="excerpt">{{ entry.description }}</p>
             {% endif %}
-            {% endcomment %}
 
             <ul>
             {% if entry.link.size and entry.link.size > 1 %}
