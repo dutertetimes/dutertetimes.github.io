@@ -437,6 +437,10 @@ section.post_column_main {
             }
         }
     }
+
+    blockquote > blockquote {
+        padding: 0 12px 0 12px;
+    }
 }
 
 
