@@ -1,0 +1,176 @@
+[
+  {
+    "name": "The Washington Post",
+    "description": "The Washington Post is generally regarded as one of the leading daily American newspapers. The Post has distinguished itself through its political reporting on the workings of the White House, Congress, and other aspects of the U.S. government.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "https://www.washingtonpost.com/"
+      },
+    ]
+  },
+  {
+    "name": "The Wall Street Journal",
+    "description": "The Wall Street Journal is a business-focused, English-language international daily newspaper based in New York City. The Wall Street Journal is the largest newspaper in the United States by circulation.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "https://www.wsj.com/"
+      },
+    ]
+  },
+  {
+    "name": "Reuters",
+    "description": "Reuters is an international news agency headquartered in London, England, United Kingdom and is a division of Thomson Reuters. Until 2008, the Reuters news agency formed part of an independent company, Reuters Group plc, which was also a provider of financial market data. Since the acquisition of Reuters Group by the Thomson Corporation in 2008, the Reuters news agency has been a part of Thomson Reuters, making up the media division.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.reuters.com/"
+      },
+    ]
+  },
+  {
+    "name": "BBC News",
+    "description": "BBC News is an operational business division of the British Broadcasting Corporation (BBC) responsible for the gathering and broadcasting of news and current affairs. The department is the world's largest broadcast news organisation and generates about 120 hours of radio and television output each day, as well as online news coverage. The service maintains 50 foreign news bureaux with more than 250 correspondents around the world.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.bbc.com/news/"
+      },
+    ]
+  },
+  {
+    "name": "Time",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://time.com/"
+      },
+    ]
+  },
+
+  {
+    "name": "International Business Times",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.ibtimes.co.uk/"
+      },
+    ]
+  },
+
+  {
+    "name": "The Guardian",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "https://www.theguardian.com/"
+      },
+    ]
+  },
+  {
+    "name": "Al Jazeera",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.aljazeera.com/"
+      },
+    ]
+  },
+  {
+    "name": "news.com.au",
+    "description": "Australia’s number one news site news.com.au reaches over 5.5m* Australians, delivering extensive breaking news and national interest stories.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.news.com.au"
+      },
+    ]
+  },
+  {
+    "name": "Japan Times",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.japantimes.co.jp/"
+      },
+    ]
+  },
+  {
+    "name": "Japan Today",
+    "description": "Japan Today is an online newspaper based in Tokyo, Japan. Launched in September 2000, Japan Today publishes wire articles, press releases, and photographs, as well as opinion and contract pieces, such as company profiles, in English. Japan Today is a fully owned brand by GPlus Media Co. Ltd., which also owns Gaijinpot.com, RealEstate.co.jp, and other on-line based enterprises.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.japantoday.com/"
+      },
+    ]
+  },
+  {
+    "name": "News on Japan",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.newsonjapan.com/"
+      },
+    ]
+  },
+  {
+    "name": "The Japan News",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://the-japan-news.com/"
+      },
+    ]
+  },
+  {
+    "name": "The Jakarta Post",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.thejakartapost.com/"
+      },
+    ]
+  },
+
+  {
+    "name": "The Diplomat",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://thediplomat.com/"
+      },
+    ]
+  },
+  {
+    "name": "The Diplomat",
+    "description": "The Independent is a British online newspaper established in 1986 as an independent national morning newspaper published in London, it was controlled by Tony O'Reilly's Independent News & Media from 1997, and sold to Alexander Lebedev in 2010. It ceased to be produced in print in March 2016.",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.independent.co.uk/"
+      },
+    ]
+  },
+
+  {
+    "name": "China Daily",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.chinadaily.com.cn/"
+      },
+    ]
+  },
+]
