@@ -198,11 +198,9 @@ section.post_column_main {
             }
         }
         tbody tr td {
-            vertical-align: top;
-            padding: 2px 4px 3px 4px;
             @include wrap;
             a {
-                @include compact;
+                //@include compact;
                 border-bottom: none;
                 text-decoration: none;
                 &::after {
