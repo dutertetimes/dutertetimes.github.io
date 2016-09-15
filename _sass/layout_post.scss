@@ -37,18 +37,7 @@ section.post_column_main {
         @include video_frame;
         width: calc(100% - 10px);
 
-        div.video {
-            width: 100%;
-            height: 0;
-            position: relative;
-            padding-bottom: 56.25%;
-
-            iframe {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-            }
-        }
+        // div.video is styled at the bottom
 
         p.attribution {
             @include attribution;
@@ -434,6 +423,19 @@ section.post_column_main {
 
     blockquote > blockquote {
         padding: 0 12px 0 12px;
+    }
+
+    div.video {
+        width: 100%;
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%;
+
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
