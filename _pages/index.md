@@ -200,4 +200,27 @@ permalink: /
         slides[index].style.display = "block";
         dots[index].className += " slideshow_active";
     }
+    
+    
+    function popupModal(modal, imageSource, imageDestination, caption) {
+        // Get the modal
+        var modal = document.getElementById(modal);
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var imgSource = document.getElementById(imageSource);
+        var imgDest = document.getElementById(imageDestination);
+        var imgCaption = document.getElementById(caption);
+        imgSource.onclick = function() {
+            modal.style.display = "block";
+            imgDest.src = imgSource.src;
+            imgCaption.innerHTML = this.alt;
+        }
+        
+        imgDest.onclick = function() {
+            modal.style.display = "none";
+        }
+        modal.onclick = function() {
+            modal.style.display = "none";
+        }
+    }
 </script>
