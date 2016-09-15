@@ -34,7 +34,9 @@
         <div class="entry {{ include.category | replace: ' ', '_' }}_news_entry">
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            <p class="excerpt">{{ post.excerpt }}</p>
+            <p class="excerpt">
+                {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
+            </p>
         </div>
         {% else %}
         <p class="no_entries">There are no posts for this section.</p>

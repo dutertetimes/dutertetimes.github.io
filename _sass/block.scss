@@ -115,6 +115,9 @@ div.block_default_fonts {
                 @include max-screen(720px) {
                     line-height: $font_line_height_news_text + 2;
                 }
+                & i.fa {
+                    color: lighten($color_news_excerpt, 40%);
+                }
             }
         }
     }
