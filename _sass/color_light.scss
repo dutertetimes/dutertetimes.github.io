@@ -110,6 +110,9 @@ $color_quote_text:              $color_text;
 $color_quote_author:            $color_text;
 $color_quote_context:           $color_text;
 
+// Footnote
+$color_footnote_link:           darken($color_text, 20%);
+
 // Footer
 $color_footer_text:             black;
 $color_footer_link:             $color_link;
