@@ -97,6 +97,9 @@ div.block_default_fonts {
 
             p, li, p > a, li > a {
                 @include set_font($font_news_text, $font_size_news_text, $color_news_text);
+                @include max-screen(720px) {
+                    font-size: $font_size_news_text + 1;
+                }
                 line-height: $font_line_height_news_text;
                 @include max-screen(720px) {
                     line-height: $font_line_height_news_text + 4;
@@ -104,6 +107,9 @@ div.block_default_fonts {
             }
             p.date {
                 @include set_font($font_news_date, $font_size_news_date, $color_news_date);
+                @include max-screen(720px) {
+                    font-size: $font_size_news_date + 1;
+                }
                 line-height: $font_line_height_news_date;
                 @include max-screen(720px) {
                     line-height: $font_line_height_news_text + 2;
@@ -111,6 +117,9 @@ div.block_default_fonts {
             }
             p.excerpt {
                 @include set_font($font_news_excerpt, $font_size_news_excerpt, $color_news_excerpt);
+                @include max-screen(720px) {
+                    font-size: $font_size_news_excerpt + 1;
+                }
                 line-height: $font_line_height_news_excerpt;
                 @include max-screen(720px) {
                     line-height: $font_line_height_news_text + 2;
@@ -154,6 +163,9 @@ div.block_compact_fonts {
 
             p, li, p > a, li > a {
                 @include set_font($font_compact_text, $font_size_compact_text, $color_compact_text);
+                @include max-screen(720px) {
+                    font-size: $font_size_compact_text + 1;
+                }
                 line-height: $font_line_height_compact_text;
                 @include max-screen(720px) {
                     line-height: $font_line_height_compact_text + 4;

@@ -52,19 +52,19 @@
     @include max-screen(720px) {
         $font_size_page_title: $font_size_news_title;
         $font_line_height_page_title: $font_line_height_news_title + 6;
-        h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
-        h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-        h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
-        h4 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
-        h5 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
-        h6 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
+        h1 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title;     }
+        h2 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 2; font-style: italic; }
+        h3 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; }
+        h4 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; font-style: italic; }
+        h5 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
+        h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; font-style: italic; }
 
         h1 code { font-size: $font_size_page_title - 0; }
-        h2 code { font-size: $font_size_page_title - 5; }
-        h3 code { font-size: $font_size_page_title - 6; }
-        h4 code { font-size: $font_size_page_title - 8; }
-        h5 code { font-size: $font_size_page_title - 10; }
-        h6 code { font-size: $font_size_page_title - 11; }
+        h2 code { font-size: $font_size_page_title - 0; }
+        h3 code { font-size: $font_size_page_title - 1; }
+        h4 code { font-size: $font_size_page_title - 1; }
+        h5 code { font-size: $font_size_page_title - 2; }
+        h6 code { font-size: $font_size_page_title - 2; }
     }
 
     @media print {
