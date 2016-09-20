@@ -16,8 +16,8 @@ video:
   source: 5PByoV5KqN8
   attribution: RTVM
 sources:
-  - label:
-    link:
+  - label: Philippine Information Agency
+    link: http://news.pia.gov.ph/article/view/2131474042143/prrd-diplomacy-to-counteract-terrorism-insurgency
 ---
 
 President Rodrigo Roa Duterte graced the 48th anniversary of the 250th Presidential Airlift Wing (PAW) at the Villamor Air Base (VAB) in Pasay City, where he led the presentation of awards to the outstanding men, women, and units under PAW.
