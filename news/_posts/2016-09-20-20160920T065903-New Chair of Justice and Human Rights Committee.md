@@ -25,10 +25,10 @@ Following the privilege speech of Senator Alan Peter Cayetano during the 22nd se
 Senator Pro-Tempore Franklin Drilon registered his objection stating that "there is no basis" for the motion.
 Senator Risa Hontiveros of Akbayan Party also registered her objection.
 
-The Senate voted to declare vacant the membership and the new members of the Justice and Human Rights Committee.
+The Senate voted to declare vacant the membership and to reconstitute the Justice and Human Rights Committee.
 Two senators abstained: Minority Leader Ralph Recto and Senator Antonio Trillanes IV.
-Four voted to keep Senator Leila De Lima as committee head: her fellow Liberal Party members Senate Pro-Tempore Franklin Drilon, senators Francis Pangilinan, Paolo Benigno Aquino IV, and Risa Hontiveros.
-Sixteen senators voted for the removal of De Lima as chairman of the Justice and Human Rights Committee:
+Four voted to keep Senator Leila De Lima as committee head: Liberal Party members Senate Pro-Tempore Franklin Drilon, senators Francis Pangilinan, Paolo Benigno Aquino IV, and Risa Hontiveros.
+Sixteen senators voted for the removal of De Lima as chairperson of the Justice and Human Rights Committee:
 
 1. Senate President Aquilino Pimentel III
 2. Senate Majority Floor Leader Vicente Sotto III
