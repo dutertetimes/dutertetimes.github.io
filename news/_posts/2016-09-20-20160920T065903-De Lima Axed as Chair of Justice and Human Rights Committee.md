@@ -3,7 +3,7 @@ title: De Lima Axed as Chair of Justice and Human Rights Committee
 date: 2016-09-20T06:59:03UTC
 excerpt: During the 22nd session of the Senate on 19 September 2016, the Senate removed Senator Leila De Lima as Chair of the Justice and Human Rights Committee and reconstituted the committee chaired by Senator Richard Gordon, vice chaired by Senator Panfilo Lacson.
 layout: post
-categories: [other, senate]
+categories: [headline, senate]
 tags: [senate, justice and human rights committee, de lima]
 published: true
 permalink: /news/20160920T065903
