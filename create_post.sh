@@ -278,4 +278,7 @@ case $1 in
     -h | --help )       show_usage
                         exit
                         ;;
+    * )                 show_usage
+                        exit
+                        ;;
 esac
