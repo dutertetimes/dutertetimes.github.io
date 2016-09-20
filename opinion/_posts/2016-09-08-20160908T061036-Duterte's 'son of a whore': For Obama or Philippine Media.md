@@ -4,7 +4,7 @@ date: 2016-09-08T08:11:10UTC
 excerpt: "President Rodrigo Roa Duterte said the words again on 5 September 2016 before leaving for the 28th and 29th ASEAN Summits after a correspondent of international news wire service Reuters asked him about 'extrajudicial killings' in the government's fight against illegal drugs which has garnered international news attention. But was it directed to the United States President Barrack Obama or to the Philippine Media?"
 layout: post
 categories: [top, opinion]
-tags: [swearing, obama, bud dajo]
+tags: [swearing, obama, bud dajo, stephen colbert, mark twain, samuel clemens]
 published: true
 permalink: /news/20160908T081110
 image:
