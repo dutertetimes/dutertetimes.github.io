@@ -26,7 +26,7 @@
     <h1>{{ include.category | capitalize }}</h1>
     <div class="links headline_links">
         {% for i in (1..post_count) %}
-        <span class="{{ include.category | replace: ' ', '_' }}_dot slideshow_dot" onclick="current{{ include.category | capitalize }}Slide({{ i }})"></span>
+        <span class="{{ include.category | replace: ' ', '_' }}_dot slideshow_dot" onclick="current{{ include.category | capitalize }}Slide({{ i | minus: 1}})"></span>
         {% endfor %}
     </div>
     <div class="entries">
