@@ -39,12 +39,12 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% assign section_posts = site.categories['headline'] %}
-        {% include section_slideshow.html category="headline" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Headline" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="other" max_count=8 %}
     </div>
     <div class="right_container">
         {% assign section_posts = site.categories['opinion'] %}
-        {% include section_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Opinion" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="opinion" max_count=8 %}
     </div>
 </div>
@@ -52,13 +52,13 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% assign section_posts = site.categories['criminality'] %}
-        {% include section_slideshow.html category="criminality" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="criminality" max_count=3 %}
     </div>
 
     <div class="right_container">
         {% assign section_posts = site.categories['peace process'] %}
-        {% include section_slideshow.html category="peace process" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Peace Process" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="peace process" max_count=3 %}
     </div>
 </div>
@@ -66,13 +66,13 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% assign section_posts = site.categories['agrarian'] %}
-        {% include section_slideshow.html category="agrarian" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Agrarian" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="agrarian" max_count=3 %}
     </div>
 
     <div class="right_container">
         {% assign section_posts = site.categories['environment'] %}
-        {% include section_slideshow.html category="environment" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Environment" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="environment" max_count=3 %}
     </div>
 </div>
@@ -80,13 +80,13 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% assign section_posts = site.categories['business'] %}
-        {% include section_slideshow.html category="business" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Business" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="business" max_count=3 %}
     </div>
 
     <div class="right_container">
         {% assign section_posts = site.categories['foreign affairs'] %}
-        {% include section_slideshow.html category="foreign affairs" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts %}
         {% include section_list.html category="foreign affairs" max_count=3 %}
     </div>
 </div>

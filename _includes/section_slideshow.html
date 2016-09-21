@@ -1,7 +1,7 @@
 {% assign posts = "" | split: "" %}
 {% assign post_count = 0 %}
 
-{% if include.category == 'headline' %}
+{% if include.category == 'Headline' %}
     {% for post in include.posts %}
         {% assign posts = posts | push: post %}
         {% assign post_count = post_count | plus: 1 %}
@@ -23,15 +23,15 @@
 
 
 <div class="block block_default_fonts">
-    <h1>{{ include.category | capitalize }}</h1>
+    <h1>{{ include.category }}</h1>
     <div class="links headline_links">
         {% for i in (1..post_count) %}
-        <span class="{{ include.category | replace: ' ', '_' }}_dot slideshow_dot" onclick="current{{ include.category | capitalize }}Slide({{ i | minus: 1}})"></span>
+        <span class="{{ include.category | replace: ' ', '_' | downcase }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide({{ i | minus: 1 }})"></span>
         {% endfor %}
     </div>
     <div class="entries">
         {% for post in posts %}
-        <div class="entry {{ include.category | replace: ' ', '_' }}_news_entry">
+        <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
             <p class="excerpt">
