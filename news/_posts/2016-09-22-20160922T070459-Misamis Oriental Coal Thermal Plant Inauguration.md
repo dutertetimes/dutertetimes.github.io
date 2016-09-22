@@ -1,5 +1,5 @@
 ---
-title: President in Inauguration of Misamis Oriental Coal Thermal Plant
+title: Misamis Oriental Coal Thermal Plant Inauguration
 date: 2016-09-22T07:04:59UTC
 excerpt: The President attended the inauguration of the Misamis Oriental Coal Thermal Plant on 22 September 2016. In his speech, he emphasized the need of the country for energy to help push the country forward.
 layout: post
