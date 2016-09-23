@@ -1,5 +1,5 @@
 ---
-title: "Duterte's 'Son of a whore': Obama or Philippine Media?"
+title: "'Your mother is a whore': for Obama or Philippine Media?"
 date: 2016-09-08T08:11:10UTC
 excerpt: "President Rodrigo Roa Duterte said the words again on 5 September 2016 before leaving for the 28th and 29th ASEAN Summits after a correspondent of international news wire service Reuters asked him about 'extrajudicial killings' in the government's fight against illegal drugs which has garnered international news attention. But was it directed to the United States President Barrack Obama or to the Philippine Media?"
 layout: post
@@ -140,16 +140,16 @@ If not directed towards Obama, could his advise therefore be for his audience? â
 The following statement of President Duterte is where the swearing was heard.
 One cannot ignore that up to this point, his subject was the columnists who write things he did not said and who think we are a vassal state and subject to the United States; and to whom he ad directed all his messages and to whom he had been trying to explain where the Philippines and the President stands.
 
-> Puta'ng-ina, mumurahin kita diyan sa forum na 'yan (son of a bitch, I will swear at you in that forum).
+> Puta'ng-ina, mumurahin kita diyan sa forum na 'yan ([son of a] bitch, I will swear at you in that forum).
 
 He said, 'Puta'ng-ina' meaning 'Puta'ng [Puta ang] (the whore, the bitch, but 'the' is usually not translated); 'ina' (mother).
 If you translate that literally, 'Whore mother', but you don't say it that way in english.
-The closest english equivalent is 'bitch' or possibly 'son of a bitch' but not 'you son of a bitch'.
+The closest english equivalent is 'bitch' or maybe 'son of a bitch' but not 'you son of a bitch'.
 
 When he said, "I will swear at you in that forum", could he have meant Obama whom he had only referred to in the third person, as 'he' or 'him' like when Duterte said, "Who is he?" and "... I will answer him."
 Moreover, Obama wasn't the gist of all he had said so far.
 
-A local journalist who have written about the topic focused on the word 'you' wherein she said the Filipino word for 'you' that Duterte used was the singular word 'kita'.
+A local journalist who have written about the topic focused on the word 'you' wherein, she said, the Filipino word for 'you' that Duterte used was the singular word 'kita'.
 She argued that if Duterte was referring to columnists, he should have used the plural form of the word which is 'kayo'.
 Both words are translated to english as 'you'.
 The former singular and the latter plural, depending on the context it is used.
