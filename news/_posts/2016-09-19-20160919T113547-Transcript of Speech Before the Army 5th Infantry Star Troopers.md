@@ -27,7 +27,7 @@ September 17, 2016<br/>
 
 Commander, could you give the order of tikas pahinga?
 
-Secretary Delfin Lorenzana; Secretary Silvestre Bello, he's from here, his house is just about kilometer away, sumama siya sa akin to visit you; Undersecretary Arthur Tabaquero; Undersecretary Cesar Yano; General Ricardo Visaya; Lieutenant General Eduardo Año; Brigadier General Paul Atal; officers, men and women of the 5th Infantry Division Star Troopers; my beloved countryman; soldiers of this Republic.
+Secretary Delfin Lorenzana; Secretary Silvestre Bello, he's from here, his house is just about kilometer away, sumama siya sa akin to visit you; Undersecretary Arthur Tabaquero; Undersecretary Cesar Yano; General Ricardo Visaya; Lieutenant General Eduardo Año; Brigadier General Paul Atal; officers, men and women of the 5th Infantry Division Star Troopers; my beloved countrymen; soldiers of this Republic.
 
 I have a very limited time because nagsasara kaagad dito. I have to go to Cabanatuan for another appointment. But, meron akong mga mensahe sa inyo.
 
