@@ -1,7 +1,7 @@
 ---
 title: Talk with Army 5th Infantry Star Troopers
 date: 2016-09-18T19:49:29UTC
-excerpt: President Rodrigo Roa Duterte on 17 September 2016 visited and talked to the Star Troopers of the Philippine Army's 5th Infantry Division (5ID) at Camp Melchor F. Dela Cruz (CMFDC) in Gamu, Isabela.
+excerpt: President Rodrigo Roa Duterte on 17 September 2016 visited and talked to the Star Troopers of the Philippine Army's 5th Infantry Division at Camp Melchor F. Dela Cruz in Gamu, Isabela.
 layout: post
 categories: [other, military]
 tags: [army, star troopers]
