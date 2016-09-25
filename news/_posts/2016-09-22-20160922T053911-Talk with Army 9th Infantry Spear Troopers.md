@@ -4,7 +4,7 @@ date: 2016-09-22T05:39:11UTC
 excerpt: President Rodrigo Roa Duterte spoke before the Spear Troopers of the Philippine Army's 9th Infantry Division during his visit at Camp Elias Angeles in Pili, Camarines Sur on 21 September 2016.
 layout: post
 categories: [other, military]
-tags: [spear troopers, afp, army]
+tags: [speech, spear troopers, afp, army]
 published: true
 permalink: /news/20160922T053911
 image:
