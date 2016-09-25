@@ -1,5 +1,5 @@
 ---
-title: Meeting With Joey Concepcion
+title: Meeting with Joey Concepcion
 date: 2016-09-12T19:43:01UTC
 excerpt: President Rodrigo Roa Duterte and Jose Ma. "Joey" Concepcion III held a late evening meeting in the Study Room of Malacañan Palace.
 layout: post
