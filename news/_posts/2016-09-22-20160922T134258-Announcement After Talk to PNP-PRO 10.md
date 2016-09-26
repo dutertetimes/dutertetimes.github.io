@@ -47,7 +47,7 @@ But itong mga international writers, every networks, mayroon yan silang correspo
 
 I am not doing nothing wrong. I agree with you, but of course, we should not also threaten people because hindi na sila makapagsulat ng totoo.
 
-For after all, just like de Lima, just like the drugs, they thought all the while that it was just really something, but only, they now realize that the drug, that the whole thing was being ran by no less than the Secretary of Justice. Hindi na niya namalayan, naglabasan na talaga ang totoo. 
+For after all, just like De Lima, just like the drugs, they thought all the while that it was just really something, but only, they now realize that the drug, that the whole thing was being ran by no less than the Secretary of Justice. Hindi na niya namalayan, naglabasan na talaga ang totoo. 
 
 So, in desperation, I said it was not in anger, but in desperation, I uttered— and I would like to repeat it: De Lima was not only screwing her driver, she's screwing the nation. Wala akong pakialam kung sino iyong mga naglabasan na iyan. Lalabas talaga ang totoo eh.
 
