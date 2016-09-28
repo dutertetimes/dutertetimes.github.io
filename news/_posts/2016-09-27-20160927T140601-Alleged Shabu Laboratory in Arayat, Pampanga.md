@@ -5,7 +5,7 @@ excerpt: President Rodrigo Roa Duterte inspected the alleged mega shabu laborato
 layout: post
 categories: [illegal drugs, criminality]
 tags: [shabu]
-published: false
+published: true
 permalink: /news/20160927T140601
 image:
   layout: auto_width

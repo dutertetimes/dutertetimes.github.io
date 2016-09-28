@@ -5,7 +5,7 @@ excerpt: President Rodrigo Roa Duterte delivers a speech on 28 September 2016 at
 layout: post
 categories: [foreign affairs]
 tags: [vietnam]
-published: false
+published: true
 permalink: /news/20160928T135736
 image:
   layout: auto_width
