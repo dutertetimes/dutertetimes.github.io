@@ -71,12 +71,21 @@
       },
     ]
   },
+  
+  {
+    "name": "The Huffington Post",
+    "description": "The Huffington Post (sometimes abbreviated Huff Post or HuffPo) is an American online news aggregator and blog that has both localized and international editions founded by Reilly Wieland, Kenneth Lerer, Andrew Breitbart, and Jonah Peretti, featuring columnists. The site offers news, satire, blogs, and original content and covers politics, business, entertainment, environment, technology, popular media, lifestyle, culture, comedy, healthy living, women's interests, and local news.<br/><br/>The Huffington Post was launched on May 9, 2005 as an overtly liberal/left commentary outlet and alternative to news aggregators such as the Drudge Report. On February 7, 2011, AOL acquired the mass market Huffington Post for US$315 million, making Arianna Huffington editor-in-chief of The Huffington Post Media Group.<br/><br/>In July 2012, The Huffington Post was ranked #1 on the 15 Most Popular Political Sites list by eBizMBA Rank, which bases its list on each site's Alexa Global Traffic Rank and U.S. Traffic Rank from both Compete and Quantcast. In 2012, The Huffington Post became the first commercially run United States digital media enterprise to win a Pulitzer Prize. (Wikipedia: https://en.wikipedia.org/wiki/The_Huffington_Post)",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "http://www.huffingtonpost.com/"
+      },
+    ]
+  },
+  
   {
     "name": "Al Jazeera",
-    "description": "Al Jazeera, literally 'The Peninsula', referring to the Arabian Peninsula, also known as JSC (Jazeera Satellite Channel), is a Doha-based state-funded broadcaster owned by the Al Jazeera Media Network, which is partly funded by the House of Thani, the ruling family of Qatar. Initially launched as an Arabic news and current affairs satellite TV channel, Al Jazeera has since expanded into a network with several outlets, including the Internet and specialty TV channels in multiple languages.
-
-    Al Jazeera is among the largest news organizations with 80 bureaus around the world. Al Jazeera has been called a propaganda outlet for the Qatari government and its foreign policy, by analysts and by news reporters, including former Al Jazeera reporters. The network is sometimes perceived to have mainly Islamist perspectives, promoting the Muslim Brotherhood, and having a pro-Sunni and an anti-Shia bias in its reporting of regional issues. It's also accused of having an anti-Western bias. However, Al Jazeera insists it covers all sides of a debate, it says it presents Israel's view, Iran's view and even aired videos released by Osama bin Laden.
-    (Wikipedia: https://en.wikipedia.org/wiki/Al_Jazeera)",
+    "description": "Al Jazeera, literally 'The Peninsula', referring to the Arabian Peninsula, also known as JSC (Jazeera Satellite Channel), is a Doha-based state-funded broadcaster owned by the Al Jazeera Media Network, which is partly funded by the House of Thani, the ruling family of Qatar. Initially launched as an Arabic news and current affairs satellite TV channel, Al Jazeera has since expanded into a network with several outlets, including the Internet and specialty TV channels in multiple languages.<br/><br/>Al Jazeera is among the largest news organizations with 80 bureaus around the world. Al Jazeera has been called a propaganda outlet for the Qatari government and its foreign policy, by analysts and by news reporters, including former Al Jazeera reporters. The network is sometimes perceived to have mainly Islamist perspectives, promoting the Muslim Brotherhood, and having a pro-Sunni and an anti-Shia bias in its reporting of regional issues. It's also accused of having an anti-Western bias. However, Al Jazeera insists it covers all sides of a debate, it says it presents Israel's view, Iran's view and even aired videos released by Osama bin Laden. (Wikipedia: https://en.wikipedia.org/wiki/Al_Jazeera)",
     "link": [
       {
         "label": "Official Site",
