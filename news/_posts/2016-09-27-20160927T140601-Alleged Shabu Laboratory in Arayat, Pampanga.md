@@ -3,7 +3,7 @@ title: Alleged Shabu Laboratory in Arayat, Pampanga
 date: 2016-09-27T14:06:01UTC
 excerpt: President Rodrigo Roa Duterte inspected the alleged mega shabu laboratory which was discovered and raided this September at Barangay Lacquios, Arayat, Pampanga according to Philippine National Police Region III Director Aaron Aquino.
 layout: post
-categories: [illegal drugs, criminality]
+categories: [top, criminality, illegal drugs]
 tags: [shabu]
 published: true
 permalink: /news/20160927T140601
