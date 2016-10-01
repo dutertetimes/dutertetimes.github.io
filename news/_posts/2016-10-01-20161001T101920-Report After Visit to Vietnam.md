@@ -5,7 +5,7 @@ excerpt: President Rodrigo Roa Duterte delivers report after arrival at the Dava
 layout: post
 categories: [other, foreign affairs]
 tags: [vietnam]
-published: false
+published: true
 permalink: /news/20161001T101920
 image:
   layout: auto_width

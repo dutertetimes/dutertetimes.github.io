@@ -5,7 +5,7 @@ excerpt: President Rodrigo Roa Duterte delivers a message after arrival at the D
 layout: post
 categories: [other]
 tags: [illegal drugs]
-published: false
+published: true
 permalink: /news/20161001T102702
 image:
   layout: auto_width
