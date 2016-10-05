@@ -4,7 +4,7 @@ date: 2016-08-29T20:00:18UTC
 excerpt: "In the evening of the National Heroes Day, 29 August, the President hosted a dinner in Malacañang for the selected sixty-four soldiers who were wounded-in-action against the Abu Sayyaf Group and the New People's Army."
 layout: post
 categories: [other, military]
-tags: [terrorism, abu sayyaf group, asg, new peoples army, npa, cpp npa]
+tags: [terrorism, abu sayyaf group, asg, new peoples army, npa, cpp npa, president]
 published: true
 permalink: /news/20160829T200018
 image:

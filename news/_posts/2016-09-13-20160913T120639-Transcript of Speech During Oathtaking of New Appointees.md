@@ -4,7 +4,7 @@ date: 2016-09-25T12:06:39UTC
 excerpt: President Rodrigo Duterte leads the Oathtaking of newly appointed Officials at Heroes Hall, Malacañang September 12, 2016.
 layout: post
 categories: [other, governance]
-tags: [oathtaking]
+tags: [oathtaking, president]
 published: true
 permalink: /news/20160925T120639
 image:

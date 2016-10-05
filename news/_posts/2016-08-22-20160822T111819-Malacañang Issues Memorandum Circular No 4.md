@@ -4,7 +4,7 @@ date: 2016-08-22T11:18:19UTC
 excerpt: Memorandum Circular No. 4 (Courtesy Resignations of Presidential Appointees) issued on August 22 by Executive Secretary Salvador Medialdea, by the power of the President of the Philippines.
 layout: post
 categories: [other]
-tags: [memorandum circular, memorandum circular 4]
+tags: [memorandum circular, memorandum circular 4, president]
 published: true
 permalink: /news/20160822T111819
 image:

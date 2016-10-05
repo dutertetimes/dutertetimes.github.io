@@ -1,10 +1,10 @@
 ---
-title: Talk With the Philippine Marines
+title: Talk With the Philippine Marines and Navy
 date: 2016-09-27T14:25:54UTC
-excerpt: President Duterte talked to the Philippine Marines at Philippine Marine Corps Headquarters on 27 September 2016.
+excerpt: President Duterte talked to the Philippine Marines and Navy at Philippine Marine Corps Headquarters on 27 September 2016.
 layout: post
 categories: [other, military, marines]
-tags: [marines navy hq]
+tags: [marines navy hq, president]
 published: true
 permalink: /news/20160927T142554
 image:

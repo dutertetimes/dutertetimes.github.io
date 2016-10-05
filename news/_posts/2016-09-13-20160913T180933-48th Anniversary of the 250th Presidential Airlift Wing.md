@@ -4,7 +4,7 @@ date: 2016-09-13T18:09:33UTC
 excerpt: President Rodrigo Roa Duterte graced the 48th anniversary of the 250th Presidential Airlift Wing (PAW) at the Villamor Air Base (VAB) in Pasay City, where he led the presentation of awards to the outstanding men, women, and units under PAW.
 layout: post
 categories: [other, military, airforce]
-tags: [anniversary, presidential airlift wing, paw]
+tags: [anniversary, presidential airlift wing, paw, president]
 published: true
 permalink: /news/20160913T180933
 image:

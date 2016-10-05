@@ -4,7 +4,7 @@ date: 2016-09-14T19:38:47UTC
 excerpt: President Rodrigo Roa Duterte met with his special envoy to China, former President Fidel V. Ramos, Executive Secretary Salvador Medialdea, National Security Adviser Hermogenes C. Esperon Jr., Mr. Jose Santiago Sta. Romana, Mr. Sam Jones-Ramos and Foreign Affairs Undersecretary Enrique Manalo in Malacañang.
 layout: post
 categories: [other, foreign affairs]
-tags: [special envoy to china, china]
+tags: [special envoy to china, china, president, ramos]
 published: true
 permalink: /news/20160914T193847
 image:

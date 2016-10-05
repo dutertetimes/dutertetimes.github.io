@@ -4,7 +4,7 @@ date: 2016-09-22T13:37:06UTC
 excerpt: President Rodrigo Roa Duterte talked to the Philippine National Police – Police Regional Office X (PNP-PRO X) troops at Camp 1Lt. Vicente G. Alagar, Lapasan in Cagayan de Oro City on 22 September 2016.
 layout: post
 categories: [other, pnp]
-tags: [speech, pnp, police regioinal office 10, pnp pro 10]
+tags: [speech, pnp, police regioinal office 10, pnp pro 10, president]
 published: true
 permalink: /news/20160922T133706
 image:

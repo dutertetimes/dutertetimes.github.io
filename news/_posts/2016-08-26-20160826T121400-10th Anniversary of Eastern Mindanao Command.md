@@ -4,7 +4,7 @@ date: 2016-08-26T12:14:00UTC
 excerpt: President Rodrigo Duterte attended the 10th Anniversary of the Eastern Mindanao Command (EASTMINCOM) in Naval Station Felix Apolinario, Panacan, Davao City on 26 August 2016.
 layout: post
 categories: [other, military]
-tags: [10th anniversary, anniversary, eastmincom]
+tags: [10th anniversary, anniversary, eastmincom, president]
 published: true
 permalink: /news/20160826T121400
 image:

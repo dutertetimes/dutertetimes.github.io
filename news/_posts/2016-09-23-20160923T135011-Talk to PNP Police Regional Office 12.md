@@ -4,7 +4,7 @@ date: 2016-09-23T13:50:11UTC
 excerpt: President Rodrigo Roa Duterte talked to the Philippine National Police – Police Regional Office X (PNP-PRO X) troops at General Santos City on 23 September 2016.
 layout: post
 categories: [other, pnp]
-tags: [speech, pnp, police regioinal office 12, pnp pro 12]
+tags: [speech, pnp, police regioinal office 12, pnp pro 12, president]
 published: true
 permalink: /news/20160923T135011
 image:

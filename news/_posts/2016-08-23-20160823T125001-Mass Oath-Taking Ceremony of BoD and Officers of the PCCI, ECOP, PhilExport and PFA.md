@@ -4,7 +4,7 @@ date: 2016-08-23T12:50:01UTC
 excerpt: "Speech of President Rodrigo Roa Duterte during the oath-taking ceremony of the Board of Directors and Officers of the PCCI, ECOP, PhilExport and PFA at the Rizal Hall, Malacañang on August 23, 2016."
 layout: post
 categories: [other, business]
-tags: [oath taking]
+tags: [oath taking, president]
 published: true
 permalink: /news/20160823T125001
 image:

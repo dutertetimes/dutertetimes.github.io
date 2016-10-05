@@ -4,7 +4,7 @@ date: 2016-09-01T22:33:54UTC
 excerpt: The President welcomed 129 returning Overseas Filipino Workers from Al Khobar, Kingdom of Saudi Arabia who arrived at the Ninoy Aquino International Airport on 31 August 2016 a few weeks after he had order to bring the stranded OFWs home.
 layout: post
 categories: [other, ofw]
-tags: [ofw, kingdom of saudi arabia, al-khobar]
+tags: [ofw, kingdom of saudi arabia, al-khobar, president]
 published: true
 permalink: /news/20160901T223354
 image:

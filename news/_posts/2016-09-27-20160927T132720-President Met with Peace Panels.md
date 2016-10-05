@@ -4,7 +4,7 @@ date: 2016-09-27T13:27:20UTC
 excerpt: President Rodrigo Roa Duterte met with the peace negotiating panels between the Government of the Philippines and the Communist Party of the Philippines/New People's Army/National Democratic Front on 26 September 2016.
 layout: post
 categories: [peace process]
-tags: [cpp, npa, ndf]
+tags: [cpp, npa, ndf, president]
 published: true
 permalink: /news/20160927T132720
 image:

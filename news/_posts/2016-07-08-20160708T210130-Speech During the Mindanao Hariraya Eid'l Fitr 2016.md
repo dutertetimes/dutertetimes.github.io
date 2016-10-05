@@ -4,7 +4,7 @@ date: 2016-07-08T21:01:30UTC
 excerpt: "Speech of President Rodrigo Roa Duterte during the Mindanao Hariraya Eid'l Fitr on 8 July 2016 at the SMX Convention Center Davao, Davao City."
 layout: post
 categories: [other]
-tags: [speech]
+tags: [hariraya eid'l fitr, speech, president]
 published: true
 permalink: /news/20160708T210130
 image:

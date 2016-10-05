@@ -4,7 +4,7 @@ date: 2016-09-10T18:19:41UTC
 excerpt: On the President's second working day visit to Indonesia, he met with the members of the Filipino Community in Jakarta.
 layout: post
 categories: [other]
-tags: [ofw, jakarta]
+tags: [ofw, jakarta, president]
 published: true
 permalink: /news/20160910T181941
 image:

@@ -4,7 +4,7 @@ date: 2016-09-06T19:18:28UTC
 excerpt: "President Rodrigo Duterte participated in the 13th ASEAN Business and Investment Summit during the 28th and 29th ASEAN Summits in Lao People's Democratic Republic."
 layout: post
 categories: [other, foreign affairs]
-tags: [asean]
+tags: [asean, president]
 published: true
 permalink: /news/20160906T191828
 image:

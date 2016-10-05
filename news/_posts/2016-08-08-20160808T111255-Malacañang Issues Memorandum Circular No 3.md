@@ -4,7 +4,7 @@ date: 2016-08-08T11:12:55UTC
 excerpt: Memorandum Circular No. 3 (Enjoining All Government Officials and Employees to Strictly Observe and Comply with the Required Work Hours) issued on August 08 by Executive Secretary Salvador Medialdea, by the power of the President of the Philippines.
 layout: post
 categories: [other]
-tags: [memorandum circular, memorandum circular 3]
+tags: [memorandum circular, memorandum circular 3, president]
 published: true
 permalink: /news/20160808T111255
 image:

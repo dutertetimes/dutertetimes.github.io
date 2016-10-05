@@ -4,7 +4,7 @@ date: 2016-08-29T12:06:39UTC
 excerpt: "President Rodrigo Roa Duterte led the country's commemoration of the National Heroes Day in Libingan ng mga Bayani, Taguig City on 29 August 2016 where he shared his thoughts about peace, security and maintaining good diplomatic relations."
 layout: post
 categories: [other]
-tags: [national heroes day]
+tags: [national heroes day, president]
 published: true
 permalink: /news/20160829T120639
 image:
