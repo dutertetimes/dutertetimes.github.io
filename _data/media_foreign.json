@@ -185,4 +185,16 @@
       },
     ]
   },
+  
+  {
+    "name": "Sputnik News",
+    "description": "",
+    "link": [
+      {
+        "label": "Official Site",
+        "url": "https://sputniknews.com/"
+      },
+    ]
+  },
+  
 ]
