@@ -10,6 +10,14 @@ Example:
 {% assign posts = "" | split: "" %}
 {% endcomment %}
 
+{% assign posts = include.posts %}
+
+{% assign post_count = include.post_count %}
+{% if post_count > 7 %}
+    {% assign post_count = 7 %}
+{% endif %}
+
+{% comment %}
 {% if include.category == 'Headline' %}
     {% for post in include.posts %}
         {% assign posts = posts | push: post %}
@@ -29,7 +37,7 @@ Example:
         {% endif %}
     {% endfor %}
 {% endif %}
-
+{% endcomment %}
 
 <div class="block block_default_fonts">
     <h1>{{ include.category }}</h1>

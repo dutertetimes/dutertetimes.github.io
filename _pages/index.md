@@ -11,7 +11,7 @@ permalink: /
     {% if site.development %}
         <img id="source_top_1" class="modal_source" src="/images/top_1.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu diam ante. Mauris id semper libero, et pulvinar nulla. Nulla eu feugiat diam. Donec metus nisl, congue sit amet interdum quis, convallis eu ligula. Phasellus rutrum turpis efficitur, cursus sapien eu, molestie nisl. Nunc interdum nibh ut auctor tincidunt." width="270px" height="auto" >
     {% else %}
-        <img id="source_top_1" class="modal_source" src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_1.png" width="270px" height="auto" >
+        <img id="source_top_1" class="modal_source" src="{{ site.image_source }}/site/top_1.png" width="270px" height="auto" >
     {% endif %}
         <div id="modal_top_1" class="modal">
             <div class="modal_content">
@@ -24,7 +24,7 @@ permalink: /
     {% if site.development %}
         <img id="source_top_2" class="modal_source" src="/images/top_2.png" width="270px" height="auto" >
     {% else %}
-        <img id="source_top_2" class="modal_source" src="https://dl.dropboxusercontent.com/u/47611946/dutertetimes/site/top_2.png" width="270px" height="auto" >
+        <img id="source_top_2" class="modal_source" src="{{ site.image_source }}/site/top_2.png" width="270px" height="auto" >
     {% endif %}
         <div id="modal_top_2" class="modal">
             <div class="modal_content">
@@ -38,58 +38,45 @@ permalink: /
 
 <div class="section_container">
     <div class="left_container">
-        {% assign section_posts = site.categories['headline'] %}
-        {% include section_slideshow.html category="Headline" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="other" max_count=8 %}
+        {% assign section_posts = site.tags['president'] %}
+        {% include section_slideshow.html category="President" post_count=section_posts.size posts=section_posts %}
+        
+        {% assign section_posts = site.categories['criminality'] %}
+        {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
+        
+        {% assign section_posts = site.categories['agrarian'] %}
+        {% include section_slideshow.html category="Agrarian" post_count=section_posts.size posts=section_posts %}
+        
+        {% assign section_posts = site.categories['environment'] %}
+        {% include section_slideshow.html category="Environment" post_count=section_posts.size posts=section_posts %}
+        
+        {% assign section_posts = site.categories['business'] %}
+        {% include section_slideshow.html category="Business" post_count=section_posts.size posts=section_posts %}
+        
+        {% assign section_posts = site.categories['foreign affairs'] %}
+        {% include section_slideshow.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts %}
     </div>
+    
     <div class="right_container">
         {% assign section_posts = site.categories['opinion'] %}
         {% include section_slideshow.html category="Opinion" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="opinion" max_count=8 %}
-    </div>
-</div>
-
-<div class="section_container">
-    <div class="left_container">
-        {% assign section_posts = site.categories['criminality'] %}
-        {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="criminality" max_count=3 %}
-    </div>
-
-    <div class="right_container">
+        
         {% assign section_posts = site.categories['peace process'] %}
         {% include section_slideshow.html category="Peace Process" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="peace process" max_count=3 %}
     </div>
 </div>
 
+
+
+{% comment %}
 <div class="section_container">
     <div class="left_container">
-        {% assign section_posts = site.categories['agrarian'] %}
-        {% include section_slideshow.html category="Agrarian" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="agrarian" max_count=3 %}
     </div>
 
     <div class="right_container">
-        {% assign section_posts = site.categories['environment'] %}
-        {% include section_slideshow.html category="Environment" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="environment" max_count=3 %}
     </div>
 </div>
-
-<div class="section_container">
-    <div class="left_container">
-        {% assign section_posts = site.categories['business'] %}
-        {% include section_slideshow.html category="Business" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="business" max_count=3 %}
-    </div>
-
-    <div class="right_container">
-        {% assign section_posts = site.categories['foreign affairs'] %}
-        {% include section_slideshow.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts %}
-        {% include section_list.html category="foreign affairs" max_count=3 %}
-    </div>
-</div>
+{% endcomment %}
 
 
 
@@ -131,10 +118,12 @@ permalink: /
 
 <script>
     $(document).ready(function() {
-        currentHeadlineSlide(0);
+        //currentHeadlineSlide(0);
+        currentPresidentSlide(0);
 
-        currentCriminalitySlide(0);
+        currentOpinionSlide(0);
         currentPeaceProcessSlide(0);
+        currentCriminalitySlide(0);
         currentAgrarianSlide(0);
         currentEnvironmentSlide(0);
         currentBusinessSlide(0);
@@ -147,6 +136,10 @@ permalink: /
     // Argument must be greater than zero.
     function currentHeadlineSlide(n) {
         showHeadlineSlides(n);
+    }
+    
+    function currentPresidentSlide(n) {
+        showPresidentSlides(n);
     }
 
     function currentBusinessSlide(n) {
@@ -172,9 +165,17 @@ permalink: /
     function currentCriminalitySlide(n) {
         showCriminalitySlides(n);
     }
+    
+    function currentOpinionSlide(n) {
+        showOpinionSlides(n);
+    }
 
     function showHeadlineSlides(n) {
         showSlides("headline_dot", "headline_news_entry", n);
+    }
+    
+    function showPresidentSlides(n) {
+        showSlides("president_dot", "president_news_entry", n);
     }
 
     function showBusinessSlides(n) {
@@ -199,6 +200,10 @@ permalink: /
 
     function showCriminalitySlides(n) {
         showSlides("criminality_dot", "criminality_news_entry", n);
+    }
+    
+    function showOpinionSlides(n) {
+        showSlides("opinion_dot", "opinion_news_entry", n);
     }
 
     function showSlides(links, entries, index) {
