@@ -44,6 +44,14 @@ published: true
 
 &nbsp;
 
+|---------|
+| Foreign |
+|---------|
+| [European Union External Action](https://eeas.europa.eu/delegations/philippines_en)
+| [European Union We Inspire Each Other](http://www.weinspireeachother.eu/)
+
+&nbsp;
+
 |-------------|
 | Local Media |
 |-------------|
@@ -63,6 +71,7 @@ published: true
 | [Bulatlat](http://bulatlat.com/main/)
 | [Pinoy Weekly](http://pinoyweekly.org/)
 | [Kadao](http://kodao.org/)
+| [Watchmen Daily Journal](http://www.watchmendaily.com/)
 
 &nbsp;
 
@@ -103,18 +112,7 @@ published: true
 | [International Finance Corporation](http://www.ifc.org/)
 | [World Bank](http://www.worldbank.org/)
 | [Asia-Europe Meeting](http://www.aseminfoboard.org/)
-
-&nbsp;
-
-|--------------|
-| Foreign News |
-|--------------|
-| [China Daily](http://www.chinadaily.com.cn/)
-| [Japan Times](http://www.japantimes.co.jp/)
-| [The Japan News](http://the-japan-news.com/)
-| [News on Japan](http://www.newsonjapan.com/)
-| [Japan Today](http://www.japantoday.com/)
-| [The Diplomat](http://thediplomat.com/)
+| [ADAS](http://www.adas.ph/)
 
 &nbsp;
 
@@ -134,3 +132,5 @@ published: true
 | [News Now](http://www.newsnow.ph/)
 | [Arangkada Philippines](http://www.investphilippines.info/)
 | [Northern Philippine Times](http://northphiltimes.blogspot.com/)
+| [Agriculture Philippines](http://www.agricultureph.com/)
+| [The Maharlikan](http://themaharlikan.info/)
