@@ -52,6 +52,17 @@ div.block {
                     @include attribution;
                 }
             }
+            
+            img.thumbnail {
+                width: 80px;
+                @include max-screen(720px) {
+                    width: 80px;
+                }
+                float: left;
+                margin-top: 3px;
+                margin-right: 10px;
+                border-radius: 3px;
+            }
 
             p {
                 @include compact;

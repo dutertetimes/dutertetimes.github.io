@@ -3,6 +3,7 @@ Arguments:
     - category - every word is capitalized because it is also used in javascript
     - post_count
     - posts
+    - post_image
     
 Example:
     {% assign section_posts = site.categories['criminality'] %}
@@ -49,6 +50,14 @@ Example:
     <div class="entries">
         {% for post in posts %}
         <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
+            {% if post.image.source %}
+            <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
+            {% else %}
+                {% if include.post_image %}
+            <img src="{{ site.image_source }}{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                {% endif %}
+            {% endif %}
+            
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
             <p class="excerpt">

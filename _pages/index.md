@@ -39,22 +39,22 @@ permalink: /
 <div class="section_container">
     <div class="left_container">
         {% assign section_posts = site.tags['president'] %}
-        {% include section_slideshow.html category="President" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="President" post_count=section_posts.size posts=section_posts post_image="/site/post_president.png" %}
         
         {% assign section_posts = site.categories['criminality'] %}
-        {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts post_image="/site/post_crime.png" %}
         
         {% assign section_posts = site.categories['agrarian'] %}
-        {% include section_slideshow.html category="Agrarian" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Agrarian" post_count=section_posts.size posts=section_posts post_image="/site/post_agri.png" %}
         
         {% assign section_posts = site.categories['environment'] %}
-        {% include section_slideshow.html category="Environment" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Environment" post_count=section_posts.size posts=section_posts post_image="/site/post_env.png" %}
         
         {% assign section_posts = site.categories['business'] %}
-        {% include section_slideshow.html category="Business" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Business" post_count=section_posts.size posts=section_posts post_image="/site/post_business.png" %}
         
         {% assign section_posts = site.categories['foreign affairs'] %}
-        {% include section_slideshow.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts %}
+        {% include section_slideshow.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts post_image="/site/post_foreign.png" %}
     </div>
     
     <div class="right_container">

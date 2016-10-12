@@ -293,11 +293,11 @@ section {
 
     @include min-screen(1024px) {
         &.column_left_sidebar,
-        &.column_right_sidebar  { width: 270px; }
+        &.column_right_sidebar  { width: 250px; }
         &.hub_column_main,
         &.post_column_main,
         &.page_column_main,
-        &.info_column_main      { width: calc(100% - 270px - 270px - 60px); }
+        &.info_column_main      { width: calc(100% - 250px - 250px - 60px); }
     }
 
     @include max-screen(720px) {
@@ -432,4 +432,12 @@ section.column_right_sidebar {
 
 .padding_left_none {
     padding-left: 0px !important;
+}
+
+.img_style_rounded {
+    border-radius: 5px;
+}
+
+.img_style_circle {
+    border-radius: 50%;
 }
