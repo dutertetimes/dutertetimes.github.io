@@ -4,7 +4,7 @@ date: 2016-08-12T03:45:02UTC
 excerpt: The Department of Agriculture Secretary Emmanuel Piñol paid a visit to Apayao on 12 August as he continues his campaign for food and security and poverty alleviation program of the Duterte administration.
 layout: post
 categories: [agrarian, agriculture]
-tags: [saad]
+tags: [saad, special area for agricultural development, apayao]
 published: true
 permalink: /news/20160812T034502
 image:
