@@ -1,0 +1,25 @@
+{% comment %}
+Argument(s):
+    - post
+{% endcomment %}
+
+        <div class="entry">
+            <h2><a href="{{ include.post.url }}.html">{{ include.post.title }}</a></h2>
+            
+            {% if include.post.image.source %}
+            <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
+            {% else %}
+                {% if include.post.video.source %}
+            <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" class="video_thumbnail img_style_rounded"/>
+                {% else %}
+            <img src="{{ site.image_source }}{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                {% endif %}
+            {% endif %}
+            
+            {% comment %}
+            <p class="date">{{ include.post.date | date: site.data.format.date_only }}</p>
+            {% endcomment %}
+            <p class="excerpt">
+                {{ include.post.excerpt }}{% if include.post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
+            </p>
+        </div>

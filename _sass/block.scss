@@ -54,16 +54,28 @@ div.block {
             }
             
             img.thumbnail {
-                width: 80px;
+                width: 70px;
+                height: 70px;
                 @include max-screen(720px) {
-                    width: 80px;
+                    width: 70px;
                 }
                 float: left;
                 margin-top: 3px;
                 margin-right: 10px;
                 border-radius: 3px;
             }
-
+            
+            img.video_thumbnail {
+                height: 60px;
+                @include max-screen(720px) {
+                    height: 60px;
+                }
+                float: left;
+                margin-top: 3px;
+                margin-right: 10px;
+                border-radius: 3px;
+            }
+            
             p {
                 @include compact;
             }
@@ -98,6 +110,7 @@ div.block_default_fonts {
                 @include max-screen(720px) {
                     font-size: $font_size_news_title - 1;
                 }
+                padding-bottom: 2px;
             }
             h2 > a {
                 border-bottom: none;
@@ -152,6 +165,7 @@ div.block_compact_fonts {
                 text-transform: uppercase;
                 letter-spacing: 0.2px;
                 word-spacing: 0.175em;
+                padding-bottom: 2px;
             }
             h2, h2 > a {
                 @include block_entry_heading($font_compact_title, $font_size_compact_title, $color_compact_title);

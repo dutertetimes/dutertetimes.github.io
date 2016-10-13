@@ -11,21 +11,64 @@ Example:
 {% assign posts = "" | split: "" %}
 {% endcomment %}
 
-{% assign post_count = include.posts.size %}
+{% comment %}
+{% assign posts = include.posts %}
+
+{% assign post_count = include.post_count %}
 {% if post_count > 7 %}
     {% assign post_count = 7 %}
 {% endif %}
 
+
+{% assign post_count = 0 %}
+{% for post in include.posts %}
+    {% if post_count == 0 %}
+        {% assign post_count = post_count | plus: 1 %}
+        {% continue %}
+    {% endif %}
+    
+    {% assign posts = posts | push: post %}
+    
+    {% assign post_count = post_count | plus: 1 %}
+    {% if post_count == 8 %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% endcomment %}
+
+{% comment %}
+{% if include.category == 'Headline' %}
+    {% for post in include.posts %}
+        {% assign posts = posts | push: post %}
+        {% assign post_count = post_count | plus: 1 %}
+        {% if post_count == 7 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% for post in include.posts %}
+        {% if post.categories contains 'top' %}
+            {% assign posts = posts | push: post %}
+            {% assign post_count = post_count | plus: 1 %}
+            {% if post_count == 7 %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endcomment %}
+
 <div class="block block_default_fonts">
     <h1>{{ include.category }}</h1>
     <div class="links headline_links">
-        {% for i in (1..post_count) %}
+        {% for i in (1..7) %}
         <span class="{{ include.category | replace: ' ', '_' | downcase }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide({{ i | minus: 1 }})"></span>
         {% endfor %}
     </div>
     <div class="entries">
     
-        {% for post in include.posts limit:7 %}
+        {% for post in include.posts limit:7 offset:1 %}
            
         <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
@@ -46,6 +89,7 @@ Example:
             </p>
         </div>
         
+   
         {% else %}
         <p class="no_entries">There are no posts for this section.</p>
         {% endfor %}
