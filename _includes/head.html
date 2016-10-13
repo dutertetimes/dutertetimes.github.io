@@ -29,8 +29,12 @@
     {% endif %}
     <meta name="keywords" content="news duterte" />
     <meta name="robots" content="index, follow" />
+    {% if site.development %}
+    <link rel="icon" type="image/png" href="/images/favicon/dutertetimes_local.png">
+    {% else %}
     <link rel="icon" type="image/png" href="/images/favicon/{{ site.author.icon }}">
-    
+    {% endif %}
+
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@dutertetimes" />
