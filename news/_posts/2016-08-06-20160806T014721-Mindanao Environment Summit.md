@@ -13,7 +13,7 @@ image:
   attribution: 
 video:
   layout: bottom
-  source: https://www.youtube.com/watch?v=Re7YKfeOs6o
+  source: Re7YKfeOs6o
   attribution: PTV
 sources:
   - label: Department of Environment and Natural Resources
