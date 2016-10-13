@@ -1,7 +1,7 @@
 ---
 title: 35th Presidential Agrarian Reform Council Meeting
 date: 2016-09-12T06:21:34UTC
-excerpt: President Rodrigo Roa Duterte convened and presided the 35th Presidential Agrarian Reform Council (PARC) Meeting in Malacañang on 12 September 2016 to discuss the status of the implementation of the agrarian reform law and other issues.
+excerpt: President Rodrigo Roa Duterte convened and presided the 35th Presidential Agrarian Reform Council Meeting in Malacañang on 12 September 2016 to discuss the status of the implementation of the agrarian reform law and other issues.
 layout: post
 categories: [agrarian, agrarian reform]
 tags: [presidential agrarian reform council, parc]
