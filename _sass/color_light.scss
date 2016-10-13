@@ -60,24 +60,24 @@ $color_nav:                     $color_text;
 $color_nav_bg:                  $color_header_bg;
 
 // Compact components entries
-$color_compact_title:           lighten($color_text, 9%);
+$color_compact_title:           darken($color_text, 9%);
 $color_compact_date:            $color_text;
 $color_compact_text:            $color_text;
 
 // Announcement
 // Rename as compact color style
-$color_announcement_title:      lighten($color_text, 9%);
+$color_announcement_title:      darken($color_text, 9%);
 $color_announcement_date:       $color_text;
 $color_announcement_text:       $color_text;
 
 // Info
 // Rename as compact color style
-$color_info_title:              lighten($color_text, 9%);
+$color_info_title:              darken($color_text, 9%);
 $color_info_date:               $color_text;
 $color_info_text:               $color_text;
 
 // News Hub
-$color_news_title:              lighten($color_text, 9%);
+$color_news_title:              darken($color_text, 9%);
 $color_news_date:               darken($color_primary, 5%);
 $color_news_excerpt:            $color_text;
 $color_news_text:               $color_text;
