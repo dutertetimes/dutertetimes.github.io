@@ -1,8 +1,10 @@
 // A block is a collection of one or multiple items.
 // Each item is a title, date and excerpt.
 div.block {
-    @include block;
+    padding-top: 0px;
     padding-bottom: 0;
+    margin-bottom: 15px;
+    float: left;
 
     h1 {
         font-family: $font_label;
@@ -30,7 +32,6 @@ div.block {
 
     div.entries {
         @include block_internal;
-        margin-bottom: 10px;
 
         p.no_entries {
             margin-bottom: 0;
@@ -96,7 +97,37 @@ div.block {
                 }
             }
         }
+        
+        div.entry_highlight {
+        
+            img.thumbnail {
+                width: 70px;
+                height: 70px;
+                @include max-screen(720px) {
+                    width: 70px;
+                }
+                float: left;
+                margin-top: 3px;
+                margin-right: 10px;
+                border-radius: 3px;
+            }
+            
+            img.video_thumbnail {
+                height: 60px;
+                @include max-screen(720px) {
+                    height: 60px;
+                }
+                float: left;
+                margin-top: 3px;
+                margin-right: 10px;
+                border-radius: 3px;
+            }
+        }
     }
+}
+
+div.block_margin_top {
+    margin-top: 10px;
 }
 
 
@@ -108,7 +139,7 @@ div.block_default_fonts {
                 @include block_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
                 line-height: $font_line_height_news_title;
                 @include max-screen(720px) {
-                    font-size: $font_size_news_title - 1;
+                    line-height: $font_line_height_news_title + 1;
                 }
                 padding-bottom: 2px;
             }

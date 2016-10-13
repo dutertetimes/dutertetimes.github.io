@@ -39,140 +39,98 @@ permalink: /
 {% endcomment %}
 
 
-<div class="section_latest_container">
-<h1>Latest News</h1>
-<div class="section_container bottom_margin_20">
-<div class="left_container">
-    <div class="block sub_block block_default_fonts">
-        <div class="entries">
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Latest Events</h1>
+    <div class="section_container container_bottom_margin">
+        <div class="left_container">
+            <div class="block block_margin_top block_default_fonts">
+                <div class="entries">
+                    {% assign section_posts = site.tags['president'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_president.png" %}
+                    {% endfor %}
+                    
+                    {% assign section_posts = site.categories['criminality'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_crime.png" %}
+                    {% endfor %}
+                    
+                    {% assign section_posts = site.categories['agrarian'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_agri.png" %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="right_container">
+            <div class="block block_margin_top block_default_fonts">
+                <div class="entries">
+                    {% assign section_posts = site.categories['environment'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_env.png" %}
+                    {% endfor %}
+                    
+                    {% assign section_posts = site.categories['business'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_business.png" %}
+                    {% endfor %}
+                    
+                    {% assign section_posts = site.categories['foreign affairs'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_foreign.png" %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Topics</h1>
+    <div class="section_container container_top_margin container_bottom_margin">
+        <div class="left_container">
+            {% assign section_posts = site.categories['peace process'] %}
+            {% include section_slideshow.html category="Peace Process" post_count=section_posts.size posts=section_posts post_image="/site/post_peace.png" %}
+        </div>
+        
+        <div class="right_container">
+            {% assign section_posts = site.categories['opinion'] %}
+            {% include section_slideshow.html category="Opinion" post_count=section_posts.size posts=section_posts %}
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Events</h1>
+    <div class="section_container container_top_margin container_bottom_margin">
+        <div class="left_container">
             {% assign section_posts = site.tags['president'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_president.png" %}
-            {% endfor %}
+            {% include section_slideshow_others.html category="President" post_count=section_posts.size posts=section_posts post_image="/site/post_president.png" %}
             
             {% assign section_posts = site.categories['criminality'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_crime.png" %}
-            {% endfor %}
+            {% include section_slideshow_others.html category="Criminality" post_count=section_posts.size posts=section_posts post_image="/site/post_crime.png" %}
             
             {% assign section_posts = site.categories['agrarian'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_agri.png" %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="right_container">
-    <div class="block sub_block block_default_fonts">
-        <div class="entries">
+            {% include section_slideshow_others.html category="Agrarian" post_count=section_posts.size posts=section_posts post_image="/site/post_agri.png" %}
+            
             {% assign section_posts = site.categories['environment'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_env.png" %}
-            {% endfor %}
+            {% include section_slideshow_others.html category="Environment" post_count=section_posts.size posts=section_posts post_image="/site/post_env.png" %}
+        </div>
+        
+        <div class="right_container">
+            {% assign section_posts = site.categories['foreign affairs'] %}
+            {% include section_slideshow_others.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts post_image="/site/post_foreign.png" %}
             
             {% assign section_posts = site.categories['business'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_business.png" %}
-            {% endfor %}
-            
-            {% assign section_posts = site.categories['foreign affairs'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="/site/post_foreign.png" %}
-            {% endfor %}
+            {% include section_slideshow_others.html category="Business" post_count=section_posts.size posts=section_posts post_image="/site/post_business.png" %}
         </div>
     </div>
 </div>
-</div>
-</div>
-
-
-
-<div class="section_container bottom_margin_20">
-    <div class="left_container border_line top_margin_20">
-        {% assign section_posts = site.categories['peace process'] %}
-        {% include section_slideshow.html category="Peace Process" post_count=section_posts.size posts=section_posts post_image="/site/post_peace.png" %}
-    </div>
-    
-    <div class="right_container border_line top_margin_20">
-        {% assign section_posts = site.categories['opinion'] %}
-        {% include section_slideshow.html category="Opinion" post_count=section_posts.size posts=section_posts %}
-    </div>
-</div>
-
-
-
-<div class="section_container bottom_margin_20">
-    <div class="left_container border_line top_margin_20">
-        {% assign section_posts = site.tags['president'] %}
-        {% include section_slideshow_others.html category="President" post_count=section_posts.size posts=section_posts post_image="/site/post_president.png" %}
-        
-        {% assign section_posts = site.categories['criminality'] %}
-        {% include section_slideshow_others.html category="Criminality" post_count=section_posts.size posts=section_posts post_image="/site/post_crime.png" %}
-        
-        {% assign section_posts = site.categories['agrarian'] %}
-        {% include section_slideshow_others.html category="Agrarian" post_count=section_posts.size posts=section_posts post_image="/site/post_agri.png" %}
-        
-        {% assign section_posts = site.categories['environment'] %}
-        {% include section_slideshow_others.html category="Environment" post_count=section_posts.size posts=section_posts post_image="/site/post_env.png" %}
-    </div>
-    
-    <div class="right_container border_line top_margin_20">
-        {% assign section_posts = site.categories['foreign affairs'] %}
-        {% include section_slideshow_others.html category="Foreign Affairs" post_count=section_posts.size posts=section_posts post_image="/site/post_foreign.png" %}
-        
-        {% assign section_posts = site.categories['business'] %}
-        {% include section_slideshow_others.html category="Business" post_count=section_posts.size posts=section_posts post_image="/site/post_business.png" %}
-    </div>
-</div>
-
-
-
-{% comment %}
-<div class="section_container">
-    <div class="left_container">
-    </div>
-
-    <div class="right_container">
-    </div>
-</div>
-{% endcomment %}
-
-
-
-{% comment %}
-<div id="news_section_vertical_container">
-    {% if site.categories['transportation'].size > 0 %}
-    <div class="news_section_transport_block">
-        <h1>Transportation</h1>
-        <div class="news_section">
-            {% for post in site.categories['transportation'] limit:3 %}
-                <div class="news_section_entry">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    {% if site.categories['scitech'].size > 0 %}
-    <div class="news_section_scitech_block">
-        <h1>Science and Technology</h1>
-        <div class="news_section">
-            {% for post in site.categories['scitech'] limit:3 %}
-                <div class="news_section_entry">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-                    <p class="excerpt">{{ post.excerpt }}</p>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-</div>
-{% endcomment %}
 
 
 
