@@ -45,5 +45,4 @@ Before leaving the event, President Duterte stressed how corruption and criminal
 Secretary Lopez and Presidential Adviser Concepcion invited the President for this town hall discussion to talk on the administration's Micro, Small, and Medium Enterprises (MSMEs) Development Plans.
 
 Around 500 micro, small, and medium entrepreneurs from the Davao region, officials and staff from the DTI and Philippine Center for Entrepreneurship convened for the event.
-
 &#x25cf;
