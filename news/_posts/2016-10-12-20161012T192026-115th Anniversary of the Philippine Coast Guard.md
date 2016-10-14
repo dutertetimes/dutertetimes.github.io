@@ -26,9 +26,9 @@ The President expressed his gratitude to Japan for the financing of the MRRV Tub
 
 He continued by explaining that the country has 3-4 million drug addicts, saying that if he was not elected, the country would not know the sheer number of people that illegal drugs have consumed.
 
-President Duterte also addressed the government forces present, saying, "As a prosecutor, I am aware of the travail that a law enforcer has to go through… In my 22 years as Mayor I have never allowed a military man, a policeman to go to jail. I fought, tooth and nail…"
+President Duterte also addressed the government forces present, saying, "As a prosecutor, I am aware of the travail that a law enforcer has to go through... In my 22 years as Mayor I have never allowed a military man, a policeman to go to jail. I fought, tooth and nail..."
 
-He said, "You cannot build a nation over the bones of your country men," and warned, "Do not destroy my country… Do not tinker with the interests of my country… do not destroy the youth of the land."
+He said, "You cannot build a nation over the bones of your country men," and warned, "Do not destroy my country... Do not tinker with the interests of my country... do not destroy the youth of the land."
 
 The President said that to have people walk at night undisturbed and unmolested is the standard that he wants for the country. He further added that a strong economy would follow after safety has been ensured and corruption erased.
 
@@ -40,5 +40,5 @@ The President also led the presentation of awards to four (4) PCG officers, eigh
 
 The Japanese Ambassador to the Philippines, H.E. Kazuhide Ishikawa, was also present in the event to express the strong bond between Japan and the Philippines.
 
-The President was accompanied to the event by Special Assistant to the President (SAP) Mr. Christopher ‘Bong' Go and Commandant of the PCG, Rear Admiral (RADM) William Melad.
+The President was accompanied to the event by Special Assistant to the President (SAP) Mr. Christopher 'Bong' Go and Commandant of the PCG, Rear Admiral (RADM) William Melad.
 &#x25cf;
