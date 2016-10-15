@@ -1,7 +1,7 @@
 ---
 title: 115th Anniversary of the Philippine Coast Guard
 date: 2016-10-12T19:20:26UTC
-excerpt: President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard and formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila on 12 October 2016.
+excerpt: President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard and formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila on 13 October 2016.
 layout: post
 categories: [pcg]
 tags: [president, philippine coast guard, pcg, mrrv tubbataha, tubbataha]
@@ -13,14 +13,15 @@ image:
   attribution: 
 video:
   layout: top
-  source: yXDtj7We-II
+  source: ypTKXRb_prQ
   attribution: RTVM
 sources:
   - label: RTVM
     link: http://rtvm.gov.ph/main/?p=42986
 ---
 
-President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard (PCG) where he formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila.
+President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard (PCG) where he formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila on 13 October 2016.
+The President was accompanied to the event by Special Assistant to the President (SAP) Mr. Christopher 'Bong' Go and Commandant of the PCG, Rear Admiral (RADM) William Melad.
 
 The President expressed his gratitude to Japan for the financing of the MRRV Tubbataha plus nine other ships being built for the Philippines which would support the country in its efforts to rescue those in danger at sea, protect marine life, stop piracy, smuggling, illegal fishing and to also help on the war against illegal drugs of the administration.
 
@@ -39,6 +40,4 @@ The MRRV Tubbataha is the first of ten ships financed by Japan to support the Ph
 The President also led the presentation of awards to four (4) PCG officers, eight (8) PCG units, and five (5) individuals who received special awards.
 
 The Japanese Ambassador to the Philippines, H.E. Kazuhide Ishikawa, was also present in the event to express the strong bond between Japan and the Philippines.
-
-The President was accompanied to the event by Special Assistant to the President (SAP) Mr. Christopher 'Bong' Go and Commandant of the PCG, Rear Admiral (RADM) William Melad.
 &#x25cf;
