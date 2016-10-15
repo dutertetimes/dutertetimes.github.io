@@ -13,7 +13,7 @@ image:
   attribution: 
 video:
   layout: top
-  source: https://www.youtube.com/watch?v=kQkDdpIsh3c&t=2970
+  source: kQkDdpIsh3c&t=2970
   attribution: Senate of the Philippines
 sources:
   - label: Philippine Inquirer

@@ -13,7 +13,7 @@ image:
   attribution: 
 video:
   layout: bottom
-  source: https://www.youtube.com/watch?v=5Q_f_xk9UUU
+  source: 5Q_f_xk9UUU
   attribution: Kodao Productions (kadao.org)
 sources:
   - label: PIA

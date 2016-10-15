@@ -13,7 +13,7 @@ image:
   attribution: 
 video:
   layout: top
-  source: https://www.youtube.com/watch?v=V1W39rs91n4
+  source: V1W39rs91n4
   attribution: RTVM
 sources:
   - label: Philippine Information Agency
