@@ -43,7 +43,7 @@ function add_default {
 function add_empty {
     echo >> $filename
     echo "Malacañan" >> $filename
-    echo "’“”…" >> $filename
+    echo "‘’“”…" >> $filename
     echo "Empty." >> $filename
     echo "&#x25cf;" >> $filename
 }
