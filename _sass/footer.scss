@@ -41,6 +41,13 @@ footer {
             float: left;
             @include compact;
             margin-bottom: 25px;
+
+            hr {
+                height: 1px;
+                background: $color_text;
+                margin-top: 6px;
+                margin-bottom: 5px;
+            }
         }
 
         #footer_column_leftmost,
