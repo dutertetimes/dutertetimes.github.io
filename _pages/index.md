@@ -70,7 +70,7 @@ permalink: /
                 <div class="entries">
                     {% assign section_posts = site.categories['agrarian'] %}
                     {% for top_post in section_posts limit: 1 %}
-                        {% include post_entry_latest.html post=top_post post_image="/site/post_agri.png" %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_agrarian.png" %}
                     {% endfor %}
                 </div>
             </div>
@@ -83,7 +83,7 @@ permalink: /
                 <div class="entries">
                     {% assign section_posts = site.categories['environment'] %}
                     {% for top_post in section_posts limit: 1 %}
-                        {% include post_entry_latest.html post=top_post post_image="/site/post_env.png" %}
+                        {% include post_entry_latest.html post=top_post post_image="/site/post_environment.png" %}
                     {% endfor %}
                 </div>
             </div>
@@ -144,10 +144,10 @@ permalink: /
             {% include section_slideshow_others.html category="Criminality" posts=section_posts post_image="/site/post_crime.png" %}
             
             {% assign section_posts = site.categories['agrarian'] %}
-            {% include section_slideshow_others.html category="Agrarian" posts=section_posts post_image="/site/post_agri.png" %}
+            {% include section_slideshow_others.html category="Agrarian" posts=section_posts post_image="/site/post_agrarian.png" %}
             
             {% assign section_posts = site.categories['environment'] %}
-            {% include section_slideshow_others.html category="Environment" posts=section_posts post_image="/site/post_env.png" %}
+            {% include section_slideshow_others.html category="Environment" posts=section_posts post_image="/site/post_environment.png" %}
         </div>
         
         <div class="right_container">
