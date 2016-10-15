@@ -47,7 +47,7 @@
     {% elsif post.video.source %}
     <meta name="twitter:image:src" content="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" />
     {% elsif page.tags contains 'president' %}
-    <meta name="twitter:image:src" content="{{ site.image_source }}site/post_president.png" />
+    <meta name="twitter:image:src" content="{{ site.url }}images/post/post_president.png" />
     {% elsif page.categories contains 'criminality' %}
     <meta name="twitter:image:src" content="{{ site.image_source }}site/post_crime.png" />
     {% elsif page.categories contains 'agrarian' %}
