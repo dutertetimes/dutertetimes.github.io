@@ -33,9 +33,17 @@ Example:
             <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
             {% else %}
                 {% if post.video.source %}
+                    {% if site.development %}
+            <img src="/images/video_01_254x143.png" class="video_thumbnail img_style_rounded"/>
+                    {% else %}
             <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail img_style_rounded"/>
+                    {% endif %}
                 {% else %}
-            <img src="{{ site.image_source }}{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                    {% if site.development %}
+            <img src="/images/post/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                    {% else %}
+            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                    {% endif %}
                 {% endif %}
             {% endif %}
             
