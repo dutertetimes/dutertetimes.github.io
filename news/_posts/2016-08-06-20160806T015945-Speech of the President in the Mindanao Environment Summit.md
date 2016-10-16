@@ -12,9 +12,9 @@ image:
   source: 
   attribution: 
 video:
-  layout:
-  source: 
-  attribution: 
+  layout: top
+  source: X5AkC6r_jXQ
+  attribution: RTVM
 sources:
   - label: Manila Bulletin
     link: http://www.mb.com.ph/read-full-transcript-of-speech-of-president-rodrigo-roa-duterte-during-the-state-of-mindanao-environmental-summit-2016/

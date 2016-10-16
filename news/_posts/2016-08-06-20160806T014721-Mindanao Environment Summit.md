@@ -12,7 +12,7 @@ image:
   source: 
   attribution: 
 video:
-  layout: bottom
+  layout: top
   source: Re7YKfeOs6o
   attribution: PTV
 sources:
