@@ -4,7 +4,7 @@ date: 2016-08-06T01:47:21UTC
 excerpt: The Department of Environment and Natural Resources held a two-day environment summit in Mindanao which started on 4 August to address environmental concerns in Mindanao and promote social justice.
 layout: post
 categories: [environment]
-tags: [environment summit, someday, social justice]
+tags: [oya mindanao, state of mindanao environment day, environment summit, someday, denr, social justice]
 published: true
 permalink: /news/20160806T014721
 image:
