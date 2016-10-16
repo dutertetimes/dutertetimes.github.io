@@ -44,8 +44,13 @@
     <meta name="twitter:description" content="{{ page.excerpt }}" />
     {% if page.image.source %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ page.image.source }}" />
+
+    {% comment %}
+    Twitter Card Validator result: Unable to render Card preview
     {% elsif post.video.source %}
     <meta name="twitter:image:src" content="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" />
+    {% endcomment %}
+
     {% elsif page.tags contains 'president' %}
     <meta name="twitter:image:src" content="{{ site.url }}images/post/post_president.png" />
     {% elsif page.categories contains 'criminality' %}
