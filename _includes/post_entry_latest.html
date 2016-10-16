@@ -17,7 +17,7 @@ Argument(s):
                     {% if site.development %}
             <img src="/images/post/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
                     {% else %}
-            <img src="{{ site.image_source }}{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% endif %}
