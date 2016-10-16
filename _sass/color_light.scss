@@ -20,7 +20,7 @@ $color_link:			        $color_primary;
 $color_link_underline:	        $color_primary;
 
 // Heading
-$color_heading_text:            black;
+$color_heading_text:            darken($color_text, 9%);
 
 // Header
 $color_header_title:            $color_text;
@@ -59,10 +59,40 @@ $color_image_attribution:       $color_text;
 $color_nav:                     $color_text;
 $color_nav_bg:                  $color_header_bg;
 
-// Compact components entries
-$color_compact_title:           darken($color_text, 9%);
-$color_compact_date:            $color_text;
-$color_compact_text:            $color_text;
+// News Hub entries
+$color_hub_entry_title:         darken($color_text, 9%);
+$color_hub_entry_date:          darken($color_primary, 5%);
+$color_hub_entry_excerpt:       $color_text;
+$color_hub_entry_text:          $color_text;
+$color_hub_entry_line:          #f0f0f0;
+$color_hub_entry_background:    #fbfbfb;
+
+// Page/Post
+$color_page_title:              $color_heading_text;
+$color_page_text:               $color_text;
+
+// Post tag
+$color_tag_text:                lighten($color_text, 10%);
+$color_tag_bg:                  #ededed;
+
+// Footnote
+$color_footnote_link:           darken($color_text, 20%);
+
+// Sidebar
+$color_sidebar_label:           $color_primary;
+$color_sidebar_entry_title:     $color_text;
+$color_sidebar_entry_text:      $color_text;
+$color_sidebar_bg:              $color_main_bg;
+
+// Aside
+$color_aside_text:              $color_text;
+$color_aside_bg:                $color_header_bg;
+$color_aside_border:            $color_red - 100;
+
+// Quote
+$color_quote_text:              $color_text;
+$color_quote_author:            $color_text;
+$color_quote_context:           $color_text;
 
 // Announcement
 // Rename as compact color style
@@ -76,42 +106,13 @@ $color_info_title:              darken($color_text, 9%);
 $color_info_date:               $color_text;
 $color_info_text:               $color_text;
 
-// News Hub
-$color_news_title:              darken($color_text, 9%);
-$color_news_date:               darken($color_primary, 5%);
-$color_news_excerpt:            $color_text;
-$color_news_text:               $color_text;
-$color_news_line:               #f0f0f0;
-$color_news_background:         #fbfbfb;
-
-// Page/Post
-$color_page_text:               $color_text;
+// Quotations
+$color_quotes_text:              $color_text;
+$color_quotes_author:            $color_text;
+$color_quotes_context:           $color_text;
 
 // News bit
 $color_news_bit_date:           lighten($color_text, 10%);
-
-// Sidebar
-$color_sidebar_label:           $color_primary;
-$color_sidebar_entry_title:     $color_text;
-$color_sidebar_entry_text:      $color_text;
-$color_sidebar_bg:              $color_main_bg;
-
-// Aside
-$color_aside_text:              $color_text;
-$color_aside_bg:                $color_header_bg;
-$color_aside_border:            $color_red - 100;
-
-// Post tag
-$color_tag_text:                lighten($color_text, 10%);
-$color_tag_bg:                  #ededed;
-
-// Quote
-$color_quote_text:              $color_text;
-$color_quote_author:            $color_text;
-$color_quote_context:           $color_text;
-
-// Footnote
-$color_footnote_link:           darken($color_text, 20%);
 
 // Footer
 $color_footer_text:             black;

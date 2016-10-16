@@ -50,8 +50,8 @@
     h6 code { font-size: $font_size_page_title - 11; }
 
     @include max-screen(720px) {
-        $font_size_page_title: $font_size_news_title;
-        $font_line_height_page_title: $font_line_height_news_title + 6;
+        $font_size_page_title: $font_size_page_title - 6;
+        $font_line_height_page_title: $font_line_height_page_title - 2;
         h1 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title;     }
         h2 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 2; font-style: italic; }
         h3 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; }
@@ -86,19 +86,10 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: $font_page_title;
+        font-family: $font_heading;
         font-weight: bold;
-        color: $color_news_title;
-        @media print {
-            color: $color_text;
-        }
+        color: $color_page_title;
         margin-bottom: 13px;
-        code {
-            color: $color_news_title;
-            @media print {
-                color: $color_text;
-            }
-        }
     }
     h1 {
         margin-top: 0px;

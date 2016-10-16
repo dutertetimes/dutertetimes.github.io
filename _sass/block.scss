@@ -160,10 +160,11 @@ div.block_default_fonts {
     div.entries {
         div.entry {
             h2, h2 > a {
-                @include block_entry_heading($font_news_title, $font_size_news_title, $color_news_title);
-                line-height: $font_line_height_news_title;
+                @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
+                line-height: $font_line_height_hub_default_title;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_news_title + 1;
+                    font-size: $font_size_hub_default_title + 2;
+                    line-height: $font_line_height_hub_default_title + 3;
                 }
                 padding-bottom: 2px;
             }
@@ -175,36 +176,36 @@ div.block_default_fonts {
             }
 
             p, li, p > a, li > a {
-                @include set_font($font_news_text, $font_size_news_text, $color_news_text);
+                @include set_font($font_hub_default_text, $font_size_hub_default_text, $color_hub_entry_text);
                 @include max-screen(720px) {
-                    font-size: $font_size_news_text + 1;
+                    font-size: $font_size_hub_default_text + 1;
                 }
-                line-height: $font_line_height_news_text;
+                line-height: $font_line_height_hub_default_text;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_news_text + 4;
+                    line-height: $font_line_height_hub_default_text + 4;
                 }
             }
             p.date {
-                @include set_font($font_news_date, $font_size_news_date, $color_news_date);
+                @include set_font($font_hub_default_date, $font_size_hub_default_date, $color_hub_entry_date);
                 @include max-screen(720px) {
-                    font-size: $font_size_news_date + 1;
+                    font-size: $font_size_hub_default_date + 1;
                 }
-                line-height: $font_line_height_news_date;
+                line-height: $font_line_height_hub_default_date;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_news_text + 2;
+                    line-height: $font_line_height_hub_default_text + 2;
                 }
             }
             p.excerpt {
-                @include set_font($font_news_excerpt, $font_size_news_excerpt, $color_news_excerpt);
+                @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
                 @include max-screen(720px) {
-                    font-size: $font_size_news_excerpt + 1;
+                    font-size: $font_size_hub_default_excerpt + 1;
                 }
-                line-height: $font_line_height_news_excerpt;
+                line-height: $font_line_height_hub_default_excerpt;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_news_text + 2;
+                    line-height: $font_line_height_hub_default_excerpt + 2;
                 }
                 & i.fa {
-                    color: lighten($color_news_excerpt, 40%);
+                    color: lighten($color_hub_entry_excerpt, 40%);
                 }
             }
         }
@@ -223,10 +224,11 @@ div.block_compact_fonts {
                 padding-bottom: 2px;
             }
             h2, h2 > a {
-                @include block_entry_heading($font_compact_title, $font_size_compact_title, $color_compact_title);
-                line-height: $font_line_height_compact_title;
+                @include block_entry_heading($font_hub_compact_title, $font_size_hub_compact_title, $color_hub_entry_title);
+                line-height: $font_line_height_hub_compact_title;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_compact_title + 1;
+                    font-size: $font_size_hub_compact_title + 2;
+                    line-height: $font_line_height_hub_compact_title + 3;
                 }
             }
             h2 {
@@ -242,19 +244,19 @@ div.block_compact_fonts {
             }
 
             p, li, p > a, li > a {
-                @include set_font($font_compact_text, $font_size_compact_text, $color_compact_text);
+                @include set_font($font_hub_compact_text, $font_size_hub_compact_text, $color_hub_entry_text);
                 @include max-screen(720px) {
-                    font-size: $font_size_compact_text + 1;
+                    font-size: $font_size_hub_compact_text + 1;
                 }
-                line-height: $font_line_height_compact_text;
+                line-height: $font_line_height_hub_compact_text;
                 @include max-screen(720px) {
-                    line-height: $font_line_height_compact_text + 4;
+                    line-height: $font_line_height_hub_compact_text + 4;
                 }
             }
             p.date {
-                @include set_font($font_compact_date, $font_size_compact_date, $color_compact_date);
+                @include set_font($font_hub_compact_date, $font_size_hub_compact_date, $color_hub_entry_date);
                 @include max-screen(720px) {
-                    line-height: $font_line_height_compact_date + 2;
+                    line-height: $font_line_height_hub_compact_date + 2;
                 }
             }
         }

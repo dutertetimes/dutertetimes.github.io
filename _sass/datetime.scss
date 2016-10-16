@@ -12,7 +12,7 @@
             p.date,
             p.time {
                 @include compact;
-                color: $color_news_title;
+                color: $color_hub_entry_text;
                 letter-spacing: 0.25px;
             }
             div.utc {

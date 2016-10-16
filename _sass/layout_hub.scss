@@ -32,7 +32,13 @@ div.section_container_wrapper {
 
     // Title background
     & > h1 {
-        padding: 4px 11px 4px 10px;
+        $padding_top: 4px;
+        $padding_bottom: 4px;
+        padding: $padding_top 11px $padding_bottom 10px;
+        @include max-screen(720px) {
+            padding-top: $padding_top + 1;
+            padding-bottom: $padding_bottom + 1;
+        }
     }
 }
 
@@ -45,6 +51,7 @@ div.section_container_wrapper_border {
 div.image_container,
 div.section_container {
     float: left;
+    float: clear;
     width: 100%;
 
     @include min-screen(1024px + 1px) {
@@ -55,14 +62,15 @@ div.section_container {
 
     div.left_container,
     div.right_container {
-        float: left;
+        //float: left;
 
         @include max-screen(1024px) {
             width: 100%;
         }
 
         @include min-screen(1024px + 1px) {
-            width: calc(50% - 5px);
+            //width: calc(25% - 15px);
+            max-width: calc(50% - 10px);
             flex: 1;
             display: flex;
             flex-direction: column;
@@ -77,18 +85,30 @@ div.section_container {
     }
 
     div.left_container {
-        margin-right: 10px;
-        @include max-screen(1024px) {
-            margin-right: 0;
+        float: left;
+        &:first-of-type {
         }
     }
 
     div.right_container {
-        margin-left: 10px;
-        @include max-screen(1024px) {
-            margin-left: 0;
-        }
+        float: right;
     }
+
+        /*
+        div.left_container {
+            margin-right: 10px;
+            @include max-screen(1024px) {
+                margin-right: 0;
+            }
+        }
+
+        div.right_container {
+            margin-left: 10px;
+            @include max-screen(1024px) {
+                margin-left: 0;
+            }
+        }
+        */
 
     div.container_border_thin {
         border-top: 1px solid $color_primary;
@@ -100,18 +120,29 @@ div.section_container {
     // Contents are displayed in div.block
 }
 
+div.container_top_margin_10 {
+    margin-top: 10px;
+}
+
 div.container_top_margin {
     margin-top: 20px;
 }
 
-div.container_bottom_margin {
+div.container_bottom_margin_5 {
     @include min-screen(1024px + 1px) {
         padding-bottom: 5px;
     }
     @include max-screen(1024px) {
-        padding-bottom: 5px;
         padding-bottom: 0px;
     }
+}
+
+div.container_bottom_margin_10 {
+    padding-bottom: 10px;
+}
+
+div.container_right_margin_20 {
+    margin-right: 20px;
 }
 
 div.image_container {
