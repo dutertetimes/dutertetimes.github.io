@@ -1,7 +1,7 @@
 ---
-title: "'Your mother is a whore': for Obama or Philippine Media?"
+title: "'Your mother is a whore': for Obama?"
 date: 2016-09-08T08:11:10UTC
-excerpt: "President Rodrigo Roa Duterte said the words again on 5 September 2016 before leaving for the 28th and 29th ASEAN Summits after a correspondent of international news wire service Reuters asked him about 'extrajudicial killings' in the government's fight against illegal drugs which has garnered international news attention. But was it directed to the United States President Barrack Obama or to the Philippine Media?"
+excerpt: "On 5 September 2016 before leaving for the 28th and 29th ASEAN Summits, a correspondent of international news wire service Reuters asked President Rodrigo Roa Duterte about 'extrajudicial killings' in the government's fight against illegal drugs. His reply spread like wildfire across the world."
 layout: post
 categories: [top, opinion]
 tags: [swearing, obama, bud dajo, stephen colbert, mark twain, samuel clemens]
@@ -67,7 +67,7 @@ Duterte then he veered towards those whose writings have become familiar to him 
 
 <div class="aside_right aside_width_45">
 <h4 class="font_italic">"... we have been trying for eight years to take their liberties away from them..."</h4>
-<p>From the official cablegram coming from the Commander of the United States in the Philippines to the U.S. Government in Washington as Samuel Clemens say "The substance of it" in his "Comments on the Moro Massacre", 12 March 1906.</p>
+<p>From the official cablegram coming from the Commander of the U.S. in the Philippines to Washington as Samuel Clemens said "The substance of it" in his "Comments on the Moro Massacre", 12 March 1906.</p>
 </div>
 
 To, but unlike, them who harbor a derogative feeling towards their own country, believing that the Republic is subject to the United States and that the Philippine government is somehow answerable to the President of the U.S., Duterte made his position clear, saying,
