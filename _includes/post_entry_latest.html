@@ -4,8 +4,6 @@ Argument(s):
 {% endcomment %}
 
         <div class="entry entry_highlight">
-            <h2><a href="{{ include.post.url }}.html">{{ include.post.title }}</a></h2>
-            
             {% if include.post.image.source %}
             <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
             {% else %}
@@ -23,10 +21,13 @@ Argument(s):
                     {% endif %}
                 {% endif %}
             {% endif %}
-            
+
+            <h2><a href="{{ include.post.url }}.html">{{ include.post.title }}</a></h2>
+
             {% comment %}
             <p class="date">{{ include.post.date | date: site.data.format.date_only }}</p>
             {% endcomment %}
+
             <p class="excerpt">
                 {{ include.post.excerpt }}{% if include.post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
             </p>
