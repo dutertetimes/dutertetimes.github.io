@@ -5,7 +5,7 @@ excerpt: "President Rodrigo Roa Duterte visits Police Regional Office 13 at Camp
 October 6, 2016."
 layout: post
 categories: [other, pnp]
-tags: [speech, president, police regional office, pro 13, butuan city]
+tags: [police regional office, pro 13, butuan city, president, speech]
 published: true
 permalink: /news/20161007T102011
 image:

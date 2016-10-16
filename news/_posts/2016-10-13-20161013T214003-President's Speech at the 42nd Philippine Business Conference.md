@@ -4,7 +4,7 @@ date: 2016-10-14T21:40:03UTC
 excerpt: President Rodrigo Roa Duterte spoke before the members of the business sector, industry associations, and diplomatic corps as he graced the closing plenary of the 42nd Philippine Business Conference and Exposition of the Philippine Chamber of Commerce and Industry at the Manila Mariott Hotel in Pasay City on 13 October 2016.
 layout: post
 categories: [other]
-tags: [philippine business conference, pbc, speech, president]
+tags: [philippine business conference, pbc, president, speech]
 published: true
 permalink: /news/20161014T214003
 image:

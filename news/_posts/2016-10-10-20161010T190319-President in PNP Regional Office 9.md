@@ -4,7 +4,7 @@ date: 2016-10-10T19:03:19UTC
 excerpt: President Rodrigo Roa Duterte met with officers and personnel of the Philippine National Police Regional Office 9 at Camp Colonel Romeo Abendan in Barangay Mercedes, Zamboanga City on 10 October 2016.
 layout: post
 categories: [other, pnp]
-tags: [speech, president, police regional office, pro 9, zamboanga city]
+tags: [police regional office, pro 9, zamboanga city, pnp, president, speech]
 published: true
 permalink: /news/20161010T190319
 image:
