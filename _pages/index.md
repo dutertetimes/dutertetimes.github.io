@@ -100,7 +100,7 @@ permalink: /
             </div>
         </div>
     
-        <div class="left_container container_right_margin_20">
+        <div class="left_container">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
                     {% assign section_posts = site.categories['environment'] %}
