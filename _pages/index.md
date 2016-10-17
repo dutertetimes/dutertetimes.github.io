@@ -57,6 +57,17 @@ permalink: /
         <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
+                    {% assign section_posts = site.categories['other'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="post_other.png" %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="left_container">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
                     {% assign section_posts = site.categories['peace process'] %}
                     {% for top_post in section_posts limit: 1 %}
                         {% include post_entry_latest.html post=top_post post_image="post_peace.png" %}
@@ -64,7 +75,9 @@ permalink: /
                 </div>
             </div>
         </div>
-                
+    </div>
+    
+    <div class="section_container container_bottom_margin_5">
         <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
@@ -75,8 +88,8 @@ permalink: /
                 </div>
             </div>
         </div>
-
-        <div class="left_container">
+    
+        <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
                     {% assign section_posts = site.categories['agrarian'] %}
@@ -86,9 +99,7 @@ permalink: /
                 </div>
             </div>
         </div>
-    </div>
     
-    <div class="section_container container_bottom_margin_10">
         <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
@@ -99,7 +110,9 @@ permalink: /
                 </div>
             </div>
         </div>
+    </div>
         
+    <div class="section_container container_bottom_margin_10">
         <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
@@ -125,10 +138,6 @@ permalink: /
         <div class="left_container">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
-                    {% assign section_posts = site.categories['other'] %}
-                    {% for top_post in section_posts limit: 1 %}
-                        {% include post_entry_latest.html post=top_post post_image="post_other.png" %}
-                    {% endfor %}
                 </div>
             </div>
         </div>
