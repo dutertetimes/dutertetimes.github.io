@@ -4,8 +4,8 @@ date: 2016-10-07T10:20:11UTC
 excerpt: "President Rodrigo Roa Duterte visits Police Regional Office 13 at Camp Rafael C. Rodriguez Grandstand, Libertad, Butuan City
 October 6, 2016."
 layout: post
-categories: [other, pnp]
-tags: [police regional office, pro 13, butuan city, president, speech]
+categories: [president, pnp]
+tags: [police regional office 13, pro 13, police regional office, butuan city, speech]
 published: true
 permalink: /news/20161007T102011
 image:

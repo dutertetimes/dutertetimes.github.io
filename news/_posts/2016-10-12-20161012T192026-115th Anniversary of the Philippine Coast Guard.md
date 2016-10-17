@@ -3,8 +3,8 @@ title: 115th Anniversary of the Philippine Coast Guard
 date: 2016-10-12T19:20:26UTC
 excerpt: President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard and formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila on 13 October 2016.
 layout: post
-categories: [pcg]
-tags: [president, philippine coast guard, pcg, mrrv tubbataha, tubbataha]
+categories: [president, pcg]
+tags: [philippine coast guard, pcg, mrrv tubbataha, tubbataha]
 published: true
 permalink: /news/20161012T192026
 image:

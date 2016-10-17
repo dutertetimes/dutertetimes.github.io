@@ -3,8 +3,8 @@ title: Inauguration of Davao International Container Terminal
 date: 2016-09-02T16:24:55UTC
 excerpt: Inauguration of Davao International Container Terminal in Panabo City, Davao del Norte on 2 September 2016 which is considered to be the most modern container port terminal in the country.
 layout: post
-categories: [other]
-tags: [davao international container terminal, container terminal, president]
+categories: [president]
+tags: [davao international container terminal, dict, container terminal, anflo, anflo management and investment corporation, anflocor, panabo city, davao del norte]
 published: true
 permalink: /news/20160902T162455
 image:

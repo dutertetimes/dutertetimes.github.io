@@ -3,8 +3,8 @@ title: "President's Speech in the Mindanao Environment Summit"
 date: 2016-08-06T01:59:45UTC
 excerpt: President Duterte led the commencement of the State of the Mindanao Environment Day on 4 August 2016 tackling environmental issues and problems in Mindanao.
 layout: post
-categories: [top, environment]
-tags: [oya mindanao, state of mindanao environment day, environment summit, someday, president, speech]
+categories: [president, environment]
+tags: [oya mindanao, state of mindanao environment day, environment summit, someday, speech]
 published: true
 permalink: /news/20160806T015945
 image:

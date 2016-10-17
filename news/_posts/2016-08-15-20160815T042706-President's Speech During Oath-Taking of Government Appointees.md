@@ -3,8 +3,8 @@ title: "President's Speech During Oath-Taking of Government Appointees"
 date: 2016-08-15T04:27:06UTC
 excerpt: Speech of the President after the oath taking of fourty two government appointees held in Malacañang Palace on 15 August 2016.
 layout: post
-categories: [other, governance]
-tags: [oath taking, president]
+categories: [president, governance]
+tags: [oath taking, speech]
 published: true
 permalink: /news/20160815T042706
 image:

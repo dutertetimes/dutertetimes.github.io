@@ -3,8 +3,8 @@ title: Launch of Mentor Me Program of Go Negosyo
 date: 2016-10-07T18:31:57UTC
 excerpt: President Rodrigo Roa Duterte sat along with Department of Trade and Industry Secretary Ramon Lopez, Presidential Adviser for Entrepreneurship Joey Concepcion, to grace the "Mentor Me" program launch of Go Negosyo at the Marco Polo Hotel in Davao City on 7 October 2016.
 layout: post
-categories: [business]
-tags: [dti, mentor me, go negosyo, small medium enterprises, sme, micro small medium enterprises, msme, president]
+categories: [president, business]
+tags: [mentor me, go negosyo, small medium enterprises, sme, micro small medium enterprises, msme, dti]
 published: true
 permalink: /news/20161007T183157
 image:

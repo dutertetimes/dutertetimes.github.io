@@ -3,8 +3,8 @@ title: 9th National Biennial Summit on Women in Community Policing
 date: 2016-09-30T11:50:58UTC
 excerpt: President Rodrigo Roa Duterte spoke before the 514 women officers of the Philippine National Police during the 9th National Biennial Summit on Women in Community Policing held in Apo View Hotel in Davao City.
 layout: post
-categories: [other]
-tags: [community policing, president]
+categories: [president]
+tags: [9th national biennial summit on women, national biennial summit on women, community policing, speech]
 published: true
 permalink: /news/20160930T115058
 image:

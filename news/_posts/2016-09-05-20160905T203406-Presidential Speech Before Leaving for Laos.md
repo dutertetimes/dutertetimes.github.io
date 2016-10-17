@@ -3,8 +3,8 @@ title: Presidential Speech Before Leaving for Laos
 date: 2016-09-05T20:34:06UTC
 excerpt: President Rodrigo Duterte delivered a short speech at the Davao International Airport on 5 September 2016 before leaving for the 28th and 29th ASEAN Summits in Laos.
 layout: post
-categories: [other]
-tags: [asean, asean summit, president, speech]
+categories: [president]
+tags: [asean, asean summit, speech]
 published: true
 permalink: /news/20160905T203406
 image:

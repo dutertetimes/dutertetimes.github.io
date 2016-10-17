@@ -3,8 +3,8 @@ title: Oath Taking of Officials and League of Municipalities
 date: 2016-10-11T19:12:41UTC
 excerpt: President Rodrigo Roa Duterte administered the oath taking of 25 officials heading the National Executive Committee of the League of Municipalities of the Philippines, and sworn into office newly appointed government officials in Malacañang on 11 October 2016.
 layout: post
-categories: [governance]
-tags: [president, league of municipalities of the philippines, lmp]
+categories: [president, governance]
+tags: [league of municipalities of the philippines, lmp, oath taking]
 published: true
 permalink: /news/20161011T191241
 image:

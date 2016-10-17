@@ -3,8 +3,8 @@ title: "Duterte: Bring Home Affected OFWs in Saudi Arabia"
 date: 2016-08-13T19:52:47UTC
 excerpt: Duterte has ordered the repatriation of 11,000 Overseas Filipino Workers in Saudi Arabia after they lost their jobs due to retrenchments because of the oil crisis that led companies to lay off workers or shutdown their operations.
 layout: post
-categories: [other, labor]
-tags: [ofw, kingdom of saudi arabia, ksa, oil crisis, president]
+categories: [president, labor, ofw]
+tags: [ofw, kingdom of saudi arabia, ksa, oil crisis]
 published: true
 permalink: /news/20160813T195247
 image:

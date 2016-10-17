@@ -3,8 +3,8 @@ title: Report After Visit to Vietnam
 date: 2016-09-30T10:19:20UTC
 excerpt: President Rodrigo Roa Duterte delivers report after arrival at the Davao International Airport at 2:19 am of September 30, 2016 after his two-day official visit to the Socialist Republic of Vietnam.
 layout: post
-categories: [other, foreign affairs]
-tags: [vietnam, president]
+categories: [president, foreign affairs]
+tags: [vietnam]
 published: true
 permalink: /news/20160930T101920
 image:

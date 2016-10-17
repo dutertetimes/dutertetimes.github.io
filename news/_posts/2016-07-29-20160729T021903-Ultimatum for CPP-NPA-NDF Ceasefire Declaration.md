@@ -3,8 +3,8 @@ title: Ultimatum for CPP-NPA-NDF Ceasefire Declaration
 date: 2016-07-29T02:19:03UTC
 excerpt: After an alleged ambush operation by the CPP-NPA in Davao del Norte that resulted in the death of a militiaman and wounded four others, the President addressed the CPP-NPA-NDF to declare a ceasefire on their part as the government have.
 layout: post
-categories: [headline, peace process]
-tags: [cpp, npa, ndf, ceasefire, peacetalk, davao del norte, cafgu, militia, president]
+categories: [president, peace process]
+tags: [cpp, npa, ndf, ceasefire, peacetalk, davao del norte, cafgu, militia]
 published: true
 permalink: /news/20160729T021903
 image:

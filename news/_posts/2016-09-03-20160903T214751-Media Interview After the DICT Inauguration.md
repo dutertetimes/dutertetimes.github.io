@@ -3,8 +3,8 @@ title: Media Interview After the DICT Inauguration
 date: 2016-09-03T21:47:51UTC
 excerpt: Media interview of President Rodrigo Duterte after the Inauguration of the new Davao International Container Terminal in Panabo City, Davao del Norte on 2 September 2016.
 layout: post
-categories: [other, governance]
-tags: [interview, president]
+categories: [president, governance]
+tags: [davao international container terminal, dict, interview]
 published: true
 permalink: /news/20160903T214751
 image:

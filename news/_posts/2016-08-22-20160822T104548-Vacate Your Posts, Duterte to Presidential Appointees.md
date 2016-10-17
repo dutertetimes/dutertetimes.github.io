@@ -3,8 +3,8 @@ title: Vacate Your Posts, Duterte to Presidential Appointees
 date: 2016-08-22T10:45:48UTC
 excerpt: In a press conference 21 August at the Presidential Guesthouse in Panacan, the President said he wanted presidential appointees to vacant their positions and consider themselves resigned effective immediately due to endemic graft and corruption.
 layout: post
-categories: [headline ]
-tags: [lto, ltfrb, government appointee, memorandum circular 4, president]
+categories: [president]
+tags: [memorandum circular 4, government appointee]
 published: true
 permalink: /news/20160822T104548
 image:

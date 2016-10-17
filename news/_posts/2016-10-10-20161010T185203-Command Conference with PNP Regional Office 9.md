@@ -3,8 +3,8 @@ title: Command Conference with PNP Regional Office 9
 date: 2016-10-10T18:52:03UTC
 excerpt: President Rodrigo Roa Duterte met with around 40 senior officials of the Philippine National Police Regional Office 9 in a command conference held at Camp Colonel Romeo Abendan in Barangay Mercedes, Zamboanga City on 10 October 2016.
 layout: post
-categories: [pnp]
-tags: [president, police regional office, pro 9, zamboanga city]
+categories: [president, pnp]
+tags: [police regional office 9, pro 9, police regional office, zamboanga city]
 published: true
 permalink: /news/20161010T185203
 image:

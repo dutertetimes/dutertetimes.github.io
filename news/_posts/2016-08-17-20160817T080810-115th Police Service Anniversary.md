@@ -3,8 +3,8 @@ title: 115th Police Service Anniversary
 date: 2016-08-17T08:08:10UTC
 excerpt: President Rodrigo Roa Duterte, as guest of honor, attended the 115th Police Service Anniversary on 17 August 2016 at the Philippine National Police National Headquarters in Camp Crame, Quezon City.
 layout: post
-categories: [other, pnp]
-tags: [event, police service anniversary, president]
+categories: [president, pnp]
+tags: [police service anniversary, pnp]
 published: true
 permalink: /news/20160817T080810
 image:

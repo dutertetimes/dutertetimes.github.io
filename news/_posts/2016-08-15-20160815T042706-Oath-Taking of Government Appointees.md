@@ -3,8 +3,8 @@ title: Oath-Taking of Government Appointees
 date: 2016-08-15T04:27:06UTC
 excerpt: Fourty two government appointees took their oath in the presence of President Rodrigo Duterte in Malacañang Palace on 15 August 2016.
 layout: post
-categories: [other, governance]
-tags: [oath taking, president]
+categories: [president, governance]
+tags: [oath taking]
 published: true
 permalink: /news/20160815T042706
 image:

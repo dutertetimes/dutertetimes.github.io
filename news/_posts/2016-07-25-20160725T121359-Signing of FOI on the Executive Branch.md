@@ -3,8 +3,8 @@ title: Signing of Executive Order on the Freedom of Information
 date: 2016-07-25T12:13:59UTC
 excerpt: Presidential Communications Secretary Martin Andanar official announcement on 24 July 2016 of the signing of the Executive Order on the Freedom of Information.
 layout: post
-categories: [headline, governance]
-tags: [freedom of information, foi, president]
+categories: [president, governance]
+tags: [freedom of information, foi]
 published: true
 permalink: /news/20160725T121359
 image:

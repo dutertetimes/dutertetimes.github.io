@@ -3,8 +3,8 @@ title: 3rd Sulong Pilipinas 2016 Convention
 date: 2016-10-04T18:30:17UTC
 excerpt: The President speaks to Local Government Unit leaders at the Dusit Thani Hotel in Makati City on 4 October 2016 as a third in a series of consultations on local governance discussing peace and order, and social development amongst LGUs.
 layout: post
-categories: [other]
-tags: [sulong pilipinas, president]
+categories: [president]
+tags: [3rd sulong pilipinas, sulong pilipinas, local government units, speech]
 published: true
 permalink: /news/20161004T183017
 image:

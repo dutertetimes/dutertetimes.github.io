@@ -3,8 +3,8 @@ title: Declaration of State of Lawless Violence
 date: 2016-09-04T21:14:14UTC
 excerpt: The President declared a state of lawless violence on 4 September after the Davao City bombing on the night of 2 September 2016 which killed 14 and injured 71 others.
 layout: post
-categories: [other]
-tags: [proclamation, state of lawless violence, president]
+categories: [president]
+tags: [state of lawless violence, davao bombing, proclamation]
 published: true
 permalink: /news/20160904T211414
 image:

@@ -3,8 +3,8 @@ title: "Tapatan: Gobyerno at Mamamayan"
 date: 2016-10-10T18:44:30UTC
 excerpt: "President Rodrigo Roa Duterte went to the 'Tapatan: Gobyerno at Mamamayan' program of the Department of Agriculture held at the Lamitan Agrarian Reform Beneficiaries Cooperative compound in Lamitan City, Basilan on 10 October 2016."
 layout: post
-categories: [governance]
-tags: [lamitan city, basilan, president]
+categories: [president, agriculture]
+tags: [lamitan city, tapatan - gobyerno at mamamayan, basilan]
 published: true
 permalink: /news/20161010T184430
 image:

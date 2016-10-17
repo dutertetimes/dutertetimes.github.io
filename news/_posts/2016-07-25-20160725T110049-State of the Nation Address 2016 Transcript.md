@@ -3,8 +3,8 @@ title: State of the Nation Address 2016 Transcript
 date: 2016-07-25T11:00:49UTC
 excerpt: The first State of the Nation Address of President Rodrigo R. Duterte was held on July 25, 2016 at the Batasan Pambansa. This is a transcript of the State of the Nation Address.
 layout: post
-categories: [headline]
-tags: [sona, president, duterte]
+categories: [president]
+tags: [state of the nation address, sona, transcript]
 published: true
 permalink: /news/20160725T110049
 image:

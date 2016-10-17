@@ -3,8 +3,8 @@ title: Misamis Oriental Coal Power Plant Inauguration
 date: 2016-09-22T07:04:59UTC
 excerpt: The President attended the inauguration of the FDC Misamis Power Corporation 405-megawatt coal-fired power plant in Villanueva, Misamis Oriental on 22 September 2016.
 layout: post
-categories: [other]
-tags: [coal-fired, power plant, filinvest development corporation, national grid corporation of the philippines, mindanao, misamis, misamis oriental, president]
+categories: [president]
+tags: [coal-fired, power plant, filinvest development corporation, national grid corporation of the philippines, mindanao, misamis, misamis oriental]
 published: true
 permalink: /news/20160922T070459
 image:

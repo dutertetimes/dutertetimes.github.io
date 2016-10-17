@@ -3,8 +3,8 @@ title: Transcript of Speech to Army 10th Infantry Agila Troopers
 date: 2016-09-20T14:11:15UTC
 excerpt: President Rodrigo Roa Duterte spoke before the Agila Troopers of the Philippine Army's 10th Infantry Division during his visit at Camp General Manuel T. Yan Sr. in Mawab, Compostela Valley on 20 September 2016. 
 layout: post
-categories: [other, military]
-tags: [agila troopers, afp, army, president, transcript, speech]
+categories: [president, military, afp, army]
+tags: [10th infantry, agila troopers, afp, army, speech, transcript]
 published: true
 permalink: /news/20160920T141115
 image:

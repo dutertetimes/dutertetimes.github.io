@@ -3,8 +3,8 @@ title: Executive Order on FOI in Executive Branch
 date: 2016-07-23T16:58:41UTC
 excerpt: A copy of the Executive Order on the Freedom of Information in the Executive Branch signed by President Rodrigo Duterte on 23 July 2016, days before his State of the Nation Address.
 layout: post
-categories: [other, governance]
-tags: [freedom of information, foi, executive order, eo, president]
+categories: [president, governance]
+tags: [freedom of information, foi, executive order, eo]
 published: true
 permalink: /news/20160723T165841
 image:

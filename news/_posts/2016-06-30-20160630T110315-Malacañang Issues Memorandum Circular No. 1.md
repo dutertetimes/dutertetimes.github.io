@@ -3,8 +3,8 @@ title: Malacañang Issues Memorandum Circular No. 1
 date: 2016-06-30T11:03:15UTC
 excerpt: Memorandum Circular No. 1 (Ensuring Continuous and Effective Delivery of Government Services to the People) issued on June 30 by Executive Secretary Salvador Medialdea, by the power of the President of the Philippines.
 layout: post
-categories: [other]
-tags: [memorandum circular, memorandum circular 1, president]
+categories: [president]
+tags: [memorandum circular, memorandum circular 1]
 published: true
 permalink: /news/20160630T110315
 image:

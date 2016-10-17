@@ -3,8 +3,8 @@ title: Transcript of Speech Before the Army 5th Infantry Star Troopers
 date: 2016-09-19T11:35:47UTC
 excerpt: President Rodrigo Roa Duterte on 17 September 2016 visited and talked to the Star Troopers of the Philippine Army's 5th Infantry Division at Camp Melchor F. Dela Cruz in Gamu, Isabela.
 layout: post
-categories: [other, military, afp]
-tags: [army, 5th infantry, star troopers, president]
+categories: [president, military, afp, army]
+tags: [5th infantry, star troopers, army, speech]
 published: true
 permalink: /news/20160925T113547
 image:

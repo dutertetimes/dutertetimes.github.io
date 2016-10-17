@@ -3,8 +3,8 @@ title: Oath Taking of Generals and Flag Officers
 date: 2016-08-23T02:59:09UTC
 excerpt: President Rodrigo Roa Duterte leads the oath-taking ceremony of newly-appointed generals and flag officers at the Rizal Hall in Malacañan Palace.
 layout: post
-categories: [other, top, military]
-tags: [oath taking, president]
+categories: [president, military]
+tags: [oath taking, afp, military]
 published: true
 permalink: /news/20160823T025909
 image:

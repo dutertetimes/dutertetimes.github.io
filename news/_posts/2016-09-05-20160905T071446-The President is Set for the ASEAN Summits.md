@@ -3,8 +3,8 @@ title: The President is Set for the ASEAN Summits
 date: 2016-09-05T07:14:46UTC
 excerpt: "President Rodrigo Roa Duterte will be going to Vientiane, Lao People's Democratic Republic to participate in the three-day 28th and 29th ASEAN Summits and Related Summits from 6 to 8 September 2016."
 layout: post
-categories: [other]
-tags: [asean, asean summit, president]
+categories: [president]
+tags: [asean, asean summit, lao people's democratic republic, laos, vientiane]
 published: true
 permalink: /news/20160905T071446
 image:

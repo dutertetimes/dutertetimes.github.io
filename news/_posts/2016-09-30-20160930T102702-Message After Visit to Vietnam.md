@@ -3,8 +3,8 @@ title: Message After Visit to Vietnam
 date: 2016-09-30T10:27:02UTC
 excerpt: President Rodrigo Roa Duterte delivers a message after arrival at the Davao International Airport at 2:19 am of September 30, 2016 after his two-day official visit to the Socialist Republic of Vietnam.
 layout: post
-categories: [other]
-tags: [illegal drugs, president]
+categories: [president]
+tags: [illegal drugs, vietnam]
 published: true
 permalink: /news/20160930T102702
 image:
