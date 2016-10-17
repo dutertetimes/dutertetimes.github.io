@@ -57,6 +57,17 @@ permalink: /
         <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
+                    {% assign section_posts = site.categories['peace process'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="post_peace.png" %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+                
+        <div class="left_container container_right_margin_20">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
                     {% assign section_posts = site.categories['criminality'] %}
                     {% for top_post in section_posts limit: 1 %}
                         {% include post_entry_latest.html post=top_post post_image="post_crime.png" %}
@@ -100,12 +111,23 @@ permalink: /
             </div>
         </div>
         
-        <div class="left_container">
+        <div class="left_container container_right_margin_20">
             <div class="block block_margin_bottom block_default_fonts">
                 <div class="entries">
                     {% assign section_posts = site.categories['foreign affairs'] %}
                     {% for top_post in section_posts limit: 1 %}
                         {% include post_entry_latest.html post=top_post post_image="post_foreign.png" %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="left_container">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
+                    {% assign section_posts = site.categories['other'] %}
+                    {% for top_post in section_posts limit: 1 %}
+                        {% include post_entry_latest.html post=top_post post_image="post_other.png" %}
                     {% endfor %}
                 </div>
             </div>
@@ -119,10 +141,7 @@ permalink: /
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Topics</h1>
     <div class="section_container container_top_margin">
-        <div class="left_container container_right_margin_20">
-            {% assign section_posts = site.categories['peace process'] %}
-            {% include section_slideshow.html category="Peace Process" posts=section_posts post_image="post_peace.png" %}
-        </div>
+
         
         <div class="right_container">
             {% assign section_posts = site.categories['opinion'] %}
@@ -142,9 +161,21 @@ permalink: /
             {% include section_slideshow.html category="President" posts=section_posts post_image="post_president.png" %}
         </div>
         <div class="left_container">
+            {% assign section_posts = site.categories['other'] %}
+            {% include section_slideshow.html category="Other" posts=section_posts post_image="post_other.png" %}
+        </div>
+    </div>
+
+    <div class="section_container">
+        <div class="left_container container_right_margin_20">
+            {% assign section_posts = site.categories['peace process'] %}
+            {% include section_slideshow.html category="Peace Process" posts=section_posts post_image="post_peace.png" %}
+        </div>
+        <div class="left_container">
             {% assign section_posts = site.categories['criminality'] %}
             {% include section_slideshow.html category="Criminality" posts=section_posts post_image="post_crime.png" %}
         </div>
+
     </div>
 
     <div class="section_container">
@@ -156,16 +187,17 @@ permalink: /
             {% assign section_posts = site.categories['environment'] %}
             {% include section_slideshow.html category="Environment" posts=section_posts post_image="post_environment.png" %}
         </div>
-    </div>
 
+    </div>
+    
     <div class="section_container">
         <div class="left_container container_right_margin_20">
-            {% assign section_posts = site.categories['foreign affairs'] %}
-            {% include section_slideshow.html category="Foreign Affairs" posts=section_posts post_image="post_foreign.png" %}
-        </div>
-        <div class="left_container">
             {% assign section_posts = site.categories['business'] %}
             {% include section_slideshow.html category="Business" posts=section_posts post_image="post_business.png" %}
+        </div>
+        <div class="left_container">
+            {% assign section_posts = site.categories['foreign affairs'] %}
+            {% include section_slideshow.html category="Foreign Affairs" posts=section_posts post_image="post_foreign.png" %}
         </div>
     </div>
     
@@ -175,14 +207,18 @@ permalink: /
 
 <script>
     $(document).ready(function() {
-        currentPeaceProcessSlide(0);
         currentOpinionSlide(0);
         
         //currentHeadlineSlide(0);
         currentPresidentSlide(1);
+        currentOtherSlide(1);
+        
+        currentPeaceProcessSlide(1);
         currentCriminalitySlide(1);
+        
         currentAgrarianSlide(1);
         currentEnvironmentSlide(1);
+        
         currentBusinessSlide(1);
         currentForeignAffairsSlide(1);
     });
@@ -199,6 +235,10 @@ permalink: /
     
     function currentPresidentSlide(n) {
         showPresidentSlides(n);
+    }
+    
+    function currentOtherSlide(n) {
+        showOtherSlides(n);
     }
     
     function currentCriminalitySlide(n) {
@@ -229,12 +269,18 @@ permalink: /
         showOpinionSlides(n);
     }
 
+    /*
     function showHeadlineSlides(n) {
         showSlides("headline_dot", "headline_news_entry", n);
     }
+    */
     
     function showPresidentSlides(n) {
         showSlides("president_dot", "president_news_entry", n);
+    }
+    
+    function showOtherSlides(n) {
+        showSlides("other_dot", "other_news_entry", n);
     }
 
     function showBusinessSlides(n) {
