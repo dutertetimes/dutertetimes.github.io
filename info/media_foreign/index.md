@@ -9,7 +9,7 @@ published: true
 
 {% assign entries = site.data.media_foreign %}
 <div class="section_container">
-<div class="left_container">
+<div class="container">
 <div class="block block_default_fonts">
     {% comment %}
     <h1>Foreign Media</h1>
