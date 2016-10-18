@@ -68,9 +68,12 @@ div.section_container {
             width: 100%;
         }
 
+        $container_width: 100%;
+
         @include min-screen(1024px + 1px) {
             //width: calc(25% - 15px);
-            max-width: calc(50% - 10px);
+            max-width: calc(33% - 10px);
+            max-width: calc($container_width / 3 - 20px);
             flex: 1;
             display: flex;
             flex-direction: column;
