@@ -31,7 +31,7 @@
                         ]
     },
     {
-        "name":         "Department of Interior and Local Government",
+        "name":         "Interior and Local Government",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -41,7 +41,7 @@
                         ]
     },
     {
-        "name":         "Department of Trade and Industry",
+        "name":         "Trade and Industry",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -51,7 +51,7 @@
                         ]
     },
     {
-        "name":         "Department of Finance",
+        "name":         "Finance",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -61,7 +61,7 @@
                         ]
     },
     {
-        "name":         "Department of Health",
+        "name":         "Health",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -71,7 +71,7 @@
                         ]
     },
     {
-        "name":         "Department of Education",
+        "name":         "Education",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -81,7 +81,7 @@
                         ]
     },
     {
-        "name":         "Department of Science and Technology",
+        "name":         "Science and Technology",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -91,7 +91,7 @@
                         ]
     },
     {
-        "name":         "Department of Agriculture",
+        "name":         "Agriculture",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -101,7 +101,7 @@
                         ]
     },
     {
-        "name":         "Department of Agrarian Reform",
+        "name":         "Agrarian Reform",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -111,7 +111,7 @@
                         ]
     },
     {
-        "name":         "Department of Budget and Management",
+        "name":         "Budget and Management",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -121,7 +121,7 @@
                         ]
     },
     {
-        "name":         "Department of Environment and Natural Resources",
+        "name":         "Environment and Natural Resources",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -131,7 +131,7 @@
                         ]
     },
     {
-        "name":         "Department of Labor and Employment",
+        "name":         "Labor and Employment",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -141,7 +141,7 @@
                         ]
     },
     {
-        "name":         "Department of Foreign Affairs",
+        "name":         "Foreign Affairs",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -151,7 +151,7 @@
                         ]
     },
     {
-        "name":         "Department of Energy",
+        "name":         "Energy",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -161,7 +161,7 @@
                         ]
     },
     {
-        "name":         "Department of Information and Communications Technology",
+        "name":         "Information and Communications Technology",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -171,7 +171,7 @@
                         ]
     },
     {
-        "name":         "Department of Justice",
+        "name":         "Justice",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -181,7 +181,7 @@
                         ]
     },
     {
-        "name":         "Department of National Defense",
+        "name":         "National Defense",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -191,7 +191,7 @@
                         ]
     },
     {
-        "name":         "Department of Public Works and Highways",
+        "name":         "Public Works and Highways",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -201,7 +201,7 @@
                         ]
     },
     {
-        "name":         "Department of Transportation",
+        "name":         "Transportation",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -211,7 +211,7 @@
                         ]
     },
     {
-        "name":         "Department of Social Welfare and Development",
+        "name":         "Social Welfare and Development",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
@@ -221,7 +221,7 @@
                         ]
     },
     {
-        "name":         "Department of Tourism",
+        "name":         "Tourism",
         "description":  "",
         "branch":       "executive",
         "scope":        "department",
