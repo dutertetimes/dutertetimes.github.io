@@ -111,19 +111,24 @@ permalink: /
 
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Topics</h1>
-    <div class="section_container container_top_margin">
 
-        
+    <div class="section_container container_top_margin">
+        <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['opinion'] %}
             {% include section_slideshow.html category="Opinion" posts=section_posts post_image="post_opinion.png" %}
         </div>
         <div class="container">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border">
+<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
     <h1>Events</h1>
     
     <div class="section_container container_top_margin">
@@ -137,7 +142,7 @@ permalink: /
         </div>
     </div>
 
-    <div class="section_container">
+    <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['peace process'] %}
             {% include section_slideshow.html category="Peace Process" posts=section_posts post_image="post_peace.png" %}
@@ -146,10 +151,9 @@ permalink: /
             {% assign section_posts = site.categories['criminality'] %}
             {% include section_slideshow.html category="Criminality" posts=section_posts post_image="post_crime.png" %}
         </div>
-
     </div>
 
-    <div class="section_container">
+    <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['agrarian'] %}
             {% include section_slideshow.html category="Agrarian" posts=section_posts post_image="post_agrarian.png" %}
@@ -158,10 +162,9 @@ permalink: /
             {% assign section_posts = site.categories['environment'] %}
             {% include section_slideshow.html category="Environment" posts=section_posts post_image="post_environment.png" %}
         </div>
-
     </div>
     
-    <div class="section_container">
+    <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['business'] %}
             {% include section_slideshow.html category="Business" posts=section_posts post_image="post_business.png" %}
