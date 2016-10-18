@@ -3,6 +3,8 @@ Argument(s):
     - post
 {% endcomment %}
 
+<div class="block block_margin_bottom block_default_fonts">
+    <div class="entries">
         <div class="entry entry_highlight">
             {% if include.post.image.source %}
             <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
@@ -32,3 +34,5 @@ Argument(s):
                 {{ include.post.excerpt }}{% if include.post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
             </p>
         </div>
+    </div>
+</div>
