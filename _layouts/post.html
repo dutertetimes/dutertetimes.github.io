@@ -44,7 +44,7 @@ layout: default
         {% endif %}
     </div>
 
-    {% if page.image.source != nil %}
+    {% if page.image.source != nil and page.video.source == nil %}
         <div class="image_container">
         {% if page.image.layout == "auto_width" %}
             <div class="image_auto_width">
@@ -60,7 +60,7 @@ layout: default
         </div>
     {% endif %}
     
-    {% if page.video.source != nil and page.video.layout == "top" %}
+    {% if page.image.source != nil and page.video.source != nil and page.video.layout == "top" %}
     <div class="video_container">
         <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
         <div class="video">
@@ -72,7 +72,7 @@ layout: default
     
     {{ content }}
     
-    {% if page.video.source != nil and page.video.layout == "bottom" %}
+    {% if page.image.source != nil and page.video.source != nil and page.video.layout == "bottom" %}
     <div class="video_container">
         <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
         <div class="video">
