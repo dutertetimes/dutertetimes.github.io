@@ -7,7 +7,7 @@ categories: [president]
 tags: [national heroes day, speech]
 published: true
 permalink: /news/20160829T120639
-redirect_from: /post/20160829T120639
+redirect_from: /news/other/2016-08-29-20160829T120639.html
 image:
   layout: auto_width
   source: 
