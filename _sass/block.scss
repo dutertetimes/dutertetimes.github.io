@@ -61,13 +61,7 @@ div.block {
             }
 
             img.thumbnail {
-                width: 70px;
-                height: 70px;
-                @include max-screen(720px) {
-                    width: 70px;
-                    //width: 45%;
-                    //height: 45%;
-                }
+                height: 60px;
                 margin-right: 10px;
             }
             
