@@ -44,7 +44,7 @@ permalink: /
     
     <div class="section_container container_top_margin_10 container_bottom_margin_5">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.tags['president'] %}
+            {% assign section_posts = site.categories['president'] %}
             {% for top_post in section_posts limit: 1 %}
                 {% include post_entry_latest.html post=top_post post_image="post_president.png" %}
             {% endfor %}
@@ -133,7 +133,7 @@ permalink: /
     
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.tags['president'] %}
+            {% assign section_posts = site.categories['president'] %}
             {% include section_slideshow.html category="President" posts=section_posts post_image="post_president.png" %}
         </div>
         <div class="container">
