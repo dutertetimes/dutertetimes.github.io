@@ -3,7 +3,7 @@ title: Press Conference with the Malacañang Press Corps
 date: 2016-10-20T02:55:50UTC
 excerpt: A press conference with the Malacañang Press Corps on 19 October 2016 at the Grand Hyatt Hotel, Beijing, China.
 layout: post
-categories: [foreign affairs, president]
+categories: [president]
 tags: [china, press conference, presscon]
 published: true
 permalink: /news/20161020T025550
