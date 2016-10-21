@@ -7,7 +7,7 @@ Argument(s):
     <div class="entries">
         <div class="entry entry_highlight">
             {% if include.post.image.source %}
-            <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
+            <img src="{{ site.image_source }}{{ include.post.image.source }}"  class="thumbnail_latest img_style_rounded"/>
             {% else %}
                 {% if include.post.video.source %}
                     {% if site.development %}
