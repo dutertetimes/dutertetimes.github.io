@@ -8,7 +8,7 @@ tags: [us embassy, protest, rally, pnp chief, statement]
 published: true
 permalink: /news/20161020T060820
 image:
-  layout: auto_width
+  layout:
   source: /post/us_embassy_protest_20161019.png
   attribution: screenshot from Kadao video
 video:
