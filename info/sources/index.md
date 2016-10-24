@@ -41,6 +41,7 @@ published: true
 | [Philippine Drug Enforcement Agency](http://pdea.gov.ph/)
 | [Dangerous Drugs Board](http://www.ddb.gov.ph/)
 | [Commission on Filipino Overseas](http://www.cfo.gov.ph/index.php)
+| [Philippine Government Electronic Procurement System](https://www.philgeps.gov.ph/)
 
 &nbsp;
 
