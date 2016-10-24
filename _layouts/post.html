@@ -44,28 +44,28 @@ layout: default
         {% endif %}
     </div>
 
-    {% if page.image.source != nil and page.video.source == nil %}
-        <div class="image_container">
+    {% if page.image.source != nil %}
+    <div class="image_container">
         {% if page.image.layout == "auto_width" %}
-            <div class="image_auto_width">
-        {% else %}
+        <div class="image_auto_width">
+            {% else %}
             <div>
-        {% endif %}
+                {% endif %}
                 <img width="100%" height="auto" src="{{ site.image_source }}{{ page.image.source }}" />
                 <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
             </div>
         </div>
-    {% endif %}
-    
-    {% if page.image.source != nil and page.video.source != nil and page.video.layout == "top" %}
-    <div class="video_container">
-        <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
+        {% else %}
+        {% if page.video.source != nil and page.video.layout == "top" %}
+        <div class="video_container">
+            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
+            </div>
+            <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
         </div>
-        <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
-    </div>
-    {% endif %}
+        {% endif %}
+        {% endif %}
     
     {{ content }}
     
