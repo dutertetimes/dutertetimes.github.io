@@ -1,5 +1,5 @@
 ---
-title: Press Briefing with Presidential Spokesperson Ernesto Abella, Social Welfare Secretary Judy Taguiwalo and Agriculture Secretary Emmanuel Piñol
+title: Press Briefing After Typhoon Lawin
 date: 2016-10-24T06:18:11UTC
 excerpt: Press Briefing with Presidential Spokesperson Ernesto Abella, Social Welfare Secretary Judy Taguiwalo and Agriculture Secretary Emmanuel Piñol on 24 October 2016 about the disaster relief and concerns after typhoon Lawin devastated the northern Philippines.
 layout: post
