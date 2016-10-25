@@ -1,6 +1,7 @@
 {% comment %}
 Arguments:
-    - category - every word is capitalized because it is also used in javascript
+    - title - section title
+    - category - used in javascript; every word is capitalized
     - posts
     - post_image
 
@@ -16,7 +17,7 @@ Example:
 {% endif %}
 
 <div class="block block_default_fonts">
-    <h1>{{ include.category }}</h1>
+    <h1>{{ include.title }}</h1>
     <div class="links headline_links">
         {% for i in (1..post_count) %}
         <span class="{{ include.category | replace: ' ', '_' | downcase }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide({{ i | minus: 1 }})"></span>

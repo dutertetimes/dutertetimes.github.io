@@ -41,7 +41,7 @@ permalink: /
 
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Events</h1>
-    
+
     <div class="section_container container_top_margin_10 container_bottom_margin_5">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['president'] %}
@@ -62,7 +62,7 @@ permalink: /
             {% endfor %}
         </div>
     </div>
-    
+
     <div class="section_container container_bottom_margin_5">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['criminality'] %}
@@ -83,7 +83,7 @@ permalink: /
             {% endfor %}
         </div>
     </div>
-        
+
     <div class="section_container container_bottom_margin_10">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['business'] %}
@@ -104,7 +104,7 @@ permalink: /
             </div>
         </div>
     </div>
-    
+
 </div>
 
 
@@ -130,51 +130,51 @@ permalink: /
 
 <div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
     <h1>Events</h1>
-    
+
     <div class="section_container container_top_margin">
-        <div class="container container_right_margin_20">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories['president'] %}
-            {% include section_slideshow.html category="President" posts=section_posts post_image="post_president.png" %}
+            {% include section_slideshow.html title="President's Activities" category="President" posts=section_posts post_image="post_president.png" %}
         </div>
-        <div class="container">
+        <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories['other'] %}
-            {% include section_slideshow.html category="Other" posts=section_posts post_image="post_other.png" %}
+            {% include section_slideshow.html title="Other News" category="Other" posts=section_posts post_image="post_other.png" %}
         </div>
     </div>
 
     <div class="section_container container_top_margin">
-        <div class="container container_right_margin_20">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories['peace process'] %}
-            {% include section_slideshow.html category="Peace Process" posts=section_posts post_image="post_peace.png" %}
+            {% include section_slideshow.html title="Peace Process" category="Peace Process" posts=section_posts post_image="post_peace.png" %}
         </div>
-        <div class="container">
+        <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories['criminality'] %}
-            {% include section_slideshow.html category="Criminality" posts=section_posts post_image="post_crime.png" %}
+            {% include section_slideshow.html title="Law and Order" category="Law and Order" posts=section_posts post_image="post_crime.png" %}
         </div>
     </div>
 
     <div class="section_container container_top_margin">
-        <div class="container container_right_margin_20">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories['agrarian'] %}
-            {% include section_slideshow.html category="Agrarian" posts=section_posts post_image="post_agrarian.png" %}
+            {% include section_slideshow.html title="Agrarian" category="Agrarian" posts=section_posts post_image="post_agrarian.png" %}
         </div>
-        <div class="container">
+        <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories['environment'] %}
-            {% include section_slideshow.html category="Environment" posts=section_posts post_image="post_environment.png" %}
+            {% include section_slideshow.html title="Environment" category="Environment" posts=section_posts post_image="post_environment.png" %}
         </div>
     </div>
-    
+
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['business'] %}
-            {% include section_slideshow.html category="Business" posts=section_posts post_image="post_business.png" %}
+            {% include section_slideshow.html title="Business and Economy" category="Business and Economy" posts=section_posts post_image="post_business.png" %}
         </div>
         <div class="container">
             {% assign section_posts = site.categories['foreign affairs'] %}
-            {% include section_slideshow.html category="Foreign Affairs" posts=section_posts post_image="post_foreign.png" %}
+            {% include section_slideshow.html title="Foreign Affairs" category="Foreign Affairs" posts=section_posts post_image="post_foreign.png" %}
         </div>
     </div>
-    
+
 </div>
 
 
@@ -182,21 +182,21 @@ permalink: /
 <script>
     $(document).ready(function() {
         currentOpinionSlide(0);
-        
+
         //currentHeadlineSlide(0);
         currentPresidentSlide(1);
         currentOtherSlide(1);
-        
+
         currentPeaceProcessSlide(1);
-        currentCriminalitySlide(1);
-        
+        currentLawandOrderSlide(1);
+
         currentAgrarianSlide(1);
         currentEnvironmentSlide(1);
-        
-        currentBusinessSlide(1);
+
+        currentBusinessandEconomySlide(1);
         currentForeignAffairsSlide(1);
     });
-    
+
     popupModal('modal_top_1', 'source_top_1', 'destination_top_1', 'caption_top_1');
     popupModal('modal_top_2', 'source_top_2', 'destination_top_2', 'caption_top_2');
 
@@ -206,21 +206,21 @@ permalink: /
         showHeadlineSlides(n);
     }
     */
-    
+
     function currentPresidentSlide(n) {
         showPresidentSlides(n);
     }
-    
+
     function currentOtherSlide(n) {
         showOtherSlides(n);
     }
-    
-    function currentCriminalitySlide(n) {
-        showCriminalitySlides(n);
+
+    function currentLawandOrderSlide(n) {
+        showLawandOrderSlides(n);
     }
 
-    function currentBusinessSlide(n) {
-        showBusinessSlides(n);
+    function currentBusinessandEconomySlide(n) {
+        showBusinessandEconomySlides(n);
     }
 
     function currentAgrarianSlide(n) {
@@ -248,17 +248,17 @@ permalink: /
         showSlides("headline_dot", "headline_news_entry", n);
     }
     */
-    
+
     function showPresidentSlides(n) {
         showSlides("president_dot", "president_news_entry", n);
     }
-    
+
     function showOtherSlides(n) {
         showSlides("other_dot", "other_news_entry", n);
     }
 
-    function showBusinessSlides(n) {
-        showSlides("business_dot", "business_news_entry", n);
+    function showBusinessandEconomySlides(n) {
+        showSlides("business_and_economy_dot", "business_and_economy_news_entry", n);
     }
 
     function showAgrarianSlides(n) {
@@ -277,10 +277,10 @@ permalink: /
         showSlides("peace_process_dot", "peace_process_news_entry", n);
     }
 
-    function showCriminalitySlides(n) {
-        showSlides("criminality_dot", "criminality_news_entry", n);
+    function showLawandOrderSlides(n) {
+        showSlides("law_and_order_dot", "law_and_order_news_entry", n);
     }
-    
+
     function showOpinionSlides(n) {
         showSlides("opinion_dot", "opinion_news_entry", n);
     }
@@ -299,12 +299,12 @@ permalink: /
         slides[index].style.display = "block";
         dots[index].className += " slideshow_active";
     }
-    
-    
+
+
     function popupModal(modal, imageSource, imageDestination, caption) {
         // Get the modal
         var modal = document.getElementById(modal);
-        
+
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         var imgSource = document.getElementById(imageSource);
         var imgDest = document.getElementById(imageDestination);
@@ -314,7 +314,7 @@ permalink: /
             imgDest.src = imgSource.src;
             imgCaption.innerHTML = this.alt;
         }
-        
+
         imgDest.onclick = function() {
             modal.style.display = "none";
         }
