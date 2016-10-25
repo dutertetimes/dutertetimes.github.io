@@ -18,20 +18,26 @@
         margin-top: 20px;
     }
 
-    div.image {
+    & > div.entries > div.entry > div.image {
         @include compact;
         background: black;
-        margin: 5px 0 5px 0;
+        // This positions the image at the upper left
+        // The image must be centered thus @A.
+        //margin: 5px 0 5px 0;
+        // Add vertical space for attribution
+        padding-bottom: 10px;
 
-        img {
+        & > img {
+            //float: left;
             width: calc(100% - 10px);
-            margin: 5px 0 0 5px;
+            // @A: Center image
+            margin: 5px 5px 4px 5px;
         }
-        
-        p.attribution {
+
+        & > p.attribution {
             @include attribution;
             color: lighten($color_image_attribution, 30%);
-            padding-top: 0;
+            padding-top: 2px;
         }
     }
 }
