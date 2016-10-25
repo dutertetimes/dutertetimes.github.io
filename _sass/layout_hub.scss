@@ -80,16 +80,18 @@ div.section_container {
         }
     }
 
-    div.left_container {
-        float: left;
-        &:first-of-type {
-        }
-    }
-
-    div.container_border_thin {
+    div.container_top_border_thin {
         border-top: 1px solid $color_primary;
         @include min-screen(1024px + 1px) {
             padding-top: 10px;
+            padding-top: 5px;
+        }
+    }
+
+    div.container_bottom_border_thin {
+        border-bottom: 1px solid $color_primary;
+        @include min-screen(1024px + 1px) {
+            //padding-bottom: 10px;
         }
     }
 
