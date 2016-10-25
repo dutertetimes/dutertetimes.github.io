@@ -6,20 +6,25 @@ Argument(s):
 <div class="block block_margin_bottom block_default_fonts">
     <div class="entries">
         <div class="entry entry_highlight">
-            {% if include.post.image.source %}
-            <img src="{{ site.image_source }}{{ include.post.image.source }}"  class="thumbnail_latest img_style_rounded"/>
-            {% else %}
-                {% if include.post.video.source %}
-                    {% if site.development %}
-            <img src="/images/video_01_254x143.png" class="video_thumbnail img_style_rounded"/>
-                    {% else %}
-            <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" class="video_thumbnail_latest img_style_rounded"/>
-                    {% endif %}
+
+            {% if site.development %}
+                {% if include.post.image.source %}
+            <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail_latest img_style_rounded"/>
                 {% else %}
-                    {% if site.development %}
-            <img src="/images/post/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                    {% if include.post.video.source %}
+            <img src="/images/offline/thumbnail_video.png" class="video_thumbnail_latest img_style_rounded"/>
                     {% else %}
-            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+            <img src="/images/offline/thumbnail_twitter_card.png"  class="image_thumbnail_latest img_style_rounded"/>
+                    {% endif %}
+                {% endif %}
+            {% else %}
+                {% if include.post.image.source %}
+            <img src="{{ site.image_source }}{{ include.post.image.source }}"  class="image_thumbnail_latest img_style_rounded"/>
+                {% else %}
+                    {% if include.post.video.source %}
+            <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" class="video_thumbnail_latest img_style_rounded"/>
+                    {% else %}
+            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail_latest img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% endif %}

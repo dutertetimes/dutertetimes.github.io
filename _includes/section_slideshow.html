@@ -3,7 +3,7 @@ Arguments:
     - category - every word is capitalized because it is also used in javascript
     - posts
     - post_image
-    
+
 Example:
     {% assign section_posts = site.categories['criminality'] %}
     {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
@@ -23,36 +23,40 @@ Example:
         {% endfor %}
     </div>
     <div class="entries">
-    
+
         {% for post in include.posts limit:7 %}
-           
+
         <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-            
-            {% if post.image.source %}
-            <img src="{{ site.image_source }}{{ post.image.source }}"  class="thumbnail img_style_rounded"/>
-            {% else %}
-                {% if post.video.source %}
-                    {% if site.development %}
-            <img src="/images/video_01_254x143.png" class="video_thumbnail img_style_rounded"/>
-                    {% else %}
-            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail img_style_rounded"/>
-                    {% endif %}
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+
+            {% if site.development %}
+                {% if post.image.source %}
+            <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
                 {% else %}
-                    {% if site.development %}
-            <img src="/images/post/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+                    {% if post.video.source %}
+            <img src="/images/offline/thumbnail_video.png" class="video_thumbnail video_thumbnail_right img_style_rounded"/>
                     {% else %}
-            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="thumbnail img_style_rounded"/>
+            <img src="/images/offline/thumbnail_twitter_card.png"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+                    {% endif %}
+                {% endif %}
+            {% else %}
+                {% if post.image.source %}
+            <img src="{{ site.image_source }}{{ post.image.source }}"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+                {% else %}
+                    {% if post.video.source %}
+            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right img_style_rounded"/>
+                    {% else %}
+            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% endif %}
-            
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+
             <p class="excerpt">
                 {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
             </p>
         </div>
-        
+
         {% else %}
         <p class="no_entries">There are no posts for this section.</p>
         {% endfor %}
