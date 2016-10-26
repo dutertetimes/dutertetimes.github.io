@@ -46,19 +46,19 @@ permalink: /
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['president'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_president.png" %}
+                {% include post_entry.html post=top_post post_image="post_president.png" %}
             {% endfor %}
         </div>
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['other'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_other.png" %}
+                {% include post_entry.html post=top_post post_image="post_other.png" %}
             {% endfor %}
         </div>
         <div class="container">
             {% assign section_posts = site.categories['peace process'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_peace.png" %}
+                {% include post_entry.html post=top_post post_image="post_peace.png" %}
             {% endfor %}
         </div>
     </div>
@@ -67,19 +67,19 @@ permalink: /
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['criminality'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_crime.png" %}
+                {% include post_entry.html post=top_post post_image="post_crime.png" %}
             {% endfor %}
         </div>
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['agrarian'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_agrarian.png" %}
+                {% include post_entry.html post=top_post post_image="post_agrarian.png" %}
             {% endfor %}
         </div>
         <div class="container">
             {% assign section_posts = site.categories['environment'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_environment.png" %}
+                {% include post_entry.html post=top_post post_image="post_environment.png" %}
             {% endfor %}
         </div>
     </div>
@@ -88,13 +88,13 @@ permalink: /
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['business'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_business.png" %}
+                {% include post_entry.html post=top_post post_image="post_business.png" %}
             {% endfor %}
         </div>
         <div class="container container_right_margin_20">
             {% assign section_posts = site.categories['foreign affairs'] %}
             {% for top_post in section_posts limit: 1 %}
-                {% include post_entry_latest.html post=top_post post_image="post_foreign.png" %}
+                {% include post_entry.html post=top_post post_image="post_foreign.png" %}
             {% endfor %}
         </div>
         <div class="container">
