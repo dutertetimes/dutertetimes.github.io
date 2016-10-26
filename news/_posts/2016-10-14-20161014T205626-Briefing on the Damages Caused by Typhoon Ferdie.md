@@ -3,8 +3,8 @@ title: Briefing on the Damages Caused by Typhoon Ferdie
 date: 2016-10-14T20:56:26UTC
 excerpt: President Rodrigo Roa Duterte personally visited Batanes after it suffered the onslaught of Super Typhoon Ferdie, one of the strongest typhoons that hit the province in more than two decades, after it made landfall last September 14. 
 layout: post
-categories: [other]
-tags: [speech, president, typhoon, typhoon ferdie, batanes]
+categories: [president]
+tags: [typhoon ferdie, typhoon, batanes, speech]
 published: true
 permalink: /news/20161014T205626
 image:
