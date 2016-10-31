@@ -132,8 +132,3 @@ JOSEPH MORONG/GMA-7:		Sige, sir, thank you.
 
 SEC. ANDANAR:	Thank you so much, Mr. President. Thank you so much media. Let us all greet our President a very, very fruitful trip to China.
 &#x25cf;
-
-Malacañan
-''""...
-Empty.
-
