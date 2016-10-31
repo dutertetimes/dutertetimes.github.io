@@ -3,7 +3,7 @@ title: Speech During Launch of CRDA
 date: 2016-10-30T08:44:29UTC
 excerpt: The President delivers a speech on 29 October 2016 in ARMM Compound, Cotabato City during the launch of the Comprehensive Reform and Development Agenda for Autonomous Region in Muslim Mindanao and other conflict affected areas in Regions 9, 10 and 12.
 layout: post
-categories: [president, other]
+categories: [president]
 tags: [comprehensive reform and development agenda, crda, armm]
 published: true
 permalink: /news/20161030T084429
