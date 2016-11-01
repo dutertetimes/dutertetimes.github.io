@@ -1,9 +1,20 @@
+{% comment %}
+Arguments:
+    - todo_data - TODO items from /data directory
+    - category
+
+Example:
+    {% assign todo = site.data.news_peace_process %}
+    {% include section_index.html title="Peace Process" todo_data=todo category="peace_process" %}
+{% endcomment %}
+
 {% if site.development %}
-<div class="section_container">
-<div class="block block_default_fonts">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>TODO</h1>
+<div class="section_container container_top_margin container_bottom_margin_5">
+<div class="block block_default_fonts">
     <div class="entries">
-    {% for post in include.data %}
+    {% for post in include.todo_data %}
         <div class="entry">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
@@ -31,11 +42,13 @@
     </div>
 </div>
 </div>
+</div>
 {% endif %}
 
-<div class="section_container">
-<div class="block block_default_fonts">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>{{ page.title }}</h1>
+<div class="section_container container_top_margin container_bottom_margin_5">
+<div class="block block_default_fonts">
     <div class="entries">
     {% for post in site.categories[include.category] limit:20 %}
         <div class="entry">
@@ -52,5 +65,6 @@
         <p class="no_entries">There are no articles.</p>
     {% endfor %}
     </div>
+</div>
 </div>
 </div>
