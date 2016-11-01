@@ -7,8 +7,8 @@ tags: []
 published: true
 ---
 
-|------|------|
-| Name | Link |
-|------|------|
-{% for item in site.categories['people'] %} {{ item.title }} | [Link]({{ item.url }}) |
+<ol class="info_list">
+{% for item in site.categories.people %}
+<li><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
+</ol>
