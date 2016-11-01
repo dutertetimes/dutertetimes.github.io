@@ -116,7 +116,7 @@ permalink: /
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.president %}
-            {% include section_slideshow.html title="President's Activities" category="President" posts=section_posts post_image="post_president_16_9.png" %}
+            {% include section_slideshow.html title="President" category="President" posts=section_posts post_image="post_president_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories.press_briefing %}
@@ -127,7 +127,7 @@ permalink: /
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.business %}
-            {% include section_slideshow.html title="Business and Economy" category="Business and Economy" posts=section_posts post_image="post_business_16_9.png" %}
+            {% include section_slideshow.html title="Economy" category="Economy" posts=section_posts post_image="post_business_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories.criminality %}
@@ -169,7 +169,7 @@ permalink: /
         currentPresidentSlide(0);
         currentPressBriefingSlide(0);
 
-        currentBusinessandEconomySlide(0);
+        currentEconomySlide(0);
         currentLawandOrderSlide(0);
 
         currentAgrarianSlide(0);
@@ -205,8 +205,8 @@ permalink: /
         showLawandOrderSlides(n);
     }
 
-    function currentBusinessandEconomySlide(n) {
-        showBusinessandEconomySlides(n);
+    function currentEconomySlide(n) {
+        showEconomySlides(n);
     }
 
     function currentAgrarianSlide(n) {
@@ -247,8 +247,8 @@ permalink: /
         showSlides("other_dot", "other_news_entry", n);
     }
 
-    function showBusinessandEconomySlides(n) {
-        showSlides("business_and_economy_dot", "business_and_economy_news_entry", n);
+    function showEconomySlides(n) {
+        showSlides("economy_dot", "economy_news_entry", n);
     }
 
     function showAgrarianSlides(n) {
