@@ -89,8 +89,8 @@ div.section_container {
     }
 
     div.container_bottom_border_thin {
-        border-bottom: 1px solid $color_primary;
         @include min-screen(1024px + 1px) {
+            border-bottom: 1px solid $color_primary;
             //padding-bottom: 10px;
         }
     }
