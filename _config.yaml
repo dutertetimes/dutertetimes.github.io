@@ -72,12 +72,14 @@ description:    "Philippine alternative social news website"
 url:            https://dutertetimes.github.io
 image_source:   https://dl.dropboxusercontent.com/u/47611946/dutertetimes
 
+og_image:       /site/dutertetimes_default_share_image.png
+
 author:
   name:         'dutertetimes'
   icon:         dutertetimes.png
   github:       http://github.com/dutertetimes
   #wordpress:   http://dutertetimes.wordpress.com/
-
+  
 defaults:
   -
     scope:

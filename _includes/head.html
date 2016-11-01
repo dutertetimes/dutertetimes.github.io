@@ -34,6 +34,13 @@
     {% else %}
     <link rel="icon" type="image/png" href="/images/favicon/{{ site.author.icon }}">
     {% endif %}
+    
+    <!-- Open Graph -->
+    {% if page.image.source %}
+    <meta property="og:image" content="{{ site.image_source }}{{ page.image.source }}">
+    {% else %}
+    <meta property="og:image" content="{{ site.image_source }}{{ site.og_image }}">
+    {% endif %}
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
