@@ -3,7 +3,7 @@ title: Presidential Peace Adviser Statement on the Unilateral Ceasefire
 date: 2016-07-31T02:29:51UTC
 excerpt: The Presidential Peace Adviser Jesus G. Dureza issued a statement regarding the unilateral ceasefire issued by the President and the succeeding events leading to the declaration of lifting the government initiated unilateral ceasefire.
 layout: post
-categories: [peace process]
+categories: [peace_process]
 tags: [cpp, npa, ndf, ndfp, ceasefire, unilateral ceasefire]
 published: true
 permalink: /news/20160731T022951

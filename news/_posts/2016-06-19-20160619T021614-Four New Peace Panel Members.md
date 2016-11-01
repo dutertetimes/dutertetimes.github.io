@@ -3,7 +3,7 @@ title: Four New Peace Panel Members
 date: 2016-06-19T02:16:14UTC
 excerpt: Four new peace panel members took their oath before President Rodrigo Duterte in Malacañan Palace on July 18, 2016.
 layout: post
-categories: [peace process]
+categories: [peace_process]
 tags: [peace panel, hernani braganza, rene sarmiento, angela librado-trinidad, noel felongco]
 published: true
 permalink: /news/20160619T021614

@@ -3,7 +3,7 @@ title: Secretary Dureza on the Implementing Phase of the Bangsamoro Peace Accord
 date: 2016-08-13T03:23:36UTC
 excerpt: Press Statement of Secretary Jesus G. Dureza on the Launching of the Implementing Phase of the Bangsamoro Peace Accords on 13 August 2016 held in Kuala Lumpur, Malaysia.
 layout: post
-categories: [peace process, mnlf, milf ]
+categories: [peace_process, mnlf, milf ]
 tags: [mnfl, milf, bangsamoro]
 published: true
 permalink: /news/20160813T032336

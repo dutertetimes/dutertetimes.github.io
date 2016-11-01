@@ -3,7 +3,7 @@ title: Government and NDFP Joint Statement
 date: 2016-06-17T17:38:49UTC
 excerpt: Representatives of the incoming government peace panel and National Democratic Front of the Philippines panel held a talk on 14-15 June, 2016 in Oslo, Norway under the facilitation of the Royal Norwegian Government as Third Party Facilitator.
 layout: post
-categories: [peace process]
+categories: [peace_process]
 tags: [ndfp, cpp, npa]
 published: true
 permalink: /news/20160617T173849

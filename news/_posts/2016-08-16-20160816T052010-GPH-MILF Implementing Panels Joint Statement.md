@@ -3,7 +3,7 @@ title: GPH-MILF Implementing Panels Joint Statement
 date: 2016-08-16T05:20:10UTC
 excerpt: The joint statement of the Implementing Panels for the Government of the Philippines and the Moro Islamic Liberation Front after the two-day talks held in Kuala Lumpur, Malaysia that started 13 August 2016.
 layout: post
-categories: [peace process, milf]
+categories: [peace_process, milf]
 tags: [bangsamoro, bangsamoro peace agreement]
 published: true
 permalink: /news/20160816T052010

@@ -3,7 +3,7 @@ title: Opening Statement of the Chair of the Implementing Panel for the Bangsamo
 date: 2016-08-14T03:00:47UTC
 excerpt: Opening statement of Irene M. Santiago, Chair of the Implementing Panel for the Bangsamoro Accords, on 13 August 2016 which was held in the Palace of the Golden Horses Hotel, Kuala Lumpur, Malaysia.
 layout: post
-categories: [peace process, mnlf, milf]
+categories: [peace_process, mnlf, milf]
 tags: [mnlf, milf, bangsamoro]
 published: true
 permalink: /news/20160821T030047

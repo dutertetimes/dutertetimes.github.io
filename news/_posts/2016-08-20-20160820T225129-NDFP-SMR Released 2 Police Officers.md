@@ -3,7 +3,7 @@ title: NDFP-SMR Released Two Police Officers
 date: 2016-08-20T22:51:29UTC
 excerpt: The National Democratic Front of the Philippines - Southern Mindanao Region ordered the release of two "prisoners of war" on 20 August 2016 as "goodwill measure" for the formal resumption of the peace negotiations.
 layout: post
-categories: [peace process]
+categories: [peace_process]
 tags: [cpp, npa, ndf, ndfp]
 published: true
 permalink: /news/20160820T225129

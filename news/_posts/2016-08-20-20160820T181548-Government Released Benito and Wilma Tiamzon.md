@@ -3,7 +3,7 @@ title: Government Released Benito and Wilma Tiamzon
 date: 2016-08-20T18:15:48UTC
 excerpt: The government released two highest ranking rebels in custody on 20 August 2016. Benito and Wilma Tiamzon was granted temporary passes for the duration of the peace talks beginning 22 August 2016.
 layout: post
-categories: [top, peace process]
+categories: [top, peace_process]
 tags: [cpp, npa, ndf, ndfp, tiamzon, benito tiamzon, wilma tiamzon]
 published: true
 permalink: /news/20160820T181548

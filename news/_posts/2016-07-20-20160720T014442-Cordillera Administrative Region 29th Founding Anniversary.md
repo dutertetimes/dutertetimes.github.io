@@ -3,7 +3,7 @@ title: Cordillera Administrative Region 29th Founding Anniversary
 date: 2016-07-20T01:44:42UTC
 excerpt: "The Cordillera Administrative Region celebrated its 29th founding anniversary on 15 July held in Baguio Convention Center with the theme 'CAR at 29: Working Together for an Autonomous and Empowered Cordillera.'"
 layout: post
-categories: [peace process, cba-cpla]
+categories: [peace_process, cba-cpla]
 tags: [cordillera administrative region, car, anniversary]
 published: true
 permalink: /news/20160720T014442

@@ -3,7 +3,7 @@ title: Statement of Sec Dureza after Bangsamoro Talks in Malaysia
 date: 2016-08-15T05:29:53UTC
 excerpt: Statement of the Philippine Peace Advister Jesus Dureza after the two-day Bangsamoro talks which was held in Kuala Lumpur, Malaysia which started 13 August 216.
 layout: post
-categories: [peace process, milf]
+categories: [peace_process, milf]
 tags: [bangsamoro]
 published: true
 permalink: /news/20160815T052953
