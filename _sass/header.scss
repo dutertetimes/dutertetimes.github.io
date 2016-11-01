@@ -57,8 +57,11 @@ header {
             background-color: $color_button_bg;
         }
 
+        padding-top: 6px;
+        @include max-screen(720px) {
+            padding-top: 7px;
+        }
         padding-left: 6px;
-        padding-top: 7px;
 
         li {
             @include compact;
