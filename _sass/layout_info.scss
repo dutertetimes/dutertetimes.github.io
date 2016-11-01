@@ -12,6 +12,25 @@ section.info_column_main {
             }
         }
     }
+    
+    ol.info_list {
+        li > a {
+            @include set_font($font_hub_compact_title, $font_size_hub_compact_title + 2, $color_hub_entry_title);
+            line-height: $font_line_height_hub_compact_title + 2;
+            @include max-screen(720px) {
+                font-size: $font_size_hub_compact_title + 2;
+                line-height: $font_line_height_hub_compact_title + 3;
+            }
+            
+            padding-bottom: 2px;
+            
+            border-bottom: none;
+            &:hover {
+                color: $color_link;
+            }
+        }
+    }
+
 /*
     div.block > div.entries > div.entry {
         p,
