@@ -44,58 +44,42 @@ permalink: /
 
     <div class="section_container container_top_margin_10 container_bottom_margin_5">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['president'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_president_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.president[0] %}
+            {% include post_entry.html post=postitem post_image="post_president_16_9.png" %}
         </div>
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['other'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_other_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.other[0] %}
+            {% include post_entry.html post=postitem post_image="post_other_16_9.png" %}
         </div>
         <div class="container">
-            {% assign section_posts = site.categories['peace process'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_peace_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.peace_process[0] %}
+            {% include post_entry.html post=postitem post_image="post_peace_16_9.png" %}
         </div>
     </div>
 
     <div class="section_container container_bottom_margin_5">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['criminality'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_crime_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.criminality[0] %}
+            {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
         </div>
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['agrarian'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_agrarian_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.agrarian[0] %}
+            {% include post_entry.html post=postitem post_image="post_agrarian_16_9.png" %}
         </div>
         <div class="container">
-            {% assign section_posts = site.categories['environment'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_environment_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.environment[0] %}
+            {% include post_entry.html post=postitem post_image="post_environment_16_9.png" %}
         </div>
     </div>
 
     <div class="section_container container_bottom_margin_10">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['business'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_business_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.business[0] %}
+            {% include post_entry.html post=postitem post_image="post_business_16_9.png" %}
         </div>
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['foreign affairs'] %}
-            {% for top_post in section_posts limit: 1 %}
-                {% include post_entry.html post=top_post post_image="post_foreign_16_9.png" %}
-            {% endfor %}
+            {% assign postitem = site.categories.foreign_affairs[0] %}
+            {% include post_entry.html post=postitem post_image="post_foreign_16_9.png" %}
         </div>
         <div class="container">
             <div class="block block_margin_bottom block_default_fonts">
@@ -114,11 +98,11 @@ permalink: /
 
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['opinion'] %}
+            {% assign section_posts = site.categories.opinion %}
             {% include section_slideshow.html title="Opinion" category="Opinion" posts=section_posts post_image="post_opinion_16_9.png" %}
         </div>
         <div class="container">
-            {% assign section_posts = site.categories['peace process'] %}
+            {% assign section_posts = site.categories.peace_process %}
             {% include section_slideshow.html title="Peace Process" category="Peace Process" posts=section_posts post_image="post_peace_16_9.png" %}
         </div>
     </div>
@@ -131,44 +115,44 @@ permalink: /
 
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20 container_bottom_border_thin">
-            {% assign section_posts = site.categories['president'] %}
+            {% assign section_posts = site.categories.president %}
             {% include section_slideshow.html title="President's Activities" category="President" posts=section_posts post_image="post_president_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
-            {% assign section_posts = site.categories['press briefing'] %}
+            {% assign section_posts = site.categories.press_briefing %}
             {% include section_slideshow.html title="Press Briefing" category="Press Briefing" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
     </div>
 
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20 container_bottom_border_thin">
-            {% assign section_posts = site.categories['business'] %}
+            {% assign section_posts = site.categories.business %}
             {% include section_slideshow.html title="Business and Economy" category="Business and Economy" posts=section_posts post_image="post_business_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
-            {% assign section_posts = site.categories['criminality'] %}
+            {% assign section_posts = site.categories.criminality %}
             {% include section_slideshow.html title="Law and Order" category="Law and Order" posts=section_posts post_image="post_crime_16_9.png" %}
         </div>
     </div>
 
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20 container_bottom_border_thin">
-            {% assign section_posts = site.categories['agrarian'] %}
+            {% assign section_posts = site.categories.agrarian %}
             {% include section_slideshow.html title="Agrarian" category="Agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
-            {% assign section_posts = site.categories['environment'] %}
+            {% assign section_posts = site.categories.environment %}
             {% include section_slideshow.html title="Environment" category="Environment" posts=section_posts post_image="post_environment_16_9.png" %}
         </div>
     </div>
 
     <div class="section_container container_top_margin">
         <div class="container container_right_margin_20">
-            {% assign section_posts = site.categories['foreign affairs'] %}
+            {% assign section_posts = site.categories.foreign_affairs %}
             {% include section_slideshow.html title="Foreign Affairs" category="Foreign Affairs" posts=section_posts post_image="post_foreign_16_9.png" %}
         </div>
         <div class="container">
-            {% assign section_posts = site.categories['other'] %}
+            {% assign section_posts = site.categories.other %}
             {% include section_slideshow.html title="Other" category="Other" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
     </div>
