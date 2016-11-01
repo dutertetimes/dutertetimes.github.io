@@ -73,6 +73,8 @@ url:            https://dutertetimes.github.io
 image_source:   https://dl.dropboxusercontent.com/u/47611946/dutertetimes
 
 og_image:       /site/dutertetimes_default_share_image.png
+fb_admins:      167022237037290
+fb_url:         https://www.facebook.com/dutertetimes2016/
 
 author:
   name:         'dutertetimes'
