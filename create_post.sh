@@ -65,7 +65,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw ]" >> $filename
+        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -192,7 +192,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [ newsbit | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw ]" >> $filename
+        echo "categories: [ newsbit | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw ]" >> $filename
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
