@@ -3,7 +3,7 @@ title: Letter from the EU Ambassador
 date: 2016-10-01T19:41:46UTC
 excerpt: The 28-bloc European Union with their Ambassador, Franz Jessen, posted a letter on the European Union in the Philippines Facebook page on 30 September 2016 on the EU's continued support to the Philippines.
 layout: post
-categories: [foreign affairs]
+categories: [foreign_affairs]
 tags: [eu]
 published: true
 permalink: /news/20161001T194146

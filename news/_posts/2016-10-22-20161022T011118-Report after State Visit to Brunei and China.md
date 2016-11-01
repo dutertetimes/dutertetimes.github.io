@@ -3,7 +3,7 @@ title: Report after State Visit to Brunei and China
 date: 2016-10-22T01:11:18UTC
 excerpt: President Rodrigo Roa Duterte reported to the public the fruits of his State Visits to Brunei Darussalam and the People's Republic of China upon his late night arrival at the Davao International Aiport on 21 October 2016.
 layout: post
-categories: [president, foreign affairs]
+categories: [president, foreign_affairs]
 tags: [brunei, brunei darussalam, people's republic of china, china, speech]
 published: true
 permalink: /news/20161022T011118

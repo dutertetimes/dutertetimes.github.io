@@ -3,7 +3,7 @@ title: Japan Foreign Minister to Visit Philippines
 date: 2016-08-06T16:02:13UTC
 excerpt: Japan Foreign Minister Fumio Kishida will pay a three-day visit to the Philippines starting on 10 August to meet with President Rodrigo Duterte and Department of Foreign Affairs Secretary Perfecto Yasay.
 layout: post
-categories: [foreign affairs]
+categories: [foreign_affairs]
 tags: [japan, kishida]
 published: true
 permalink: /news/20160806T160213

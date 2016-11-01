@@ -3,7 +3,7 @@ title: Philippines-Japan Joint Statement Speeches
 date: 2016-10-27T05:35:06UTC
 excerpt: His Excellency Prime Minister Shinzo Abe and President Rodrigo Roa Duterte delivered their joint statements in Tokyo, Japan on 26 October 2016 during the Philippine President's official visit to the Japan.
 layout: post
-categories: [president, foreign affairs]
+categories: [president, foreign_affairs]
 tags: [shinzo abe, japan, joint statement]
 published: true
 permalink: /news/20161027T053506

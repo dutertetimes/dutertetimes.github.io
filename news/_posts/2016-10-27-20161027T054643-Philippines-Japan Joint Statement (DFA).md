@@ -3,7 +3,7 @@ title: Philippines-Japan Joint Statement (DFA)
 date: 2016-10-27T05:46:43UTC
 excerpt: Philippines-Japan joint statement as issued by the Department of Foreign Affairs office in regards to the official visit of the President to Japan from 25-27 October 2016.
 layout: post
-categories: [foreign affairs]
+categories: [foreign_affairs]
 tags: [shinzo abe, japan, joint statement]
 published: true
 permalink: /news/20161027T054643

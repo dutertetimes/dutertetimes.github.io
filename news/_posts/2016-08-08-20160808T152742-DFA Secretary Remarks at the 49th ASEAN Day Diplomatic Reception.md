@@ -3,7 +3,7 @@ title: DFA Secretary Remarks at the 49th ASEAN Day Diplomatic Reception
 date: 2016-08-08T15:27:42UTC
 excerpt: Remarks of the Foreign Affairs Secretary at the 49th ASEAN Day Diplomatic Reception on 8 Aug held at the Conrad Hotel, Pasay City.
 layout: post
-categories: [top, foreign affairs]
+categories: [top, foreign_affairs]
 tags: [asean, dfa]
 published: true
 permalink: /news/20160808T152742

@@ -3,7 +3,7 @@ title: Representative to the UN Corrects Al Hussein
 date: 2016-09-15T20:15:12UTC
 excerpt: The Permanent Representative of the Philippines to the United Nations in Geneva, during the 33rd Session of the Human Rights Council on 14 September 2016, corrected the report delivered by the High Commissioner for Human Rights, Mr. Zeid Ra'ad Al Hussein.
 layout: post
-categories: [foreign affairs]
+categories: [foreign_affairs]
 tags: [united nations, un, al hussein, human rights council]
 published: true
 permalink: /news/20160915T201512

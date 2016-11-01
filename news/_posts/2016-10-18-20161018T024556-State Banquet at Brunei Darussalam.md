@@ -3,7 +3,7 @@ title: State Banquet at Brunei Darussalam
 date: 2016-10-18T02:45:56UTC
 excerpt: His Majesty Sultan Haji Hassanal Bolkiah hosted a State Dinner for President Rodrigo Roa Duterte and members of the Philippine delegation at the Royal Banquet Hall inside the Istana Nurul Iman.
 layout: post
-categories: [president, foreign affairs]
+categories: [president, foreign_affairs]
 tags: [brunei darussalam, brunei, Sultan Haji Hassanal Bolkiah]
 published: true
 permalink: /news/20161018T024556

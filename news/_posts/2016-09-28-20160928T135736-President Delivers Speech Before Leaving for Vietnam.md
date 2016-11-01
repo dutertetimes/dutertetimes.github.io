@@ -3,7 +3,7 @@ title: President Delivers Speech Before Leaving for Vietnam
 date: 2016-09-28T13:57:36UTC
 excerpt: President Rodrigo Roa Duterte delivers a speech on 28 September 2016 at Ninoy Aquino International Airport, Terminal 2, Pasay City, before leaving for the Socialist Republic of Vietnam.
 layout: post
-categories: [president, foreign affairs]
+categories: [president, foreign_affairs]
 tags: [vietnam]
 published: true
 permalink: /news/20160928T135736

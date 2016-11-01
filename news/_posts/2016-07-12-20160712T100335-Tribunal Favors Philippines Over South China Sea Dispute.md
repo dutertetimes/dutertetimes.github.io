@@ -3,7 +3,7 @@ title: Tribunal Favors Philippines Over South China Sea Dispute
 date: 2016-07-12T10:03:35UTC
 excerpt: After three years since the Philippines filed a case in 2013, an international tribunal at The Hague released their decision on 12 July 2016 in favor of the Philippines and that China's claims to the South China Sea are invalid; and its land reclamations and other actions in the area are illegal.
 layout: post
-categories: [headline, foreign affairs]
+categories: [headline, foreign_affairs]
 tags: [south china sea, west philippine sea, hague, spratly, scarborough,  kalayaan islands, panatag shoal, bajo de masinloc]
 published: true
 permalink: /news/20160712T100335

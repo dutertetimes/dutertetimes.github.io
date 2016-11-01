@@ -3,7 +3,7 @@ title: Pre-Departure to Japan Press Briefing
 date: 2016-10-26T05:59:34UTC
 excerpt: Press briefing on 25 October 2016 at the Ninoy Aquino International Airport before President Rodrigo Roa Duterte and delegates leave for a three-day official visit to Japan.
 layout: post
-categories: [president, foreign affairs]
+categories: [president, foreign_affairs]
 tags: [official visit, japan]
 published: true
 permalink: /news/20161026T055934

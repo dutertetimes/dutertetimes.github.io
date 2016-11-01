@@ -3,7 +3,7 @@ title: DFA Statement on South China Sea Arbitration Result
 date: 2016-07-12T14:39:11UTC
 excerpt: The Secretary of the Department of Foreign Affairs released a statement after the Permanent Court of Arbitration in the Hague released their decision over the South China Sea dispute in favor of the Philippines.
 layout: post
-categories: [top, foreign affairs]
+categories: [top, foreign_affairs]
 tags: [dfa, south china sea, west philippine sea, hague, spratly, scarborough,  kalayaan islands, panatag shoal, bajo de masinloc]
 published: true
 permalink: /news/20160712T143911
