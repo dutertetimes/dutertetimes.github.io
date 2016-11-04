@@ -51,7 +51,8 @@
     <meta property="og:site_name" content="{{ site.title | escape }}">
     <meta property="og:locale" content="{% if page.locale %}{{ page.locale }}{% else %}{{ site.locale }}{% endif %}">
     <meta property="fb:admins" content="{{ site.fb_admins }}">
-    <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+    <!-- fb:app_id is intentionally excluded -->
+    <!-- <meta property="fb:app_id" content="{{ site.fb_app_id }}"> -->
 
     {% if page.date %}
     <meta property="article:author" content="{{ site.fb_admins }}">
