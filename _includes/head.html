@@ -54,9 +54,9 @@
       {% endfor %}
     {% endif %}
 
+    <meta property="fb:app_id" content="{{ site.fb_app_id }}">
     <meta property="fb:admins" content="{{ site.fb_admins }}">
-    <!-- <meta property="fb:app_id" content="{{ site.fb_appid }}"> -->
-
+    
     {% if page.image.source %}
     <meta property="og:image" content="{{ site.image_source }}{{ page.image.source }}">
     {% else %}

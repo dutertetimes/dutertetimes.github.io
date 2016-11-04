@@ -74,7 +74,9 @@ image_source:   https://dl.dropboxusercontent.com/u/47611946/dutertetimes
 
 #og_image:       /site/dutertetimes_default_fb_post_image.png
 og_image:       /site/fb_post_thumbnail_vertical_01.1.png
+fb_app_id:      167022237037290
 fb_admins:      167022237037290
+fb_publisher:   167022237037290
 fb_url:         https://www.facebook.com/dutertetimes2016/
 
 author:
