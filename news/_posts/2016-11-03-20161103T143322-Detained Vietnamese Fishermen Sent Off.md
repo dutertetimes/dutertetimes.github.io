@@ -4,7 +4,7 @@ date: 2016-11-03T14:33:22UTC
 excerpt: 17 Vietnamese fishermen who were caught poaching in Philippine waters on 8 September 2016 were sent off on 2 November 2016 as a promise of President Duterte to Vietnamese President Tran Dai Quang.
 layout: post
 categories: [president, foreign_affairs]
-tags: [vietnam, Tran Dai Quang]
+tags: [vietnam, tran dai quang]
 published: true
 permalink: /news/20161103T143322
 image:
