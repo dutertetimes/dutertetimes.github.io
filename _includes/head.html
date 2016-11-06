@@ -67,7 +67,11 @@
     -->
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 | escape }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title | escape }}">
-    <meta property="og:locale" content="{% if page.locale %}{{ page.locale }}{% else %}{{ site.locale }}{% endif %}">
+    {% if page.locale %}
+    <meta property="og:locale" content="{{ page.locale }}">
+    {% elsif site.locale %}
+    <meta property="og:locale" content="{{ site.locale }}">
+    {% endif %}
     <meta property="fb:admins" content="{{ site.fb_admins }}">
     <!-- fb:app_id is intentionally excluded -->
     <!-- <meta property="fb:app_id" content="{{ site.fb_app_id }}"> -->
