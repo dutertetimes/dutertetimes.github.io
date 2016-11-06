@@ -12,23 +12,23 @@
     <!------------------------------------------------------------------------>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
     
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt }}" />
+    <meta name="description" content="{{ page.excerpt }}">
     {% else %}
         {% if site.description %}
-        <meta name="description" content="{{ site.description }}" />
+        <meta name="description" content="{{ site.description }}">
         {% else %}
-        <meta name="description" content="{{ site.tagline }}" />
+        <meta name="description" content="{{ site.tagline }}">
         {% endif %}
     {% endif %}
-    <meta name="keywords" content="news duterte" />
-    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="news duterte">
+    <meta name="robots" content="index, follow">
     {% if site.development %}
     <link rel="icon" type="image/png" href="/images/favicon/dutertetimes_local.png">
     {% else %}
@@ -43,23 +43,23 @@
     <meta property="og:image" content="{{ site.image_source }}{{ page.image.source }}">
     {% else %}
         {% if page.categories contains 'president' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_president.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_president.png">
         {% elsif page.categories contains 'criminality' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_crime.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_crime.png">
         {% elsif page.categories contains 'agrarian' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_agrarian.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_agrarian.png">
         {% elsif page.categories contains 'environment' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_evnironment.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_evnironment.png">
         {% elsif page.categories contains 'foreign_affairs' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_foreign.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_foreign.png">
         {% elsif page.categories contains 'business' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_business.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_business.png">
         {% elsif page.categories contains 'peace_process' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_peace.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_peace.png">
         {% elsif page.categories contains 'opinion' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_opinion.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_opinion.png">
         {% elsif page.categories contains 'press_briefing' %}
-        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_press.png" />
+        <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_press.png">
         {% else %}
         <meta property="og:image" content="{{ site.url }}/images/post/{{ site.og_image }}">
         {% endif %}
@@ -95,39 +95,39 @@
     {% endif %}
 
     <!-- Twitter card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@dutertetimes" />
-    <meta name="twitter:creator" content="@dutertetimes" />
-    <meta name="twitter:url" content="{{ page.url }}" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@dutertetimes">
+    <meta name="twitter:creator" content="@dutertetimes">
+    <meta name="twitter:url" content="{{ page.url }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.excerpt }}">
     {% if page.image.source %}
-    <meta name="twitter:image:src" content="{{ site.image_source }}{{ page.image.source }}" />
+    <meta name="twitter:image:src" content="{{ site.image_source }}{{ page.image.source }}">
 
     {% comment %}
     Twitter Card Validator result: Unable to render Card preview
     {% elsif post.video.source %}
-    <meta name="twitter:image:src" content="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" />
+    <meta name="twitter:image:src" content="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg">
     {% endcomment %}
 
     {% elsif page.categories contains 'president' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_president.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_president.png?4362984378">
     {% elsif page.categories contains 'criminality' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_crime.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_crime.png?4362984378">
     {% elsif page.categories contains 'agrarian' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_agrarian.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_agrarian.png?4362984378">
     {% elsif page.categories contains 'environment' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_env.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_env.png?4362984378">
     {% elsif page.categories contains 'foreign_affairs' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_foreign.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_foreign.png?4362984378">
     {% elsif page.categories contains 'business' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_business.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_business.png?4362984378">
     {% elsif page.categories contains 'peace_process' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_peace.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_peace.png?4362984378">
     {% elsif page.categories contains 'opinion' %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_opinion.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/post/post_opinion.png?4362984378">
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/twitter_summary_card_01.png?4362984378" />
+    <meta name="twitter:image:src" content="{{ site.url }}/images/twitter_summary_card_01.png?4362984378">
     {% endif %}
 
     <!-- Stylesheets -->
