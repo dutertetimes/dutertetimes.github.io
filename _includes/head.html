@@ -42,7 +42,6 @@
     {% if page.image.source %}
     <meta property="og:image" content="{{ site.image_source }}{{ page.image.source }}">
     {% else %}
-        {% comment %}
         {% if page.categories contains 'president' %}
         <meta name="og:image" content="{{ site.url }}/images/post/fb_post_thumbnail_vertical_01_1_president.png" />
         {% elsif page.categories contains 'criminality' %}
@@ -64,8 +63,6 @@
         {% else %}
         <meta property="og:image" content="{{ site.url }}/images/post/{{ site.og_image }}">
         {% endif %}
-        {% endcomment %}
-        <meta property="og:image" content="{{ site.url }}/images/post/{{ site.og_image }}">
     {% endif %}
     <!--
     <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
