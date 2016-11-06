@@ -328,6 +328,14 @@ section.post_column_main {
             text-align: left;
         }
     }
+    
+    div.aside_right_left_align {
+        h1, h2, h3, h4, h5, h6,
+        & > p,
+        & > p a {
+            text-align: left;
+        }
+    }
 
     div.aside_width_45 {
         width: 45%;
