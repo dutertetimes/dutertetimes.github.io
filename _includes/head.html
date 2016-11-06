@@ -65,7 +65,11 @@
     <!--
     <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
     -->
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 | escape }}{% endif %}">
+    {% if page.fb_summary %}
+    <meta property="og:description" content="{{ page.fb_summary | strip_html | strip_newlines | truncate: 200 | escape }}">
+    {% else %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 200 | escape }}">
+    {% endif %}
     <meta property="og:site_name" content="{{ site.title | escape }}">
     {% if page.locale %}
     <meta property="og:locale" content="{{ page.locale }}">
