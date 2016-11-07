@@ -40,9 +40,7 @@
     {% if page.image.source %}
     <meta property="og:image" content="{{ site.image_source }}{{ page.image.source }}">
     {% else %}
-        {% if page.categories contains 'president' %}
-        <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.president.png">
-        {% elsif page.categories contains 'criminality' %}
+        {% if page.categories contains 'criminality' %}
         <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.crime.png">
         {% elsif page.categories contains 'agrarian' %}
         <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.agrarian.png">
@@ -58,6 +56,8 @@
         <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.opinion.png">
         {% elsif page.categories contains 'press_briefing' %}
         <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.press.png">
+        {% elsif page.categories contains 'president' %}
+        <meta name="og:image" content="{{ site.image_source }}/site/fb_post_02.1.president.png">
         {% else %}
         <meta property="og:image" content="{{ site.image_source }}/site/{{ site.og_image }}">
         {% endif %}
