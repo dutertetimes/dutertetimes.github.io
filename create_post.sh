@@ -65,7 +65,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw | press_briefing ]" >> $filename
+        echo "categories: [ governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw | press_briefing ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -92,6 +92,46 @@ function create_news_post {
         add_empty
 
         echo "News post file created: $filename"
+    fi
+}
+
+function create_story_post {
+    if [ -e $filename ]; then
+        echo "File ($filename) already exists."
+    else
+        touch $filename
+
+        add_yaml_bar
+        add_default "Story"
+        echo "excerpt: " >> $filename
+        echo "layout: post" >> $filename
+        echo "categories: [ [headline | top] | governance | business | mining | manufacturing | services | agrarian | agriculture | agrarian reform | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | criminality | military | pnp | pcg | ofw | press_briefing ]" >> $filename
+        echo "tags: []" >> $filename
+        if [ $# -eq 0 ]; then
+            echo "published: true" >> $filename
+        else
+            if [ "$1" = "draft" ]; then
+                echo "published: false" >> $filename
+            else
+                echo "published: true" >> $filename
+            fi
+        fi
+        echo "permalink: /stories/$current_short" >> $filename
+        echo "image:" >> $filename
+        echo "  layout: auto_width" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
+        echo "video:" >> $filename
+        echo "  layout: [top | bottom]" >> $filename
+        echo "  source: " >> $filename
+        echo "  attribution: " >> $filename
+        echo "sources:" >> $filename
+        echo "  - label:" >> $filename
+        echo "    link:" >> $filename
+        add_yaml_bar
+        add_empty
+
+        echo "Story post file created: $filename"
     fi
 }
 
