@@ -43,7 +43,14 @@ function add_default {
 function add_empty {
     echo >> $filename
     echo "Malacañan" >> $filename
-    echo "‘’“”…" >> $filename
+    echo "   dash-" >> $filename
+    echo "en dash–" >> $filename
+    echo "em dash—" >> $filename
+    echo " open single quote ‘" >> $filename
+    echo "close single quote ’" >> $filename
+    echo " open double quote “" >> $filename
+    echo "close double quote ”" >> $filename
+    echo "ellipses …" >> $filename
     echo "Empty." >> $filename
     echo "&#x25cf;" >> $filename
 }
