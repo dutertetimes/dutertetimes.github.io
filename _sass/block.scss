@@ -100,7 +100,7 @@ div.block {
                 }
             }
         }
-
+        
         div.entry_highlight {
 
             img.thumbnail {
@@ -125,6 +125,12 @@ div.block {
                 margin-right: 10px;
                 border-radius: 3px;
             }
+        }
+        
+        div.index_entry {
+            width: 100%;
+            float: left;
+            @include compact;
         }
     }
 }
@@ -175,7 +181,8 @@ div.block_default_fonts {
                     line-height: $font_line_height_hub_default_text + 4;
                 }
             }
-            & > p.date {
+            & > p.date,
+            & > h2 > span.date {
                 @include set_font($font_hub_default_date, $font_size_hub_default_date, $color_hub_entry_date);
                 @include max-screen(720px) {
                     font-size: $font_size_hub_default_date + 1;
@@ -197,6 +204,15 @@ div.block_default_fonts {
                 & i.fa {
                     color: lighten($color_hub_entry_excerpt, 40%);
                 }
+            }
+        }
+        
+        div.index_entry {
+            h2, h2 > a {
+                font-weight: normal;
+            }
+            h2 > a:hover {
+                border-bottom: 1px dotted $color_link;
             }
         }
     }

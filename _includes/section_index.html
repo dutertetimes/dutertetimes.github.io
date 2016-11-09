@@ -2,10 +2,11 @@
 Arguments:
     - todo_data - TODO items from /data directory
     - category
+    - post_image - default image to use when none is specified
 
 Example:
     {% assign todo = site.data.news_peace_process %}
-    {% include section_index.html title="Peace Process" todo_data=todo category="peace_process" %}
+    {% include section_index.html todo_data=todo category="peace_process" post_image="post_president_16_9.png" %}
 {% endcomment %}
 
 {% if site.development %}
@@ -46,25 +47,115 @@ Example:
 {% endif %}
 
 <div class="section_container_wrapper section_container_wrapper_border">
-    <h1>{{ page.title }}</h1>
-<div class="section_container container_top_margin container_bottom_margin_5">
-<div class="block block_default_fonts">
-    <div class="entries">
-    {% for post in site.categories[include.category] limit:20 %}
-        <div class="entry">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
-
-            {% if site.development %}
-            <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
-            <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
-            {% endif %}
-        </div>
-    {% else %}
-        <p class="no_entries">There are no articles.</p>
-    {% endfor %}
+<h1>{{ page.title }}</h1>
+<div class="section_container container_top_margin_10 container_bottom_margin_5">
+    {% for post in site.categories[include.category] limit:3 %}
+        {% if forloop.index < 3 %}
+    <div class="container container_right_margin_20">
+        {% else %}
+    <div class="container">
+        {% endif %}
+        {% include post_entry.html post=post post_image=include.post_image %}
     </div>
+    {% endfor %}
 </div>
 </div>
-</div>
+
+{% comment %}
+{% assign section_posts = site.categories[include.category] %}
+{% for post in section_posts limit:5 %}
+<h1>{{ section_posts[forloop.index].title }} - {{ section_posts[forloop.index].date | date: '%Y %b' }}</h1>
+{% endfor %}
+{% endcomment %}
+
+
+
+{% assign count = site.categories[include.category].size %}
+{% if count and count > 0 %}
+    {% assign section_posts = site.categories[include.category] %}
+    {% assign new_group = true %}
+
+    {% for post in section_posts %}
+
+        {% if new_group %}
+<div class="section_container_wrapper">
+    <h1>{{ section_posts[forloop.index0].date | date: '%Y %b' }}</h1>
+    <div class="section_container container_top_margin container_bottom_margin_5">
+        <div class="block block_default_fonts">
+            <div class="entries">
+            {% assign new_group = false %}
+        {% endif %}
+
+                <div class="entry index_entry">
+                    <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {% if site.development %}
+                    <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
+                    <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
+                    <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
+                    {% endif %}
+                </div>
+
+        {% unless forloop.last %}
+            {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+            {% capture nyear %}{{ section_posts[forloop.index].date | date: '%Y %b' }}{% endcapture %}
+            {% if year != nyear %}
+            </div> <!-- end of entries -->
+        </div>
+    </div>
+</div> <!-- end of section_container_wrapper -->
+                {% assign new_group = true %}
+            {% endif %}
+        {% endunless %}
+
+    {% endfor %}
+
+{% endif %}
+
+
+
+
+{% comment %}
+<h1>{{ include.category }}</h1>
+{% for post in site.categories[include.category] %}
+    {% unless post.next %}
+        {% if forloop.index > 1 %}
+            </div> <!-- end of entries -->
+        </div>
+    </div>
+</div> <!-- end of section_container_wrapper -->
+        {% endif %}
+        <h1>unless post.next</h1>
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>{{ post.date | date: '%Y %b' }}</h1>
+    <div class="section_container container_top_margin container_bottom_margin_5">
+        <div class="block block_default_fonts">
+            <div class="entries">
+    {% else %}
+        <h1>not unless post.next</h1>
+        {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
+        {% if year != nyear %}
+            <h1>year != nyear</h1>
+            {% if forloop.index > 1 %}
+            </div> <!-- end of entries -->
+        </div>
+    </div>
+</div> <!-- end of section_container_wrapper -->
+            {% endif %}
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>{{ post.date | date: '%Y %b' }}</h1>
+    <div class="section_container container_top_margin container_bottom_margin_5">
+        <div class="block block_default_fonts">
+            <div class="entries">
+        {% endif %}
+    {% endunless %}
+                <div class="entry index_entry">
+                    <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {% if site.development %}
+                    <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
+                    <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
+                    <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
+    {% endif %}
+                </div>
+{% endfor %}
+{% endcomment %}
