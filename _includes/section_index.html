@@ -54,7 +54,7 @@ Example:
         <div class="entry">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            <p class="excerpt">{{ post.excerpt }}</p>
+            <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
 
             {% if site.development %}
             <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
