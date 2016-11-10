@@ -18,6 +18,20 @@
         })();
     </script>
     <gcse:search></gcse:search>
+    
+    <script>
+      (function() {
+        var cx = '009678124006945617279:0sqfzi28scm';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:searchresults-only></gcse:searchresults-only>
+    <gcse:search queryParameterName="search_string"></gcse:search>
 {% endcomment %}
 
  <div id="home-search" class="home">
@@ -33,6 +47,6 @@
              s.parentNode.insertBefore(gcse, s);
          })();
      </script>
-     <gcse:search queryParameterName="search_string"></gcse:search>
+     <gcse:searchresults-only queryParameterName="search_string"></gcse:searchresults-only>
  </div>
  
