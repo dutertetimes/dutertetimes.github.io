@@ -40,6 +40,31 @@ permalink: /
 
 
 <div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Latest Stories</h1>
+
+    <div class="section_container container_top_margin_10 container_bottom_margin_5">
+        <div class="container container_right_margin_20">
+            {% assign postitem = site.categories.stories[0] %}
+            {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
+        </div>
+        <div class="container container_right_margin_20">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Events</h1>
 
     <div class="section_container container_top_margin_10 container_bottom_margin_5">
