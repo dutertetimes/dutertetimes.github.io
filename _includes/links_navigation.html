@@ -48,6 +48,13 @@
         </li>
         {% endif %}
     </ul>
+    
+    <div id="search">
+        <form role="search" method="get" action="{{site.baseurl}}/search/" class="style_one">
+            <input id="search_string" class="style_one" name="searchString" placeholder="" type="text">
+            <input id="search_button" class="style_one" name="googleSearchName" type="submit" value="Search">
+        </form>
+    </div>
 
     {% comment %}
     <ul>

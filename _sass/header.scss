@@ -43,6 +43,8 @@ header {
     }
     z-index: 1001;
     width: 100%;
+    // Added after the search box to fix vertical spacing
+    height: 37px;
     background-color: $color_button_bg;
 
     ul {
@@ -58,6 +60,7 @@ header {
         }
 
         padding-top: 6px;
+        //padding-bottom: 7px;
         @include max-screen(720px) {
             padding-top: 7px;
         }
