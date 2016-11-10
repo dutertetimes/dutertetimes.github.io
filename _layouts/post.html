@@ -54,6 +54,7 @@ layout: default
                 <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
             </div>
         {% else %}
+            {% unless page.image.layout == "none" %}
             <div class="image_container">
                 {% if page.image.layout == "auto_width" %}
                 <div class="image_auto_width">
@@ -64,6 +65,7 @@ layout: default
                     <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
                 </div>
             </div>
+            {% endunless %}
         {% endif %}
     {% else %}
         {% if page.video.source != nil and page.video.layout == "top" %}
