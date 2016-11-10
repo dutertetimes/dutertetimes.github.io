@@ -19,11 +19,11 @@ function show_usage {
     echo ""
     echo "Options:"
     echo "  -a              Announcement file"
-    echo "  -d, --draft     Draft news post file"
     echo "  -i, --info      Informational post file"
     echo "  -nb             News bit file"
     echo "  -n, --news      News post file"
     echo "  -o, --opinion   Opinion post file"
+    echo "  -s, --story     Story post file"
     echo "  -h, --help      Show usage"
 }
 
@@ -309,19 +309,19 @@ case $1 in
     -a )                create_announcement
                         exit
                         ;;
-    -d | --draft )      create_news_post draft
-                        exit
-                        ;;
     -i | --info )       create_info_post draft
                         exit
                         ;;
-    -nb )               create_newsbit "$2"
+    -nb | --newsbit)    create_newsbit "$2"
                         exit
                         ;;
-    -n | --news )       create_news_post
+    -n | --news )       create_news_post draft
                         exit
                         ;;
-    -o | --opinion )    create_opinion_post
+    -o | --opinion )    create_opinion_post draft
+                        exit
+                        ;;
+    -s | --story )      create_story_post draft
                         exit
                         ;;
     -h | --help )       show_usage
