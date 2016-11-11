@@ -1,15 +1,12 @@
 
 #search {
-    & > form > input {
 
-    }
-}
+    form.style_one input#search_input {
+    
+        background: #fff url('/images/search.png') no-repeat 5px 5px;
 
-#search {
-
-    form.style_one input#search_string {
         margin: 0 5px 0 30px;
-        padding: 3px 5px 4px 5px;
+        padding: 4px 5px 4px 25px;
         
         border-width: 0;
         border-style: none;
@@ -41,20 +38,10 @@
     }
     
     form.style_one input#search_button {
-        /*
-        border-width: 0;
-        border-style: none;
-        
-        border-radius: 2px;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        
-        outline: none;
-        */
+
         @include button;
         @include set_font($font_sans_thin, $font_size_default + 2, $color_text, bold);
         
-        //padding: 5px 10px 5px 10px;
         padding-top: 3px;
         padding-bottom: 4px;
         
@@ -69,4 +56,113 @@
             background-color: $color_button_text;
         }
     }
+    
+}
+
+
+
+div#tipue_search_content {
+
+    & > p {
+        font-family: $font_hub_default_title;
+        font-size: $font_size_hub_default_title;
+        line-height: $font_line_height_hub_default_title + 2;
+        @include max-screen(720px) {
+            font-size: $font_size_hub_default_title + 2;
+            line-height: $font_line_height_hub_default_title + 3;
+        }
+        color: $color_text;
+    }
+
+    #tipue_search_results_count {
+        @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
+        padding-bottom: 15px;
+    }
+
+    & > div.tipue_search_content_title {
+        margin-top: 10px;
+    }
+    & > div.tipue_search_content_title:first-of-type {
+        margin-top: 0;
+    }
+    
+    & > div.tipue_search_content_title > a {
+        @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
+        line-height: $font_line_height_hub_default_title + 2;
+        @include max-screen(720px) {
+            font-size: $font_size_hub_default_title + 2;
+            line-height: $font_line_height_hub_default_title + 3;
+        }
+        padding-bottom: 2px;
+
+        border-bottom: none;
+        &:hover {
+            color: $color_link;
+        }
+    }
+
+    & > div.tipue_search_content_text {
+        @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
+        @include max-screen(720px) {
+            font-size: $font_size_hub_default_excerpt + 1;
+        }
+        line-height: $font_line_height_hub_default_excerpt;
+        @include max-screen(720px) {
+            line-height: $font_line_height_hub_default_excerpt + 2;
+        }
+    }
+    
+    & > div.tipue_search_content_categories,
+    & > div.tipue_search_content_tags {
+        @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
+        @include max-screen(720px) {
+            font-size: $font_size_hub_default_excerpt + 1;
+        }
+        line-height: $font_line_height_hub_default_excerpt;
+        @include max-screen(720px) {
+            line-height: $font_line_height_hub_default_excerpt + 2;
+        }
+    }
+    
+    #tipue_search_foot_boxes li
+    {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        display: inline-block;
+        cursor: pointer;
+        
+        & > a,
+        &.current {
+            font-family: $font_hub_default_title;
+            font-size: $font_size_hub_default_title;
+            line-height: $font_line_height_hub_default_title + 2;
+            @include max-screen(720px) {
+                font-size: $font_size_hub_default_title + 2;
+                line-height: $font_line_height_hub_default_title + 3;
+            }
+            padding: 10px 17px 11px 17px;
+            background-color: #fff;
+            border: 1px solid #e2e2e2;
+            border-radius: 2px;
+            color: #333;
+            margin-right: 7px;
+            text-decoration: none;
+            text-align: center;
+            
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        &.current {
+            background: #f6f6f6;
+        }
+    }
+
+    #tipue_search_foot_boxes li a:hover
+    {
+         background: #f6f6f6;
+    }
+
 }
