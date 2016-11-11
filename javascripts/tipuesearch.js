@@ -12,7 +12,7 @@ http://www.tipue.com/search
      $.fn.tipuesearch = function(options) {
 
           var set = $.extend( {
-          
+
                'show'                   : 7,
                'newWindow'              : false,
                'showURL'                : true,
@@ -99,7 +99,8 @@ http://www.tipue.com/search
                }
                if (getURLP('q'))
                {
-                    $('#tipue_search_input').val(getURLP('q'));
+                    //$('#tipue_search_input').val(getURLP('q'));
+                    $('#search_input').val(getURLP('q'));
                     getTipueSearch(0, true);
                }               
                
@@ -126,7 +127,8 @@ http://www.tipue.com/search
                     var c = 0;
                     found = [];
                     
-                    var d = $('#tipue_search_input').val().toLowerCase();
+                    //var d = $('#tipue_search_input').val().toLowerCase();
+                    var d = $('#search_input').val().toLowerCase();
                     d = $.trim(d);
                     
                     if ((d.match("^\"") && d.match("\"$")) || (d.match("^'") && d.match("'$")))
@@ -266,7 +268,8 @@ http://www.tipue.com/search
                                              "score": score,
                                              "title": tipuesearch_in.pages[i].title,
                                              "desc": s_t,
-                                             "url": tipuesearch_in.pages[i].url 
+                                             "tags": tipuesearch_in.pages[i].tags,
+                                             "url": tipuesearch_in.pages[i].url
                                         });
                                         c++;                                                                   
                                    }
@@ -332,12 +335,15 @@ http://www.tipue.com/search
                                              "score": score,
                                              "title": tipuesearch_in.pages[i].title,
                                              "desc": s_t,
+                                             "tags": tipuesearch_in.pages[i].tags,
                                              "url": tipuesearch_in.pages[i].url
                                         });
-                                        c++;                                                                  
-                                   }                              
+                                        c++;
+                                   }
                               }
                          }                         
+                         
+                         // Display results
                          
                          if (c != 0)
                          {
@@ -368,8 +374,11 @@ http://www.tipue.com/search
                               for (var i = 0; i < found.length; i++)
                               {
                                    if (l_o >= start && l_o < set.show + start)
-                                   {                                   
-                                        out += '<div class="tipue_search_content_title"><a href="' + found[i].url + '"' + tipue_search_w + '>' +  found[i].title + '</a></div>';
+                                   {
+                                        var counter = i + 1;
+                                        out += '<div class="tipue_search_content_title">'
+                                            + '[' + counter + ']&nbsp;&nbsp;'
+                                            + '<a href="' + found[i].url + '"' + tipue_search_w + '>' + found[i].title + '</a></div>';
  
                                         if (set.debug)
                                         {                                             
@@ -409,6 +418,9 @@ http://www.tipue.com/search
                                              }
                                              out += '<div class="tipue_search_content_text">' + t_d + '</div>';
                                         }
+                                        
+                                        out += '<div class="tipue_search_content_tags">' + found[i].tags + '</div>';
+
                                    }
                                    l_o++;     
                               }
