@@ -2,7 +2,7 @@
     <ul>
 
         <li class="navicon dropdown">
-            <a href="#">≡</a>
+            <a accesskey="h" href="#">≡</a>
             <div class="dropdown_content">
                 <a href="/news/president/">President</a>
                 <a href="/news/press_briefings/">Press Briefings</a>
@@ -51,8 +51,7 @@
     
     <div id="search">
         <form role="search" method="get" action="{{site.baseurl}}/search/" class="style_one">
-            <input id="search_string" class="style_one" name="search_string" placeholder="" type="text">
-            <input id="search_button" class="style_one" name="googleSearchName" type="submit" value="Search">
+            <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" required>
         </form>
     </div>
 
