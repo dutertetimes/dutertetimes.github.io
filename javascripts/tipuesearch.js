@@ -90,7 +90,7 @@ http://www.tipue.com/search
                var tipue_search_w = '';
                if (set.newWindow)
                {
-                    tipue_search_w = ' target="_blank"';      
+                    tipue_search_w = ' target="_blank"';
                }
 
                function getURLP(name)
@@ -360,12 +360,12 @@ http://www.tipue.com/search
                               }
                               if (c == 1)
                               {
-                                   out += '<div id="tipue_search_results_count">' + tipuesearch_string_4 + '</div>';
+                                   out += '<div id="tipue_search_results_count">' + tipuesearch_string_4 + ' of ' + tipuesearch_in.pages.length.toString() + '</div>';
                               }
                               else
                               {
                                    c_c = c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                                   out += '<div id="tipue_search_results_count">' + c_c + ' ' + tipuesearch_string_5 + '</div>';
+                                   out += '<div id="tipue_search_results_count">' + c_c + ' ' + tipuesearch_string_5 + ' of ' + tipuesearch_in.pages.length.toString() + '</div>';
                               }
                               
                               found.sort(function(a, b) { return b.score - a.score } );
