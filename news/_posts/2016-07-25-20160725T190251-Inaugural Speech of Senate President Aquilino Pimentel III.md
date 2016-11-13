@@ -1,7 +1,7 @@
 ---
 title: Inaugural Speech of Senate President Aquilino Pimentel III
 date: 2016-07-25T19:02:51UTC
-excerpt: 
+excerpt: Transcript of the Inaugural Speech of Senate President Aquilino Pimentel III held on 25 July 2016.
 layout: post
 categories: [other, senate]
 tags: [inauguration, inaugural speech, senate president]

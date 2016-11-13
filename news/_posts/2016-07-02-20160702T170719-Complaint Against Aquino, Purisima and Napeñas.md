@@ -1,7 +1,7 @@
 ---
 title: Complaint Against Aquino, Purisima and Napeñas
 date: 2016-07-02T17:07:19PHT
-excerpt: Families of the killed Special Action Force of the Philippine National Police during police operation "Oplan Exodus" filed a complaint to the Ombudsman against former President Benigno S. Aquino III and two former PNP officials.
+excerpt: "Families of the killed Special Action Force of the Philippine National Police during police operation 'Oplan Exodus' filed a complaint to the Ombudsman against former President Benigno S. Aquino III and two former PNP officials."
 layout: post
 categories: [other]
 tags: [saf44, mamasapano, ombudsman, vacc]

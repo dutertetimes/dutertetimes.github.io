@@ -1,7 +1,7 @@
 ---
 title: Case Filed Against Aquino and Abad over DAP
 date: 2016-07-09T22:27:59PHT
-excerpt: Cause-oriented groups filed on 8 July a malversation case against former President Benigno Simeon Aquino III and former Department of Budget and Management Secretary Florencio "Butch" Abad over the unconstitutional Disbursement Acceleration Program.
+excerpt: "Cause-oriented groups filed on 8 July a malversation case against former President Benigno Simeon Aquino III and former Department of Budget and Management Secretary Florencio 'Butch' Abad over the unconstitutional Disbursement Acceleration Program."
 layout: post
 categories: [other]
 tags: [aquino, abad, malversation, dap, ombudsman]
