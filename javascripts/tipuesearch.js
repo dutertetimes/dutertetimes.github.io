@@ -21,10 +21,10 @@ http://www.tipue.com/search
                'descriptiveWords'       : 50,
                'highlightTerms'         : true,
                'highlightEveryTerm'     : false,
-               'mode'                   : 'static',
+               'mode'                   : 'json',
                'liveDescription'        : '*',
                'liveContent'            : '*',
-               'contentLocation'        : 'tipuesearch/tipuesearch_content.json',
+               'contentLocation'        : '/search.json',
                'debug'                  : false
           
           }, options);
