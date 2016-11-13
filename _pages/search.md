@@ -31,12 +31,12 @@ sitemap: false
 <script>
     $(document).ready(function() {
          $('#search_input').tipuesearch({
-               {% if site.development %}'debug': true,{% endif %}
-              'mode': 'json',
-              'contentLocation': '{{site.baseurl}}/search.json',
-              'show': 20,
-              'showURL': false,
-              'highlightTerms': false,
+                'debug': true,
+                'mode': 'json',
+                'contentLocation': '{{site.baseurl}}/search.json',
+                'show': 20,
+                'showURL': false,
+                'highlightTerms': false,
          });
     });
 </script>
