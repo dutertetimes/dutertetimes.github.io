@@ -2,9 +2,9 @@
 ---
 { "pages":
 [
-    {% for post in site.categories.news limit:20 %}
+    {% for post in site.categories.news %}
     { "title": "{{ post.title }}",
-      "text": "{{ post.excerpt | normalize_whitespace}}",
+      "text": "{{ post.excerpt | normalize_whitespace }}",
       "tags": "{{ post.tags | join: ', ' }}",
       "url": "{{ post.url | absolute_url }}" } {% unless forloop.last %},{% endunless %}
     {% endfor %}

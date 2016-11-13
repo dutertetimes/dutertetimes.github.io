@@ -9,7 +9,7 @@ http://www.tipue.com/search
 
 #tipue_search_input
 {
-     font: 13px/1.6 'open sans', sans-serif;
+    font: 13px/1.6 'open sans', sans-serif;
 	color: #333;
 	padding: 12px 12px 12px 40px;
 	width: 170px;
@@ -25,20 +25,20 @@ http://www.tipue.com/search
 
 #tipue_search_content
 {
-     max-width: 650px;
+    max-width: 650px;
 	padding-top: 15px;
 	margin: 0;
 }
 #tipue_search_warning
 {
-     font: 300 15px/1.6 'Open Sans', sans-serif;
+    font: 300 15px/1.6 'Open Sans', sans-serif;
 	color: #555;
 	margin: 7px 0;
 }
 #tipue_search_warning a
 {
-     color: #396;
-     text-decoration: none;
+    color: #396;
+    text-decoration: none;
 }
 #tipue_search_warning a:hover
 {

@@ -16,6 +16,8 @@
                 <a href="/opinion/">Opinions</a>
                 <a href="/news/peace_process/">Peace Process</a>
                 <hr>
+                <a href="/search/">Search</a>
+                <hr>
 
                 {% for item in site.data.socmed %}
                 <a href="{{ item.link }}" target="{{ item.target }}" alt="{{ item.name }}"
@@ -51,7 +53,7 @@
     
     <div id="search">
         <form role="search" method="get" action="{{site.baseurl}}/search/" class="style_one">
-            <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" required>
+            <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" title="Search string containing space must be enclosed in single or double quotes." required>
         </form>
     </div>
 

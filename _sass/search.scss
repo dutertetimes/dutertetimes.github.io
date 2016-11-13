@@ -1,67 +1,102 @@
 
-#search {
 
-    form.style_one input#search_input {
-    
-        background: #fff url('/images/search.png') no-repeat 5px 5px;
 
-        margin: 0 5px 0 30px;
-        padding: 4px 5px 4px 25px;
-        
-        border-width: 0;
-        border-style: none;
-    
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        
-        -webkit-transition: all 0.30s ease-in-out;
-        -moz-transition: all 0.30s ease-in-out;
-        -ms-transition: all 0.30s ease-in-out;
-        -o-transition: all 0.30s ease-in-out;
-        
-        border-radius: 2px;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        
-        outline: none;
-        
-        @include set_font($font_serif, $font_size_default + 4, $color_text, bold);
-        
-        &:focus {
-            //-moz-box-shadow: 0 0 8px #88D5E9;
-            //-webkit-box-shadow: 0 0 8px #88D5E9;
-            //box-shadow: 0 0 8px #88D5E9;
-            
-            //border: 1px solid #88D5E9;
+div.section_container_wrapper {
+    & > div.section_container {
+        & > div.container {
+            & > p {
+                font-family: $font_default;
+                font-size: $font_size_default + 1;
+                line-height: $font_line_height_default + 1;
+                @include max-screen(720px) {
+                }
+                color: $color_text;
+            }
         }
     }
-    
-    form.style_one input#search_button {
-
-        @include button;
-        @include set_font($font_sans_thin, $font_size_default + 2, $color_text, bold);
-        
-        padding-top: 3px;
-        padding-bottom: 4px;
-        
-        color: $color_button_text;
-        background-color: $color_button_bg;
-        border: 1px solid $color_button_text;
-        border-radius: 2px;
-        
-        &:hover {
-            font-weight: bold;
-            color: $color_button_bg;
-            background-color: $color_button_text;
-        }
-    }
-    
 }
 
+form.style_one input#search_input {
 
+    background: #fff url('/images/search.png') no-repeat 6px 6px;
+    @include set_font($font_serif, $font_size_default + 4, $color_text, bold);
+   
+    width: 300px;
+    border: 1px solid $color_box;
+    padding: 4px 5px 4px 25px;
 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    
+    //outline: none;
+    
+    &:focus {
+        //-moz-box-shadow: 0 0 8px #88D5E9;
+        //-webkit-box-shadow: 0 0 8px #88D5E9;
+        //box-shadow: 0 0 8px #88D5E9;
+        
+        //border: 1px solid #88D5E9;
+    }
+    
+    @include max-screen(720px) {
+        display: hidden;
+        background: none;
+    }
+}
+
+#nav_top > div#search {
+    & > form.style_one input#search_input {
+        margin: 0 5px 0 30px;
+        border: none;
+        border-width: 0;
+        border-style: none;
+        width: 200px;
+    }
+}
+    
+/*
+form.style_one input#search_button {
+
+    @include button;
+    @include set_font($font_sans_thin, $font_size_default + 2, $color_text, bold);
+    
+    padding-top: 3px;
+    padding-bottom: 4px;
+    
+    color: $color_button_text;
+    background-color: $color_button_bg;
+    border: 1px solid $color_button_text;
+    border-radius: 2px;
+    
+    &:hover {
+        font-weight: bold;
+        color: $color_button_bg;
+        background-color: $color_button_text;
+    }
+}
+*/
+
+#search {
+
+    @include max-screen(720px) {
+        display: hidden;
+    }
+}
+
+// Overrides tipue settings
 div#tipue_search_content {
+
+    max-width: 100%;
 
     & > p {
         font-family: $font_hub_default_title;
@@ -86,6 +121,27 @@ div#tipue_search_content {
         margin-top: 0;
     }
     
+    // Align the items for display
+    
+    & > div.tipue_search_content_title {
+        & > span {
+            display: inline-block;
+            min-width: 40px;
+            font-size: $font_size_hub_default_excerpt + 1;
+        }
+    }
+    & > div.tipue_search_content_text,
+    & > div.tipue_search_content_categories,
+    & > div.tipue_search_content_tags,
+    & > div.tipue_search_content_debug {
+        & > p {
+            // Overrides previous setting: block
+            display: inline-block;
+            margin: 0;
+            padding-left: 40px;
+        }
+    }
+    
     & > div.tipue_search_content_title > a {
         @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
         line-height: $font_line_height_hub_default_title + 2;
@@ -101,19 +157,10 @@ div#tipue_search_content {
         }
     }
 
-    & > div.tipue_search_content_text {
-        @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
-        @include max-screen(720px) {
-            font-size: $font_size_hub_default_excerpt + 1;
-        }
-        line-height: $font_line_height_hub_default_excerpt;
-        @include max-screen(720px) {
-            line-height: $font_line_height_hub_default_excerpt + 2;
-        }
-    }
-    
+    & > div.tipue_search_content_text,
     & > div.tipue_search_content_categories,
-    & > div.tipue_search_content_tags {
+    & > div.tipue_search_content_tags,
+    & > div.tipue_search_content_debug {
         @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
         @include max-screen(720px) {
             font-size: $font_size_hub_default_excerpt + 1;
