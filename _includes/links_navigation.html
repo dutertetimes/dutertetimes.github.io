@@ -51,11 +51,13 @@
         {% endif %}
     </ul>
     
+    {% unless page.title == "Search" %}
     <div id="search">
         <form role="search" method="get" action="{{site.baseurl}}/search/" class="style_one">
             <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" title="Search string containing space must be enclosed in single or double quotes." required>
         </form>
     </div>
+    {% endunless %}
 
     {% comment %}
     <ul>
