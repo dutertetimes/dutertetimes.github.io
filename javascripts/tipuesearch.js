@@ -75,15 +75,6 @@ http://www.tipue.com/search
                
                if (set.mode == 'json')
                {
-                    $.ajax({
-                        url: 'set.contentLocation',
-                        success: function(data){
-                        alert('exists');
-                        },
-                        error: function(data){
-                        alert('does not exist');
-                        },
-                    })
                     $.getJSON(set.contentLocation)
                          .done(function(json)
                          {
