@@ -31,7 +31,7 @@ sitemap: false
 <script>
     $(document).ready(function() {
          $('#search_input').tipuesearch({
-                'debug': true,
+                {% if site.development %}'debug': true,{% endif %}
                 'mode': 'json',
                 'contentLocation': '{{site.baseurl}}/search.json',
                 'show': 20,
