@@ -4,7 +4,7 @@ date: 2016-10-24T08:09:47UTC
 excerpt: The World Food Programme in partnership with the Department of Social Welfare and Development has implemented the Mechanized Production System to address one of the operational bottlenecks during a disaster response.
 layout: post
 categories: [other, social welfare and development]
-tags: [Mechanized Production System, food packs, disaster relief, world food programme, wfp, social welfare and development, dswd]
+tags: [mechanized production system, food packs, disaster relief, world food programme, wfp, social welfare and development, dswd]
 published: true
 permalink: /news/20161024T080947
 image:
