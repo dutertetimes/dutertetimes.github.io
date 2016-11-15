@@ -18,7 +18,7 @@ Example:
 
 <div class="block block_default_fonts">
     <h1>{{ include.title }}</h1>
-    <div class="links headline_links">
+    <div class="links">
         {% for i in (1..post_count) %}
         <span class="{{ include.category | replace: ' ', '_' | downcase }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide({{ i | minus: 1 }})"></span>
         {% endfor %}
