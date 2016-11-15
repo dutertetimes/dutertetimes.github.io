@@ -52,9 +52,9 @@ div.image_container,
 div.section_container {
     float: left;
     float: clear;
-    width: 100%;
 
     @include min-screen(1024px + 1px) {
+        width: 100%;
         margin-bottom: 0;
         display: flex;
         flex-direction: row;
@@ -62,6 +62,7 @@ div.section_container {
 
     div.container {
 
+        /*
         @include max-screen(1024px) {
             width: 100%;
         }
@@ -71,6 +72,11 @@ div.section_container {
             display: flex;
             flex-direction: column;
         }
+        */
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
 
         & > img {
             display: block;
@@ -91,7 +97,6 @@ div.section_container {
     div.container_bottom_border_thin {
         @include min-screen(1024px + 1px) {
             border-bottom: 1px solid $color_primary;
-            //padding-bottom: 10px;
         }
     }
 
@@ -106,6 +111,12 @@ div.container_top_margin {
     margin-top: 20px;
 }
 
+div.container_no_top_margin_mobile {
+    @include max-screen(720px) {
+        margin-top: 0;
+    }
+}
+
 div.container_bottom_margin_5 {
     @include min-screen(1024px + 1px) {
         padding-bottom: 5px;
@@ -117,6 +128,10 @@ div.container_bottom_margin_5 {
 
 div.container_bottom_margin_10 {
     padding-bottom: 10px;
+}
+
+div.container_right_margin_10 {
+    margin-right: 10px;
 }
 
 div.container_right_margin_20 {

@@ -28,30 +28,31 @@ Example:
         {% for post in include.posts limit:7 %}
 
         <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
-            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-
-            {% if site.development %}
+            {% if site.debug %}
                 {% if post.image.source %}
-            <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+            <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                 {% else %}
                     {% if post.video.source %}
-            <img src="/images/offline/thumbnail_video.png" class="video_thumbnail video_thumbnail_right img_style_rounded"/>
+            <img src="/images/offline/thumbnail_video.png" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
                     {% else %}
-            <img src="/images/offline/thumbnail_twitter_card.png"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+            <img src="/images/offline/thumbnail_twitter_card.png"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% else %}
                 {% if post.image.source %}
-            <img src="{{ site.image_source }}{{ post.image.source }}"  class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+            <img src="{{ site.image_source }}{{ post.image.source }}"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                 {% else %}
                     {% if post.video.source %}
-            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right img_style_rounded"/>
+            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
                     {% else %}
-            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right img_style_rounded"/>
+            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% endif %}
+
+            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+
 
             <p class="excerpt">
                 {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
