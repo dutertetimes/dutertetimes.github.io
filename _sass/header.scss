@@ -45,6 +45,9 @@ header {
     width: 100%;
     // Added after the search box to fix vertical spacing
     height: 37px;
+    @include max-screen(720px) {
+        //height: 39px;
+    }
     background-color: $color_button_bg;
 
     ul {
@@ -59,11 +62,7 @@ header {
             background-color: $color_button_bg;
         }
 
-        padding-top: 6px;
-        //padding-bottom: 7px;
-        @include max-screen(720px) {
-            padding-top: 7px;
-        }
+        padding-top: 4px;
         padding-left: 6px;
 
         li {
@@ -75,54 +74,53 @@ header {
             @include max-screen(720px) {
                 margin-bottom: 4px;
             }
+            
+            a {
+                padding: 7px 11px 6px 11px;
+                @include max-screen(720px) {
+                    padding-top: 8px;
+                }
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $color_button_text;
+            }
+            
+            & > span:hover,
+            & a:hover:not(.active) {
+                color: $color_button_hover_text;
+                background-color: $color_button_hover_bg;
+                border: none;
+                border-radius: $border_radius;
+            }
         }
 
-        li.dropdown > span,
+        //li.dropdown > span,
         li a {
-            @include compact;
             font-family: $font_nav;
             font-size: $font_size_nav + 1;
             font-weight: bold;
             text-align: center;
-            text-decoration: none;
-            text-transform: uppercase;
+            
             letter-spacing: 0.5px;
-            color: $color_button_text;
             display: inline-block;
 
-            padding: 7px 10px 6px 10px;
-
             border: none;
-            transition: background-color 0.1s ease;
             i.fa-angle-down {
                 font-weight: bold;
             }
             cursor: pointer;
         }
-
-        li.title {
-            a {
-                font-family: $font_site_title;
-                font-size: $font_size_site_title;
-                @include max-screen(720px) {
-                    font-size: $font_size_site_title + 1;
-                }
+        
+        li > a {
+            font-family: $font_site_title;
+            font-size: $font_size_site_title;
+            @include max-screen(720px) {
+                font-size: $font_size_site_title + 1;
             }
         }
-
-        li.navicon {
-            a {
-                font-size: $font_size_site_title + 4;
-            }
-            margin-right: 5px;
-        }
-
-        li > span:hover,
-        li a:hover:not(.active) {
-            color: $color_button_hover_text;
-            background-color: $color_button_hover_bg;
-            border: none;
-            border-radius: $border_radius;
+        
+        li.navicon > a {
+            font-size: $font_size_site_title + 4;
         }
 
         // Dropdown menu
@@ -143,10 +141,13 @@ header {
 
             a {
                 margin: 0 7px 0 7px;
-                padding: 8px 11px 6px 11px;
-                color: $color_button_text;
+                //padding: 8px 11px 6px 11px;
+                @include max-screen(720px) {
+                    padding-top: 10px;
+                    padding-bottom: 8px;
+                }
+                
                 font-size: $font_size_nav;
-                text-transform: uppercase;
                 text-align: left;
                 white-space: nowrap;
                 display: block;
@@ -156,12 +157,6 @@ header {
                 }
                 &:last-child {
                     margin-bottom: 7px;
-                }
-
-                &:hover {
-                    color: $color_button_hover_text;
-                    background-color: $color_button_hover_bg;
-                    border: none;
                 }
             }
 
@@ -176,7 +171,7 @@ header {
             display: block;
         }
 
-        li.dropdown:hover span,
+        //li.dropdown:hover span,
         li.dropdown:hover a.dropdown_link {
             border-radius: $border_radius;
         }
