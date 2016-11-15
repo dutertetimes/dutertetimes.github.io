@@ -144,6 +144,8 @@ header {
 
             a {
                 margin: 0 7px 0 7px;
+                // This is 1+ the padding-top setting above
+                padding-top: 7px;
                 @include max-screen(720px) {
                     padding-top: 10px;
                     padding-bottom: 9px;
