@@ -1,5 +1,8 @@
 development: true
 
+author:
+  dev_icon: dutertetimes_local.png
+
 
 
 collections:

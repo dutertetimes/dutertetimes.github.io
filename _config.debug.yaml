@@ -1,2 +1,5 @@
 development: true
 debug: true
+
+author:
+  dev_icon: dutertetimes_local.png
