@@ -62,7 +62,10 @@ header {
             background-color: $color_button_bg;
         }
 
-        padding-top: 4px;
+        padding-top: 5px;
+        @include max-screen(720px) {
+            padding-top: 4px;
+        }
         padding-left: 6px;
 
         li {
@@ -77,6 +80,7 @@ header {
             
             a {
                 padding: 7px 11px 6px 11px;
+                padding: 6px 11px 5px 11px;
                 @include max-screen(720px) {
                     padding-top: 8px;
                 }
@@ -94,7 +98,6 @@ header {
             }
         }
 
-        //li.dropdown > span,
         li a {
             font-family: $font_nav;
             font-size: $font_size_nav + 1;
@@ -141,10 +144,9 @@ header {
 
             a {
                 margin: 0 7px 0 7px;
-                //padding: 8px 11px 6px 11px;
                 @include max-screen(720px) {
                     padding-top: 10px;
-                    padding-bottom: 8px;
+                    padding-bottom: 9px;
                 }
                 
                 font-size: $font_size_nav;
@@ -171,7 +173,6 @@ header {
             display: block;
         }
 
-        //li.dropdown:hover span,
         li.dropdown:hover a.dropdown_link {
             border-radius: $border_radius;
         }
