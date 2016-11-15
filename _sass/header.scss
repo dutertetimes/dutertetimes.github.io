@@ -90,7 +90,7 @@ header {
             color: $color_button_text;
             display: inline-block;
 
-            padding: 7px 5px 6px 5px;
+            padding: 7px 10px 6px 10px;
 
             border: none;
             transition: background-color 0.1s ease;
@@ -114,6 +114,7 @@ header {
             a {
                 font-size: $font_size_site_title + 4;
             }
+            margin-right: 5px;
         }
 
         li > span:hover,
