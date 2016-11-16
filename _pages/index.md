@@ -64,6 +64,7 @@ permalink: /
 
 
 
+{% comment %}
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Events</h1>
 
@@ -117,6 +118,7 @@ permalink: /
     {% endcomment %}
 
 </div>
+{% endcomment %}
 
 
 
@@ -124,11 +126,11 @@ permalink: /
     <h1>Topics</h1>
 
     <div class="section_container container_top_margin">
-        <div class="container container_right_margin_10">
+        <div class="container container_right_margin_20">
             {% assign section_posts = site.categories.opinion %}
             {% include section_slideshow.html title="Opinion" category="Opinion" posts=section_posts post_image="post_opinion_16_9.png" %}
         </div>
-        <div class="container container_right_margin_10">
+        <div class="container container_right_margin_20">
             {% assign section_posts = site.categories.peace_process %}
             {% include section_slideshow.html title="Peace Process" category="Peace Process" posts=section_posts post_image="post_peace_16_9.png" %}
         </div>
@@ -143,11 +145,11 @@ permalink: /
     <h1>Events</h1>
 
     <div class="section_container container_top_margin">
-        <div class="container container_right_margin_10 container_bottom_border_thin">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.president %}
             {% include section_slideshow.html title="President" category="President" posts=section_posts post_image="post_president_16_9.png" %}
         </div>
-        <div class="container container_right_margin_10 container_bottom_border_thin">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.press_briefing %}
             {% include section_slideshow.html title="Press Briefing" category="Press Briefing" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
@@ -158,11 +160,11 @@ permalink: /
     </div>
 
     <div class="section_container container_top_margin container_no_top_margin_mobile">
-        <div class="container container_right_margin_10 container_bottom_border_thin">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.criminality %}
             {% include section_slideshow.html title="Law and Order" category="Law and Order" posts=section_posts post_image="post_crime_16_9.png" %}
         </div>
-        <div class="container container_right_margin_10 container_bottom_border_thin">
+        <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.agrarian %}
             {% include section_slideshow.html title="Agrarian" category="Agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
         </div>
@@ -173,11 +175,11 @@ permalink: /
     </div>
 
     <div class="section_container container_top_margin container_no_top_margin_mobile">
-        <div class="container container_right_margin_10">
+        <div class="container container_right_margin_20">
             {% assign section_posts = site.categories.foreign_affairs %}
             {% include section_slideshow.html title="Foreign Affairs" category="Foreign Affairs" posts=section_posts post_image="post_foreign_16_9.png" %}
         </div>
-        <div class="container container_right_margin_10">
+        <div class="container container_right_margin_20">
             {% assign section_posts = site.categories.other %}
             {% include section_slideshow.html title="Other" category="Other" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
