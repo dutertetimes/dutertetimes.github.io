@@ -11,9 +11,10 @@ Example:
 {% assign posts = "" | split: "" %}
 {% endcomment %}
 
+{% assign max_post_count = 6 %}
 {% assign post_count = include.posts.size %}
-{% if post_count > 7 %}
-    {% assign post_count = 7 %}
+{% if post_count > max_post_count %}
+    {% assign post_count = max_post_count %}
 {% endif %}
 
 <div class="block block_default_fonts">
@@ -25,7 +26,7 @@ Example:
     </div>
     <div class="entries">
 
-        {% for post in include.posts limit:7 %}
+        {% for post in include.posts limit:max_post_count %}
 
         <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
             {% if site.debug %}
