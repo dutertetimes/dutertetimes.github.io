@@ -57,7 +57,7 @@
         h3 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; }
         h4 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; font-style: italic; }
         h5 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-        h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; font-style: italic; }
+        h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 4; font-style: italic; }
 
         h1 code { font-size: $font_size_page_title - 0; }
         h2 code { font-size: $font_size_page_title - 0; }
@@ -116,6 +116,8 @@
         font-style: italic;
     }
     h6 {
+        @include compact;
+        text-align: center;
         font-style: normal;
     }
 }

@@ -59,6 +59,9 @@ section.post_column_main {
     }
 
     @include common_heading;
+    h6 + p {
+        margin-top: 20px;
+    }
 
 
 
