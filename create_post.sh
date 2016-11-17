@@ -183,6 +183,13 @@ function create_opinion_post {
 }
 
 function create_info_post {
+
+    sha1=$(echo $current_iso8601 | sha1sum | awk '{print $1}')
+    filename="$sha1".md
+    
+    # echo "$sha1"
+    # echo "$filename"
+    
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -192,10 +199,8 @@ function create_info_post {
         add_default "Info Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "datestart:  $current_date" >> $filename
-        echo "dateend:    $current_date" >> $filename
-        echo "categories: [org | company | people | law | places | doc]" >> $filename
-        echo "tags: " >> $filename
+        echo "categories: [gov | law | company | org | people | place | doc | others]" >> $filename
+        echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
         fi
@@ -204,8 +209,8 @@ function create_info_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "permalink: /info/.../$current_short" >> $filename
-        echo "link: /info/.../$current_short" >> $filename
+        echo "permalink: /info/.../$sha1" >> $filename
+        echo "link: /info/.../$sha1" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
