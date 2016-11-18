@@ -10,11 +10,12 @@
     },
     {
         "name":         "President",
+        "abbr":         "",
         "description":  "The Executive branch is composed of the President and the Vice President who are elected by direct popular vote and serve a term of six years. The Constitution grants the President authority to appoint his Cabinet. These departments form a large portion of the country’s bureaucracy.",
         "described":    "yes",
         "branch":       "executive",
         "scope":        "top",
-        "head":         "",
+        "head":         "Rodrigo Roa Duterte",
         "link":         [
                             { "label": "Official Site", "url": "http://www.president.gov.ph/" },
                             { "label": "Facebook", "url": "http://facebook.com/govph" },
@@ -22,212 +23,427 @@
     },
     {
         "name":         "Vice President",
-        "description":  "",
+        "abbr":         "Office of the Vice President",
+        "description":  "OVP",
         "branch":       "executive",
         "scope":        "top",
-        "head":         "",
+        "head":         "Maria Leonor Gerona Robredo",
         "link":         [
                             { "label": "Official Site", "url": "http://www.ovp.gov.ph/" },
                         ]
     },
+
+
+
     {
-        "name":         "Interior and Local Government",
+        "name":         "Executive Secretary",
+        "abbr":         "ES",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Salvador Campo Medialdea",
         "link":         [
-                            { "label": "Official Site", "url": "http://www.dilg.gov.ph/" },
+                            { "label": "Official Site", "url": "http://president.gov.ph/" },
                         ]
     },
     {
-        "name":         "Trade and Industry",
+        "name":         "Office of the Presidential Spokesperson",
+        "abbr":         "OPS",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Ernesto Corpuz Abella",
         "link":         [
-                            { "label": "Official Site", "url": "http://www.dti.gov.ph/" },
+                            { "label": "Official Site", "url": "" },
                         ]
     },
     {
-        "name":         "Finance",
+        "name":         "Department of Agrarian Reform",
+        "abbr":         "DAR",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.dof.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Health",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.doh.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Education",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.deped.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Science and Technology",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.dost.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Agriculture",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "Emmanuel Piñol",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.da.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Agrarian Reform",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "Rafael Mariano",
+        "scope":        "cabinet",
+        "head":         "Rafael Vitriolo Mariano",
+        "notes":        "To view all news, use non-existent link or this [url](http://www.dar.gov.ph/missing-link).",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dar.gov.ph/" },
                         ]
     },
     {
-        "name":         "Budget and Management",
+        "name":         "Department of Agriculture",
+        "abbr":         "DA",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Emmanuel Fantin Piñol",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.da.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Budget and Management",
+        "abbr":         "DBM",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Benjamin Estoista Diokno",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dbm.gov.ph/" },
                         ]
     },
     {
-        "name":         "Environment and Natural Resources",
+        "name":         "Department of Education",
+        "abbr":         "DepEd",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "Gina Lopez",
+        "scope":        "cabinet",
+        "head":         "Leonor Magtolis Briones",
         "link":         [
-                            { "label": "Official Site", "url": "http://www.denr.gov.ph/" },
+                            { "label": "Official Site", "url": "http://www.deped.gov.ph/" },
                         ]
     },
     {
-        "name":         "Labor and Employment",
+        "name":         "Department of Energy",
+        "abbr":         "DOE",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.dole.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Foreign Affairs",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
-        "link":         [
-                            { "label": "Official Site", "url": "http://www.dfa.gov.ph/" },
-                        ]
-    },
-    {
-        "name":         "Energy",
-        "description":  "",
-        "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Alfonso Gaba Cusi",
         "link":         [
                             { "label": "Official Site", "url": "http://www.doe.gov.ph/" },
                         ]
     },
     {
-        "name":         "Information and Communications Technology",
+        "name":         "Department of Environment and Natural Resources",
+        "abbr":         "DENR",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Regina Paz La'O Lopez",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.denr.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Finance",
+        "abbr":         "DOF",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Carlos Garcia Dominguez III",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dof.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Foreign Affairs",
+        "abbr":         "DFA",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Perfecto Rivas Yasay Jr.",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dfa.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Health",
+        "abbr":         "DOH",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Paulyn Jean B. Rosell-Ubial",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.doh.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Information and Communications Technology",
+        "abbr":         "DICT",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Rodolfo Agapay Salalima",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dict.gov.ph/" },
                         ]
     },
     {
-        "name":         "Justice",
+        "name":         "Department of the Interior and Local Government",
+        "abbr":         "DILG",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Ismael Dres Sueño",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dilg.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Justice",
+        "abbr":         "DOJ",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Vitaliano Napeñas Aguirre II",
         "link":         [
                             { "label": "Official Site", "url": "http://www.doj.gov.ph/" },
                         ]
     },
     {
-        "name":         "National Defense",
+        "name":         "Department of Labor and Employment",
+        "abbr":         "DOLE",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Silvestre Bello III",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dole.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of National Defense",
+        "abbr":         "DND",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Delfin Negrillo Lorenzana",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dnd.gov.ph/" },
                         ]
     },
     {
-        "name":         "Public Works and Highways",
+        "name":         "Department of Public Works and Highways",
+        "abbr":         "DPWH",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Mark Aguilar Villar",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dpwh.gov.ph/" },
                         ]
     },
     {
-        "name":         "Transportation",
+        "name":         "Department of Science and Technology",
+        "abbr":         "DOST",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Fortunato Tanseco de la Peña",
         "link":         [
-                            { "label": "Official Site", "url": "http://www.dotc.gov.ph/" },
+                            { "label": "Official Site", "url": "http://www.dost.gov.ph/" },
                         ]
     },
     {
-        "name":         "Social Welfare and Development",
+        "name":         "Department of Social Welfare and Development",
+        "abbr":         "DSWD",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Judy Marigomen Taguiwalo",
         "link":         [
                             { "label": "Official Site", "url": "http://www.dswd.gov.ph/" },
                         ]
     },
     {
-        "name":         "Tourism",
+        "name":         "Department of Tourism",
+        "abbr":         "DOT",
         "description":  "",
         "branch":       "executive",
-        "scope":        "department",
-        "head":         "",
+        "scope":        "cabinet",
+        "head":         "Wanda Corazon Teshiba Tulfo-Teo",
         "link":         [
                             { "label": "Official Site", "url": "http://www.tourism.gov.ph/pages/default.aspx" },
+                        ]
+    },
+    {
+        "name":         "Department of Trade and Industry",
+        "abbr":         "DTI",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Ramon Lopez",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dti.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Department of Transportation",
+        "abbr":         "DOTr",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Arthur Planta Tugade",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.dotc.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Commission on Higher Education",
+        "abbr":         "CHED",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "cabinet",
+        "head":         "Patricia Licuanan",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.ched.gov.ph/" },
+                        ]
+    },
+
+
+
+    {
+        "name":         "Housing and Urban Development Coordinating Council",
+        "abbr":         "HUDCC",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Maria Leonor Gerona Robredo",
+        "link":         [
+                            { "label": "Official Site", "url": "http://hudcc.net/" },
+                        ]
+    },
+    {
+        "name":         "National Economic and Development Authority",
+        "abbr":         "NEDA",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Ernesto del Mar Pernia",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.neda.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Presidential Communications Office",
+        "abbr":         "PCO",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Martin Andanar",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
+                        ]
+    },
+    {
+        "name":         "National Security Council",
+        "abbr":         "NSC",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Hermogenes Cendaña Esperon, Jr.",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.nsc.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Cabinet Secretary",
+        "abbr":         "OCS",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Leoncio Badilla Evasco Jr.",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
+                        ]
+    },
+    {
+        "name":         "Head of the Presidential Management Staff",
+        "abbr":         "PMS",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Christopher Lawrence Tesoro Go",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
+                        ]
+    },
+    {
+        "name":         "Chief Presidential Legal Counsel",
+        "abbr":         "OCPLC",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Salvador San Buenaventura Panelo",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
+                        ]
+    },
+    {
+        "name":         "Metropolitan Manila Development Authority",
+        "abbr":         "MMDA",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Thomas Muñoz Orbos",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.mmda.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "National Commission on Muslim Filipinos",
+        "abbr":         "NCMF",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Yasmin Busran-Lao",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.ncmf.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Commission on Filipinos Overseas",
+        "abbr":         "CFO",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Imelda M. Nicolas",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.cfo.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Mindanao Development Authority",
+        "abbr":         "MinDA",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Datu Abul Khayr Dangcal Alonto",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.minda.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "National Anti-Poverty Commission",
+        "abbr":         "NAPC",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Liza Maza",
+        "link":         [
+                            { "label": "Official Site", "url": "http://www.napc.gov.ph/" },
+                        ]
+    },
+    {
+        "name":         "Office of the Presidential Adviser on the Peace Process",
+        "abbr":         "OPAPP",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Jesus Gestuveo Dureza",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
+                        ]
+    },
+    {
+        "name":         "Presidential Legislative Liaison Office",
+        "abbr":         "PLLO",
+        "description":  "",
+        "branch":       "executive",
+        "scope":        "non-cabinet",
+        "head":         "Antonio A. Gallardo",
+        "link":         [
+                            { "label": "Official Site", "url": "" },
                         ]
     },
     
@@ -235,6 +451,7 @@
     
     {
         "name":         "Senate",
+        "abbr":         "",
         "description":  "The Legislative branch is authorized to make laws, alter, and repeal them through the power vested in the Philippine Congress. This institution is divided into the Senate and the House of Representatives.",
         "described":    "yes",
         "branch":       "legislative",
@@ -246,6 +463,7 @@
     },
     {
         "name":         "House of Representatives",
+        "abbr":         "",
         "description":  "",
         "branch":       "legislative",
         "scope":        "top",
@@ -259,6 +477,7 @@
     
     {
         "name":         "Supreme Court",
+        "abbr":         "SC",
         "description":  "The Judicial branch holds the power to settle controversies involving rights that are legally demandable and enforceable. This branch determines whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part and instrumentality of the government. It is made up of a Supreme Court and lower courts. The Constitution expressly grants the Supreme Court the power of Judicial Review as the power to declare a treaty, international or executive agreement, law, presidential decree, proclamation, order, instruction, ordinance or regulation unconstitutional.",
         "described":    "yes",
         "branch":       "judiciary",
@@ -270,6 +489,7 @@
     },
     {
         "name":         "Court of Appeals",
+        "abbr":         "",
         "description":  "",
         "branch":       "judiciary",
         "scope":        "top",
@@ -280,6 +500,7 @@
     },
     {
         "name":         "Sandiganbayan",
+        "abbr":         "",
         "description":  "",
         "branch":       "judiciary",
         "scope":        "top",
@@ -293,6 +514,7 @@
     
     {
         "name":         "Civil Service Commission",
+        "abbr":         "CSC",
         "description":  "",
         "branch":       "commissions",
         "scope":        "top",
@@ -302,6 +524,7 @@
     },
     {
         "name":         "Commission on Elections",
+        "abbr":         "Comelec",
         "description":  "",
         "branch":       "commissions",
         "scope":        "top",
@@ -311,6 +534,7 @@
     },
     {
         "name":         "Commission on Audit",
+        "abbr":         "COA",
         "description":  "",
         "branch":       "commissions",
         "scope":        "top",
@@ -323,6 +547,7 @@
     
     {
         "name":         "Office of the Ombudsman",
+        "abbr":         "",
         "description":  "",
         "branch":       "ombudsman",
         "scope":        "top",

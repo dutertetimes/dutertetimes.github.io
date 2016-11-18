@@ -1,0 +1,31 @@
+{% comment %}
+Argument(s):
+    - entry - JSON item from /data/gov.json
+{% endcomment %}
+
+<div class="entry">
+    {% if include.entry.link[0].url %}
+    <h2><a href="{{ include.entry.link[0].url }}">{{ include.entry.name }}</a></h2>
+    {% else %}
+    <h2>{{ entry.name }}</h2>
+    {% endif %}
+
+    {% if include.entry.head %}
+    <p class="excerpt">{{ include.entry.head }}</p>
+    {% endif %}
+
+    <ul>
+    {% if include.entry.link.size and include.entry.link.size > 1 %}
+        {% for linkitem in include.entry.link offset: 1%}
+        <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.label }}</a></li>
+        {% endfor %}
+    {% endif %}
+    </ul>
+    
+    
+    {% if site.development %}
+        {% if include.entry.development %}
+    <p class="excerpt">{{ include.entry.notes }}</p>
+        {% endif %}
+    {% endif %}
+</div>

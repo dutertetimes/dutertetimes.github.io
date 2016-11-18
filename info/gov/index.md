@@ -34,25 +34,11 @@ published: true
         <div class="block block_default_fonts">
             <div class="entries">
                 <div class="entry">
-                    <h2>{{ branch.branch | capitalize }}</h2>
+                    <h2><a href="/info/gov/{{ branch.branch }}/">{{ branch.branch | capitalize }}</a></h2>
                     <p>{{ branch.description }}</p>
                 </div>
             </div>
         </div>
     </div>
     {% endfor %}
-</div>
-
-<div class="section_container">
-    <div class="container container_right_margin_20">
-        {% include gov_list.html branch="executive" branch_name="Executive" %}
-    </div>
-
-    <div class="container container_right_margin_20">
-        {% include gov_list.html branch="legislative" branch_name="Legislative" %}
-    </div>
-
-    <div class="container">
-        {% include gov_list.html branch="judiciary" branch_name="Judiciary" %}
-    </div>
 </div>
