@@ -24,7 +24,9 @@ President Rodrigo Roa Duterte reported to the public the fruits of his State Vis
 
 ###### PRESIDENT RODRIGO ROA DUTERTE'S ARRIVAL STATEMENT
 
-###### AFTER HIS OFFICIAL VISITS TO BRUNEI DARUSSALAM AND THE PEOPLE'S REPUBLIC OF CHINA
+###### AFTER HIS OFFICIAL VISITS TO BRUNEI DARUSSALAM
+
+###### AND THE PEOPLE'S REPUBLIC OF CHINA
 
 ###### Davao International Airport, Davao City 
 
