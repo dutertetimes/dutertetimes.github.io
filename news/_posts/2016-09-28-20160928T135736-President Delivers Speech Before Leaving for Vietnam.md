@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-BEFORE HIS OFFICIAL VISIT TO THE SOCIALIST REPUBLIC OF VIETNAM<br/>
-Ninoy Aquino International Airport, Terminal 2, Pasay City<br/>
-SEPTEMBER 28, 2016<br/>
+###### DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### BEFORE HIS OFFICIAL VISIT TO THE SOCIALIST REPUBLIC OF VIETNAM
+
+###### Ninoy Aquino International Airport, Terminal 2, Pasay City
+
+###### September 28, 2016
 
 Hintay kayo, naghahanap ako ng maganda. Do not be in a hurry.
 

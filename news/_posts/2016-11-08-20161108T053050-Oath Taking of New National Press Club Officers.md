@@ -20,10 +20,13 @@ sources:
     link: http://rtvm.gov.ph/main/?p=43974
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING THE OATHTAKING OF THE NEWLY APPOINTED OFFICERS OF THE NATIONAL PRESS CLUB (NPC)<br/>
-Malacañang<br/>
-November 7,2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE OATHTAKING OF THE NEWLY APPOINTED OFFICERS OF THE NATIONAL PRESS CLUB (NPC)
+
+###### Malacañang
+
+###### November 7,2016
 
 Masama namang pagdating ko dito, mag-take oath kaagad. So maybe, you'd want a word or two, and it should be about freedom of the press. Dito sa atin, it's thriving, its working and I would say that itong Philippine press maybe, on a level equal to the United States in being free and independent, no pressure. Ang problema lang dito is iyong continued killings of media people, of course, by itself, this is fundamentally hideous and wrong. But sa experience ko naman kasi, there are others really who would sow, indicate something more insidious than just, iyong galit sa ano—there could be something more to it actually. Usually niyan, iyong—hindi naman lahat, but there are really exceptions, for example, like extortion and reneging on what you promised to right or talked about; or outright, iyong perfidy. Iyon may nakita ako na noon, nag-ano ako, nag-iimbestiga ako kung bakit. But pati ako niyan, binibintangan pa. You know, I became popular as Mayor because of the attacks made on me particularly itong law and order.
  

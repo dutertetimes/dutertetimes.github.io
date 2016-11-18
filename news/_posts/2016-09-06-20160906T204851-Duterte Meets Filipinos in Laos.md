@@ -20,11 +20,15 @@ sources:
    link:
 ---
 
-PRESIDENT RODRIGO ROA DUTERTE'S SPEECH
-DURING A MEETING WITH THE FILIPINO COMMUNITY
-Feungfar Convention Hall, Ban Phonsinuane
-Vientianne, Laos
-September 5, 2016
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING A MEETING WITH THE FILIPINO COMMUNITY
+
+###### Feungfar Convention Hall, Ban Phonsinuane
+
+###### Vientianne, Laos
+
+###### September 5, 2016
 
 
 (applause/crowd cheering, shouting: Duterte! Duterte!) 

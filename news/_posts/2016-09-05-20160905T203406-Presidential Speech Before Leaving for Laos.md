@@ -20,12 +20,11 @@ sources:
     link: http://www.gov.ph/2016/09/05/departure-speech-of-president-rodrigo-roa-duterte-sept-5-2016/
 ---
 
-Presidential Communications Office 
-Presidential News Desk 
+##### DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+ 
+##### Davao International Airport
 
-DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE 
-Davao International Airport
-05 September 2016
+##### 05 September 2016
 
 Lahat man kayo nakabarong.
 

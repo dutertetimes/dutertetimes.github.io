@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING HIS TALK TO THE MARINES<br/>
-Acero Hall, PMC Headquarters, Fort Bonifacio, Taguig City<br/>
-September 27, 2017<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING HIS TALK TO THE MARINES
+
+###### Acero Hall, PMC Headquarters, Fort Bonifacio, Taguig City
+
+###### September 27, 2017
 
 Salamat po.
 

@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-UPON RETURN FROM HIS OFFICIAL VISIT TO VIETNAM<br/>
-Davao International Airport, Davao<br/>
-SEPTEMBER 30, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### UPON RETURN FROM HIS OFFICIAL VISIT TO VIETNAM
+
+###### Davao International Airport, Davao
+
+###### September 30, 2016
 
 Colleagues in the government; mga kababayan: Good morning.
 

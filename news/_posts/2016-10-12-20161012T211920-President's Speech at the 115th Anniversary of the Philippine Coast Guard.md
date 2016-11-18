@@ -23,11 +23,15 @@ sources:
 President Rodrigo Roa Duterte led the 115th anniversary celebration of the Philippine Coast Guard (PCG) where he formally commissioned the MRRV Tubbataha at the PCG Headquarters in Port Area, Manila on 13 October 2016.
 The President was accompanied to the event by Special Assistant to the President (SAP) Mr. Christopher 'Bong' Go and Commandant of the PCG, Rear Admiral (RADM) William Melad.
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING THE 115THANNIVERSARY OF PHILIPPINE COAST GUARD<br/>
-AND COMMISSIONING OF BRP TUBBATAHA<br/>
-Philippine Coast Guard Headquarters, Port Area, Manila<br/>
-October 12, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE 115TH ANNIVERSARY OF PHILIPPINE COAST GUARD
+
+###### AND COMMISSIONING OF BRP TUBBATAHA
+
+###### Philippine Coast Guard Headquarters, Port Area, Manila
+
+###### October 12, 2016
 
 Thank you. Kindly sit down.
 

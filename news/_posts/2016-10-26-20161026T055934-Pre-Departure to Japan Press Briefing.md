@@ -20,11 +20,13 @@ sources:
     link: http://rtvm.gov.ph/main/?p=43623
 ---
 
-PRESS CONFERENCE OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING THE DEPARTURE CEREMONY <br/>
-FOR A THREE-DAY WORKING VISIT TO JAPAN <br/>
-Terminal II, Ninoy Aquino International Airport, Pasay City<br/>
-October 25, 2016<br/>
+###### PRESS CONFERENCE OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE DEPARTURE CEREMONY FOR A THREE-DAY WORKING VISIT TO JAPAN
+
+###### Terminal II, Ninoy Aquino International Airport, Pasay City
+
+###### October 25, 2016
 
 Executive Secretary Salvador Medialdea; members of the Cabinet present here, General Ricardo Visaya and the Major Service Commanders; General Manager Eddie Monreal; Congresswoman Imelda Calixto-Rubiano; Mayor Antonio Calixto; fellow workers in  government; my beloved countrymen: 
 

@@ -20,11 +20,15 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE</br>
-DURING THE LAUNCHING OF THE</br>
-PILIPINONG MAY PUSO FOUNDATION, INC.</br>
-Garden Pavilion, Waterfront Hotel, Davao City</br>
-November 11, 2016</br>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE LAUNCHING OF THE
+
+###### PILIPINONG MAY PUSO FOUNDATION, INC.
+
+###### Garden Pavilion, Waterfront Hotel, Davao City
+
+###### November 11, 2016
 
 Ms. Rowena Velasco; and of course, the man who honored the memory of my mother, Mr. Ramon Ang; members of congress; honored guests; ladies and gentlemen.
 

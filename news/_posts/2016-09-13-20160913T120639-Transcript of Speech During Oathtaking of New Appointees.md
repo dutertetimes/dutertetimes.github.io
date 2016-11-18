@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING THE OATH TAKING OF NEWLY APPOINTED OFFICIALS<br/>
-Heroes Hall, Malacañang<br/>
-September 12, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE OATH TAKING OF NEWLY APPOINTED OFFICIALS
+
+###### Heroes Hall, Malacañang
+
+###### September 12, 2016
 
 You know, you are now entering into the service of the government and there are a few things you must understand why it works this way and not that way. 
 

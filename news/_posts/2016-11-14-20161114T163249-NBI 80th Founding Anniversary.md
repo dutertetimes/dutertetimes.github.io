@@ -20,11 +20,15 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE</br>
-DURING THE 80THNATIONAL BUREAU OF INVESTIGATION</br>
-FOUNDING ANNIVERSARY</br>
-NBI Gymnasium, Taft Avenue, Ermita, Manila</br>
-November 14, 2016</br>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE 80TH NATIONAL BUREAU OF INVESTIGATION
+
+###### FOUNDING ANNIVERSARY
+
+###### NBI Gymnasium, Taft Avenue, Ermita, Manila
+
+###### November 14, 2016
 
 Kindly sit down. Maraming salamat po.
 

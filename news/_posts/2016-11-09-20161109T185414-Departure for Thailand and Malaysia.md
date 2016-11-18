@@ -20,11 +20,15 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING THE DEPARTURE CEREMONIES FOR HIS VISIT<br/>
-TO MALAYSIA AND THAILAND<br/>
-NAIA Terminal 2, Pasay City<br/>
-November 9, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE DEPARTURE CEREMONIES FOR HIS VISIT
+
+###### TO MALAYSIA AND THAILAND
+
+###### NAIA Terminal 2, Pasay City
+
+###### November 9, 2016
 
 The Executive Secretary Salvador Medialdea; Lieutenant General Ricardo Visaya; Director General Ronald Dela Rosa, umabot ba? Si Bato? General Manager Eddie Monreal; Congresswoman Emi Calixto-Rubiano; Mayor Antonio Calixto, yes sir; my fellow workers in government; my beloved countrymen.
 

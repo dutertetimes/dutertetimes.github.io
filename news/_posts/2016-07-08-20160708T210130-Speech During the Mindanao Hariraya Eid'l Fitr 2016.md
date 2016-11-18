@@ -20,9 +20,13 @@ sources:
     link: http://www.gov.ph/2016/07/08/president-rodrigo-roa-dutertes-speech-during-the-mindanao-hariraya-eidl-fitr-2016/
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
-DURING THE MINDANAO HARIRAYA EID'L FITR 2016
-[July 8, 2016, SMX Convention Center Davao, Davao City]
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING THE MINDANAO HARIRAYA EID'L FITR 2016
+
+###### SMX Convention Center Davao, Davao City
+
+###### July 8, 2016
 
 Secretary Yasmin Busran-Lao of the National Commission on Muslim Filipinos; Atty Guiling Mamondiong, he will be the Secretary of TESDA. It is a Cabinet position. Councilor Halila Sudagar of the Davao City Council; Deputy Mayor Ismael Mike Nakan Al-Hadj; and other deputy mayors; Ali Muhammad Yusop Pasigan, the Regional Mufti of Davao Region; Director Aleem Jamal Munib of the Madrasah Schools; Laxaman Bancola, Bangon Mindanao founder; Shiekh Abdul Razzaq, Kapayapaan Peace Center founding chairman; my Muslim brothers and sisters; fellow workers in government; my beloved countrymen.
 

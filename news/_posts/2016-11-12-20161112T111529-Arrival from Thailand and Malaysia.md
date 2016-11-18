@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROADUTERTE<br/>
-DURING THE ARRIVAL CEREMONIES FROM HIS VISIT TO THAILAND AND MALAYSIA<br/>
-Davao International Airport, Davao City<br/>
-November 11, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROADUTERTE
+
+###### DURING THE ARRIVAL CEREMONIES FROM HIS VISIT TO THAILAND AND MALAYSIA
+
+###### Davao International Airport, Davao City
+
+###### November 11, 2016
 
 Distinguished co-workers in government, friends, ladies and gentlemen. Good morning.
 

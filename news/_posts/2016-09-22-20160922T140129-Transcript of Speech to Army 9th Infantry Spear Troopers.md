@@ -20,11 +20,15 @@ sources:
     link:
 ---
 
-SPEECH OF PRESIDENT RODRIGO ROA DUTERTE<br/>
-DURING HIS TALK TO THE SPEAR TROOPERS<br/>
-OF THE PHILIPPINE ARMY'S 9th INFANTRY DIVISION (9ID)<br/>
-Camp Elias Angeles, Pili, Camarines Sur<br/>
-September 21, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING HIS TALK TO THE SPEAR TROOPERS
+
+###### OF THE PHILIPPINE ARMY'S 9th INFANTRY DIVISION (9ID)
+
+###### Camp Elias Angeles, Pili, Camarines Sur
+
+###### September 21, 2016
  
 Magandang hapon po.
 

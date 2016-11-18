@@ -20,10 +20,13 @@ sources:
     link: http://rtvm.gov.ph/main/?p=42471
 ---
 
-PRESS STATEMENT OF PRESIDENT ROA RODRIGO DUTERTE<br/>
-AFTER HIS TALK TO THE PNP-PRO X<br/>
-Camp Vicente Alagar, Lapasan, Cagayan de Oro City<br/>
-September 22, 2016<br/>
+###### PRESS STATEMENT OF PRESIDENT ROA RODRIGO DUTERTE
+
+###### AFTER HIS TALK TO THE PNP-PRO X
+
+###### Camp Vicente Alagar, Lapasan, Cagayan de Oro City
+
+###### September 22, 2016
 
 Yes, I would like to make an announcement. 
 

@@ -20,10 +20,13 @@ sources:
     link:
 ---
 
-PRESIDENT RODRIGO ROA DUTERTE'S SPEECH<br/>
-DURING HIS TALK TO THE STAR TROOPERS OF 5th INFANTRY DIVISION (5ID)<br/>
-Camp Melchor F. Dela Cruz, Gamu, Isabela<br/>
-September 17, 2016<br/>
+###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+
+###### DURING HIS TALK TO THE STAR TROOPERS OF 5th INFANTRY DIVISION (5ID)
+
+###### Camp Melchor F. Dela Cruz, Gamu, Isabela
+
+###### September 17, 2016
 
 Commander, could you give the order of tikas pahinga?
 
