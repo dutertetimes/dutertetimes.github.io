@@ -1,15 +1,19 @@
 #!/bin/sh
 
 # Create a post file at current directory
-# File format: YYYY-MM-DD-YYYYMMDDThhmmss.md
+# File format: YYYY-MM-DD-title.md
 
-#current=$(date -u +"%Y-%m-%d-%Y%m%dT%H%M%S")
 current=`date -u`
 current_date=`date -u --date="$current" +'%Y-%m-%d'`
 current_iso8601=`date -u --date="$current" +'%Y-%m-%dT%H:%M:%S%Z'`
-current_short=`date -u --date="$current" +'%Y%m%dT%H%M%S'`
-filename=`date -u --date="$current" +'%Y-%m-%d-%Y%m%dT%H%M%S'`.md
+current_iso8601_short=`date -u --date="$current" +'%Y-%m-%dT%H%M%S%Z'`
 
+# hashids.org
+# hashids C implementation https://github.com/tzvetkoff/hashids.c
+
+current_seconds=`date -u +%s`
+hashid=`hashids --salt "dutertetimes" --min-length 15 $current_seconds`
+filename="$current_iso8601_short-title".md
 
 
 function show_usage {
@@ -83,7 +87,7 @@ function create_news_post {
                 echo "published: true" >> $filename
             fi
         fi
-        echo "permalink: /news/$current_short" >> $filename
+        echo "permalink: /news/$hashid" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
@@ -123,7 +127,7 @@ function create_story_post {
                 echo "published: true" >> $filename
             fi
         fi
-        echo "permalink: /stories/$current_short" >> $filename
+        echo "permalink: /stories/$hashid" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
@@ -143,6 +147,7 @@ function create_story_post {
 }
 
 function create_opinion_post {
+    filename="$hashid-title".md
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -163,7 +168,7 @@ function create_opinion_post {
                 echo "published: true" >> $filename
             fi
         fi
-        echo "permalink: /news/$current_short" >> $filename
+        echo "permalink: /opinion/$hashid" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
@@ -183,20 +188,14 @@ function create_opinion_post {
 }
 
 function create_info_post {
-
-    sha1=$(echo $current_iso8601 | sha1sum | awk '{print $1}')
-    filename="$sha1".md
-    
-    # echo "$sha1"
-    # echo "$filename"
-    
+    filename="$hashid-title".md
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
         touch $filename
 
         add_yaml_bar
-        add_default "Info Post"
+        echo "title: Info Post" >> $filename
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
         echo "categories: [gov | law | company | org | people | place | doc | others]" >> $filename
@@ -209,8 +208,8 @@ function create_info_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "permalink: /info/.../$sha1" >> $filename
-        echo "link: /info/.../$sha1" >> $filename
+        echo "permalink: /info/.../$hashid" >> $filename
+        #echo "link: /info/.../$hashid" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
