@@ -6,15 +6,16 @@ layout: post
 categories: [criminality]
 tags: [national bureau of investigation, leila de lima, illegal drugs, new bilibid prison]
 published: true
-permalink: /stories/20161110T105405
+redirect_from: /stories/20161110T105405
+permalink: /stories/2OW3xpJjPx83vG0
 image:
   layout: none
   source: /site/gov_senate_leila_de_lima.jpg
   attribution: Public Domain
 video:
   layout: [top | bottom]
-  source:
-  attribution:
+  source: 
+  attribution: 
 sources:
   - label: Manila Times
     link: http://www.manilatimes.net/nbi-files-drug-graft-charges-vs-de-lima/295815/
