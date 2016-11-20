@@ -1,15 +1,11 @@
 ---
-title: "STEAG State Power Inc."
-date: 2016-09-23T21:28:47UTC
+title: STEAG State Power Inc.
 excerpt: Established in 1995, STEAG State Power Inc., is a special-purpose company created to own, finance, construct, operate and maintain the first coal-fired power plant in island of Mindanao.
 layout: post
-datestart:  2016-09-23
-dateend:    2016-09-23
 categories: [company]
 tags: [energy, power, power generation, power supply, coal, hard coal]
 published: false
-permalink: /info/.../20160923T212847
-link: /info/.../20160923T212847
+permalink: /info/company/4oZQjwEy9ex1DBr
 image:
   layout: auto_width
   source: 

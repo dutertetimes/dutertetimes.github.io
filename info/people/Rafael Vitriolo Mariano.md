@@ -1,19 +1,15 @@
 ---
-title: Rafael Mariano
-date: 2016-07-12T07:03:54UTC
+title: Info Post
 excerpt: A veteran peasant leader and a survivor of the 1987 Mendiola Massacre, Mariano was one of the progressives nominated by the National Democratic Front as Department of Agrarian Reform Secretary and now appointed by President Rodrigo Duterte to his cabinet.
 layout: post
-datestart:  2016-07-12
-dateend:    2016-07-12
 categories: [people]
 tags: [kmp, anakpawis, bayan, dar, cabinet, agrarian reform, progressive]
 published: true
-permalink: /info/people/20160712T070354
-link: /info/people/20160712T070354
+permalink: /info/people/gox3l58WGBJQWZe
 image:
   layout: auto_width
   source: 
-  attribution:
+  attribution: 
 sources:
   - label: Anakpawis
     link: http://www.anakpawis.net/hon-rafael-ka-paeng-mariano/

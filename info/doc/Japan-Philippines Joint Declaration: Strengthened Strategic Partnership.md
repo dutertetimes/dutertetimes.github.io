@@ -1,15 +1,12 @@
 ---
 title: "Japan-Philippines Joint Declaration: Strengthened Strategic Partnership"
-date: 2015-06-04T16:45:16UTC
 excerpt: On the invitation of the Government of Japan, His Excellency Benigno S. Aquino III, President of the Republic of the Philippines paid a State Visit to Japan from 2 to 5 June, 2015 wherein the Aquino and Mr. Shinzo Abe, the Prime Minister of Japan, jointly declared the two countries has entered the stage of Strengthened Strategic Partnership.
 layout: post
-datestart:  2015-06-04
-dateend:    2015-06-04
-categories: [info_doc, foreign relations]
+categories: [doc]
 tags: [strengthened strategic partnership, japan, shinzo abe]
 published: true
-permalink: /info/doc/2015-06-04-20150604T164516
-link: /info/doc/2015-06-04-20150604T164516
+redirect_from: /info/doc/2015-06-04-20150604T164516
+permalink: /info/doc/VeL3DqMo5ENQlJZ
 image:
   layout: auto_width
   source: 
@@ -19,39 +16,42 @@ sources:
     link: http://www.gov.ph/2015/06/04/japan-philippines-joint-declaration-a-strengthened-strategic-partnership-issued-june-4/
 ---
 
-Japan-Philippines Joint Declaration:
-A Strengthened Strategic Partnership for Advancing the Shared Principles and Goals
-of Peace, Security, and Growth in the Region and Beyond
+###### Japan-Philippines Joint Declaration:
+
+###### A Strengthened Strategic Partnership for Advancing the Shared Principles and Goals
+
+###### of Peace, Security, and Growth in the Region and Beyond
+
 
 On the invitation of the Government of Japan, His Excellency Benigno S. Aquino III, President of the Republic of the Philippines paid a State Visit to Japan from 2 to 5 June, 2015. In the summit meeting on 4 June, Mr. Shinzo Abe, Prime Minister of Japan and President Aquino jointly declared that the relationship between the two countries has entered the stage of Strengthened Strategic Partnership in which the two countries cooperate for shared principles and goals in the Asia-Pacific region and beyond, recognizing that the relationship has become even closer and more dynamic. Since the establishment of diplomatic relations in 1956, bilateral relations, especially under the current leaderships of both countries, have reached an excellent stage today. Both leaders reaffirmed the following guiding principles for the future relationship between the two countries and endorsed the "Action Plan for Strengthening of the Strategic Partnership" annexed to this Declaration.
 
-I. Strategic Partnership for Shared Principles and Goals
+##### I. Strategic Partnership for Shared Principles and Goals
 
 Japan and the Philippines share common goals of ensuring peace and stability in the Asia-Pacific region, promoting economic growth of the region, and addressing international challenges including achieving human security. The significance of the Strategic Partnership of both countries is anchored on collaboration and cooperation under shared universal values including freedom, democracy, the rule of law, respect for basic human rights, and a free and open economy. Both countries are fully committed towards further strengthening the Partnership, aware of the increasing and complex challenges facing the region and the international community.
 
 The Partnership is founded on the long-standing friendship between the peoples of both countries. In particular, after WWII, both countries have successfully constructed one of the strongest relations in Asia through the graciousness of the Filipinos and the full and sustained assistance provided by Japan, including its Official Development Assistance, culminating in the Strategic Partnership both countries share today. This 70-year history demonstrates to the world that through their relentless efforts, peoples of two countries can attain a remarkable achievement in overcoming issues of the past and establishing strong friendship.　The Philippines commends Japan's consistent path as a peace-loving nation and its contribution to global prosperity.
 
-II. Joint Contribution to Secure Regional Peace and Stability
+##### II. Joint Contribution to Secure Regional Peace and Stability
 
 Security cooperation between the two countries, and other allies in the region, has been gaining more significance in maintaining peace and stability in the Asia-Pacific region at a time when the security environment in the region is faced with many challenges. Both countries will expand their security cooperation through, among others:
 
-the enhancement of security dialogues as contained in the "Action Plan for Strengthening of the Strategic Partnership" annexed to this Declaration;
+* the enhancement of security dialogues as contained in the "Action Plan for Strengthening of the Strategic Partnership" annexed to this Declaration;
 
-the initiation of negotiations to conclude an agreement on the transfer of defense equipment and technology;
+* the initiation of negotiations to conclude an agreement on the transfer of defense equipment and technology;
 
-the strengthening of cooperation between relevant authorities of both countries on the participation of Japan Self-Defense Forces in disaster relief activities in the Philippines; and
+* the strengthening of cooperation between relevant authorities of both countries on the participation of Japan Self-Defense Forces in disaster relief activities in the Philippines; and
 
-the expansion of bilateral and multilateral trainings and exercises for capacity building in areas including those covered by the Memorandum on Defense Cooperation and Exchanges between the Department of National Defense and Ministry of Defense.
+* the expansion of bilateral and multilateral trainings and exercises for capacity building in areas including those covered by the Memorandum on Defense Cooperation and Exchanges between the Department of National Defense and Ministry of Defense.
 
 Both countries reiterate their resolve to contribute to peace and stability in the international community. Japan will pursue this resolve through its initiatives including the Legislation for Peace and Security under the banner of "Proactive Contribution to Peace" based on the principle of international cooperation. The Philippines appreciates and supports these efforts and expresses its willingness to share the Philippines' experience in various UN peacekeeping operations over the years.
 
 Maintaining open and stable seas is essential in ensuring regional stability and is an imperative issue which both countries, as maritime nations, are jointly addressing through enhancing the capacity of the Philippines Coast Guard (PCG). Both leaders welcome the progress in the Philippines' acquisition of patrol vessels, with the contract signed today between the Government of the Philippines and the Japan Marine United Corporation. Japan is grateful for the Philippines' choice for Japanese expertise and technology in this area. Building on the achievement of long-standing cooperation, including the PCG's human resources development, both countries will continue cooperation and will also enforce their discussion aiming at further capability enhancement of the PCG.
 
-III. Towards Enduring Peace in Mindanao
+##### III. Towards Enduring Peace in Mindanao
 
 The Government of Japan recognizes the Philippines' commitment towards lasting peace, stability and development in Mindanao and supports the latter's steady implementation of economic development projects based on the Bangsamoro Development Plan. To that end, the Government of Japan will advance the new phase of Japan-Bangsamoro Initiatives for Reconstruction and Development (J-BIRD2) which will focus more on ensuring economic autonomy in the Bangsamoro Area. These efforts will also open up opportunities in trade and investment that will benefit not only the Philippines but also Japan and the entire region.
 
-IV. Collaboration for Economic Growth of the Region
+##### IV. Collaboration for Economic Growth of the Region
 
 Great potential for collaboration for regional economic growth lies ahead for both countries. The Philippines' vibrant development backed by its political stability and sound economic fundamentals coupled with Japan's initiatives for economic revitalization and as one of the leaders in the economic growth of the region are major driving forces for the growth of the Asian economy.
 
@@ -61,7 +61,7 @@ The Government of the Philippines, through its commitment to sustain its efforts
 
 Recalling the contribution of the Japan-Philippines Economic Partnership Agreement (JPEPA) to the enhancement of bilateral economic relations, both countries will promote the implementation of the Agreement to further deepen the economic relations including through advancing the ongoing groundwork for the General Review. Both countries also reiterate the importance of regional economic integration through the establishment of the ASEAN Economic Community and economic partnerships such as ASEAN-Japan Comprehensive Economic Partnership (AJCEP), and the Regional Comprehensive Economic Partnership (RCEP) which also serve to lead regional economic development. The Philippine hosting of the Asia-Pacific Economic Cooperation (APEC) this year will play a major role in promoting integration process with focus on MSMEs participation in regional and global markets. In this regard, Japan extends its full cooperation towards success of the APEC Philippines 2015, including support to the Boracay Action Agenda to Globalize MSMEs.
 
-V. Close Coordination in the International Arena
+##### V. Close Coordination in the International Arena
 
 Amid increasing and diversified global challenges such as terrorism, pandemics and climate change, both countries will act in a closer and coordinated manner in the international arena, and contribute jointly in the initiatives reflected in the "Action Plan for Strengthening of the Strategic Partnership" annexed to this Declaration including addressing natural disasters based on the lessons learned from past disasters such as the Great East Japan Earthquake and Super Typhoon Yolanda, with the shared goals of achieving human security.
 
@@ -71,7 +71,7 @@ In order to cope with various challenges facing the international community in a
 
 Both countries share their views that North Korea's continued development of nuclear weapons and ballistic missile programs poses a threat to the region and the international community, and confirm their continuing coordination to resolve outstanding issues of concern on North Korea. In this context, they urge North Korea to take concrete actions to meet its international obligations and commitments on nuclear and missile issues, and to address, without delay, humanitarian concerns, including the abductions issue.
 
-VI. Strengthening Dialogues and Exchanges
+##### VI. Strengthening Dialogues and Exchanges
 
 With the aim of strengthening the Strategic Partnership, both countries will further advance information sharing and policy coordination and, to achieve this, enhance dialogue in extensive areas and at all levels including the dialogues between relevant authorities reflected in the "Action Plan for Strengthening of the Strategic Partnership" annexed to this Declaration.
 

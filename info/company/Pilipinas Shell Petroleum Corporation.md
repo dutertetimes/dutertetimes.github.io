@@ -1,22 +1,21 @@
 ---
-title: Pilipinas Shell Petroleum Corporation (PSPC)
-date: 2016-07-20T16:16:53UTC
+title: Pilipinas Shell Petroleum Corporation
 excerpt: Pilipinas Shell Petroleum Corporation is a local subsidiary of energy giant Royal Dutch Shell Plc which has been operating in the Philippines since 1914.
 layout: post
-datestart:  2016-07-20
-dateend:    2016-07-20
 categories: [company]
 tags: [energy, oil, gas]
 published: true
-permalink: /info/company/20160720T161653
-link: /info/company/20160720T161653
+permalink: /info/company/4Xp37L6xAwxQOVj
 image:
   layout: auto_width
   source: 
   attribution: 
+sources:
+  - label:
+    link:
 ---
 
-Shell which is officially known as Royal Dutch Shell is an Anglo-Dutch multinational oil and gas company with its headquarters in The Hague, Netherlands.
+Pilipinas Shell Petroleum Corporation (PSPC) or Shell for short is officially known as Royal Dutch Shell is an Anglo-Dutch multinational oil and gas company with its headquarters in The Hague, Netherlands.
 It was created in February 1907 through the merger of rival companies, the Royal Dutch Petroleum Company of the Netherlands and the "Shell" Transport and Trading Company Ltd of the United Kingdom.
 The merger is largely driven by the need to compete globally with Standard Oil which was established by John D. Rockefeller in 1870.
 

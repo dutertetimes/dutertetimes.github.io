@@ -1,15 +1,11 @@
 ---
 title: National Grid Corporation of the Philippines
-date: 2016-09-23T20:32:41UTC
 excerpt: The National Grid Corporation of the Philippines is responsible for transmitting safe and reliable electricity throughout the country since 2008 after the the National Transmission Corporation.
 layout: post
-datestart:  2016-09-23
-dateend:    2016-09-23
 categories: [company]
 tags: [energy, power, power generation, power transmission, power distribution, power supply]
 published: false
-permalink: /info/company/20160923T203241
-link: /info/company/20160923T203241
+permalink: /info/company/9rDR4YG78Lq3lwb
 image:
   layout: auto_width
   source: 

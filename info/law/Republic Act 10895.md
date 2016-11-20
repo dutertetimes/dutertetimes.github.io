@@ -1,19 +1,13 @@
 ---
 title: Republic Act No. 10895
-date: 2016-11-01T08:39:36UTC
 excerpt: An Act granting the Avocado Broadband Telecoms, Inc. a franchise to construct, install, establish, operate and maintain telecommunications systems throughout the Philippines.
 layout: post
 categories: [law]
 tags: [republic act 10895, avocado broadband telecoms inc, republic act]
 published: true
 permalink: /info/law/ra10895
-link: /info/law/ra10895
 image:
   layout: auto_width
-  source: 
-  attribution: 
-video:
-  layout: [top | bottom]
   source: 
   attribution: 
 sources:
@@ -23,13 +17,18 @@ sources:
     link: https://www.senate.gov.ph/lisdata/2250319210!.pdf
 ---
 
+
 H. No. 5844
 
-**Republic of the Philippines<br/>
-Congress of the Philippines<br/>
-Metro Manila<br/>
-Sixteenth Congress<br/>
-Third Regular Session**<br/>
+###### Republic of the Philippines
+
+###### Congress of the Philippines
+
+###### Metro Manila
+
+###### Sixteenth Congress
+
+###### Third Regular Session
 
 Begun and held in Metro Manila, on Monday, the twenty-seventh day of July, two thousand fifteen.
 
