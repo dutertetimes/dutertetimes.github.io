@@ -6,7 +6,8 @@ layout: post
 categories: [top, opinion]
 tags: [swearing, obama, bud dajo, stephen colbert, mark twain, samuel clemens]
 published: true
-permalink: /news/20160908T081110
+redirect_from: /news/20160908T081110
+permalink: /opinion/2gO3K4APlW5Qa6y
 image:
   layout: auto_width
   source:
