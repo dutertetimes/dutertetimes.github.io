@@ -41,13 +41,7 @@ div.block {
         div.entry {
             width: 100%;
             float: left;
-
             margin-top: 10px;
-            /*
-            div.entries + & {
-                margin-top: 0;
-            }
-            */
 
             img {
                 float: right;
@@ -111,34 +105,6 @@ div.block {
                 }
             }
         }
-        
-        /*
-        div.entry_highlight {
-
-            img.thumbnail {
-                width: 70px;
-                height: 70px;
-                @include max-screen(720px) {
-                    width: 70px;
-                }
-                float: left;
-                margin-top: 3px;
-                margin-right: 10px;
-                border-radius: 3px;
-            }
-
-            img.video_thumbnail {
-                height: 60px;
-                @include max-screen(720px) {
-                    height: 60px;
-                }
-                float: left;
-                margin-top: 3px;
-                margin-right: 10px;
-                border-radius: 3px;
-            }
-        }
-        */
         
         div.index_entry {
             width: 100%;
