@@ -1,11 +1,11 @@
 ---
-title: Info Post
+title: Ronald Dela Rosa
 excerpt: From humble beginnings in Davao del Sur and now that he is the 21st PNP Chief, Police Director General Ronald 'Bato' Dela Rosa never dreamed of being in his position now. He believes it must be destiny that placed him there and because he has a crucial job for his country.
 layout: post
 categories: [people]
 tags: [pnp, pnp chief]
 published: true
-permalink: /info/people/76p1Jw2ox80RaMm
+permalink: /info/person/76p1Jw2ox80RaMm
 image:
   layout: auto_width
   source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png
@@ -15,7 +15,7 @@ sources:
     link:
 ---
 
-Dela Rosa rose from humble beginnings in this hometown of Bato, Sta. Cruz, Davao del Sur and is a product of the public school system being a graduate of Bato Elementary School, Sta. Cruz National High School and Mindanao State University.
+Ronald "Bato" Dela Rosa rose from humble beginnings in this hometown of Bato, Sta. Cruz, Davao del Sur and is a product of the public school system being a graduate of Bato Elementary School, Sta. Cruz National High School and Mindanao State University.
 
 He is a member of the illustrious PMA "Sinagtala" Class of 1986.
 

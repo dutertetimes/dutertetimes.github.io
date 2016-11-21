@@ -1,11 +1,11 @@
 ---
-title: William M Melad
+title: William M. Melad
 excerpt: 
 layout: post
 categories: [people]
 tags: [military, navy]
 published: true
-permalink: /info/people/GZOQvMmnzOq3e8A
+permalink: /info/person/GZOQvMmnzOq3e8A
 image:
   layout: auto_width
   source: 

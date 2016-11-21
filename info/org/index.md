@@ -7,8 +7,6 @@ tags: []
 published: true
 ---
 
-<ol class="info_list">
-{% for item in site.categories.org %}
-<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-{% endfor %}
-</ol>
+{% assign todo_data = site.data.info_org %}
+{% assign posts = site.info_org | sort: "title" %}
+{% include info_index.html title=page.title todo_data=include.todo_data posts=posts %}

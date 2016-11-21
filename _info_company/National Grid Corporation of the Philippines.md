@@ -4,7 +4,7 @@ excerpt: The National Grid Corporation of the Philippines is responsible for tra
 layout: post
 categories: [company]
 tags: [energy, power, power generation, power transmission, power distribution, power supply]
-published: false
+published: true
 permalink: /info/company/9rDR4YG78Lq3lwb
 image:
   layout: auto_width

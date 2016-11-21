@@ -1,11 +1,11 @@
 ---
-title: Info Post
+title: Rafael Vitriolo Mariano
 excerpt: A veteran peasant leader and a survivor of the 1987 Mendiola Massacre, Mariano was one of the progressives nominated by the National Democratic Front as Department of Agrarian Reform Secretary and now appointed by President Rodrigo Duterte to his cabinet.
 layout: post
 categories: [people]
 tags: [kmp, anakpawis, bayan, dar, cabinet, agrarian reform, progressive]
 published: true
-permalink: /info/people/gox3l58WGBJQWZe
+permalink: /info/person/gox3l58WGBJQWZe
 image:
   layout: auto_width
   source: 
@@ -17,7 +17,7 @@ sources:
     link: http://www.dar.gov.ph/secretary-rafael-mariano/142-news-about-the-secretary/2163-recommended-by-no-more-farm-evictions-mariano
 ---
 
-Rafael Vitriolo Mariano or more commonly known as "Ka Paeng" to militants and progressives was born October 24, 1956 in Barangay San Andres I, Quezon, Nueva Ecija. He has a Bachelor of Science degree in Agriculture from Liwag Colleges (1976 - 1977) and Agriculture Cooperatives at the Wesleyan University both in Cabanatuan City, Nueva Ecija, Philippines.
+Rafael Vitriolo Mariano commonly known as "Ka Paeng" to militants and progressives was born October 24, 1956 in Barangay San Andres I, Quezon, Nueva Ecija. He has a Bachelor of Science degree in Agriculture from Liwag Colleges (1976 - 1977) and Agriculture Cooperatives at the Wesleyan University both in Cabanatuan City, Nueva Ecija, Philippines.
 
 Rafael "Ka Paeng" Mariano is a founding member and former chair of the Kilusang Magbubukid ng Pilipinas (KMP).
 He was also President of Anakpawis party-list and chair of Bagong Alyansang Makabayan (Bayan).

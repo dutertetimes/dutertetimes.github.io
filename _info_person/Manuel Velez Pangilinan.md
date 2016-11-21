@@ -5,7 +5,7 @@ layout: post
 categories: [people]
 tags: [mvp, first pacific]
 published: true
-permalink: /info/people/X0MREynoelgRDAJ
+permalink: /info/person/X0MREynoelgRDAJ
 image:
   layout: auto_width
   source: /post/manuel_velez_pangilinan.jpg

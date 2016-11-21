@@ -4,7 +4,7 @@ excerpt: Established in 1995, STEAG State Power Inc., is a special-purpose compa
 layout: post
 categories: [company]
 tags: [energy, power, power generation, power supply, coal, hard coal]
-published: false
+published: true
 permalink: /info/company/4oZQjwEy9ex1DBr
 image:
   layout: auto_width

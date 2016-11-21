@@ -1,0 +1,28 @@
+{% comment %}
+Arguments:
+    - title
+    - todo_data - TODO items from /data directory
+    - posts - collection
+
+Example:
+    {% assign posts = site.info_company | sort: "title" %}
+    {% assign todo = site.data.news_peace_process %}
+    {% include section_index.html title="Companies" todo_data=todo posts=posts %}
+{% endcomment %}
+
+{% include todo_list.html todo_data=include.todo_data %}
+
+<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
+<h1>{{ include.title }}</h1>
+<div class="section_container container_top_margin_10 container_bottom_margin_10">
+    <div class="block block_default_fonts">
+        <div class="entries">
+    {% for post in include.posts %}
+            <div class="entry">
+                <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
+            </div>
+    {% endfor %}
+        </div>
+    </div>
+</div>
+</div>

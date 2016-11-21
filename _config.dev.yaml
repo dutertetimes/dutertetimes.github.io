@@ -2,19 +2,3 @@ development: true
 
 author:
   dev_icon: dutertetimes_local.png
-
-
-
-collections:
-#  law:
-#    output: true
-#    permalink: /info/law/:collection/:path
-#    title: Law
-#  map:
-#    output: true
-#    permalink: /:collection/:path
-#    title: Map
-#  sources:
-#    output: true
-#    permalink: /info/:collection/:path
-#    title: Sources

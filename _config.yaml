@@ -101,3 +101,17 @@ defaults:
 
 # Custom vars
 version:        0.1.0
+
+collections:
+  info_company:
+    output: true
+  info_doc:
+    output: true
+  info_law:
+    output: true
+  info_org:
+    output: true
+  info_person:
+    output: true
+  info_place:
+    output: true
