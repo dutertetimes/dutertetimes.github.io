@@ -9,42 +9,7 @@ Example:
     {% include section_index.html todo_data=todo category="peace_process" post_image="post_president_16_9.png" %}
 {% endcomment %}
 
-{% if site.development %}
-<div class="section_container_wrapper section_container_wrapper_border">
-    <h1>TODO</h1>
-<div class="section_container container_top_margin container_bottom_margin_5">
-<div class="block block_default_fonts">
-    <div class="entries">
-    {% for post in include.todo_data %}
-        <div class="entry">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            <p class="excerpt">{{ post.excerpt }}</p>
-            <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
-            <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
-        {% if post.link.size and post.link.size == 1 %}
-            <p>Link:&nbsp;<a href="{{ post.link[0].url }}" class="no_underline">{{ post.link[0].url }}</a></p>
-        {% else %}
-            <p>Links:</p>
-            <ul>
-            {% for linkitem in post.link %}
-                {% if linkitem.excerpt %}
-                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.excerpt }}</a></li>
-                {% else %}
-                <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.url }}</a></li>
-                {% endif %}
-            {% endfor %}
-            </ul>
-        {% endif %}
-        </div>
-    {% else %}
-        <p class="no_entries">There are no pending news to add.</p>
-    {% endfor %}
-    </div>
-</div>
-</div>
-</div>
-{% endif %}
+{% include todo_list.html todo_data=include.todo_data %}
 
 <div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
 <h1>{{ page.title }}</h1>
@@ -60,15 +25,6 @@ Example:
     {% endfor %}
 </div>
 </div>
-
-{% comment %}
-{% assign section_posts = site.categories[include.category] %}
-{% for post in section_posts limit:5 %}
-<h1>{{ section_posts[forloop.index].title }} - {{ section_posts[forloop.index].date | date: '%Y %b' }}</h1>
-{% endfor %}
-{% endcomment %}
-
-
 
 {% assign count = site.categories[include.category].size %}
 {% if count and count > 0 %}
@@ -110,52 +66,3 @@ Example:
     {% endfor %}
 
 {% endif %}
-
-
-
-
-{% comment %}
-<h1>{{ include.category }}</h1>
-{% for post in site.categories[include.category] %}
-    {% unless post.next %}
-        {% if forloop.index > 1 %}
-            </div> <!-- end of entries -->
-        </div>
-    </div>
-</div> <!-- end of section_container_wrapper -->
-        {% endif %}
-        <h1>unless post.next</h1>
-<div class="section_container_wrapper section_container_wrapper_border">
-    <h1>{{ post.date | date: '%Y %b' }}</h1>
-    <div class="section_container container_top_margin container_bottom_margin_5">
-        <div class="block block_default_fonts">
-            <div class="entries">
-    {% else %}
-        <h1>not unless post.next</h1>
-        {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
-        {% if year != nyear %}
-            <h1>year != nyear</h1>
-            {% if forloop.index > 1 %}
-            </div> <!-- end of entries -->
-        </div>
-    </div>
-</div> <!-- end of section_container_wrapper -->
-            {% endif %}
-<div class="section_container_wrapper section_container_wrapper_border">
-    <h1>{{ post.date | date: '%Y %b' }}</h1>
-    <div class="section_container container_top_margin container_bottom_margin_5">
-        <div class="block block_default_fonts">
-            <div class="entries">
-        {% endif %}
-    {% endunless %}
-                <div class="entry index_entry">
-                    <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {% if site.development %}
-                    <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
-                    <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
-                    <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>
-    {% endif %}
-                </div>
-{% endfor %}
-{% endcomment %}
