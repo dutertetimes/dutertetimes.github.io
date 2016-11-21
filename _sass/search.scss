@@ -126,13 +126,17 @@ div#tipue_search_content {
     // Align the items for display
     
     & > div.tipue_search_content_title {
+        /*
         & > span,
         & > span + a {
             display: table-cell;
         }
+        */
         
         & > span {
-            min-width: 40px;
+            display: inline-block;
+            // Aligned up to six digits
+            min-width: 50px;
             font-size: $font_size_hub_default_excerpt + 1;
         }
     }

@@ -43,9 +43,11 @@ div.block {
             float: left;
 
             margin-top: 10px;
+            /*
             div.entries + & {
                 margin-top: 0;
             }
+            */
 
             img {
                 float: right;
@@ -176,6 +178,13 @@ div.block_default_fonts {
                 border-bottom: none;
                 &:hover {
                     color: $color_link;
+                }
+            }
+            h2.indexed {
+                & > span {
+                    display: inline-block;
+                    // Aligned up to six digits
+                    min-width: 50px;
                 }
             }
 
