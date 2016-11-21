@@ -148,6 +148,9 @@ div.block_default_fonts {
             }
             h2.indexed {
                 & > span {
+                    // Using inline-block gives span a width
+                    // Using table-cell shifts the items down 1 pixel when a:hover
+                    // displays the bottom border line.
                     display: inline-block;
                     // Aligned up to six digits
                     min-width: 50px;
