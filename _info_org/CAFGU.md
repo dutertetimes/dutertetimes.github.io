@@ -1,5 +1,5 @@
 ---
-title: Civilian Armed Forces Geographical Units
+title: Civilian Armed Forces Geographical Units (CAFGU)
 excerpt: Created in 1987 through Executive Order 264 under former President Corazon Aquino, the Civilian Armed Forces Geographical Units. CAFGUs are paramilitary units composed largely of volunteer reservists.
 layout: post
 categories: [org]
