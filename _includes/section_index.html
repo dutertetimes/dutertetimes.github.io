@@ -34,7 +34,7 @@ Example:
     {% for post in section_posts %}
 
         {% if new_group %}
-<div class="section_container_wrapper">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>{{ section_posts[forloop.index0].date | date: '%Y %b' }}</h1>
     <div class="section_container container_top_margin container_bottom_margin_5">
         <div class="block block_default_fonts">
