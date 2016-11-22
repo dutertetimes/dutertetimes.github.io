@@ -13,7 +13,7 @@ current_iso8601_short=`date -u --date="$current" +'%Y-%m-%dT%H%M%S%Z'`
 
 current_seconds=`date -u +%s`
 hashid=`hashids --salt "dutertetimes" --min-length 15 $current_seconds`
-filename="$current_iso8601_short-title".md
+filename="$current_date-title".md
 
 
 function show_usage {
@@ -195,7 +195,7 @@ function create_info_post {
         touch $filename
 
         add_yaml_bar
-        echo "title: Info Post" >> $filename
+        add_default "Info Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
         echo "categories: [gov | law | company | org | people | place | doc | others]" >> $filename
