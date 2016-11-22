@@ -3,7 +3,7 @@ title: Pre-Departure to Japan Press Briefing
 date: 2016-10-26T05:59:34UTC
 excerpt: Press briefing on 25 October 2016 at the Ninoy Aquino International Airport before President Rodrigo Roa Duterte and delegates leave for a three-day official visit to Japan.
 layout: post
-categories: [president, foreign_affairs]
+categories: [president, foreign_affairs, press]
 tags: [official visit, japan]
 published: true
 redirect_from: /news/20161026T055934
@@ -20,6 +20,8 @@ sources:
   - label: RTVM
     link: http://rtvm.gov.ph/main/?p=43623
 ---
+
+Press briefing on 25 October 2016 at the Ninoy Aquino International Airport before President Rodrigo Roa Duterte and delegates leave for a three-day official visit to Japan.
 
 ###### PRESS CONFERENCE OF PRESIDENT RODRIGO ROA DUTERTE
 
@@ -47,45 +49,47 @@ It will capture in one moment, the full range of our relations with a country th
 
 Maraming salamat po.
 
+###### END OF SPEECH
+
 I can---about a few questions media ----just to assuage your hunger for—
 
-SEC. ANDANAR:		Mr. President, our first question is from Hataw Rose Novenario.
+SEC. ANDANAR: Mr. President, our first question is from Hataw Rose Novenario.
 
-ROSE NOVENARIO/HATAW:		Good morning, Mr. President. Posibleng po bang pag-uusapan ninyo sa inyong pagbisita sa Japan ang Visiting Forces Agreement with Japan?
+ROSE NOVENARIO/HATAW: Good morning, Mr. President. Posibleng po bang pag-uusapan ninyo sa inyong pagbisita sa Japan ang Visiting Forces Agreement with Japan?
 
-PRRD:				Again?
+PRRD: Again?
 
-ROSE/HATAW:			Posible po bang pag-usapan ninyo sa pagpunta ninyo sa Japan iyong pagbalangkas ng Visiting Forces Agreement with Japan?
+ROSE/HATAW: Posible po bang pag-usapan ninyo sa pagpunta ninyo sa Japan iyong pagbalangkas ng Visiting Forces Agreement with Japan?
 
-PRRD:				No. I don't think so. I do not believe that we have a Visiting Forces Agreement with Japan. To my mind, I maybe wrong, but I have yet to come across an agreement or a piece of paper which says that we are... in this arrangement of Japanese troops. Military troops as you mean visiting my country. As a matter of fact, I said, in our it's Section 7, I forgot the Article... the Constitution mandates that the government of the  Republic  of the Philippines shall pursue an independent foreign policy. And to that extent, I would like to say this with all candor, I look forward for the time when I no longer see any military troops or soldiers in my country except the Filipino soldier. 
+PRRD: No. I don't think so. I do not believe that we have a Visiting Forces Agreement with Japan. To my mind, I maybe wrong, but I have yet to come across an agreement or a piece of paper which says that we are... in this arrangement of Japanese troops. Military troops as you mean visiting my country. As a matter of fact, I said, in our it's Section 7, I forgot the Article... the Constitution mandates that the government of the  Republic  of the Philippines shall pursue an independent foreign policy. And to that extent, I would like to say this with all candor, I look forward for the time when I no longer see any military troops or soldiers in my country except the Filipino soldier. 
 
 Hangarin ko po iyan na wala na akong makitang sundalo sa ibang bayan kung hindi iyong sundalo ng Pilipinas.
 
-ROSE/HATAW:			Thank you po. Second question po. Sa napipipinto po ninyong pagpunta sa APEC Summit sa November 19 to 20. Sa palagay po ba ninyo ay mas maipapaliwanag ninyo ang inyong independent foreign policy at ang drug war na isinusulong po ng inyong administrasyon?
+ROSE/HATAW: Thank you po. Second question po. Sa napipipinto po ninyong pagpunta sa APEC Summit sa November 19 to 20. Sa palagay po ba ninyo ay mas maipapaliwanag ninyo ang inyong independent foreign policy at ang drug war na isinusulong po ng inyong administrasyon?
 
-PRRD:				Well, I said I do not have to dovetail what the policies of our countries are and especially in the matter of stationing of the military troops in my country. I really hate it and I don't want it, we don't need it. We are not going to war and there's not going to be any war in the future.
+PRRD: Well, I said I do not have to dovetail what the policies of our countries are and especially in the matter of stationing of the military troops in my country. I really hate it and I don't want it, we don't need it. We are not going to war and there's not going to be any war in the future.
 
-MAKIKO SIGAWA/TV TOKYO:		Thank you so much for accommodating. I'm Makiko Sigawa of TV Tokyo. First question: what emotion, what motivation in feeling you carry for Japan, because you are about to leave for Narita Airport, Tokyo.
+MAKIKO SIGAWA/TV TOKYO: Thank you so much for accommodating. I'm Makiko Sigawa of TV Tokyo. First question: what emotion, what motivation in feeling you carry for Japan, because you are about to leave for Narita Airport, Tokyo.
 
-PRRD:				Even as I take off today, this afternoon, just seeing you in my country asking question is the beginning of a great expectations and joy. I go to Japan with full trust that we can understand each other and Japan would understand my position vis-à-vis with the foreign policy that I want to implement. It's just a question of a policy that is really truly Filipino.
+PRRD: Even as I take off today, this afternoon, just seeing you in my country asking question is the beginning of a great expectations and joy. I go to Japan with full trust that we can understand each other and Japan would understand my position vis-à-vis with the foreign policy that I want to implement. It's just a question of a policy that is really truly Filipino.
 
-MAKIKO SIGAWA/TV TOKYO:		Second question so far. In Japan the many media talking  about diplomacy, attitude of diplomacy if you have more for China or for Japan and can you tell me the truth  why you like more Japan, why you like more China, okay?
+MAKIKO SIGAWA/TV TOKYO: Second question so far. In Japan the many media talking  about diplomacy, attitude of diplomacy if you have more for China or for Japan and can you tell me the truth  why you like more Japan, why you like more China, okay?
 
-PRRD:			Can you translate.
+PRRD: Can you translate.
 
-SEC. ANDANAR:		Mr. President, she is asking if you love Japan more or you love China?
+SEC. ANDANAR: Mr. President, she is asking if you love Japan more or you love China?
 
-MAKIKO SEGAWA/TV TOKYO:	(Laughs)
+MAKIKO SEGAWA/TV TOKYO: (Laughs)
 
-PRRD:			Between China and Japan, I think I love the Philippines more. (applause/cheers)
+PRRD: Between China and Japan, I think I love the Philippines more. (applause/cheers)
 
-MAKIKO SEGAWA/TV TOKYO:	Which do you like, a Jollibee or McDonalds?
+MAKIKO SEGAWA/TV TOKYO: Which do you like, a Jollibee or McDonalds?
 
-PRRD:			Frankly, I do not eat... really, truly. Seldom, very often but I always stick to bibingka and maruya, native dish. 
+PRRD: Frankly, I do not eat... really, truly. Seldom, very often but I always stick to bibingka and maruya, native dish. 
 
-TUESDAY NIU/DZBB:	Good morning, Mr. President. Tuesday Niu of DZBB. Sir, General Dela Rosa stated yesterday that he submitted already to you the list of narco-celebrities. And he said that mas marami raw po iyong nakasulat sa listahan ninyo. Do you plan of announcing it, sir, to the public katulad noong ginawa ninyo doon sa mga narco-generals, sa narco-politicians? 
+TUESDAY NIU/DZBB: Good morning, Mr. President. Tuesday Niu of DZBB. Sir, General Dela Rosa stated yesterday that he submitted already to you the list of narco-celebrities. And he said that mas marami raw po iyong nakasulat sa listahan ninyo. Do you plan of announcing it, sir, to the public katulad noong ginawa ninyo doon sa mga narco-generals, sa narco-politicians? 
 
-PRRD:			Okay. I'll be frank with you, everybody. The final list submitted to me by the law enforcement agency, ganoon ho kakapal. Hindi ko malaman ngayon kung paano ko mahanapan ng solusyon. This thick, there are about a thousand policemen involved in drugs. There are about almost a thousand barangay captains already in the business of shabu. There are about few mayors and national officials. What I'm trying to say is I will call maybe for a consensus dito sa itaas. Lahat ng mga senators, congressman. 
+PRRD: Okay. I'll be frank with you, everybody. The final list submitted to me by the law enforcement agency, ganoon ho kakapal. Hindi ko malaman ngayon kung paano ko mahanapan ng solusyon. This thick, there are about a thousand policemen involved in drugs. There are about almost a thousand barangay captains already in the business of shabu. There are about few mayors and national officials. What I'm trying to say is I will call maybe for a consensus dito sa itaas. Lahat ng mga senators, congressman. 
 					
 Kasi nagpakabigat ho ng problema na ito, at kung ako lang sasabihin ko pero hindi ko kaya. Kasi... hindi ko kaya. I mean... ano gawin ko dito, patayin ko lahat? At nandiyan na naman 3,000 – it's about almost a ten thousand network spread all throughout the Philippines. And with the election of De Lima to the Senate using money from drugs, the portals of the national government has been opened to narco-politics. 
 					
@@ -127,13 +131,13 @@ You know, before we can move forward Mr. America there are things, so many thing
 
 So that's my parting statement. Yes. Pag hindi ako pina-land ng Japan, balikan kita dito.
 
-JOSEPH MORONG/GMA-7:		Just complete, sir, iyong thought ninyo about EDCA. Are you close to rescinding it, because you mentioned you want to see nobody except the Filipino soldiers on the... our soil.
+JOSEPH MORONG/GMA-7: Just complete, sir, iyong thought ninyo about EDCA. Are you close to rescinding it, because you mentioned you want to see nobody except the Filipino soldiers on the... our soil.
 
-PRRD:			Well ito pumunta itong—maybe to talk to me. Dito mag-usap kami, dalawa lang kami sa isang kuwarto. I don't want anybody else. Gusto ninyo mag-ganoon kayo sa plywood, pakinggan ninyo kung paano ako.
+PRRD: Well ito pumunta itong—maybe to talk to me. Dito mag-usap kami, dalawa lang kami sa isang kuwarto. I don't want anybody else. Gusto ninyo mag-ganoon kayo sa plywood, pakinggan ninyo kung paano ako.
 
-JOSEPH MORONG/GMA-7:		Sige, sir, thank you.
+JOSEPH MORONG/GMA-7: Sige, sir, thank you.
 
-SEC. ANDANAR:	Thank you so much, Mr. President. Thank you so much media. Let us all greet our President a very, very fruitful trip to China.
+SEC. ANDANAR: Thank you so much, Mr. President. Thank you so much media. Let us all greet our President a very, very fruitful trip to China.
 &#x25cf;
 
 
