@@ -43,7 +43,7 @@ Robin Padilla or Robinhood Ferdinand Cariño Padilla was convicted of illegal po
 He served three years at the New Bilibid Prison. Reports says, in April 1997, former president Fidel V. Ramos granted him conditional pardon which expired in 2003.
 &#x25cf;
 
-[^1]: http://sc.judiciary.gov.ph/jurisprudence/1997/mar1997/121917.htm
-[^2]: http://www.manilatimes.net/robin-padilla-absolute-pardon-second-life/296980/
+[^1]: [http://sc.judiciary.gov.ph/jurisprudence/1997/mar1997/121917.htm](http://sc.judiciary.gov.ph/jurisprudence/1997/mar1997/121917.htm)
+[^2]: [http://www.manilatimes.net/robin-padilla-absolute-pardon-second-life/296980/](http://www.manilatimes.net/robin-padilla-absolute-pardon-second-life/296980/)
 
 

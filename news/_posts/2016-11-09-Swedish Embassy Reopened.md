@@ -80,9 +80,9 @@ The Wallenbergs are extraordinarily powerful. They control a vast business empir
 By the late 1990s the Wallenbergs' holding company, Investor AB, was estimated to own roughly 40pc of the Swedish stock market. In short, their influence in Swedish business is unmatched.[^4]
 &#x25cf;
 
-[^1]: http://www.swedenabroad.com/en-GB/Embassies/Bangkok/Current-affairs/News/Swedish-Embassy-in-Manila-sys/
-[^2]: http://www.bcda.gov.ph/news_articles/show/505
-[^3]: https://en.wikipedia.org/wiki/Wallenberg_family
-[^4]: http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/10916991/Who-are-Swedens-powerful-Wallenberg-family.html
+[^1]: [http://www.swedenabroad.com/en-GB/Embassies/Bangkok/Current-affairs/News/Swedish-Embassy-in-Manila-sys/](http://www.swedenabroad.com/en-GB/Embassies/Bangkok/Current-affairs/News/Swedish-Embassy-in-Manila-sys/)
+[^2]: [http://www.bcda.gov.ph/news_articles/show/505](http://www.bcda.gov.ph/news_articles/show/505)
+[^3]: [https://en.wikipedia.org/wiki/Wallenberg_family](https://en.wikipedia.org/wiki/Wallenberg_family)
+[^4]: [http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/10916991/Who-are-Swedens-powerful-Wallenberg-family.html](http://www.telegraph.co.uk/finance/newsbysector/banksandfinance/10916991/Who-are-Swedens-powerful-Wallenberg-family.html)
 
 
