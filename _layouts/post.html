@@ -39,7 +39,21 @@ layout: default
 
         {% else %}
 
-        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
+        <p class="date">Date: {% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
+
+            {% if page.sources.size and page.sources.size > 0 and page.sources[0].link %}
+        <div class="info_sources">
+            <p>Sources:
+                {% for source in page.sources %}
+                    {% if source.link %}
+                <span><a href="{{ source.link }}">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
+                    {% else %}
+                <span>{{ source.label }}</span>{% unless forloop.last %},{% endunless %}
+                    {% endif %}
+                {% endfor %}
+            </p>
+        </div>
+            {% endif %}
 
         {% endif %}
     </div>
@@ -78,9 +92,10 @@ layout: default
         </div>
         {% endif %}
     {% endif %}
-    
+
     {{ content }}
-    
+
+    {% comment %}
     {% if page.image.source != nil and page.video.source != nil and page.video.layout == "bottom" %}
     <div class="video_container">
         <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
@@ -90,20 +105,7 @@ layout: default
         <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
     </div>
     {% endif %}
-
-    {% if page.sources.size and page.sources.size > 0 and page.sources[0].link %}
-    <div class="info_sources">
-        <p>Sources:
-            {% for source in page.sources %}
-                {% if source.link %}
-            <span><a href="{{ source.link }}">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
-                {% else %}
-            <span>{{ source.label }}</span>{% unless forloop.last %},{% endunless %}
-                {% endif %}
-            {% endfor %}
-        </p>
-    </div>
-    {% endif %}
+    {% endcomment %}
 
     {% include post_bottom.html %}
 
