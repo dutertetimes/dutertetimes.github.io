@@ -150,8 +150,8 @@ permalink: /
             {% include section_slideshow.html title="President" category="President" posts=section_posts post_image="post_president_16_9.png" %}
         </div>
         <div class="container container_right_margin_20 container_bottom_border_thin">
-            {% assign section_posts = site.categories.press_briefing %}
-            {% include section_slideshow.html title="Press Briefing" category="Press Briefing" posts=section_posts post_image="post_other_16_9.png" %}
+            {% assign section_posts = site.categories.press %}
+            {% include section_slideshow.html title="Press Events" category="Press Events" posts=section_posts post_image="post_press_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories.business %}
@@ -197,7 +197,7 @@ permalink: /
         currentPeaceProcessSlide(0);
 
         currentPresidentSlide(0);
-        currentPressBriefingSlide(0);
+        currentPressSlide(0);
 
         currentEconomySlide(0);
         currentLawandOrderSlide(0);
@@ -223,8 +223,8 @@ permalink: /
         showPresidentSlides(n);
     }
 
-    function currentPressBriefingSlide(n) {
-        showPressBriefingSlides(n);
+    function currentPressSlide(n) {
+        showPressSlides(n);
     }
 
     function currentOtherSlide(n) {
@@ -269,8 +269,8 @@ permalink: /
         showSlides("president_dot", "president_news_entry", n);
     }
 
-    function showPressBriefingSlides(n) {
-        showSlides("press_briefing_dot", "press_briefing_news_entry", n);
+    function showPressSlides(n) {
+        showSlides("press_events_dot", "press_events_news_entry", n);
     }
 
     function showOtherSlides(n) {
