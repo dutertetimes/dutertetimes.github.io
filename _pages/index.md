@@ -197,7 +197,7 @@ permalink: /
         currentPeaceProcessSlide(0);
 
         currentPresidentSlide(0);
-        currentPressSlide(0);
+        currentPressEventsSlide(0);
 
         currentEconomySlide(0);
         currentLawandOrderSlide(0);
@@ -223,8 +223,8 @@ permalink: /
         showPresidentSlides(n);
     }
 
-    function currentPressSlide(n) {
-        showPressSlides(n);
+    function currentPressEventsSlide(n) {
+        showPressEventsSlides(n);
     }
 
     function currentOtherSlide(n) {
@@ -269,7 +269,7 @@ permalink: /
         showSlides("president_dot", "president_news_entry", n);
     }
 
-    function showPressSlides(n) {
+    function showPressEventsSlides(n) {
         showSlides("press_events_dot", "press_events_news_entry", n);
     }
 
