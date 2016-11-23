@@ -93,7 +93,7 @@ function create_news_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: [top | bottom]" >> $filename
+        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
@@ -133,7 +133,7 @@ function create_story_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: [top | bottom]" >> $filename
+        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
@@ -174,7 +174,7 @@ function create_opinion_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: [top | bottom]" >> $filename
+        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
