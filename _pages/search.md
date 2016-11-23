@@ -13,7 +13,7 @@ sitemap: false
             <p>If your <i>search string</i> contains a space character, it must be enclosed between single (') or double quotes (").</p>
             
             <form action="{{site.baseurl}}/search/" class="style_one">
-                <input type="text" name="q" id="search_input" autocomplete="off" required title="Type your search string here">
+                <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" required title="Type your search string here">
             </form>
             
             <div id="tipue_search_content">
