@@ -149,7 +149,7 @@ The message is this: Let us not wait until another Atenean on his way home is ki
 
 The statement of the Integrated Bar of the Philippines reminds us that the murder of drug suspects is still murder under the rule of law. My own former office, the Commission on Human Rights led by Chairperson Chito Gascon, has already taken steps to investigate cases of mistaken identity and collateral damage, aside from cases where families of drug suspects had courage enough to file complaints. The relatives of the collateral damage victims are the indignant voices that tell us of the extent this bloody purge has spilled over to the innocent commuter and ordinary civilian.
 
-The Sunday before the State of the Nation Address, the Inquirer's headline was God's Fifth Commandment: THOU SHALL NOT KILL. The Church is speaking to us. &quot;Human life is sacred because from its beginning it involves the creative action of God and it remains forever in a special relationship with the Creator, who is its sole end. God alone is the Lord of life from its beginning until its end: no one can under any circumstance claim for himself the right directly to destroy an innocent human being.&quot;
+The Sunday before the State of the Nation Address, the Inquirer's headline was God's Fifth Commandment: THOU SHALL NOT KILL. The Church is speaking to us. "Human life is sacred because from its beginning it involves the creative action of God and it remains forever in a special relationship with the Creator, who is its sole end. God alone is the Lord of life from its beginning until its end: no one can under any circumstance claim for himself the right directly to destroy an innocent human being."
 
 READ: The Kill List
 

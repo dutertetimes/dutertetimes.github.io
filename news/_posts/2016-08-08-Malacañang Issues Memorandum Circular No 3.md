@@ -29,7 +29,7 @@ MEMORANDUM CIRCULAR NO. 03
 
 ENJOINING ALL GOVERNMENT OFFICIALS AND EMPLOYEES TO STRICTLY OBSERVE AND COMPLY WITH THE REQUIRED WORK HOURS
 
-WHEREAS, Section 2 of the Republic Act No. 6713, otherwise known as the “Code of Conduct and Ethical Standards for Public Officials and Employees,” provides that it is the policy of the State to promote a high standard of ethics in the public service and requires government personnel to discharge their duties with utmost responsibility, integrity, competence, and loyalty, act with patriotism and justice, lead modest lives, and uphold public interest over personal interest.
+WHEREAS, Section 2 of the Republic Act No. 6713, otherwise known as the "Code of Conduct and Ethical Standards for Public Officials and Employees," provides that it is the policy of the State to promote a high standard of ethics in the public service and requires government personnel to discharge their duties with utmost responsibility, integrity, competence, and loyalty, act with patriotism and justice, lead modest lives, and uphold public interest over personal interest.
 
 WHEREAS, Rule XVII of the Omnibus Rules Implementing Book V of Executive Order (EO) No. 292 (s. 1997) (Omnibus Rules) states that each head of the department or agency shall require all officers and employee under him to strictly observe the prescribed office hour through a daily time record of attendance of all the officials and employees under him, including those serving in the field or on the water;
 
