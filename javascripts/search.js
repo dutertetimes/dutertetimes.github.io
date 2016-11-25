@@ -255,6 +255,7 @@ var tipuesearch_string_13 = 'characters or more';
                                 found.push({
                                     "score": score,
                                     "title": tipuesearch_in.pages[i].title,
+                                    "date": tipuesearch_in.pages[i].date,
                                     "excerpt": s_excerpt,
                                     "tags": tipuesearch_in.pages[i].tags,
                                     "url": tipuesearch_in.pages[i].url
@@ -324,6 +325,7 @@ var tipuesearch_string_13 = 'characters or more';
                                 {
                                     "score": score,
                                     "title": tipuesearch_in.pages[i].title,
+                                    "date": tipuesearch_in.pages[i].date,
                                     "excerpt": s_excerpt,
                                     "tags": tipuesearch_in.pages[i].tags,
                                     "url": tipuesearch_in.pages[i].url
@@ -362,6 +364,7 @@ var tipuesearch_string_13 = 'characters or more';
                                     + '<span>' + counter + '</span>'
                                     + '<a href="' + found[i].url + '"' + tipue_search_w + '>' + found[i].title + '</a></div>';
 
+                                out += '<div class="tipue_search_content_tags"><p>' + found[i].date + '</p></div>';
                                 if (set.debug) {
                                     out += '<div class="tipue_search_content_debug"><p>Score: ' + found[i].score + '</p></div>';
                                 }
