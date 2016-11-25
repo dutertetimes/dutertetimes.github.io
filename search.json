@@ -4,6 +4,7 @@
 [
     {% for post in site.categories.news %}
     { "title": "{{ post.title | strip_html | normalize_whitespace }}",
+      "date": "{{ post.date }}",
       "excerpt": "{{ post.excerpt | strip_html | normalize_whitespace }}",
       "tags": "{{ post.tags | join: ', ' }}",
       "content": "{{ post.content | strip_html | normalize_whitespace }}",
