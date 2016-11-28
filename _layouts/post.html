@@ -12,24 +12,8 @@ layout: default
 
             {% if page.image.source %}
         <img src="{{ site.image_source }}{{ page.image.source }}" />
-            {% elsif page.categories contains 'president' %}
-        <img src="{{ site.url }}/images/post/post_president.png?4362984378" />
-            {% elsif page.categories contains 'criminality' %}
-        <img src="{{ site.url }}/images/post/post_crime.png?4362984378" />
-            {% elsif page.categories contains 'agrarian' %}
-        <img src="{{ site.url }}/images/post/post_agrarian.png?4362984378" />
-            {% elsif page.categories contains 'environment' %}
-        <img src="{{ site.url }}/images/post/post_env.png?4362984378" />
-            {% elsif page.categories contains 'foreign affairs' %}
-        <img src="{{ site.url }}/images/post/post_foreign.png?4362984378" />
-            {% elsif page.categories contains 'business' %}
-        <img src="{{ site.url }}/images/post/post_business.png?4362984378" />
-            {% elsif page.categories contains 'peace process' %}
-        <img src="{{ site.url }}/images/post/post_peace.png?4362984378" />
-            {% elsif page.categories contains 'opinion' %}
-        <img src="{{ site.url }}/images/post/post_opinion.png?4362984378" />
             {% else %}
-        <img src="{{ site.url }}/images/twitter_summary_card_01.png?4362984378" />
+        <img src="{{ site.url }}/images/twitter_summary_card_01.png" />
             {% endif %}
 
         <p class="date">{% if page.date %} {{ page.date | date: site.data.format.long }} {% else %} Undated {% endif %}</p>
