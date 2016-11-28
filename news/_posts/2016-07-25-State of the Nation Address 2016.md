@@ -1,5 +1,5 @@
 ---
-title: State of the Nation Address 2016 Transcript
+title: State of the Nation Address 2016
 date: 2016-07-25T11:00:49UTC
 excerpt: The first State of the Nation Address of President Rodrigo R. Duterte was held on July 25, 2016 at the Batasan Pambansa. This is a transcript of the State of the Nation Address.
 layout: post
@@ -13,15 +13,29 @@ image:
   source: 
   attribution: 
 video:
-  layout: top | bottom
-  source: 
-  attribution:
+  layout: top
+  source: 66Sw9liQB7c
+  attribution: RTVM
 sources:
-  - label: Presidential Communications Operations Office
-    link:
+  - label: Official Gazette
+    link: http://www.gov.ph/2016/07/26/the-2016-state-of-the-nation-address/
 ---
 
-The following is the transcript of the First State of the Nation Address of President Rodrigo R. Duterte, held at the Batasan Pambansa Complex in Quezon City on 25 July 2016.
+The following is the transcript of the first State of the Nation Address of President Rodrigo R. Duterte, held at the Batasan Pambansa Complex in Quezon City on 25 July 2016.
+
+###### State of the Nation Address of
+
+###### Rodrigo Roa Duterte
+
+###### President of the Philippines
+
+###### To the Congress of the Philippines
+
+###### Session Hall of the House of Representatives
+
+###### Delivered at the Batasang Pambansa Complex, Quezon City
+
+###### July 25, 2016
 
 Kindly sit down. Thank you.
 
@@ -941,7 +955,6 @@ And the Filipino, disciplined, informed, involved, shall rise from the rubbles o
 So that all the mirrors in the world will reflect the face of a passion that has changed this land.
 
 Daghang Salamat.
-
 &#x25cf;
 
 
