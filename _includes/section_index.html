@@ -23,6 +23,17 @@ Example:
         {% include post_entry.html post=post post_image=include.post_image %}
     </div>
     {% endfor %}
+    {% if site.categories[include.category].size < 3 %}
+        {% assign post_count = 3 | minus: site.categories[include.category].size %}
+        {% for i in (1..post_count) %}
+        <div class="container">
+            <div class="block block_margin_bottom block_default_fonts">
+                <div class="entries">
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
 </div>
 </div>
 
