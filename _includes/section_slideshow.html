@@ -17,18 +17,39 @@ Example:
     {% assign post_count = max_post_count %}
 {% endif %}
 
+{% assign this_category = include.category | replace: ' ', '_' | downcase %}
+
 <div class="block block_default_fonts">
     <h1>{{ include.title }}</h1>
     <div class="links">
-        {% for i in (1..post_count) %}
-        <span class="{{ include.category | replace: ' ', '_' | downcase }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide({{ i | minus: 1 }})"></span>
+        {% assign post_count = 0 %}
+        {% for post in include.posts %}
+            {% if post.categories[1] != this_category %}
+                {% continue %}
+            {% endif %}
+            
+            {% assign post_count = post_count | plus: 1 %}
+            {% if post_count > max_post_count %}
+                {% break %}
+            {% endif %}
+        <span class="{{ this_category }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide( {{ post_count | minus: 1 }} )"></span>
         {% endfor %}
     </div>
     <div class="entries">
 
-        {% for post in include.posts limit:max_post_count %}
-
-        <div class="entry {{ include.category | replace: ' ', '_' | downcase }}_news_entry">
+        {% assign post_count = 0 %}
+        {% for post in include.posts %}
+        
+        {% if post.categories[1] != this_category %}
+            {% continue %}
+        {% endif %}
+        
+        {% assign post_count = post_count | plus: 1 %}
+        {% if post_count > max_post_count %}
+            {% break %}
+        {% endif %}
+        
+        <div class="entry {{ this_category }}_news_entry">
             {% if site.debug %}
                 {% if post.image.source %}
             <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
@@ -44,7 +65,11 @@ Example:
             <img src="{{ site.image_source }}{{ post.image.source }}"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                 {% else %}
                     {% if post.video.source %}
+                        {% if post.video.thumbnail %}
+            <img src="http://img.youtube.com/vi/{{ post.video.source }}/{{ post.video.thumbnail }}.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
+                        {% else %}
             <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
+                        {% endif %}
                     {% else %}
             <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                     {% endif %}
@@ -54,7 +79,7 @@ Example:
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
 
-
+            <p class="category">Categories:&nbsp;{{ post.categories | join: ", " }}</p>
             <p class="excerpt">
                 {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
             </p>

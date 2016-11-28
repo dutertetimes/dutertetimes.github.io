@@ -64,64 +64,6 @@ permalink: /
 
 
 
-{% comment %}
-<div class="section_container_wrapper section_container_wrapper_border">
-    <h1>Latest Events</h1>
-
-    <div class="section_container container_top_margin_10 container_bottom_margin_5">
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.president[0] %}
-            {% include post_entry.html post=postitem post_image="post_president_16_9.png" %}
-        </div>
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.other[0] %}
-            {% include post_entry.html post=postitem post_image="post_other_16_9.png" %}
-        </div>
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.peace_process[0] %}
-            {% include post_entry.html post=postitem post_image="post_peace_16_9.png" %}
-        </div>
-        <div class="container">
-            {% assign postitem = site.categories.criminality[0] %}
-            {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
-        </div>
-    </div>
-
-    <div class="section_container container_bottom_margin_5">
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.agrarian[0] %}
-            {% include post_entry.html post=postitem post_image="post_agrarian_16_9.png" %}
-        </div>
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.environment[0] %}
-            {% include post_entry.html post=postitem post_image="post_environment_16_9.png" %}
-        </div>
-        <div class="container container_right_margin_10">
-            {% assign postitem = site.categories.business[0] %}
-            {% include post_entry.html post=postitem post_image="post_business_16_9.png" %}
-        </div>
-        <div class="container">
-            {% assign postitem = site.categories.foreign_affairs[0] %}
-            {% include post_entry.html post=postitem post_image="post_foreign_16_9.png" %}
-        </div>
-    </div>
-
-    {% comment %}
-    <div class="section_container container_bottom_margin_10">
-        <div class="container">
-            <div class="block block_margin_bottom block_default_fonts">
-                <div class="entries">
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endcomment %}
-
-</div>
-{% endcomment %}
-
-
-
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Topics</h1>
 
@@ -151,18 +93,17 @@ permalink: /
         </div>
         <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.press %}
-            {% include section_slideshow.html title="Press Events" category="Press Events" posts=section_posts post_image="post_press_16_9.png" %}
+            {% include section_slideshow.html title="Press Events" category="Press" posts=section_posts post_image="post_press_16_9.png" %}
         </div>
         <div class="container container_bottom_border_thin">
             {% assign section_posts = site.categories.business %}
-            {% include section_slideshow.html title="Economy" category="Economy" posts=section_posts post_image="post_business_16_9.png" %}
+            {% include section_slideshow.html title="Economy" category="Business" posts=section_posts post_image="post_business_16_9.png" %}
         </div>
     </div>
-
     <div class="section_container container_top_margin container_no_top_margin_mobile">
         <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.criminality %}
-            {% include section_slideshow.html title="Law and Order" category="Law and Order" posts=section_posts post_image="post_crime_16_9.png" %}
+            {% include section_slideshow.html title="Law and Order" category="Criminality" posts=section_posts post_image="post_crime_16_9.png" %}
         </div>
         <div class="container container_right_margin_20 container_bottom_border_thin">
             {% assign section_posts = site.categories.agrarian %}
@@ -186,7 +127,6 @@ permalink: /
         <div class="container">
         </div>
     </div>
-
 </div>
 
 
@@ -197,10 +137,10 @@ permalink: /
         currentPeaceProcessSlide(0);
 
         currentPresidentSlide(0);
-        currentPressEventsSlide(0);
+        currentPressSlide(0);
 
-        currentEconomySlide(0);
-        currentLawandOrderSlide(0);
+        currentBusinessSlide(0);
+        currentCriminalitySlide(0);
 
         currentAgrarianSlide(0);
         currentEnvironmentSlide(0);
@@ -223,20 +163,20 @@ permalink: /
         showPresidentSlides(n);
     }
 
-    function currentPressEventsSlide(n) {
-        showPressEventsSlides(n);
+    function currentPressSlide(n) {
+        showPressSlides(n);
     }
 
     function currentOtherSlide(n) {
         showOtherSlides(n);
     }
 
-    function currentLawandOrderSlide(n) {
-        showLawandOrderSlides(n);
+    function currentCriminalitySlide(n) {
+        showCriminalitySlides(n);
     }
 
-    function currentEconomySlide(n) {
-        showEconomySlides(n);
+    function currentBusinessSlide(n) {
+        showBusinessSlides(n);
     }
 
     function currentAgrarianSlide(n) {
@@ -269,16 +209,16 @@ permalink: /
         showSlides("president_dot", "president_news_entry", n);
     }
 
-    function showPressEventsSlides(n) {
-        showSlides("press_events_dot", "press_events_news_entry", n);
+    function showPressSlides(n) {
+        showSlides("press_dot", "press_news_entry", n);
     }
 
     function showOtherSlides(n) {
         showSlides("other_dot", "other_news_entry", n);
     }
 
-    function showEconomySlides(n) {
-        showSlides("economy_dot", "economy_news_entry", n);
+    function showBusinessSlides(n) {
+        showSlides("business_dot", "business_news_entry", n);
     }
 
     function showAgrarianSlides(n) {
@@ -297,8 +237,8 @@ permalink: /
         showSlides("peace_process_dot", "peace_process_news_entry", n);
     }
 
-    function showLawandOrderSlides(n) {
-        showSlides("law_and_order_dot", "law_and_order_news_entry", n);
+    function showCriminalitySlides(n) {
+        showSlides("criminality_dot", "criminality_news_entry", n);
     }
 
     function showOpinionSlides(n) {
