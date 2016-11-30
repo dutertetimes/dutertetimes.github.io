@@ -1,6 +1,7 @@
 // A block is a collection of one or multiple items.
 // Each item is a title, date and excerpt.
 div.block {
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 0;
     margin-bottom: 15px;
@@ -31,7 +32,10 @@ div.block {
     }
 
     div.entries {
-        @include block_internal;
+        margin: 0;
+        float: left;
+        display: inline-block;
+        width: 100%;
 
         p.no_entries {
             margin-bottom: 0;
@@ -42,6 +46,7 @@ div.block {
             width: 100%;
             float: left;
             margin-top: 10px;
+            margin-top: 5px;
 
             img {
                 float: right;

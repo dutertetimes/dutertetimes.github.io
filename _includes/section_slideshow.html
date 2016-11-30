@@ -40,14 +40,14 @@ Example:
         {% assign post_count = 0 %}
         {% for post in include.posts %}
         
-        {% if post.categories[1] != this_category %}
-            {% continue %}
-        {% endif %}
-        
-        {% assign post_count = post_count | plus: 1 %}
-        {% if post_count > max_post_count %}
-            {% break %}
-        {% endif %}
+            {% if post.categories[1] != this_category %}
+                {% continue %}
+            {% endif %}
+            
+            {% assign post_count = post_count | plus: 1 %}
+            {% if post_count > max_post_count %}
+                {% break %}
+            {% endif %}
         
         <div class="entry {{ this_category }}_news_entry">
             {% if site.debug %}
@@ -78,15 +78,17 @@ Example:
 
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-
+            {% if site.development %}
             <p class="category">Categories:&nbsp;{{ post.categories | join: ", " }}</p>
+            {% endif %}
             <p class="excerpt">
                 {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
             </p>
         </div>
-
-        {% else %}
-        <p class="no_entries">There are no posts for this section.</p>
         {% endfor %}
+        
+        {% if post_count == 0 %}
+            <p class="no_entries">There are no posts for this section.</p>
+        {% endif %}
     </div>
 </div>

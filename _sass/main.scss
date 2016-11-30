@@ -301,7 +301,7 @@ section {
         &.info_column_main      { width: calc(100% - 250px - 250px - 60px); }
     }
 
-    @include max-screen(720px) {
+    @include max-screen(720px)  {
         &.column_left_sidebar,
         &.column_right_sidebar,
         &.hub_column_main,

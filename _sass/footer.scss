@@ -60,7 +60,7 @@ footer {
         #footer_column_one,
         #footer_column_two,
         #footer_column_three {
-            @include min-screen(768px + 1px) {
+            @include min-screen(720px + 1px) {
                 margin-left: 25px;
             }
             width: 200px;
@@ -70,6 +70,10 @@ footer {
             @include min-screen(768px + 1px) {
                 float: right;
                 text-align: right;
+            }
+            @include max-screen(740px) {
+                float: left;
+                text-align: left;
             }
         }
 

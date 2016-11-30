@@ -1,4 +1,6 @@
 #weather_section_container {
+    float: clear;
+    
     @include min-screen(720px + 1px) {
         border-top: none;
         & > h1 {
@@ -6,6 +8,23 @@
         }
         // Overrides the div.section_container_wrapper setting
         margin-top: 0px !important;
+    }
+    
+    & > div.container {
+        @include min-screen(480px + 1px)  {
+            width: 50%;
+            max-width: 50%;
+        }
+        @include min-screen(768px + 1px)  {
+            width: 100%;
+            max-width: 100%;
+        }
+        @include max-screen(480px)  {
+            width: 100%;
+            max-width: 100%;
+        }
+        height: auto;
+        min-height: auto;
     }
 }
 

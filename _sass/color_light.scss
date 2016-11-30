@@ -62,6 +62,7 @@ $color_nav_bg:                  $color_header_bg;
 // News Hub entries
 $color_hub_entry_title:         darken($color_text, 9%);
 $color_hub_entry_date:          darken($color_primary, 5%);
+$color_hub_entry_date:          $color_text;
 $color_hub_entry_excerpt:       $color_text;
 $color_hub_entry_text:          $color_text;
 $color_hub_entry_line:          #f0f0f0;

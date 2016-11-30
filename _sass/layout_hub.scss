@@ -2,7 +2,7 @@ section.hub_column_main {
     @media print {
         margin-left: 0;
     }
-    @include max-screen(1024px) {
+    @include max-screen(720px) {
         margin-top: 10px;
     }
 }
@@ -47,88 +47,84 @@ div.section_container_wrapper_border {
     border-top: 1px solid $color_primary;
 }
 
-
-
 div.image_container,
 div.section_container {
     float: left;
     float: clear;
 
-    @include min-screen(1024px + 1px) {
-        width: 100%;
-        margin-bottom: 0;
-        display: flex;
-        flex-direction: row;
-    }
-
-    div.container {
-
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-
-        & > img {
-            display: block;
-            max-width: calc(100% - 1px);
-            width: auto;
-            height: auto;
-        }
-    }
+    width: 100%;
+    margin-bottom: 0;
 
     div.container_top_border_thin {
-        border-top: 1px solid $color_primary;
-        @include min-screen(1024px + 1px) {
+        @include min-screen(720px + 1px) {
+            border-top: 1px solid $color_primary;
             padding-top: 10px;
             padding-top: 5px;
-        }
-    }
-
-    div.container_bottom_border_thin {
-        @include min-screen(1024px + 1px) {
-            border-bottom: 1px solid $color_primary;
         }
     }
 
     // Contents are displayed in div.block
 }
 
+
+
+div.section_container {
+
+    & > div.container {
+        float: left;
+
+        @include min-screen(720px + 1px) {
+            height: 320px;
+            min-height: 320px;
+        }
+
+        @include max-screen(720px) {
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        @include min-screen(720px + 1px) {
+            // one-third of parent width less 2 margin right widths divided by 3
+            $container_width: calc(33.33% - 6.66px);
+            width: $container_width;
+            max-width: $container_width;
+        }
+
+        margin-right: 0;
+        @include min-screen(720px + 1px) {
+            margin-right: 10px;
+        }
+    }
+
+    & > div.no_right_margin {
+        margin-right: 0;
+    }
+}
+
+
+
 div.container_top_margin_10 {
     margin-top: 10px;
-}
-
-div.container_top_margin {
-    margin-top: 20px;
-}
-
-div.container_no_top_margin_mobile {
-    @include max-screen(720px) {
-        margin-top: 0;
-    }
-}
-
-div.container_bottom_margin_5 {
-    @include min-screen(1024px + 1px) {
-        padding-bottom: 5px;
-    }
-    @include max-screen(1024px) {
-        padding-bottom: 0px;
-    }
 }
 
 div.container_bottom_margin_10 {
     padding-bottom: 10px;
 }
 
-div.container_right_margin_10 {
-    margin-right: 10px;
+div.container_top_margin {
+    margin-top: 20px;
 }
 
-div.container_right_margin_20 {
-    margin-right: 20px;
+div.container_bottom_margin_5 {
+    @include min-screen(720px + 1px) {
+        padding-bottom: 5px;
+    }
     @include max-screen(720px) {
-        margin-right: 0;
+        padding-bottom: 0px;
     }
 }
+
+
 
 div.image_container {
     div.container {
