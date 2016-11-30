@@ -3,7 +3,7 @@ title: Interview at Wireless Cemetery
 date: 2016-11-26T05:40:39UTC
 excerpt: The President entertained an interviewed at the Wireless Cemetery, Davao City on 24 November 2016 during his visit to comemmorate the 105th birth anniversary of his late father, Vicente Duterte.
 layout: post
-categories: [president, press]
+categories: [press, president]
 tags: [105th birth anniversary, vicente duterte, wireless cemetery]
 published: true
 permalink: /news/VeL3DqMy2OnQlJZ

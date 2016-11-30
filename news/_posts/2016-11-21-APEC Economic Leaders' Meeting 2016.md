@@ -1,7 +1,7 @@
 ---
 title: APEC Economic Leaders' Meeting 2016
 date: 2016-11-21T19:26:06UTC
-excerpt: "The 24th Meeting of the Economic Leaders of the Asia-Pacific Economic Cooperation (APEC) in Lima, Peru was held 19–20 November 2016 with this year's theme, Quality Growth and Human Capital Development: A Foundation for Sustainable Growth in the Asia-Pacific."
+excerpt: "The 24th Meeting of the Economic Leaders of the Asia-Pacific Economic Cooperation was held 19–20 November 2016 in Lima, Peru themed, Quality Growth and Human Capital Development: A Foundation for Sustainable Growth in the Asia-Pacific."
 layout: post
 categories: [foreign_affairs]
 tags: [peru, asia-pacific economic cooperation, apec, apec economic leaders' meeting, aelm, apec-business advisory council, abac, pacific alliance, international monetary fund, imf, ceo summit, pedro pablo kuczynski, barack obama, vladimir putin, facebook, mark zuckerberg, christine lagarde, chile, mexico, colombia, vietnam, china, russia, japan, new zealand, united states]

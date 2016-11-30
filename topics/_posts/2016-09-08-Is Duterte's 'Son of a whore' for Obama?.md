@@ -1,7 +1,7 @@
 ---
 title: "Is Duterte's 'Son of a whore' for Obama?"
 date: 2016-09-08T08:11:10UTC
-excerpt: "On 5 September 2016 before leaving for the 28th and 29th ASEAN Summits, a correspondent of international news wire service Reuters asked President Rodrigo Roa Duterte about 'extrajudicial killings' in the government's fight against illegal drugs. His reply spread like wildfire across the world."
+excerpt: "On 5 September 2016 before leaving for the 28th and 29th ASEAN Summits, the President's answer on an 'extrajudicial killings' question spread like wildfire across the world."
 layout: post
 categories: [opinion]
 tags: [swearing, obama, bud dajo, stephen colbert, mark twain, samuel clemens]
