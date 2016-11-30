@@ -63,18 +63,6 @@ div.section_container {
 
     div.container {
 
-        /*
-        @include max-screen(1024px) {
-            width: 100%;
-        }
-
-        @include min-screen(1024px + 1px) {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        */
-
         flex: 1;
         display: flex;
         flex-direction: column;

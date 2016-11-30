@@ -39,16 +39,6 @@ form.style_one input#search_input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     
-    //outline: none;
-    
-    &:focus {
-        //-moz-box-shadow: 0 0 8px #88D5E9;
-        //-webkit-box-shadow: 0 0 8px #88D5E9;
-        //box-shadow: 0 0 8px #88D5E9;
-        
-        //border: 1px solid #88D5E9;
-    }
-    
     @include max-screen(720px) {
         display: hidden;
         background: none;
@@ -66,28 +56,6 @@ form.style_one input#search_input {
     }
 }
     
-/*
-form.style_one input#search_button {
-
-    @include button;
-    @include set_font($font_sans_thin, $font_size_default + 2, $color_text, bold);
-    
-    padding-top: 3px;
-    padding-bottom: 4px;
-    
-    color: $color_button_text;
-    background-color: $color_button_bg;
-    border: 1px solid $color_button_text;
-    border-radius: 2px;
-    
-    &:hover {
-        font-weight: bold;
-        color: $color_button_bg;
-        background-color: $color_button_text;
-    }
-}
-*/
-
 #search {
 
     @include max-screen(720px) {

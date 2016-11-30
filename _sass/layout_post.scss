@@ -111,7 +111,6 @@ section.post_column_main {
         @include min-screen(720px + 1px) { font-size: $font_size_default_thin; }
         @include max-screen(720px) { font-size: $font_size_default_thin - 1; }
         line-height: $font_size_footnote_link;
-        //font-weight: bold;
         color: $color_footnote_link;
     }
 
@@ -296,9 +295,6 @@ section.post_column_main {
         .font_italic {
             font-style: italic;
         }
-        .margin_top_20 {
-            //margin-top: 10px;
-        }
     }
 
     div.aside,
@@ -364,7 +360,6 @@ section.post_column_main {
         tbody tr td {
             @include wrap;
             a {
-                //@include compact;
                 border-bottom: none;
                 text-decoration: none;
                 &::after {

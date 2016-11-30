@@ -30,19 +30,4 @@ section.info_column_main {
             }
         }
     }
-
-/*
-    div.block > div.entries > div.entry {
-        p,
-        li,
-        p > a,
-        li > a {
-            @include set_font($font_page_text, $font_size_page_text, $color_page_text);
-            line-height: $font_line_height_page_text;
-            @include max-screen(720px) {
-                line-height: $font_line_height_page_text + 2;
-            }
-        }
-    }
-*/
 }
