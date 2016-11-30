@@ -137,6 +137,9 @@ div.container_right_margin_10 {
 
 div.container_right_margin_20 {
     margin-right: 20px;
+    @include max-screen(720px) {
+        margin-right: 0;
+    }
 }
 
 div.image_container {
