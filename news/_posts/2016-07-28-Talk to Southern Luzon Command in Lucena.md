@@ -120,4 +120,3 @@ At—yung mga problema, ganito ha. 'Yung ito, atin-atin lang ito.  Psst, media, 
 
 Maraming salamat po.
 &#x25cf;
-Malacañan
