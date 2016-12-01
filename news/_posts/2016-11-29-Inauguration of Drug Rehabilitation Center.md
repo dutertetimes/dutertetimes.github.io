@@ -1,7 +1,7 @@
 ---
-title: Inauguration of Drug Rehabilitation Center
+title: Inauguration of Fort Magsaysay Drug Rehabilitation Center
 date: 2016-11-29T15:10:47UTC
-excerpt: Inauguration of Phase 1 of the 100,000 sq. m. Drug Rehabilitation Center donated by Huang Rulun at Fort Ramon Magsaysay, Palayan City, Nueva Ecija on 29 November 2016.
+excerpt: Inauguration of Phase 1 of the 10-hectare Drug Abuse Treatment and Rehabilitation Center donated by Huang Rulun constructed inside Fort Ramon Magsaysay, Palayan City, Nueva Ecija on 29 November 2016.
 layout: post
 categories: [president]
 tags: [drug abuse treatment and rehabilitation center, datrc, drug rehabilitation center, huang rulun, fort ramon magsaysay, palayan city, nueva ecija]
