@@ -73,8 +73,8 @@ div.section_container {
         float: left;
 
         @include min-screen(720px + 1px) {
-            height: 320px;
-            min-height: 320px;
+            height: 340px;
+            min-height: 340px;
         }
 
         @include max-screen(720px) {
