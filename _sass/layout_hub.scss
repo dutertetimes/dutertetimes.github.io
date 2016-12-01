@@ -59,7 +59,6 @@ div.section_container {
         @include min-screen(720px + 1px) {
             border-top: 1px solid $color_primary;
             padding-top: 10px;
-            padding-top: 5px;
         }
     }
 
