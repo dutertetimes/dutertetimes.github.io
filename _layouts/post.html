@@ -9,23 +9,22 @@ layout: default
     <h1>{{ page.title }}</h1>
     <div class="meta">
         {% if site.development %}
-
             {% if page.image.source %}
         <img src="{{ site.image_source }}{{ page.image.source }}" />
             {% else %}
         <img src="{{ site.url }}/images/twitter_summary_card_01.png" />
             {% endif %}
-
-        <p class="date">{% if page.date %} {{ page.date | date: site.data.format.long }} {% else %} Undated {% endif %}</p>
-        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
-        <p class="category">Categories:&nbsp;{{ page.categories | join: ", "}}</p>
-        <p class="tag">Tags:&nbsp;{{ page.tags | join: ", " }}</p>
-
-        {% else %}
+        {% endif %}
 
         <p class="date">Date: {% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
 
-            {% if page.sources.size and page.sources.size > 0 and page.sources[0].link %}
+        {% if site.development %}
+        {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
+        <p class="category">Categories:&nbsp;{{ page.categories | join: ", "}}</p>
+        <p class="tag">Tags:&nbsp;{{ page.tags | join: ", " }}</p>
+        {% endif %}
+
+        {% if page.sources.size and page.sources.size > 0 and page.sources[0].link %}
         <div class="info_sources">
             <p>Sources:
                 {% for source in page.sources %}
@@ -37,8 +36,6 @@ layout: default
                 {% endfor %}
             </p>
         </div>
-            {% endif %}
-
         {% endif %}
     </div>
 

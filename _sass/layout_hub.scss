@@ -33,13 +33,15 @@ div.section_container_wrapper {
 
     // Title background
     & > h1 {
-        $padding_top: 4px;
+        $padding_top: 5px;
         $padding_bottom: 4px;
         padding: $padding_top 11px $padding_bottom 10px;
         @include max-screen(720px) {
             padding-top: $padding_top + 1;
             padding-bottom: $padding_bottom + 1;
         }
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 }
 
@@ -47,27 +49,12 @@ div.section_container_wrapper_border {
     border-top: 1px solid $color_primary;
 }
 
-div.image_container,
 div.section_container {
     float: left;
     float: clear;
 
     width: 100%;
     margin-bottom: 0;
-
-    div.container_top_border_thin {
-        @include min-screen(720px + 1px) {
-            border-top: 1px solid $color_primary;
-            padding-top: 10px;
-        }
-    }
-
-    // Contents are displayed in div.block
-}
-
-
-
-div.section_container {
 
     & > div.container {
         float: left;
@@ -95,43 +82,18 @@ div.section_container {
         }
     }
 
+    // Additional classes used with div.container
+
     & > div.no_right_margin {
         margin-right: 0;
     }
-}
 
-
-
-div.container_top_margin_10 {
-    margin-top: 10px;
-}
-
-div.container_bottom_margin_10 {
-    padding-bottom: 10px;
-}
-
-div.container_top_margin {
-    margin-top: 20px;
-}
-
-div.container_bottom_margin_5 {
-    @include min-screen(720px + 1px) {
-        padding-bottom: 5px;
+    & > div.container_top_border_thin {
+        @include min-screen(720px + 1px) {
+            border-top: 1px solid $color_primary;
+            padding-top: 10px;
+        }
     }
-    @include max-screen(720px) {
-        padding-bottom: 0px;
-    }
-}
 
-
-
-div.image_container {
-    div.container {
-        border-top: none;
-    }
-    img {
-        border-radius: 3px;
-    }
-    margin-top: 10px;
-    margin-bottom: 30px;
+    // Contents are displayed in div.block
 }

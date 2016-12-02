@@ -442,3 +442,28 @@ section.column_right_sidebar {
 .img_style_circle {
     border-radius: 50%;
 }
+
+// ----------------------------------------------------------------------------
+// Margins
+// ----------------------------------------------------------------------------
+
+div.top_margin_20 {
+    margin-top: 20px;
+}
+
+div.top_margin_10 {
+    margin-top: 10px;
+}
+
+div.bottom_margin_10 {
+    padding-bottom: 10px;
+}
+
+div.bottom_margin_5 {
+    @include min-screen(720px + 1px) {
+        padding-bottom: 5px;
+    }
+    @include max-screen(720px) {
+        padding-bottom: 0px;
+    }
+}

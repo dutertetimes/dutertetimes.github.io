@@ -21,7 +21,7 @@
         <ul>
             <li>
                 <a href="javascript:window.print()"
-                    data-toggle="tooltip" 
+                    data-toggle="tooltip"
                     data-placement="top"
                     title="Print the page or save as PDF file">
                     <i class="fa fa-print fa-lg" aria-hidden="true"></i>&nbsp;
@@ -32,7 +32,7 @@
                 <a href="https://twitter.com/share" data-via="{{ twitter }}"
                     data-url="{{ page.url }}"
                     data-text="{{ page.title }}"
-                    data-toggle="tooltip" 
+                    data-toggle="tooltip"
                     data-placement="top"
                     title="Tweet this page">
                     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;
@@ -41,33 +41,5 @@
             </li>
         </ul>
     </div>
-    <!--
-    <div id="page_previous">
-        {% if page.previous != nil %}
-            <p class="padding_bottom_5">&#x25C0;&nbsp;&nbsp;Previous</p>
-            <p class="padding_bottom_5"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a><br/>
-                <i>
-                {{ page.previous.excerpt }}<br/>
-                {{ page.previous.date | | date: "%b %-d, %Y" }}
-                </i>
-            </p>
-            
-            <p class="back_to_top padding_bottom_5"><a href="#">Back to Top</a></p>
-        {% endif %}
-    </div>
 
-    <div id="page_next">
-        {% if page.next != nil %}
-            <p class="padding_bottom_5">Next&nbsp;&nbsp;&#x25B6;</a></p>
-            <p class="padding_bottom_5"><a href="{{ page.next.url }}">{{ page.next.title }}</a><br/>
-                <i>
-                {{ page.next.excerpt }}<br/>
-                {{ page.next.date | | date: "%b %-d, %Y" }}
-                </i>
-            </p>
-            
-            <p class="back_to_top padding_bottom_5"><a href="#">Back to Top</a></p>
-        {% endif %}
-    </div>
-    -->
 </div>

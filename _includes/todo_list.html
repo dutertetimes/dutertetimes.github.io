@@ -9,10 +9,10 @@ Example:
 {% if site.development %}
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>TODO</h1>
-<div class="section_container container_top_margin container_bottom_margin_5">
+<div class="section_container top_margin_10 bottom_margin_10">
 <div class="block block_default_fonts">
     <div class="entries">
-    
+
     {% for post in include.todo_data %}
         <div class="entry">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -38,7 +38,7 @@ Example:
     {% else %}
         <p class="no_entries">There are no pending TODO items.</p>
     {% endfor %}
-    
+
     </div>
 </div>
 </div>

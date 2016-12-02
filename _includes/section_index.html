@@ -11,18 +11,19 @@ Example:
 
 {% include todo_list.html todo_data=include.todo_data %}
 
-<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
 <h1>{{ page.title }}</h1>
-<div class="section_container container_top_margin_10 container_bottom_margin_10">
+<div class="section_container top_margin_10 bottom_margin_10">
     {% for post in site.categories[include.category] limit:3 %}
         {% if forloop.index < 3 %}
-    <div class="container container_right_margin_20">
-        {% else %}
     <div class="container">
+        {% else %}
+    <div class="container no_right_margin">
         {% endif %}
         {% include post_entry.html post=post post_image=include.post_image %}
     </div>
     {% endfor %}
+
     {% if site.categories[include.category].size < 3 %}
         {% assign post_count = 3 | minus: site.categories[include.category].size %}
         {% for i in (1..post_count) %}
@@ -47,7 +48,7 @@ Example:
         {% if new_group %}
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>{{ section_posts[forloop.index0].date | date: '%Y %b' }}</h1>
-    <div class="section_container container_top_margin container_bottom_margin_5">
+    <div class="section_container top_margin_10 bottom_margin_10">
         <div class="block block_default_fonts">
             <div class="entries">
             {% assign new_group = false %}

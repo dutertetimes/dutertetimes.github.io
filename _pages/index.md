@@ -40,10 +40,10 @@ permalink: /
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
     <h1>Latest Stories</h1>
 
-    <div class="section_container container_top_margin">
+    <div class="section_container top_margin_10">
         <div class="container">
             {% assign postitem = site.categories.stories[0] %}
             {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
@@ -65,10 +65,10 @@ permalink: /
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
     <h1>Topics</h1>
 
-    <div class="section_container container_top_margin">
+    <div class="section_container top_margin_10">
         <div class="container">
             {% assign section_posts = site.categories.opinion %}
             {% include section_slideshow.html title="Opinion" category="Opinion" posts=section_posts post_image="post_opinion_16_9.png" %}
@@ -84,10 +84,10 @@ permalink: /
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border container_bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
     <h1>Events</h1>
 
-    <div class="section_container container_top_margin">
+    <div class="section_container top_margin_10">
         <div class="container">
             {% assign section_posts = site.categories.president %}
             {% include section_slideshow.html title="President" category="President" posts=section_posts post_image="post_president_16_9.png" %}
