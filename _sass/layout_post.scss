@@ -73,7 +73,7 @@ section.post_column_main {
 
         @include max-screen(720px) {
             @include set_font($font_page_text, $font_size_page_text + 3, $color_page_text);
-            line-height: $font_line_height_page_text + 4;
+            line-height: $font_line_height_page_text + 10;
         }
         @media print {
             @include set_font($font_page_text, $font_size_page_text + 4, $color_page_text);
@@ -327,7 +327,7 @@ section.post_column_main {
             text-align: left;
         }
     }
-    
+
     div.aside_right_left_align {
         h1, h2, h3, h4, h5, h6,
         & > p,
