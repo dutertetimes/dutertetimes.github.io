@@ -22,7 +22,9 @@ sources:
     link: http://cnnphilippines.com/regional/2016/11/29/Duterte-PSG-Marawi-explosion.html
   - label: MindaNews
     link: http://www.mindanews.com/top-stories/2016/11/dutertes-psg-advance-party-bombed-in-marawi/
-  - Philippine Star
+  - label: The Daily Tribune
+    link: http://www.tribune.net.ph/headlines/7-psg-men-2-soldiers-hurt-in-marawi-ambush
+  - label: Philippine Star
     link: http://www.philstar.com/headlines/2016/12/01/1649227/psg-ambush-fake
 ---
 
