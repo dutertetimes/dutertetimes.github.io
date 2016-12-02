@@ -260,13 +260,16 @@
 @mixin button {
     @include set_font($font_button, $font_size_button, $color_button_bg);
     @include max-screen(720px) {
-        font-size: $font_size_button + 1;
+        font-size: $font_size_button - 1;
     }
     text-align: center;
     white-space: nowrap;
     background-color: $color_button_text;
 
     padding: 5px 10px 5px 10px;
+    @include max-screen(720px) {
+        padding-top: 6px;
+    }
     border-radius: 3px;
     border: 1px solid $color_button_bg;
 
