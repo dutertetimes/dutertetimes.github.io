@@ -8,11 +8,11 @@
         {% assign postCount = 0 %}
         {% assign foundPost = false %}
         {% for post in site.categories['news'] %}
-        
+
             {% if post.categories contains 'newsbit' %}
                 {% continue %}
             {% endif %}
-            
+
             {% if post.title != page.title %}
                 {% for thisTag in page.tags %}
                     {% if post.tags contains thisTag %}
@@ -20,7 +20,7 @@
                         {% break %}
                     {% endif %}
                 {% endfor %}
-            
+
                 {% if foundPost == true %}
                     <div class="entry">
                         <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
@@ -30,7 +30,7 @@
                             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
                         {% endif %}
                         <p class="excerpt">{{ post.excerpt }}</p>
-                        {% if site.development %}
+                        {% if site.debug %}
                         <p class="tags">{{ page.tags }}</p>
                         {% endif %}
                     </div>

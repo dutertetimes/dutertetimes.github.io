@@ -54,13 +54,13 @@ Example:
             {% assign new_group = false %}
         {% endif %}
 
-{% if site.development %}
+{% if site.debug %}
                 <div class="entry">
 {% else %}
                 <div class="entry index_entry">
 {% endif %}
                     <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    {% if site.development %}
+                    {% if site.debug %}
                     <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
                     <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
                     <p class="tag">Tags:&nbsp;{{ post.tags | join: ", " }}</p>

@@ -21,9 +21,9 @@ Argument(s):
         {% endfor %}
     {% endif %}
     </ul>
-    
-    
-    {% if site.development %}
+
+
+    {% if site.debug %}
         {% if include.entry.development %}
     <p class="excerpt">{{ include.entry.notes }}</p>
         {% endif %}

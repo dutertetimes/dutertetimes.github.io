@@ -78,7 +78,7 @@ Example:
 
             <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            {% if site.development %}
+            {% if site.debug %}
             <p class="category">Categories:&nbsp;{{ post.categories | join: ", " }}</p>
             {% endif %}
             <p class="excerpt">

@@ -8,7 +8,7 @@ layout: default
 
     <h1>{{ page.title }}</h1>
     <div class="meta">
-        {% if site.development %}
+        {% if site.debug %}
             {% if page.image.source %}
         <img src="{{ site.image_source }}{{ page.image.source }}" />
             {% else %}
@@ -18,7 +18,7 @@ layout: default
 
         <p class="date">Date: {% if page.date %} {{ page.date | date: site.data.format.date_only }} {% else %} Undated {% endif %}</p>
 
-        {% if site.development %}
+        {% if site.debug %}
         {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
         <p class="category">Categories:&nbsp;{{ page.categories | join: ", "}}</p>
         <p class="tag">Tags:&nbsp;{{ page.tags | join: ", " }}</p>
