@@ -1,7 +1,7 @@
 ---
 title: Duterte Visits Wounded PSG and Soldiers from Explosion in Marawi City
 date: 2016-11-30T05:26:48UTC
-excerpt: The President visited the 7 Presidential Security Group members and 2 soldiers who were part of the President's advance party that were wounded in an explosion in Marawi City, Lanao Del Sur on 29 November 2016.
+excerpt: "The President visited the 7 Presidential Security Group members and 2 soldiers who were part of the President's advance party that were wounded in an explosion in Marawi City, Lanao Del Sur on 29 November 2016."
 layout: post
 categories: [president]
 tags: [wounded in action, presidential security group, psg, philippine army, philippine army 4th infantry division, camp evangelista, camp evangelista station hospital, cagayan de oro city]
