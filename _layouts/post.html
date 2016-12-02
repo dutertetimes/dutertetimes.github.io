@@ -29,7 +29,7 @@ layout: default
             <p>Sources:
                 {% for source in page.sources %}
                     {% if source.link %}
-                <span><a href="{{ source.link }}">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
+                <span><a href="{{ source.link }}" target="_blank">{{ source.label }}</a></span>{% unless forloop.last %},{% endunless %}
                     {% else %}
                 <span>{{ source.label }}</span>{% unless forloop.last %},{% endunless %}
                     {% endif %}
