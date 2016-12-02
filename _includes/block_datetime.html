@@ -1,16 +1,20 @@
-<div id="datetime_block" class="block block_margin_top">
-    <h1>Date and Time</h1>
-    <div class="entries">
-        <div class="entry">
-            <p id="current_date" class="date"></p>
-            <p id="current_time" class="time"></p>
+<div id="weather_section_container" class="section_container_wrapper">
+    <div class="container">
+        <div id="datetime_block" class="block">
+            <h1>Date and Time</h1>
+            <div class="entries">
+                <div class="entry">
+                    <p id="current_date" class="date"></p>
+                    <p id="current_time" class="time"></p>
+                </div>
+                {% if site.debug %}
+                <div class="entry">
+                    <p id="current_date_utc" class="date utc"></p>
+                    <p id="current_time_utc" class="time utc"></p>
+                </div>
+                {% endif %}
+            </div>
         </div>
-        {% if site.development %}
-        <div class="entry">
-            <p id="current_date_utc" class="date utc"></p>
-            <p id="current_time_utc" class="time utc"></p>
-        </div>
-        {% endif %}
     </div>
 </div>
 
@@ -27,7 +31,7 @@
             currentDate.text(localTime.format(dateFormat));
             currentTime.text(localTime.format(timeFormat));
 
-            {% if site.development %}
+            {% if site.debug %}
             var currentDateUTC = $('#current_date_utc');
             var currentTimeUTC = $('#current_time_utc');
             var utcTime =moment.utc();

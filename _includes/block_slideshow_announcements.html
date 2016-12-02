@@ -1,4 +1,4 @@
-<div id="announcement_section_container">
+<div id="announcement_section_container" class="section_container_wrapper">
     <div class="container">
         <div id="announcements_block" class="block block_margin_top block_default_fonts">
         </div>
@@ -50,7 +50,7 @@
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " slideshow_active";
 
-        {% if site.development %}
+        {% if site.debug %}
             let timerId = setTimeout(showAnnouncementSlides, 3000);
         {% else %}
             let timerId = setTimeout(showAnnouncementSlides, 15000);

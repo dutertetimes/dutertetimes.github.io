@@ -22,6 +22,7 @@
         display: none;
     }
     @include max-screen(720px) {
+        display: none;
         margin-top: 20px !important;
     }
 }

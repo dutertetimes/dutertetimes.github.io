@@ -2,15 +2,20 @@
 http://www.goes.noaa.gov/sohemi/
 {% endcomment %}
 
-<div id="weather_section_container" class="section_container_wrapper section_container_wrapper_border">
+<div id="weather_section_container" class="section_container_wrapper">
+    {% comment %}
     <h1>Weather</h1>
+    {% endcomment %}
     <div class="container">
-        <div id="weather_block" class="block block_margin_top block_default_fonts">
+        <div id="weather_block" class="block block_default_fonts">
+            {% comment %}
             <h1>Satellite Image</h1>
+            {% endcomment %}
+            <h1>Weather Satellite Image</h1>
             <div class="entries">
                 <div class="entry">
                     <div class="image">
-                        {% if site.development == true %}
+                        {% if site.debug %}
                         <img src="/images/public/philir.jpg" width="100%" height="auto"/>
                         {% else %}
                         <img src="{{ site.data.links.weather_satellite_image }}"/>
