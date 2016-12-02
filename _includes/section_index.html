@@ -57,7 +57,7 @@ Example:
 {% if site.debug %}
                 <div class="entry">
 {% else %}
-                <div class="entry index_entry">
+                <div class="index_entry">
 {% endif %}
                     <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
                     {% if site.debug %}

@@ -20,7 +20,7 @@ Example:
         <div class="block block_default_fonts">
             <div class="entries">
         {% for post in include.posts %}
-                <div class="entry index_entry">
+                <div class="index_entry">
                     <h2 class="indexed"><span>{{ counter }}</span><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
                     {% assign counter = counter | plus: 1 %}
                 </div>

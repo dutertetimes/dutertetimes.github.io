@@ -7,7 +7,7 @@ div.block {
     margin-bottom: 15px;
     float: left;
 
-    h1 {
+    & > h1 {
         font-family: $font_label;
         font-size: $font_size_label;
         @include max-screen(720px) {
@@ -42,11 +42,10 @@ div.block {
             font-style: italic;
         }
 
-        div.entry {
+        & > div.entry,
+        & > div.index_entry {
             width: 100%;
             float: left;
-            margin-top: 10px;
-            margin-top: 5px;
 
             img {
                 float: right;
@@ -59,7 +58,7 @@ div.block {
                 height: 100%;
                 margin-bottom: 10px;
             }
-            
+
             img.image_thumbnail_left,
             img.video_thumbnail_left,
             img.image_thumbnail_right,
@@ -79,7 +78,7 @@ div.block {
                 margin-bottom: 3px;
                 margin-left: 10px;
             }
-            
+
             img.image_thumbnail_right_mobile,
             img.video_thumbnail_right_mobile {
                 @include max-screen(720px) {
@@ -110,10 +109,13 @@ div.block {
                 }
             }
         }
-        
-        div.index_entry {
-            width: 100%;
-            float: left;
+
+        & > div.entry {
+            margin-top: 10px;
+            margin-top: 5px;
+        }
+
+        & > div.index_entry {
             @include compact;
         }
     }
@@ -135,7 +137,8 @@ img.block_margin_right {
 
 div.block_default_fonts {
     div.entries {
-        div.entry {
+        & > div.entry,
+        & > div.index_entry {
             h2, h2 > a {
                 @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
                 line-height: $font_line_height_hub_default_title + 2;
@@ -200,8 +203,8 @@ div.block_default_fonts {
                 }
             }
         }
-        
-        div.index_entry {
+
+        & > div.index_entry {
             h2, h2 > a {
                 font-weight: normal;
             }
@@ -216,7 +219,8 @@ div.block_default_fonts {
 
 div.block_compact_fonts {
     div.entries {
-        div.entry {
+        & > div.entry,
+        & > div.index_entry {
             h2, h2 > a {
                 text-transform: uppercase;
                 letter-spacing: 0.2px;
