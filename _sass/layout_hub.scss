@@ -33,7 +33,7 @@ div.section_container_wrapper {
 
     // Title background
     & > h1 {
-        $padding_top: 5px;
+        $padding_top: 6px;
         $padding_bottom: 4px;
         padding: $padding_top 11px $padding_bottom 10px;
         @include max-screen(720px) {
