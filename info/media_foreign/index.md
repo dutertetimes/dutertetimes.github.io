@@ -19,7 +19,7 @@ published: true
         <div class="entry">
             <h2><a href="{{ entry.link[0].url }}">{{ entry.name }}</a></h2>
 
-            {% if site.development and entry.description %}
+            {% if site.debug and entry.description %}
             <p class="excerpt">{{ entry.description }}</p>
             {% endif %}
 
