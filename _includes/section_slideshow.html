@@ -27,7 +27,7 @@ Example:
             {% if post.categories[1] != this_category %}
                 {% continue %}
             {% endif %}
-            
+
             {% assign post_count = post_count | plus: 1 %}
             {% if post_count > max_post_count %}
                 {% break %}
@@ -39,36 +39,36 @@ Example:
 
         {% assign post_count = 0 %}
         {% for post in include.posts %}
-        
+
             {% if post.categories[1] != this_category %}
                 {% continue %}
             {% endif %}
-            
+
             {% assign post_count = post_count | plus: 1 %}
             {% if post_count > max_post_count %}
                 {% break %}
             {% endif %}
-        
+
         <div class="entry {{ this_category }}_news_entry">
             {% if site.debug %}
                 {% if post.image.source %}
-            <img src="/images/offline/thumbnail_image.png"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
+            <img src="/images/offline/thumbnail_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                 {% else %}
                     {% if post.video.source %}
             <img src="/images/offline/thumbnail_video.png" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
                     {% else %}
-            <img src="/images/offline/thumbnail_twitter_card.png"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
+            <img src="/images/offline/thumbnail_twitter_card.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% else %}
                 {% if post.image.source %}
-            <img src="{{ site.image_source }}{{ post.image.source }}"  class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
+            <img src="{{ site.image_source }}{{ post.image.source }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded" alt="Photo by {{ post.image.attribution }}"/>
                 {% else %}
                     {% if post.video.source %}
                         {% if post.video.thumbnail %}
             <img src="http://img.youtube.com/vi/{{ post.video.source }}/{{ post.video.thumbnail }}.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
                         {% else %}
-            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
+            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded" alt="Video by {{ post.video.attribution }}"/>
                         {% endif %}
                     {% else %}
             <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
@@ -86,7 +86,7 @@ Example:
             </p>
         </div>
         {% endfor %}
-        
+
         {% if post_count == 0 %}
             <p class="no_entries">There are no posts for this section.</p>
         {% endif %}
