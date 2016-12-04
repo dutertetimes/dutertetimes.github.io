@@ -13,7 +13,7 @@ Example:
 
 <div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
 <h1>{{ page.title }}</h1>
-<div class="section_container top_margin_10 bottom_margin_10">
+<div class="section_container top_margin_10">
     {% for post in site.categories[include.category] limit:3 %}
         {% if forloop.index < 3 %}
     <div class="container">
@@ -23,18 +23,6 @@ Example:
         {% include post_entry.html post=post post_image=include.post_image %}
     </div>
     {% endfor %}
-
-    {% if site.categories[include.category].size < 3 %}
-        {% assign post_count = 3 | minus: site.categories[include.category].size %}
-        {% for i in (1..post_count) %}
-        <div class="container">
-            <div class="block block_margin_bottom block_default_fonts">
-                <div class="entries">
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    {% endif %}
 </div>
 </div>
 
