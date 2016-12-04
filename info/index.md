@@ -12,4 +12,6 @@ published: true
 3. [Places](/info/places/)
 4. [Organization](/info/org/)
 5. [Company](/info/company/)
+{% if site.development %}
 6. [News Sources](/info/sources/)
+{% endif %}
