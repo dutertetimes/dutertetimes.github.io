@@ -52,12 +52,12 @@ Example:
         <div class="entry {{ this_category }}_news_entry">
             {% if site.debug %}
                 {% if post.image.source %}
-            <img src="/images/offline/thumbnail_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
+            <img src="/images/offline/thumbnail_post_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                 {% else %}
                     {% if post.video.source %}
-            <img src="/images/offline/thumbnail_video.png" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
+            <img src="/images/offline/thumbnail_post_video.png" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
                     {% else %}
-            <img src="/images/offline/thumbnail_twitter_card.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
+            <img src="/images/offline/thumbnail_category_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
                     {% endif %}
                 {% endif %}
             {% else %}
