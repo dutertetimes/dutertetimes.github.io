@@ -4,6 +4,7 @@ CMakeLists.txt
 images/top_1.png
 images/top_2.png
 images/temp
+images/offline
 newsbit/_posts/post.sh
 newsbit/scratch.txt
 Gemfile.lock
@@ -16,6 +17,7 @@ _site
 _sass/*.map
 news/*.md
 news/.sass-cache/**
+stories/*.md
 _includes/.sass-cache/**
 _posts/.sass-cache/**
 _sass/.sass-cache/**
