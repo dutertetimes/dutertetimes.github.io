@@ -10,7 +10,7 @@ redirect_from: /stories/20161110T105405
 permalink: /stories/2OW3xpJjPx83vG0
 image:
   layout: none
-  source: /site/gov_senate_leila_de_lima.jpg
+  source: gov_senate_leila_de_lima.jpg
   attribution: Public Domain
 video:
   layout: [top | bottom]
