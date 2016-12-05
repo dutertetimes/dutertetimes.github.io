@@ -1,0 +1,560 @@
+[
+    {
+        "group": "Government Sources",
+        "title": "Official Gazette of the Republic of the Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.gov.ph/" },
+                    { "label": "Facebook", "url": "https://www.facebook.com/govph" },
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "President of the Republic of the Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.president.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Senate of the Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.senate.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "House of Representatives of the Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.congress.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Supreme Court",
+        "link":  [
+                    { "label": "Official Site", "url": "http://sc.judiciary.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Presidential Communications",
+        "link":  [
+                    { "label": "Facebook", "url": "https://www.facebook.com/presidentialcom" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Laging Handa",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.gov.ph/laginghanda/" },
+                    { "label": "Facebook", "url": "http://www.facebook.com/LagingHandaPHL" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Philippine Information Agency",
+        "link":  [
+                    { "label": "Official Site", "url": "http://news.pia.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Philippine News Agency",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.pna.gov.ph/index.php" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Housing and Urban Development Coordinating Council (HUDCC)",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.hudcc.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Agriculture",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.da.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Agrarian Reform",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.dar.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Budget and Management",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.dbm.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Environment and Natural Resources",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.denr.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Mines and Geosciences Bureau",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.mgb.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Office of the Ombudsman",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.ombudsman.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Philippine Statistics Authority",
+        "link":  [
+                    { "label": "Official Site", "url": "http://psa.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Bureau of Corrections",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.bucor.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "National Historical Commission of the Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://nhcp.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Banko Sentral ng Pilipinas",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.bsp.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Labor and Employment",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.dole.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Science and Technology",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.dost.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Foreign Affairs",
+        "link":  [
+                    { "label": "Official Site", "url": "http://dfa.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Office of the Presidential Adviser on the Peace Process",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.opapp.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "National Economic and Development Authority",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.neda.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Department of Interior and Local Government",
+        "link":  [
+                    { "label": "Official Site", "url": "http://dilg.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Philippine Drug Enforcement Agency",
+        "link":  [
+                    { "label": "Official Site", "url": "http://pdea.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Dangerous Drugs Board",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.ddb.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Commission on Filipino Overseas",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.cfo.gov.ph/index.php" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Philippine Government Electronic Procurement System",
+        "link":  [
+                    { "label": "Official Site", "url": "https://www.philgeps.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "Autonomous Region in Muslim Mindanao",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.armm.gov.ph/" }
+                 ]
+    },
+    {
+        "group": "Government Sources",
+        "title": "ARMM Bureau of Public Information",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.armm-info.com/" }
+                 ]
+    },
+    
+
+
+    {
+        "group": "Foreign",
+        "title": "European Union External Action",
+        "link":  [
+                    { "label": "Official Site", "url": "https://eeas.europa.eu/delegations/philippines_en" }
+                 ]
+    },
+    {
+        "group": "Foreign",
+        "title": "European Union We Inspire Each Other",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.weinspireeachother.eu/" }
+                 ]
+    },
+
+
+
+    {
+        "group": "Local Media",
+        "title": "Manila Bulletin",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.mb.com.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "The Standard",
+        "link":  [
+                    { "label": "Official Site", "url": "http://thestandard.com.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Manila Times",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.manilatimes.net/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "The Daily Tribune News",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.tribune.net.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "CNN Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://cnnphilippines.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Philippine Star",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.philstar.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Eagle News",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.eaglenews.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Metro Cebu",
+        "link":  [
+                    { "label": "Official Site", "url": "http://metrocebu.com.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Mindanao Times",
+        "link":  [
+                    { "label": "Official Site", "url": "http://mindanaotimes.net/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Mindanao Gold Star Daily",
+        "link":  [
+                    { "label": "Official Site", "url": "http://mindanaogoldstardaily.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Altermidya",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.altermidya.net/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "MindaNews",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.mindanews.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Bulatlat",
+        "link":  [
+                    { "label": "Official Site", "url": "http://bulatlat.com/main/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Pinoy Weekly",
+        "link":  [
+                    { "label": "Official Site", "url": "http://pinoyweekly.org/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Kadao",
+        "link":  [
+                    { "label": "Official Site", "url": "http://kodao.org/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Watchmen Daily Journal",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.watchmendaily.com/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Local Media",
+        "title": "Business Mirror",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.businessmirror.com.ph/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Business World",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.bworldonline.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "International Business Times",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.ibtimes.com/" }
+                 ]
+    },
+    {
+        "group": "Local Media",
+        "title": "Malaya Business Insights",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.malaya.com.ph/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Chamber of Commerce and Industry",
+        "title": "Bulacan",
+        "link":  [
+                    { "label": "Official Site", "url": "http://bulacanchamber.ph/" }
+                 ]
+    },
+    {
+        "group": "Chamber of Commerce and Industry",
+        "title": "Davao",
+        "link":  [
+                    { "label": "Official Site", "url": "http://davaochamber.com/" }
+                 ]
+    },
+    {
+        "group": "Chamber of Commerce and Industry",
+        "title": "Makati",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.makatichamber.com/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Organization",
+        "title": "Migrante International",
+        "link":  [
+                    { "label": "Official Site", "url": "https://migranteinternational.org/" }
+                 ]
+    },
+    {
+        "group": "Organization",
+        "title": "National Competitiveness Council",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.competitive.org.ph/" }
+                 ]
+    },
+    {
+        "group": "Organization",
+        "title": "Anakpawis",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.anakpawis.net/" }
+                 ]
+    },
+    {
+        "group": "Organization",
+        "title": "CPP",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.cpp.ph/" }
+                 ]
+    },
+    {
+        "group": "Organization",
+        "title": "EcoWaste Coalition",
+        "link":  [
+                    { "label": "Official Site", "url": "http://ecowastecoalition.blogspot.com/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Foreign Organizations",
+        "title": "International Monetary Fund",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.imf.org/external/index.htm" }
+                 ]
+    },
+    {
+        "group": "Foreign Organizations",
+        "title": "International Finance Corporation",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.ifc.org/" }
+                 ]
+    },
+    {
+        "group": "Foreign Organizations",
+        "title": "World Bank",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.worldbank.org/" }
+                 ]
+    },
+    {
+        "group": "Foreign Organizations",
+        "title": "Asia-Europe Meeting",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.aseminfoboard.org/" }
+                 ]
+    },
+    {
+        "group": "Foreign Organizations",
+        "title": "ADAS",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.adas.ph/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Surveys",
+        "title": "Pulse Asia",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.pulseasia.ph/" }
+                 ]
+    },
+    {
+        "group": "Surveys",
+        "title": "Social Weather Stations",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.sws.org.ph/" }
+                 ]
+    },
+    
+    
+    
+    {
+        "group": "Alternative Sources",
+        "title": "Get Real Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.getrealphilippines.com/blog/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "Kalikasan",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.kalikasan.net/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "News Now",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.newsnow.ph/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "Arangkada Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.investphilippines.info/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "Northern Philippine Times",
+        "link":  [
+                    { "label": "Official Site", "url": "http://northphiltimes.blogspot.com/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "Agriculture Philippines",
+        "link":  [
+                    { "label": "Official Site", "url": "http://www.agricultureph.com/" }
+                 ]
+    },
+    {
+        "group": "Alternative Sources",
+        "title": "The Maharlikan",
+        "link":  [
+                    { "label": "Official Site", "url": "http://themaharlikan.info/" }
+                 ]
+    },
+]

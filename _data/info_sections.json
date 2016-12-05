@@ -1,0 +1,31 @@
+[
+    {
+        "title":        "Law",
+        "url":          "/info/law/"
+    },
+    {
+        "title":        "People",
+        "url":          "/info/person/"
+    },
+    {
+        "title":        "Places",
+        "url":          "/info/place/"
+    },
+    {
+        "title":        "Organizations",
+        "url":          "/info/org/"
+    },
+    {
+        "title":        "Companies",
+        "url":          "/info/company/"
+    },
+    {
+        "title":        "Papers and Documents",
+        "url":          "/info/doc/"
+    },
+    {
+        "title":        "Info and News Sources",
+        "url":          "/info/sources/",
+        "development":  true
+    },
+]
