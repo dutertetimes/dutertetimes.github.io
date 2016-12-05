@@ -31,9 +31,9 @@ Argument(s):
             {% endif %}
 
             <h2><a href="{{ include.post.url }}.html">{{ include.post.title }}</a></h2>
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
+            <p class="date">{{ include.post.date | date: site.data.format.date_only }}</p>
             {% if site.debug %}
-            <p class="category">Categories:&nbsp;{{ post.categories | join: ", " }}</p>
+            <p class="category">Categories:&nbsp;{{ include.post.categories | join: ", " }}</p>
             {% endif %}
             <p class="excerpt">
                 {{ include.post.excerpt }}{% if include.post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
