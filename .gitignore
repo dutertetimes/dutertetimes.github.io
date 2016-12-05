@@ -4,7 +4,9 @@ CMakeLists.txt
 images/top_1.png
 images/top_2.png
 images/temp
+images/favicon
 images/offline
+images/post
 newsbit/_posts/post.sh
 newsbit/scratch.txt
 Gemfile.lock
