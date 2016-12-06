@@ -26,6 +26,8 @@ sources:
     link: http://www.tribune.net.ph/headlines/7-psg-men-2-soldiers-hurt-in-marawi-ambush
   - label: Philippine Star
     link: http://www.philstar.com/headlines/2016/12/01/1649227/psg-ambush-fake
+  - label: MindaNews
+    link: http://www.mindanews.com/duterte-files/2016/11/duterte-transcripts-zamboanga-city/
 ---
 
 President Rodrigo Roa Duterte visited the seven members of the Presidential Security Group (PSG) and four soldiers who were part of the President's advance party that were wounded in an explosion enroute to Marawi City, Lanao Del Sur on 29 November 2016.
