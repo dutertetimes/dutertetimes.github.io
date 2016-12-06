@@ -4,7 +4,7 @@ date: 2016-11-30T08:19:43UTC
 excerpt: The President visited the 103rd Brigade Tactical Command Post in Butig, Lanao Del Norte on 30 November 2016.
 layout: post
 categories: [president, military]
-tags: [103rd brigade tactical command post, tactical command post, butig, lanao del norte]
+tags: [103rd brigade tactical command post, tactical command post, butig, lanao del norte, speech, transcript]
 published: true
 permalink: /news/VeL3Dq5Z86nQlJZ
 image:
