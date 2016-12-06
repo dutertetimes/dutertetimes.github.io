@@ -1,12 +1,12 @@
 ---
 title: Asia-Pacific Economic Cooperation (APEC)
 date: 2016-11-21T21:22:56UTC
-excerpt: The Asia-Pacific Economic Cooperation (APEC) is a regional economic forum established in 1989 to leverage the growing interdependence of the Asia-Pacific.
+excerpt: The Asia-Pacific Economic Cooperation is a regional economic forum established in 1989 to leverage the growing interdependence of the Asia-Pacific.
 layout: post
 categories: [org]
 tags: [apec]
 published: true
-permalink: /info/.../r9xRV0l4NZ2QEBZ
+permalink: /info/org/r9xRV0l4NZ2QEBZ
 image:
   layout: auto_width
   source: 
