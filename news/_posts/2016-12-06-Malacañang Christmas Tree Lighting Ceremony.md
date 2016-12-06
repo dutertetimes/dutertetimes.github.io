@@ -112,7 +112,7 @@ For the Filipino people, yung mga, lalo na 'yung mga brother natin na mga Moro n
 
 In Davao, wala kami. I do not allow anybody to preach about 'yung mga, kung ano-ano sa Katoliko, pati rin sa Islam. Do not debate in public. Just go to your church and pray however you want it.
 
-So, with that, I will say to you all. So we are nearing the 2017. Tutal, 'yung mga nasa opposition, maghintay lang kayo. Hindi naman, tutal naghintay man rin sila. So hintayan tayo and you've had your days. Ngayon, kung sabihin mo na, you continue with just, you know, forget it. Ako talaga, straightforward ako, diretso until wala nang Pilipino maging gago at walanghiyain tayo. You want to worry me about the 3,000? You want me to worry about the son of a bitch? Tapos with four million Filipino addicted?Anak ka ng—
+So, with that, I will say to you all. So we are nearing the 2017. Tutal, 'yung mga nasa opposition, maghintay lang kayo. Hindi naman, tutal naghintay man rin sila. So hintayan tayo and you've had your days. Ngayon, kung sabihin mo na, you continue with just, you know, forget it. Ako talaga, straightforward ako, diretso until wala nang Pilipino maging gago at walanghiyain tayo. You want to worry me about the 3,000? You want me to worry about the son of a bitch? Tapos with four million Filipino addicted? Anak ka ng—
 
 Merry Christmas and Happy New Year.
 &#x25cf;
