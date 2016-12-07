@@ -64,14 +64,28 @@ div.section_container {
             min-height: 340px;
         }
         
-        @include max-screen(720px) {
+        @include max-screen(360px) {
             margin-right: 0;
             width: 100%;
             max-width: 100%;
             min-width: 100%;
         }
+        @include max-screen(720px) {
+            margin-right: 15px;
+            &:nth-of-type(even) {
+                margin-right: 0;
+            }
+            // one-half of parent width less 2 x margin right widths divided by 2
+            $container_width: calc(50% - 8px);
+            width: $container_width;
+            max-width: $container_width;
+            min-width: $container_width;
+        }
         @include min-screen(720px + 1px) {
             margin-right: 15px;
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
             // one-third of parent width less 2 x margin right widths divided by 3
             $container_width: calc(33.33% - 10px);
             width: $container_width;
@@ -80,11 +94,7 @@ div.section_container {
         }
     }
 
-    // Additional classes used with div.container
-
-    & > div.no_right_margin {
-        margin-right: 0;
-    }
+    // Class(es) used with div.container
 
     & > div.container_top_border_thin {
         @include min-screen(720px + 1px) {

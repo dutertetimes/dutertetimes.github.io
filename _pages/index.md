@@ -77,7 +77,7 @@ permalink: /
             {% assign section_posts = site.categories.peace_process %}
             {% include section_slideshow.html title="Peace Process" category="Peace Process" posts=section_posts post_image="post_peace_16_9.png" %}
         </div>
-        <div class="container no_right_margin">
+        <div class="container">
         </div>
     </div>
 </div>
@@ -96,7 +96,7 @@ permalink: /
             {% assign section_posts = site.categories.press %}
             {% include section_slideshow.html title="Press Events" category="Press" posts=section_posts post_image="post_press_16_9.png" %}
         </div>
-        <div class="container no_right_margin">
+        <div class="container">
             {% assign section_posts = site.categories.business %}
             {% include section_slideshow.html title="Economy" category="Business" posts=section_posts post_image="post_business_16_9.png" %}
         </div>
@@ -109,7 +109,7 @@ permalink: /
             {% assign section_posts = site.categories.agrarian %}
             {% include section_slideshow.html title="Agrarian" category="Agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
         </div>
-        <div class="container container_top_border_thin no_right_margin">
+        <div class="container container_top_border_thin">
             {% assign section_posts = site.categories.environment %}
             {% include section_slideshow.html title="Environment" category="Environment" posts=section_posts post_image="post_environment_16_9.png" %}
         </div>
@@ -122,7 +122,7 @@ permalink: /
             {% assign section_posts = site.categories.other %}
             {% include section_slideshow.html title="Other" category="Other" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
-        <div class="container no_right_margin">
+        <div class="container">
         </div>
     </div>
 </div>
