@@ -78,7 +78,7 @@ So, dito sa nation-building. We are talking about peace but let me repeat my pro
 
 Then I said, drug or the drug industry must be extinguished and I am working on it, plus the criminality that has resulted into this kind of illegal activity that has produced four million addicts.
 
-You must remember that I entered Malacañan on a midterm halos, and you must remember that the program, or the previous administration was really to spend several— bottoms up. So I am left only with the operating money to run this entity. Wala akong pera kaya noong pumuto, and nobody really realized na ganun kalala.
+You must remember that I entered Malacañan on a midterm halos, and you must remember that the program, or the previous administration was really to spend several—bottoms up. So I am left only with the operating money to run this entity. Wala akong pera kaya noong pumuto, and nobody really realized na ganun kalala.
 
 Of course, in Davao City, it was less of a problem because I was very strict. And my motto then, I call it a motto was that: Do not destroy my country because I will kill you. And do not tinker with our youth, do not deprive us of the next generation, 'yung susunod sa atin, huwag mong lokohin ang mga bata. At, you know, you are not strangers of what I am saying. So, nangyari.
 
@@ -108,7 +108,7 @@ And so, we have to somehow adjust to this fact. And I'm telling you, let us gree
 
 So kayong mga ano, I don't really care if you—Magdasal kayo na mawala ako. If I go out next month, that is part of being the believer of God. I give you this destiny. You'll be President of your country, but unfortunately, hanggang anim na buwan ka lang. Then, so be it.
 
-For the Filipino people, yung mga, lalo na 'yung mga brother natin na mga Moro ngayon, As-salam alaykum. Join us in this celebration. kasi doon sa Mindanao, sinasabi ko talaga, mixed. When I say mixed, you mix. That is why, kung magsunog doon, I will try to rebuild the houses, dito Maranao, dito Bisaya, dito Tagalog, dito— Ang cluster nila is mixed.
+For the Filipino people, yung mga, lalo na 'yung mga brother natin na mga Moro ngayon, As-salam alaykum. Join us in this celebration. kasi doon sa Mindanao, sinasabi ko talaga, mixed. When I say mixed, you mix. That is why, kung magsunog doon, I will try to rebuild the houses, dito Maranao, dito Bisaya, dito Tagalog, dito—Ang cluster nila is mixed.
 
 In Davao, wala kami. I do not allow anybody to preach about 'yung mga, kung ano-ano sa Katoliko, pati rin sa Islam. Do not debate in public. Just go to your church and pray however you want it.
 
