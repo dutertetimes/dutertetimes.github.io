@@ -62,7 +62,7 @@ Example:
                 {% endif %}
             {% else %}
                 {% if post.image.source %}
-            <img src="{{ site.image_source }}{{ post.image.source }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded" alt="Photo by {{ post.image.attribution }}"/>
+            <img src="{{ site.image_source }}/post/{{ post.image.source }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded" alt="Photo by {{ post.image.attribution }}"/>
                 {% else %}
                     {% if post.video.source %}
                         {% if post.video.thumbnail %}

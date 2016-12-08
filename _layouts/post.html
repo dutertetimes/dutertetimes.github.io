@@ -10,7 +10,7 @@ layout: default
     <div class="meta">
         {% if site.debug %}
             {% if page.image.source %}
-        <img src="{{ site.image_source }}{{ page.image.source }}" />
+        <img src="{{ site.image_source }}/post/{{ page.image.source }}" />
             {% else %}
         <img src="{{ site.url }}/images/twitter_summary_card_01.png" />
             {% endif %}
@@ -56,7 +56,7 @@ layout: default
                 {% else %}
                 <div>
                 {% endif %}
-                    <img width="100%" height="auto" src="{{ site.image_source }}{{ page.image.source }}" />
+                    <img width="100%" height="auto" src="{{ site.image_source }}/post/{{ page.image.source }}" />
                     <p class="attribution">image by {{ page.image.attribution }}&nbsp;</p>
                 </div>
             </div>
