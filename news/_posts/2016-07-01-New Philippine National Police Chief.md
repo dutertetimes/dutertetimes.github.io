@@ -10,7 +10,7 @@ redirect_from: /news/20160701T023310
 permalink: /news/p46RPNXqY5ZQXqg
 image:
   layout: auto_width
-  source: /post/pnp_chief_pdg_ronald_m_dela_rosa_300x.png
+  source: pnp_chief_pdg_ronald_m_dela_rosa_300x.png
   attribution: RTVM
 video:
   layout: bottom

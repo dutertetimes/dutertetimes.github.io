@@ -10,7 +10,7 @@ redirect_from: /news/20160701T042747
 permalink: /news/azD12O6XvkARy6p
 image:
   layout: auto_width
-  source: /post/afp_chief_of_staff_gen_ricardo_r_visaya.jpg
+  source: afp_chief_of_staff_gen_ricardo_r_visaya.jpg
   attribution: RTVM
 video:
   layout: bottom

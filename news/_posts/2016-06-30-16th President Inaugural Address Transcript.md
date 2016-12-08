@@ -11,7 +11,7 @@ permalink: /news/q4ZQq6KeJK71EwG
 redirect_from: /post/20160630T053903
 image:
   layout:
-  source: /post/duterte_inaugural_address.png
+  source: duterte_inaugural_address.png
   attribution: RTVM
 ---
 

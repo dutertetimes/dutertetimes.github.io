@@ -10,7 +10,7 @@ redirect_from: /news/20161020T060820
 permalink: /news/GpN1yZKD0W0R4vz
 image:
   layout:
-  source: /post/us_embassy_protest_20161019.png
+  source: us_embassy_protest_20161019.png
   attribution: screenshot from Kadao video
 video:
   layout: [top | bottom]

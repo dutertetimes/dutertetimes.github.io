@@ -10,7 +10,7 @@ redirect_from: /news/20160630T152101
 permalink: /news/LkMRMMkDbepRVe6
 image:
   layout:
-  source: /post/duterte_inauguration_multi_sectoral_meeting.png
+  source: duterte_inauguration_multi_sectoral_meeting.png
   attribution: RTVM
 ---
 

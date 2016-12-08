@@ -11,7 +11,7 @@ permalink: /news/VeL3Dqd6GkbQlJZ
 redirect_from: /post/20160630T002859
 image:
   layout:
-  source: /post/duterte_inauguration_20160630.png
+  source: duterte_inauguration_20160630.png
   attribution: RTVM
 video:
   layout: bottom
