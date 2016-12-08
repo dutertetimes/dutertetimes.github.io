@@ -3,7 +3,7 @@ title: Press Statement of new PNP Chief
 date: 2016-07-02T05:05:16UTC
 excerpt: First press statement of the new Philippine National Police Chief, Police Director General Ronald Dela Rosa, after his assumption of command on 1 July 2016.
 layout: post
-categories: [other, top, pnp]
+categories: [other, pnp]
 tags: [pnp, statement]
 published: true
 redirect_from: /news/20160702T050516

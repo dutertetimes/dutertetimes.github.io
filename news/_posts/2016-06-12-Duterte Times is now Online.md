@@ -3,7 +3,7 @@ title: Duterte Times is now Online
 date: 2016-06-12T12:32:57UTC
 excerpt: Duterte Times is now online to deliver Philippine news and information for the Filipino people.
 layout: post
-categories: [headline]
+categories: [other]
 tags: [duterte times, online, launch]
 published: true
 redirect_from: /news/20160612T123257

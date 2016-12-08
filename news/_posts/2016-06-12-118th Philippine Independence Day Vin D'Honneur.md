@@ -3,7 +3,7 @@ title: 118th Philippine Independence Day Vin D'Honneur
 date: 2016-06-12T14:07:10UTC
 excerpt: Message of President Benigno Aquino III during the 118th Philppine Independence Day Vin D’Honneur.
 layout: post
-categories: [headline]
+categories: [president]
 tags: [independence day, vin d honneur, aquino, pnoy]
 published: true
 redirect_from: /news/20160612T140710

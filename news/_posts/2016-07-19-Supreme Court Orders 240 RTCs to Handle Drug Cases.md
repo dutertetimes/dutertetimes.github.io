@@ -3,7 +3,7 @@ title: Supreme Court Orders 240 RTCs to Handle Drug Cases
 date: 2016-07-19T19:19:43UTC
 excerpt: With the influx of new illegal drug-related cases, the Supreme Court ordered 240 Regional Trial Courts to hear, try and decide newly filed cases under Republic Act 9165 or The Comprehensive Dangerous Drugs Act of 2002.
 layout: post
-categories: [top, criminality]
+categories: [criminality]
 tags: [supreme court, rtc]
 published: true
 redirect_from: /news/20160719T191943

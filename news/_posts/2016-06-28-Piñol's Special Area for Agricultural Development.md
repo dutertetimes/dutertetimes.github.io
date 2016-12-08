@@ -3,7 +3,7 @@ title: Piñol's Special Area for Agricultural Development
 date: 2016-06-28T00:55:39UTC
 excerpt: The Department of Agriculture policy direction under Secretary Piñol will focus on food production and poverty alleviation through the establishment of livelihood programs.
 layout: post
-categories: [top, agrarian, agriculture]
+categories: [agrarian, agriculture]
 tags: [saad]
 published: true
 redirect_from: /news/20160628T005539

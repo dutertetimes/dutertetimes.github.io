@@ -3,7 +3,7 @@ title: Rafael Mariano as New DAR Secretary
 date: 2016-07-06T06:45:11UTC
 excerpt: A veteran peasant leader and survivor of the 1987 Mendiola Massacre, nominated by the National Democratic Front, Rafael Mariano is the new Department of Agrarian Reform Secretary under the Duterte administration.
 layout: post
-categories: [top, agrarian, agrarian reform]
+categories: [agrarian, agrarian reform]
 tags: [rafael mariano, assumption into office, virgilio de los reyes]
 published: true
 redirect_from: /news/20160706T064511

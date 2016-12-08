@@ -3,7 +3,7 @@ title: Emmanuel Piñol is New Agriculture Secretary
 date: 2016-07-02T23:52:34UTC
 excerpt: Emmanuel Piñol takes his oath with Rodrigo Roa Duterte in Malacañang as the new chief of the Department of Agriculture on 1 July 2016.
 layout: post
-categories: [top, agrarian, agriculture]
+categories: [agrarian, agriculture]
 tags: [emmanuel piñol, department of agriculture, agriculture]
 published: true
 redirect_from: /news/20160702T235234

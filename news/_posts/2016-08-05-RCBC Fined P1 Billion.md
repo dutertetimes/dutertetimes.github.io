@@ -3,7 +3,7 @@ title: RCBC Fined P1 Billion
 date: 2016-08-05T21:24:21UTC
 excerpt: The Banko Sentral ng Pilipinas approved the penalty imposed against Rizal Commercial Banking Corporation after its involvement in the Bangladesh money laudering scam.
 layout: post
-categories: [top, business, criminality]
+categories: [business, criminality]
 tags: [bsp, rcbc, bangladesh, sri lanka, bank heist, money laudering]
 published: true
 redirect_from: /news/20160805T212421
