@@ -3,7 +3,7 @@ title: Inauguration of the 16th President
 date: 2016-06-30T00:28:59UTC
 excerpt: Inauguration of the 16th President of the Republic of the Philippines, Rodrigo Roa Duterte, the first President coming from Mindanao.
 layout: post
-categories: [president, headline]
+categories: [president]
 tags: [inauguration]
 published: true
 redirect_from: /news/20160630T002859

@@ -3,7 +3,7 @@ title: Davao Bombing
 date: 2016-09-03T07:06:09UTC
 excerpt: An explosion at a night market in Davao City on 2 September 2016 around 10:20 p.m. that killed 14 and injured 67 was claimed by the terrorist group Abu Sayyaf but government is conducting a thorough investigation on the matter.
 layout: post
-categories: [headline]
+categories: [criminality]
 tags: [davao bombing 2016, terrorism, abu sayyaf group, asg]
 published: true
 redirect_from: /news/20160903T070609
