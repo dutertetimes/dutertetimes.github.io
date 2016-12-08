@@ -4,7 +4,7 @@ date: 2016-07-07T13:10:05UTC
 excerpt: Vice President, Leni Robredo, received a phone call from the President asking her if she would like to head the Housing and Urban Development Coordinating Council.
 layout: post
 categories: [other]
-tags: 
+tags: [cabinet, vice president]
 published: true
 redirect_from: /news/20160707T211005
 redirect_from: /news/20160707T131005
