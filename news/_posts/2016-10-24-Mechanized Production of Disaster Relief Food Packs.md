@@ -10,7 +10,7 @@ redirect_from: /news/20161024T080947
 permalink: /news/q4ZQq6ZPYYb1EwG
 image:
   layout: auto_width
-  source: /post/dswd_mechanized_production_system.png
+  source: dswd_mechanized_production_system.png
   attribution: 
 video:
   layout: top
