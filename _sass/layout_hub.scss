@@ -63,13 +63,7 @@ div.section_container {
             height: 340px;
             min-height: 340px;
         }
-        
-        @include max-screen(360px) {
-            margin-right: 0;
-            width: 100%;
-            max-width: 100%;
-            min-width: 100%;
-        }
+
         @include max-screen(720px) {
             margin-right: 15px;
             &:nth-of-type(even) {
@@ -81,6 +75,14 @@ div.section_container {
             max-width: $container_width;
             min-width: $container_width;
         }
+        
+        @include max-screen(480px) {
+            margin-right: 0;
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        
         @include min-screen(720px + 1px) {
             margin-right: 15px;
             &:nth-of-type(3n) {
