@@ -525,7 +525,7 @@ section.post_column_main {
 
         p, a, li {
             @include set_font($font_blockquote, $font_size_blockquote + 4, $color_blockquote);
-            line-height: $font_size_blockquote + 12;
+            line-height: $font_size_blockquote + 8;
 
             @include max-screen(720px) {
                 @include set_font($font_blockquote, $font_size_blockquote + 2, $color_blockquote);
