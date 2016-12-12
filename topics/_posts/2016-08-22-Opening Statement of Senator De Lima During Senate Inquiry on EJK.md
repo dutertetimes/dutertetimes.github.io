@@ -3,7 +3,7 @@ title: Opening Statement of Senator De Lima During Senate Inquiry on EJK
 date: 2016-08-22T05:01:48UTC
 excerpt: Opening statement of Senator Leila m. De Lima during the senate inquiry, 22 August 2016, on the spate of extrajudicial killings and summary executions.
 layout: post
-categories: [ejk_hearing, criminality]
+categories: [ejk_hearing, law_and_order]
 tags: [senate inquiry, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160822T050148

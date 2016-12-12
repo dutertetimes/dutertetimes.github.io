@@ -3,7 +3,7 @@ title: "EJK Hearings Could Be LP's 'Plan B'"
 date: 2016-09-15T19:22:38UTC
 excerpt: The resumed probe of the senate on the drug-related killings headed by Senator Leila De Lima, Cayetano warned, could be a ploy initiated by the Liberal Party to damage the reputation of President Rodrigo Duterte, remove him from power, and install their own president.
 layout: post
-categories: [other]
+categories: [ejk_hearing, other]
 tags: [senate probe on extrajudicial killings, senate probe, extrajudicial killing, ejk]
 published: true
 redirect_from: /news/20160915T192238

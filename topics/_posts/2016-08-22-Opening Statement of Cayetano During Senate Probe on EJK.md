@@ -3,7 +3,7 @@ title: "Opening Statement of Senator Cayetano During Senate Probe on 'EJK'"
 date: 2016-08-22T17:31:59UTC
 excerpt: At the start of the Senate Probe on the alleged extrajudicial killings, Senator Allan Peter Cayetano made his opening statement on 22 August 2016.
 layout: post
-categories: [criminality]
+categories: [ejk_hearing]
 tags: [senate probe, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160822T173159

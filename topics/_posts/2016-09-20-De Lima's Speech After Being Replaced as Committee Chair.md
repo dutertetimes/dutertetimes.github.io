@@ -14,7 +14,7 @@ image:
   attribution: 
 video:
   layout: top
-  source: UR91aPfsyOA?t=800
+  source: UR91aPfsyOA?10m18s
   attribution: Senate of the Republic of the Philippines
 sources:
   - label:
