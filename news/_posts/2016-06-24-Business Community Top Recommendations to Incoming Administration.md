@@ -3,7 +3,7 @@ title: Business Community Top Recommendations to Incoming Administration
 date: 2016-06-24T08:12:12UTC
 excerpt: In conclusion of the two-day business forum held in Davao on 20-21 June 2016, the business community came up with recommendations for the incoming President-elect Rodrigo R. Duterte and his Cabinet.
 layout: post
-categories: [business]
+categories: [economy]
 tags: [commerce, industry, pcci]
 published: true
 redirect_from: /news/20160624T081212

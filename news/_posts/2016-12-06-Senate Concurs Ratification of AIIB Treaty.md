@@ -3,7 +3,7 @@ title: Senate Concurs Ratification of AIIB Treaty
 date: 2016-12-06T06:44:01UTC
 excerpt: The Senate has concurred in the ratification of the Articles of Agreement of the Asian Infrastructure Investment Bank on 5 December 2016.
 layout: post
-categories: [business]
+categories: [economy]
 tags: [articles of agreement, asian infrastructure investment bank, aiib]
 published: true
 permalink: /news/N8M3bdANwm01DlJ

@@ -3,7 +3,7 @@ title: Duterte Administration 10-point Socioeconomic Agenda
 date: 2016-06-20T21:33:20UTC
 excerpt: The two-day economic forum in Davao starting 20 June tackled the 10-point Socioeconomic Agenda of the incoming Duterte administration.
 layout: post
-categories: [business]
+categories: [economy]
 tags: [commerce, industry, economy, social, socioeconomic]
 published: true
 redirect_from: /news/20160620T213320

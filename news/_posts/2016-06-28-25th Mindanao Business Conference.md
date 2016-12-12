@@ -3,7 +3,7 @@ title: 25th Mindanao Business Conference
 date: 2016-06-28T17:26:35UTC
 excerpt: The 25th Mindanao Business Conference will be held in the mining capital of the Philippines, Surigao del Norte in Caraga region, on 24-26 August 2016 at the Philippine Gateway Hotel in Surigao City.
 layout: post
-categories: [business]
+categories: [economy]
 tags: [commerce, industry, scci]
 published: true
 redirect_from: /news/20160628T172635

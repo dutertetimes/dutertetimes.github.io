@@ -3,7 +3,7 @@ title: Banana Congress 2016
 date: 2016-10-07T10:31:20UTC
 excerpt: "President Rodrigo Roa Duterte attends the Banana Congress 2016 together with Agriculture Secretary Emmanuel Pinol at SMX Davao Convention Centre, Davao City on 7 October 2016."
 layout: post
-categories: [president, business]
+categories: [president, economy]
 tags: [banana congress, panama disease]
 published: true
 redirect_from: /news/20161007T103120

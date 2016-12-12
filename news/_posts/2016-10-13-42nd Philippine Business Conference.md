@@ -3,7 +3,7 @@ title: 42nd Philippine Business Conference
 date: 2016-10-14T20:48:53UTC
 excerpt: The annual Philippine Business Conference held it's 42nd conference and Exposition of the Philippine Chamber of Commerce and Industry at the Manila Mariott Hotel in Pasay City on 13 October 2016.
 layout: post
-categories: [president, business]
+categories: [president, economy]
 tags: [42nd philippine business conference, philippine business conference, pbc, asean, pcci, east asia, asia pacific]
 published: true
 redirect_from: /news/20161014T204853

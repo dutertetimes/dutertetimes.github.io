@@ -3,7 +3,7 @@ title: Swedish Embassy Reopened
 date: 2016-11-09T08:54:49UTC
 excerpt: Eight years Sweden has reopened its Embassy in the Philippines on 8 November in Taguig City presided by Swedish Minister for Enterprise and Innovation Mikael Damberg and Ambassador-designate Harald Fries.
 layout: post
-categories: [foreign_affairs, business]
+categories: [foreign_affairs, economy]
 tags: [sweden, embassy of sweden, mikael damberg, harald fries, wallenberg, ylva berg, elisabeth somp, department of trade and industry, industry promotion group nora terrado, department of transportation, arthur tugade, bases conversion and development authority, clark green city, bcda]
 published: true
 redirect_from: /news/20161109T085449

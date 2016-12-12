@@ -3,7 +3,7 @@ title: Oath-Taking of BoD and Officers of the PCCI, ECOP, PhilExport and PFA
 date: 2016-08-23T12:50:01UTC
 excerpt: "Speech of President Rodrigo Roa Duterte during the oath-taking ceremony of the Board of Directors and Officers of the PCCI, ECOP, PhilExport and PFA at the Rizal Hall, Malacañang on August 23, 2016."
 layout: post
-categories: [president, business]
+categories: [president, economy]
 tags: [oath taking, philippine chamber of commerce and industry, pcci, employers confederation of the philippines, ecop, philippine exporters confederation, philexport, philippine franchise association, pfa]
 published: true
 redirect_from: /news/20160823T125001
