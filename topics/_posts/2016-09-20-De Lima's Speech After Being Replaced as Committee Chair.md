@@ -1,7 +1,7 @@
 ---
 title: "De Lima's Speech After Being Replaced as Committee Chair"
 date: 2016-09-20T11:46:08UTC
-excerpt: After being kicked out as Chairman of the Committee on Justice and Human Rights during the previous session, Leila De Lima delivered her privilege speech during the 23th Session of the Senate, 1st regular session of the 17th congress, on 20 September 2016.
+excerpt: Senator Leila De Lima delivered her privilege speech on 20 September 2016 after being kicked out as Chairman of the Committee on Justice and Human Rights.
 layout: post
 categories: [ejk_hearing, other, senate]
 tags: [privilege speech]
@@ -10,8 +10,8 @@ redirect_from: /news/20160920T114608
 permalink: /news/4LK1A6V4WmPR0Py
 image:
   layout: auto_width
-  source: 
-  attribution: 
+  source: gov_senate_leila_de_lima.jpg
+  attribution: Public Domain
 video:
   layout: top
   source: UR91aPfsyOA?10m18s
@@ -20,6 +20,10 @@ sources:
   - label:
     link:
 ---
+
+Senator Leila De Lima delivered her privilege speech during the 23th Session of the Senate, 1st regular session of the 17th congress, on 20 September 2016 after being kicked out as Chairman of the Committee on Justice and Human Rights.
+
+The following is the transcript of her speech.
 
 First of all, congratulations are in order.
 
