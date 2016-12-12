@@ -5,9 +5,8 @@ Arguments:
     - post_image
 
 Example:
-    {% assign section_posts = site.categories['criminality'] %}
-    {% include section_slideshow.html category="Criminality" post_count=section_posts.size posts=section_posts %}
-{% assign posts = "" | split: "" %}
+    {% assign section_posts = site.categories['opinion'] %}
+    {% include section_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
 {% endcomment %}
 
 {% assign max_post_count = 6 %}

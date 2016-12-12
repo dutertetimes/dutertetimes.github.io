@@ -43,10 +43,20 @@ permalink: /
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Stories</h1>
 
+    {% assign section_posts = site.categories.stories %}
     <div class="section_container top_margin_10">
-        <div class="container">
-            {% assign postitem = site.categories.stories[0] %}
-            {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
+        <div class="container_2n">
+            {% for post in section_posts limit: 3 %}
+                {% assign post_image = post.categories[1] | prepend: "post_16_9_" | append: ".png" %}
+                {% include post_entry.html post=post post_image=post_image %}
+            {% endfor %}
+        </div>
+        <div class="container_2n_list no_right_margin">
+            {% assign list_posts = "" | split: "" %}
+            {% for post in section_posts offset: 3 limit: 5 %}
+                {% assign list_posts = list_posts | push: post %}
+            {% endfor %}
+            {% include section_list.html posts=list_posts %}
         </div>
     </div>
 </div>
@@ -64,9 +74,9 @@ permalink: /
     <div class="section_container top_margin_10">
         {% for topic in found_topics %}
         <div class="container">
-            {% assign topic_title = topic | replace: '_', ' ' | upcase %}
             {% assign section_posts = site.categories[topic] %}
-            {% include section_slideshow.html category=topic posts=section_posts post_image="post_opinion_16_9.png" %}
+            {% assign section_image = topic | prepend: "post_16_9_" | append: ".png" %}
+            {% include section_slideshow.html category=topic posts=section_posts post_image=section_image %}
         </div>
         {% endfor %}
     </div>
@@ -75,8 +85,19 @@ permalink: /
 
 
 <div class="section_container_wrapper section_container_wrapper_border">
-    <h1>Events</h1>
-
+    <h1>Events {{ site.data.index_events.size }}</h1>
+    
+    <div class="section_container top_margin_10">
+        {% for section_category in site.data.index_events %}
+        <div class="container">
+            {% assign section_posts = site.categories[section_category] %}
+            {% assign section_image = section_category | prepend: "post_16_9_" | append: ".png" %}
+            {% include section_slideshow.html category=section_category posts=section_posts post_image=section_image %}
+        </div>
+        {% endfor %}
+    </div>
+    
+    {% comment %}
     <div class="section_container top_margin_10">
         <div class="container">
             {% assign section_posts = site.categories.president %}
@@ -113,15 +134,18 @@ permalink: /
             {% include section_slideshow.html category="other" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
     </div>
+    {% endcomment %}
 </div>
-
-
 
 <script>
     $(document).ready(function() {
-        currentOpinionSlide(0);
-        currentPeaceProcessSlide(0);
-        currentEjkHearingSlide(0);
+
+        {% for topic in found_topics %}
+            {% assign words = topic | replace: '_', ' ' | split: ' ' %}
+            {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+            {% assign js_category = titlecase_category | remove: ' ' %}
+            current{{ js_category }}Slide(0);
+        {% endfor %}
 
         currentPresidentSlide(0);
         currentPressSlide(0);
@@ -181,7 +205,7 @@ permalink: /
     function currentPeaceProcessSlide(n) {
         showPeaceProcessSlides(n);
     }
-    
+
     function currentEjkHearingSlide(n) {
         showEjkHearingSlides(n);
     }
@@ -231,11 +255,11 @@ permalink: /
     function showOpinionSlides(n) {
         showSlides("opinion_dot", "opinion_news_entry", n);
     }
-    
+
     function showPeaceProcessSlides(n) {
         showSlides("peace_process_dot", "peace_process_news_entry", n);
     }
-    
+
     function showEjkHearingSlides(n) {
         showSlides("ejk_hearing_dot", "ejk_hearing_news_entry", n);
     }
