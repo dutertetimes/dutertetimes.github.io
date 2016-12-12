@@ -119,11 +119,7 @@ div.section_container {
         float: left;
         
         @include min-screen(720px + 1px) {
-            height: 340px;
-            min-height: 340px;
-            
             height: auto;
-            min-height: 300px;
         }
         @include min-screen(720px + 1px) {
             margin-right: 15px;
