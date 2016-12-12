@@ -3,7 +3,7 @@ title: "De Lima: They just won't quit until they destroy me"
 date: 2016-11-10T10:54:05UTC
 excerpt: Senator Leila De Lima reacts anew after the National Bureau of Investigation filed criminal complaints against her and 17 others before the Department of Justice on 10 November 2016.
 layout: post
-categories: [criminality]
+categories: [law_and_order]
 tags: [national bureau of investigation, leila de lima, illegal drugs, new bilibid prison]
 published: true
 redirect_from: /stories/20161110T105405
