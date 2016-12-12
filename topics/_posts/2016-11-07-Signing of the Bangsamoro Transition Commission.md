@@ -3,7 +3,7 @@ title: Signing of the Bangsamoro Transition Commission
 date: 2016-11-07T11:11:33UTC
 excerpt: Signing of Executive Order for the reconstitution of the Bangsamoro Transition Commission on 7 November 2016 in Malacañan.
 layout: post
-categories: [president, peace_process]
+categories: [peace_process, president]
 tags: [bangsamoro transition commission, bangsamoro, milf]
 published: true
 redirect_from: /news/20161107T111133
