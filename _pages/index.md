@@ -40,7 +40,7 @@ permalink: /
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Stories</h1>
 
     <div class="section_container top_margin_10">
@@ -48,81 +48,69 @@ permalink: /
             {% assign postitem = site.categories.stories[0] %}
             {% include post_entry.html post=postitem post_image="post_crime_16_9.png" %}
         </div>
-        <div class="container">
-            <div class="block block_margin_bottom block_default_fonts">
-                <div class="entries">
-                </div>
-            </div>
-        </div>
-        <div class="container no_right_margin">
-            <div class="block block_margin_bottom block_default_fonts">
-                <div class="entries">
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
 
+{% assign found_topics = "opinion" | split: ',' %}
+{% for post in site.categories.topics %}
+    {% assign found_topics = found_topics | push: post.categories[1] %}
+{% endfor %}
+{% assign found_topics = found_topics | uniq %}
 
-<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>Topics</h1>
-
+   
     <div class="section_container top_margin_10">
+        {% for topic in found_topics %}
         <div class="container">
-            {% assign section_posts = site.categories.opinion %}
-            {% include section_slideshow.html title="Opinion" category="Opinion" posts=section_posts post_image="post_opinion_16_9.png" %}
+            {% assign topic_title = topic | replace: '_', ' ' | upcase %}
+            {% assign section_posts = site.categories[topic] %}
+            {% include section_slideshow.html category=topic posts=section_posts post_image="post_opinion_16_9.png" %}
         </div>
-        <div class="container">
-            {% assign section_posts = site.categories.peace_process %}
-            {% include section_slideshow.html title="Peace Process" category="Peace Process" posts=section_posts post_image="post_peace_16_9.png" %}
-        </div>
-        <div class="container">
-        </div>
+        {% endfor %}
     </div>
 </div>
 
 
 
-<div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
+<div class="section_container_wrapper section_container_wrapper_border">
     <h1>Events</h1>
 
     <div class="section_container top_margin_10">
         <div class="container">
             {% assign section_posts = site.categories.president %}
-            {% include section_slideshow.html title="President" category="President" posts=section_posts post_image="post_president_16_9.png" %}
+            {% include section_slideshow.html category="president" posts=section_posts post_image="post_president_16_9.png" %}
         </div>
         <div class="container">
             {% assign section_posts = site.categories.press %}
-            {% include section_slideshow.html title="Press Events" category="Press" posts=section_posts post_image="post_press_16_9.png" %}
+            {% include section_slideshow.html category="press" posts=section_posts post_image="post_press_16_9.png" %}
         </div>
         <div class="container">
-            {% assign section_posts = site.categories.business %}
-            {% include section_slideshow.html title="Economy" category="Business" posts=section_posts post_image="post_business_16_9.png" %}
+            {% assign section_posts = site.categories.economy %}
+            {% include section_slideshow.html category="economy" posts=section_posts post_image="post_business_16_9.png" %}
         </div>
 
         <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.criminality %}
-            {% include section_slideshow.html title="Law and Order" category="Criminality" posts=section_posts post_image="post_crime_16_9.png" %}
+            {% assign section_posts = site.categories.law_and_order %}
+            {% include section_slideshow.html category="law_and_order" posts=section_posts post_image="post_crime_16_9.png" %}
         </div>
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories.agrarian %}
-            {% include section_slideshow.html title="Agrarian" category="Agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
+            {% include section_slideshow.html category="agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
         </div>
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories.environment %}
-            {% include section_slideshow.html title="Environment" category="Environment" posts=section_posts post_image="post_environment_16_9.png" %}
+            {% include section_slideshow.html category="environment" posts=section_posts post_image="post_environment_16_9.png" %}
         </div>
 
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories.foreign_affairs %}
-            {% include section_slideshow.html title="Foreign Affairs" category="Foreign Affairs" posts=section_posts post_image="post_foreign_16_9.png" %}
+            {% include section_slideshow.html category="foreign_affairs" posts=section_posts post_image="post_foreign_16_9.png" %}
         </div>
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories.other %}
-            {% include section_slideshow.html title="Other" category="Other" posts=section_posts post_image="post_other_16_9.png" %}
-        </div>
-        <div class="container">
+            {% include section_slideshow.html category="other" posts=section_posts post_image="post_other_16_9.png" %}
         </div>
     </div>
 </div>
@@ -133,12 +121,13 @@ permalink: /
     $(document).ready(function() {
         currentOpinionSlide(0);
         currentPeaceProcessSlide(0);
+        currentEjkHearingSlide(0);
 
         currentPresidentSlide(0);
         currentPressSlide(0);
 
-        currentBusinessSlide(0);
-        currentCriminalitySlide(0);
+        currentEconomySlide(0);
+        currentLawAndOrderSlide(0);
 
         currentAgrarianSlide(0);
         currentEnvironmentSlide(0);
@@ -169,12 +158,12 @@ permalink: /
         showOtherSlides(n);
     }
 
-    function currentCriminalitySlide(n) {
-        showCriminalitySlides(n);
+    function currentLawAndOrderSlide(n) {
+        showLawAndOrderSlides(n);
     }
 
-    function currentBusinessSlide(n) {
-        showBusinessSlides(n);
+    function currentEconomySlide(n) {
+        showEconomySlides(n);
     }
 
     function currentAgrarianSlide(n) {
@@ -191,6 +180,10 @@ permalink: /
 
     function currentPeaceProcessSlide(n) {
         showPeaceProcessSlides(n);
+    }
+    
+    function currentEjkHearingSlide(n) {
+        showEjkHearingSlides(n);
     }
 
     function currentOpinionSlide(n) {
@@ -215,8 +208,8 @@ permalink: /
         showSlides("other_dot", "other_news_entry", n);
     }
 
-    function showBusinessSlides(n) {
-        showSlides("business_dot", "business_news_entry", n);
+    function showEconomySlides(n) {
+        showSlides("economy_dot", "economy_news_entry", n);
     }
 
     function showAgrarianSlides(n) {
@@ -231,17 +224,23 @@ permalink: /
         showSlides("foreign_affairs_dot", "foreign_affairs_news_entry", n);
     }
 
-    function showPeaceProcessSlides(n) {
-        showSlides("peace_process_dot", "peace_process_news_entry", n);
-    }
-
-    function showCriminalitySlides(n) {
-        showSlides("criminality_dot", "criminality_news_entry", n);
+    function showLawAndOrderSlides(n) {
+        showSlides("law_and_order_dot", "law_and_order_news_entry", n);
     }
 
     function showOpinionSlides(n) {
         showSlides("opinion_dot", "opinion_news_entry", n);
     }
+    
+    function showPeaceProcessSlides(n) {
+        showSlides("peace_process_dot", "peace_process_news_entry", n);
+    }
+    
+    function showEjkHearingSlides(n) {
+        showSlides("ejk_hearing_dot", "ejk_hearing_news_entry", n);
+    }
+
+
 
     function showSlides(links, entries, index) {
         let i;

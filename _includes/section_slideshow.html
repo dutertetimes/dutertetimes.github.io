@@ -1,6 +1,5 @@
 {% comment %}
 Arguments:
-    - title - section title
     - category - used in javascript; every word is capitalized
     - posts
     - post_image
@@ -17,14 +16,19 @@ Example:
     {% assign post_count = max_post_count %}
 {% endif %}
 
-{% assign this_category = include.category | replace: ' ', '_' | downcase %}
+{% assign this_title = include.category | replace: '_', ' ' | upcase %}
+
+{% assign words = include.category | replace: '_', ' ' | split: ' ' %}
+{% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+{% assign js_category = titlecase_category | remove: ' ' %}
 
 <div class="block block_default_fonts">
-    <h1>{{ include.title }}</h1>
+    <h1>{{ this_title }}</h1>
+    
     <div class="links">
         {% assign post_count = 0 %}
         {% for post in include.posts %}
-            {% if post.categories[1] != this_category %}
+            {% if post.categories[1] != include.category %}
                 {% continue %}
             {% endif %}
 
@@ -32,7 +36,7 @@ Example:
             {% if post_count > max_post_count %}
                 {% break %}
             {% endif %}
-        <span class="{{ this_category }}_dot slideshow_dot" onclick="current{{ include.category | remove: ' ' }}Slide( {{ post_count | minus: 1 }} )"></span>
+        <span class="{{ include.category }}_dot slideshow_dot" onclick="current{{ js_category }}Slide( {{ post_count | minus: 1 }} )"></span>
         {% endfor %}
     </div>
     <div class="entries">
@@ -40,7 +44,7 @@ Example:
         {% assign post_count = 0 %}
         {% for post in include.posts %}
 
-            {% if post.categories[1] != this_category %}
+            {% if post.categories[1] != include.category %}
                 {% continue %}
             {% endif %}
 
@@ -49,7 +53,7 @@ Example:
                 {% break %}
             {% endif %}
 
-        <div class="entry {{ this_category }}_news_entry">
+        <div class="entry {{ include.category }}_news_entry">
             {% if site.debug %}
                 {% if post.image.source %}
             <img src="/images/offline/thumbnail_post_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
