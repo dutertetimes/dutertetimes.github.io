@@ -3,7 +3,7 @@ title: Executive Clemency for Robin Padilla
 date: 2016-11-16T15:02:35UTC
 excerpt: Robin Padilla who was convicted of illegal possession of firearms on April 1994 was granted absolute pardon by the President in their meeting on 15 November 2016 at the Malacañan Palace.
 layout: post
-categories: [criminality]
+categories: [law_and_order]
 tags: [robin padilla, absolute pardon, executive clemency, presidential decree 1866]
 published: true
 redirect_from: /news/20161116T150235

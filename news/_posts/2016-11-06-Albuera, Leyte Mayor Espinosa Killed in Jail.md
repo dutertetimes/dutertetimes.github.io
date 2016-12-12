@@ -4,7 +4,7 @@ date: 2016-11-06T09:23:42UTC
 excerpt: Albuera, Leyte Mayor Rolando Espinosa Sr. was killed in a shootout with CIDG Region 8 early morning of 5 November 2016 inside the Baybay City, Leyte sub-provincial jail where he was detained since 5 October.
 fb_summary: Albuera, Leyte Mayor Rolando Espinosa Sr. was killed after a reported shootout with the Criminal Investigation and Detection Group (CIDG) Region 8 early morning of 5 November 2016 inside the Baybay City, Leyte sub-provincial jail where he was being detained after his arrest on 5 October for illegal drugs and illegal possession of firearms.
 layout: post
-categories: [criminality, pnp]
+categories: [law_and_order, pnp]
 tags: [rolando espinosa sr, baybay city leyte, albuera leyte, pnp, cidg, cidg region 8, search warrant]
 published: true
 redirect_from: /news/20161106T092342

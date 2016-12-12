@@ -3,7 +3,7 @@ title: 18th Founding Anniversary of VACC
 date: 2016-08-29T10:58:25UTC
 excerpt: "The Volunteers Against Crime and Corruption celebtrated their 18th Founding Anniversary in the Malacañan Palace with the current year's theme, 'Kabalikat sa Tunay na Pagbabago' with President Rodrigo Duterte as guest of honor."
 layout: post
-categories: [other, criminality]
+categories: [other, law_and_order]
 tags: [volunteers against crime and corruption, vacc, founding anniversary, anniversary]
 published: true
 redirect_from: /news/20160829T105825

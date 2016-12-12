@@ -3,7 +3,7 @@ title: "Explosion Hit President's Advance Party in Lanao Del Sur"
 date: 2016-12-02T08:06:23UTC
 excerpt: "The President's advance party enroute to Marawi City were wounded from an explosion of a suspected improvised explosive device (IED) in Lanao Del Sur on 29 November 2016."
 layout: post
-categories: [criminality]
+categories: [law_and_order]
 tags: [wounded in action, presidential security group, psg, philippine army, lanao del sur, butig, maute]
 published: true
 permalink: /news/VeL3Dq5ZM2rQlJZ

@@ -3,7 +3,7 @@ title: PNP Chief Statement on US Embassy Incident
 date: 2016-10-20T06:08:20UTC
 excerpt: Statement of the Philippine National Police Chief Ronal Dela Rosa who is with President Rodrigo Duterte in China regarding the incident that transpired before the U.S. Embassy in Ermita, Manila on 19 October 2016.
 layout: post
-categories: [criminality, pnp]
+categories: [law_and_order, pnp]
 tags: [us embassy, protest, rally, pnp chief, statement]
 published: true
 redirect_from: /news/20161020T060820

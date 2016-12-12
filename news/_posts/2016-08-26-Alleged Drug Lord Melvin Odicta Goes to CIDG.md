@@ -3,7 +3,7 @@ title: Alleged Drug Lord Melvin Odicta Goes to CIDG
 date: 2016-08-26T07:53:30UTC
 excerpt: Alleged Iloilo drug lord Melvin Odicta and his wife met with DILG Secretary Mike Sueño in Camp Crame in Quezon City on 25 August but were advised by the Secretary to go to the CIDG instead for investigation.
 layout: post
-categories: [criminality]
+categories: [law_and_order]
 tags: [odicta]
 published: true
 redirect_from: /news/20160826T075330

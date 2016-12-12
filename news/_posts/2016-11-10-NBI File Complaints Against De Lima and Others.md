@@ -3,7 +3,7 @@ title: NBI File Complaints Against De Lima and Others
 date: 2016-11-10T09:26:49UTC
 excerpt: The NBI filed several criminal complaints on 10 November 2016 against Senator Leila De Lima and 17 others with the DOJ in connection with their alleged involvement in the proliferation of illegal drugs inside the New Bilibid Prison.
 layout: post
-categories: [criminality]
+categories: [law_and_order]
 tags: [national bureau of investigation, leila de lima, illegal drugs, new bilibid prison]
 published: true
 redirect_from: /news/20161110T092649

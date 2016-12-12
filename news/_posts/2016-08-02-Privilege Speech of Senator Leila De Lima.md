@@ -3,7 +3,7 @@ title: "The Real Crisis We Face: Stop the Killings Now!"
 date: 2016-08-02T05:47:14UTC
 excerpt: On 2 August, during the 1st Regular Session of the 17th Congress of the Senate of the Philippines, Senator Leila De Lima delivered her privilege speech which centered on the killings happening in the country.
 layout: post
-categories: [criminality, senate]
+categories: [law_and_order, senate]
 tags: [senate, privilege speech, 17th congress, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160802T054714
