@@ -85,8 +85,7 @@ permalink: /
 
 
 <div class="section_container_wrapper section_container_wrapper_border">
-    <h1>Events {{ site.data.index_events.size }}</h1>
-    
+    <h1>Events</h1>
     <div class="section_container top_margin_10">
         {% for section_category in site.data.index_events %}
         <div class="container">
@@ -96,45 +95,6 @@ permalink: /
         </div>
         {% endfor %}
     </div>
-    
-    {% comment %}
-    <div class="section_container top_margin_10">
-        <div class="container">
-            {% assign section_posts = site.categories.president %}
-            {% include section_slideshow.html category="president" posts=section_posts post_image="post_president_16_9.png" %}
-        </div>
-        <div class="container">
-            {% assign section_posts = site.categories.press %}
-            {% include section_slideshow.html category="press" posts=section_posts post_image="post_press_16_9.png" %}
-        </div>
-        <div class="container">
-            {% assign section_posts = site.categories.economy %}
-            {% include section_slideshow.html category="economy" posts=section_posts post_image="post_business_16_9.png" %}
-        </div>
-
-        <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.law_and_order %}
-            {% include section_slideshow.html category="law_and_order" posts=section_posts post_image="post_crime_16_9.png" %}
-        </div>
-        <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.agrarian %}
-            {% include section_slideshow.html category="agrarian" posts=section_posts post_image="post_agrarian_16_9.png" %}
-        </div>
-        <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.environment %}
-            {% include section_slideshow.html category="environment" posts=section_posts post_image="post_environment_16_9.png" %}
-        </div>
-
-        <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.foreign_affairs %}
-            {% include section_slideshow.html category="foreign_affairs" posts=section_posts post_image="post_foreign_16_9.png" %}
-        </div>
-        <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories.other %}
-            {% include section_slideshow.html category="other" posts=section_posts post_image="post_other_16_9.png" %}
-        </div>
-    </div>
-    {% endcomment %}
 </div>
 
 <script>
