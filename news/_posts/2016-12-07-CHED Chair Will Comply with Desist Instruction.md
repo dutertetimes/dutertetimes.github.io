@@ -3,7 +3,7 @@ title: CHED Chair Will Comply with Desist Instruction
 date: 2016-12-07T03:47:02UTC
 excerpt: Commission on Higher Education Chairperson Patricia Licuanan said on 5 December 2016 that she would comply with the desist order from President Duterte but will continue work as head of the commission.
 layout: post
-categories: [other, governance]
+categories: [other, governance, education]
 tags: [commission on higher educatoin, ched, patricia licuanan]
 published: true
 permalink: /news/x2oRdkKgLWn1d6N

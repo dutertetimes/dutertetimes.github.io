@@ -3,7 +3,7 @@ title: CHED Clarifies Issues on Desist Instructions
 date: 2016-12-10T03:55:49UTC
 excerpt: The Commission on Higher Education seeks clarification on recent issues and events surrounding the instruction of Malacanang to desist from attending cabinet meetings issued on 4 December 2016.
 layout: post
-categories: [other, governance]
+categories: [other, governance, education]
 tags: [commission on higher education, ched, patricia licuanan, republic act 7722]
 published: true
 permalink: /news/w8lQwp2e6nl1NX4
