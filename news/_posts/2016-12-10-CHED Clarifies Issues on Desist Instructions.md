@@ -18,6 +18,8 @@ video:
 sources:
   - label: Commission on Higher Education
     link: http://www.ched.gov.ph/central/newsevent/397
+related:
+  - /news/x2oRdkKgLWn1d6N
 ---
 
 The Commission on Higher Education (CHED) seeks to clarify recent issues and events surrounding the instruction of Malacanang to desist from attendance at cabinet meetings.

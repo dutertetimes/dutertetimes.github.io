@@ -20,6 +20,8 @@ sources:
     link: http://newsinfo.inquirer.net/853090/ched-execs-want-to-fill-licuanans-cabinet-slot#ixzz4SmTz9rYK 
   - label: The Philippine Star (Twitter)
     link: https://twitter.com/PhilippineStar/status/808149773769285632
+related:
+  - /news/x2oRdkKgLWn1d6N
 ---
 
 The Commission on Higher Education (CHEd) officials and employees wrote this manifesto of support to the President for his action and vision in ushering genuine change on 12 December 2016.

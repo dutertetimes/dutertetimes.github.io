@@ -18,6 +18,8 @@ video:
 sources:
   - label: Rappler (YouTube)
     link: https://www.youtube.com/watch?v=3FB3OZoUxTw
+related:
+  - /news/x2oRdkKgLWn1d6N
 ---
 
 The Commission on Higher Education (CHEd) executive director Julito Vitriolo, the highest-ranking career executive in the commission, wrote to the President asking for the appointment of an officer-in-charge (OIC) who can serve as the President's alter ego at the agency.

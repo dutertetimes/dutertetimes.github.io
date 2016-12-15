@@ -18,6 +18,8 @@ video:
 sources:
   - label:
     link:
+related:
+  - /news/x2oRdkKgLWn1d6N
 ---
 
 The Commission on Higher Education (CHEd) executive director Julito Vitriolo, the highest-ranking career executive in the commission, in the Malacañan press briefing.
