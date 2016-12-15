@@ -20,9 +20,10 @@ sources:
     link: http://newsinfo.inquirer.net/851059/ched-chair-to-comply-with-duterte-order
 ---
 
-Commission on Higher Education Chairperson (CHED) [Patricia Licuanan] said on 5 December 2016 that she would comply with the desist order from President Duterte but will continue work as head of the commission.
+Commission on Higher Education Chairperson (CHED) Chairperson [Patricia Licuanan] said on 5 December 2016 that she would comply with the desist order from President Duterte but will continue work as head of the commission.
 
 Licuanan said in a statement that she received the President's instruction from Cabinet Secretary Leoncio Evasco Jr. in a text message on 4 December 2016.
+Licuanan admitted being surprised with the Palace statement citing "irreconcilable differences", noting an earlier conversation with the Chief Executive, whom she said expressed assurance that he would respect her term.
 
 "I assured Secretary Evasco that I would comply. In the meantime, I will continue my work as chair of CHEd," said Licuanan.
 
