@@ -19,7 +19,11 @@ sources:
   - label: The Philippine Daily Inquirer, Inc.
     link: http://www.philstar.com/headlines/2016/12/12/1652741/power-struggle-looms-ched
 related:
-  link: /news/r9xRV0yVlv0QEBZ
+  - /news/x2oRdkKgLWn1d6N
+  - /news/GpN1yZJnGqdR4vz
+  - /news/w8lQwp2e6nl1NX4
+  - /news/kLjQGPE92ww1z6g
+  - /news/vXOReyvxEG7RPjA
 ---
 
 The Commission on Higher Education (CHEd) executive director Julito Vitriolo, the highest-ranking career executive in the commission, has called for the resignation of CHEd Chairperson Dr. [Patricia Licuanan] after she was told not to attend Cabinet meetings starting 5 December 2016.
