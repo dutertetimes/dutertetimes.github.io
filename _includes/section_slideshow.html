@@ -2,6 +2,7 @@
 Arguments:
     - category - used in javascript; every word is capitalized
     - posts
+    - max_post_count
     - post_image
 
 Example:
@@ -9,10 +10,9 @@ Example:
     {% include section_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
 {% endcomment %}
 
-{% assign max_post_count = 6 %}
 {% assign post_count = include.posts.size %}
-{% if post_count > max_post_count %}
-    {% assign post_count = max_post_count %}
+{% if post_count > include.max_post_count %}
+    {% assign post_count = include.max_post_count %}
 {% endif %}
 
 {% assign this_title = include.category | replace: '_', ' ' | upcase %}
@@ -32,7 +32,7 @@ Example:
             {% endif %}
 
             {% assign post_count = post_count | plus: 1 %}
-            {% if post_count > max_post_count %}
+            {% if post_count > include.max_post_count %}
                 {% break %}
             {% endif %}
         <span class="{{ include.category }}_dot slideshow_dot" onclick="current{{ js_category }}Slide( {{ post_count | minus: 1 }} )"></span>
@@ -48,7 +48,7 @@ Example:
             {% endif %}
 
             {% assign post_count = post_count | plus: 1 %}
-            {% if post_count > max_post_count %}
+            {% if post_count > include.max_post_count %}
                 {% break %}
             {% endif %}
 
