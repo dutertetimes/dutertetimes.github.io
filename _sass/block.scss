@@ -50,6 +50,7 @@ div.block {
             img {
                 float: right;
                 border-radius: 3px;
+                filter: grayscale(100%);
             }
 
             img.image_thumbnail,
