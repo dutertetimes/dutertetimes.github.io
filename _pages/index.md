@@ -76,7 +76,7 @@ permalink: /
         <div class="container">
             {% assign section_posts = site.categories[topic] %}
             {% assign section_image = topic | prepend: "post_16_9_" | append: ".png" %}
-            {% include section_slideshow.html category=topic posts=section_posts post_image=section_image %}
+            {% include section_slideshow.html category=topic posts=section_posts max_post_count=6 post_image=section_image %}
         </div>
         {% endfor %}
     </div>
@@ -89,9 +89,24 @@ permalink: /
     <div class="section_container top_margin_10">
         {% for section_category in site.data.index_events %}
         <div class="container">
-            {% assign section_posts = site.categories[section_category] %}
+            {% assign category_posts = site.categories[section_category] %}
+
+            {% assign section_posts = "" | split: '' %}
+            {% assign count = 0 %}
+            {% for post in category_posts %}
+                {% if post.categories contains "topics" %}
+                    {% continue %}
+                {% endif %}
+                {% assign section_posts = section_posts | push: post %}
+                
+                {% assign count = count | plus: 1 %}
+                {% if count == 6 %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            
             {% assign section_image = section_category | prepend: "post_16_9_" | append: ".png" %}
-            {% include section_slideshow.html category=section_category posts=section_posts post_image=section_image %}
+            {% include section_slideshow.html category=section_category posts=section_posts max_post_count=6 post_image=section_image %}
         </div>
         {% endfor %}
     </div>
