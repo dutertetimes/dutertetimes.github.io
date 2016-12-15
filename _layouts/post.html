@@ -38,6 +38,18 @@ layout: default
         </div>
         {% endif %}
     </div>
+    
+    {% if page.related and page.related.size > 0 %}
+    <div class="related_posts">
+        {% for link in page.related %}
+            {% for post in site.posts %}
+                {% if post.permalink == link %}
+            <p><a href="{{ link }}">{{ post.title }}</a>&nbsp;&ndash;&nbsp;<span class="date">{{ post.date | date: site.data.format.date_only }}</p></li>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
 
     {% if page.image.source != nil %}
         {% if page.video.source != nil and page.video.layout == "top" %}
