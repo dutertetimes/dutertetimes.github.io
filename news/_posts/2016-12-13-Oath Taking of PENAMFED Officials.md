@@ -9,12 +9,12 @@ published: true
 permalink: /news/GpN1yZJo99XR4vz
 image:
   layout: auto_width
-  source: D4qenNWef0
-  attribution: RTVM
-video:
-  layout: top
   source: 
   attribution: 
+video:
+  layout: top
+  source: D4qenNWef0
+  attribution: RTVM
 sources:
   - label: RTVM (YouTube)
     link: https://www.youtube.com/watch?v=-D4qenNWef0
