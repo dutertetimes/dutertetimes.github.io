@@ -3,8 +3,8 @@ title: Relief Goods and Assistance in Tuguegarao, Cagayan
 date: 2016-10-24T04:28:05UTC
 excerpt: The president visits Tuguegarao City, Cagayan on the aftermath of super typhoon Lawin on 23 October 2016 as part of the government's ongoing rehabilitation efforts.
 layout: post
-categories: [other]
-tags: [emergency shelter assistance, esa, typhoon lawin, typhoon haima, tuguegarao, cagayan, speech]
+categories: [president]
+tags: [emergency shelter assistance, esa, typhoon lawin, typhoon haima, tuguegarao, cagayan, speech, transcript]
 published: true
 redirect_from: /news/20161024T042805
 permalink: /news/N8M3bdwXYBN1DlJ
@@ -38,11 +38,11 @@ The president delivers a message to the people of Tuguegarao after the ceremonia
 
 Salamat po.
 
-Secretary Judy Taguiwalo, DSWD; Secretary Emmanuel Piñol, Agriculture; Secretary Mark Villar, sa DPWH; Secretary Delfin Lorenzana, Defense; Secretary Ubial, Health; ito yung pinakaimportante sa lahat si Secretary Ben Diokno, ng Budget; Secretary Ernesto Pernia, yung sa NEDA ho ngayon; Governor Manuel Mamba, sir, thank you for receiving us; Mayor Jefferson Soriano; (applause/crowd cheering) sikat ang underclass mo Delfin ah;(applause) Congressman Randolph Ting; (applause/crowd cheering) mga kababayan kong Pilipino. (applause/crowd cheering)
+Secretary Judy Taguiwalo, DSWD; Secretary Emmanuel Piñol, Agriculture; Secretary Mark Villar, sa DPWH; Secretary Delfin Lorenzana, Defense; Secretary Ubial, Health; ito yung pinakaimportante sa lahat si Secretary Ben Diokno, ng Budget; Secretary Ernesto Pernia, yung sa NEDA ho ngayon; Governor Manuel Mamba, sir, thank you for receiving us; Mayor Jefferson Soriano; (applause/crowd cheering) sikat ang underclass mo Delfin ah; Congressman Randolph Ting; (applause/crowd cheering) mga kababayan kong Pilipino. (applause/crowd cheering)
 
-You know if there is...may isang bagay na dapat talagang pumasok sa ating conscious mind is that noong unang panahon wala pang tao, wala masyadong disgrasya. Kasi ho yung tubig galing itaas marami pang kahoy na pwedeng maging barricade na malalakas na tubig. So by the time they godownto the lowlands, dispersed na ho sila.
+You know if there is... may isang bagay na dapat talagang pumasok sa ating conscious mind is that noong unang panahon wala pang tao, wala masyadong disgrasya. Kasi ho yung tubig galing itaas marami pang kahoy na pwedeng maging barricade ng malalakas na tubig. So by the time they go down to the lowlands, dispersed na ho sila.
 
-At maraming kahoy ho hindi kaagad bumubuwelo iyan nang tumatakbong 20 miles per hour. Ngayon ho, ang ating bundok ay nagbago na ho. Eh kung gusto man natin at hindi dahil kasi naman marami rin tayong Pilipino, ipinagbawal na natin yung pagputol ng kahoy but just like in Mindanao, tinatanong ho ako nila "Mayor, mahirap lang kami. Kami ba'y hindi pumuputol ng kahoy para lang sa pamamahay namin." Just to build a house. And because there are already millions of Filipino who are really poor and who cannot afford to buy materials, we continue to cut trees on the mountains eh wala naman akong magawa dahil nga naman Pilipino sila at saan man siya  magkukuha ng kahoy? But we were trying to mitigate everything. 
+At maraming kahoy ho hindi kaagad bumubuwelo iyan nang tumatakbong 20 miles per hour. Ngayon ho, ang ating mundo ay nagbago na ho. Eh kung gusto man natin at hindi dahil kasi naman marami rin tayong Pilipino, ipinagbawal na natin yung pagputol ng kahoy but just like in Mindanao, tinatanong ho ako nila "Mayor, mahirap lang kami. Kami ba'y hindi pumuputol ng kahoy para lang sa pamamahay namin." Just to build a house. And because there are already millions of Filipino who are really poor and who cannot afford to buy materials, we continue to cut trees on the mountains eh wala naman akong magawa dahil nga naman Pilipino sila at saan man siya  magkukuha ng kahoy? But we were trying to mitigate everything. 
 
 As a matter of fact, we ban totally ng pagputol ng kahoy for: Number one, talagangsunset industry na yan. Wala ka ng masyadong mapagkitaan ng kahoy at hinahabol talaga ng gobyerno iyong komersya yung dumadaan sa checkpoints, iyon yung hinuhuli at iyon namang sa taas, sa karami nating gustong mamumuhay, you want to be farmers and they also want to claim a land in the mountains, in the hinterlands, hindi rin natin mapipigilan eh Pilipino eh.
 
@@ -54,7 +54,7 @@ Ang problema ho diyan ay ganito, tayo is the first island facing the Pacific Oce
 
 Ngayon sabi nila, yung mga factory na bumubuga ng usok, which are really carbon, carbon ho yan, mga fossil fuel, eh ang gumagamit ho niyan ng malakas hindi tayo. 
 
-When the industrial revolution began in the 19 --- 1901,1902--- at na-discover nila ang use ng oil, it was America and the European nations and China after the war, sila yung pinakamalakas gumamit ng makinarya na bumubuga ng usok.
+When the industrial revolution began in the 19--- 1901,1902--- at na-discover nila ang use ng oil, it was America and the European nations and China after the war, sila yung pinakamalakas gumamit ng makinarya na bumubuga ng usok.
 
 Ang ating pinakamarami sa Pilipinas yung sasakyan, yung mga sasakyan na iyan lalo na yung mga natawag nilang "not fuel-efficient".  Ang atin lang ho dito ay wala masyado tayo. Mabibilang mo ang factory dito sa Pilipinas, masyadong marami. Compared with the other nations wala tayong kakiting-kiting.
 
