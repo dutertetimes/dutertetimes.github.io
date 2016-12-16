@@ -205,6 +205,10 @@ div.block_default_fonts {
             h2, h2 > a {
                 font-weight: normal;
             }
+            h2 > i.fa {
+                font-size: $font_size_hub_default_excerpt;
+                color: lighten($color_hub_entry_excerpt, 40%);
+            }
             h2 > a:hover {
                 border-bottom: 1px dotted $color_link;
             }

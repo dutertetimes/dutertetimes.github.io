@@ -47,7 +47,7 @@ Example:
 {% else %}
                 <div class="index_entry">
 {% endif %}
-                    <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2><span class="date">{{ post.date | date: site.data.format.short_date }}</span>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>{% if post.video.source != nil %}&nbsp;&nbsp;<i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</h2>
                     {% if site.debug %}
                     <p class="excerpt">{{ post.excerpt }}{% if post.video.source != nil %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>
                     <p class="category">Categories:&nbsp;{{ post.categories | join: ", "}}</p>
