@@ -4,7 +4,7 @@ date: 2016-11-09T18:54:14UTC
 excerpt: The president laid out his agenda for his visit to Thailand and the official visit to Malaysia in a speech at the Ninoy Aquino International Airport Terminal II on 9 November 2016.
 layout: post
 categories: [president, foreign_affairs]
-tags: [king bhumibol adulyadej, dato sri mohammad najib bin tun abdul razak, thailand, malaysia, bimp]
+tags: [king bhumibol adulyadej, dato sri mohammad najib bin tun abdul razak, thailand, malaysia, bimp, speech, transcript]
 published: true
 redirect_from: /news/20161109T185414
 permalink: /news/eKn3Y7OxlKD1BG5
@@ -20,6 +20,10 @@ sources:
   - label:
     link:
 ---
+
+The president laid out his agenda for his visit to Thailand and the official visit to Malaysia in a speech at the Ninoy Aquino International Airport Terminal II on 9 November 2016.
+
+The following is the transcript of the speech of the President.
 
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
@@ -80,7 +84,7 @@ We will be unflagging in our effort to pursue our independent foreign policy con
 Salamat po.
 &#x25cf;
 
-##### Question and Answer
+##### QUESTIONS AND ANSWERS
 
 <div class="video_container">
     <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v=p9gT-uf49MA?t=6m37s">https://www.youtube.com/watch?v=p9gT-uf49MA?t=6m37s</a></p>
@@ -89,5 +93,4 @@ Salamat po.
     </div>
     <p class="attribution">video by RTVM&nbsp;</p>
 </div>
-
 

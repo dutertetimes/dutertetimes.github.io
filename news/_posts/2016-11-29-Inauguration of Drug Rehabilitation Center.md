@@ -49,7 +49,7 @@ The following is the transcript of the speech of the President.
 
 Kindly sit down. Maraming salamat po.
 
-Secretary Paulyn Jean Rosell Ubial of the Department of Health; Secretary Delfin Lorenzana of the Department of National Defense; Secretary Evasco, the Office of the Cabinet Secretary; Director General Isidro Lapeña, Philippine Drugs Enforcement Agency; Mr. Huang Rulun, Mr. Huang, please accept my gratitude and that of the Filipino people; Governor Czarina Umali; Mayor .... Cuevas; Lieutenant Ricardo Visaya; Lieutenant General Eduardo Año, the other members of the Mega Drug Abuse Treatment Rehabilitation Center; beloved workers in government; my beloved also, countrymen.
+Secretary Paulyn Jean Rosell Ubial of the Department of Health; Secretary Delfin Lorenzana of the Department of National Defense; Secretary Evasco, the Office of the Cabinet Secretary; Director General Isidro Lapeña, Philippine Drugs Enforcement Agency; Mr. Huang Rulun, Mr. Huang, please accept my gratitude and that of the Filipino people; Governor Czarina Umali; Mayor... Cuevas; Lieutenant Ricardo Visaya; Lieutenant General Eduardo Año, the other members of the Mega Drug Abuse Treatment Rehabilitation Center; beloved workers in government; my beloved also, countrymen.
 
 When you are a friend, you do not treat him badly before the public. You do not humiliate an ally. And at all cost, you must save the friendship as an ally and friend so that you can help each other in the world of geo-politics. 
 

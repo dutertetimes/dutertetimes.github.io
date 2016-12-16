@@ -4,7 +4,7 @@ date: 2016-12-15T14:53:51UTC
 excerpt: President Rodrigo Duterte hosted a dinner with the members of The Wallace Business Forum in Malacañan Palace on 12 December 2016.
 layout: post
 categories: [president, economy]
-tags: [the wallace business forum]
+tags: [the wallace business forum, speech, transcript]
 published: true
 permalink: /news/ol7Rk4rKleO3q5j
 image:

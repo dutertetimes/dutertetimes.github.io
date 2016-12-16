@@ -98,7 +98,7 @@ So it would only be the police so what would happen? Kaya ang mamatay sa bugbuga
 
 Ilocandia is the Ilocano-speaking Filipinos up north. 'Yan ang problema so I would take about three questions, 'yung ano lang, what's really the bottom of the matter. The ano, the raging issues. I can take two, about three. Okay. Who's got the first?
 
-###### QUESTIONS AND ANSWERS
+##### QUESTIONS AND ANSWERS
 
 Hader Glang (Zamboanga Today and World Bulletin)
 : I'm Hader Glang, Mr. President, of Zamboanga Today and World Bulletin.
