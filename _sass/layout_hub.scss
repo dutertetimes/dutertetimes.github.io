@@ -140,20 +140,28 @@ div.section_container {
                     margin-bottom: 5px;
                 }
                 
+                // One-third less margin plus offset
+                // The offset was added to "align" or not make the bottom end of the image
+                // higher than the bottom of a 4-liner text
                 & > img {
+                    /*
                     @include max-screen(720px) {
                         float: left !important;
                         margin-right: 10px;
-                        width: calc(33.33% - 10px) !important;
+                        width: calc(33.33% - 10px + 5px) !important;
                     }
+                    */
                     @include max-screen(480px) {
-                        width: 40%;
+                        float: right !important;
+                        // The same margins under div.container block
+                        margin: 0 0 3px 10px;
+                        width: 35% !important;
                         height: auto;
                     }
-                    @include min-screen(720px + 1px) {
+                    @include min-screen(480px + 1px) {
                         float: left !important;
                         margin-right: 10px;
-                        width: calc(33.33% - 10px) !important;
+                        width: calc(33.33% - 10px  + 5px) !important;
                     }
                 }
             }
