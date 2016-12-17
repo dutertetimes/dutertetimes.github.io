@@ -1,7 +1,7 @@
 ---
 title: 3rd Yolanda Commemoration
 date: 2016-11-09T05:44:13UTC
-excerpt: The president delivers his message during the Yolanda Typhoon Commemoration Day on 8 November 2016 held in Tacloban Mass Grave, Barangay Basper, Tacloban City.
+excerpt: The President delivers his message during the Yolanda Typhoon Commemoration Day on 8 November 2016 held in Tacloban Mass Grave, Barangay Basper, Tacloban City.
 layout: post
 categories: [president]
 tags: [yolanda]
@@ -20,6 +20,10 @@ sources:
   - label: RTVM
     link: http://rtvm.gov.ph/main/?p=44020
 ---
+
+The President delivers his message during the Yolanda Typhoon Commemoration Day on 8 November 2016 held in Tacloban Mass Grave, Barangay Basper, Tacloban City.
+
+The following is the transcript of speech of the President.
 
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 

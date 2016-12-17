@@ -22,8 +22,6 @@ sources:
 
 The President attended the groundbreaking ceremony of the Pulanai 10.6 megawatt Hydroelectric Power Plant on 9 December 2016 in Valencia City, Bukidnon.
 
-The following is the transcript of speech of the President.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING THE GROUNDBREAKING CEREMONY OF THE

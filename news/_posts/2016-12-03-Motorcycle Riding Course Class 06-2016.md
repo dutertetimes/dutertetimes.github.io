@@ -22,8 +22,6 @@ sources:
 
 The President attended the graduation ceremony of the motorcycle riding course class 06-2016 on 2 December 2016 at the Feliz Beach Resort in Matina Aplaya, Davao.
 
-The following is the transcript of speech of the President.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING THE CLOSING CEREMONY OF MOTORCYCLE RIDING COURSE CL 06-2016

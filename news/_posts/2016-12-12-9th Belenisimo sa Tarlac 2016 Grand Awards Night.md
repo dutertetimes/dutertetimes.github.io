@@ -32,8 +32,6 @@ Before the program started, the Presidential Security Group (PSG) choir offered 
 
 The Belenisimo festival was created in 2007 to bring awareness on the social significance of the Belen and to attract more tourists during the holiday season. The Belen-making makes the province of Tarlac the 'Belen Capital of the Philippines'.
 
-The following is the speech of the President during the event.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING THE 9th BELENISMO SA TARLAC 2016 GRAND AWARDS NIGHT

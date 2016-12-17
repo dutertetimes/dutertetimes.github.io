@@ -21,6 +21,8 @@ sources:
     link:
 ---
 
+Speech of the President during the National Bureau of Investigation at their 80th founding anniversary on 14 November 2016 held at the NBI Gymnasium in Taft Avenue, Manila.
+
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING THE 80TH NATIONAL BUREAU OF INVESTIGATION

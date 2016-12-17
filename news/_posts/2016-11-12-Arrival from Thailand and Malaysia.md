@@ -1,7 +1,7 @@
 ---
 title: Arrival from Thailand and Malaysia
 date: 2016-11-12T11:15:29UTC
-excerpt: The president arrives in Davao City after he paid respect to His Majesty, King Bhumibol Adulyadej in Bangkok, Thailand and his official visit to Malaysia.
+excerpt: The President arrives in Davao City after he paid respect to His Majesty, King Bhumibol Adulyadej in Bangkok, Thailand and his official visit to Malaysia.
 layout: post
 categories: [president, foreign_affairs]
 tags: [king bhumibol adulyadej, najib razak]
@@ -20,6 +20,8 @@ sources:
   - label:
     link:
 ---
+
+The President arrives in Davao City after he paid respect to His Majesty, King Bhumibol Adulyadej in Bangkok, Thailand and his official visit to Malaysia.
 
 ###### SPEECH OF PRESIDENT RODRIGO ROADUTERTE
 

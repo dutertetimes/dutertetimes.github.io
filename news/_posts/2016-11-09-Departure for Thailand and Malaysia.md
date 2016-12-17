@@ -23,8 +23,6 @@ sources:
 
 The president laid out his agenda for his visit to Thailand and the official visit to Malaysia in a speech at the Ninoy Aquino International Airport Terminal II on 9 November 2016.
 
-The following is the transcript of the speech of the President.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING THE DEPARTURE CEREMONIES FOR HIS VISIT

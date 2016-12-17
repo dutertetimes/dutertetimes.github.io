@@ -22,8 +22,6 @@ sources:
 
 The President held a press conference at Camp Navarro General Hospital, Western Mindanao Command in Zamboanga City on 25 November 2016 after visiting wounded soldiers.
 
-The following is the transcript of the message of the President.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING HIS VISIT TO THE WOUNDED-IN-ACTION SOLDIERS IN ZAMBOANGA CITY

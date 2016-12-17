@@ -22,8 +22,6 @@ sources:
 
 The President attended the 7th Anniversary of the Federalismo Alyansa ng Bicol on 8 December 2016 at the Legazpi City Convention Center, Albay.
 
-The following is the transcript of speech of the President.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING HIS ATTENDANCE TO THE

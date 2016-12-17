@@ -22,8 +22,6 @@ sources:
 
 The President made a visit to the Northern Luzon Command on 11 December 2016 and gave a speech at Camp Servillano Aquino, Bgy. San Miguel, Tarlac City, Tarlac.
 
-The following is the transcript of the speech of the President to the AFP Northern Luzon Command.
-
 ###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### DURING HIS TALK TO THE TROOPS OF NORTHERN LUZON COMMAND (NOLCOM)
