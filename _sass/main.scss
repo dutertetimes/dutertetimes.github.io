@@ -339,6 +339,9 @@ section {
         @include min-screen(768px + 1px) {
             margin-left: 250px;
         }
+        @include min-screen(1366px) {
+            margin-left: 10px;
+        }
     }
 
     &.post_column_main,
