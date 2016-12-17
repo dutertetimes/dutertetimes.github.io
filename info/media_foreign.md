@@ -5,6 +5,7 @@ layout: info
 categories: []
 tags: []
 published: true
+permalink: /info/media_foreign/index.html
 ---
 
 {% assign entries = site.data.media_foreign %}

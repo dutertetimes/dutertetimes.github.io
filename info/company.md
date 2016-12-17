@@ -5,6 +5,7 @@ layout: info
 categories: []
 tags: []
 published: true
+permalink: /info/company/index.html
 ---
 
 {% assign todo_data = site.data.info_company %}
