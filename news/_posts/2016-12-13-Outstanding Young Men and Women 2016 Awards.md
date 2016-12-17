@@ -4,7 +4,7 @@ date: 2016-12-13T07:31:57UTC
 excerpt: The President honored the exemplary leadership and innovation of 11 Filipinos during this year's The Outstanding Young Men (TOYM) awarding ceremonies held 12 December 2016 at the Rizal Hall, Malacañan Palace.
 layout: post
 categories: [president]
-tags: [the outstanding young men, toym, junior chamber international philippines, jcip]
+tags: [the outstanding young men, toym, junior chamber international philippines, jcip, speech]
 published: true
 permalink: /news/LkMRMMmglkBRVe6
 image:
