@@ -13,8 +13,8 @@ image:
   attribution: 
 video:
   layout: top
-  source: 
-  attribution: 
+  source: uXgKFRRqTs8
+  attribution: RTVM
 sources:
   - label: Philippine Information Agency
     link: http://news.pia.gov.ph/article/view/1141481803499/philippines-cambodia-ink-tourism-pact

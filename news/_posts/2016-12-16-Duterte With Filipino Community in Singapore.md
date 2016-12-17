@@ -5,7 +5,7 @@ excerpt: The President meets an estimated 5,000 Filipinos who gathered at the Ma
 layout: post
 categories: [president]
 tags: [singapore, filipino community]
-published: false
+published: true
 permalink: /news/aWARXO6w9Me18Bb
 image:
   layout: auto_width
