@@ -73,7 +73,7 @@ permalink: /
    
     <div class="section_container top_margin_10">
         {% for topic in found_topics %}
-        <div class="container">
+        <div class="container container_top_border_thin">
             {% assign section_posts = site.categories[topic] %}
             {% assign section_image = topic | prepend: "post_16_9_" | append: ".png" %}
             {% include section_slideshow.html category=topic posts=section_posts max_post_count=6 post_image=section_image %}
@@ -88,7 +88,7 @@ permalink: /
     <h1>Events</h1>
     <div class="section_container top_margin_10">
         {% for section_category in site.data.index_events %}
-        <div class="container">
+        <div class="container container_top_border_thin">
             {% assign category_posts = site.categories[section_category] %}
 
             {% assign section_posts = "" | split: '' %}

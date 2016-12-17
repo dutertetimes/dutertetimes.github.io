@@ -635,7 +635,7 @@ section.post_column_main {
             padding: 4px 8px 3px 6px;
             margin-right: 5px;
             margin-bottom: 8px;
-            background: $color_hr_default;
+            background: lighten($color_hr_default, 5%);
             border-radius: 3px;
             i.fa {
                 vertical-align: middle;

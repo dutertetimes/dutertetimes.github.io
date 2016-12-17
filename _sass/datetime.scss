@@ -11,7 +11,8 @@
 
             p.date,
             p.time {
-                @include compact;
+                margin: 0 0 5px 0;
+                padding: 0;
                 color: $color_hub_entry_text;
                 letter-spacing: 0.25px;
             }

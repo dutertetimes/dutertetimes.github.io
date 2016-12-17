@@ -292,21 +292,30 @@ main {
 
 section {
 
-    @include min-screen(1024px) {
+    @include max-screen(768px)  {
+        &.column_left_sidebar,
+        &.column_right_sidebar,
+        &.hub_column_main,
+        &.post_column_main,
+        &.page_column_main      { width: calc(100% - 20px); }
+    }
+    
+    @include min-screen(768px + 1px) {
+        &.column_left_sidebar   { width: 250px; }
+        &.column_right_sidebar,
+        &.hub_column_main,
+        &.post_column_main,
+        &.page_column_main,
+        &.info_column_main      { width: calc(100% - 250px - 40px); }
+    }
+    
+    @include min-screen(1366px) {
         &.column_left_sidebar,
         &.column_right_sidebar  { width: 250px; }
         &.hub_column_main,
         &.post_column_main,
         &.page_column_main,
         &.info_column_main      { width: calc(100% - 250px - 250px - 60px); }
-    }
-
-    @include max-screen(720px)  {
-        &.column_left_sidebar,
-        &.column_right_sidebar,
-        &.hub_column_main,
-        &.post_column_main,
-        &.page_column_main      { width: calc(100% - 20px); }
     }
 }
 
@@ -326,12 +335,20 @@ section {
         }
     }
 
+    &.column_right_sidebar {
+        @include min-screen(768px + 1px) {
+            margin-left: 250px;
+        }
+    }
+
     &.post_column_main,
     &.page_column_main,
     &.info_column_main {
         margin-top: 15px;
     }
 
+    &.column_left_sidebar,
+    &.column_right_sidebar,
     &.post_column_main,
     &.page_column_main,
     &.hub_column_main {
@@ -348,9 +365,6 @@ section {
 /* ------------------------------------------------------------------------- */
 
 section.column_left_sidebar {
-    @media print {
-        margin: 0px;
-    }
 }
 
 
@@ -360,15 +374,6 @@ section.column_left_sidebar {
 /* ------------------------------------------------------------------------- */
 
 section.column_right_sidebar {
-    @media print {
-        margin: 0px;
-    }
-    @include max-screen(768px) {
-        float: right;
-    }
-    @include max-screen(720px) {
-        float: left;
-    }
 }
 
 

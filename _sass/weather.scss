@@ -2,17 +2,13 @@
     float: clear;
 
     & > div.container {
-        @include min-screen(480px + 1px)  {
-            width: 50%;
-            max-width: 50%;
-        }
-        @include min-screen(768px + 1px)  {
-            width: 100%;
-            max-width: 100%;
-        }
         @include max-screen(480px)  {
             width: 100%;
             max-width: 100%;
+        }
+        @include min-screen(480px + 1px)  {
+            width: 250px;
+            max-width: 250px;
         }
         height: auto;
         min-height: auto;

@@ -214,9 +214,7 @@
 // Common item heading in the contents of a block
 @mixin block_entry_heading_base($font, $size, $color) {
     @include set_font($font, $size, $color, bold);
-    @include max-screen(720px) {
-        line-height: $size + 2;
-    }
+    line-height: $size;
     @include compact;
 }
 
