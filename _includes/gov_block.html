@@ -1,0 +1,19 @@
+{% comment %}
+Arguments:
+    - post
+
+Example:
+    {% assign posts = site.info_company | sort: "title" %}
+    {% for post in posts %}
+    {% include gov_block.html post=post %}
+    {% endfor %}
+{% endcomment %}
+
+<div class="block block_default_fonts">
+    <div class="entries">
+        <div class="entry">
+            <h2>{{ include.post.title }}</h2>
+            <p class="excerpt">{{ include.post.description }}</p>
+        </div>
+    </div>
+</div>

@@ -7,19 +7,20 @@ tags: []
 published: true
 ---
 
-<div class="section_container">
-    <div class="container container_right_margin_20">
-
-        {% assign branch = site.data.gov | where: "branch", "judiciary" | where: "scope", "top" %}
-        <div class="block block_default_fonts">
-            <div class="entries">
-                {% for entry in branch %}
-                    {% include gov_entry.html entry=entry %}
-                {% endfor %}
-            </div>
-        </div>
-        
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Government: Judiciary</h1>
+    
+    <p>&nbsp;</p>
+    <p class="excerpt">{{ site.data.government.branch[2].description }}</p>
+    
+    <div class="section_container top_margin_10">
+        {% assign list_posts = site.data.government.branch[2].heads %}
+        {% include gov_list.html posts=list_posts %}
     </div>
-    <div class="container">
+    
+    <div class="section_container top_margin_10">
+        <h1>Committees</h1>
+        {% assign list_posts = site.data.government.branch[2].courts%}
+        {% include gov_list.html posts=list_posts %}
     </div>
 </div>

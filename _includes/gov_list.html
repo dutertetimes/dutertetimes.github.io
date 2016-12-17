@@ -1,0 +1,51 @@
+{% comment %}
+Arguments:
+    - posts
+    - counter [yes | no]
+
+Example:
+    {% assign posts = site.data.government.branch %}
+    {% include gov_list.html post=posts %}
+{% endcomment %}
+
+{% assign div_entry_class = "entry" %}
+{% if include.counter and include.counter == "yes" %}
+    {% assign div_entry_class = div_entry_class | append: " index_entry" %}
+{% endif %}
+
+{% assign counter = 1 %}
+
+<div class="block block_default_fonts">
+    <div class="entries">
+        {% for post in include.posts %}
+        <div class="{{ div_entry_class }}">
+            {% if post.url != nil %}
+            <h2>{% if include.counter and include.counter == "yes" %}<span>{{ counter }}.&nbsp;</span>{% endif %}<a href="{{ post.url }}" target="_blank">{{ post.title }} {% if post.abbr %}({{ post.abbr }}){% endif %}</a></h2>
+            {% else %}
+            <h2>{% if include.counter and include.counter == "yes" %}<span>{{ counter }}.&nbsp;</span>{% endif %}{{ post.title }} {% if post.abbr %}({{ post.abbr }}){% endif %}</h2>
+            {% endif %}
+            {% if post.description %}
+            <p class="excerpt">{{ post.description }}</p>
+            {% endif %}
+            {% if post.head %}
+            <p class="excerpt">{{ post.head }}</p>
+            {% endif %}
+            {% if post.url != nil %}
+            <p class="excerpt">Link: {{ post.url }}</p>
+            {% endif %}
+            
+            {% assign counter = counter | plus: 1 %}
+            
+            {% comment %}
+            {% if post.links %}
+                <ul>
+                    {% for link in links %}
+                        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% endcomment %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

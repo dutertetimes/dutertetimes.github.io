@@ -7,43 +7,22 @@ tags: []
 published: true
 ---
 
+<p>{{ page.cagetories }}</p>
 <div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
     <h1>{{ page.title }}</h1>
-    
-    <div class="gov_definition section_container top_margin_10 bottom_margin_10">
-    {% assign gov = site.data.gov | where: "branch", "gov" %}
-    {% for entry in gov %}
-        <p>{{ entry.description }}</p>
-        <ul>
-            {% if entry.link.size and entry.link.size == 1 %}
-            <li><a href="{{ entry.link[0].url }}" class="no_underline">{{ entry.link[0].label }}</a></li>
-            {% else %}
-                {% for linkitem in entry.link %}
-            <li><a href="{{ linkitem.url }}" class="no_underline">{{ linkitem.label }}</a></li>
-                {% endfor %}
-            {% endif %}
-        </ul>
-    {% endfor %}
-    </div>
+    <p>&nbsp;</p>
+    <p class="excerpt">{{ site.data.government.description }}</p>
+    <ul>
+        <li><a href="{{ site.data.government.links[0].url }}" class="no_underline">{{ site.data.government.links[0].name }}</a></li>
+    </ul>
 
     <div class="section_container top_margin_10 bottom_margin_5">
-    {% assign branches = site.data.gov | where: "described", "yes" %}
-        {% for branch in branches %}
-            {% if forloop.last %}
+        {% assign branches = site.data.government.branch %}
+        {% for post in branches %}
         <div class="container">
-            {% else %}
-        <div class="container right_margin_20">
-            {% endif %}
-            <div class="block block_default_fonts">
-                <div class="entries">
-                    <div class="entry">
-                        <h2><a href="/info/gov/{{ branch.branch }}/">{{ branch.branch | capitalize }}</a></h2>
-                        <p>{{ branch.description }}</p>
-                    </div>
-                </div>
-            </div>
+            {% include gov_block.html post=post %}
+            <p><a href="{{ post.link | downcase }}">Go to the {{ post.title | capitalize }} page.</a></p>
         </div>
         {% endfor %}
     </div>
-
 </div>

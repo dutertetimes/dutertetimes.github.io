@@ -15,7 +15,9 @@ Example:
 {% assign counter = 1 %}
 
 <div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
+    {% if include.title %}
     <h1>{{ include.title }}</h1>
+    {% endif %}
     <div class="section_container top_margin_10 bottom_margin_10">
         <div class="block block_default_fonts">
             <div class="entries">

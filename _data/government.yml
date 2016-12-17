@@ -1,0 +1,475 @@
+title:        Government of the Republic of the Philippines
+description: "The Philippines is a republic with a presidential form of government wherein power is equally divided among its three branches: executive, legislative, and judicial. One basic corollary in a presidential system of government is the principle of separation of powers wherein legislation belongs to Congress, execution to the Executive, and settlement of legal controversies to the Judiciary."
+level:       1
+links:
+  - name: Official Site
+    url: http://www.gov.ph/
+  - name: Facebook
+    url: https://www.facebook.com/govph
+
+branch:
+  - title: Executive
+    description: "The Executive branch is composed of the President and the Vice President who are elected by direct popular vote and serve a term of six years. The Constitution grants the President authority to appoint his Cabinet. These departments form a large portion of the country’s bureaucracy."
+    link: /info/gov/executive/
+    heads:
+      - title: President
+        head: Rodrigo Roa Duterte
+        description: 
+      - title: Vice President
+        head: Maria Leonor Santo Tomas Robredo
+        description: 
+    departments:
+      - title: Executive Secretary
+        abbr: ES
+        head: Salvador Campo Medialdea
+        url: http://president.gov.ph/
+      - title: Office of the Presidential Spokesperson
+        abbr: OPS
+        head: Ernesto Corpuz Abella
+      - title: Department of Agrarian Reform
+        abbr: DAR
+        head: Rafael Vitriolo Mariano
+        note: "To view all news, use non-existent link or this [url](http://www.dar.gov.ph/missing-link)."
+        url: http://www.dar.gov.ph/
+      - title: Department of Agriculture
+        abbr: DA
+        head: Emmanuel Fantin Piñol
+        url: http://www.da.gov.ph/
+      - title: Department of Budget and Management
+        abbr: DBM
+        head: Benjamin Estoista Diokno
+        url: http://www.dbm.gov.ph/
+      - title: Department of Education
+        abbr: DepEd
+        head: Leonor Magtolis Briones
+        url: http://www.deped.gov.ph/
+      - title: Department of Energy
+        abbr: DOE
+        head: Alfonso Gaba Cusi
+        url: http://www.doe.gov.ph/
+      - title: Department of Environment and Natural Resources
+        abbr: DENR
+        head: Regina Paz La'O Lopez
+        url: http://www.denr.gov.ph/
+      - title: Department of Finance
+        abbr: DOF
+        head: Carlos Garcia Dominguez III
+        url: http://www.dof.gov.ph/
+      - title: Department of Foreign Affairs
+        abbr: DFA
+        head: Perfecto Rivas Yasay Jr.
+        url: http://www.dfa.gov.ph/
+      - title: Department of Health
+        abbr: DOH
+        head: Paulyn Jean B. Rosell-Ubial
+        url: http://www.doh.gov.ph/
+      - title: Department of Information and Communications Technology
+        abbr: DICT
+        head: Rodolfo Agapay Salalima
+        url: http://www.dict.gov.ph/
+      - title: Department of the Interior and Local Government
+        abbr: DILG
+        head: Ismael Dres Sueño
+        url: http://www.dilg.gov.ph/
+      - title: Department of Justice
+        abbr: DOJ
+        head: Vitaliano Napeñas Aguirre II
+        url: http://www.doj.gov.ph/
+      - title: Department of Labor and Employment
+        abbr: DOLE
+        head: Silvestre Bello III
+        url: http://www.dole.gov.ph/
+      - title: Department of National Defense
+        abbr: DND
+        head: Delfin Negrillo Lorenzana
+        url: http://www.dnd.gov.ph/
+      - title: Department of Public Works and Highways
+        abbr: DPWH
+        head: Mark Aguilar Villar
+        url: http://www.dpwh.gov.ph/
+      - title: Department of Science and Technology
+        abbr: DOST
+        head: Fortunato Tanseco de la Peña
+        url: http://www.dost.gov.ph/
+      - title: Department of Social Welfare and Development
+        abbr: DSWD
+        head: Judy Marigomen Taguiwalo
+        url: http://www.dswd.gov.ph/
+      - title: Department of Tourism
+        abbr: DOT
+        head: Wanda Corazon Teshiba Tulfo-Teo
+        url: http://www.tourism.gov.ph
+      - title: Department of Trade and Industry
+        abbr: DTI
+        head: Ramon Lopez
+        url: http://www.dti.gov.ph/
+      - title: Department of Transportation
+        abbr: DOTr
+        head: Arthur Planta Tugade
+        url: http://www.dotc.gov.ph/
+      - title: Commission on Higher Education
+        abbr: CHED
+        head: Patricia Licuanan
+        url: http://www.ched.gov.ph/
+        
+    cabinet_level:
+      - title: Housing and Urban Development Coordinating Council
+        abbr: HUDCC
+        head: 
+        url: http://hudcc.net/
+      - title: National Economic and Development Authority
+        abbr: NEDA
+        head: Ernesto del Mar Pernia
+        url: http://www.neda.gov.ph/
+      - title: Presidential Communications Office
+        abbr: PCO
+        head: Martin Andanar
+        url: 
+      - title: National Security Council
+        abbr: NSC
+        head: Hermogenes Cendaña Esperon, Jr.
+        url: http://www.nsc.gov.ph/
+      - title: Office of the Cabinet Secretary
+        abbr: OCS
+        head: Leoncio Badilla Evasco Jr.
+        url: 
+      - title: Presidential Management Staff
+        abbr: PMS
+        head: Christopher Lawrence Tesoro Go
+        url: 
+      - title: Office of the Chief Presidential Legal Counsel
+        abbr: OCPLC
+        head: Salvador San Buenaventura Panelo
+        url: 
+      - title: Metropolitan Manila Development Authority
+        abbr: MMDA
+        head: Thomas Muñoz Orbos
+        url: http://www.mmda.gov.ph/
+      - title: National Commission on Muslim Filipinos
+        abbr: NCMF
+        head: Yasmin Busran-Lao
+        url: http://www.ncmf.gov.ph/
+      - title: Commission on Filipinos Overseas
+        abbr: CFO
+        head: Imelda M. Nicolas
+        url: http://www.cfo.gov.ph/
+      - title: Mindanao Development Authority
+        abbr: MinDA
+        head: Datu Abul Khayr Dangcal Alonto
+        url: http://www.minda.gov.ph/
+      - title: National Anti-Poverty Commission
+        abbr: NAPC
+        head: Liza Maza
+        url: http://www.napc.gov.ph/
+      - title: Office of the Presidential Adviser on the Peace Process
+        abbr: OPAPP
+        head: Jesus Gestuveo Dureza
+        url: http://www.peace.gov.ph/
+      - title: Presidential Legislative Liaison Office
+        abbr: PLLO
+        head: Antonio A. Gallardo
+        url: http://pllo.gov.ph/
+
+  - title: Legislative
+    description: "The Legislative branch is authorized to make laws, alter, and repeal them through the power vested in the Philippine Congress. This institution is divided into the Senate and the House of Representatives."
+    link: /info/gov/legislative/
+    heads:
+      - title: Senate President
+        head: Aquilino Pimentel
+        description: 
+      - title: Speaker of the House of Representatives
+        head: Pantaleon Alvarez
+        description: 
+    committees:
+      - title: Accountability of Public Officers and Investigations
+        abbr: 
+        head: Richard J. Gordon
+        url: 
+      - title: Accounts
+        abbr: 
+        head: Panfilo M. Lacson
+        url: 
+      - title: Agrarian Reform
+        abbr: 
+        head: Alan Peter S. Cayetano
+        url: 
+      - title: Agriculture and Food
+        abbr: 
+        head: Francis Pangilinan
+        url: 
+      - title: Banks, Financial Institutions and Currencies
+        abbr: 
+        head: Francis G. Escudero
+        url: 
+      - title: Civil Service, Government Reorganization and Professional Regulation
+        abbr: 
+        head: Antonio F. Trillanes IV
+        url: 
+      - title: Climate Change
+        abbr: 
+        head: Loren B. Legarda
+        url: 
+      - title: Constitutional Amendments and Revision of Codes
+        abbr: 
+        head: Franklin M. Drilon
+        url: 
+      - title: Cooperatives
+        abbr: Juan Miguel F. Zubiri
+        head: 
+        url: 
+      - title: Cultural Communities
+        abbr: 
+        head: Maria Lourdes Nancy S. Binay
+        url: 
+      - title: Economic Affairs
+        abbr: 
+        head: Sherwin T. Gatchalian
+        url: 
+      - title: Education, Arts and Culture
+        abbr: 
+        head: Paolo Benigno A. Aquino IV
+        url: 
+      - title: Electoral Reforms and Peoples' Participation
+        abbr: 
+        head: Leila M. De Lima
+        url: 
+      - title: Energy
+        abbr: 
+        head: Sherwin T. Gatchalian
+        url: 
+      - title: Environment and Natural Resources
+        abbr: 
+        head: Cynthia A. Villar
+        url: 
+      - title: Ethic and Privileges
+        abbr: 
+        head: Vicente C. Sotto III
+        url: 
+      - title: Finance
+        abbr: 
+        head: Loren B. Legarda
+        url: 
+      - title: Foreign Relations
+        abbr: 
+        head: Alan Peter S. Cayetano
+        url: 
+      - title: Games and Amusement
+        abbr: 
+        head: Panfilo M. Lacson
+        url: 
+      - title: Government Corporations and Public Enterprises
+        abbr: 
+        head: Richard J. Gordon
+        url: 
+      - title: Health and Demography
+        abbr: 
+        head: Ana Theresia Hontiveros-Baraquel
+        url: 
+      - title: Justice and Human Rights
+        abbr: 
+        head: Richard J. Gordon
+        url: 
+      - title: Labor, Employment and Human Resource Development
+        abbr: 
+        head: Joel Villanueva
+        url: 
+      - title: Local Government
+        abbr: 
+        head: Juan Edgardo M. Angara
+        url: 
+      - title: National Defense and Security
+        abbr: 
+        head: Gregorio B. Honasan II
+        url: 
+      - title: Peace, Unification and Reconciliation
+        abbr: 
+        head: Gregorio B. Honasan II
+        url: 
+      - title: Public Information and Mass Media
+        abbr: 
+        head: Grace Poe
+        url: 
+      - title: Public Order and Dangerous Drugs
+        abbr: 
+        head: Panfilo M. Lacson
+        url: 
+      - title: Public Services
+        abbr: 
+        head: Grace Poe
+        url: 
+      - title: Public Works
+        abbr: 
+        head: Emmanuel D. Pacquiao
+        url: 
+      - title: Rules
+        abbr: 
+        head: Vicente C. Sotto III
+        url: 
+      - title: Science and Technology
+        abbr: 
+        head: Paolo Benigno Aquino IV
+        url: 
+      - title: Social Justice, Welfare and Rural Development
+        abbr: 
+        head: Cynthia A. Villar
+        url: 
+      - title: Sports
+        abbr: 
+        head: Emmanuel D. Pacquiao
+        url: 
+      - title: Tourism
+        abbr: 
+        head: Maria Lourdes Nancy S. Binay
+        url: 
+      - title: Trade, Commerce and Entrepreneurship
+        abbr: 
+        head: Juan Miguel F. Zubiri
+        url: 
+      - title: Urban Planning, Housing and Resettlement
+        abbr: 
+        head: Joseph Victor G. Ejercito
+        url: 
+      - title: Ways and Means
+        abbr: 
+        head: Juan Edgardo M. Angara
+        url: 
+      - title: Women, Children, Family Relations and Gender Equality
+        abbr: 
+        head: Ana Theresia Hontiveros-Baraquel
+        url: 
+      - title: Youth
+        abbr: 
+        head: Joel Villanueva
+        url: 
+      - title: Commission on Appointments
+        abbr: 
+        head: Aquilino Pimentel III
+        url: 
+      - title: Senate and Electoral Tribunal
+        abbr: 
+        head: 
+        url: 
+      - title: Judicial and Bar Council
+        abbr: 
+        head: Richard J. Gordon
+        url: 
+        
+  - title: Judiciary
+    description: "The Judicial branch holds the power to settle controversies involving rights that are legally demandable and enforceable. This branch determines whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part and instrumentality of the government. It is made up of a Supreme Court and lower courts. The Constitution expressly grants the Supreme Court the power of Judicial Review as the power to declare a treaty, international or executive agreement, law, presidential decree, proclamation, order, instruction, ordinance or regulation unconstitutional."
+    link: /info/gov/judiciary/
+    heads:
+      - title: Chief Justice of the Supreme Court 
+        head: Ma. Lourdes P. A. Sereno
+        description: 
+        url: http://sc.judiciary.gov.ph/
+    courts:
+      - title: Court of Appeals
+        abbr: CA
+        head:
+        url: http://ca.judiciary.gov.ph
+      - title: Sandiganbayan
+        abbr: SB
+        head:
+        url: http://sb.judiciary.gov.ph
+      - title: Court of Tax Appeals
+        abbr: CTA
+        head:
+        url: http://cta.judiciary.gov.ph
+        
+  - title: Constitutional Commissions
+    description:
+    link: /info/gov/commissions/
+    commissions:
+      - title: Civil Service Commission
+        abbr: CSC
+        head:
+        url: http://www.csc.gov.ph/
+      - title: Commission on Elections
+        abbr: COMELEC
+        head:
+        url: http://www.comelec.gov.ph/
+      - title: Commission on Audit
+        abbr: COA
+        head: 
+        url: http://www.coa.gov.ph/
+      - title: Commission on Human Rights
+        abbr: CHR
+        head: 
+        url: http://www.chr.gov.ph/
+        
+  - title: Government Agencies
+    description:
+    link: /info/gov/agencies/
+    agencies:
+      - title: Anti-Money Laundering Council
+        abbr: AMLC
+        head:
+        url: 
+      - title: Bureau of Customs
+        abbr: BOC
+        head:
+        url: http://customs.gov.ph/
+      - title: Cultural Center of the Philippines
+        abbr: CCP
+        head:
+        url: http://culturalcenter.gov.ph/
+      - title: Government Service and Insurance System
+        abbr: GSIS
+        head:
+        url: http://www.gsis.gov.ph/
+      - title: National Archives of the Philippines
+        abbr:
+        head:
+        url: http://nationalarchives.gov.ph/
+      - title: National Bureau of Investigation
+        abbr: NBI
+        head: Dante Gierran
+        url: https://nbi.gov.ph/
+      - title: National Commission on Indigenous Peoples
+        abbr: NCIP
+        head: 
+        url: http://www.ncip.gov.ph/
+      - title: National Computer Center
+        abbr: NCC
+        head:
+        url: http://www.ncc.gov.ph/
+      - title: National Historical Commission of the Philippines
+        abbr:
+        head:
+        url: http://www.nhcp.gov.ph/
+      - title: National Housing Authority
+        abbr: NHA
+        head:
+        url: http://www.nha.gov.ph/
+      - title: National Intelligence Coordinating Agency
+        abbr: NICA
+        head:
+        url: http://www.nica.gov.ph/
+      - title: National Library of the Philippines
+        abbr: NLP
+        head:
+        url: http://web.nlp.gov.ph/nlp/
+      - title: National Museum of the Philippines
+        abbr: NMP
+        head:
+        url: http://www.nationalmuseum.gov.ph/
+      - title: National Statistics Office
+        abbr: NSO
+        head:
+        url:
+      - title: National Telecommunications Commission
+        abbr: NTC
+        head:
+        url: http://ntc.gov.ph/
+      - title: Philippine Drug Enforcement Agency
+        abbr: PDEA
+        head: Gen. Isidro S. Lapeña
+        url: http://www.pdea.gov.ph/
+      - title: Securities and Exchange Commission
+        abbr: SEC
+        head:
+        url: http://www.sec.gov.ph/
+      - title: Subic Bay Metropolitan Authority
+        abbr: SBMA
+        head: Randy Escolango (OIC)
+        url: http://www.mysubicbay.com.ph/
