@@ -1,0 +1,78 @@
+{% comment %}
+Arguments:
+    - post
+    - show
+    - link_target_new_window - ["yes" | "no"]
+
+Example:
+    {% assign show_items = "" | split: "" %}
+    {% assign show_items = show_items | push: "date" %}
+    {% assign show_items = show_items | push: "excerpt" %}
+    {% assign show_items = show_items | push: "description" %}
+
+    {% assign posts = site.data.government.branch %}
+    {% include block_entry.html post=post show=show_items %}
+{% endcomment %}
+
+{% if include.show contains "thumbnail" %}
+
+    {% if include.post.categories %}
+    {% assign post_image = post.categories[1] | prepend: "post_16_9_" | append: ".png" %}
+    {% endif %}
+
+    {% if site.debug %}
+        {% if include.post.video.source %}
+<img src="/images/offline/thumbnail_post_image.png" />
+        {% else %}
+            {% if include.post.video.source %}
+<img src="/images/offline/thumbnail_post_video.png" />
+            {% else %}
+<img src="/images/offline/thumbnail_category_image.png" />
+            {% endif %}
+        {% endif %}
+    {% else %}
+        {% if include.post.image.source %}
+<img src="{{ site.image_source }}/post/{{ include.post.image.source }}" />
+        {% else %}
+            {% if include.post.video.source %}
+<img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" />
+            {% else %}
+<img src="{{ site.image_source }}/site/{{ post_image }}" />
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endif %}
+
+{% if include.post.url != nil %}
+<h2><a href="{{ include.post.url }}" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ include.post.title }}{% if include.post.abbr %}&nbsp;({{ include.post.abbr }}){% endif %}</a></h2>
+{% else %}
+<h2>{{ include.post.title }}{% if include.post.abbr %}&nbsp;({{ include.post.abbr }}){% endif %}</h2>
+{% endif %}
+
+{% if include.show contains "head" %}
+{% if include.post.head %}<p class="excerpt">{{ include.post.head }}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "description" %}
+{% if include.post.description %}<p class="excerpt">{{ include.post.description }}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "date" %}
+{% if include.post.date  %}<p class="date">{{ include.post.date | date: site.data.format.date_only }}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "excerpt" %}
+{% if include.post.excerpt %}<p class="excerpt">{{ include.post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "categories" %}
+{% if include.post.categories %}<p class="category">Categories:&nbsp;{{ include.post.categories | join: ", "}}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "tags" %}
+{% if include.post.tags %}<p class="tag">Tags:&nbsp;{{ include.post.tags | join: ", " }}</p>{% endif %}
+{% endif %}
+
+{% if include.show contains "url" %}
+{% if include.post.url %}<p class="excerpt"><a href="{{ include.post.url }}" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ include.post.url }}</a></p>{% endif %}
+{% endif %}

@@ -2,27 +2,21 @@
 layout:
 ---
 
+{% assign show_items = "" | split: "" %}
+{% assign show_items = show_items | push: "date" %}
+{% assign show_items = show_items | push: "excerpt" %}
+    
 {% assign postCount = 0 %}
+
 {% for post in site.categories['news'] %}
-    {% if post.categories contains 'newsbit' %}
+    {% if post.title == page.title %}
         {% continue %}
     {% endif %}
-    
-    {% if post.title != page.title %}
-        <div class="entry">
-            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-
-            {% if post.date == nil %}
-                <p class="date">Undated</p>
-            {% else %}
-                <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            {% endif %}
-            <p class="excerpt">{{ post.excerpt }}</p>
-        </div>
-        {% assign postCount = postCount | plus: 1 %}
-        {% if postCount == 5 %}
-            {% break %}
-        {% endif %}
+    <div class="entry">
+        {% include block_entry.html post=post show=show_items %}
+    </div>
+    {% assign postCount = postCount | plus: 1 %}
+    {% if postCount == 5 %}
+        {% break %}
     {% endif %}
-    
 {% endfor %}

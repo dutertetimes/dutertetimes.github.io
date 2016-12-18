@@ -12,25 +12,11 @@ Example:
 
 {% include todo_list.html todo_data=include.todo_data %}
 
-{% assign counter = 1 %}
-
 <div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
     {% if include.title %}
     <h1>{{ include.title }}</h1>
     {% endif %}
     <div class="section_container top_margin_10 bottom_margin_10">
-        <div class="block block_default_fonts">
-            <div class="entries">
-        {% for post in include.posts %}
-            {% if post.development %}
-                {% continue %}
-            {% endif %}
-                <div class="index_entry">
-                    <h2 class="indexed"><span>{{ counter }}</span><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-                    {% assign counter = counter | plus: 1 %}
-                </div>
-        {% endfor %}
-            </div>
-        </div>
+        {% include block_list.html posts=include.posts counter="yes" %}
     </div>
 </div>

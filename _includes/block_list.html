@@ -1,0 +1,69 @@
+{% comment %}
+Arguments:
+    - posts
+    - show
+    - counter - ["yes" | "no"]
+    - list_style - ["list_style_none" | ... ]
+    - link_target_new_window - ["yes" | "no"]
+    - entry_class
+    - note_when_empty - ["yes" | "no"]
+
+Example:
+    {% assign show_items = "" | split: "" %}
+    {% assign show_items = show_items | push: "date" %}
+    {% assign show_items = show_items | push: "excerpt" %}
+    {% assign show_items = show_items | push: "description" %}
+
+    {% assign posts = site.data.government.branch %}
+    {% include block_list.html post=posts show=show_items counter="no" link_target_new_window="yes" %}
+{% endcomment %}
+
+<div class="block block_default_fonts">
+    <div class="entries">
+
+        {% if include.counter and include.counter == "yes" %}
+        <ol class="{{ include.list_style }}">
+        {% else %}
+        <ul class="{{ include.list_style }}">
+        {% endif %}
+
+        {% for post in include.posts %}
+        <li class="entry {% if include.entry_class %}{{ include.entry_class }}{% endif %}">
+            {% include block_entry.html post=post show=include.show %}
+
+            {% comment %}
+            {% if post.url != nil %}
+            <h2><a href="{{ post.url }}" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ post.title }}{% if post.abbr %}&nbsp;({{ post.abbr }}){% endif %}</a></h2>
+            {% else %}
+            <h2>{{ post.title }}{% if post.abbr %}&nbsp;({{ post.abbr }}){% endif %}</h2>
+            {% endif %}
+
+            {% if include.show contains "head" %}
+            {% if post.head %}<p class="excerpt">{{ post.head }}</p>{% endif %}
+            {% endif %}
+
+            {% if include.show contains "description" %}
+            {% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}
+            {% endif %}
+
+            {% if include.show contains "date" %}
+            {% if post.date  %}<p class="date">{{ post.date | date: site.data.format.date_only }}</p>{% endif %}
+            {% endif %}
+
+            {% if include.show contains "excerpt" %}
+            {% if post.excerpt %}<p class="excerpt">{{ post.excerpt }}</p>{% endif %}
+            {% endif %}
+
+            {% if include.show contains "url" %}
+            {% if post.url %}<p class="excerpt"><a href="{{ post.url }}" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ post.url }}</a></p>{% endif %}
+            {% endif %}
+            {% endcomment %}
+
+        </li>
+        {% else %}
+            {% include no_posts.html %}
+        {% endfor %}
+
+        {% if include.counter and include.counter == "yes" %}</ol>{% else %}</ul>{% endif %}
+    </div>
+</div>

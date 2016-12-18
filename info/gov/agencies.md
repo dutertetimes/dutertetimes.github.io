@@ -13,9 +13,12 @@ published: true
     <p>&nbsp;</p>
     <p class="excerpt">{{ site.data.government.branch[4].description }}</p>
     
-    <div class="section_container top_margin_10">
+    {% assign show_items = "" | split: "" %}
+    {% assign show_items = show_items | push: "head" %}
+    
+    <div class="section_container">
         <h1>Agencies</h1>
-        {% assign list_posts = site.data.government.branch[4].agencies %}
-        {% include gov_list.html posts=list_posts %}
+        {% assign list = site.data.government.branch[4].agencies %}
+        {% include block_list.html posts=list show=show_items counter="yes" entry_class="bottom_margin_10" %}
     </div>
 </div>

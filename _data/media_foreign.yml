@@ -1,0 +1,56 @@
+- title: The Washington Post
+  description: "The Washington Post is generally regarded as one of the leading daily American newspapers. The Post has distinguished itself through its political reporting on the workings of the White House, Congress, and other aspects of the U.S. government."
+  url: https://www.washingtonpost.com/
+- title: The Wall Street Journal
+  description: "The Wall Street Journal is a business-focused, English-language international daily newspaper based in New York City. The Wall Street Journal is the largest newspaper in the United States by circulation."
+  url: https://www.wsj.com/
+- title: Reuters
+  description: "Reuters is an international news agency headquartered in London, England, United Kingdom and is a division of Thomson Reuters. Until 2008, the Reuters news agency formed part of an independent company, Reuters Group plc, which was also a provider of financial market data. Since the acquisition of Reuters Group by the Thomson Corporation in 2008, the Reuters news agency has been a part of Thomson Reuters, making up the media division."
+  url: http://www.reuters.com/
+- title: BBC News
+  description: "BBC News is an operational business division of the British Broadcasting Corporation (BBC) responsible for the gathering and broadcasting of news and current affairs. The department is the world's largest broadcast news organisation and generates about 120 hours of radio and television output each day, as well as online news coverage. The service maintains 50 foreign news bureaux with more than 250 correspondents around the world."
+  url: http://www.bbc.com/news/
+- title: Time
+  url: http://time.com/
+- title: International Business Times
+  description: "The International Business Times, owned by IBT Media, is a digital global news publication that provides comprehensive coverage and analysis of the most important business, economic, political and technological issues around the world. It reaches over 55 million people every month in seven global editions and four languages. International Business Times is owned by IBT Media."
+  url: http://www.ibtimes.co.uk/
+- title: The Guardian
+  description: "The Guardian is a British national daily newspaper, known until 1959 as the Manchester Guardian. Along with its sister papers The Observer and The Guardian Weekly, The Guardian is part of the Guardian Media Group, owned by The Scott Trust Limited. The Trust was created in 1936 'to secure the financial and editorial independence of The Guardian in perpetuity and to safeguard the journalistic freedom and liberal values of The Guardian free from commercial or political interference.' The Scott Trust became a limited company in 2008, with a constitution to maintain the same protections for The Guardian. Profits are reinvested in journalism rather than to the benefit of an owner or shareholders."
+  url: https://www.theguardian.com/
+- title: The Huffington Post
+  description: "The Huffington Post is an American online news aggregator and blog that has both localized and international editions founded by Reilly Wieland, Kenneth Lerer, Andrew Breitbart, and Jonah Peretti, featuring columnists. The site offers news, satire, blogs, and original content and covers politics, business, entertainment, environment, technology, popular media, lifestyle, culture, comedy, healthy living, women's interests, and local news.<br><br>The Huffington Post was launched on May 9, 2005 as an overtly liberal/left commentary outlet and alternative to news aggregators such as the Drudge Report. On February 7, 2011, AOL acquired the mass market Huffington Post for US$315 million, making Arianna Huffington editor-in-chief of The Huffington Post Media Group.<br><br>In July 2012, The Huffington Post was ranked #1 on the 15 Most Popular Political Sites list by eBizMBA Rank, which bases its list on each site's Alexa Global Traffic Rank and U.S. Traffic Rank from both Compete and Quantcast. In 2012, The Huffington Post became the first commercially run United States digital media enterprise to win a Pulitzer Prize."
+  url: http://www.huffingtonpost.com/
+- title: Al Jazeera
+  description: "Al Jazeera, literally 'The Peninsula', referring to the Arabian Peninsula, also known as JSC (Jazeera Satellite Channel), is a Doha-based state-funded broadcaster owned by the Al Jazeera Media Network, which is partly funded by the House of Thani, the ruling family of Qatar. Initially launched as an Arabic news and current affairs satellite TV channel, Al Jazeera has since expanded into a network with several outlets, including the Internet and specialty TV channels in multiple languages.<br><br>Al Jazeera is among the largest news organizations with 80 bureaus around the world. Al Jazeera has been called a propaganda outlet for the Qatari government and its foreign policy, by analysts and by news reporters, including former Al Jazeera reporters. The network is sometimes perceived to have mainly Islamist perspectives, promoting the Muslim Brotherhood, and having a pro-Sunni and an anti-Shia bias in its reporting of regional issues. It's also accused of having an anti-Western bias. However, Al Jazeera insists it covers all sides of a debate, it says it presents Israel's view, Iran's view and even aired videos released by Osama bin Laden."
+  url: http://www.aljazeera.com/
+- title: news.com.au
+  description: "Australia's number one news site news.com.au reaches over 5.5m* Australians, delivering extensive breaking news and national interest stories."
+  url: http://www.news.com.au
+- title: Japan Times
+  description: "The Japan Times was launched by Motosada Zumoto on March 22, 1897, with the goal of giving Japanese an opportunity to read and discuss news and current events in English to help Japan to participate in the international community. It was successively renamed The Japan Times and Mail (1918–1940) following its merger with The Japan Mail, The Japan Times and Advertiser (1940–1943) following its merger with The Japan Advertiser, and Nippon Times which occurred during an anti-English language sentiment during World War II era Japan.<br><br>At first, the paper was independent of government control, but from 1931 onward, the Japanese government was mounting pressure on the paper's editors to submit to its policies. In 1933, the Japanese Ministry of Foreign Affairs managed to appoint Hitoshi Ashida, former Ministry official, as chief editor. During World War II, the newspaper served as an outlet for Imperial Japanese government propaganda and editorial opinion."
+  url: http://www.japantimes.co.jp/
+- title: Japan Today
+  description: "Japan Today is an online newspaper based in Tokyo, Japan. Launched in September 2000, Japan Today publishes wire articles, press releases, and photographs, as well as opinion and contract pieces, such as company profiles, in English. Japan Today is a fully owned brand by GPlus Media Co. Ltd., which also owns Gaijinpot.com, RealEstate.co.jp, and other on-line based enterprises."
+  url: http://www.japantoday.com/
+- title: News on Japan
+  description:
+  url: http://www.newsonjapan.com/
+- title: The Japan News
+  description:
+  url: http://the-japan-news.com/
+- title: The Jakarta Post
+  description:
+  url: http://www.thejakartapost.com/
+- title: The Diplomat
+  description:
+  url: http://thediplomat.com/
+- title: The Independent
+  description: "The Independent is a British online newspaper established in 1986 as an independent national morning newspaper published in London, it was controlled by Tony O'Reilly's Independent News & Media from 1997, and sold to Alexander Lebedev in 2010. It ceased to be produced in print in March 2016."
+  url: http://www.independent.co.uk/
+- title: China Daily
+  description:
+  url: http://www.chinadaily.com.cn/
+- title: Sputnik News
+  description:
+  url: https://sputniknews.com/

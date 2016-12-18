@@ -3,17 +3,11 @@ Arguments:
     - category - used in javascript; every word is capitalized
     - posts
     - max_post_count
-    - post_image
 
 Example:
     {% assign section_posts = site.categories['opinion'] %}
     {% include section_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
 {% endcomment %}
-
-{% assign post_count = include.posts.size %}
-{% if post_count > include.max_post_count %}
-    {% assign post_count = include.max_post_count %}
-{% endif %}
 
 {% assign this_title = include.category | replace: '_', ' ' | upcase %}
 
@@ -21,77 +15,45 @@ Example:
 {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
 {% assign js_category = titlecase_category | remove: ' ' %}
 
+{% assign show_items = "" | split: "" %}
+{% assign show_items = show_items | push: "date" %}
+{% assign show_items = show_items | push: "excerpt" %}
+{% assign show_items = show_items | push: "thumbnail" %}
+{% if site.debug %}
+{% assign show_items = show_items | push: "categories" %}
+{% endif %}
+
+{% assign category_posts = "" | split: "" %}
+{% assign post_count = 0 %}
+
+{% for post in include.posts %}
+    {% if post.categories[1] != include.category %}
+        {% continue %}
+    {% endif %}
+    
+    {% assign category_posts = category_posts | push: post %}
+
+    {% assign post_count = post_count | plus: 1 %}
+    {% if post_count == include.max_post_count %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
 <div class="block block_default_fonts">
     <h1>{{ this_title }}</h1>
-    
-    <div class="links">
-        {% assign post_count = 0 %}
-        {% for post in include.posts %}
-            {% if post.categories[1] != include.category %}
-                {% continue %}
-            {% endif %}
 
-            {% assign post_count = post_count | plus: 1 %}
-            {% if post_count > include.max_post_count %}
-                {% break %}
-            {% endif %}
-        <span class="{{ include.category }}_dot slideshow_dot" onclick="current{{ js_category }}Slide( {{ post_count | minus: 1 }} )"></span>
+    <div class="links">
+        {% for counter in (1..post_count) %}
+        <span class="{{ include.category }}_dot slideshow_dot" onclick="current{{ js_category }}Slide( {{ counter | minus: 1 }} )"></span>
         {% endfor %}
     </div>
     <div class="entries">
-
-        {% assign post_count = 0 %}
-        {% for post in include.posts %}
-
-            {% if post.categories[1] != include.category %}
-                {% continue %}
-            {% endif %}
-
-            {% assign post_count = post_count | plus: 1 %}
-            {% if post_count > include.max_post_count %}
-                {% break %}
-            {% endif %}
-
+        {% for post in category_posts %}
         <div class="entry {{ include.category }}_news_entry">
-            {% if site.debug %}
-                {% if post.image.source %}
-            <img src="/images/offline/thumbnail_post_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
-                {% else %}
-                    {% if post.video.source %}
-            <img src="/images/offline/thumbnail_post_video.png" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
-                    {% else %}
-            <img src="/images/offline/thumbnail_category_image.png" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
-                    {% endif %}
-                {% endif %}
-            {% else %}
-                {% if post.image.source %}
-            <img src="{{ site.image_source }}/post/{{ post.image.source }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded" alt="Photo by {{ post.image.attribution }}"/>
-                {% else %}
-                    {% if post.video.source %}
-                        {% if post.video.thumbnail %}
-            <img src="http://img.youtube.com/vi/{{ post.video.source }}/{{ post.video.thumbnail }}.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded"/>
-                        {% else %}
-            <img src="http://img.youtube.com/vi/{{ post.video.source }}/mqdefault.jpg" class="video_thumbnail video_thumbnail_right_mobile img_style_rounded" alt="Video by {{ post.video.attribution }}"/>
-                        {% endif %}
-                    {% else %}
-            <img src="{{ site.image_source }}/site/{{ include.post_image }}" class="image_thumbnail image_thumbnail_right_mobile img_style_rounded"/>
-                    {% endif %}
-                {% endif %}
-            {% endif %}
-
-            <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-            <p class="date">{{ post.date | date: site.data.format.date_only }}</p>
-            {% if site.debug %}
-            <p class="category">Categories:&nbsp;{{ post.categories | join: ", " }}</p>
-            {% endif %}
-            <p class="excerpt">
-                {{ post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}
-            </p>
+            {% include block_entry.html post=post show=show_items %}
         </div>
+        {% else %}
+            {% include no_posts.html %}
         {% endfor %}
-
-        {% if post_count == 0 %}
-            <p class="no_entries">There are no posts for this section.</p>
-        {% endif %}
     </div>
 </div>

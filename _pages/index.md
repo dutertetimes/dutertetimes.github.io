@@ -46,17 +46,26 @@ permalink: /
     {% assign section_posts = site.categories.stories %}
     <div class="section_container top_margin_10">
         <div class="container_2n">
+            {% assign show_items = "" | split: "" %}
+            {% assign show_items = show_items | push: "date" %}
+            {% assign show_items = show_items | push: "excerpt" %}
+            {% assign show_items = show_items | push: "thumbnail" %}
+            
+            {% assign list = "" | split: "" %}
             {% for post in section_posts limit: 3 %}
-                {% assign post_image = post.categories[1] | prepend: "post_16_9_" | append: ".png" %}
-                {% include post_entry.html post=post post_image=post_image %}
+                {% assign list = list | push: post %}
             {% endfor %}
+            {% include block_default.html posts=list show=show_items %}
         </div>
-        <div class="container_2n_list no_right_margin">
-            {% assign list_posts = "" | split: "" %}
+        <div class="container_2n_list">
+            {% assign show_items = "" | split: "" %}
+            {% assign show_items = show_items | push: "date" %}
+            
+            {% assign list = "" | split: "" %}
             {% for post in section_posts offset: 3 limit: 5 %}
-                {% assign list_posts = list_posts | push: post %}
+                {% assign list = list | push: post %}
             {% endfor %}
-            {% include section_list.html posts=list_posts %}
+            {% include block_list.html posts=list show=show_items list_style="list_style_none" entry_class="border_left" %}
         </div>
     </div>
 </div>
@@ -76,7 +85,7 @@ permalink: /
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories[topic] %}
             {% assign section_image = topic | prepend: "post_16_9_" | append: ".png" %}
-            {% include section_slideshow.html category=topic posts=section_posts max_post_count=6 post_image=section_image %}
+            {% include section_slideshow.html category=topic posts=section_posts max_post_count=6 %}
         </div>
         {% endfor %}
     </div>
@@ -189,11 +198,7 @@ permalink: /
         showOpinionSlides(n);
     }
 
-    /*
-    function showHeadlineSlides(n) {
-        showSlides("headline_dot", "headline_news_entry", n);
-    }
-    */
+
 
     function showPresidentSlides(n) {
         showSlides("president_dot", "president_news_entry", n);

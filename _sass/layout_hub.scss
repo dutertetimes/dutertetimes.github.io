@@ -75,7 +75,7 @@ div.section_container {
             max-width: $container_width;
             min-width: $container_width;
         }
-        
+
         @include max-screen(480px) {
             margin-right: 0;
             width: 100%;
@@ -109,7 +109,7 @@ div.section_container {
                 border-top: none;
             }
         }
-       
+
         @include min-screen(800px + 1px) {
             border-top: 1px solid $color_primary;
             &:nth-child(-n+3) {
@@ -117,7 +117,7 @@ div.section_container {
             }
         }
     }
-    
+
     & > div.no_right_margin {
         margin-right: 0;
     }
@@ -130,7 +130,7 @@ div.section_container {
 div.section_container {
     & > div.container_2n {
         float: left;
-        
+
         @include max-screen(1024px) {
             height: auto;
             margin-right: 15px;
@@ -157,15 +157,16 @@ div.section_container {
             min-width: $container_width;
             max-width: $container_width;
         }
-        
+
         & > div.block > div.entries {
             & > div.entry {
-            
+
                 @include max-screen(480px) {
                     margin-bottom: 5px;
                 }
 
                 & > img {
+                    border-radius: 3px;
                     height: auto;
                     @include max-screen(480px) {
                         float: right !important;
@@ -190,7 +191,7 @@ div.section_container {
                         width: 200px !important;
                     }
                 }
-                
+
                 & > h2,
                 & > p {
                     //float: left;
@@ -198,10 +199,10 @@ div.section_container {
             }
         }
     }
-    
+
     & > div.container_2n_list {
         float: left;
-    
+
         @include max-screen(720px) {
             margin-right: 0;
             width: 100%;
@@ -215,18 +216,18 @@ div.section_container {
                 margin-right: 0;
             }
             // one-third of parent width less 2 x margin right widths divided by 3
-            $container_width: calc(33.33% - 5px);
+            $container_width: calc(33.33% - 10px);
             width: $container_width;
             min-width: $container_width;
             max-width: $container_width;
         }
-        
+
         & > div.block > div.entries {
             & > div.entry {
                 margin-top: 0;
                 padding: 5px 0 5px 0;
                 border-top: 1px solid $color_hr_default;
-                
+
                 &:last-of-type {
                     border-bottom: 1px solid $color_hr_default;
                 }

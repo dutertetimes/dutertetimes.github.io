@@ -1,0 +1,454 @@
+@page {
+    size: A4;
+    margin: 1in;
+    margin-left: 1.5in
+}
+
+@page:right {
+    @bottom-left {
+        margin: 10pt 0 30pt 0;
+        border-top: .25pt solid #666;
+        content: "Duterte Times";
+        font-size: 9pt;
+        color: #333;
+    }
+}
+
+@page:left{
+    @bottom-left {
+        content: "Page " counter(page) " of " counter(pages);
+    }
+}
+
+body {
+    background: $color_bg;
+    font-family: $font_default;
+    font-size: $font_size_default;
+    line-height: $font_line_height_default;
+    color: $color_text;
+    margin: 0;
+    padding: 0;
+
+    // 'Hide' horizontal scrollbar when viewed in small media
+    // https://css-tricks.com/findingfixing-unintended-body-overflow/
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font_heading;
+}
+
+p, a, li, dl {
+    font-family: $font_default;
+    font-size: $font_size_default;
+}
+
+a {
+    color: $color_text;
+    border-bottom: 1px dotted $color_link_underline;
+    text-decoration: none;
+    &:hover {
+        color: $color_primary;
+        border-bottom: 1px dotted $color_link_underline;
+    }
+}
+
+hr {
+    border: 0;
+    outline: none;
+    height: 3px;
+    background: $color_hr_default;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    &.thin {
+        height: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    &.compact {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    &.medium {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+ol, ul {
+    padding-left: 40px;
+    @include max-screen(720px) {
+        padding-left: 25px;
+    }
+    margin-bottom: 0;
+    li {
+        padding-left: 5px;
+        @include max-screen(720px) {
+            padding-left: 2px;
+        }
+    }
+}
+
+ul {
+    list-style-type: disc;
+    list-style-image: none;
+}
+
+strong {
+    font-weight: bold;
+    color: $color_text;
+}
+
+b {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+i {
+    font-style: italic;
+}
+
+mark {
+    color: black;
+}
+
+pre {
+    font-family: $font_code;
+    font-size: $font_size_code;
+    line-height: $font_line_height_code;
+}
+
+p code {
+    @extend pre;
+}
+
+aside {
+    font-size: $font_size_aside_text;
+    line-height: $font_size_default + 6;
+    text-align: right;
+    color: $color_aside_text;
+    float: right;
+    width: 34%;
+    padding: 6px 8px 6px 8px;
+    margin-left: 10px;
+    border-right: 3px solid $color_aside_border;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+    thead, tbody, tfoot, tr, th, td {
+        @include compact;
+    }
+
+    tr:first-of-type {
+        border-top: 1px solid $color_table_border;
+    }
+    tr {
+        border-bottom: 1px solid $color_table_border;
+        th:first-of-type,
+        td:first-of-type {
+            border-left: 1px solid $color_table_border;
+        }
+        th,
+        td {
+            border-right: 1px solid $color_table_border;
+        }
+    }
+
+    thead {
+        background: $color_table_th_bg;
+        tr > th {
+            @include set_font($font_table_heading, $font_size_table_heading + 2, $color_text, bold);
+            @include max-screen(720px) {
+                font-size: $font_size_table_heading;
+            }
+            text-transform: uppercase;
+            padding: 6px 6px 5px 6px;
+        }
+    }
+
+    tbody {
+        tr {
+            td,
+            td p,
+            td a,
+            td li {
+                @include set_font($font_table_data, $font_size_table_data + 2, $color_text);
+                line-height: $font_line_height_table_data + 2;
+
+                @include max-screen(720px) {
+                    font-size: $font_size_table_data;
+                    line-height: $font_line_height_table_data;
+                }
+            }
+            td {
+                padding: 4px 4px 3px 4px;
+                word-wrap: break-word;
+                p {
+                    margin: 0;
+                    &.label {
+                        margin: 0;
+                        white-space: nowrap !important;
+                    }
+                }
+                a {
+                    @include compact;
+                }
+                ul, ol {
+                    list-style-type: square;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+// Prevent superscript and subscript from affecting line height
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+sub {
+    top: 0.4em;
+}
+
+sup {
+    a {
+        border-bottom: none;
+    }
+    a::before {
+        content: " [note ";
+    }
+    a::after {
+        content: "] ";
+    }
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Main                                                                      */
+/* ------------------------------------------------------------------------- */
+
+main {
+    width: 100%;
+    float: left;
+    background: $color_main_bg;
+
+    @media print {
+        padding-top: 0px;
+    }
+
+    @include min-screen(721px) {
+        padding-top: 40px;
+    }
+
+    @include max-screen(720px) {
+        padding-top: 5px;
+    }
+}
+
+section {
+
+    @include max-screen(768px)  {
+        &.column_left_sidebar,
+        &.column_right_sidebar,
+        &.hub_column_main,
+        &.post_column_main,
+        &.page_column_main      { width: calc(100% - 20px); }
+    }
+
+    @include min-screen(768px + 1px) {
+        &.column_left_sidebar   { width: 250px; }
+        &.column_right_sidebar,
+        &.hub_column_main,
+        &.post_column_main,
+        &.page_column_main,
+        &.info_column_main      { width: calc(100% - 250px - 40px); }
+    }
+
+    @include min-screen(1366px) {
+        &.column_left_sidebar,
+        &.column_right_sidebar  { width: 250px; }
+        &.hub_column_main,
+        &.post_column_main,
+        &.page_column_main,
+        &.info_column_main      { width: calc(100% - 250px - 250px - 60px); }
+    }
+}
+
+
+section {
+    &.column_left_sidebar,
+    &.hub_column_main,
+    &.post_column_main,
+    &.page_column_main,
+    &.info_column_main,
+    &.column_right_sidebar {
+        float: left;
+        font-family: $font_default;
+        margin: 10px 10px 10px 10px;
+        @include max-screen(720px) {
+            @include set_margin_v(0px, 0px);
+        }
+    }
+
+    &.column_right_sidebar {
+        @include min-screen(768px + 1px) {
+            margin-left: 250px;
+        }
+        @include min-screen(1366px) {
+            margin-left: 10px;
+        }
+    }
+
+    &.post_column_main,
+    &.page_column_main,
+    &.info_column_main {
+        margin-top: 15px;
+    }
+
+    &.column_left_sidebar,
+    &.column_right_sidebar,
+    &.post_column_main,
+    &.page_column_main,
+    &.hub_column_main {
+        @media print {
+            margin: 0;
+        }
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Left column                                                               */
+/* ------------------------------------------------------------------------- */
+
+section.column_left_sidebar {
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Right column                                                              */
+/* ------------------------------------------------------------------------- */
+
+section.column_right_sidebar {
+}
+
+
+#twitter_feed {
+    // Twitter container defines 10px padding on all sides
+    // We just offset to match our settings
+    padding: 0px 3px 2px 3px;
+    background: $color_sidebar_bg;
+    height: 400px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Bottom                                                                    */
+/* ------------------------------------------------------------------------- */
+
+#page_previous,
+#page_next {
+    width: 50%;
+
+    a {
+        @include set_font($font_heading, $font_size_default + 4, $color_primary);
+        line-height: 1.3em;
+        border-bottom: none;
+        text-shadow: 1px 1px 1px #000;
+        margin: 0;
+
+        &:hover {
+            color: $color_primary;
+        }
+    }
+
+    p.back_to_top a {
+        font-size: $font_size_default + 3;
+        text-shadow: none;
+    }
+
+    p i,
+    p em {
+        color: $color_text;
+    }
+}
+
+#page_previous {
+    float: left;
+}
+
+#page_next {
+    float: right;
+    text-align: right;
+    a, p {
+        text-align: right;
+    }
+}
+
+
+
+.list_style_none {
+    list-style-type: none;
+}
+
+.img_style_rounded {
+    border-radius: 3px;
+}
+
+.img_style_circle {
+    border-radius: 50%;
+}
+
+// ----------------------------------------------------------------------------
+// Margins
+// ----------------------------------------------------------------------------
+
+.top_margin_20 {
+    margin-top: 20px;
+}
+
+.top_margin_10 {
+    margin-top: 10px;
+}
+
+.bottom_margin_10 {
+    margin-bottom: 10px;
+}
+
+.bottom_margin_5 {
+    @include min-screen(720px + 1px) {
+        padding-bottom: 5px;
+    }
+    @include max-screen(720px) {
+        padding-bottom: 0px;
+    }
+}
+
+// ----------------------------------------------------------------------------
+// Paddings
+// ----------------------------------------------------------------------------
+
+.padding_left_none {
+    padding-left: 0px !important;
+}
+
+.top_padding_10 {
+    padding-top: 10px;
+}
