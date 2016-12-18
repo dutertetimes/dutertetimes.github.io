@@ -17,7 +17,6 @@ _data/drafts.yml
 _drafts/**
 _site
 _sass/*.map
-news/*.md
 news/.sass-cache/**
 stories/*.md
 _includes/.sass-cache/**
