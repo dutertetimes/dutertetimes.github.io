@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/environment/index.html
 ---
 
 {% assign todo = site.data.news_environment %}

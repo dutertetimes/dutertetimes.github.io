@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/president/index.html
 ---
 
 {% assign todo = site.data.news_presidents_activities %}

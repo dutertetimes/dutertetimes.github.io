@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /topics/opinion/index.html
 ---
 
 {% assign todo_data = site.data.todo_opinion %}

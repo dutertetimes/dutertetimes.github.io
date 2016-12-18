@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/military/index.html
 ---
 
 {% assign todo = site.data.news_military %}

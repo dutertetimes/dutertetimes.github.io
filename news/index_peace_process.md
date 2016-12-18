@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/peace_process/index.html
 ---
 
 {% assign todo = site.data.news_peace_process %}

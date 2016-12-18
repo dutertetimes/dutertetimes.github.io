@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/law_and_order/index.html
 ---
 
 {% assign todo = site.data.news_law_and_order %}

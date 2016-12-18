@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/foreign_affairs/index.html
 ---
 
 {% assign todo = site.data.news_foreign_affairs %}

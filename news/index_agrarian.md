@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/agrarian/index.html
 ---
 
 {% assign todo = site.data.news_agrarian %}

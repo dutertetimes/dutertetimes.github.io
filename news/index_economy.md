@@ -5,6 +5,7 @@ layout: hub
 categories: []
 tags: []
 published: true
+permalink: /news/economy/index.html
 ---
 
 {% assign todo = site.data.economy %}
