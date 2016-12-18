@@ -9,4 +9,4 @@ permalink: /news/law_and_order/index.html
 ---
 
 {% assign todo = site.data.news_law_and_order %}
-{% include section_index.html todo_data=todo category="criminality" post_image="post_crime_16_9.png" %}
+{% include section_index.html todo_data=todo category="criminality" post_image="post_16_9_law_and_order.png" %}
