@@ -6,7 +6,7 @@ layout:
 {% for quote in site.data.quotes %}
 <div id="quote_{{ counter }}" class="quote">
     <p class='qtext'><i class='fa fa-quote-left fa-lg' aria-hidden='true'></i>&nbsp;&nbsp;{{ quote.text }}</p>
-    <p class='qauthor'>&mdash;&nbsp;&nbsp;{{ quote.from }}</p>
+    <p class='qauthor'>{{ quote.from }}</p>
     {% if quote.context != "" %}
     <p class='context'>{{ quote.context }}</p>
     {% endif %}

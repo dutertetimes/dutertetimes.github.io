@@ -57,9 +57,8 @@
             @include max-screen(720px) {
                 line-height: $font_size_quotes_context + 4;
             }
-            color: lighten($color_quotes_author, 15%);
-            margin-left: 20px;
-            padding-top: 5px;
+            color: $color_quotes_author;
+            padding-top: 2px;
         }
     }
 }
