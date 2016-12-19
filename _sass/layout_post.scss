@@ -636,14 +636,16 @@ section.post_column_main {
             }
             line-height: $font_line_height_tag;
             display: inline-block;
-            padding: 4px 8px 3px 6px;
+            padding: 4px 8px 6px 8px;
             margin-right: 5px;
             margin-bottom: 8px;
-            background: lighten($color_hr_default, 5%);
+            background: lighten($color_hr_default, 6%);
             border-radius: 3px;
+            border: 1px solid lighten($color_hr_default, 1%);
             i.fa {
+                padding-right: 2px;
                 vertical-align: middle;
-                color: darken($color_hr_default, 20%);
+                color: darken($color_hr_default, 10%);
             }
         }
     }
