@@ -115,6 +115,10 @@ section.post_column_main {
         color: $color_footnote_link;
     }
     
+    a:hover {
+        color: $color_link;
+    }
+    
     div.related_posts {
         // Must be greater than paragraph margin
         margin-bottom: 20px;
