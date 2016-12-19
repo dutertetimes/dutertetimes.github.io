@@ -12,8 +12,7 @@
             width: 100%;
             max-width: 100%;
         }
-        height: auto;
-        min-height: auto;
+        
     }
 }
 
@@ -23,5 +22,8 @@
     }
     @include max-screen(720px) {
         margin-top: 20px !important;
+        
     }
+    height: 170px;
+    min-height: 170px;
 }
