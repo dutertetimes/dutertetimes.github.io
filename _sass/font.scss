@@ -33,17 +33,34 @@
                     url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 }
 
+/*
 @font-face {
     font-family:    'Roboto Condensed Light';
     src:            local('Roboto Condensed Light'),
                     local('RobotoCondensed-Light'),
                     url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 }
+*/
+
+@font-face {
+    font-family:    'Oswald';
+    src:            local('Oswald Regular'),
+                    local('Oswald-Regular'),
+                    url(https://fonts.gstatic.com/s/oswald/v11/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+}
+
+@font-face {
+    font-family:    'Oswald Light';
+    src:            local('Oswald Light'),
+                    local('Oswald-Light'),
+                    url(https://fonts.gstatic.com/s/oswald/v11/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+}
+
 
 $font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 $font_serif_thin:           "Noto Serif", "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_sans:                 "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-$font_sans_thin:            "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans:                 "Oswald", "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_thin:            "Oswald Light", "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
 // Title
@@ -109,7 +126,8 @@ $font_line_height_caption:      14px;
 
 // Label
 $font_label:                    $font_sans_thin;
-$font_size_label:               12px;
+$font_size_label:               11px;
+$font_weight_label:             normal;
 
 // Page and Post
 $font_page_title:                   $font_heading;
@@ -179,12 +197,12 @@ $font_line_height_news_text:    $font_line_height_default;
 
 
 // Block default font settings
-$font_hub_default_title:                $font_serif_thin;
+$font_hub_default_title:                $font_serif;
 $font_hub_default_date:                 $font_default;
 $font_hub_default_excerpt:              $font_default;
 $font_hub_default_text:                 $font_default;
 
-$font_size_hub_default_title:           13px;
+$font_size_hub_default_title:           14px;
 $font_size_hub_default_date:            $font_size_default + 1;
 $font_size_hub_default_excerpt:         $font_size_default + 1;
 $font_size_hub_default_text:            $font_size_default + 1;
@@ -193,6 +211,8 @@ $font_line_height_hub_default_title:    16px;
 $font_line_height_hub_default_date:     $font_line_height_default;
 $font_line_height_hub_default_excerpt:  $font_line_height_default;
 $font_line_height_hub_default_text:     $font_line_height_default;
+
+$font_weight_hub_default_title:         bold;
 
 
 
@@ -228,19 +248,19 @@ $font_line_height_related_post_excerpt: $font_line_height_default;
 
 
 // Quotations
-$font_quotes:               $font_sans;
-$font_quotes_author:        $font_serif_thin;
+$font_quotes:               $font_default;
+$font_quotes_author:        $font_sans_thin;
 $font_quotes_context:       $font_serif_thin;
 $font_size_quotes:          14px;
-$font_size_quotes_author:   13px;
-$font_size_quotes_context:  11px;
+$font_size_quotes_author:   12px;
+$font_size_quotes_context:  12px;
 $font_line_height_quotes:   $font_size_quote + 4;
 
 // Current date/time
-$font_datetime_date:        $font_sans;
-$font_size_datetime_date:   $font_size_default + 2;
-$font_datetime_time:        $font_sans;
-$font_size_datetime_time:   $font_size_default + 2;
+$font_datetime_date:        $font_serif_thin;
+$font_size_datetime_date:   $font_size_default + 1;
+$font_datetime_time:        $font_serif_thin;
+$font_size_datetime_time:   $font_size_default + 1;
 
 
 
