@@ -13,13 +13,13 @@ div.block {
         @include max-screen(720px) {
             font-size: $font_size_label + 1;
         }
-        font-weight: bold;
+        font-weight: $font_weight_label;
         color: $color_sidebar_label;
         text-align: left;
         text-transform: uppercase;
         letter-spacing: 0.25px;
         margin: 0;
-        padding-top: 1px;
+        padding-top: 0px;
         float: left;
         display: inline;
     }
@@ -156,10 +156,14 @@ div.block_default_fonts {
         & > div.index_entry {
             h2, h2 > a {
                 @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
-                line-height: $font_line_height_hub_default_title + 2;
+                @include max-screen(720px) {
+                    font-size: $font_size_hub_default_title - 1;
+                }
+                line-height: $font_line_height_hub_default_title;
                 @include max-screen(320px) {
                     line-height: $font_line_height_hub_default_title + 4;
                 }
+                font-weight: $font_weight_hub_default_title;
                 padding-bottom: 2px;
             }
             h2 > a {
@@ -184,32 +188,26 @@ div.block_default_fonts {
             & p a,
             & li a {
                 @include set_font($font_hub_default_text, $font_size_hub_default_text, $color_hub_entry_text);
-                @include max-screen(720px) {
-                    font-size: $font_size_hub_default_text + 1;
-                }
                 line-height: $font_line_height_hub_default_text;
                 @include max-screen(720px) {
+                    font-size: $font_size_hub_default_text + 0;
                     line-height: $font_line_height_hub_default_text + 4;
                 }
             }
             & p.date,
             & h2 span.date {
                 @include set_font($font_hub_default_date, $font_size_hub_default_date, $color_hub_entry_date);
-                @include max-screen(720px) {
-                    font-size: $font_size_hub_default_date + 1;
-                }
                 line-height: $font_line_height_hub_default_date;
                 @include max-screen(720px) {
+                    font-size: $font_size_hub_default_date + 0;
                     line-height: $font_line_height_hub_default_text + 2;
                 }
             }
             & p.excerpt {
                 @include set_font($font_hub_default_excerpt, $font_size_hub_default_excerpt, $color_hub_entry_excerpt);
-                @include max-screen(720px) {
-                    font-size: $font_size_hub_default_excerpt + 1;
-                }
                 line-height: $font_line_height_hub_default_excerpt;
                 @include max-screen(720px) {
+                    font-size: $font_size_hub_default_excerpt + 0;
                     line-height: $font_line_height_hub_default_excerpt + 2;
                 }
                 & i.fa {
@@ -269,11 +267,9 @@ div.block_compact_fonts {
 
             p, li, p > a, li > a {
                 @include set_font($font_hub_compact_text, $font_size_hub_compact_text, $color_hub_entry_text);
-                @include max-screen(720px) {
-                    font-size: $font_size_hub_compact_text + 1;
-                }
                 line-height: $font_line_height_hub_compact_text;
                 @include max-screen(720px) {
+                    font-size: $font_size_hub_compact_text + 1;
                     line-height: $font_line_height_hub_compact_text + 4;
                 }
             }
