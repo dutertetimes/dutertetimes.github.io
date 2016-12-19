@@ -45,7 +45,7 @@ permalink: /
 
     {% assign section_posts = site.categories.stories %}
     <div class="section_container top_margin_10">
-        <div class="container_2n">
+        <div class="container_2n container_top_border_thin">
             {% assign show_items = "" | split: "" %}
             {% assign show_items = show_items | push: "date" %}
             {% assign show_items = show_items | push: "excerpt" %}
