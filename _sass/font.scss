@@ -53,7 +53,7 @@
     font-family:    'Oswald Light';
     src:            local('Oswald Light'),
                     local('Oswald-Light'),
-                    url(https://fonts.gstatic.com/s/oswald/v11/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+                    url(https://fonts.googleapis.com/css?family=Oswald:300) format('woff2');
 }
 
 
@@ -61,6 +61,9 @@ $font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "
 $font_serif_thin:           "Noto Serif", "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 $font_sans:                 "Oswald", "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_sans_thin:            "Oswald Light", "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_alt:             "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_thin_alt:        "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
 // Title
@@ -107,11 +110,11 @@ $word_spacing:              0.155em;
 // Specifics
 // -----------------------------------------------------------------------------
 
-$font_site_title:               $font_sans_thin;
+$font_site_title:               $font_sans;
 $font_size_site_title:          13px;
 
 // Navigation
-$font_nav:                      $font_sans;
+$font_nav:                      $font_sans_alt;
 $font_size_nav:                 11px;
 
 $font_size_page_nav:            $font_size_nav + 2;
@@ -125,9 +128,13 @@ $font_size_caption:             11px;
 $font_line_height_caption:      14px;
 
 // Label
-$font_label:                    $font_sans_thin;
+$font_label:                    $font_sans_alt;
 $font_size_label:               11px;
-$font_weight_label:             normal;
+$font_weight_label:             bold;
+
+$font_sub_label:                $font_sans;
+$font_size_sub_label:           11px;
+$font_weight_sub_label:         normal;
 
 // Page and Post
 $font_page_title:                   $font_heading;
@@ -271,5 +278,5 @@ $font_size_license:             $font_size_default + 2;
 $font_line_height_footer:       $font_line_height_default;
 
 // Link buttons
-$font_button:                   $font_sans;
+$font_button:                   $font_sans_alt;
 $font_size_button:              13px;

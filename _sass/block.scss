@@ -8,12 +8,12 @@ div.block {
     float: left;
 
     & > h1 {
-        font-family: $font_label;
-        font-size: $font_size_label;
+        font-family: $font_sub_label;
+        font-size: $font_size_sub_label;
         @include max-screen(720px) {
-            font-size: $font_size_label + 1;
+            font-size: $font_size_sub_label + 1;
         }
-        font-weight: $font_weight_label;
+        font-weight: $font_weight_sub_label;
         color: $color_sidebar_label;
         text-align: left;
         text-transform: uppercase;
