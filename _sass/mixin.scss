@@ -264,9 +264,9 @@
     white-space: nowrap;
     background-color: $color_button_text;
 
-    padding: 5px 10px 5px 10px;
+    padding: 3px 8px 5px 10px;
     @include max-screen(720px) {
-        padding-top: 6px;
+        padding-top: 5px;
     }
     border-radius: 3px;
     border: 1px solid $color_button_bg;
