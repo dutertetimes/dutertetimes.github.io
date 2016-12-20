@@ -19,7 +19,7 @@ header {
         }
         p {
             margin-top: 2px;
-            font-family: $font_title_tagline;
+            font-family: $font_serif_thin;
             font-size: 10px;
             line-height: 10px;
             &.license {
@@ -120,6 +120,7 @@ header {
             @include max-screen(720px) {
                 font-size: $font_size_site_title + 1;
             }
+            font-weight: $font_weight_site_title;
         }
         
         li.navicon > a {
