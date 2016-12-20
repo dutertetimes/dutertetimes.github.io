@@ -157,7 +157,7 @@ div.block_default_fonts {
             h2, h2 > a {
                 @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
                 @include max-screen(720px) {
-                    font-size: $font_size_hub_default_title - 1;
+                    font-size: $font_size_hub_default_title;
                 }
                 line-height: $font_line_height_hub_default_title;
                 @include max-screen(320px) {

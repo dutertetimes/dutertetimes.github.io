@@ -266,7 +266,7 @@
 
     padding: 5px 8px 5px 10px;
     @include max-screen(720px) {
-        padding-top: 5px;
+        padding-top: 6px;
     }
     border-radius: 3px;
     border: 1px solid $color_button_bg;
