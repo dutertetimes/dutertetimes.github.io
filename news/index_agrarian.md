@@ -1,5 +1,5 @@
 ---
-title: Agrarian News Index
+title: Agrarian News
 excerpt: Agrarian News Index
 layout: hub
 categories: []

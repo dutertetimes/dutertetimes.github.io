@@ -1,5 +1,5 @@
 ---
-title: Press Events Index
+title: Press Events
 excerpt: Press Events Index
 layout: hub
 categories: []

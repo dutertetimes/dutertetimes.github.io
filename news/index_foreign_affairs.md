@@ -1,5 +1,5 @@
 ---
-title: Foreign Affairs News Index
+title: Foreign Affairs News
 excerpt: Foreign Affairs News Index
 layout: hub
 categories: []

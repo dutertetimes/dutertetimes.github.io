@@ -1,6 +1,6 @@
 ---
-title: President's Activity Index
-excerpt: President's Activity Index
+title: President's Activities
+excerpt:
 layout: hub
 categories: []
 tags: []

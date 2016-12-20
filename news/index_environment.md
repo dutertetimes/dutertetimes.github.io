@@ -1,5 +1,5 @@
 ---
-title: Environment News Index
+title: Environment News
 excerpt: Environment News Index
 layout: hub
 categories: []

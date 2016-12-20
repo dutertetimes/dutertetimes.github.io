@@ -1,5 +1,5 @@
 ---
-title: Economy News Index
+title: Economy News
 excerpt: Economy News Index
 layout: hub
 categories: []

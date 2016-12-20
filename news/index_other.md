@@ -1,5 +1,5 @@
 ---
-title: Other News Index
+title: Other News
 excerpt: Other News Index
 layout: hub
 categories: []

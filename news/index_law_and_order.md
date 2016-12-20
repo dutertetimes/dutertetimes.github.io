@@ -1,5 +1,5 @@
 ---
-title: Law and Order News Index
+title: Law and Order News
 excerpt: Law and Order News Index
 layout: hub
 categories: []
