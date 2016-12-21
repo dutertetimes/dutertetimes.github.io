@@ -21,17 +21,19 @@
             p.date {
                 font-family: $font_datetime_date;
                 font-size: $font_size_datetime_date;
-                line-height: $font_size_datetime_date + 2;
+                line-height: $font_size_datetime_date + 4;
                 @include max-screen(720px) {
                     font-size: $font_size_datetime_date + 1;
+                    line-height: $font_size_datetime_date + 4;
                 }
             }
             p.time {
                 font-family: $font_datetime_time;
                 font-size: $font_size_datetime_time;
-                line-height: $font_size_datetime_time + 2;
+                line-height: $font_size_datetime_time + 4;
                 @include max-screen(720px) {
                     font-size: $font_size_datetime_time + 1;
+                    line-height: $font_size_datetime_time + 4;
                 }
             }
 
