@@ -6,27 +6,27 @@ form.style_one input#search_input {
 
     background: #fff url('/images/search.png') no-repeat 6px 6px;
     @include set_font($font_serif, $font_size_default + 4, $color_text, bold);
-   
+
     width: 300px;
     @include max-screen(720px) {
         width: 100%;
     }
     border: 1px solid $color_box;
-    padding: 4px 5px 4px 25px;
+    padding: 4px 5px 3px 25px;
 
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    
+
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
-    
+
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    
+
     @include max-screen(720px) {
         display: hidden;
         background: none;
@@ -43,7 +43,7 @@ form.style_one input#search_input {
         width: 200px;
     }
 }
-    
+
 #search {
 
     @include max-screen(720px) {
@@ -57,7 +57,19 @@ form.style_one input#search_input {
             // Heights for the index page has been fixed.
             // Override the settings here.
             height: auto !important;
-            min-height: auto !important;
+            min-height: 150px !important;
+            @include min-screen-height(768px + 1px) {
+                min-height: 300px !important;
+            }
+            @include min-screen-height(900px + 1px) {
+                min-height: 300px + 132px !important;
+            }
+            @include min-screen-height(1024px + 1px) {
+                min-height: 300px + 256px !important;
+            }
+            @include min-screen-height(1280px + 1px) {
+                min-height: 300px + 512px !important;
+            }
             width: 100%;
             min-width: 100%;
             & > p {
@@ -99,16 +111,16 @@ div#tipue_search_content {
     & > div.tipue_search_content_title:first-of-type {
         margin-top: 0;
     }
-    
+
     // Align the items for display
-    
+
     & > div.tipue_search_content_title {
         & > span,
         & > span + a {
             // Using table-cell aligns the title on the left even if long titles wrap
             display: table-cell;
         }
-        
+
         & > span {
             // Aligned up to six digits
             min-width: 50px;
@@ -126,7 +138,7 @@ div#tipue_search_content {
             padding-left: 50px;
         }
     }
-    
+
     & > div.tipue_search_content_title > a {
         @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
         line-height: $font_line_height_hub_default_title + 2;
@@ -155,7 +167,7 @@ div#tipue_search_content {
             line-height: $font_line_height_hub_default_excerpt + 2;
         }
     }
-    
+
     #tipue_search_foot_boxes li
     {
         list-style: none;
@@ -164,7 +176,7 @@ div#tipue_search_content {
         display: inline;
         display: inline-block;
         cursor: pointer;
-        
+
         & > a,
         &.current {
             font-family: $font_hub_default_title;
@@ -185,11 +197,11 @@ div#tipue_search_content {
             margin-right: 7px;
             text-decoration: none;
             text-align: center;
-            
+
             display: inline-block;
             cursor: pointer;
         }
-        
+
         &.current {
             background: #f6f6f6;
         }
