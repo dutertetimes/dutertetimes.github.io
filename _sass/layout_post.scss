@@ -673,8 +673,8 @@ section.post_column_main {
     }
 }
 
-#related_posts_block,
-#recent_posts_block {
+#related_posts_section,
+#recent_posts_section {
     @media print {
         display: none;
     }
