@@ -40,6 +40,7 @@
                     url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700);
 }
 
+/*
 @font-face {
     font-family:    'Oswald';
     src:            local('Oswald Regular'),
@@ -47,7 +48,6 @@
                     url(https://fonts.googleapis.com/css?family=Oswald:400,700) format('woff2');
 }
 
-/*
 @font-face {
     font-family:    'Oswald Light';
     src:            local('Oswald Light'),
@@ -65,8 +65,7 @@ $font_sans:                 "Roboto", "Source Sans", "Lucida Sans", Helmet, Free
 $font_sans_thin:            "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 $font_sans_light:           "Roboto Condensed Light", "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 
-$font_sans_alt:             "Oswald", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-
+//$font_sans_alt:             "Oswald", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 
 $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
@@ -74,7 +73,7 @@ $font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, 
 
 // Default
 $font_default:              $font_serif_thin;
-$font_size_default:         11px;
+$font_size_default:         12px;
 $font_line_height_default:  $font_size_default + 4;
 $font_default_thin:         $font_sans_thin;
 $font_size_default_thin:    12px;
@@ -109,9 +108,9 @@ $word_spacing:              0.155em;
 // Specifics
 // -----------------------------------------------------------------------------
 
-$font_site_title:               $font_sans_alt;
+$font_site_title:               $font_sans_thin;
 $font_size_site_title:          13px;
-$font_weight_site_title:        normal;
+$font_weight_site_title:        bold;
 
 // Navigation
 $font_nav:                      $font_sans;
