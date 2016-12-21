@@ -5,10 +5,10 @@ layout:
 {% assign counter = 1 %}
 {% for quote in site.data.quotes %}
 <div id="quote_{{ counter }}" class="quote">
-    <p class='qtext'><i class='fa fa-quote-left fa-lg' aria-hidden='true'></i>&nbsp;&nbsp;{{ quote.text }}</p>
-    <p class='qauthor'>{{ quote.from }}</p>
-    {% if quote.context != "" %}
-    <p class='context'>{{ quote.context }}</p>
+    <p class='qtext'><i class='fa fa-quote-left fa-lg' aria-hidden='true'></i>&nbsp;&nbsp;{{ quote.qtext }}</p>
+    <p class='qauthor'>{{ quote.qauthor }}</p>
+    {% if quote.qcontext != "" %}
+    <p class='context'>{{ quote.qcontext }}</p>
     {% endif %}
 </div>
     {% capture counter %}{{ counter | plus: 1 }}{% endcapture %}

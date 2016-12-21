@@ -46,13 +46,14 @@
 
         &.qauthor {
             @include set_font($font_quotes_author, $font_size_quotes_author, $color_quotes_author);
+            font-weight: bold;
             text-transform: uppercase;
             padding-top: 10px;
         }
 
         &.context {
             @include set_font($font_quotes_context, $font_size_quotes_context, $color_quotes_context);
-            font-style: italic;
+            font-style: normal;
             line-height: $font_size_quotes_context + 4;
             @include max-screen(720px) {
                 line-height: $font_size_quotes_context + 4;
