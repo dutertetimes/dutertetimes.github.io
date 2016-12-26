@@ -9,6 +9,7 @@ Example:
     {% include section_slideshow.html category="opinion" post_count=section_posts.size posts=section_posts %}
 {% endcomment %}
 
+{% capture empty %}
 {% assign this_title = include.category | replace: '_', ' ' | upcase %}
 
 {% assign words = include.category | replace: '_', ' ' | split: ' ' %}
@@ -30,7 +31,7 @@ Example:
     {% if post.categories[1] != include.category %}
         {% continue %}
     {% endif %}
-    
+
     {% assign category_posts = category_posts | push: post %}
 
     {% assign post_count = post_count | plus: 1 %}
@@ -38,7 +39,7 @@ Example:
         {% break %}
     {% endif %}
 {% endfor %}
-
+{% endcapture %}{% assign empty = nil %}
 <div class="block block_default_fonts">
     <h1>{{ this_title }}</h1>
 
