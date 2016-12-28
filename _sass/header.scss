@@ -79,8 +79,7 @@ header {
             }
             
             a {
-                padding: 7px 11px 6px 11px;
-                padding: 6px 11px 5px 11px;
+                padding: 6px 11px 4px 11px;
                 @include max-screen(720px) {
                     padding-top: 7px;
                 }
