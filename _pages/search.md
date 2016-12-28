@@ -10,26 +10,22 @@ sitemap: false
     <h1>Search</h1>
     <div class="section_container">
         <div class="container">
-
-            <p>If your <i>search string</i> contains a space character, it must be enclosed between single (') or double quotes (").</p>
-            
-            <form action="{{site.baseurl}}/search/" class="style_one">
-                <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" required title="Type your search string here">
-            </form>
-
-        </div>
+        <p>Enter search tokens here:</p>
+        <form action="{{site.baseurl}}/search/">
+            <input accesskey="s" type="text" name="q" id="search_input" autocomplete="off" required title="Type your search string here" autofocus>
+        </form>
     </div>
 </div>
 
-<div id="tipue_search_content">
+<div id="dt_search_content" class="section_container">
 
 <script>
     $(document).ready(function() {
-         $('#search_input').tipuesearch({
-                {% if site.debug %}'debug': true,{% endif %}
+         $('#search_input').dt_search({
+                'debug': false,
                 'mode': 'json',
-                'contentLocation': '{{site.baseurl}}/search.json',
-                'show': 20,
+                'contentLocation': '{{site.url}}/search.json',
+                'showItems': 10,
                 'showURL': false,
                 'highlightTerms': false,
          });
