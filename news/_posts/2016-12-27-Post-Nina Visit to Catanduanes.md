@@ -1,10 +1,10 @@
 ---
 title: Post-Nina Visit to Catanduanes
-date: 2016-12-27T17:31:45UTC
+date: 2016-12-27T16:31:45UTC
 excerpt: The President visited Virac, Catanduanes on 27 December 2016 after the typhoon Nina devastated the Bicol region and spoke to the local government officials and typhoon victims.
 layout: post
 categories: [president]
-tags: [Nina, Virac, Catanduanes, speech, transcript]
+tags: [Nina, Nock-ten, Virac, Catanduanes, speech, transcript]
 published: true
 permalink: /news/w8lQwp2vxmk1NX4
 image:
@@ -20,7 +20,7 @@ sources:
     link:
 ---
 
-The President visited the Provincial Capitol in Virac, Catanduanes on 27 December 2016 after the typhoon Nina devastated the Bicol region and spoke to the local government officials and typhoon victims.
+The President visited the Provincial Capitol in Virac, Catanduanes on 27 December 2016 after the typhoon Nina (International Name Nock-ten) devastated the Bicol region and spoke to the local government officials and typhoon victims.
 
 President Duterte was accompanied in the event by Catanduanes Governor Joseph Cua, Vice Governor Shirley Abundo, and District Representative Cesar Sarmiento.
 Cabinet members that accompanied the President were Department of Agriculture (DA) Secretary Manny Piñol, Department of National Defense (DND) Secretary Delfin Lorenzana, Department of Education (DepEd) Secretary Leonor Briones, Department of Energy (DOE) Secretary Alfonso Cusi, Department of Social Welfare and Development (DSWD) Secretary Judy Taguiwalo.

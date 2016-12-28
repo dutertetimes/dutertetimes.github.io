@@ -4,7 +4,7 @@ date: 2016-12-27T17:25:03UTC
 excerpt: The President visited to Pili, Camarines Sur on 27 December 2016 after typhoon Nina devastated the Bicol region and spoke to the local government officials and typhoon victims.
 layout: post
 categories: [president]
-tags: [Nina, Pili, Camarines Sur, speech, transcript]
+tags: [Nina, Nock-ten, Pili, Camarines Sur, speech, transcript]
 published: true
 permalink: /news/JebR67dAnY237rN
 image:
@@ -20,7 +20,7 @@ sources:
     link:
 ---
 
-The President visited the Provincial Capitol in Pili, Camarines Sur on 27 December 2016 after typhoon Nina devastated the Bicol region and spoke to the local government officials and typhoon victims.
+The President visited the Provincial Capitol in Pili, Camarines Sur on 27 December 2016 after typhoon Nina (International Name Nock-ten) devastated the Bicol region and spoke to the local government officials and typhoon victims.
 
 President Duterte was joined by Social Welfare and Development (DSWD) Secretary Judy Taguiwalo, Energy (DOE) Secretary Alfonso Cusi, National Defense (DND) Secretary Delfin Lorenzana, Agriculture (DA) Secretary Emmanuel Piñol, Armed Forces of the Philippines (AFP) Chief of Staff Lt. Gen. Eduardo Año, and the local officials of Pili, Camarines Sur.
 
