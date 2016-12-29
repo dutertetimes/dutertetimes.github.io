@@ -475,3 +475,21 @@ branch:
         abbr: SBMA
         head: Randy Escolango (OIC)
         url: http://www.mysubicbay.com.ph/
+
+  - title: Military
+    description: Armed Forces of the Philippines
+    abbr: AFP
+    url: /info/gov/military/
+    links:
+      - name: Official Site
+        url: http://www.afp.mil.ph/
+    branch:
+      - title: Philippine Army
+        abbr: PA
+        url: http://www.army.mil.ph/home/
+      - title: Philippine Navy
+        abbr: PN
+        url: http://www.navy.mil.ph/
+      - title: Philippine Air Force
+        abbr: PAF
+        url: http://www.paf.mil.ph/
