@@ -1,0 +1,33 @@
+<div class="post_operations">
+    <ul>
+        <li>
+            <a href="javascript:window.print()"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Print the page or save as PDF file">
+                <i class="fa fa-print fa-lg" aria-hidden="true"></i>&nbsp;
+                Print
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/share" data-via="{{ twitter }}"
+                data-url="{{ page.url }}"
+                data-text="{{ page.title }}"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Tweet this page">
+                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;
+                Tweet
+            </a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer.php?u={{ page.url }}" data-via="{{ twitter }}"
+                rel="nofollow"
+                target="_blank"
+                title="Share on Facebook">
+                <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>&nbsp;
+                Share&nbsp;
+            </a>
+        </li>
+    </ul>
+</div>

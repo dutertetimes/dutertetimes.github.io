@@ -50,6 +50,8 @@ layout: default
         {% endfor %}
     </div>
     {% endif %}
+    
+    {% include post_operations.html %}
 
     {% if page.image.source != nil %}
         {% if page.video.source != nil and page.video.layout == "top" %}
