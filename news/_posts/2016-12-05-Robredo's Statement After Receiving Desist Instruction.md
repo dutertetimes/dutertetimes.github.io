@@ -4,7 +4,7 @@ date: 2016-12-05T06:32:31UTC
 excerpt: "Statement of Vice President Maria Leonor \"Leni\" Santo Tomas Robredo after receiving the instruction from the President to desist from attending all Cabinet meetings starting 5 December 2016."
 layout: post
 categories: [other]
-tags: [vice president, leni robredo, cabinet meeting]
+tags: [vice president, Leni Robredo, cabinet meeting]
 published: true
 permalink: /news/xeVQ5NZbK4d1Pap
 image:

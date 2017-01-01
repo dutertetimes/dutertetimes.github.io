@@ -4,7 +4,7 @@ date: 2016-12-05T07:44:34UTC
 excerpt: Vice President Leni Robredo on 5 December 2016 filed her letter of resignation as chairperson of the Housing and Urban Development Coordinating Council.
 layout: post
 categories: [other, governance]
-tags: [resignation, leni robredo, hudcc, vice president]
+tags: [resignation, Leni Robredo, Housing and Urban Development Coordinating Council, HUDCC, vice president]
 published: true
 permalink: /news/GZOQvMzWeKZ3e8A
 image:

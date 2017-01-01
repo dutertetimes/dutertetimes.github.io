@@ -4,7 +4,7 @@ date: 2016-12-05T05:02:56UTC
 excerpt: The President has given instruction to Vice President Leni Robredo on 4 December 2016 to desist from attending all Cabinet meetings starting 5 December.
 layout: post
 categories: [president, governance]
-tags: [vice president, leni robredo, cabinet meeting]
+tags: [vice president, Leni Robredo, cabinet meeting]
 published: true
 permalink: /news/r9xRV0yVlv0QEBZ
 image:
