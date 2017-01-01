@@ -12,7 +12,7 @@ links:
 branch:
   - title: Executive
     description: "The Executive branch is composed of the President and the Vice President who are elected by direct popular vote and serve a term of six years. The Constitution grants the President authority to appoint his Cabinet. These departments form a large portion of the country’s bureaucracy."
-    url: /info/gov/executive/
+    url: /info/gov/executive.html
     heads:
       - title: President
         head: Rodrigo Roa Duterte
@@ -174,7 +174,7 @@ branch:
 
   - title: Legislative
     description: "The Legislative branch is authorized to make laws, alter, and repeal them through the power vested in the Philippine Congress. This institution is divided into the Senate and the House of Representatives."
-    url: /info/gov/legislative/
+    url: /info/gov/legislative.html
     heads:
       - title: Senate President
         head: Aquilino Pimentel
@@ -358,7 +358,7 @@ branch:
 
   - title: Judiciary
     description: "The Judicial branch holds the power to settle controversies involving rights that are legally demandable and enforceable. This branch determines whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part and instrumentality of the government. It is made up of a Supreme Court and lower courts. The Constitution expressly grants the Supreme Court the power of Judicial Review as the power to declare a treaty, international or executive agreement, law, presidential decree, proclamation, order, instruction, ordinance or regulation unconstitutional."
-    url: /info/gov/judiciary/
+    url: /info/gov/judiciary.html
     heads:
       - title: Chief Justice of the Supreme Court
         head: Ma. Lourdes P. A. Sereno
@@ -378,9 +378,9 @@ branch:
         head:
         url: http://cta.judiciary.gov.ph
 
-  - title: Constitutional Commissions
+  - title: Commissions
     description: "Article IX of the 1987 Constitution established three independent, fiscally-autonomous commissions: the Civil Service Commission (CSC), the Commission on Elections (COMELEC), and the Commission on Audit (COA). In addition, Article XIII of the constitution and the Administrative Code of 1987 created the Commission on Human Rights (CHR)."
-    url: /info/gov/commissions/
+    url: /info/gov/commissions.html
     commissions:
       - title: Civil Service Commission
         abbr: CSC
@@ -488,7 +488,7 @@ branch:
   - title: Military
     description: Armed Forces of the Philippines
     abbr: AFP
-    url: /info/gov/military/
+    url: /info/gov/military.html
     links:
       - name: Official Site
         url: http://www.afp.mil.ph/
