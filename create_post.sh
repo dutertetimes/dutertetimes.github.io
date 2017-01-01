@@ -99,6 +99,7 @@ function create_news_post {
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
+        echo "related:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -139,6 +140,7 @@ function create_story_post {
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
+        echo "related:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -179,6 +181,7 @@ function create_opinion_post {
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
+        echo "related:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -219,6 +222,7 @@ function create_topic_post {
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
+        echo "related:" >> $filename
         add_yaml_bar
         add_empty
 
@@ -256,6 +260,7 @@ function create_info_post {
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
+        echo "related:" >> $filename
         add_yaml_bar
         add_empty
 
