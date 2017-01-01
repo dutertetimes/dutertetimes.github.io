@@ -398,10 +398,19 @@ branch:
         abbr: CHR
         head:
         url: http://www.chr.gov.ph/
+    others:
+      - title: National Commission for Culture and Arts
+        abbr: NCCA
+        head:
+        url: http://ncca.gov.ph/
+      - title: National Historical Commission of the Philippines
+        abbr: NHCP
+        head:
+        url: http://nhcp.gov.ph/
 
   - title: Other Agencies
     description: Other agencies of the Philippine Government
-    url: /info/gov/agencies/
+    url: /info/gov/agencies.html
     agencies:
       - title: Anti-Money Laundering Council
         abbr: AMLC
