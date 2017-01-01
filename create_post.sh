@@ -129,7 +129,7 @@ function create_story_post {
         fi
         echo "permalink: /stories/$hashid" >> $filename
         echo "image:" >> $filename
-        echo "  layout: auto_width" >> $filename
+        echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
@@ -169,7 +169,7 @@ function create_opinion_post {
         fi
         echo "permalink: /opinion/$hashid" >> $filename
         echo "image:" >> $filename
-        echo "  layout: auto_width" >> $filename
+        echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
@@ -209,7 +209,7 @@ function create_topic_post {
         fi
         echo "permalink: /.../$hashid" >> $filename
         echo "image:" >> $filename
-        echo "  layout: auto_width" >> $filename
+        echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
@@ -250,7 +250,7 @@ function create_info_post {
         echo "permalink: /info/.../$hashid" >> $filename
         #echo "link: /info/.../$hashid" >> $filename
         echo "image:" >> $filename
-        echo "  layout: auto_width" >> $filename
+        echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
