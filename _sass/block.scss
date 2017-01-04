@@ -62,7 +62,7 @@ div.block {
                 border-left: 5px solid $color_hr_default;
                 padding-left: 10px;
                 margin-top: 5px;
-                margin-bottom: 4px;
+                margin-bottom: 10px;
                 &:hover {
                     border-left: 5px solid $color_link;
                 }
@@ -77,7 +77,7 @@ div.block {
                 padding-top: 5px;
                 padding-bottom: 4px;
             }
-            
+
             & > li p {
                 margin: 0 !important;
                 padding: 0 !important;
