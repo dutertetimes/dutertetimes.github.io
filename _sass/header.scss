@@ -81,14 +81,14 @@ header {
             a {
                 padding: 6px 11px 4px 10px;
                 @include max-screen(720px) {
-                    padding-top: 7px;
+                    margin-top: 3px;
+                    padding-top: 5px;
                 }
                 text-decoration: none;
                 text-transform: uppercase;
                 color: $color_button_text;
             }
             
-            & > span:hover,
             & a:hover:not(.active) {
                 color: $color_button_hover_text;
                 background-color: $color_button_hover_bg;
@@ -124,7 +124,7 @@ header {
         
         li.navicon > a {
             font-family: $font_serif;
-            font-size: $font_size_site_title + 4;
+            font-size: $font_size_site_title + 8;
             font-weight: bold;
         }
         
@@ -133,24 +133,40 @@ header {
             margin-left: 10px;
             margin-right: 5px;
             padding: 0;
+            @include max-screen(720px) {
+                // Shift up
+                // Override the top margin specified for all <a>
+                margin-top: 1px;
+                margin-left: 0;
+                margin-right: 0;
+                padding: 6px 11px 4px 10px;
+            }
             border: none;
+            
+            & > span {
+                display: none;
+                @include max-screen(720px) {
+                    display: initial;
+                }
+            }
 
             &:hover:not(.active) {
-                background-color: $color_button_hover_text;
+                @include min-screen(720px + 1px) {
+                    background-color: $color_button_hover_text;
+                }
             }
             
             img {
                 padding: 0;
                 width: 24px;
                 height: 24px;
-                @include max-screen(720px) {
-                    margin-top: 3px;
-                    width: 22px;
-                    height: 22px;
-                }
+                
                 background: $color_button_hover_bg;
                 border: 1px solid $color_button_hover_bg;
                 border-radius: 2px;
+                @include max-screen(720px) {
+                    display: none;
+                }
             }
         }
 
