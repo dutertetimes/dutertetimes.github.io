@@ -53,13 +53,14 @@ div.block {
                 padding-left: 0;
                 & > li {
                     padding-left: 0;
-
                 }
             }
-
+            
             & > li.border_left {
+                // Width is less than 100% because of the left border and paddings
+                width: calc(100% - 15px);
                 border-left: 5px solid $color_hr_default;
-                padding-left: 5px;
+                padding-left: 10px;
                 margin-top: 5px;
                 margin-bottom: 4px;
                 &:hover {
@@ -68,6 +69,7 @@ div.block {
             }
 
             & > li.border_top_and_bottom {
+                width: 100%;
                 border-top: 1px dotted $color_hr_default;
                 &:last-of-type {
                     border-bottom: 1px dotted $color_hr_default;
@@ -75,10 +77,13 @@ div.block {
                 padding-top: 5px;
                 padding-bottom: 4px;
             }
+            
+            & > li p {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
         }
 
-        & > ul > li.entry,
-        & > ol > li.entry,
         & > div.entry,
         & > div.index_entry {
             width: 100%;

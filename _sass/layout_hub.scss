@@ -100,6 +100,7 @@ div.section_container {
 
     // Class(es) used with div.container
 
+    & > div.container_top_border_thin_mobile,
     & > div.container_top_border_thin {
 
         border-top: none;
@@ -117,6 +118,13 @@ div.section_container {
             &:nth-child(-n+3) {
                 border-top: none;
             }
+        }
+    }
+    
+    & > div.container_top_border_thin_mobile {
+        padding-top: 10px;
+        @include max-screen(800px) {
+            padding-top: 0;
         }
     }
 
@@ -218,7 +226,7 @@ div.section_container {
                 margin-right: 0;
             }
             // one-third of parent width less 2 x margin right widths divided by 3
-            $container_width: calc(33.33% - 10px);
+            $container_width: calc(33.33% - 5px);
             width: $container_width;
             min-width: $container_width;
             max-width: $container_width;

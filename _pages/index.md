@@ -57,7 +57,7 @@ permalink: /
             {% endfor %}
             {% include block_default.html posts=list show=show_items %}
         </div>
-        <div class="container_2n_list">
+        <div class="container_2n_list container_top_border_thin_mobile">
             {% assign show_items = "" | split: "" %}
             {% assign show_items = show_items | push: "date" %}
             
