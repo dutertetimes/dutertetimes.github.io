@@ -50,9 +50,9 @@ form input#search_input {
 }
 
 #search {
-
     @include max-screen(720px) {
-        display: hidden;
+        display: none;
+        visibility: hidden;
     }
 }
 
