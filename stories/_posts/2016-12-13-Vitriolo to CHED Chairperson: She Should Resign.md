@@ -3,7 +3,7 @@ title: "Vitriolo to CHED Chairperson: She Should Resign"
 date: 2016-12-13T06:45:39UTC
 excerpt: The Commission on Higher Education executive director Julito Vitriolo has called for the resignation of CHED Chairperson Dr. Patricia Licuanan after she was told not to attend Cabinet meetings starting 5 December 2016.
 layout: post
-categories: [other, education]
+categories: [education]
 tags: [patricia licuanan, julito vitriolo, commission on higher education, ched]
 published: true
 permalink: /stories/VeL3Dq58MbnQlJZ
