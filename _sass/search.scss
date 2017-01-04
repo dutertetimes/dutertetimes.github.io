@@ -33,12 +33,15 @@ form input#search_input {
 // Intentionally placed here to override the #search settings defined above
 #nav_top > div#search {
     & > form input#search_input {
-        padding: 4px 5px 3px 25px;
-        margin: 1px 5px 0 14px;
+        // Start input text slightly to the right of the image
+        // and center vertically
+        padding: 2px 5px 3px 25px;
+        margin: 0 5px 0 5px;
         border: none;
         border-width: 0;
         border-style: none;
         width: 200px;
+        height: 26px;
         
         &:focus {
             //border: 1px solid $color_search_box_top;
