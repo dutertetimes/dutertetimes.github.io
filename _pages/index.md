@@ -62,7 +62,7 @@ permalink: /
             {% assign show_items = show_items | push: "date" %}
             
             {% assign list = "" | split: "" %}
-            {% for post in section_posts offset: 3 limit: 5 %}
+            {% for post in section_posts offset: 3 limit: 6 %}
                 {% assign list = list | push: post %}
             {% endfor %}
             {% include block_list.html posts=list show=show_items list_style="list_style_none" entry_class="border_left" %}
@@ -121,6 +121,51 @@ permalink: /
     </div>
 </div>
 
+
+
+<div class="section_container_wrapper section_container_wrapper_border">
+    <h1>Other Events</h1>
+
+    {% assign section_posts = "" | split: "" %}
+    {% assign count = 0 %}
+    {% for post in site.categories.other %}
+        {% if post.categories contains "news" %}
+            {% assign section_posts = section_posts | push: post %}
+            {% assign count = count | plus: 1 %}
+            {% if count == 9 %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    
+    <div class="section_container top_margin_10">
+        <div class="container_2n container_top_border_thin">
+            {% assign show_items = "" | split: "" %}
+            {% assign show_items = show_items | push: "date" %}
+            {% assign show_items = show_items | push: "excerpt" %}
+            {% assign show_items = show_items | push: "thumbnail" %}
+            
+            {% assign list = "" | split: "" %}
+            {% for post in section_posts limit: 3 %}
+                {% assign list = list | push: post %}
+            {% endfor %}
+            {% include block_default.html posts=list show=show_items %}
+        </div>
+        <div class="container_2n_list container_top_border_thin_mobile">
+            {% assign show_items = "" | split: "" %}
+            {% assign show_items = show_items | push: "date" %}
+            
+            {% assign list = "" | split: "" %}
+            {% for post in section_posts offset: 3 limit: 6 %}
+                {% assign list = list | push: post %}
+            {% endfor %}
+            {% include block_list.html posts=list show=show_items list_style="list_style_none" entry_class="border_left" %}
+        </div>
+    </div>
+</div>
+
+
+
 <script>
     $(document).ready(function() {
 
@@ -141,7 +186,7 @@ permalink: /
         currentEnvironmentSlide(0);
 
         currentForeignAffairsSlide(0);
-        currentOtherSlide(0);
+        currentPeaceProcessSlide(0);
     });
 
     popupModal('modal_top_1', 'source_top_1', 'destination_top_1', 'caption_top_1');
