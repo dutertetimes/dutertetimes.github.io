@@ -46,7 +46,7 @@ header {
     // Added after the search box to fix vertical spacing
     height: 37px;
     @include max-screen(720px) {
-        //height: 39px;
+        height: 39px;
     }
     background-color: $color_button_bg;
 
@@ -79,7 +79,7 @@ header {
             }
             
             a {
-                padding: 6px 11px 4px 11px;
+                padding: 6px 11px 4px 10px;
                 @include max-screen(720px) {
                     padding-top: 7px;
                 }
@@ -117,7 +117,7 @@ header {
             font-family: $font_site_title;
             font-size: $font_size_site_title;
             @include max-screen(720px) {
-                font-size: $font_size_site_title + 1;
+                font-size: $font_size_site_title + 2;
             }
             font-weight: $font_weight_site_title;
         }
@@ -134,7 +134,7 @@ header {
             margin-right: 5px;
             padding: 0;
             border: none;
-            
+
             &:hover:not(.active) {
                 background-color: $color_button_hover_text;
             }
@@ -143,6 +143,11 @@ header {
                 padding: 0;
                 width: 24px;
                 height: 24px;
+                @include max-screen(720px) {
+                    margin-top: 3px;
+                    width: 22px;
+                    height: 22px;
+                }
                 background: $color_button_hover_bg;
                 border: 1px solid $color_button_hover_bg;
                 border-radius: 2px;
