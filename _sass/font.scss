@@ -58,131 +58,105 @@
 
 
 
-$font_serif:                "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
-$font_serif_thin:           "Noto Serif", "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif:                            "Liberation Serif", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
+$font_serif_thin:                       "Noto Serif", "Droid Serif", "Slabo 27px", Palatino, "Palatino Linotype", "Times New Roman", Georgia, Times, serif;
 
-$font_sans:                 "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-$font_sans_thin:            "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-$font_sans_light:           "Roboto Condensed Light", "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans:                             "Roboto", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_thin:                        "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font_sans_light:                       "Roboto Condensed Light", "Roboto Condensed", "Source Sans Pro", "Droid Sans", "Miriam Libre", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
 
-//$font_sans_alt:             "Oswald", "Source Sans", "Lucida Sans", Helmet, Freesans, Helvetica, Arial, sans-serif;
-
-$font_monospace:            Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
+$font_monospace:                        Consolas, Bitstream Vera Sans Mono, Lucida Console, "Courier New", "Courier", Terminal, monospace;
 
 
 
 // Default
-$font_default:              $font_serif_thin;
-$font_size_default:         12px;
-$font_line_height_default:  $font_size_default + 4;
-$font_default_thin:         $font_sans_thin;
-$font_size_default_thin:    12px;
-$font_heading:              $font_serif;
-$font_size_heading:         25px;                   // Base of all heading tags
+$font_default:                          $font_serif_thin;
+$font_size_default:                     12px;
+$font_line_height_default:              $font_size_default + 4;
+$font_default_thin:                     $font_sans_thin;
+$font_size_default_thin:                12px;
+$font_heading:                          $font_serif;
+$font_size_heading:                     25px;                   // Base of all heading tags
 
 // Code
-$font_code:                 $font_monospace;
-$font_size_code:            12px;
-$font_line_height_code:     12px;
-$font_size_code_in_text:    12px;
+$font_code:                             $font_monospace;
+$font_size_code:                        12px;
+$font_line_height_code:                 12px;
+$font_size_code_in_text:                12px;
 
 // Table
-$font_table_heading:            $font_sans_thin;
-$font_table_data:               $font_sans_thin;
-$font_size_table_heading:       $font_size_default + 0;
-$font_size_table_data:          $font_size_default + 1;
-$font_line_height_table_data:   $font_size_default + 2;
+$font_table_heading:                    $font_sans_thin;
+$font_table_data:                       $font_sans_thin;
+$font_size_table_heading:               $font_size_default + 0;
+$font_size_table_data:                  $font_size_default + 1;
+$font_line_height_table_data:           $font_size_default + 2;
 
 // Block Quote
-$font_blockquote:               $font_sans_thin;
-$font_size_blockquote:          $font_size_default;
-$font_line_height_blockquote:   $font_size_blockquote + 4;
-$word_spacing_blockquote:       0.1em;
+$font_blockquote:                       $font_sans_thin;
+$font_size_blockquote:                  $font_size_default;
+$font_line_height_blockquote:           $font_size_blockquote + 4;
+$word_spacing_blockquote:               0.1em;
 
 // Add whitespace between words
 // Normal whitespace between is 0.25em
-$word_spacing:              0.155em;
+$word_spacing:                          0.155em;
 
 
 
 // Specifics
 // -----------------------------------------------------------------------------
 
-$font_site_title:               $font_sans_thin;
-$font_size_site_title:          13px;
-$font_weight_site_title:        bold;
+$font_site_title:                       $font_sans_thin;
+$font_size_site_title:                  13px;
+$font_weight_site_title:                bold;
+
+
 
 // Navigation
-$font_nav:                      $font_sans;
-$font_size_nav:                 11px;
+$font_nav:                              $font_sans;
+$font_size_nav:                         11px;
+$font_size_page_nav:                    $font_size_nav + 2;
 
-$font_size_page_nav:            $font_size_nav + 2;
 
-$font_attribution:              $font_serif_thin;
-$font_size_attribution:         11px;
-$font_line_height_attribution:  10px;
-
-$font_caption:                  $font_serif_thin;
-$font_size_caption:             11px;
-$font_line_height_caption:      14px;
 
 // Label
-$font_label:                    $font_sans;
-$font_size_label:               11px;
-$font_weight_label:             bold;
-$font_letter_spacing_label:     0.25px;
-$font_word_spacing_label:       2px;
+$font_label:                            $font_sans;
+$font_size_label:                       11px;
+$font_weight_label:                     bold;
+$font_letter_spacing_label:             0.25px;
+$font_word_spacing_label:               2px;
 
-$font_sub_label:                $font_sans_light;
-$font_size_sub_label:           12px;
-$font_weight_sub_label:         bold;
+$font_sub_label:                        $font_sans_light;
+$font_size_sub_label:                   12px;
+$font_weight_sub_label:                 bold;
 
-// Page and Post
-$font_page_title:                   $font_heading;
-$font_page_title_code:              $font_monospace;
-$font_page_meta:                    $font_default;
-$font_page_date:                    $font_default;
-$font_page_excerpt:                 $font_default;
-$font_page_text:                    $font_default;
 
-$font_size_page_title:              $font_size_heading;
-$font_size_page_title_code:         $font_size_heading;
-$font_size_page_meta:               $font_size_default;
-$font_size_page_date:               $font_size_default;
-$font_size_page_excerpt:            $font_size_default;
-$font_size_page_text:               $font_size_default !global;
-
-$font_line_height_page_title:       $font_size_heading + 4;
-$font_line_height_page_title_code:  $font_size_heading + 4;
-$font_line_height_page_meta:        $font_line_height_default;
-$font_line_height_page_date:        $font_line_height_default;
-$font_line_height_page_excerpt:     $font_line_height_default;
-$font_line_height_page_text:        $font_line_height_default !global;
-
-// Quote
-$font_quote:                $font_sans;
-$font_size_quote:           14px;
-$font_line_height_quote:    $font_size_quote + 4;
-$font_quote_author:         $font_serif_thin;
-$font_size_quote_author:    13px;
-$font_quote_context:        $font_serif_thin;
-$font_size_quote_context:   11px;
 
 // Aside
-$font_aside:                    $font_default;
-$font_size_aside_text:          $font_size_default + 2;
-$font_line_height_aside_text:   $font_line_height_default + 4;
+$font_aside:                            $font_default;
+$font_size_aside_text:                  $font_size_default + 2;
+$font_line_height_aside_text:           $font_line_height_default + 4;
 
-// Post tags
-$font_tag:                      $font_default_thin;
-$font_size_tag:                 $font_size_default - 1;
-$font_line_height_tag:          $font_size_default + 4;
 
-// Footnote
-$font_footnote_link:            $font_serif_thin;
-$font_size_footnote_link:       $font_size_default;
-$font_footnote:                 $font_serif;
-$font_size_footnote:            $font_size_default;
+
+
+
+// Current date/time section
+$font_datetime_date:                    $font_serif_thin;
+$font_size_datetime_date:               $font_size_default + 1;
+$font_datetime_time:                    $font_serif_thin;
+$font_size_datetime_time:               $font_size_default + 1;
+
+
+
+// Quotations section
+$font_quotes:                           $font_default;
+$font_quotes_author:                    $font_sans_light;
+$font_quotes_context:                   $font_sans_thin;
+$font_size_quotes:                      14px;
+$font_size_quotes_author:               13px;
+$font_size_quotes_context:              13px;
+$font_line_height_quotes:               $font_size_quotes + 4;
 
 
 
@@ -226,40 +200,80 @@ $font_line_height_hub_compact_text:     $font_line_height_default;
 
 // Related Post
 $font_related_post_title:               $font_serif_thin;
-$font_size_related_post_title:          14px;
-$font_line_height_related_post_title:   16px;
+$font_size_related_post_title:          $font_size_hub_default_title;
+$font_line_height_related_post_title:   $font_line_height_hub_default_title;
+
 $font_related_post_date:                $font_default;
 $font_size_related_post_date:           $font_size_default;
 $font_line_height_related_post_date:    $font_line_height_default;
+
 $font_related_post_excerpt:             $font_default;
 $font_size_related_post_excerpt:        $font_size_default;
 $font_line_height_related_post_excerpt: $font_line_height_default;
 
 
 
-// Quotations
-$font_quotes:               $font_default;
-$font_quotes_author:        $font_sans_light;
-$font_quotes_context:       $font_sans_thin;
-$font_size_quotes:          14px;
-$font_size_quotes_author:   13px;
-$font_size_quotes_context:  13px;
-$font_line_height_quotes:   $font_size_quote + 4;
+// Page and Post
+$font_page_title:                       $font_heading;
+$font_page_title_code:                  $font_monospace;
+$font_page_meta:                        $font_default;
+$font_page_date:                        $font_default;
+$font_page_excerpt:                     $font_default;
+$font_page_text:                        $font_default;
 
-// Current date/time
-$font_datetime_date:        $font_serif_thin;
-$font_size_datetime_date:   $font_size_default + 1;
-$font_datetime_time:        $font_serif_thin;
-$font_size_datetime_time:   $font_size_default + 1;
+$font_size_page_title:                  $font_size_heading;
+$font_size_page_title_code:             $font_size_heading;
+$font_size_page_meta:                   $font_size_default;
+$font_size_page_date:                   $font_size_default;
+$font_size_page_excerpt:                $font_size_default;
+$font_size_page_text:                   $font_size_default !global;
+
+$font_line_height_page_title:           $font_size_heading + 4;
+$font_line_height_page_title_code:      $font_size_heading + 4;
+$font_line_height_page_meta:            $font_line_height_default;
+$font_line_height_page_date:            $font_line_height_default;
+$font_line_height_page_excerpt:         $font_line_height_default;
+$font_line_height_page_text:            $font_line_height_default !global;
+
+
+
+// Post tags
+$font_tag:                              $font_default_thin;
+$font_size_tag:                         $font_size_default - 1;
+$font_line_height_tag:                  $font_size_default + 4;
+
+
+
+// Image and video attribution
+$font_attribution:                      $font_serif_thin;
+$font_size_attribution:                 11px;
+$font_line_height_attribution:          10px;
+
+
+
+// Image and video caption
+$font_caption:                          $font_serif_thin;
+$font_size_caption:                     11px;
+$font_line_height_caption:              14px;
+
+
+
+// Footnote
+$font_footnote_link:                    $font_serif_thin;
+$font_size_footnote_link:               $font_size_default;
+$font_footnote:                         $font_serif;
+$font_size_footnote:                    $font_size_default;
 
 
 
 // Footer
-$font_footer:                   $font_serif;
-$font_size_footer:              $font_size_default + 1;
-$font_size_license:             $font_size_default + 1;
-$font_line_height_footer:       $font_line_height_default;
+$font_footer:                           $font_serif;
+$font_size_footer:                      $font_size_default + 1;
+$font_size_license:                     $font_size_default + 1;
+$font_line_height_footer:               $font_line_height_default;
+
+
 
 // Link buttons
-$font_button:                   $font_sans;
-$font_size_button:              13px;
+$font_button:                           $font_sans;
+$font_size_button:                      13px;
