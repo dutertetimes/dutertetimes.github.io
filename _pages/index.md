@@ -144,7 +144,7 @@ permalink: /
             {% assign show_items = show_items | push: "date" %}
             {% assign show_items = show_items | push: "excerpt" %}
             {% assign show_items = show_items | push: "thumbnail" %}
-            
+
             {% assign list = "" | split: "" %}
             {% for post in section_posts limit: 3 %}
                 {% assign list = list | push: post %}
@@ -153,7 +153,9 @@ permalink: /
         </div>
         <div class="container_2n_list container_top_border_thin_mobile">
             {% assign show_items = "" | split: "" %}
+            {% comment %}
             {% assign show_items = show_items | push: "date" %}
+            {% endcomment %}
             
             {% assign list = "" | split: "" %}
             {% for post in section_posts offset: 3 limit: 6 %}
