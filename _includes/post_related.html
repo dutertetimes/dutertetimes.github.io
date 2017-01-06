@@ -9,21 +9,23 @@
 
 {% assign foundPost = false %}
 {% for post in site.categories['news'] %}
-    {% if post.title != page.title %}
-        {% for page_tag in page.tags %}
-            {% if post.tags contains page_tag %}
-                {% assign foundPost = true %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
+    {% if post.title == page.title %}
+        {% continue %}
+    {% endif %}
 
-        {% if foundPost == true %}
-            {% assign list_posts = list_posts | push: post %}
-            {% assign foundPost = false %}
-            {% assign counter = counter | plus: 1 %}
-            {% if counter == max_post_count %}
-                {% break %}
-            {% endif %}
+    {% for tag in post.tags %}
+        {% if page.tags contains tag %}
+            {% assign foundPost = true %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% if foundPost == true %}
+        {% assign list_posts = list_posts | push: post %}
+        {% assign foundPost = false %}
+        {% assign counter = counter | plus: 1 %}
+        {% if counter == max_post_count %}
+            {% break %}
         {% endif %}
     {% endif %}
 {% endfor %}
