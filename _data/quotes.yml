@@ -49,11 +49,6 @@
   qcontext:
   qdate:
 
-- qtext: "I could make this sacrifice if only to save this country from being fractured."
-  qauthor: "Rodrigo Roa Duterte"
-  qcontext:
-  qdate:
-
 - qtext: "Go ahead, do your duty, but if you feel that in carrying out your duty you might get killed — my God, shoot him first!"
   qauthor: "Rodrigo Roa Duterte"
   qcontext:
@@ -138,7 +133,11 @@
   qauthor: "Rodrigo Roa Duterte"
   qcontext:
   qdate:
-
+  
+- qtext: "Actually, we do not need it. We can survive without American money."
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "Referring to U.S. aid"
+  qdate:
 
 # ----------
 # others
@@ -147,9 +146,19 @@
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "During a Senate hearing on Rice Smuggling"
   qdate:
+  
+- qtext: "I think God was somewhere else when the typhoon hit."
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "After visiting victims of typhoon Yolanda (I.N. Haiyan) in Tacloban City, Leyte and other parts of the island."
+  qdate:
 
 # ----------
 # campaign
+
+- qtext: "I could make this sacrifice if only to save this country from being fractured."
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "During 2016 presidential campaign"
+  qdate:
 
 - qtext: "I will change this country even if it costs me my life."
   qauthor: "Rodrigo Roa Duterte"
@@ -385,7 +394,7 @@
   qcontext: "During the oathtaking of newly appointed officials at Malacañang Palace"
   qdate: "12 September 2016"
 
-- qtext: "I am inviting the rapporteur, Ban Ki Moon, the EU - their lawyers to come here and investigate me. But this would not be a one way affair. They can ask all the questions they want but after that, in keeping with the time honored principle of the right to be heard, I will ask them my questions. Fair is fair."
+- qtext: "I am inviting the rapporteur, Ban Ki Moon, the EU — their lawyers to come here and investigate me. But this would not be a one way affair. They can ask all the questions they want but after that, in keeping with the time honored principle of the right to be heard, I will ask them my questions. Fair is fair."
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "During talk to PNP PRO 10, Cagayan de Oro"
   qdate: "22 September 2016"
