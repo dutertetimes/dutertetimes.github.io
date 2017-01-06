@@ -3,7 +3,7 @@ title: Ombudsman Orders Dismissal of Julito Vitriolo of CHED
 date: 2017-01-06T14:39:24UTC
 excerpt: The Ombudsman ordered the dismissal from service of Executive Director Julito Vitriolo of the Commission on Higher Education on 5 January 2017.
 layout: post
-categories: [others, education]
+categories: [other, education]
 tags: [Ombudsman, Conchita Carpio Morales, Commission on Higher Education, Julito Vitriolo]
 published: true
 permalink: /news/nexRZOWmoDJ3ABG
