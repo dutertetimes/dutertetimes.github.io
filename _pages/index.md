@@ -92,28 +92,25 @@ permalink: /
 </div>
 
 
+{% assign news_posts = site.categories.news %}
+
 
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Events</h1>
     <div class="section_container top_margin_10">
         {% for section_category in site.data.index_events %}
         <div class="container container_top_border_thin">
-            {% assign category_posts = site.categories[section_category] %}
-
             {% assign section_posts = "" | split: '' %}
             {% assign count = 0 %}
-            {% for post in category_posts %}
-                {% if post.categories contains "topics" %}
-                    {% continue %}
-                {% endif %}
-                {% assign section_posts = section_posts | push: post %}
-                
-                {% assign count = count | plus: 1 %}
-                {% if count == 6 %}
-                    {% break %}
+            {% for post in news_posts %}
+                {% if post.categories[1] == section_category %}
+                    {% assign section_posts = section_posts | push: post %}
+                    {% assign count = count | plus: 1 %}
+                    {% if count == 6 %}
+                        {% break %}
+                    {% endif %}
                 {% endif %}
             {% endfor %}
-            
             {% assign section_image = section_category | prepend: "post_16_9_" | append: ".png" %}
             {% include section_slideshow.html category=section_category posts=section_posts max_post_count=6 post_image=section_image %}
         </div>
@@ -126,10 +123,10 @@ permalink: /
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Other Events</h1>
 
-    {% assign section_posts = "" | split: "" %}
+    {% assign section_posts = "" | split: '' %}
     {% assign count = 0 %}
-    {% for post in site.categories.other %}
-        {% if post.categories contains "news" %}
+    {% for post in news_posts %}
+        {% if post.categories[1] == "other" %}
             {% assign section_posts = section_posts | push: post %}
             {% assign count = count | plus: 1 %}
             {% if count == 9 %}
