@@ -1,7 +1,7 @@
 ---
-title: On Leni Robredo's Remark that Typhoon Nina Relief Operations were Slow
+title: "On Leni Robredo's Remark that Typhoon Nina Relief Operations were Slow"
 date: 2017-01-06T13:53:14UTC
-excerpt: The Office of the Presidential Spokesperson headed by Ernesto Abella issued a response regarding the statement of Vice President Leni Robredo that the Typhoon Nina relief operations were \"slow\".
+excerpt: The Office of the Presidential Spokesperson headed by Ernesto Abella issued a response regarding the statement of Vice President Leni Robredo that the Typhoon Nina relief operations were slow.
 layout: post
 categories: [other]
 tags: [Nina, Leni Robredo, Ernesto Abella, Office of the Presidential Spokesperson]
