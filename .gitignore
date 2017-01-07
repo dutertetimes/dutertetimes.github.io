@@ -19,6 +19,9 @@ _drafts/**
 _site
 _sass/*.map
 news/.sass-cache/**
+news/*.bak
+stories/*.bak
+topic/*.bak
 stories/*.md
 _includes/.sass-cache/**
 _posts/.sass-cache/**
