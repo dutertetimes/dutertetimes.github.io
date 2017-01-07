@@ -39,6 +39,12 @@
 # ----------
 # no context
 
+
+- qtext: "My favorite quote is, \"I may disagree with what you say, but I will defend to death your right to say it.\""
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext:
+  qdate:
+
 - qtext: "We will not raise hell now because of the judgement but there will come a time that we will have to do some reckoning about this."
   qauthor: "Rodrigo Roa Duterte"
   qcontext:
