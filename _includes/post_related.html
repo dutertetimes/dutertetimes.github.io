@@ -7,6 +7,7 @@
 {% assign counter = 0 %}
 {% assign max_post_count = 5 %}
 
+{% comment %}
 {% assign foundPost = false %}
 {% for post in site.categories['news'] %}
     {% if post.title == page.title %}
@@ -29,12 +30,28 @@
         {% endif %}
     {% endif %}
 {% endfor %}
+{% endcomment %}
+
+{% for tag in page.tags %}
+    {% if site.tags[tag] and site.tags[tag].size > 0 %}
+        {% assign append_post = true %}
+        {% for list_post in list_posts %}
+            {% if page.title == site.tags[tag][0].title or list_post.title == site.tags[tag][0].title %}
+                {% assign append_post = false %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        {% if append_post == true %}
+            {% assign list_posts = list_posts | push: site.tags[tag][0] %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
 
 {% assign show_items = "" | split: "" %}
 {% assign show_items = show_items | push: "date" %}
 {% assign show_items = show_items | push: "excerpt" %}
-{% assign show_items = show_items | push: "description" %}
 {% endcapture %}{% assign empty = nil %}
+
 <div id="related_posts_section" class="section_container_wrapper section_container_wrapper_border">
     <h1>Related Posts</h1>
 
