@@ -4,14 +4,14 @@ date: 2016-11-14T16:32:49UTC
 excerpt: National Bureau of Investigation at their 80th founding anniversary on 14 November 2016 held at the NBI Gymnasium in Taft Avenue, Manila.
 layout: post
 categories: [president]
-tags: [national bureau of investigatiion, nbi, nbi founding anniversary]
+tags: [national bureau of investigation, nbi, nbi founding anniversary]
 published: true
 redirect_from: /news/20161114T163249
 permalink: /news/vGDRmya2MyqRKlM
 image:
   layout: auto_width
-  source: 
-  attribution: 
+  source:
+  attribution:
 video:
   layout: top
   source: q_rk1wiGAQw
@@ -73,7 +73,7 @@ You obey the law; we, in government are admonished to say follow the rule of law
 
 When it's time just to say, we are sorry, we failed to protect you.When I was mayor—1988, marijuana and shabu was making the scene, almost simultaneously.
 
-When we were students, kami ni Secretary Aguirrenoon, the vogue was— the fad was marijuana. But, shabu was making its toxic entrance to the young people.
+When we were students, kami ni Secretary Aguirre noon, the vogue was—the fad was marijuana. But, shabu was making its toxic entrance to the young people.
 
 And when I was a prosecutor, I tried my best really to do the best to my country, my oath of office.
 
@@ -129,25 +129,25 @@ They'd call upon me and say, "Duterte, why don't you just rehabilitate them, pla
 
 My countrymen, remember that I entered the Presidency midterm.And so, I am now operating on a budget that was prepared the other year byPresident Aquino.
 
-Half of the budget is gone. Maybe, he did not realize the gravity of the situation because he simply did not know or never attemptedto know how, how much was the scale, the dimension of three million.
+Half of the budget is gone. Maybe, he did not realize the gravity of the situation because he simply did not know or never attempted to know how, how much was the scale, the dimension of three million.
 
-If they don't have the money, they kill, they rob; and when their— the study shows thatthe Mexican and joint force there, task force; that shabu, constant use of the chemical would shrink your brain.
+If they don't have the money, they kill, they rob; and when their— the study shows that the Mexican and joint force there, task force; that shabu, constant use of the chemical would shrink your brain.
 
-The neurosurgeon says that if the brain hasshrank, rehab is no longer viable. That is the problem today.It is continuing because even those guyswho are sworn to protectthe public interestand because it is really very easy money, almost all of them went to it.
+The neurosurgeon says that if the brain has shrank, rehab is no longer viable. That is the problem today.It is continuing because even those guys who are sworn to protect the public interest and because it is really very easy money, almost all of them went to it.
 
 Now, the portals of the national government has been opened to the creeping influence of drug. You must remember that Leila, si Lilia or whatever the name is, was the Secretary of Justice herself and she allowed the drug industry to take place.
 
 You, yourselves, you are the agents, some of these agents of this bureau testified against her. Most of them were credible and I don't know them actually. So there's no sense in saying that I have a part of it. You know that. But the only time when I visited NBI when I'm a guest speaker.
 
-But there was a day whichI would like to have come here, and you know, there are things whichI do not like butwe are in a crowd. You have to do both, you have to do more, especially on digging records that would show laundered money.
+But there was a day whichI would like to have come here, and you know, there are things whichI do not like but we are in a crowd. You have to do both, you have to do more, especially on digging records that would show laundered money.
 
 I'd like to address myself to the Central Bank guys, and the AMLA. Alam mo, I'd like to warn you, to avoid a confrontation between us, Central Bank people.
 
 You know when I was a candidate, there was a guy, a senator who's so stupid, torpe talaga siya, that I had 211 million bank deposit. And I was just curious, if I had that money, why did you not initiate an investigation. For I really have none.
 
-So you cannot tell the public because you are protectingsomebody, those who arereally into money laundering.
+So you cannot tell the public because you are protecting somebody, those who are really into money laundering.
 
-Mine case wassimply to us, tell the public how much is my worth in this world. And the Secretary of Justice now saysthat you are hard to deal with. You better go to the Secretary of Justice or I will go to you.
+Mine case was simply to us, tell the public how much is my worth in this world. And the Secretary of Justice now says that you are hard to deal with. You better go to the Secretary of Justice or I will go to you.
 
 I will call for you and you have to answer so many questions to me. You choose, either we cooperate in this government as a Republic to protect and preserve our people or do not make it hard for us, otherwise, I will make it hard for you.
 
@@ -155,13 +155,13 @@ Simply, I said, you failed miserably, eh sinabi na nga may 200 million, bakit hi
 
 You're also a part of the garbage which I resent to this day. And do not give me a reason to have a confrontation. Palabas ninyo 'yung ano ang mali diyan.
 
-There arebillions task there in the banks, who were really being wash or just being kept there in the meantime.
+There are billions task there in the banks, who were really being wash or just being kept there in the meantime.
 
-Go to the Secretary of Justice, the AMLA guys, explain to us in public or I will do theexplaining for you. Choose.
+Go to the Secretary of Justice, the AMLA guys, explain to us in public or I will do the explaining for you. Choose.
 
-Now, tayong mga nasa gobyerno, I am asking you earnestly,I'm pleading to you. Do not go into drugs, lalona 'yung mga agents.
+Now, tayong mga nasa gobyerno, I am asking you earnestly,I'm pleading to you. Do not go into drugs, lalo na 'yung mga agents.
 
-Police, you are listening. Do not do it, just like the others. Do notwait for the day, when it's only 24, it becomes the 25th hour when the hands of the clock shall strike for the tolls, tolling of the bells or sound your kneel of grief.
+Police, you are listening. Do not do it, just like the others. Do not wait for the day, when it's only 24, it becomes the 25th hour when the hands of the clock shall strike for the tolls, tolling of the bells or sound your kneel of grief.
 
 I will not hesitate. And as I have said, those law enforcers, police, the NBI, PDEA, just do your duty. Just follow my instruction and you do not have anything to worry.
 
@@ -181,7 +181,7 @@ But if you do your duty, do not worry about cases, I will protect you, believe m
 
 Just do it right. We have our trainings, that you can only kill, if your life is in danger. And you are there performing the duty of a law enforcer. That's about it.
 
-Eh kung sabihin mo, sir, ito ang nangyari. Pero pag tinanong kita, just tell me the truth. Maski anong klaseng totoo'yan, tell me the truth. Para hindi ako parang buang dito na mag-ano, para alam ko kung paano, how to present the truth to the public.
+Eh kung sabihin mo, sir, ito ang nangyari. Pero pag tinanong kita, just tell me the truth. Maski anong klaseng totoo 'yan, tell me the truth. Para hindi ako parang buang dito na mag-ano, para alam ko kung paano, how to present the truth to the public.
 
 Do not shit with me. Sabihin mo sa akin ang totoo, lalo na sa trabaho. But, if you are accused of extortion, kidnapping, some of you who are involved then. Do not do it in my time. You do it, patayin kita. Anong gusto mo? Barrett na sniper? O ambush? O, mamili ka, mamili ka. You start to fuck with government, pati ako lolokohin mo, ah kalokohan. Just tell me truth.
 
@@ -199,7 +199,7 @@ Going to jail to save your country. The human rights guys, puwede European— Th
 
 When has— when has it been a crime to say, I will kill all the criminals who will harm our people?When was it wrong to say, do not destroy the next generation of my country? Or else,I will kill you. What is wrong with that?
 
-And they want me to face the International Court of— Criminal Court.Then, my God, if you have thegoods on me, file the case and stop yakking.
+And they want me to face the International Court of— Criminal Court.Then, my God, if you have the goods on me, file the case and stop yakking.
 
 So that's got— that got me into quarrel with the— So whenever they say, everyday in the international news networks, I was telling you that, that 3,000 is not ours.
 
@@ -211,23 +211,21 @@ When is it wrong to say, do not harm my country because I will kill you? Is it w
 
 Would it be wrong for the Iraqi soldier to say, we will fight you now, this time as terrorists. What you did, and that is a problem because before I go, I would say that we have to solve continually, it would be a continuous game for the drug because of the money and the looming terrorism in this country.
 
-We have a very strong rebellion in Mindanao; terrorists in a Jolo; Sulu, kidnapping people almost everyday, putting a shame to ourcountry. Every time they do it, they slap us internationally.
+We have a very strong rebellion in Mindanao; terrorists in a Jolo; Sulu, kidnapping people almost everyday, putting a shame to our country. Every time they do it, they slap us internationally.
 
 I've been to Indonesia to talk with President Widodo. I just came back from Malaysia and we have agreed and our people are talking now.
 
 I am not at liberty to tell you, what is, what it is all about. But it means fighting terrorism, terrorism.
 
-Can you fight them withhuman rights? Where's the human rights in Syria? In Aleppo now, in Mosul? They're bombing children, killing them executing everyone.Is there a crime for human rights there? I haven't heard. I haven't heard the human rights crime to that.
+Can you fight them with human rights? Where's the human rights in Syria? In Aleppo now, in Mosul? They're bombing children, killing them executing everyone. Is there a crime for human rights there? I haven't heard. I haven't heard the human rights crime to that.
 
-But we have to prepare for it, because oncethe terrorists of the Middle East are deprive of the land area, a really estate where they can sleep, stand on, or just simply sit down, they wouldwander to other places andthey will come home here, andwe haveto prepare for that.
+But we have to prepare for it, because once the terrorists of the Middle East are deprive of the land area, a real estate where they can sleep, stand on, or just simply sit down, they would wander to other places and they will come home here, and we have to prepare for that.
 
-Remember, these guys, they do not have an iota of whata human right is, believe me.
+Remember, these guys, they do not have an iota of what a human right is, believe me.
 
 So, we will have a calibrated thing here. I will not just sit down and allow my people to be slaughtered, for the sake of human rights. That's bullshit. That's bullshit.
 
-My response be— would always calibrated to what we are facing, to destroy the Filipino nation. 
+My response be— would always calibrated to what we are facing, to destroy the Filipino nation.
 
 Thank you.
 &#x25cf;
-
-
