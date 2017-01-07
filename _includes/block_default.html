@@ -17,10 +17,14 @@ Example:
 
 <div class="block block_default_fonts">
     <div class="entries">
-        {% for post in include.posts %}
+        {% if include.posts.size > 0 %}
+            {% for post in include.posts %}
         <div class="entry {% if include.entry_class %}{{ include.entry_class }}{% endif %}">
-            {% include block_entry.html post=post show=include.show %}
+                {% include block_entry.html post=post show=include.show %}
         </div>
-        {% endfor %}
+            {% endfor %}
+        {% else %}
+            {% include no_posts.html %}
+        {% endif %}
     </div>
 </div>
