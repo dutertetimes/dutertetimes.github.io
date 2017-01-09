@@ -1,12 +1,13 @@
 #!/bin/sh
 
 # Find and replace text in a specified file.
-# The following characters will be replaced by their ASCII equivalent.
-# open single quote     ‘   ->  '
-# close single quote    ’   ->  '
-# open double quote     “   ->  "
-# close double quote    ”   ->  "
-# ellipses              …   ->  ...
+# The following characters will be replaced by their ASCII equivalents:
+#   apostrophe          (U+0027) '  ->  '
+#   open single quote   (U+2018) ‘  ->  '
+#   close single quote  (U+2019) ’  ->  '
+#   open double quote   (U+201C) “  ->  "
+#   close double quote  (U+201D) ”  ->  "
+#   ellipses            (U+2026) …  ->  ...
 
 filename=""
 
