@@ -3,11 +3,11 @@
 <!-- http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/ -->
 {% endcomment %}
 {% capture empty %}
+
+{% comment %}
 {% assign list_posts = "" | split: "" %}
 {% assign counter = 0 %}
 {% assign max_post_count = 5 %}
-
-{% comment %}
 {% assign foundPost = false %}
 {% for post in site.categories['news'] %}
     {% if post.title == page.title %}
@@ -32,20 +32,23 @@
 {% endfor %}
 {% endcomment %}
 
-{% for tag in page.tags %}
-    {% if site.tags[tag] and site.tags[tag].size > 0 %}
-        {% assign append_post = true %}
-        {% for list_post in list_posts %}
-            {% if page.title == site.tags[tag][0].title or list_post.title == site.tags[tag][0].title %}
-                {% assign append_post = false %}
-                {% break %}
+{% if site.development == false %}
+    {% assign list_posts = "" | split: "" %}
+    {% for tag in page.tags %}
+        {% if site.tags[tag] and site.tags[tag].size > 0 %}
+            {% assign append_post = true %}
+            {% for list_post in list_posts %}
+                {% if page.title == site.tags[tag][0].title or list_post.title == site.tags[tag][0].title %}
+                    {% assign append_post = false %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            {% if append_post == true %}
+                {% assign list_posts = list_posts | push: site.tags[tag][0] %}
             {% endif %}
-        {% endfor %}
-        {% if append_post == true %}
-            {% assign list_posts = list_posts | push: site.tags[tag][0] %}
         {% endif %}
-    {% endif %}
-{% endfor %}
+    {% endfor %}
+{% endif %}
 
 {% assign show_items = "" | split: "" %}
 {% assign show_items = show_items | push: "date" %}
