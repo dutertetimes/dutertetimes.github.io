@@ -1,7 +1,7 @@
 ---
-title: Leni Robredo Reacts on "Oust Duterte Plot"
+title: "Leni Robredo Reacts on \"Oust Duterte Plot\""
 date: 2016-12-31T18:25:22UTC
-excerpt: Vice President Leni Robredo released a statement on 30 December 2016 regarding "Oust Duterte".
+excerpt: "Vice President Leni Robredo released a statement on 30 December 2016 regarding \"Oust Duterte\"."
 layout: post
 categories: [other]
 tags: [Leni Robredo, Oust Duterte]
