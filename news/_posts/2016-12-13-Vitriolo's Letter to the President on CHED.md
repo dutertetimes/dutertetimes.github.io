@@ -4,7 +4,7 @@ date: 2016-12-13T05:37:33UTC
 excerpt: The Commission on Higher Education (CHEd) executive director Julito Vitriolo wrote to the President asking for the appointment of an OIC who can serve as the President's alter ego at the agency.
 layout: post
 categories: [other, education]
-tags: [commission on higher education, ched, patricia licuanan, julito vitriolo]
+tags: [Commission on Higher Education, CHED, Patricia Licuanan, Julito Vitriolo]
 published: true
 permalink: /news/vXOReyvxEG7RPjA
 image:
