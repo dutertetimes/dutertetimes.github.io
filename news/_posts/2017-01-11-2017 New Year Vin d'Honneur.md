@@ -59,7 +59,7 @@ Alongside these efforts, we are talking to all stakeholders to bring about just 
 
 These changes are vital to make the Philippines a stronger Republic. 
 
-It is on the basis of these strengths – political, social and economic - and the Philippines will be able to take on an even more active and more influential role in the community of nations. 
+It is on the basis of these strengths—political, social and economic—and the Philippines will be able to take on an even more active and more influential role in the community of nations. 
 
 However, know that the Philippines is doing its part in addressing the challenges we face together as an international community: the scourge of terrorism, natural and human-induced calamities, transnational crimes, hunger and poverty and international disputes. 
 
@@ -75,7 +75,7 @@ In truth, we all share the same aspiration of greater peace, progress and prospe
 
 In a world that recognizes our interconnectedness and respects each other's sovereign independence, the horizons and frontiers of cooperation are virtually limitless.
 
-Friendship, after all, knows no bounds. The Philippines has and will continue to build on our friendship founded on a common objectives, shared values and time-honored principles of international law. 
+Friendship, after all, knows no bounds. The Philippines has and will continue to build on our friendship founded on common objectives, shared values and time-honored principles of international law. 
 
 Let us, together work to further expand the areas of mutually beneficial collaboration. 
 
@@ -95,22 +95,22 @@ To all our friends and partners in the community of nations, may our relationshi
 	
 To my fellow servants in government, may you be blessed with strength and steadfastness, and with passion, honesty, and integrity, in serving our country and our people.
 	
-To my countrymen, may we continue to carry our country toward—to  a more aspired vision of a secured and developed nation.
+To my countrymen, may we continue to carry our country toward—to a more aspired vision of a secured and developed nation.
 	
-Mabuhay ang Pilipinas? Mabuhay kayong lahat! At Mabuhay ang the League of nations and of friends.
+Mabuhay ang Pilipinas! Mabuhay kayong lahat! At Mabuhay ang the League of Nations and of friends.
 
 Salamat po.
 
 To your success, Excellencies. Kanpai!
- 
+
 Kanpai! (laughter) Bottoms up.
- 
-You know, in the sub-diplomatic gatherings, especially in Asia, we just say "kanpai". It's always bottoms up. So be careful with this—our Asian brothers and sisters. When they say "kanpai," say, "no, just half of the kanpai."  (laughter)
- 
+
+You know, in the sub-diplomatic gatherings, especially in Asia, we just say "kanpai". It's always bottoms up. So be careful with this—our Asian brothers and sisters. When they say "kanpai," say, "no, just half of the kanpai." (laughter)
+
 Thank you and when I go around and shake your hands or thank you for dropping us by, and there's a lot to do for this world to—I really don't know but if If I just make a side remark.
-  
-I just finished reading the other night ISIS, it's a book. And it says there a lot of things of the state of our—
- 
+
+I just finished reading the other night, ISIS, it's a book. And it says there a lot of things of the state of our—
+
 So I hope we can get together, act together, and just to preserve mankind. 
 
 Thank you.
