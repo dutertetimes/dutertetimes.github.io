@@ -35,14 +35,14 @@
 }
 
 @mixin common_heading {
-    h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
+    h1, h1 > p { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
     h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
     h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
     h4 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
     h5 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
     h6 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
 
-    h1 code { font-size: $font_size_page_title - 0; }
+    h1, h1 > p code { font-size: $font_size_page_title - 0; }
     h2 code { font-size: $font_size_page_title - 5; }
     h3 code { font-size: $font_size_page_title - 6; }
     h4 code { font-size: $font_size_page_title - 8; }
@@ -52,14 +52,14 @@
     @include max-screen(720px) {
         $font_size_page_title: $font_size_page_title - 6;
         $font_line_height_page_title: $font_line_height_page_title - 2;
-        h1 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title;     }
+        h1, h1 > p { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title;     }
         h2 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 2; font-style: italic; }
         h3 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; }
         h4 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; font-style: italic; }
         h5 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
         h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 4; font-style: italic; }
 
-        h1 code { font-size: $font_size_page_title - 0; }
+        h1, h1 > p code { font-size: $font_size_page_title - 0; }
         h2 code { font-size: $font_size_page_title - 0; }
         h3 code { font-size: $font_size_page_title - 1; }
         h4 code { font-size: $font_size_page_title - 1; }
@@ -70,14 +70,14 @@
     @media print {
         $font_size_page_title: 20px;
         $font_line_height_page_title: $font_size_page_title;
-        h1 { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
+        h1, h1 > p { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
         h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
         h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
         h4 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
         h5 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
         h6 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
 
-        h1 code { font-size: $font_size_page_title - 0; }
+        h1, h1 > p code { font-size: $font_size_page_title - 0; }
         h2 code { font-size: $font_size_page_title - 5; }
         h3 code { font-size: $font_size_page_title - 6; }
         h4 code { font-size: $font_size_page_title - 8; }
@@ -85,7 +85,8 @@
         h6 code { font-size: $font_size_page_title - 11; }
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6,
+    h1 > p {
         font-family: $font_heading;
         font-weight: bold;
         color: $color_page_title;
@@ -115,11 +116,13 @@
     h5 {
         font-style: italic;
     }
+    /*
     h6 {
         @include compact;
         text-align: center;
         font-style: normal;
     }
+    */
 }
 
 @mixin border-radius($radius) {

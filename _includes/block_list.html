@@ -51,7 +51,7 @@ Example:
             {% endif %}
 
             {% if include.show contains "excerpt" %}
-            {% if post.excerpt %}<p class="excerpt">{{ post.excerpt }}</p>{% endif %}
+            {% if post.excerpt %}<p class="excerpt">{{ post.excerpt | markdownify }}</p>{% endif %}
             {% endif %}
 
             {% if include.show contains "url" %}

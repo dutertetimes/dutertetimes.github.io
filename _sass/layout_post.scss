@@ -60,6 +60,12 @@ section.post_column_main {
     }
 
     @include common_heading;
+    h6 {
+        @include compact;
+        text-align: center;
+        font-style: normal;
+        font-size: $font_size_page_text + 6;
+    }
     h6 + p {
         margin-top: 20px;
     }
@@ -285,7 +291,6 @@ section.post_column_main {
             @include compact;
         }
 
-
         @include max-screen(720px) {
             $font_size_page_title: $font_size_page_title - 10;
             $font_line_height_page_title: $font_line_height_page_title - 6;
@@ -297,7 +302,7 @@ section.post_column_main {
             h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
         }
 
-                & > p,
+        & > p,
         & > p a {
             margin: 0;
             padding: 0;

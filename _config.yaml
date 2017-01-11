@@ -60,6 +60,9 @@ timezone:      null
 quiet:    false
 defaults: []
 
+kramdown:
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+
 sass:
   sass_dir:      _sass
   style:         expanded    # [nested|expanded|compact|compressed]

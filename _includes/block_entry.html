@@ -44,7 +44,7 @@ Example:
 {% endif %}
 
 {% if include.post.url != nil %}
-<h2><a href="{{ include.post.url }}" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ include.post.title }}{% if include.post.abbr %}&nbsp;({{ include.post.abbr }}){% endif %}</a></h2>
+<h2><a href="{{ include.post.url }}" class="no_underline" {% if include.link_target_new_window == "yes" %}target="_blank"{% endif %}>{{ include.post.title | markdownify }}{% if include.post.abbr %}&nbsp;({{ include.post.abbr }}){% endif %}</a></h2>
 {% else %}
 <h2>{{ include.post.title }}{% if include.post.abbr %}&nbsp;({{ include.post.abbr }}){% endif %}</h2>
 {% endif %}
@@ -62,7 +62,7 @@ Example:
 {% endif %}
 
 {% if include.show contains "excerpt" %}
-{% if include.post.excerpt %}<p class="excerpt">{{ include.post.excerpt }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>{% endif %}
+{% if include.post.excerpt %}{{ include.post.excerpt | markdownify }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}{% endif %}
 {% endif %}
 
 {% if include.show contains "categories" %}
