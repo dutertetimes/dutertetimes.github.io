@@ -115,11 +115,6 @@ div.block {
                 }
             }
             
-            & > p,
-            & > h2 > a > p {
-                display: inline;
-            }
-            
             p {
                 margin: 0 !important;
                 padding: 0 !important;
@@ -179,7 +174,7 @@ div.block_default_fonts {
         & > ol > li.entry,
         & > div.entry,
         & > div.index_entry {
-            h2, h2 > a > p {
+            h2, h2 > a {
                 @include block_entry_heading($font_hub_default_title, $font_size_hub_default_title, $color_hub_entry_title);
                 @include max-screen(720px) {
                     font-size: $font_size_hub_default_title;
@@ -191,13 +186,14 @@ div.block_default_fonts {
                 font-weight: $font_weight_hub_default_title;
                 padding-bottom: 2px;
             }
-            h2 > a > p {
+            h2 > a {
                 border-bottom: none;
                 &:hover {
                     color: $color_link;
                 }
             }
             h2.indexed {
+                font-weight: normal;
                 & > span {
                     // Using inline-block gives span a width
                     // Using table-cell shifts the items down 1 pixel when a:hover
@@ -244,7 +240,7 @@ div.block_default_fonts {
         }
 
         & > div.index_entry {
-            h2, h2 > a > p {
+            h2 > a {
                 font-weight: normal;
             }
             h2 > i.fa {
@@ -266,13 +262,13 @@ div.block_compact_fonts {
         & > ol > li.entry,
         & > div.entry,
         & > div.index_entry {
-            h2, h2 > a > p {
+            h2, h2 > a {
                 text-transform: uppercase;
                 letter-spacing: 0.25px;
                 word-spacing: 0.175em;
                 padding-bottom: 2px;
             }
-            h2, h2 > a > p {
+            h2, h2 > a {
                 @include block_entry_heading($font_hub_compact_title, $font_size_hub_compact_title, $color_hub_entry_title);
                 line-height: $font_line_height_hub_compact_title + 2;
                 @include max-screen(720px) {
@@ -292,7 +288,10 @@ div.block_compact_fonts {
                 }
             }
 
-            p, li, p > a, li > a > p {
+            p,
+            li,
+            p > a,
+            li > a {
                 @include set_font($font_hub_compact_text, $font_size_hub_compact_text, $color_hub_entry_text);
                 line-height: $font_line_height_hub_compact_text;
                 @include max-screen(720px) {
