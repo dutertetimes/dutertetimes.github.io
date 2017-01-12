@@ -8,6 +8,14 @@
         "message":    "Send an email to dutertetimes@gmail.com"
     },
     {
+        "name":       "Facebook",
+        "address":    "",
+        "link":       "https://facebook.com/dutertetimes2016",
+        "target":     "_blank",
+        "fa_icon":    "fa fa-facebook-official fa-fw fa-lg",
+        "message":    "Open Duterte Times Facebook account"
+    },
+    {
         "name":       "Twitter",
         "address":    "@dutertetimes",
         "link":       "https://twitter.com/dutertetimes",
