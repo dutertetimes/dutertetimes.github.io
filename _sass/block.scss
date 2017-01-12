@@ -78,9 +78,18 @@ div.block {
                 padding-bottom: 4px;
             }
 
-            & > li p {
+            & > li > h2 > a.no_underline {
+                border-bottom: none;
+                &:hover {
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
+            
+            & > li > p,
+            & > li > h2 > a > p {
                 margin: 0 !important;
                 padding: 0 !important;
+                display: inline;
             }
         }
 
@@ -140,6 +149,12 @@ div.block {
 
         & > div.index_entry {
             @include compact;
+            & > h2 > a.no_underline {
+                border-bottom: none;
+                &:hover {
+                    border-bottom: 1px dotted $color_link_underline;
+                }
+            }
         }
     }
 }

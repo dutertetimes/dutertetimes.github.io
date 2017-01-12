@@ -19,7 +19,7 @@ published: true
                 {% continue %}
             {% endif %}
                 <div class="index_entry">
-                    <h2 class="indexed"><span>{{ counter }}</span><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2 class="indexed"><span>{{ counter }}</span><a href="{{ post.url }}" class="no_underline">{{ post.title }}</a></h2>
                     {% assign counter = counter | plus: 1 %}
                 </div>
         {% endfor %}
