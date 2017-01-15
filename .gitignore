@@ -18,11 +18,14 @@ _data/drafts.yml
 _drafts/**
 _site
 _sass/*.map
-news/.sass-cache/**
 news/*.bak
-stories/*.bak
-topic/*.bak
+news/*.md
+news/_posts/*.bak
+news/.sass-cache/**
 stories/*.md
+stories/_posts/*.bak
+topics/*.bak
+topics/_posts/*.bak
 _includes/.sass-cache/**
 _posts/.sass-cache/**
 _sass/.sass-cache/**
