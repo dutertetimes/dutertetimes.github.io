@@ -39,5 +39,6 @@ sed -i -e "s/’/'/g" "$filename"
 sed -i -e 's/“/"/g' "$filename"
 sed -i -e 's/”/"/g' "$filename"
 sed -i -e 's/…/.../g' "$filename"
+sed -i -e 's/\*\*\+/——/g' "$filename"
 
 echo "Done."
