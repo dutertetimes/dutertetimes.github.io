@@ -93,9 +93,13 @@ function create_news_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "  layout: top" >> $filename
+        echo "videos:" >> $filename
+        echo "  - source: " >> $filename
+        echo "    attribution: " >> $filename
+        echo "    layout: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
@@ -134,9 +138,13 @@ function create_story_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "  layout: top" >> $filename
+        echo "videos:" >> $filename
+        echo "  - source: " >> $filename
+        echo "    attribution: " >> $filename
+        echo "    layout: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
@@ -175,9 +183,13 @@ function create_opinion_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "  layout: top" >> $filename
+        echo "videos:" >> $filename
+        echo "  - source: " >> $filename
+        echo "    attribution: " >> $filename
+        echo "    layout: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
@@ -216,9 +228,13 @@ function create_topic_post {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "video:" >> $filename
-        echo "  layout: top" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
+        echo "  layout: top" >> $filename
+        echo "videos:" >> $filename
+        echo "  - source: " >> $filename
+        echo "    attribution: " >> $filename
+        echo "    layout: " >> $filename
         echo "sources:" >> $filename
         echo "  - label:" >> $filename
         echo "    link:" >> $filename
