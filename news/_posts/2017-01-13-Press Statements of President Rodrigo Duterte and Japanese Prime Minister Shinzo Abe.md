@@ -1,7 +1,7 @@
 ---
 title: Press Statements of President Rodrigo Duterte and Prime Minister Shinzō Abe
 date: 2017-01-13T05:51:21UTC
-excerpt: The President and Japanese Prime Minister Shinzō Abe of Japan addressed the Malacañang Press Corps and the Japanese media in joint press statements at Malacañan Palace on 12 January 2017.
+excerpt: The President and Japanese Prime Minister Shinzō Abe addressed the Malacañang Press Corps and the Japanese media in joint press statements at Malacañan Palace on 12 January 2017.
 layout: post
 categories: [president, foreign_affairs]
 tags: [Japanese Prime Minister, Shinzo Abe]
