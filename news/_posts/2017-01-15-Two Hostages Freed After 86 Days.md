@@ -1,7 +1,7 @@
 ---
 title: Two Hostages Freed After 86 Days
 date: 2017-01-15T03:36:36UTC
-excerpt: Two hostages of still 
+excerpt: Two hostages abducted back in October 2016 in international waters off Tawi-Tawi had been turned over to the government on 14 January 2017 after more than 2 months of captivity.
 layout: post
 categories: [law_and_order]
 tags: [MV Dong Bang Gian 2, Chul Hong Park, Glenn Alindajao, Bongao, Tawi-Tawi, Armed Forces Western Mindanao Command, WESTMINCOM, Presidential Adviser on the Peace Process, Jesus Dureza, Moro National Liberation Front MNLF, seajack, hostage]
@@ -16,12 +16,12 @@ video:
   source: 
   attribution: 
 sources:
-  - label:
-    link:
+  - label: Office of the Presidential Adviser on the Peace Process (Facebook)
+    link: https://www.facebook.com/peacegovph/videos/1232969413407059/
 related:
 ---
 
-The large Korean cargo ship MV Dong Bang Gian 2 was seajacked in international waters off the waters of Bongao town in Tawi-Tawi as reported by the Armed Forces Western Mindanao Command (WESTMINCOM) on 21 October 2016.
+The large Korean cargo ship MV Dong Bang Gian 2 was seajacked in international waters off Bongao, Tawi-Tawi as reported by the Armed Forces Western Mindanao Command (WESTMINCOM) on 21 October 2016.
 The captain of the ship Chul Hong Park and, Cebuano crewman, second officer Glenn Alindajao were taken by ten (10) armed men at 2:45pm the day before.
 
 The ship had 20 crew members, four Koreans and 16 Filipinos. The rest of were not abducted after they locked themselves in their cabins.
@@ -38,4 +38,6 @@ Dureza thanked Sulu officials for helping in the release of the hostages and ack
 "We know the Philippine government policy, we don't engage in ransom negotiations but if there are some efforts taken by the private sector that is there concern and not ours."
 
 Dureza said that the freed hostages said that they were taken by a group headed by a certain Abraham and when Abraham died they were brought to another.
+
+Watch the press briefing on [Facebook]({{ page.sources[0].link }})
 &#x25cf;
