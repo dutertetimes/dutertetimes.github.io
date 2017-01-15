@@ -54,15 +54,23 @@ layout: default
     {% include post_operations.html %}
 
     {% if page.image.source != nil %}
+        {% assign has_video = false %}
+        {% assign video_source="" %}
+        {% assign video_attribution="" %}
         {% if page.video.source != nil and page.video.layout == "top" %}
-            <div class="video_container">
-                <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
-                </div>
-                <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
-            </div>
+            {% assign has_video = true %}
+            {% assign video_source=page.video.source %}
+            {% assign video_attribution=page.video.attribution %}
+            {% include youtube_video.html video_id=video_source attribution=video_attribution %}
         {% else %}
+            {% if page.videos[0].source != nil and page.videos[0].layout == "top" %}
+                {% assign has_video = true %}
+                {% assign video_source=page.videos[0].source %}
+                {% assign video_attribution=page.videos[0].attribution %}
+            {% endif %}
+        {% endif %}
+        
+        {% if has_video == false %}
             {% unless page.image.layout == "none" %}
             <div class="image_container">
                 {% if page.image.layout == "auto_width" %}
@@ -77,30 +85,30 @@ layout: default
             {% endunless %}
         {% endif %}
     {% else %}
+        {% assign video_source="" %}
+        {% assign video_attribution="" %}
         {% if page.video.source != nil and page.video.layout == "top" %}
-        <div class="video_container">
-            <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
-            </div>
-            <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
-        </div>
+            {% assign video_source=page.video.source %}
+            {% assign video_attribution=page.video.attribution %}
+            {% include youtube_video.html video_id=video_source attribution=video_attribution %}
+        {% else %}
+            {% if page.videos[0].source != nil and page.videos[0].layout == "top" %}
+                {% assign video_source=page.videos[0].source %}
+                {% assign video_attribution=page.videos[0].attribution %}
+                {% include youtube_video.html video_id=video_source attribution=video_attribution %}
+            {% endif %}
         {% endif %}
     {% endif %}
 
     {{ content }}
 
-    {% comment %}
-    {% if page.image.source != nil and page.video.source != nil and page.video.layout == "bottom" %}
-    <div class="video_container">
-        <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v={{ page.video.source }}">https://www.youtube.com/watch?v={{ page.video.source }}</a></p>
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/{{ page.video.source }}" frameborder="0"></iframe>
-        </div>
-        <p class="attribution">video by {{ page.video.attribution }}&nbsp;</p>
-    </div>
+    {% assign video_source="" %}
+    {% assign video_attribution="" %}
+    {% if page.videos[1].source != nil and page.videos[1].layout == "bottom" %}
+        {% assign video_source=page.videos[1].source %}
+        {% assign video_attribution=page.videos[1].attribution %}
+        {% include youtube_video.html video_id=video_source attribution=video_attribution %}
     {% endif %}
-    {% endcomment %}
 
     {% include post_bottom.html %}
 
