@@ -1,5 +1,5 @@
 ---
-title: Japanese Foreign Press Secretary in Malacañan Press Briefing
+title: Malacañan Press Briefing with Japanese Foreign Press Secretary
 date: 2017-01-13T18:15:30UTC
 excerpt: Japanese Foreign Press Secretary, Yasuhisa Kawamura, speaks in a special Malacañan press briefing on 12 January 2017 in connection with the state visit of Prime Minister Shinzō Abe.
 layout: post
@@ -26,6 +26,8 @@ related:
 ---
 
 Japanese Foreign Press Secretary, Yasuhisa Kawamura, speaks in a special Malacañan press briefing in connection with the state visit of Prime Minister Shinzō Abe.
+
+##### Opening Statements
 
 PRESIDENTIAL SPOKESPERSON ABELLA: Good evening, Malacañang Press Corps.
 
@@ -106,6 +108,8 @@ In response, President Duterte said that the Japan and the Philippines over the 
 Okay, thank you for your patience. This is the crux of the meeting. Can I invite questions?
 
 ABELLA: We'll entertain a few questions. Four or five. Please identify yourself.
+
+##### Questions and Answers
 
 Q: Mynardo Macaraig, Agence France-Presse. Sir can we get some elaboration on the one trillion yen? How much of that is ODA? How much of that is private sector? And just how will it come in?
 
