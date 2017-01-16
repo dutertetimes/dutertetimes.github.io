@@ -76,7 +76,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -121,7 +121,7 @@ function create_story_post {
         add_default "Story"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -303,7 +303,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [ newsbit | governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        echo "categories: [ newsbit | governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
