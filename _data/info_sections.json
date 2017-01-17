@@ -1,31 +1,65 @@
 [
     {
-        "title":        "Law",
-        "url":          "/info/law/"
+        "title":        "Government",
+        "url":          "/info/gov/",
+        "index":        "no"
+    },
+    {
+        "title":        "Foreign Media",
+        "url":          "/info/media_foreign/",
+        "index":        "no"
+    },
+    {
+        "title":        "",
+        "url":          ""
+    },
+    {
+        "title":        "Laws",
+        "url":          "/info/law/",
+        "index":        "yes"
     },
     {
         "title":        "People",
-        "url":          "/info/person/"
+        "url":          "/info/person/",
+        "index":        "yes"
     },
     {
         "title":        "Places",
-        "url":          "/info/place/"
+        "url":          "/info/place/",
+        "index":        "yes"
     },
     {
         "title":        "Organizations",
-        "url":          "/info/org/"
+        "url":          "/info/org/",
+        "index":        "yes"
     },
     {
         "title":        "Companies",
-        "url":          "/info/company/"
+        "url":          "/info/company/",
+        "index":        "yes"
     },
     {
         "title":        "Papers and Documents",
-        "url":          "/info/doc/"
+        "url":          "/info/doc/",
+        "index":        "yes"
+    },
+    {
+        "title":        "",
+        "url":          ""
     },
     {
         "title":        "Info and News Sources",
-        "url":          "/info/sources/",
+        "url":          "/info/source/",
+        "index":        "no",
         "development":  true
+    },
+    {
+        "title":        "",
+        "url":          ""
+    },
+    {
+        "title":        "Duterte Quotes",
+        "url":          "/info/quote/",
+        "index":        "no"
     },
 ]

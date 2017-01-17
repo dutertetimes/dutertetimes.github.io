@@ -2,7 +2,7 @@
 Arguments:
     - title
     - todo_data - TODO items from /data directory
-    - posts - collection
+    - category
 
 Example:
     {% assign posts = site.info_company | sort: "title" %}
@@ -13,10 +13,9 @@ Example:
 {% include todo_list.html todo_data=include.todo_data %}
 
 <div class="section_container_wrapper section_container_wrapper_border bottom_margin_10">
-    {% if include.title %}
-    <h1>{{ include.title }}</h1>
-    {% endif %}
+    {% if include.title %}<h1>{{ include.title }}</h1>{% endif %}
     <div class="section_container top_margin_10 bottom_margin_10">
-        {% include block_list.html posts=include.posts counter="yes" %}
+        {% assign section_posts = site.categories[include.category] %}
+        {% include block_list.html posts=section_posts counter="yes" %}
     </div>
 </div>

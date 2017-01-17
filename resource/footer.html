@@ -28,26 +28,23 @@ layout:
             <li><a href="/news/peace_process/">Peace Process</a></li>
             <li><a href="/news/other/">Other News</a></li>
             <hr>
-            <li><a href="/topics/opinion/">Opinions</a></li>
+            <li><a href="/opinion/">Opinions</a></li>
         </ul>
     </div>
 
     <div id="footer_column_two">
         <ul>
-            <li><a href="/info/gov/">Government</a></li>
-            <li><a href="/info/media_foreign/">Foreign Media</a></li>
-            <hr>
-            <li><a href="/info/law/">Laws</a></li>
-            <li><a href="/info/person/">People</a></li>
-            <li><a href="/info/place/">Places</a></li>
-            <li><a href="/info/org/">Organizations</a></li>
-            <li><a href="/info/company/">Companies</a></li>
-            <li><a href="/info/doc/">Papers and Documents</a></li>
-            {% if site.development %}
-            <li><a href="/info/sources/">Info and News Sources</a></li>
-            {% endif %}
-            <hr>
-            <li><a href="/info/quote/">Duterte Quotes</a></li>
+            {% for info in site.data.info_sections %}
+                {% if info.title == "" %}
+                    <hr>
+                {% else %}
+                    {% if site.development and info.development == "yes" %}
+                    <li><a href="{{ info.url }}">{{ info.title }}</a></li>
+                    {% else %}
+                    <li><a href="{{ info.url }}">{{ info.title }}</a></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
 

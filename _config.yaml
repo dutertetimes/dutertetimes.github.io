@@ -89,14 +89,12 @@ author:
   #wordpress:   http://dutertetimes.wordpress.com/
   
 defaults:
-  -
-    scope:
+  - scope:
       path:     "/*.md" # "" means all files in the project
       type:     "pages" # [posts|pages|drafts]
     values:
       layout:   "default"
-  -
-    scope:
+  - scope:
       path:     "posts" # "" means all files in the project
       type:     "posts" # [posts|pages|drafts]
     values:
@@ -106,15 +104,6 @@ defaults:
 version:        0.1.0
 
 collections:
-  info_company:
+  indexes:
     output: true
-  info_doc:
-    output: true
-  info_law:
-    output: true
-  info_org:
-    output: true
-  info_person:
-    output: true
-  info_place:
-    output: true
+    layout: hub

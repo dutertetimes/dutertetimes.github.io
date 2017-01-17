@@ -43,7 +43,7 @@ permalink: /
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Latest Stories</h1>
 
-    {% assign section_posts = site.categories.stories %}
+    {% assign section_posts = site.categories.story %}
     <div class="section_container top_margin_10">
         <div class="container_2n container_top_border_thin">
             {% assign show_items = "" | split: "" %}
@@ -71,8 +71,8 @@ permalink: /
 </div>
 
 
-{% assign found_topics = "opinion" | split: ',' %}
-{% for post in site.categories.topics %}
+{% assign found_topics = "" | split: ',' %}
+{% for post in site.categories.topic %}
     {% assign found_topics = found_topics | push: post.categories[1] %}
 {% endfor %}
 {% assign found_topics = found_topics | uniq %}
@@ -81,6 +81,11 @@ permalink: /
     <h1>Topics</h1>
    
     <div class="section_container top_margin_10">
+        {% assign section_posts = site.categories.opinion %}
+        <div class="container container_top_border_thin">
+            {% include section_slideshow.html category="opinion" posts=section_posts max_post_count=6 %}
+        </div>
+        
         {% for topic in found_topics %}
         <div class="container container_top_border_thin">
             {% assign section_posts = site.categories[topic] %}
