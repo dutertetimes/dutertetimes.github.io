@@ -1,13 +1,5 @@
 [
     {
-        "name":       "Email",
-        "address":    "dutertetimes@gmail.com",
-        "link":       "mailto:dutertetimes@gmail.com",
-        "target":     "",
-        "fa_icon":    "fa fa-envelope fa-fw fa-lg",
-        "message":    "Send an email to dutertetimes@gmail.com"
-    },
-    {
         "name":       "Facebook",
         "address":    "",
         "link":       "https://facebook.com/dutertetimes2016",
@@ -38,5 +30,13 @@
         "target":     "_blank",
         "fa_icon":    "fa fa-feed fa-fw fa-lg",
         "message":    "Go to RSS feed"
-    }
+    },
+    {
+        "name":       "Email",
+        "address":    "dutertetimes@gmail.com",
+        "link":       "mailto:dutertetimes@gmail.com",
+        "target":     "",
+        "fa_icon":    "fa fa-envelope fa-fw fa-lg",
+        "message":    "Send an email to dutertetimes@gmail.com"
+    },
 ]
