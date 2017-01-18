@@ -495,10 +495,10 @@ branch:
     branch:
       - title: Philippine Army
         abbr: PA
-        url: http://www.army.mil.ph/home/
+        url: http://www.army.mil.ph/
       - title: Philippine Navy
         abbr: PN
-        url: http://www.navy.mil.ph/
+        url: http://navy.mil.ph/
       - title: Philippine Air Force
         abbr: PAF
         url: http://www.paf.mil.ph/
