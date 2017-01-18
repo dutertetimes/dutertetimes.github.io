@@ -90,6 +90,7 @@ function create_news_post {
             fi
         fi
         echo "permalink: /news/$hashid" >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: auto_width" >> $filename
         echo "  source: " >> $filename
@@ -136,6 +137,7 @@ function create_story_post {
             fi
         fi
         echo "permalink: /stories/$hashid" >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
@@ -182,6 +184,7 @@ function create_opinion_post {
             fi
         fi
         echo "permalink: /opinion/$hashid" >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
@@ -228,6 +231,7 @@ function create_topic_post {
             fi
         fi
         echo "permalink: /.../$hashid" >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
@@ -274,7 +278,7 @@ function create_info_post {
             echo "published: true" >> $filename
         fi
         echo "permalink: /info/.../$hashid" >> $filename
-        #echo "link: /info/.../$hashid" >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: none | auto_width" >> $filename
         echo "  source: " >> $filename
@@ -358,6 +362,7 @@ function create_announcement {
         echo "categories: [announcement]" >> $filename
         echo "published: true" >> $filename
         echo "link: " >> $filename
+        echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
