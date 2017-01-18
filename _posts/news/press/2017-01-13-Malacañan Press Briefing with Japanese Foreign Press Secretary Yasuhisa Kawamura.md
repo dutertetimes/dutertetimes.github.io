@@ -4,7 +4,7 @@ date: 2017-01-13T18:15:30UTC
 excerpt: Japanese Foreign Press Secretary, Yasuhisa Kawamura, speaks in a special Malacañan press briefing on 12 January 2017 in connection with the state visit of Prime Minister Shinzō Abe.
 layout: post
 categories: [news, press, foreign_affairs]
-tags: [Japanese Foreign Press Secretary, Yasuhisa Kawamura]
+tags: [Japanese Foreign Press Secretary, Yasuhisa Kawamura, Official Development Assistance, ODA]
 published: true
 permalink: /news/GZOQv9weypD3e8A
 image:
