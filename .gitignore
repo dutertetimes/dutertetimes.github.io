@@ -1,6 +1,9 @@
 # Local directories for local testing
+.sass-cache/**
 cmake-build-debug/**
 CMakeLists.txt
+Gemfile.lock
+session
 .idea/**
 images/top_1.png
 images/top_2.png
@@ -8,29 +11,18 @@ images/temp
 images/favicon
 images/offline
 images/post
-newsbit/_posts/post.sh
-newsbit/scratch.txt
-Gemfile.lock
-.sass-cache/**
-assets/**
-scratch/**
 _data/drafts.yml
 _drafts/**
 _site
 _sass/*.map
-news/*.bak
-news/*.md
-news/_posts/*.bak
-news/.sass-cache/**
-stories/*.md
-stories/_posts/*.bak
-topics/*.bak
-topics/_posts/*.bak
+_sass/.sass-cache/**
 _includes/.sass-cache/**
 _posts/.sass-cache/**
-_sass/.sass-cache/**
-session
-test
-test/**
+_posts/info/*.md
+_posts/info/*.bak
+_posts/news/*.md
+_posts/news/*.bak
+_posts/op_ed/*.md
+_posts/op_ed/*.bak
 # GitEye project
 .project
