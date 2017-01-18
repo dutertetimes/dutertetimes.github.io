@@ -1,6 +1,6 @@
 ---
 title: Commissions
-excerpt: 
+excerpt: Commissions
 layout: info
 categories: []
 tags: []
