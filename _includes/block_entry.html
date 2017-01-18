@@ -31,8 +31,8 @@ Example:
             {% endif %}
         {% endif %}
     {% else %}
-        {% if include.post.image.source %}
-<img src="{{ site.image_source }}/post/{{ include.post.image.source }}" />
+        {% if include.post.thumbnail %}
+<img src="{{ site.image_source }}/site/{{ include.post.thumbnail }}" />
         {% else %}
             {% if include.post.video.source %}
 <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" />
