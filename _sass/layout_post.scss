@@ -60,14 +60,36 @@ section.post_column_main {
     }
 
     @include common_heading;
-    h6 {
-        @include compact;
-        text-align: center;
-        font-style: normal;
-        font-size: $font_size_page_text + 6;
+    h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
     }
+    h2, h3, h4 {
+        padding-top: 12px;
+    }
+    h5, h6 {
+        text-align: center;
+    }
+    p + h5,
+    h5 + h6,
+    h6 + h5 {
+        padding-top: 12px;
+    }
+    h2 + h2,
+    h3 + h3,
+    h4 + h4,
+    h5 + h5,
+    h6 + h6 {
+        padding-top: 0;
+    }
+    h5 + h2,
+    h6 + h2,
+    h2 + p,
+    h3 + p,
+    h4 + p,
+    h5 + p,
     h6 + p {
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
 
@@ -75,12 +97,12 @@ section.post_column_main {
     p, a, li, dl {
         text-align: left;
 
-        @include set_font($font_page_text, $font_size_page_text + 6, $color_page_text);
-        line-height: $font_line_height_page_text + 12;
+        @include set_font($font_page_text, $font_size_page_text, $color_page_text);
+        line-height: $font_line_height_page_text;
 
         @include max-screen(720px) {
-            @include set_font($font_page_text, $font_size_page_text + 3, $color_page_text);
-            line-height: $font_line_height_page_text + 10;
+            @include set_font($font_page_text, $font_size_page_text, $color_page_text);
+            line-height: $font_line_height_page_text;
         }
         @media print {
             @include set_font($font_page_text, $font_size_page_text + 4, $color_page_text);

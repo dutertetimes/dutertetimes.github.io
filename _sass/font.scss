@@ -226,14 +226,14 @@ $font_size_page_title_code:             $font_size_heading;
 $font_size_page_meta:                   $font_size_default;
 $font_size_page_date:                   $font_size_default;
 $font_size_page_excerpt:                $font_size_default;
-$font_size_page_text:                   $font_size_default !global;
+$font_size_page_text:                   $font_size_default + 5;//!global;
 
 $font_line_height_page_title:           $font_size_heading + 4;
 $font_line_height_page_title_code:      $font_size_heading + 4;
 $font_line_height_page_meta:            $font_line_height_default;
 $font_line_height_page_date:            $font_line_height_default;
 $font_line_height_page_excerpt:         $font_line_height_default;
-$font_line_height_page_text:            $font_line_height_default !global;
+$font_line_height_page_text:            $font_line_height_default + 12;//!global;
 
 
 

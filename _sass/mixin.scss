@@ -35,54 +35,59 @@
 }
 
 @mixin common_heading {
-    h1, h1 > p { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
-    h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-    h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
-    h4 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
-    h5 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
-    h6 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
+    h1,
+    h1 > p { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 0; }
+    h2     { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
+    h3     { font-size: $font_size_page_title - 3; line-height: $font_line_height_page_title - 3; }
+    h4     { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 4; font-style: italic; }
+    h5     { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
+    h6     { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 4; }
 
     h1, h1 > p code { font-size: $font_size_page_title - 0; }
-    h2 code { font-size: $font_size_page_title - 5; }
-    h3 code { font-size: $font_size_page_title - 6; }
+    h2 code { font-size: $font_size_page_title - 6; }
+    h3 code { font-size: $font_size_page_title - 7; }
     h4 code { font-size: $font_size_page_title - 8; }
-    h5 code { font-size: $font_size_page_title - 10; }
-    h6 code { font-size: $font_size_page_title - 11; }
+    h5 code { font-size: $font_size_page_title - 4; }
+    h6 code { font-size: $font_size_page_title - 5; }
 
     @include max-screen(720px) {
-        $font_size_page_title: $font_size_page_title - 6;
-        $font_line_height_page_title: $font_line_height_page_title - 2;
-        h1, h1 > p { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title;     }
-        h2 { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 2; font-style: italic; }
-        h3 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; }
-        h4 { font-size: $font_size_page_title - 1; line-height: $font_line_height_page_title - 2; font-style: italic; }
-        h5 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-        h6 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 4; font-style: italic; }
+        $page_title_size: $font_size_page_title - 6;
+        $page_title_line_height: $font_line_height_page_title - 2;
+        h1,
+        h1 > p { font-size: $page_title_size - 0; line-height: $page_title_line_height - 0; }
+        h2     { font-size: $page_title_size - 2; line-height: $page_title_line_height - 2; }
+        h3     { font-size: $page_title_size - 3; line-height: $page_title_line_height - 3; }
+        h4     { font-size: $page_title_size - 4; line-height: $page_title_line_height - 4; font-style: italic; }
+        h5     { font-size: $page_title_size - 2; line-height: $page_title_line_height - 2; }
+        h6     { font-size: $page_title_size - 4; line-height: $page_title_line_height - 4; }
 
-        h1, h1 > p code { font-size: $font_size_page_title - 0; }
-        h2 code { font-size: $font_size_page_title - 0; }
-        h3 code { font-size: $font_size_page_title - 1; }
-        h4 code { font-size: $font_size_page_title - 1; }
-        h5 code { font-size: $font_size_page_title - 2; }
-        h6 code { font-size: $font_size_page_title - 2; }
+        h1,
+        h1 > p code { font-size: $page_title_size - 0; }
+        h2 code     { font-size: $page_title_size - 2; }
+        h3 code     { font-size: $page_title_size - 4; }
+        h4 code     { font-size: $page_title_size - 5; }
+        h5 code     { font-size: $page_title_size - 2; }
+        h6 code     { font-size: $page_title_size - 5; }
     }
 
     @media print {
-        $font_size_page_title: 20px;
-        $font_line_height_page_title: $font_size_page_title;
-        h1, h1 > p { font-size: $font_size_page_title;     line-height: $font_line_height_page_title;     }
-        h2 { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-        h3 { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 2; }
-        h4 { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 2; }
-        h5 { font-size: $font_size_page_title - 7; line-height: $font_line_height_page_title - 2; }
-        h6 { font-size: $font_size_page_title - 8; line-height: $font_line_height_page_title - 2; }
+        $page_title_size: 20px;
+        $page_title_line_height: $font_size_page_title;
+        h1,
+        h1 > p { font-size: $page_title_size - 0; line-height: $page_title_line_height - 0; }
+        h2     { font-size: $page_title_size - 2; line-height: $page_title_line_height - 2; }
+        h3     { font-size: $page_title_size - 4; line-height: $page_title_line_height - 4; }
+        h4     { font-size: $page_title_size - 6; line-height: $page_title_line_height - 6; }
+        h5     { font-size: $page_title_size - 0; line-height: $page_title_line_height - 0; }
+        h6     { font-size: $page_title_size - 2; line-height: $page_title_line_height - 2; }
 
-        h1, h1 > p code { font-size: $font_size_page_title - 0; }
-        h2 code { font-size: $font_size_page_title - 5; }
-        h3 code { font-size: $font_size_page_title - 6; }
-        h4 code { font-size: $font_size_page_title - 8; }
-        h5 code { font-size: $font_size_page_title - 10; }
-        h6 code { font-size: $font_size_page_title - 11; }
+        h1,
+        h1 > p code { font-size: $font_size_page_title - 0; }
+        h2 code     { font-size: $font_size_page_title - 2; }
+        h3 code     { font-size: $font_size_page_title - 4; }
+        h4 code     { font-size: $font_size_page_title - 6; }
+        h5 code     { font-size: $font_size_page_title - 0; }
+        h6 code     { font-size: $font_size_page_title - 2; }
     }
 
     h1, h2, h3, h4, h5, h6,
@@ -113,16 +118,6 @@
             line-height: 22px;
         }
     }
-    h5 {
-        font-style: italic;
-    }
-    /*
-    h6 {
-        @include compact;
-        text-align: center;
-        font-style: normal;
-    }
-    */
 }
 
 @mixin border-radius($radius) {

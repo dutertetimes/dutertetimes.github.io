@@ -10,8 +10,9 @@ section.page_column_main {
 
     @include common_heading;
 
-    p, li {
-        @include set_font($font_page_text, $font_size_page_text, $color_page_text)
+    p, a, li, dl {
+        @include set_font($font_page_text, $font_size_page_text, $color_page_text);
+        line-height: $font_line_height_page_text;
     }
 
     div.social_media_links {
