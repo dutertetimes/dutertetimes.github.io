@@ -25,9 +25,9 @@ Signing of Executive Order for the reconstitution of the Bangsamoro Transition C
 
 The following is the transcript of the speech of the president.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### SIGNING OF THE EXECUTIVE ORDER ON THE BANGSAMORO TRANSITION COMMISSION
+##### SIGNING OF THE EXECUTIVE ORDER ON THE BANGSAMORO TRANSITION COMMISSION
 
 ###### November 7, 2016
 

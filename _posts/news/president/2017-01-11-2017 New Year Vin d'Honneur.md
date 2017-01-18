@@ -23,9 +23,9 @@ related:
 
 The President led the 2017 New Year celebration with government officials and heads of the diplomatic community in Malacañan Palace on 11 January 2017.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE 2017 NEW YEAR VIN D'HONNEUR
+##### DURING THE 2017 NEW YEAR VIN D'HONNEUR
 
 ###### Rizal Ceremonial Hall, Malacanang
 

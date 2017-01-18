@@ -29,7 +29,7 @@ Sec. Piñol also stressed that the way things being done now should be changed. 
 The new Agri Chief acknowledged that the turn-over of leadership is a very emotional moment for outgoing Sec. Alcala having spent six years of his life in DA.
 "I know how you love the people in this department. But we have the saying that goes, the only thing that doesn't change in this world is "change", nothing is permanent. Champions lose, kings fall, we have to move forward, he added.
 
-#### New heads of DA offices
+## New heads of DA offices
 
 As Sec. Piñol takes over the stewardship of DA, he also announced the new heads of various DA offices who would be working with him in the next six years to assist him in accomplishing the gargantuan tasks inherent to his position.
 Undersecretaries Segfredo Serrano and Bernadette Romulo-Puyat are retained as DA's Undersecretary for Policy and Planning and Undersecretary for Administration and Finance and Chief-of-Staff, respectively.

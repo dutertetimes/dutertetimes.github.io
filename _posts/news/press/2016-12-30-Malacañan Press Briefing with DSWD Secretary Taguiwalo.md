@@ -27,7 +27,7 @@ related:
 
 Department of Social Welfare and Development (DSWD) Secretary Judy Taguiwalo speaks before the Malacañan Press Corps on 29 December 2016.
 
-##### Opening Statements
+## Opening Statements
 
 PRESIDENTIAL SPOKESPERSON ERNESTO ABELLA: Good afternoon. Happy New Year.
 
@@ -69,7 +69,7 @@ Ngayon, inaayos natin na may Memorandum of Understanding tayo sa malalaking ospi
 
 Hopefully, mas ma-implement natin ito by the start of next year 2017. Kahit ngayon hindi pa na-download sa department ang one billion, inumpisahan na ho natin ito. Kung may mga reseta ho na valid at indigent ho 'yung nangangailangan, hahanapan ho ng paraan ang department na maibigay ito dahil alam natin ang usapin ng gamot ay nag-i-spell out ng buhay o kamatayan lalo na sa mahihirap natin.
 
-##### Questions and Answers
+## Questions and Answers
 
 MARLON RAMOS (The Philippine Daily Inquirer): Good morning. Iyong...Ilan na...Bale magkano na po 'yung na-release na lahat-lahat ng DSWD on displaced typhoon victims?
 

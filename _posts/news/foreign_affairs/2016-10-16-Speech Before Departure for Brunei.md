@@ -23,7 +23,7 @@ sources:
 
 President Rodrigo Roa Duterte delivers a speech in Davao City, 16 October 2016, before his departure for Brunei Darussalam.
 
-###### SPEECH OF PRESIDENT ROA RODRIGO DUTERTE BEFORE DEPARTURE TO VISIT BRUNEI AND CHINA
+##### SPEECH OF PRESIDENT ROA RODRIGO DUTERTE BEFORE DEPARTURE TO VISIT BRUNEI AND CHINA
 
 ###### Davao International Airport, Davao City
 
@@ -51,7 +51,7 @@ In all my dealings, I will remain true to the constitutional mandate reposed on 
 
 Daghang salamat.
 
-###### END OF SPEECH
+## Questions and Answers
 
 I can take a few questions before I go. 
 
@@ -63,34 +63,32 @@ There will be no—I said, hard impositions because this is a matter of internat
 
 Mayroong question ho?
 
-SEC. ANDANAR:Mr. President, our first question is from Vina Araneta of ABS-CBN.
+SECRETARY ANDANAR: Mr. President, our first question is from Vina Araneta of ABS-CBN.
 
 VINA ARANETA/ABS-CBN: Mr. President, good afternoon. We received po information that the Supreme Court might decide on Tuesday about the Marcos burial at the Libingan ng mga Bayani. What can you say about that, Mr. President? Thank you very much.
 
-PRRD: We will follow what the Supreme Court says, for after all, it is the Supreme Court who interprets the law and decide which of the public interests is served among the contending parties. My position is that, there is a law which grants Marcos a burial in the Libingan ng mga Bayani. My position that as long as there is that law, it shall be followed. In the matter of the medals and heroism of the late Marcos, that is not the issue and that is to be resolved, maybe, in the generations to come.
+DUTERTE: We will follow what the Supreme Court says, for after all, it is the Supreme Court who interprets the law and decide which of the public interests is served among the contending parties. My position is that, there is a law which grants Marcos a burial in the Libingan ng mga Bayani. My position that as long as there is that law, it shall be followed. In the matter of the medals and heroism of the late Marcos, that is not the issue and that is to be resolved, maybe, in the generations to come.
 
 It could not be decided on the group now which were actively and physically and emotionally involved in the issues that went past. We can never have a good reading of that. But what I must say now is that we have alienated the entire, almost entire, Ilocano people. We cannot just do that because we are all Filipino. And I hope that the Supreme Court will decide not on the emotion but, of course, we know that it will be all legal at the end of the day. What the Supreme Court will rule must be followed.
 
-SEC. ANDANAR: The second, Mr. President, is from Ian Cruz of GMA 7.
+ANDANAR: The second, Mr. President, is from Ian Cruz of GMA 7.
 
 IAN CRUZ/GMA7: Good afternoon, Mr. President.
 
-PRRD: Yes, sir.
+DUTERTE: Yes, sir.
 
 CRUZ: Sir, according to Supreme Court Senior Associate Justice Antonio Carpio, if you concede a sovereign claims over Scarborough shoal, you could be impeached. What’s your reaction, sir?
 
-PRRD: He is correct. I would be impeached. It’s an impeachable offense. I do not fight with that statement. It’s all correct, it’s all legal and so, I agree with him. I said, we cannot barter which is not ours, belongs to the Filipino people. I cannot be the sole authorized agent for that is not allowed under the Constitution. Tama siya.
+DUTERTE: He is correct. I would be impeached. It’s an impeachable offense. I do not fight with that statement. It’s all correct, it’s all legal and so, I agree with him. I said, we cannot barter which is not ours, belongs to the Filipino people. I cannot be the sole authorized agent for that is not allowed under the Constitution. Tama siya.
 
-SEC. ANDANAR: Our third and last question, Mr. President, is from Gem Avanceña of TV5.
+ANDANAR: Our third and last question, Mr. President, is from Gem Avanceña of TV5.
 
 GEM AVANCENA:Sir, iyong Executive Order daw po sa nationwide smoking 
 TV 5ban, for signature ninyo na po?
 
-PRRD: Yes, it will be followed and the implementation will follow the Davao experience. If you want to smoke, find a place where it is allowed. Now, I’ve always been against even building a structure inside just to accommodate smoker. That ain’t the way. It must be out. It must not be in an enclosed cubicle inside the building. That is not good enough, the statistics would show that. There’s no debate on that, they will die of cancer if you continue to mess up with nicotine.
+DUTERTE: Yes, it will be followed and the implementation will follow the Davao experience. If you want to smoke, find a place where it is allowed. Now, I’ve always been against even building a structure inside just to accommodate smoker. That ain’t the way. It must be out. It must not be in an enclosed cubicle inside the building. That is not good enough, the statistics would show that. There’s no debate on that, they will die of cancer if you continue to mess up with nicotine.
 
 AVANCENA: Sir, how about po iyong firecracker ban naman po, do you have any plans about it?
 
-PRRD: I am going to—next month, I’m going to have the Cabinet meeting next. I will allow a full economic—economic—kasi mawalaan ng negosyo, economic whatever, social, lahat na. So I would need the Cabinet to decide. It will be a Cabinet decision.
+DUTERTE: I am going to—next month, I’m going to have the Cabinet meeting next. I will allow a full economic—economic—kasi mawalaan ng negosyo, economic whatever, social, lahat na. So I would need the Cabinet to decide. It will be a Cabinet decision.
 &#x25cf;
-
-

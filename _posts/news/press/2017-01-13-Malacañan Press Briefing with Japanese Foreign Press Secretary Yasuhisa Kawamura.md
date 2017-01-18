@@ -27,7 +27,7 @@ related:
 
 Japanese Foreign Press Secretary, Yasuhisa Kawamura, speaks in a special Malacañan press briefing in connection with the state visit of Prime Minister Shinzō Abe.
 
-##### Opening Statements
+## Opening Statements
 
 PRESIDENTIAL SPOKESPERSON ABELLA: Good evening, Malacañang Press Corps.
 
@@ -109,7 +109,7 @@ Okay, thank you for your patience. This is the crux of the meeting. Can I invite
 
 ABELLA: We'll entertain a few questions. Four or five. Please identify yourself.
 
-##### Questions and Answers
+## Questions and Answers
 
 Q: Mynardo Macaraig, Agence France-Presse. Sir can we get some elaboration on the one trillion yen? How much of that is ODA? How much of that is private sector? And just how will it come in?
 

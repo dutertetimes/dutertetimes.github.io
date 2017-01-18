@@ -20,9 +20,9 @@ sources:
     link: http://www.derechos.org/nizkor/filipinas/doc/oslo11.html
 ---
 
-###### JOINT STATEMENT ON THE RESUMPTION OF FORMAL TALKS
+##### JOINT STATEMENT ON THE RESUMPTION OF FORMAL TALKS
 
-###### IN THE PEACE NEGOTIATIONS BETWEEN THE GRP AND NDFP
+##### IN THE PEACE NEGOTIATIONS BETWEEN THE GRP AND NDFP
 
 We, the Negotiating Panels of the Government of the Philippines (GRP) and the National Democratic Front of the Philippines (NDFP) successfully resumed the formal talks in the peace negotiations from 22 to 26 August 2016 in Oslo, Norway facilitated by the Royal Norwegian Government (RNG), thereby ending almost half a decade of impasse in the formal talks in the peace negotiations.
 
@@ -40,7 +40,7 @@ Both sides also brought along members of their respective Reciprocal Working Com
 
 The two Panels agreed on the following:
 
-## I. Reaffirmation of Previous Agreements
+## 1. Reaffirmation of Previous Agreements
 
 The GRP and NDFP Negotiating Panels (henceforth, the Parties) reaffirmed the previously signed agreements since The Hague Joint Declaration of 1992 and resolved to conduct formal talks and consultations in accordance with said agreements.
 
@@ -184,4 +184,4 @@ The GRP Delegation was headed by Secretary Jesus G. Dureza, Presidential Adviser
 
 The NDFP Delegation was composed of Panel Chairperson Luis G. Jalandoni and Panel Members Fidel V. Agcaoili, Julieta S. de Lima-Sison, Corn K. Ledesma, Asterio B. Palima, members; NDFP Chief Political Consultant Prof. Jose Maria Sison; Political Consultants Benito Tiamzon, Vicente Ladlad, Rey Claro Casambre, Danilo Borjal; Legal Consultants Edre U. Olalia, Rachel Pastores, Carlos Montemayor Jr.; Legal Resource Person Marie Yuvienco; RWC-SER Members Alan Jazmines, Rafael Baylosis, Randall Echanis, Adelberto Silva; RWC-SER Consultants Gabriel Kennedy Bangibang, Ruben Saluta, Jaime Soledad; RWG-PCR Members Renante Gamara, Alfredo Mapano, Ernesto Lorenzo; RWG-PCR Consultant Felix Randy Malayao Jr.; RWG-PCR Cooperators Carol P. Araullo, Satur Ocampo; RWG-EHDF Chairperson Wilma Tiamzon and RWG-EHDF Members Pedro Codaste, Porferio Tuna; RWG-EHDF Consultants Tirso Alcantara, Ariel Arbitrario, Eduardo Genelza; JMC Member Concha Araneta-Bocala; Secretariat Head Marissa P. Dumanjug-Palo.
 
-###### END OF DOCUMENT
+##### END OF DOCUMENT

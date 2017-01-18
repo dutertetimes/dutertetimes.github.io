@@ -16,7 +16,7 @@ sources:
     link: http://www.apec.org/Meeting-Papers/Leaders-Declarations/2016/2016_aelm.aspx
 ---
 
-###### APEC 2016 LEADERS' DECLARATION
+##### APEC 2016 LEADERS' DECLARATION
 
 We, the Leaders of APEC, met in Lima under the theme of Quality Growth and Human Development to continue working on our common endeavor to support free and open trade and investment, sustainable economic growth and shared prosperity in the Asia-Pacific region. Within this vision, in 2016 we have focused our efforts on the following thematic priorities: Regional Economic Integration and Quality Growth; Enhancing the Regional Food Market; Towards the Modernization of Micro, Small and Medium-sized Enterprises (MSMEs) in the Asia-Pacific; and Developing Human Capital.
 
@@ -24,7 +24,7 @@ Eight years after Peru hosted APEC for the first time, the world economic recove
 
 While these challenges may pose a risk to our common aspirations and objectives, we recommit our efforts to ensure APEC maintains its global leadership as a forum that can, through cooperation, tackle the most pressing problems, and continue to be an incubator of ideas of the future. In that sense, we remain committed to the implementation of the 2030 Agenda for Sustainable Development as it represents a balanced and comprehensive multilateral framework for international cooperation. We also welcome the recent entry into force of the Paris Agreement and commit to its transparent and effective implementation in order to transition towards a low carbon, climate resilient economy.
 
-##### Quality Growth and Human Development
+## Quality Growth and Human Development
 
 We reaffirm our aspirations towards balanced, inclusive, sustainable, innovative, and secure growth in the APEC region, as reflected in the APEC Accord on Innovative Development, Economic Reform and Growth, and the APEC Strategy for Strengthening Quality Growth by 2020, to bring greater focus to the importance of pursuing quality growth as envisaged in the 2010 APEC Growth Strategy.
 
@@ -42,7 +42,7 @@ We recognize women's vital contribution to economic and social development and w
 
 Recognizing health as the foundation of economic prosperity and human development, we highlight the importance of promoting health systems towards the achievement of Universal Health Coverage (UHC), which are resilient, sustainable, accessible and responsive to current and future needs to foster quality growth and human development. We look forward to further work on ways to address the fiscal and economic impacts of ill health.
 
-##### Challenges and opportunities for free trade and investment in the current global context
+## Challenges and opportunities for free trade and investment in the current global context
 
 We recognize that there has been a slow and uneven recovery from the economic and financial crisis of 2008, resulting in lower global economic growth, volatile financial conditions, lower commodity prices, rising inequalities, employment challenges, and significantly slower expansion of international trade in recent years.
 
@@ -102,7 +102,7 @@ We recognize that energy access and energy security are critical to the shared p
 
 We reaffirm our aspirational goals to reduce aggregate energy intensity by 45 percent by 2035 and double renewable energy in the regional energy mix by 2030. We reaffirm our commitment to rationalize and phase out inefficient fossil fuel subsidies, welcome ongoing peer review and capacity building activities, and encourage further efforts to facilitate subsidy reform.
 
-##### Towards real and functional connectivity in the region
+## Towards real and functional connectivity in the region
 
 We recognize that strengthened connectivity will contribute to opening up new sources of economic growth, fostering inclusive and interconnected development, advancing regional economic integration and bringing APEC economies closer as a community. In this regard, we note with appreciation that significant work has already been done by various APEC fora and working groups in advancing connectivity in the region, including providing support for enhancing sub-regional connectivity. However, challenges still remain.
 
@@ -116,7 +116,7 @@ We welcome progress and look forward to continue exploring infrastructure financ
 
 We welcome economies' initiatives to achieve comprehensive regional connectivity, which are being jointly built through consultation to meet the interests of all. We encourage further implementation of these initiatives with a view to promoting policy coordination, facilities connectivity, unimpeded trade, financial integration, and people-to-people bonds in the region, and encourage further collaboration among these initiatives in order to promote regional economic integration and the common development of the Asia-Pacific region.
 
-##### Food security, climate change and access to water
+## Food security, climate change and access to water
 
 We recognize that APEC can contribute to address challenges to food security while preserving natural resources by taking steps to further promote sustainable agriculture, food, forest management, fisheries and aquaculture, enhance food markets, integrate food producers into domestic and global food supply and value chains, reduce food loss and waste, address chokepoints arising from infrastructure gaps, and burdensome and unnecessarily restrictive trade measures, as stated in the Piura Declaration on APEC Food Security, and reinforce capacity building including by facilitating innovation such as utilizing ICT and relevant technologies. We encourage efforts to promote agricultural sustainable development in the APEC Region.
 
@@ -128,7 +128,7 @@ We recognize that water is a key driver of agricultural development and a basic 
 
 Acknowledging the importance of socio-economic factors underlying food security in rural-urban communities and vulnerable groups, we aim to work towards a comprehensive approach towards rural-urban development. We recognize the important implications of urbanization and diet diversification in the APEC region and support APEC efforts to explore new integrated approaches building upon the experiences and best practices shared among APEC economies to promoting food security and economic growth that mutually benefit urban and rural areas, including the newly developed Strategic Framework on Rural-Urban Development to Strengthen Food Security and Quality Growth in APEC. We also note the direct relevance of a number of the Sustainable Development Goals (SDGs) for food security and poverty eradication. In supporting the Sustainable Development Goals we remain committed to increasing our efforts to combat illicit wildlife trafficking.
 
-##### Looking forward
+## Looking forward
 
 To achieve sustainable growth in the Asia-Pacific region we must continue working with a renewed sense of urgency and through Asia-Pacific partnership featuring mutual respect and trust, inclusiveness and win-win cooperation in implementing our commitments and achieving our goals.
 

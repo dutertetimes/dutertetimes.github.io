@@ -27,11 +27,11 @@ related:
 
 The President held a state banquet in honor of Japanese Prime Minister Shinzō Abe at Malacañan Palace on 12 January 2017 on his state visit to the country.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTES
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTES
 
-###### DURING THE STATE BANQUET IN HONOR OF
+##### DURING THE STATE BANQUET IN HONOR OF
 
-###### JAPANESE PRIME MINISTER SHINZO ABE
+##### JAPANESE PRIME MINISTER SHINZO ABE
 
 ###### Rizal Hall, Malacañan Palace
 

@@ -27,7 +27,7 @@ related:
 
 Department of Energy (DOE) Undersecretary Felix William Fuentebella reports before the Malacañan Press Corps on 10 January 2017.
 
-###### Opening Statements
+## Opening Statements
 
 PRESIDENTIAL SPOKESPERSON ABELLA: Good morning. Today we're going to be featuring our resource person from the Department of Energy, Undersecretary Wimpy Fuentebella. 
 Prior to his stint at the Energy department, Mr. Fuentebella served as the former congressman of 4th district of Camarines Sur, the Deputy Secretary General of Housing and Urban Development Coordinating Council, HUDCC, and the House Land Use Regulatory Board, HLURB commissioner in 2010. 
@@ -120,7 +120,7 @@ So 'yan po ang paliwanag namin sa Board of Investments kaya sinabi namin sa kani
 
 So diyan po ako magtatapos ng konting paliwanag and we will be open, Mr. Secretary, ladies and gentlemen, for your questions.
 
-###### Questions and Answers
+## Questions and Answers
 
 CEDRIC CASTILLO (GMA 7): Usec, sir, good morning po.
 

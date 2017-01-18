@@ -22,9 +22,9 @@ sources:
 
 This is a reproduction of Senator Leila De Lima's open letter to the President from her Facebook page.
 
-###### BUKAS NA LIHAM KAY PANGULONG RODRIGO DUTERTE
+##### BUKAS NA LIHAM KAY PANGULONG RODRIGO DUTERTE
 
-###### UKOL SA PAGDINIG NG SENADO SA MGA KASO NG EXTRAJUDICIAL KILLINGS
+##### UKOL SA PAGDINIG NG SENADO SA MGA KASO NG EXTRAJUDICIAL KILLINGS
 
 Mahal na Pangulong Duterte,
 

@@ -20,7 +20,7 @@ sources:
     link: http://www.afp.mil.ph/index.php/8-afp-news/379-retiring-afp-chief-ends-farewell-visits
 ---
 
-##### From Armed Forces of the Philippines website
+## From Armed Forces of the Philippines website
 
 Retiring Armed Forces of the Philippines (AFP) Chief of Staff General Ricardo R Visaya concluded his farewell visits to field units and saved the best for last in visiting the 4th Infantry Division Headquarters in Camp Evangelista, Cagayan De Oro City, Monday 05 December 2016.
 

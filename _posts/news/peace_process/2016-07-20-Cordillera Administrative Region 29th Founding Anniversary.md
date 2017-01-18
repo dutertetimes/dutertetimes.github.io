@@ -46,7 +46,7 @@ can be addressed without the need for arms and violent conflict," he added.
 the tribal and ethno-linguistic differences that continuously divide communities, to dealing with the decisions of politicians which did not always address the needs of the
 people, and to finding its own place as one region united in distinct culture and lifeways, charting its own journey and destiny."
 
-#### Cordillera Autonomy
+__Cordillera Autonomy__
 
 Executive Order No. 220, s. 1987 signed on 15 July 1987 established the CAR as a preparatory step for an autonomous region.
 

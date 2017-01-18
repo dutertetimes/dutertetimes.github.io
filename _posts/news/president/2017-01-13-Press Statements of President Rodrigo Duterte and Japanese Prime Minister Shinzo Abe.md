@@ -23,15 +23,15 @@ related:
 
 The President and Japanese Prime Minister Shinzō Abe of Japan addressed the Malacañang Press Corps (MPC) and the Japanese media in joint press statements at Reception Hall of Malacañan Palace on 12 January 2017.
 
-###### OPENING STATEMENTS OF
+##### OPENING STATEMENTS OF
 
-###### PHILIPPINE PRESIDENT RODRIGO ROA DUTERTE
+##### PHILIPPINE PRESIDENT RODRIGO ROA DUTERTE
 
-###### AND
+##### AND
 
-###### JAPANESE PRIME MINISTER SHINZO ABE 
+##### JAPANESE PRIME MINISTER SHINZO ABE 
 
-###### AT THE SUMMIT MEETING
+##### AT THE SUMMIT MEETING
 
 ###### Aguinaldo State Dining Room, Malacañan Palace
 

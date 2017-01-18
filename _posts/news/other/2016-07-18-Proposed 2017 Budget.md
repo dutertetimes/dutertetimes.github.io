@@ -27,7 +27,7 @@ Secretary Diokno, a two-time budget secretary, said that the budgets for 2017 un
 
 For Fiscal Year (F.Y.) 2017, the Development Budget Coordination Committee (DBCC) will recommend to President Rodrigo Duterte a total obligation budget of P3,350.0 trillion to be proposed to Congress. The 2017 budget is higher by 11.6 percent than the current year's budget of P3,001.8 trillion. As a percentage of GDP, the 2017 budget represents 20.4 percent compared this year's 20.1 percent of GDP.
 
-#### Sources of appropriations
+## Sources of appropriations
 
 There are two appropriations cover for the 2017 budget:
 
@@ -38,17 +38,17 @@ The general appropriation pertains to the annual appropriations under the Genera
 
 The new general appropriations amounts to P2,480.5 trillion which represents 74.04 percent of the total budget. It includes P2,393.0 trillion of programmed appropriations which have definite or identified funding as of the time the budget was prepared and unprogrammed appropriations ofP87.5 billion, 29.63 percent or P20.0 billion higher than the approved level of P67.5 billion in 2016. The increase/decrease is mainly due to the provision of P20.0 billion for payment to Philippine International Air Terminals Co. Inc. (PIATCO).
 
-#### Automatic appropriations
+## Automatic appropriations
 
 Meanwhile, the automatic appropriations amount to P957.0 billion or 28.6 percent of the proposed budget. The bulk of which are as follows: Interest Payment on NG Debts (P358.7 B); IRA (P486.9 B); Net Lending (P26.5 B); RLIP (P37.9 B); Special Account (P21.6 B); Tax Expenditure (P25.5B); and Pension of Ex-Presidents/Wives (P0.331B).
 
-#### DepEd, DSWD, DOH budgets
+## DepEd, DSWD, DOH budgets
 
 The DBM will propose an approximate amount of P118 B for the construction of school buildings, which is a 44 percent increase compared to its F.Y. 2016 budget. The Department of Social and Welfare Development's (DSWD) Pantawid Pamilyang Pilipino Program (4Ps) would have P54.9 B with a physical target of 4,402,253 households, and approximately P17.9 B will be allocated for 2,809,542 senior citizens under the Social Pension for Indigent Senior Filipino Citizens. The government subsidy for health insurance premium payments for indigent families will also get a 15 percent increase in the F.Y. 2017 budget proposal, or approximately P50 B.
 
 Secretary Diokno maintained that he wants the budgets under the Duterte administration to be strictly compliant with the Supreme Court decision on the Disbursement Acceleration Program (DAP) and the Priority Development Assistance Fund (PDAF).
 
-#### Clarification on the alleged P80-M pork barrel per lawmaker
+## Clarification on the alleged P80-M pork barrel per lawmaker
 
 Sec. Diokno said that the alleged "P80-M pork barrel per lawmaker" in the proposed 2017 budget is only hypothetical. Priority Development Assistance Fund (PDAF), or more commonly known as "pork barrel", which refers to lump-sum, discretionary funds of members of the Legislature, has been declared unconstitutional by the Supreme Court in the case of Belgica, et al. vs. Honorable Secretary Paquito N. Ochoa, Jr., et al., G.R. No. 208566, November 19, 2013, mainly for the violation of the principle of separation of powers. Any law which empowers individual legislators to interfere in the implementation or enforcement of the budget violates this principle and is, therefore, unconstitutional. After the budget is passed, members of Congress may only scrutinize and investigate the way the budget is enforced and implemented.
 

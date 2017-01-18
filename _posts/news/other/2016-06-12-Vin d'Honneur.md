@@ -30,13 +30,13 @@ The event is now being held twice a year, during the New Year and during the cel
 Over the years, it has come to be considered primarily a diplomatic event highlighted by a toast between the President and the Papal Nuncio.
 [[Source](http://www.gov.ph/2013/01/10/briefer-on-the-new-year-vin-dhonneur-2013/)]
 
-#### Papal Nuncio
+__Papal Nuncio__
 
 Nuncio or Papal Nuncio (Apostolic nuncio) is the title for an ecclesiastical diplomat, being an envoy or permanent diplomatic representative of the Holy See to a state or international organization.
 A nuncio is appointed by the Holy See, which is usually an archbishop, and is the head of the diplomatic mission (Apostolic Nunciature), which is the equivalent of an embassy.
 [[Source](https://en.wikipedia.org/wiki/Papal_diplomacy)]
 
-#### Diplomatic Corps
+__Diplomatic Corps__
 
 The diplomatic corps is the collective body of foreign diplomats which may refer to ambassadors, high commissioners, and others, who represent their countries in another state or country.
 The term is sometimes confused with the collective body of diplomats from a particular country—the proper term for which is diplomatic service.

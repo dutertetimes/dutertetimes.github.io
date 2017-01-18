@@ -49,7 +49,7 @@ Department of Trade and Industry (DTI) Undersecretary for Industry Promotion Gro
 
 According to the DTI, Sweden ranked as the Philippines’ 43rd trading partner (out of 223), 59th export market (out of 211), and 36th import supplier (out of 203) in 2015. Total bilateral trade amounted to US$143.40 million.
 
-##### Clark Green City
+## Clark Green City
 
 In 16 November 2015, the Bases Conversion and Development Authority (BCDA) signed a Memorandum of Understanding (MOU), effective for three (3) years, with the Swedish government and two private firms for future collaborative opportunities to develop and build the Clark Green City - envisioned to be the country's first smart, disaster-resilient and green metropolis.[^2]
 
@@ -57,7 +57,7 @@ The Swedish entities are IVL Swedish Environmental Research Institute (IVL), a f
 
 The MOU was signed by BCDA President Casanova, IVL President and CEO Tord Svedberg, ElectriCITY Chairman Allan Larsson, and Xeric CEO for Southeast Asia Klas Lundgren.
 
-##### More Investments
+## More Investments
 
 Ylva Berg, president and chief executive officer of Business Sweden, said they met with Department of Transportation (DOTr) secretary Arthur Tugade the other day to discuss possible investments in the Philippines.
 
@@ -72,7 +72,7 @@ Fries said, in the area of defense, Sweden can sell security systems and can als
 
 Damberg mentioned that IKEA will set up shop in Manila, with other Swedish companies possibly investing in the Philippines.
 
-##### Wallenberg Family
+## Wallenberg Family
 
 The Wallenberg family (known as The Wallenbergs or simply Wallenbergs) is a prominent Swedish family renowned as bankers, industrialists, politicians, bureaucrats, diplomats.[^3]
 

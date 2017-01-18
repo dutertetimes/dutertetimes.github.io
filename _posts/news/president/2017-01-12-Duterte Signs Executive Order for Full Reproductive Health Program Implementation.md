@@ -35,7 +35,7 @@ Perez added that President Duterte wants agencies to support at least the two mi
 The government targets to reduce poverty from 21.6 percent of the year 2015, to 13-14% is the target of the Duterte administration, Pernia said.
 &#x25cf;
 
-##### Brief History
+## Brief History
 
 A brief history on the Reproductive Health Law:
 

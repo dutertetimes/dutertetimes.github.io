@@ -23,9 +23,9 @@ related:
 
 The President led the oath taking of newly appointed officials at Rizal Hall, Malacañang on 9 January 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE MASS OATH-TAKING OF THE NEWLY-APPOINTED OFFICIALS
+##### DURING THE MASS OATH-TAKING OF THE NEWLY-APPOINTED OFFICIALS
 
 ###### Rizal Hall, Malacañan Palace
 

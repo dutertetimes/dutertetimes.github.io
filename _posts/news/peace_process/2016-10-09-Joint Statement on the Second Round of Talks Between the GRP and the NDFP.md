@@ -20,7 +20,7 @@ sources:
     link: https://www.ndfp.org/joint-statement-second-round-talks-grp-ndfp/
 ---
 
-###### JOINT STATEMENT ON THE SECOND ROUND OF TALKS BETWEEN THE GRP AND THE NDFP
+##### JOINT STATEMENT ON THE SECOND ROUND OF TALKS BETWEEN THE GRP AND THE NDFP
 
 We, the Negotiating Panels of the Government of the Republic of the Philippines (GRP) and the National Democratic Front of the Philippines (NDFP), successfully held the second round of talks from 6 to 9 October 2016 in Oslo, Norway, facilitated by the Royal Norwegian Government (RNG).
 
@@ -192,4 +192,4 @@ The GRP delegation was headed by Presidential Adviser on the Peace Process Secre
 
 The NDFP Delegation was composed of Panel Chairperson Fidel V. Agcaoili and Panel Members Julieta S. de Lima-Sison, Coni K. Ledesma, Asterio B. Palima, Benito E. Tiamzon; NDFP Chief Political Consultant Prof. Jose Maria Sison; Senior Adviser Luis G. Jalandoni; Political Consultants Rey Claro Casambre, Danilo Borjal; Legal Consultants Edre U. Olalia, Rachel Pastores, Carlos Montemayor Jr., Criselda Azarcon Heredia, Edgar Carmona; Legal Resource Persons Marie Francesca Yuvienco, Rom-Voltaire Quizon, Pamela Felizarta, Rolando Rico Olalia, Fatima Irene Purisima; RWC-SER Members Alan Jazmines Jr., Randall Echanis, Adelberto Silva; RWC-SER Consultants Gabriel Kennedy Bangibang, Ruben Saluta, Servellano Jaime Soledad, Ma. Loida Magpatoc, Renato Baleros Sr.; RWC-SER Resource Person Vivian de Lima; RWC-SER Secretariat Members Rita Sadorra, Pio Verzola Jr., Lualhati Roque; RWG-PCR Members Rafael Baylosis, Renante Gamara, Alfredo Mapano, Ernesto Lorenzo; RWG-PCR Consultant Felix Randy Malayao Jr.; RWG-PCR Cooperator Carol P. Araullo; RWG-PCR Resource Person Francisco Domagoso; RWG-EHDF Chairperson Wilma Austria Tiamzon; RWG-EHDF Members Pedro Codaste, Porferio Tuna Jr.; RWG-EHDF Consultants Tirso Alcantara, Ariel Arbitrario, Edie Genelza; JMC Member Concha Araneta-Bocala; JMC Staff Levie Ebio; Independent Observer Rev. Rex Reyes Jr.; Secretariat Head Marissa P. Dumanjug-Palo and Staff Members Alexander Birondo, Winona Birondo, Rosario Agcaoili (staff of Fidel V. Agcaoili).
 
-###### END OF DOCUMENT
+##### END OF DOCUMENT
