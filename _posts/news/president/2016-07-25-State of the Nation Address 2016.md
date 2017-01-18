@@ -17,7 +17,7 @@ video:
   source: 66Sw9liQB7c
   attribution: RTVM
 sources:
-  - label: Official Gazette
+  - label: Official Gazette of the Republic of the Philippines
     link: http://www.gov.ph/2016/07/26/the-2016-state-of-the-nation-address/
 ---
 

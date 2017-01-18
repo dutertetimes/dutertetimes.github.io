@@ -17,7 +17,7 @@ video:
   source: 
   attribution: 
 sources:
-  - label: Government Official Gazette
+  - label: Official Gazette of the Republic of the Philippines
     link: http://www.gov.ph/2016/09/02/speech-president-rodrigo-roa-duterte-during-the-inauguration-of-davao-international-container-terminal/
 ---
 
