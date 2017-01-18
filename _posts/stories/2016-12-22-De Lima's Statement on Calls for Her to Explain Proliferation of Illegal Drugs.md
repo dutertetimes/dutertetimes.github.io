@@ -7,6 +7,7 @@ categories: [story, law_and_order]
 tags: [story, Leila De Lima, illegal drugs, Department of Justice, DOJ]
 published: true
 permalink: /stories/X0MREyeowBpRDAJ
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: none | auto_width
   source: 

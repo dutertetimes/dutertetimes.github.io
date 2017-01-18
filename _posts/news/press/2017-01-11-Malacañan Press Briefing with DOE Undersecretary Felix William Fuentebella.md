@@ -7,6 +7,7 @@ categories: [news, press, energy]
 tags: [Department of Energy, DOE, Felix William Fuentebella]
 published: true
 permalink: /news/2OW3x2PA6ob1vG0
+thumbnail: thumbnail_gov_executive_doe_usec_felix_william_fuentebella_00.png
 image:
   layout: auto_width
   source: 

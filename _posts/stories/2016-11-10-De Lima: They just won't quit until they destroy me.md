@@ -8,10 +8,11 @@ tags: [story, national bureau of investigation, leila de lima, illegal drugs, ne
 published: true
 redirect_from: /stories/20161110T105405
 permalink: /stories/2OW3xpJjPx83vG0
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: none
-  source: gov_senate_leila_de_lima.jpg
-  attribution: Public Domain
+  source: 
+  attribution: 
 video:
   layout: [story, top | bottom]
   source: 

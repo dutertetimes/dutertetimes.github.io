@@ -7,6 +7,7 @@ categories: [story, law_and_order]
 tags: [story, Leila De Lima, Department of Justice, DOJ]
 published: true
 permalink: /stories/e6W3zx9dO4L1BPa
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: none | auto_width
   source: 

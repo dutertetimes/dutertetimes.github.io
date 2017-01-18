@@ -7,6 +7,7 @@ categories: [topic, ejk_hearing, criminality]
 tags: [topic, extrajudicial killing]
 published: true
 permalink: /news/4deQnGwzKED1DXq
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: auto_width
   source: 

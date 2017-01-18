@@ -8,10 +8,11 @@ tags: [topic, privilege speech]
 published: true
 redirect_from: /news/20160920T114608
 permalink: /news/4LK1A6V4WmPR0Py
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: auto_width
-  source: gov_senate_leila_de_lima.jpg
-  attribution: Public Domain
+  source: 
+  attribution: 
 video:
   layout: top
   source: UR91aPfsyOA?10m18s

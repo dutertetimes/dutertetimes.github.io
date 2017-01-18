@@ -7,6 +7,7 @@ categories: [news, press, social_welfare]
 tags: [Department of Social Welfare and Development, DSWD, Judy Taguiwalo]
 published: true
 permalink: /news/4Mb3WlZOJMAQYw5
+thumbnail: thumbnail_gov_executive_dswd_sec_judy_taguiwalo.png
 image:
   layout: auto_width
   source: 

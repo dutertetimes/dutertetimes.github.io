@@ -8,6 +8,7 @@ tags: [national bureau of investigation, leila de lima, illegal drugs, new bilib
 published: true
 redirect_from: /news/20161110T092649
 permalink: /news/vXOReyWOZb7RPjA
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: auto_width
   source: 

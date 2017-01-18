@@ -8,6 +8,7 @@ tags: [topic, senate inquiry, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160822T050148
 permalink: /news/4Mb3WbxB62ZRYw5
+thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: auto_width
   source: 
