@@ -39,14 +39,7 @@ He also ordered the immediate field validation and inventory of all lands given 
 
 From 1972 to June 2016, more than 4.7 million hectares of lands have been given to 2.7 million ARBs under the [Comprehensive Agrarian Reform Program (CARP)].
 
-## Presidential Agrarian Reform Council (PARC)
-
-The Council is the highest policy-making body in implementing agrarian reform laws and dealing with issues under the coverage of CARP.
-
-Based on the Comprehensive Agrarian Reform Law of 1988 (Republic Act 6657), the PARC is composed of the President of the Philippines as Chairperson, the Secretary of Agrarian Reform as Vice-Chairperson and the following as members; Secretaries of the Department of Agriculture; Environment and Natural Resources; Budget and Management; Interior and Local Government; Public Works and Highways; Trade and Industry; Finance; and Labor and Employment.
-
-Also included as PARC members are the Director-General of the National Economic and Development Authority; Land Bank of the Philippines President; National Irrigation Administration Administrator; Land Registration Authority Administrator; and representatives of affected landowners and agrarian reform beneficiaries from Luzon, Visayas and Mindanao.
+Also included as PARC members are National Irrigation Administration Administrator; Land Registration Authority Administrator; and representatives of affected landowners and agrarian reform beneficiaries from Luzon, Visayas and Mindanao.
 &#x25cf;
 
 [Comprehensive Agrarian Reform Program (CARP)]: {{ site.baseurl }}{% link _posts/info/law/2016-06-05-Republic Act 6657.md %}
-
