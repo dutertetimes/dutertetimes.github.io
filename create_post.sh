@@ -13,7 +13,8 @@ current_iso8601_short=`date -u --date="$current" +'%Y-%m-%dT%H%M%S%Z'`
 
 current_seconds=`date -u +%s`
 hashid=`hashids --salt "dutertetimes" --min-length 15 $current_seconds`
-filename="$current_date-title".md
+filename_prefix="$current_date"
+filename=""
 
 
 function show_usage {
@@ -67,6 +68,7 @@ function add_content {
 }
 
 function create_news_post {
+    filename="$filename_prefix-news_post.md"
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -76,7 +78,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        echo "categories: [news, governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -112,6 +114,7 @@ function create_news_post {
 }
 
 function create_story_post {
+    filename="$filename_prefix-story_post.md"
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -121,7 +124,7 @@ function create_story_post {
         add_default "Story"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [ governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        echo "categories: [story, governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -157,6 +160,7 @@ function create_story_post {
 }
 
 function create_opinion_post {
+    filename="$filename_prefix-opinion_post.md"
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -166,7 +170,7 @@ function create_opinion_post {
         add_default "Opinion"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [opinion]" >> $filename
+        echo "categories: [op_ed, opinion]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -202,6 +206,7 @@ function create_opinion_post {
 }
 
 function create_topic_post {
+    filename="$filename_prefix-topic_post.md"
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -211,7 +216,7 @@ function create_topic_post {
         add_default "Topic"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [...]" >> $filename
+        echo "categories: [topic, ...]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -247,7 +252,8 @@ function create_topic_post {
 }
 
 function create_info_post {
-    filename="$hashid-title".md
+    #filename="$hashid-info_post".md
+    filename="2016-06-05-info_post".md
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
@@ -257,7 +263,7 @@ function create_info_post {
         add_default "Info Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [gov | law | company | org | people | place | doc | others]" >> $filename
+        echo "categories: [info, gov | law | company | org | people | place | doc | others]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -285,6 +291,7 @@ function create_info_post {
 }
 
 function create_newsbit {
+    filename="$filename_prefix-newsbit_post.md"
     if [ $# -eq 0 ]; then
         echo "News bit text not supplied."
         exit
@@ -336,6 +343,7 @@ function create_newsbit {
 }
 
 function create_announcement {
+    filename="$filename_prefix-announcement_post.md"
     if [ -e $filename ]; then
         echo "File ($filename) already exists."
     else
