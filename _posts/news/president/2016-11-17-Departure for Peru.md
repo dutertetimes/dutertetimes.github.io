@@ -22,9 +22,9 @@ sources:
 
 The President delivered a speech before leaving for the 24th Meeting of the Economic Leaders of the Asia-Pacific Economic Cooperation (APEC) in Lima, Peru to be held 19–20 November 2016.
 
-###### DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### DEPARTURE SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### FOR THE 24TH MEETING OF THE ECONOMIC LEADERS OF APEC IN LIMA, PERU
+##### FOR THE 24TH MEETING OF THE ECONOMIC LEADERS OF APEC IN LIMA, PERU
 
 ###### Davao International Airport, Davao City
 
@@ -162,7 +162,7 @@ I have an appointment to talk to him. The theme of our talk? To reset relations.
 
 Thank you.
 
-###### END OF SPEECH
+##### END OF SPEECH
 
 The President departed from Davao International Airport on a chartered plane at 1:40 PM bound for Lima, Peru.
 

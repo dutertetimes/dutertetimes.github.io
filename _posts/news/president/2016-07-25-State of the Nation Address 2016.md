@@ -23,13 +23,13 @@ sources:
 
 The following is the transcript of the first State of the Nation Address of President Rodrigo R. Duterte, held at the Batasan Pambansa Complex in Quezon City on 25 July 2016.
 
-###### State of the Nation Address of
+##### STATE OF THE NATION ADDRESS OF
 
-###### Rodrigo Roa Duterte
+##### RODRIGO ROA DUTERTE
 
-###### President of the Philippines
+##### PRESIDENT OF THE PHILIPPINES
 
-###### To the Congress of the Philippines
+##### TO THE CONGRESS OF THE PHILIPPINES
 
 ###### Session Hall of the House of Representatives
 
@@ -956,5 +956,3 @@ So that all the mirrors in the world will reflect the face of a passion that has
 
 Daghang Salamat.
 &#x25cf;
-
-

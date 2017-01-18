@@ -25,9 +25,9 @@ The President assured businessmen that his administration will honor contractual
 
 The following is the speech of the President during the event.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE WALLACE BUSINESS FORUM DINNER
+##### DURING THE WALLACE BUSINESS FORUM DINNER
 
 ###### Malacañan Palace
 

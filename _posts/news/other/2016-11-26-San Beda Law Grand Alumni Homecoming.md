@@ -22,9 +22,9 @@ sources:
 
 President Rodrigo Roa Duterte attends the San Beda Law Grand Alumni Homecoming held 26 November 2016 at the Shangri-La Manila, Taguig City.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE SAN BEDA LAW GRAND ALUMNI HOMECOMING
+##### DURING THE SAN BEDA LAW GRAND ALUMNI HOMECOMING
 
 ###### Shangri-La, The Fort, Taguig City
 
@@ -161,5 +161,4 @@ So iyan ang—this is the Bedan President that you have. I have a mouth that is 
 So, I may succeed, I may fail but one thing you can be sure of, what—iyong lumabas sa bunganga ko, na iyong mga pangako ko, maging totoo talaga. Corruption, istrikto talaga ako. Billy Dulay was in front, magka-roommate iyan sila ni Bello eh, puro Ilokano. Kami naman ni Yasay. Ang problema kay Yasay, kung sa dormitoryo kami noon, maintindihan ko iyong English niya. Pero ngayon, ("Well, I'd like to report to the cabinet that the meeting was .... in the United States and ah". (laughter) Sinita ko, kaibigan ko. Sabi ko, sino naman itong putang-inang Amerikano na 'to? Kasi mataas iyon, hindi mo makita eh. Sabi ko, sino itong Amerikano na itong yawa na ito? Eh I never employed any one. ("And I have to make a follow up. The day because, you know, just always a chance that we have to talk to this guy and...") (laughter) Bilib ako sa Foreign—Secretary of Foreign Affairs.
 
 Salamat po.
-
-###### END OF SPEECH
+&#x25cf;

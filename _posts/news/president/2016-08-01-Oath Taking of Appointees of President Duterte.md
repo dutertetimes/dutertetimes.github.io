@@ -22,9 +22,9 @@ sources:
 
 The following is the transcript of the statement of the President during the oath taking of his appointees on 1 August 2016 held at the Rizal Hall, Malacañan Palace.
 
-###### STATEMENT OF PRESIDENT RODRIGO ROA DUTERTE
+##### STATEMENT OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE MASS OATH TAKING OF APPOINTEES
+##### DURING THE MASS OATH TAKING OF APPOINTEES
 
 ###### Rizal Hall, Malacañang
 

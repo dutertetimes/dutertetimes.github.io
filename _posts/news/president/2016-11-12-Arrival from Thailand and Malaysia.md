@@ -23,9 +23,9 @@ sources:
 
 The President arrives in Davao City after he paid respect to His Majesty, King Bhumibol Adulyadej in Bangkok, Thailand and his official visit to Malaysia.
 
-###### SPEECH OF PRESIDENT RODRIGO ROADUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROADUTERTE
 
-###### DURING THE ARRIVAL CEREMONIES FROM HIS VISIT TO THAILAND AND MALAYSIA
+##### DURING THE ARRIVAL CEREMONIES FROM HIS VISIT TO THAILAND AND MALAYSIA
 
 ###### Davao International Airport, Davao City
 

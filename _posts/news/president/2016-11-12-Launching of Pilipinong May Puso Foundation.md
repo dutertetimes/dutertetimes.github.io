@@ -23,11 +23,11 @@ sources:
 
 Speech of the president during the launching of Pilipinong May Puso Foundation on 11 November 2016 held at the Garden Pavilion, Waterfront Hotel, Davao City.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE LAUNCHING OF THE
+##### DURING THE LAUNCHING OF THE
 
-###### PILIPINONG MAY PUSO FOUNDATION, INC.
+##### PILIPINONG MAY PUSO FOUNDATION, INC.
 
 ###### Garden Pavilion, Waterfront Hotel, Davao City
 

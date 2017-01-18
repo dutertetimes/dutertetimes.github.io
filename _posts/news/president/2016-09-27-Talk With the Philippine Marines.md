@@ -21,9 +21,9 @@ sources:
     link:
 ---
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING HIS TALK TO THE MARINES
+##### DURING HIS TALK TO THE MARINES
 
 ###### Acero Hall, PMC Headquarters, Fort Bonifacio, Taguig City
 

@@ -23,11 +23,11 @@ sources:
 
 President Rodrigo Roa Duterte reported to the public the fruits of his State Visits to Brunei Darussalam and the People's Republic of China upon his late night arrival at the Davao International Aiport on 21 October 2016.
 
-###### PRESIDENT RODRIGO ROA DUTERTE'S ARRIVAL STATEMENT
+##### PRESIDENT RODRIGO ROA DUTERTE'S ARRIVAL STATEMENT
 
-###### AFTER HIS OFFICIAL VISITS TO BRUNEI DARUSSALAM
+##### AFTER HIS OFFICIAL VISITS TO BRUNEI DARUSSALAM
 
-###### AND THE PEOPLE'S REPUBLIC OF CHINA
+##### AND THE PEOPLE'S REPUBLIC OF CHINA
 
 ###### Davao International Airport, Davao City 
 
@@ -92,18 +92,19 @@ We will harness our foreign relations to the inclusive growth and sustainable de
 With this, I seek your continued support and cooperation as we strive to introduce fresh initiatives and more endeavors that will create meaningful changes in ourselves, our families, our communities.
 
 Salamat.
+&#x25cf;
 
-###### END OF SPEECH
+## Questions and Answers
 
 We can maybe accomodate a few questions. Siguro, mga isandaan okay na.
 
 EDITH REGALADO/Philippine Star:	Good morning, Mr. President. First question is this: While in China, you declared— you had some pronouncements about severing ties with the US, both militarily and economic aspect. Now, the question is, when are you going to come out with a written order with respect to the military? And then for the economic aspect, it would affect private businesses and, you know, the BPOs and everything. So iyong side na iyon, sir. And then second question, sir—anuhin ko na lang, sir, ha?
 
-PRRD: That is the third?
+PRESIDENT RODRIGO ROA DUTERTE: That is the third?
 
 EDITH/PHIL. STAR: No, second question pa, sir. Second question is this: Is your attitude towards the US, does it have something to do with the Meiring case? Has the US ever asked or apologized to you through those years?
 
-PRRD: I'll answer your second question. It has not really appeased me at all. Binastos tayo ng Amerika. Meiring was carrying out explosives in and out of Davao City for several years. He was hosted sa Evergreen Hotel. Hindi siya pumayag na maipasok tiga-linis. And for five years, he was in and out of Davao City.
+DUTERTE: I'll answer your second question. It has not really appeased me at all. Binastos tayo ng Amerika. Meiring was carrying out explosives in and out of Davao City for several years. He was hosted sa Evergreen Hotel. Hindi siya pumayag na maipasok tiga-linis. And for five years, he was in and out of Davao City.
 
 One day, there was an explosion. It burned the hotel not nearly, but sunog, and he was brought to the hospital. He lost both of his legs. But unfortunately, the following morning, early on, may nag-landing dito sa airport na 'to, a citation of the US Embassy at bumaba isang pulis na gago na taga-Pilipinas, Colonel—I forgot the name—and some Americans who flaunted their badges as a—FBI raw sila, got Meiring out of the hotel. Brought him out, eh kasi sabi nila, dalhin nila sa Makati Medical Center for better medical treatment, facilities, whatever. But what they really did was to fly out Meiring— Michael to Singapore and shanghaied him to the United States.
 
@@ -157,7 +158,7 @@ I'm ready for the next question.
 
 INA ANDOLONG/CNN PHILS.: Good evening, sir, and welcome back. In China, you announced a separation with the United States. What exactly, sir, do you mean by separation? And what actions, if any, will you take to formalize this pronouncement specifically—
 
-PRRD: You know, you have to take my words in the context of what I've been saying all along. It's not severance of ties. When you say severance of ties, you cut the diplomatic relations. I cannot do that. Why? It's to the best interest of my country that we maintain that relationship. Why? Because there are many Filipinos in the United States of— well, Americans of Filipino ancestry. Why? Because the people of my country is not ready to accept. I said, separation. What I was really saying was separation of a foreign policy. In the past and until I became president, we always follow what the United States would give the cue. What he would give the cue that we are there, we are there,we follow, pasunud-sunod tayo. Hindi ako magsunod.
+DUTERTE: You know, you have to take my words in the context of what I've been saying all along. It's not severance of ties. When you say severance of ties, you cut the diplomatic relations. I cannot do that. Why? It's to the best interest of my country that we maintain that relationship. Why? Because there are many Filipinos in the United States of— well, Americans of Filipino ancestry. Why? Because the people of my country is not ready to accept. I said, separation. What I was really saying was separation of a foreign policy. In the past and until I became president, we always follow what the United States would give the cue. What he would give the cue that we are there, we are there,we follow, pasunud-sunod tayo. Hindi ako magsunod.
 
 For example, Russia came out with a statement that— there's a mention here that I had a talk with Medvedev, and they are ready to extend any and all assistance. So that if I would like to have an atomic bomb and if it is given to us, I'll bring it here. That is what it means.
 
@@ -167,21 +168,21 @@ To the Russian Republic, salamat po.
 
 INA/CNN PHILS.: Last from me, sir. The pronouncement has raised concerns or questions on what it could or how it could impact existing deals like the VFA or EDCA, the Mutual Defense Treaty, and also concerns from Filipinos in the US, sir, working there and those hired by US BPO?
 
-PRRD: That's what I said.
+DUTERTE: That's what I said.
 
 INA/CNN PHILS.: Do they have anything to worry about?
 
-PRRD: Yes, I have to, I have nothing but worry. I worry that they would not get out of this country, that you have to force them. That is my worry. Why should I be worried? It will affect EDCA and the rest of the agreements? Maybe. But I have to consult the military, the police and everybody because at the end of the day, it is all security.
+DUTERTE: Yes, I have to, I have nothing but worry. I worry that they would not get out of this country, that you have to force them. That is my worry. Why should I be worried? It will affect EDCA and the rest of the agreements? Maybe. But I have to consult the military, the police and everybody because at the end of the day, it is all security.
 
 INA/CNN PHILS.: Sir, iyong sa Filipino workers, they're here working for American BPOs. Do they have something to worry about?
 
-PRRD: Well, how about the Americans working here also in the Philippines? If I should worry about the Filipinos, this is also about the Americans here and their investments and all. That's why, better be careful with the word, we separate or severed our diplomatic relations. The second one is not feasible. Why? The Filipinos in the United States will kill me. That is why I am not going there, not in this lifetime. Tang-ina, inaabuso kasi tayo ng mga walang—
+DUTERTE: Well, how about the Americans working here also in the Philippines? If I should worry about the Filipinos, this is also about the Americans here and their investments and all. That's why, better be careful with the word, we separate or severed our diplomatic relations. The second one is not feasible. Why? The Filipinos in the United States will kill me. That is why I am not going there, not in this lifetime. Tang-ina, inaabuso kasi tayo ng mga walang—
 
-PRRD: No more? How about the young lady in the blue shirt. You'll have your time. Alam mo, nagpapakpak lang ito kaya inaantok na ito, galing kaming Beijing eh.
+DUTERTE: No more? How about the young lady in the blue shirt. You'll have your time. Alam mo, nagpapakpak lang ito kaya inaantok na ito, galing kaming Beijing eh.
 
 Q: Hi, sir. Also in Beijing, you announced the alliance, you're eyeing alliance with the China and Russia. Apart from these countries, what other countries are you looking for to have alliances with?
 
-PRRD: So many alliances really actually. Alliance is a generic term that to the so many agreements, so many treaties to talk about. What is very important is that we have agreed to help each other economically. But a bulk of that burden would really be coming from China. Look at what happened, they just gave us the ten billion.
+DUTERTE: So many alliances really actually. Alliance is a generic term that to the so many agreements, so many treaties to talk about. What is very important is that we have agreed to help each other economically. But a bulk of that burden would really be coming from China. Look at what happened, they just gave us the ten billion.
 
 It's not easy to just give so much money to a debtor na walang siguro. But the fact that they have the trust and confidence for us to pay on a long term, soft loan that would give us the drive, the impetuous, public-private iyong ano ha, iyong mga bangko na malalaking company, naghiram rin. It will be published. I'm sure those are things which are not confidential anyway.
 
@@ -189,15 +190,15 @@ Pero on a personal note, iyong usapan namin, you may ask me some other time beca
 
 Q: Sir, follow up. There are some people na nagsasabi na you are announcing your separation from US, and yet you just announced alliance with China and Russia. Hindi po ba conflicting iyon doon sa lagi nating sinasabi independent policy, foreign policy? Your thoughts on that, sir.
 
-PRRD: May I look at you for a moment? (laughter) It could be, ma'am, a military alliance. It could be an economic alliance. It could be an economic bloc. Separation of my foreign policy, that it need not dovetail the foreign policy of America. That's what I meant actually. Even sever. Sever is to cut. Separate is just to chart another way of doing it.
+DUTERTE: May I look at you for a moment? (laughter) It could be, ma'am, a military alliance. It could be an economic alliance. It could be an economic bloc. Separation of my foreign policy, that it need not dovetail the foreign policy of America. That's what I meant actually. Even sever. Sever is to cut. Separate is just to chart another way of doing it.
 
 Q: Thank you, sir.
 
-PRRD: You forgot to announce your name. Kasi—yes, yes, para walang magsama ng loob. Then, GMA ang sunod. Siguro, we can, maybe last two questions or three. Maybe, three questions.
+DUTERTE: You forgot to announce your name. Kasi—yes, yes, para walang magsama ng loob. Then, GMA ang sunod. Siguro, we can, maybe last two questions or three. Maybe, three questions.
 
 MASAHI YAMAGUCHI/NHK JAPAN: Sir, welcome back. I am a reporter of Japanese Public Broadcasting Corporation, NHK. Next week, President will go to Japan and meet Prime Minister Abe. What do you—what are you looking forward to meet him? What are you looking forward to talk about? And last week, Japan donated Coast Guard ship. Japan government has a concern about the dispute about South China Sea. And next week, do you plan to talk about the dispute of South China Sea?
 
-PRRD: Well, I didn't get your question in totality, but I'll just answer you. First, yes, I'm going to China to visit—ah, Japan! Well, Japan nga pala. Ako'y inaantok. I'm going to Japan maybe—I don't know, kailan iyon? I'm going to Japan to visit your country. I don't know if it's just an official visit or state visit. To me, it's just the same.
+DUTERTE: Well, I didn't get your question in totality, but I'll just answer you. First, yes, I'm going to China to visit—ah, Japan! Well, Japan nga pala. Ako'y inaantok. I'm going to Japan maybe—I don't know, kailan iyon? I'm going to Japan to visit your country. I don't know if it's just an official visit or state visit. To me, it's just the same.
 
 And of course, I have to talk to Minister Abe and the rest of the officials of the Japanese government. Maybe, I go to the Diet to just see it for myself. I have looked at the place from the outside but I was not really able to go in.
 
@@ -213,7 +214,7 @@ But to the Chinese government, I said, well, if that is the thing, that is what 
 
 GEM AVANCEÑA/TV5: Sir, maayong gabi. Sir, comment ninyo po doon sa nangyaring dispersal sa harap ng US embassy noong Wednesday po?
 
-PRRD: You know, the police said that natakot kasi na-corner sila. There were just two of them, I think, in the crowd. They were surrounded by the group of militants. Alam mo iyan ang sinasabi ko eh, even in war, even in everything, it's miscalculation.
+DUTERTE: You know, the police said that natakot kasi na-corner sila. There were just two of them, I think, in the crowd. They were surrounded by the group of militants. Alam mo iyan ang sinasabi ko eh, even in war, even in everything, it's miscalculation.
 
 Well, I think that the police there was— nobody would ever do that in the midst of a trouble— I'm not justifying it. Just a maybe, baka he was under stress. They might gang up on him, hurt him and so he acted on by instinct, self-preservation.
 
@@ -231,11 +232,11 @@ Yeah, I might not be able to hear you. You know, I had this— sleeping when I w
 
 WILL RIPLEY/CNN Tokyo: Thank you very much, Mr. President for taking my question. Just wondering, who would you get along with the best in the White House: Hillary Clinton or Donald Trump?
 
-PRRD: You know, my friend, I would like to answer your question candidly, honestly and truthfully. Problem is, of course, personally, it do not really matter much. But I am a president of a country and we have this splendid relations with America, and the fact that there are already millions of Filipinos, maybe, in your country. Are you an American? Okay. I cannot gamble an answer because either way, it would affect, you know, they might create hostility here, antagonism here. So, I'm better off in saying that my favorite hero is Putin.
+DUTERTE: You know, my friend, I would like to answer your question candidly, honestly and truthfully. Problem is, of course, personally, it do not really matter much. But I am a president of a country and we have this splendid relations with America, and the fact that there are already millions of Filipinos, maybe, in your country. Are you an American? Okay. I cannot gamble an answer because either way, it would affect, you know, they might create hostility here, antagonism here. So, I'm better off in saying that my favorite hero is Putin.
 
 WILL RIPLEY/CNN Tokyo: Some in the United States and elsewhere have compared you, the reason why I asked, have compared you to Donald Trump, the Republican candidate. What do you make of those comparisons, speaking off the cuff, speaking what's on your mind? Donald Trump has also done the same thing.
 
-PRRD: Valid issues, actually, valid issues. Trump is airing something which is— should also be a concern. One is terrorism. Everybody should be worried about terrorism. And of course, in this modern world, multi-cultural countries, there should be some semblance of, you know, acceptance and maybe, especially in the matter of religion, tolerance. Those are bold words, but they have deeper meanings if you're going into it. Tolerance, tolerate your religion. I respect it and everything like that.
+DUTERTE: Valid issues, actually, valid issues. Trump is airing something which is— should also be a concern. One is terrorism. Everybody should be worried about terrorism. And of course, in this modern world, multi-cultural countries, there should be some semblance of, you know, acceptance and maybe, especially in the matter of religion, tolerance. Those are bold words, but they have deeper meanings if you're going into it. Tolerance, tolerate your religion. I respect it and everything like that.
 
 Terrorism, it's there. And frankly speaking, I'd like to be honest with you, America somehow, not all, somehow provided the reasons for the terrorism there right now. Why? Well, you need not be a terrorist. There has to be an explanation; where an Arab of Syrian descent, of Iraqi or Iranian would be there, migrated to the United States and was even born there, and yet somehow gets into a radical thing, maybe not even the history of the Persian Empire and all of these things. What they see are the bombings and the killings of so many.
 
@@ -245,13 +246,10 @@ That is what I can say honestly, my observation about America. You have imported
 
 IAN CRUZ/GMA 7: Welcome back, Mr. President. Ian Cruz of GMA-7, sir. Sir, did you bring up the issue of Filipinos' fishing rights in the Scarborough Shoal with President Xi Jinping? And was there any assurance from the Chinese that they will not reclaim any part of the Scarborough Shoal, sir?
 
-PRRD: I'll leave it to the—yes, of course we did. I'll leave it to the Chinese authorities what they will do in the next few days. Napag-usapan namin pero no, no, no— I'll leave it to them to— that's one of the things I said that in the private talks which I cannot— But tignan natin. Let us see what develops in the days to come.
+DUTERTE: I'll leave it to the—yes, of course we did. I'll leave it to the Chinese authorities what they will do in the next few days. Napag-usapan namin pero no, no, no— I'll leave it to them to— that's one of the things I said that in the private talks which I cannot— But tignan natin. Let us see what develops in the days to come.
 
 Last. Hindi ka man media.
  
 Q: Hello, sir. I just want to know because the US Assistant Secretary of State is coming to the Philippines. What issues are you going to take up with him. The US Secretary of State, Daniel Russel, is coming to the Philippines, what issues are you going to take up with him?
 
-PRRD: The Secretary of State here is Perfecto Kerry Yasay. (laughter)
-&#x25cf;
-
-
+DUTERTE: The Secretary of State here is Perfecto Kerry Yasay. (laughter)

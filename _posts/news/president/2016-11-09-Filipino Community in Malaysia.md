@@ -23,9 +23,9 @@ sources:
 
 The President met with the Filipino community in Malaysia on 9 November 2016 after his visit to Thailand to meet with Malaysian Prime Minister Dato Sri Mohammad Najib bin Tun Abdul Razak.
 
-###### SPEECH OF PRESIDENT RODRIGO DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO DUTERTE
 
-###### DURING THE MEETING WITH THE FILIPINO COMMUNITY
+##### DURING THE MEETING WITH THE FILIPINO COMMUNITY
 
 ###### Grand Ballroom, Mandarin Oriental Hotel, Kuala Lumpur, Malaysia
 

@@ -22,9 +22,9 @@ sources:
 
 The President made a visit to the Northern Luzon Command on 11 December 2016 and gave a speech at Camp Servillano Aquino, Bgy. San Miguel, Tarlac City, Tarlac.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING HIS TALK TO THE TROOPS OF NORTHERN LUZON COMMAND (NOLCOM)
+##### DURING HIS TALK TO THE TROOPS OF NORTHERN LUZON COMMAND (NOLCOM)
 
 ###### Camp General Servillano S. Aquino, Bgy. San Miguel, Tarlac City, Tarlac
 

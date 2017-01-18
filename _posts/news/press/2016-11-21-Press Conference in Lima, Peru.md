@@ -38,7 +38,7 @@ For example, like me who is a first-timer in this kind of international conventi
 
 Kayo na lang ang mauna ang question ninyo. I am sure that you have a lot of questions.
 
-## QUESTIONS AND ANSWERS
+## Questions and Answers
 
 LYNDA JUMILLA (ABS-CBN): : Good afternoon, Mr. President. Well, actually my question is going to be an assessment—your assessment of your participation in the APEC Leaders' Meeting?
 

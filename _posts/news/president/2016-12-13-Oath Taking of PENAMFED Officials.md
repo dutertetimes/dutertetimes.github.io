@@ -26,11 +26,11 @@ The President administered the oath-taking of the officers, directors and advise
 
 Chairman Freddie Aguilar, Director and National President Dr. Dante Liban, and Senator Alan Peter Cayetano as the organization's National Advisor, were among the PENAMFED officials who took their oath of office. PENAMFED is a private organization that supports and promotes the shift to a federal form of the Philippine government.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE OATH TAKING OF THE
+##### DURING THE OATH TAKING OF THE
 
-###### PEOPLE'S NATIONAL MOVEMENT TO FEDERALISM ADVOCACY
+##### PEOPLE'S NATIONAL MOVEMENT TO FEDERALISM ADVOCACY
 
 ###### Reception Hall, Malacañan Palace
 

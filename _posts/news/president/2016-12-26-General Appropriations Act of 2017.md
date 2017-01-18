@@ -22,11 +22,11 @@ sources:
 
 The President signs the General Appropriations Act (GAA) of 2017 on 26 December 2016 delivering his speech at the Rizal Hall, Malacañan Palace.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE CEREMONIAL SIGNING OF
+##### DURING THE CEREMONIAL SIGNING OF
 
-###### GENERAL APPROPRIATIONS ACT (GAA) 2017
+##### GENERAL APPROPRIATIONS ACT (GAA) 2017
 
 ###### Rizal Hall, Malacañan
 

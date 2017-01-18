@@ -22,11 +22,11 @@ sources:
 
 The President attended the 38th birthday celebration of Senator Emmanuel 'Manny' Pacquiao at the KCC Convention and Events Center in General Santos City on 17 December 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THEBIRTHDAY CELEBRATION OF
+##### DURING THEBIRTHDAY CELEBRATION OF
 
-###### SENATOR EMMANUEL "MANNY" PACQUIAO
+##### SENATOR EMMANUEL "MANNY" PACQUIAO
 
 ###### KCC Convention and Events Center, General Santos City
 

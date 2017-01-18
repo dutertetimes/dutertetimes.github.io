@@ -22,9 +22,9 @@ sources:
 
 The President delivers a message on 13 December 2016 at the Ninoy Aquino International Airport Terminal 2 before his departure for the four-day state visits to the Kingdom of Cambodia and the Republic of Singapore.
 
-###### SPEECH OF PRESIDENT ROA DUTERTE
+##### SPEECH OF PRESIDENT ROA DUTERTE
 
-###### BEFORE LEAVING FOR STATE VISITS TO CAMBODIA AND SINGAPORE
+##### BEFORE LEAVING FOR STATE VISITS TO CAMBODIA AND SINGAPORE
 
 ###### Ninoy Aquino International Airport Terminal 2, Pasay City
 

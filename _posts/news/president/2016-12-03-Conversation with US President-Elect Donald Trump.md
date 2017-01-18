@@ -22,9 +22,9 @@ sources:
 
 The following is the statement of the President after his conversation with United States President-Elect Donald Trump on 2 December 2016.
 
-###### PRESIDENT RODRIGO ROA DUTERTE’S MESSAGE
+##### MESSAGE OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### AFTER HIS CONVERSATION WITH U.S.A. PRESIDENT-ELECT DONALD TRUMP
+##### AFTER HIS CONVERSATION WITH U.S.A. PRESIDENT-ELECT DONALD TRUMP
 
 ###### Legaspi Suites, Rizal, Davao City
 

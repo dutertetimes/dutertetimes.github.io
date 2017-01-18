@@ -24,11 +24,11 @@ sources:
 The president visits Barangay Alibagu in Ilagan City, Isabela on the aftermath of super typhoon Lawin on 23 October 2016 as part of the government's ongoing rehabilitation efforts.
 The president delivers a message to the people after the ceremonial distribution of relief goods and Emergency Shelter Assistance (ESA).
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE DISTRIBUTION OF RELIEF GOODS
+##### DURING THE DISTRIBUTION OF RELIEF GOODS
  
-###### ON THE AFTERMATH OF TYPHOON LAWIN
+##### ON THE AFTERMATH OF TYPHOON LAWIN
 
 ###### Barangay Alibagu, Ilagan City, Isabela
 

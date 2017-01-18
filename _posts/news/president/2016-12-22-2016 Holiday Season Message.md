@@ -23,7 +23,7 @@ sources:
 The President deliverd his message to the people of the Republic for the year's Christmas and New Year's Day.
 For the Visayan version of the message for our Visayan speaking people please follow [this link](https://www.youtube.com/watch?v=XhtgsYavqmo).
 
-###### CHRISTMAS MESSAGE OF PRESIDENT RODRIGO ROA DUTERTE
+##### CHRISTMAS MESSAGE OF PRESIDENT RODRIGO ROA DUTERTE
 
 ###### (as E-mailed by PCO-PND to MindaNews, 10:18 p.m. 24 Dec 2016)
 

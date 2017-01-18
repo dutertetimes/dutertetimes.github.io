@@ -23,11 +23,11 @@ sources:
 
 The president laid out his agenda for his visit to Thailand and the official visit to Malaysia in a speech at the Ninoy Aquino International Airport Terminal II on 9 November 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE DEPARTURE CEREMONIES FOR HIS VISIT
+##### DURING THE DEPARTURE CEREMONIES FOR HIS VISIT
 
-###### TO MALAYSIA AND THAILAND
+##### TO MALAYSIA AND THAILAND
 
 ###### NAIA Terminal 2, Pasay City
 
@@ -82,7 +82,7 @@ We will be unflagging in our effort to pursue our independent foreign policy con
 Salamat po.
 &#x25cf;
 
-##### QUESTIONS AND ANSWERS
+## Questions and Answers
 
 <div class="video_container">
     <p class="video_link"><span>Link to video:</span><br/><a href="https://www.youtube.com/watch?v=p9gT-uf49MA?t=6m37s">https://www.youtube.com/watch?v=p9gT-uf49MA?t=6m37s</a></p>

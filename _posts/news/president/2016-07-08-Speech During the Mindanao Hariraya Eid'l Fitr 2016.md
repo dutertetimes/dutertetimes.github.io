@@ -21,9 +21,9 @@ sources:
     link: http://www.gov.ph/2016/07/08/president-rodrigo-roa-dutertes-speech-during-the-mindanao-hariraya-eidl-fitr-2016/
 ---
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE MINDANAO HARIRAYA EID'L FITR 2016
+##### DURING THE MINDANAO HARIRAYA EID'L FITR 2016
 
 ###### SMX Convention Center Davao, Davao City
 

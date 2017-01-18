@@ -22,9 +22,9 @@ sources:
 
 The following is the transcript of the speech of the President during the Malacañang Christmas Tree lighting ceremony held on 5 December 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE CHRISTMAS TREE LIGHTING CEREMONY
+##### DURING THE CHRISTMAS TREE LIGHTING CEREMONY
 
 ###### Malacañan Palace Grounds
 

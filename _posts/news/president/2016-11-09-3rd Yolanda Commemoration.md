@@ -25,9 +25,9 @@ The President delivers his message during the Yolanda Typhoon Commemoration Day 
 
 The following is the transcript of speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE 3RD YEAR YOLANDA COMMEMORATION
+##### DURING THE 3RD YEAR YOLANDA COMMEMORATION
 
 ###### Tacloban Mass Grave, Bgy. Basper, Tacloban City
 

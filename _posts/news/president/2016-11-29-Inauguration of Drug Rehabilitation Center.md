@@ -39,9 +39,9 @@ The President, during his speech, iterated his conviction against illegal drugs,
 
 The following is the transcript of the speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### INAUGURATION OF THE DRUG ABUSE TREATMENT & REHABILITATION CENTER
+##### INAUGURATION OF THE DRUG ABUSE TREATMENT & REHABILITATION CENTER
 
 ###### Fort Magsaysay, Laur, Nueva Ecija
 
@@ -102,5 +102,4 @@ In the meantime, we savor the moment that Mr. Huang has travelled all the way fr
 If you continue, I said, you might end losing not only your funds but your life. Because I have told the police, the law enforcers and the military, do not hesitate to kill especially if you think that your life is in danger. So para maintindihan ng lahat. Maraming patay? So be it. The most sensible way to deal with the 'patay' is ilibing mo, para hindi mangamoy. So, period. It's a brutal way of saying things, but that's the only thing I think these idiots understand. I will not allow my country to sink like Colombia, even if—until the last pusher, until the last drug lord is exterminated. That will be the rule of the day. 
 
 Maraming salamat po.
-
-###### END OF SPEECH
+&#x25cf;

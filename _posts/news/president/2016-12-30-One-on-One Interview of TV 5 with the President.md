@@ -23,9 +23,9 @@ related:
 
 President Rodrigo Duterte One-on-One Interview with Luchi Cruz-Valdes of TV5 at Malacañan Palace on 30 December 2016.
 
-###### TV 5'S ONE-ON-ONE INTERVIEW
+##### TV 5'S ONE-ON-ONE INTERVIEW
 
-###### WITH PRESIDENT RODRIGO ROA DUTERTE
+##### WITH PRESIDENT RODRIGO ROA DUTERTE
 
 ###### Malacañan Palace
 

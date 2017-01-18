@@ -22,9 +22,9 @@ sources:
 
 The following is the transcript of the speech of the President to the Southern Luzon Command at Camp Guillermo Nakar, Lucena, Quezon on 28 July 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING HIS VISIT TO CAMP GUILLERMO NAKAR
+##### DURING HIS VISIT TO CAMP GUILLERMO NAKAR
 
 ###### Lucena City, Quezon Province
 

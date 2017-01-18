@@ -33,11 +33,11 @@ Three former presidents have attended the ceremony; now Manila mayor Joseph Estr
 
 The following is the transcript of speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE CHANGE OF COMMAND CEREMONY AND TESTIMONIAL REVIEW
+##### DURING THE CHANGE OF COMMAND CEREMONY AND TESTIMONIAL REVIEW
 
-###### IN HONOR OF OUTGOING AFP CHIEF OF STAFF RICARDO VISAYA
+##### IN HONOR OF OUTGOING AFP CHIEF OF STAFF RICARDO VISAYA
 
 ###### AFP General Headquarters Grandstand, Camp General Emilio Aguinaldo, Quezon City
 

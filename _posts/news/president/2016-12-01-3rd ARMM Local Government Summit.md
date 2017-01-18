@@ -22,9 +22,9 @@ sources:
 
 The President attends the Autonomous Region in Muslim Mindanao (ARMM) Local Government Summit held in Davao City on 1 December 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE 3RD AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM) LOCAL GOVERNMENT SUMMIT
+##### DURING THE 3RD AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM) LOCAL GOVERNMENT SUMMIT
 
 ###### SMX Convention Center, SM Lanang Premier, Davao City
 

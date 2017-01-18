@@ -31,9 +31,9 @@ related:
 President Rodrigo Duterte sat down with GMA broadcast journalist Jessica Soho for a one on one interview on 29 December 2016.
 The whole interview was split into wo videos. The video above is the first part and the second part is at the bottom of the page.
 
-###### GMA-7'S ONE-ON-ONE INTERVIEW
+##### GMA-7'S ONE-ON-ONE INTERVIEW
 
-###### WITH PRESIDENT RODRIGO ROA DUTERTE
+##### WITH PRESIDENT RODRIGO ROA DUTERTE
 
 ###### Malacañan Palace
 

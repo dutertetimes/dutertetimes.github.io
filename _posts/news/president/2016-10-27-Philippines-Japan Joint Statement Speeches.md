@@ -21,11 +21,11 @@ sources:
     link: http://rtvm.gov.ph/main/?p=43693
 ---
 
-###### JOINT STATEMENT OF
+##### JOINT STATEMENT OF
 
-###### JAPANESE PRIME MINISTER SHINZO ABE AND
+##### JAPANESE PRIME MINISTER SHINZO ABE AND
 
-###### PHILIPPINE PRESIDENT RODRIGO DUTERTE
+##### PHILIPPINE PRESIDENT RODRIGO DUTERTE
 
 ###### South Conference Room, 3/F, Prime Minister's Office
 

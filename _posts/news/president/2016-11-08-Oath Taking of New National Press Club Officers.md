@@ -23,9 +23,9 @@ sources:
 
 President Rodrigo Roa Duterte administered the oath taking of 15 newly elected officials of the National Press Club on 7 November 2016 at the Heroes Hall, Malacañang.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE OATHTAKING OF THE NEWLY APPOINTED OFFICERS OF THE NATIONAL PRESS CLUB (NPC)
+##### DURING THE OATHTAKING OF THE NEWLY APPOINTED OFFICERS OF THE NATIONAL PRESS CLUB (NPC)
 
 ###### Malacañang
 

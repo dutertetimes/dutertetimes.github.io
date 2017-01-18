@@ -23,9 +23,9 @@ related:
 
 President Rodrigo Duterte sat down with CNN Philippines Senior Anchor Pinky Webb for a one on one interview on 30 December 2016.
 
-###### CNN PHILIPPINES' ONE-ON-ONE INTERVIEW
+##### CNN PHILIPPINES' ONE-ON-ONE INTERVIEW
 
-###### WITH PRESIDENT RODRIGO ROA DUTERTE
+##### WITH PRESIDENT RODRIGO ROA DUTERTE
 
 ###### Malacañan Palace
 

@@ -22,9 +22,9 @@ sources:
 
 The President visited the 103rd Brigade Tactical Command Post (TCP) in Butig, Lanao Del Norte on 30 November 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO DUTERTE
 
-###### DURING HIS VISIT TO BUTIG, LANAO DEL SUR
+##### DURING HIS VISIT TO BUTIG, LANAO DEL SUR
 
 ###### 103rdInfantry Brigade of the Philippine Army, Butig, Lanao del Sur
 

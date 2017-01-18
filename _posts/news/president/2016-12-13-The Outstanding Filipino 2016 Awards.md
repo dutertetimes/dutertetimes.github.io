@@ -40,9 +40,9 @@ The TOFIL Award was formed and initiated by the JCI Senate Philippines in the ye
 
 The following is the transcript of speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE OUTSTANDING FILIPINO (TOFIL) AWARDS 2016
+##### DURING THE OUTSTANDING FILIPINO (TOFIL) AWARDS 2016
 
 ###### Heroes Hall, Malacañan Palace
 

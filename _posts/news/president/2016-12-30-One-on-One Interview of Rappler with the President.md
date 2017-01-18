@@ -23,9 +23,9 @@ related:
 
 President Rodrigo Duterte sits down with Rappler Executive Editor Maria Ressa for a one-on-one interview in Malacañan Palace on 29 December 2016.
 
-###### RAPPLER'S ONE-ON-ONE INTERVIEW
+##### RAPPLER'S ONE-ON-ONE INTERVIEW
 
-###### WITH PRESIDENT RODRIGO ROA DUTERTE
+##### WITH PRESIDENT RODRIGO ROA DUTERTE
 
 ###### Malacañan Palace
 

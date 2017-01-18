@@ -22,13 +22,13 @@ sources:
 
 Transcript of speech of the President during the oath taking of the officers of the League of Cities of the Philippines (LCP) and the League of Provinces of the Philippines (LPP) on 27 July 2016 at the Heroes Hall, Malacañan Palace.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE OATH TAKING OF NEW OFFICERS OF THE
+##### DURING THE OATH TAKING OF NEW OFFICERS OF THE
 
-###### LEAGUE OF CITIES OF THE PHILIPPINES (LCP) AND
+##### LEAGUE OF CITIES OF THE PHILIPPINES (LCP) AND
 
-###### LEAGUE OF PROVINCES OF THE PHILIPPINES (LPP)
+##### LEAGUE OF PROVINCES OF THE PHILIPPINES (LPP)
 
 ###### Heroes Hall, Malacañang
 

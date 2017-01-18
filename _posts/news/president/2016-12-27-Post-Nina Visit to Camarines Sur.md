@@ -30,15 +30,11 @@ Livelihood damages from 14 municipalities amounted to PhP 642,289,157.63 in the 
 
 The damages to infrastructure, roads and bridges are still being assessed.
 
-##### Speech of the President
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-The following is the transcript of the speech of the President.
+##### DURING HIS VISIT TO PILI, CAMARINES SUR
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
-
-###### DURING HIS VISIT TO PILI, CAMARINES SUR
-
-###### IN THE WAKE OF TYPHOON NINA
+##### IN THE WAKE OF TYPHOON NINA
 
 ###### Camarines Sur Provincial Capitol, Pili, Camarines Sur
 

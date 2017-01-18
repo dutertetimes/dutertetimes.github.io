@@ -23,9 +23,9 @@ related:
 
 President Rodrigo Roa Duterte on an exclusive interview with ABS-CBN News veteran political news journalist Lynda Jumilla in Malacanang on 29 December 2016.
 
-###### ANC'S ONE-ON-ONE INTERVIEW
+##### ANC'S ONE-ON-ONE INTERVIEW
 
-###### WITH PRESIDENT RODRIGO ROA DUTERTE
+##### WITH PRESIDENT RODRIGO ROA DUTERTE
 
 ###### Malacañan Palace
 

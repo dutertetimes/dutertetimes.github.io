@@ -22,9 +22,9 @@ sources:
 
 The President met with Chinese President Xi Jinping on 20 November 2016 during the 24th Meeting of the Asia-Pacific Economic Cooperation (APEC) Economic Leaders which was held 19–20 November 2016 in Lima, Peru.
 
-###### OPENING STATEMENT OF PRESIDENT RODRIGO ROA DUTERTE
+##### OPENING STATEMENT OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE BILATERAL MEETING WITH CHINESE PRESIDENT XI JINPING
+##### DURING THE BILATERAL MEETING WITH CHINESE PRESIDENT XI JINPING
 
 ###### Delfines Hotel, Lima, Peru
 

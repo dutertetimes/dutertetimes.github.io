@@ -22,9 +22,9 @@ sources:
 
 The President graced the Christmas boodlefight of the Presidential Security Group held at the Grandstand of the PSG Compound in Malacañang Park, Manila on 19 December 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE PSG COMMAND CHRISTMAS BOODLE FIGHT
+##### DURING THE PSG COMMAND CHRISTMAS BOODLE FIGHT
 
 ###### PSG Grandstand, PSG Compound, Malacanang Park
 

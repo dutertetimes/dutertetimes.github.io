@@ -22,11 +22,11 @@ sources:
 
 The following is the transcript of the speech of the President in his talk to the Armed Forces of the Philippines Medical Center Staff at the V. Luna Road, Barangay Piñahan, Quezon City on 2 August 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING HIS TALK TO THE MEN OF V. LUNA GENERAL HOSPITAL
+##### DURING HIS TALK TO THE MEN OF V. LUNA GENERAL HOSPITAL
 
-######  (AFP MEDICAL CENTER)
+#####  (AFP MEDICAL CENTER)
 
 ###### V. Luna Road, Barangay Piñahan, Quezon City
 

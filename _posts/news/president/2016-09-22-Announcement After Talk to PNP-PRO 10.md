@@ -21,9 +21,9 @@ sources:
     link: http://rtvm.gov.ph/main/?p=42471
 ---
 
-###### PRESS STATEMENT OF PRESIDENT ROA RODRIGO DUTERTE
+##### PRESS STATEMENT OF PRESIDENT ROA RODRIGO DUTERTE
 
-###### AFTER HIS TALK TO THE PNP-PRO X
+##### AFTER HIS TALK TO THE PNP-PRO X
 
 ###### Camp Vicente Alagar, Lapasan, Cagayan de Oro City
 

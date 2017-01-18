@@ -22,9 +22,9 @@ sources:
 
 The following is the transcript of the speech of the President to the Armed Forces of the Philippines Central Command in Camp Lapu-Lapu, Cebu City on 5 August 2016.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING HIS TALK TO THE CENTRAL COMMAND (CENTCOM) OF THE ARMED FORCES OF THE PHILIPPINES (AFP)
+##### DURING HIS TALK TO THE CENTRAL COMMAND (CENTCOM) OF THE ARMED FORCES OF THE PHILIPPINES (AFP)
 
 ###### De Goma Hall Conference Room, CENTCOM Headquarters
 

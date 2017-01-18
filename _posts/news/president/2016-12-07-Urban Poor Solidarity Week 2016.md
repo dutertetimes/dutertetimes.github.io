@@ -33,9 +33,9 @@ Also present during the program were Executive Secretary Salvador C. Medialdea, 
 
 The following is the transcript of speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE URBAN POOR SOLIDARITY WEEK 2017
+##### DURING THE URBAN POOR SOLIDARITY WEEK 2017
 
 ###### Hardin ng Pag-Asa, Brgy. Additional Hills, Mandaluyong City
 

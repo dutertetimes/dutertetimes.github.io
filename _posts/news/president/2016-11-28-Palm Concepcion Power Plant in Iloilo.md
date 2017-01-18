@@ -38,11 +38,11 @@ The second phase of the plan will commence after six month.
 
 The following is the transcript of speech of the President.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE INAUGURATION AND CEREMONIAL SWITCH-ON OF THE
+##### DURING THE INAUGURATION AND CEREMONIAL SWITCH-ON OF THE
 
-###### 135MW CIRCULATING FLUIDIZED BED COMBUSTION (CFBC) POWER PLANT OF THE PALM CONCEPCION POWER PLANT
+##### 135MW CIRCULATING FLUIDIZED BED COMBUSTION (CFBC) POWER PLANT OF THE PALM CONCEPCION POWER PLANT
 
 ###### Rizal Hall, Malacañan Palace
 
@@ -207,13 +207,6 @@ The environment... Si Gina patay ka. Si Gina...By the way, I re-appointed her, n
 Why? Because I want my country also at least relatively safe from every predators from all sorts.
 
 Maraming salamat po.
-
-###### END OF SPEECH
+&#x25cf;
 
 [Palm Concepcion Power Plant]: ({{ site.url }}/info/company/vXOReyWWyn5RPjA)
-
- open single quote '
-close single quote '
- open double quote "
-close double quote "
-ellipses ...

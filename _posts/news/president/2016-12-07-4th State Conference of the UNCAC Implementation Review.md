@@ -22,11 +22,11 @@ sources:
 
 The Fourth State Conference of the United Nations Convention Against Corruption Implementation Review was held on 7 December 2016 at the Malacañan Palace.
 
-###### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
+##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-###### DURING THE 4TH STATE CONFERENCE OF THE UNITED NATIONS CONVENTION
+##### DURING THE 4TH STATE CONFERENCE OF THE UNITED NATIONS CONVENTION
 
-###### AGAINST CORRUPTION IMPLEMENTATION REVIEW
+##### AGAINST CORRUPTION IMPLEMENTATION REVIEW
 
 ###### Rizal Hall, Malacañan Palace
 
