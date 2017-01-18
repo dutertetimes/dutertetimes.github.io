@@ -707,6 +707,11 @@ div.post_operations {
             margin-right: 5px;
             a {
                 @include button;
+                @include max-screen(480px) {
+                    & > span {
+                        display: none;
+                    }
+                }
             }
         }
     }
