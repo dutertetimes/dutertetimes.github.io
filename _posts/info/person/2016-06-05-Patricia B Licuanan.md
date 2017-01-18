@@ -14,7 +14,7 @@ image:
 sources:
   - label: Commission on Higher Education
     link: http://www.ched.gov.ph/central/page/office-of-the-chairperson-and-commissioners
-  - label: Official Gazette 
+  - label: Official Gazette of the Republic of the Philippines 
     link: http://www.gov.ph/2010/07/21/appointments-july-21-2010/
 ---
 
