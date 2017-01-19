@@ -26,6 +26,8 @@ sources:
 related:
 ---
 
+The President led the induction of the new set of officers and board of trustees of the Davao City Chamber of Commerce and Industry, Inc. (DCCCII) during their 49th annual installation at the Marco Polo Hotel, Davao City on 14 January 2017.
+
 ##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
 ##### DURING THE 49th ANNUAL INSTALLATION OF THE BOARD OF TRUSTEES AND OFFICERS OF THE DAVAO CITY CHAMBER OF COMMERCE & INDUSTRY, INC. (DCCCII)
