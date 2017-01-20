@@ -3,7 +3,7 @@ title: Statement of Senator Gordon During the Senate Inquiry on EJK
 date: 2016-08-22T05:08:04UTC
 excerpt: "Transcript of Senator Richard J. Gordon's statement during the hearing on extrajudicial killings on 22 August 2016."
 layout: post
-categories: [topic, ejk_hearing, law_and_order]
+categories: [topic, senate_ejk_hearing, law_and_order, senate]
 tags: [topic, senate inquiry, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160822T050804

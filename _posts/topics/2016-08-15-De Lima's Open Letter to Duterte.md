@@ -3,7 +3,7 @@ title: "De Lima's Open Letter to Duterte"
 date: 2016-08-15T14:12:42UTC
 excerpt: Senator Leila De Lima wrote an open letter to the President on 15 August 2016 a week before the Senate inquiry on the extrajudicial killings.
 layout: post
-categories: [topic, ejk_hearing, criminality]
+categories: [topic, senate_ejk_hearing, law_and_order, senate]
 tags: [topic, extrajudicial killing]
 published: true
 permalink: /news/4deQnGwzKED1DXq
