@@ -3,7 +3,7 @@ title: Manuel Velez Pangilinan
 excerpt: Also known as Manny Pangilinan or by his initials MVP, is a Filipino businessman. As of 2016, he is the incumbent Chairman of PLDT from 1998; Chairman of TV5 Network, Philex Mining, Philex Petroleum, and Metro Pacific Investments Corporation.
 layout: post
 categories: [info, person]
-tags: [mvp, first pacific]
+tags: [Manuel Velez Pangilinan, MVP, First Pacific]
 published: true
 permalink: /info/X0MREynoelgRDAJ
 image:
