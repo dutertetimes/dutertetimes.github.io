@@ -8,6 +8,7 @@ tags: [topic, senate probe on extrajudicial killings, senate probe, extrajudicia
 published: true
 redirect_from: /news/20160915T192238
 permalink: /news/4oZQjwVgXaY1DBr
+thumbnail: thumbnail_topic_senate_ejk_hearing.png
 image:
   layout: auto_width
   source: 

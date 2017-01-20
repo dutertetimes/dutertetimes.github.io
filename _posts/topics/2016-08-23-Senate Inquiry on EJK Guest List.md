@@ -8,6 +8,7 @@ tags: [topic, senate inquiry, extrajudicial killings, ejk]
 published: true
 redirect_from: /news/20160823T061520
 permalink: /news/nexRZOdeKdd3ABG
+thumbnail: thumbnail_topic_senate_ejk_hearing.png
 image:
   layout: auto_width
   source: 

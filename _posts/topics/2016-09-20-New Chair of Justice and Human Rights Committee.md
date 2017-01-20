@@ -8,6 +8,7 @@ tags: [topic, senate, justice and human rights committee, de lima]
 published: true
 redirect_from: /news/20160920T065903
 permalink: /news/q4ZQq6Dorro1EwG
+thumbnail: thumbnail_topic_senate_ejk_hearing.png
 image:
   layout: auto_width
   source: 

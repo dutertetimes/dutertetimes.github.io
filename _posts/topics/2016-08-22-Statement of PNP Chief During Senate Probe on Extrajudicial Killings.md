@@ -8,6 +8,7 @@ tags: [topic, extrajudicial killings, ejk, senate probe, pnp chief, ronald de la
 published: true
 redirect_from: /news/20160822T213957
 permalink: /news/vXORey0Z6WkRPjA
+thumbnail: thumbnail_topic_senate_ejk_hearing.png
 image:
   layout: auto_width
   source: 
