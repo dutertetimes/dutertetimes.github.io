@@ -7,7 +7,7 @@ categories: [news, press, agrarian, agriculture]
 tags: [Department of Agriculture, DA, Emmanuel Piñol, Manny Piñol, Emmanuel Pinol, Manny Pinol]
 published: true
 permalink: /news/xeVQ5yO0PmZQPap
-thumbnail: thumbnail_gov_executive_da_sec_manny_pinol.png
+thumbnail: thumbnail_gov_executive_da_sec_manny_pinol_00.png
 image:
   layout: auto_width
   source: 

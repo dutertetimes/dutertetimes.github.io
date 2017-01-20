@@ -7,6 +7,7 @@ categories: [news, press, president]
 tags: [wounded-in-action, wia, camp navarro general hospital, cngh, western mindanao command, wesmincom, zamboanga city, speech, transcript]
 published: true
 permalink: /news/9rDR4YGAb0D3lwb
+thumbnail: thumbnail_gov_executive_president_duterte_public_informal_interview_00.png
 image:
  layout: auto_width
  source: 
