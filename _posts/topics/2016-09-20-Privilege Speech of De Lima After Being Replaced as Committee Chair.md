@@ -1,10 +1,10 @@
 ---
-title: "De Lima's Speech After Being Replaced as Committee Chair"
+title: Privilege Speech of De Lima After Being Replaced as Committee Chair
 date: 2016-09-20T11:46:08UTC
 excerpt: Senator Leila De Lima delivered her privilege speech on 20 September 2016 after being kicked out as Chairman of the Committee on Justice and Human Rights.
 layout: post
-categories: [topic, ejk_hearing, other, senate]
-tags: [topic, privilege speech]
+categories: [topic, senate_ejk_hearing, law_and_order, senate]
+tags: [privilege speech, extrajudicial killing, EJK, Senate, Justice and Human Rights Committee, Leila de Lima, Richard Gordon]
 published: true
 redirect_from: /news/20160920T114608
 permalink: /news/4LK1A6V4WmPR0Py
@@ -170,5 +170,3 @@ Sa mga Heneral ng tagumpay at kapangyarihan sa ating panahon: si Fortuna ay inyo
 
 Maraming salamat po.
 &#x25cf;
-
-
