@@ -80,7 +80,7 @@ At the end of the day, what can I say to the Filipino? That we have wiped out al
 
 Kasi mamili ka. Eh hindi mo pwede sabihin na, 'eh Moro lang yan.' There is a bigotry of [inaudible] sa mga Kristiyanos. Ang Visayas hindi lang masyadong naintindihan na ang mga Moro, mas nauna pa yan sa mga Kristiyano.
 
-The Spaniards and the Americans brought Christianity to this place, in Mindanao but we are all part of this Sri- Vishayas Empire before the Spaniards came. So we are really brothers in one community.
+The Spaniards and the Americans brought Christianity to this place, in Mindanao but we are all part of this Sri-Vishayas Empire before the Spaniards came. So we are really brothers in one community.
 
 Ang problema nila, when they saw Mindanao kinuha pa rin nila. Because the Philippines was given to the Americans kasi natalo ang Spaniards sa America – Spanish war.
 
