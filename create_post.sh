@@ -267,7 +267,7 @@ function create_info_post {
         add_default "Info Post"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [info, gov | law | company | org | people | place | doc | others]" >> $filename
+        echo "categories: [info, gov | law | company | org | person | place | doc | others]" >> $filename
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -277,7 +277,7 @@ function create_info_post {
         else
             echo "published: true" >> $filename
         fi
-        echo "permalink: /info/.../$hashid" >> $filename
+        echo "permalink: /info/$hashid" >> $filename
         echo "thumbnail:" >> $filename
         echo "image:" >> $filename
         echo "  layout: none | auto_width" >> $filename
