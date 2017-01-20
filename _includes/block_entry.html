@@ -32,7 +32,7 @@ Example:
         {% endif %}
     {% else %}
         {% if include.post.thumbnail %}
-<img src="{{ site.image_source }}/site/{{ include.post.thumbnail }}" />
+<img src="{{ site.image_source }}/site/thumbnail/{{ include.post.thumbnail }}" />
         {% else %}
             {% if include.post.video.source %}
 <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" />

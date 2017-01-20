@@ -71,11 +71,12 @@ permalink: /
 </div>
 
 
-{% assign found_topics = "" | split: ',' %}
+
+{% assign found_topic_categories = "" | split: ',' %}
 {% for post in site.categories.topic %}
-    {% assign found_topics = found_topics | push: post.categories[1] %}
+    {% assign found_topic_categories = found_topic_categories | push: post.categories[1] %}
 {% endfor %}
-{% assign found_topics = found_topics | uniq %}
+{% assign found_topic_categories = found_topic_categories | uniq %}
 
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Topics</h1>
@@ -86,19 +87,18 @@ permalink: /
             {% include section_slideshow.html category="opinion" posts=section_posts max_post_count=6 %}
         </div>
         
-        {% for topic in found_topics %}
+        {% for category in found_topic_categories %}
         <div class="container container_top_border_thin">
-            {% assign section_posts = site.categories[topic] %}
-            {% assign section_image = topic | prepend: "post_16_9_" | append: ".png" %}
-            {% include section_slideshow.html category=topic posts=section_posts max_post_count=6 %}
+            {% assign section_posts = site.categories[category] %}
+            {% include section_slideshow.html category=category posts=section_posts max_post_count=6 %}
         </div>
         {% endfor %}
     </div>
 </div>
 
 
-{% assign news_posts = site.categories.news %}
 
+{% assign news_posts = site.categories.news %}
 
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Events</h1>
@@ -125,45 +125,42 @@ permalink: /
 
 
 
+{% assign section_posts = "" | split: '' %}
+{% assign count = 0 %}
+{% for post in news_posts %}
+    {% if post.categories[1] == "other" %}
+        {% assign section_posts = section_posts | push: post %}
+        {% assign count = count | plus: 1 %}
+        {% if count == 9 %}
+            {% break %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign show_items = "" | split: "" %}
+{% assign show_items = show_items | push: "date" %}
+{% assign show_items = show_items | push: "excerpt" %}
+{% assign show_items = show_items | push: "thumbnail" %}
+
+{% assign list_left = "" | split: "" %}
+{% for post in section_posts limit: 3 %}
+    {% assign list_left = list_left | push: post %}
+{% endfor %}
+
+{% assign list_right = "" | split: "" %}
+{% for post in section_posts offset: 3 limit: 6 %}
+    {% assign list_right = list_right | push: post %}
+{% endfor %}
+            
 <div class="section_container_wrapper section_container_wrapper_border">
     <h1>Other Events</h1>
 
-    {% assign section_posts = "" | split: '' %}
-    {% assign count = 0 %}
-    {% for post in news_posts %}
-        {% if post.categories[1] == "other" %}
-            {% assign section_posts = section_posts | push: post %}
-            {% assign count = count | plus: 1 %}
-            {% if count == 9 %}
-                {% break %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-    
     <div class="section_container top_margin_10">
         <div class="container_2n container_top_border_thin">
-            {% assign show_items = "" | split: "" %}
-            {% assign show_items = show_items | push: "date" %}
-            {% assign show_items = show_items | push: "excerpt" %}
-            {% assign show_items = show_items | push: "thumbnail" %}
-
-            {% assign list = "" | split: "" %}
-            {% for post in section_posts limit: 3 %}
-                {% assign list = list | push: post %}
-            {% endfor %}
-            {% include block_default.html posts=list show=show_items %}
+            {% include block_default.html posts=list_left show=show_items %}
         </div>
         <div class="container_2n_list container_top_border_thin_mobile">
-            {% assign show_items = "" | split: "" %}
-            {% comment %}
-            {% assign show_items = show_items | push: "date" %}
-            {% endcomment %}
-            
-            {% assign list = "" | split: "" %}
-            {% for post in section_posts offset: 3 limit: 6 %}
-                {% assign list = list | push: post %}
-            {% endfor %}
-            {% include block_list.html posts=list show=show_items list_style="list_style_none" entry_class="border_left" %}
+            {% include block_list.html posts=list_right list_style="list_style_none" entry_class="border_left" %}
         </div>
     </div>
 </div>
@@ -173,125 +170,55 @@ permalink: /
 <script>
     $(document).ready(function() {
 
-        {% for topic in found_topics %}
-            {% assign words = topic | replace: '_', ' ' | split: ' ' %}
+        currentOpinionSlide(0);
+        
+        {% for category in found_topic_categories %}
+            {% capture empty %}
+            {% assign words = category | replace: '_', ' ' | split: ' ' %}
             {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
             {% assign js_category = titlecase_category | remove: ' ' %}
-            current{{ js_category }}Slide(0);
+            {% endcapture %}{% assign empty = nil %}
+        current{{ js_category }}Slide(0);
         {% endfor %}
-
-        currentPresidentSlide(0);
-        currentPressSlide(0);
-
-        currentEconomySlide(0);
-        currentLawAndOrderSlide(0);
-
-        currentAgrarianSlide(0);
-        currentEnvironmentSlide(0);
-
-        currentForeignAffairsSlide(0);
-        currentPeaceProcessSlide(0);
+        
+        {% for category in site.data.index_events %}
+            {% capture empty %}
+            {% assign words = category | replace: '_', ' ' | split: ' ' %}
+            {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+            {% assign js_category = titlecase_category | remove: ' ' %}
+            {% endcapture %}{% assign empty = nil %}
+        current{{ js_category }}Slide(0);
+        {% endfor %}
     });
 
     popupModal('modal_top_1', 'source_top_1', 'destination_top_1', 'caption_top_1');
     popupModal('modal_top_2', 'source_top_2', 'destination_top_2', 'caption_top_2');
-
-    // Argument must be greater than zero.
-    /*
-    function currentHeadlineSlide(n) {
-        showHeadlineSlides(n);
-    }
-    */
-
-    function currentPresidentSlide(n) {
-        showPresidentSlides(n);
-    }
-
-    function currentPressSlide(n) {
-        showPressSlides(n);
-    }
-
-    function currentOtherSlide(n) {
-        showOtherSlides(n);
-    }
-
-    function currentLawAndOrderSlide(n) {
-        showLawAndOrderSlides(n);
-    }
-
-    function currentEconomySlide(n) {
-        showEconomySlides(n);
-    }
-
-    function currentAgrarianSlide(n) {
-        showAgrarianSlides(n);
-    }
-
-    function currentEnvironmentSlide(n) {
-        showEnvironmentSlides(n);
-    }
-
-    function currentForeignAffairsSlide(n) {
-        showForeignAffairsSlides(n);
-    }
-
-    function currentPeaceProcessSlide(n) {
-        showPeaceProcessSlides(n);
-    }
-
-    function currentEjkHearingSlide(n) {
-        showEjkHearingSlides(n);
-    }
-
+    
     function currentOpinionSlide(n) {
-        showOpinionSlides(n);
-    }
-
-
-
-    function showPresidentSlides(n) {
-        showSlides("president_dot", "president_news_entry", n);
-    }
-
-    function showPressSlides(n) {
-        showSlides("press_dot", "press_news_entry", n);
-    }
-
-    function showOtherSlides(n) {
-        showSlides("other_dot", "other_news_entry", n);
-    }
-
-    function showEconomySlides(n) {
-        showSlides("economy_dot", "economy_news_entry", n);
-    }
-
-    function showAgrarianSlides(n) {
-        showSlides("agrarian_dot", "agrarian_news_entry", n);
-    }
-
-    function showEnvironmentSlides(n) {
-        showSlides("environment_dot", "environment_news_entry", n);
-    }
-
-    function showForeignAffairsSlides(n) {
-        showSlides("foreign_affairs_dot", "foreign_affairs_news_entry", n);
-    }
-
-    function showLawAndOrderSlides(n) {
-        showSlides("law_and_order_dot", "law_and_order_news_entry", n);
-    }
-
-    function showOpinionSlides(n) {
         showSlides("opinion_dot", "opinion_news_entry", n);
     }
 
-    function showPeaceProcessSlides(n) {
-        showSlides("peace_process_dot", "peace_process_news_entry", n);
+    {% for category in found_topic_categories %}
+        {% capture empty %}
+        {% assign words = category | replace: '_', ' ' | split: ' ' %}
+        {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+        {% assign js_category = titlecase_category | remove: ' ' %}
+        {% endcapture %}{% assign empty = nil %}
+    function current{{ js_category }}Slide(n) {
+        showSlides("{{ category }}_dot", "{{ category }}_news_entry", n);
     }
-
-    function showEjkHearingSlides(n) {
-        showSlides("ejk_hearing_dot", "ejk_hearing_news_entry", n);
+    {% endfor %}
+    
+    {% for category in site.data.index_events %}
+        {% capture empty %}
+        {% assign words = category | replace: '_', ' ' | split: ' ' %}
+        {% capture titlecase_category %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+        {% assign js_category = titlecase_category | remove: ' ' %}
+        {% endcapture %}{% assign empty = nil %}
+    function current{{ js_category }}Slide(n) {
+        showSlides("{{ category }}_dot", "{{ category }}_news_entry", n);
     }
+    {% endfor %}
 
 
 
