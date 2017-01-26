@@ -115,11 +115,20 @@ var string_next =  'Next';
                 out += '<p>Search parameters:</p>';
                 out += '<p><ul>';
                 if (set.debug) {
+                    if (source.pages.length == 0) {
+                        out += "<li>No items to search from</li>";
+                    }
+                    if (source.pages.length == 1) {
+                        out += "<li>Search from 1 item</li>";
+                    }
+                    if (source.pages.length > 1) {
+                        out += "<li>Search from " + source.pages.length.toString() + " items</li>";
+                    }
                     out += '<li>Content location: ' + set.contentLocation + '</li>';
                     out += '<li>Show items: ' + set.showItems + '</li>';
                 }
                 out += '<li>Input: ' + search_input + '</li>';
-
+                
                 if (search_input.length < set.minimumLength) {
                     out += '<div><p>' + warning_too_short.replace('nnn', set.minimumLength.toString()) + '</p></div>';
                 } else {
@@ -152,7 +161,16 @@ var string_next =  'Next';
                             search_input = search_input + ' ' + search_tokens[i];
                         }
                     }
-
+                    search_input = $.trim(search_input);
+                    
+                    if (set.debug) {
+                        if (search_input.length == 0) {
+                            out += '<li>Processed Input: <em>empty</em></li>';
+                        } else {
+                            out += '<li>Processed Input: ' + search_input + '</li>';
+                        }
+                    }
+                    
                     // Send search tokens to output
                     out += '<li>Tokens: ';
                     out += '<ol>';
@@ -215,6 +233,7 @@ var string_next =  'Next';
                         // Display summary
 
                         if (found_count == 0) {
+                            
                             out += found_nothing.replace('nnn', source.pages.length.toString());
                         }
                         if (found_count == 1) {
