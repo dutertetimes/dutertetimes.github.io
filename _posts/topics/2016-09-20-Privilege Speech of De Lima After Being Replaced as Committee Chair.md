@@ -11,8 +11,8 @@ permalink: /news/4LK1A6V4WmPR0Py
 thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg
 image:
   layout: auto_width
-  source: 
-  attribution: 
+  source:
+  attribution:
 video:
   layout: top
   source: UR91aPfsyOA?10m18s
@@ -137,10 +137,10 @@ Gaano man kaliit ang dampa, ang bawat tahanan ay palasyo ng namamahay doon. Iyan
 Sasabihin na naman ni Senator Cayetano na hindi naman mga nagmomodel na pulis ang pinapadala sa Forbes Park. Figure of Speech lamang po iyon, hindi dapat intindihin ng literal.
 
 I became CHR Chair and DOJ Secretary not because I sought those positions to which I was appointed. One can say that these were all accidents of history. It is only this position that I hold now that I chose to work hard for to get by tirelessly campaigning and eventually being elected by more than 14 million Filipino voters.
+Ito po ang programang dala ko ngayon, mga mahal kong kababayan na bumoto sa akin. Ninais ninyo na ito ang programang dalhin ko. Kung sa pagnanais kong isulong ang programang ito ay tatanggalin ako sa pagka-pinuno ng Komite ng Hustisya at Karapatang Pantao, ay parang hinubad na rin nila sa akin ang mahalagang bahagi ng mandatong iyon.
 
 Kaya mahalaga po sa akin ang posisyon na ito, dahil katulad ninyo mga kapwa ko senador, pinagsikapan at pinaghirapan ko itong ipagkatiwala sa akin ng mga botanteng Pilipino. Ginagampanan ko lamang ang aking tungkulin bilang isang kandidato na humarap sa mga tao ng may plataporma ng karapatang pantao at hustisya, dahil minarapat nila na iboto ako sa pag-asang ang programang iyon ang aking dadalhin dito sa Senado.
 
-Ito po ang programang dala ko ngayon, mga mahal kong kababayan na bumoto sa akin. Ninais ninyo na ito ang programang dalhin ko. Kung sa pagnanais kong isulong ang programang ito ay tatanggalin ako sa pagka-pinuno ng Komite ng Hustisya at Karapatang Pantao, ay parang hinubad na rin nila sa akin ang mahalagang bahagi ng mandatong iyon.
 
 Pero tatalima ako sa desisyon ng Senado. Hindi naman dito natatapos ang laban. Nag-iba lang ang anyo at posisyon ng mga magkakatunggali, pero malinaw pa rin ang adhikain at pananalig na sa bandang huli, ang hustisya at karapatan ng bawat mamamayan ang mananaig, hindi ang dikta ng kapangyarihan.
 
