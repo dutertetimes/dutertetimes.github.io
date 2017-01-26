@@ -2,11 +2,10 @@
 Arguments:
     - todo_data - TODO items from /data directory
     - category
-    - post_image - default image to use when none is specified
 
 Example:
     {% assign todo = site.data.news_peace_process %}
-    {% include section_index.html todo_data=todo category="peace_process" post_image="post_president_16_9.png" %}
+    {% include section_index.html todo_data=todo category="peace_process" %}
 {% endcomment %}
 
 {% include todo_list.html todo_data=include.todo_data %}
