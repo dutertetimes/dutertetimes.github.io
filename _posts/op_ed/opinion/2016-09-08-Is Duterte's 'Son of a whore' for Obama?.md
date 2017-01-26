@@ -4,7 +4,7 @@ date: 2016-09-08T08:11:10UTC
 excerpt: "On 5 September 2016 before leaving for the 28th and 29th ASEAN Summits, the President's answer on an 'extrajudicial killings' question spread like wildfire across the world."
 layout: post
 categories: [op_ed, opinion]
-tags: [swearing, obama, bud dajo, stephen colbert, mark twain, samuel clemens]
+tags: [swearing, Barrack Obama, Bud Dajo, Stephen Colbert, Mark Twain, Samuel Clemens]
 published: true
 redirect_from: /news/20160908T081110
 permalink: /opinion/2gO3K4APlW5Qa6y
