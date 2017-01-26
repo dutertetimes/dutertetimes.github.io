@@ -32,8 +32,6 @@ SENATOR LEILA DE LIMA: Magandang umaga po sa inyong lahat. Napilitan na naman ak
 
 So before I answer questions, and before I pour out again my anger and emotions, allow me to read two statements. Hindi naman ho ito mahaba. One is on President Duterte's admission of mistakes in the alleged drug matrix dahil marami ho sa inyo na naman ang humihingi sa akin ng reaksyon. And another statement is on the violent riot that just happened kanina at the New Bilibid Prison. So the first one, on the apology.
 
-\\
-\\
 President Duterte's apology is a clear admission that there is really nothing in that ridiculous drug matrix that links me to the illegal drug trade. It is tragic that the highest official of the land has not only been fed lies and wrong information but also has listened to rumors and intrigues.
 
 The alleged drug matrix, as I pointed out before, is nothing but trash and therefore, should not be given any grain of credibility. It also casts serious doubts on the people behind the so-called intelligence information, which to my mind, do not appear intelligent at all.
@@ -44,8 +42,6 @@ This is the problem with EJKs and the death penalty. No amount of apologies from
 
 My next statement, on the violent riot:
 
-<div class="indent">
-
 Reports have just come in that a supposed "riot" at Building 14 of the NBP which houses Jaybee Sebastian and the other so-called Bilibid 19 has resulted in the killing of Tony Co and the hospitalization of Sebastian, Peter Co, and Vicente Sy. There are also reports saying Peter Co is either in critical or stable condition.
 
 Several prisoners in Bldg. 14 have one thing in common, aside from being the drug lords that I separated from the general prison population and isolated in Bldg. 14 as a result of the raid conducted on December 15, 2014. Several of these prisoners refused and continue to refuse to testify against me in the House hearings as their protector. They should know, because I was the one who started all their misery by cutting them off from their drug trade and luxurious living quarters. They were also the ones who filed several cases against me, both criminal and administrative, with the Ombudsman because of their alleged "persecution" after they were singled out for isolation in Bldg. 14.
@@ -53,7 +49,6 @@ Several prisoners in Bldg. 14 have one thing in common, aside from being the dru
 The official version of the DOJ is that this was a riot. Absent any other available reliable information, I am not discounting the fact that this is another way of the government "persuading" the Bilibid 19 to testify against me, and that this incident should serve as a lesson to those who refuse to cooperate with the government and do Aguirre's and Malacañang's bidding. If this is the case, this means we have reached a new level of murderous policy in this government. I am not discounting the possibility that this so-called "riot" is Malacañang's way of sending its messages to prisoners who refuse to implicate me in the Bilibid Drug Trade as part of Aguirre's and Malacañang's teleserye drama projecting me as the Bilibid Drug Queen.
 
 If this is the truth, I plead to Malacañang to stop this tragic, desperate and despicable actions. These prisoners are supposed to be under the government's protection. To threaten them with violence and murder simply because they refuse to be used in the ongoing House hearing is the height of Mafia tactics and gangster-style operations that makes this government worse than a Narco-State. It makes this government an Assassin-State, a State that promotes murder and summary execution as policy and as weapon against its perceived enemies.
-</div>
 
 DE LIMA: That's the end of my second statement. And before I answer questions, may I also share with you...I wanted to share this yesterday pero hindi ko na muna ginawa. Pero, I think it's also timely to also disclose this. Hindi ho ba nasabi ko na po sa inyo na talagang meron pa rin silang mga ginagawa na talagang kinukumbinsi pa rin nila yang sila Sebastian at yung mga iba pa.
 
