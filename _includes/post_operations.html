@@ -2,7 +2,7 @@
     <ul>
         <li>
             <a href="https://twitter.com/share" data-via="{{ twitter }}"
-                data-url="{{ site.url }}{{ page.url }}"
+                data-url="{{ site.baseurl }}{{ page.url }}"
                 data-text="{{ page.title }}"
                 data-toggle="tooltip"
                 data-placement="top"
@@ -11,7 +11,7 @@
             </a>
         </li>
         <li>
-            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
+            <a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}"
                 onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
                 rel="nofollow"
                 target="_blank"
@@ -20,7 +20,9 @@
             </a>
         </li>
         <li>
-            <a href="mailto:your@email.com?subject={{ page.title }}&body=<a href='{{ site.url }}{{ page.url }}'>{{ page.title }}</a></br></br>{{ page.excerpt }}</br></br>Link: {{ site.url }}{{ page.url }}"
+            {% assign page_title = page.title | markdownify | strip_html | normalize_whitespace %}
+            {% assign page_excerpt = page.excerpt | markdownify | strip_html | normalize_whitespace %}
+            <a href="mailto:your@email.com?subject={{ page_title }}&body=<a href='{{ site.baseurl }}{{ page.url }}'>{{ page_title }}</a></br></br>{{ page_excerpt }}</br></br>Link: {{ site.baseurl }}{{ page.url }}"
                 alt="E-mail"
                 title="Send the post link as E-mail to...">
                 <i class="fa fa-envelope" aria-hidden="true"></i><span class="label">&nbsp;E-mail&nbsp;</span>
