@@ -24,7 +24,7 @@ sitemap: false
          $('#search_input').dt_search({
                 'debug': false,
                 'mode': 'json',
-                'contentLocation': '{{site.url}}/search.json',
+                'contentLocation': '{{ site.baseurl }}/search.json',
                 'showItems': 10,
                 'showURL': false,
                 'highlightTerms': false,
