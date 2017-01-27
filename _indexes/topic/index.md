@@ -34,4 +34,4 @@ permalink: /topic/index.html
 </div>
 {% endcomment %}
 
-{% include section_index.html data=todo_data category="topic" post_image="post_opinion_16_9.png" %}
+{% include section_index.html data=todo_data category="topic" %}
