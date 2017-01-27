@@ -1,7 +1,7 @@
 ---
 title: Malacañan Press Briefing with Joey Concepcion III
 date: 2017-01-27T05:37:44UTC
-excerpt: Presidential Adviser on Entrepreneurship, Joey Concepcion III, speaks before the Malacañan Press Corps on 27 January 2017.
+excerpt: Presidential Adviser on Entrepreneurship, Joey Concepcion III, speaks before the Malacañan Press Corps on 26 January 2017.
 layout: post
 categories: [news, press, economy]
 tags: [Joey Concepcion III, Presidential Adviser on Entrepreneurship]
@@ -26,5 +26,5 @@ sources:
 related:
 ---
 
-Presidential Adviser on Entrepreneurship, Joey Concepcion III, speaks before the Malacañan Press Corps on 27 January 2017.
+Presidential Adviser on Entrepreneurship, Joey Concepcion III, speaks before the Malacañan Press Corps on 26 January 2017.
 &#x25cf;
