@@ -28,6 +28,8 @@ The following information was acquired from government sources like Philippine A
 
 ## Situation overview
 
+The following is an account on significant events ordered chronologically:
+
 __23 Dec 2016 03:00am__
 : Severe Tropical Storm (STS) with international name Nock-ten entered the Philippine Area of Responsibility (PAR) was named "Nina".
 
@@ -123,5 +125,5 @@ A total of PhP 7,112,134.00 worth of relief assistance has been provided to the 
 
 ## Details
 
-All details and information not mentioned here is available in the complete [{{ page.sources[0].label }} (NDRRMC) Situation Report]({{ page.sources[0].link }}).
+A detailed information is officially reported in the [{{ page.sources[0].label }} (NDRRMC) Situation Report]({{ page.sources[0].link }}).
 &#x25cf;
