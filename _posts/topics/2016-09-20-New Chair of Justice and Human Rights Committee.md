@@ -4,7 +4,7 @@ date: 2016-09-20T06:59:03UTC
 excerpt: During the 22nd session of the Senate on 19 September 2016, the Senate removed Senator Leila De Lima as Chair of the Justice and Human Rights Committee and reconstituted the committee chaired by Senator Richard Gordon, vice chaired by Senator Panfilo Lacson.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [topic, senate, justice and human rights committee, de lima]
+tags: [senate, justice and human rights committee, de lima]
 published: true
 redirect_from: /news/20160920T065903
 permalink: /news/q4ZQq6Dorro1EwG
@@ -62,6 +62,3 @@ The Committee on Justice and Human Rights is now composed of:
 9. Senator Franklin Drilon (Ex Officio Member)
 10. Senator Vicente Sotto III (Ex Officio Member)
 11. Senator Ralph Recto (Ex Officio Member)
-&#x25cf;
-
-

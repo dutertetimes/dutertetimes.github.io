@@ -4,7 +4,7 @@ date: 2016-08-15T14:12:42UTC
 excerpt: Senator Leila De Lima wrote an open letter to the President on 15 August 2016 a week before the Senate inquiry on the extrajudicial killings.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [topic, extrajudicial killing]
+tags: [senate inquiry, extrajudicial killings, ejk]
 published: true
 permalink: /news/4deQnGwzKED1DXq
 thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg

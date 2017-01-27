@@ -4,7 +4,7 @@ date: 2016-08-22T21:39:57UTC
 excerpt: "The Philippine National Police Chief Director General Ronald dela Rosa attended the Senate Probe on 'Extrajudicial Killings' on 22 August 2016 because of the rising number of related deaths during police operations."
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [topic, extrajudicial killings, ejk, senate probe, pnp chief, ronald de la rosa]
+tags: [extrajudicial killings, ejk, senate probe, pnp chief, ronald de la rosa]
 published: true
 redirect_from: /news/20160822T213957
 permalink: /news/vXORey0Z6WkRPjA
