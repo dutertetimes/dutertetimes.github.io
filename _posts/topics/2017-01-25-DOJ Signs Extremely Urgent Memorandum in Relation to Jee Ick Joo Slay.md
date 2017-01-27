@@ -1,7 +1,7 @@
 ---
 title: DOJ Signs Extremely Urgent Memorandum in Relation to Jee Ick Joo Slay
 date: 2017-01-25T07:04:25UTC
-excerpt: 
+excerpt: "The Department of Justice issued an \"Extremely Urgent Memorandum\" on January 24, 2017 addressed to the Bureau of Immigration, NBI, PNP, Prosecutor General placing several PNP personnel in the Immigration Lookout Bulletin Order."
 layout: post
 categories: [topic, jee_ick_joo, law_and_order]
 tags: [Jee Ick Joo, Department of Justice, Memorandum]
@@ -26,7 +26,7 @@ sources:
 related:
 ---
 
-Justice Secretary Vitaliano N. Aguirre II signed an “Extremely Urgent Memorandum” dated January 24, 2017 addressed to Bureau of Immigration (BI) Commissioner Jaime H. Morente, National Bureau of Investigation (NBI) Director Dante A. Gierran, Prosecutor General Victor C. Sepulveda and Philippine National Police (PNP) Director General Ronald M. Dela Rosa placing several PNP personnel in the Immigration Lookout Bulletin Order (ILBO) referring to the case of South Korean businessman Ji Ick-Joo.
+Justice Secretary Vitaliano N. Aguirre II signed an "Extremely Urgent Memorandum" dated January 24, 2017 addressed to Bureau of Immigration (BI) Commissioner Jaime H. Morente, National Bureau of Investigation (NBI) Director Dante A. Gierran, Prosecutor General Victor C. Sepulveda and Philippine National Police (PNP) Director General Ronald M. Dela Rosa placing several PNP personnel in the Immigration Lookout Bulletin Order (ILBO) referring to the case of South Korean businessman Ji Ick-Joo.
 
 The individuals named in the list are: SPO3 Ricky Sta. Isabel y Molabola, SPO4 Roy Villegas y Levista, PO2 Christopher Baldovino y Bonifacio, Ramon Yalung y Vitug, Alias "SIR DUMLAO", Alias "JERRY", Alias "DING" and other "JOHN DOES".
 
