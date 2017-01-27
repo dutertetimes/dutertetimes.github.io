@@ -7,7 +7,7 @@ categories: [topic, senate_ejk_hearing, law_and_order, senate]
 tags: [senate inquiry, extrajudicial killings, ejk]
 published: true
 permalink: /news/N8M3bLPkml21DlJ
-thumbnail:
+thumbnail: thumbnail_topic_senate_ejk_hearing.png
 image:
   layout: auto_width
   source: 
