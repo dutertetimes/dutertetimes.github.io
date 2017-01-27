@@ -1,5 +1,5 @@
 ---
-title: Post Typhyoon Nina Report
+title: Post Typhoon Nina Report
 date: 2017-01-09T08:04:21UTC
 excerpt: Situation report on tropical storm Nina with international name Nock-ten as of 9 January 2017 that entered the Philippine Area of Responsibility at 3:00 am of 26 November 2016.
 layout: post
