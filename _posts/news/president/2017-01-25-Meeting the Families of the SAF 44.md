@@ -4,7 +4,7 @@ date: 2017-01-25T06:25:59UTC
 excerpt: The President met the families of the slain 44 Special Action Force troopers at the Heroes Hall in Malacañang on 24 January 2017.
 layout: post
 categories: [news, president]
-tags: [Special Action Force, SAF, SAF44]
+tags: [Special Action Force, SAF, SAF44, Mamasapano]
 published: true
 permalink: /news/jLJ38BvzPGx1GAD
 thumbnail:
