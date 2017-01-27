@@ -1,7 +1,7 @@
 ---
-title: Malacañan Press Briefing with DOF Undersecretary Karl Kendrick Chua
+title: Malacañan Press Briefing with DOF Undersecretary and Assistant Secretary
 date: 2017-01-27T13:28:10UTC
-excerpt: Department of Finance Undersecretary, Karl Kendrick Chua, speaks before the Malacañan Press Corps on 27 January 2017.
+excerpt: Department of Finance Undersecretary, Karl Kendrick Chua, and Assistant Secretary Atty. Paola Alvarez speak before the Malacañan Press Corps on 27 January 2017.
 layout: post
 categories: [news, press, economy]
 tags: [Karl Kendrick Chua, Department of Finance]
@@ -26,5 +26,5 @@ sources:
 related:
 ---
 
-Department of Finance (DOF) Undersecretary, Karl Kendrick Chua, speaks before the Malacañan Press Corps on 27 January 2017.
+Department of Finance Undersecretary, Karl Kendrick Chua, and Assistant Secretary Atty. Paola Alvarez speak before the Malacañan Press Corps on 27 January 2017.
 &#x25cf;
