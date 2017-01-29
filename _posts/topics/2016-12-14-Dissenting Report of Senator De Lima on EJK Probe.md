@@ -4,7 +4,7 @@ date: 2016-12-14T09:08:12UTC
 excerpt: Senator Leila M. de Lima filed a "dissenting report" on 13 December 2016 as the true findings of the Senate investigation into the extrajudicial killings on the government's all-out campaign against illegal drugs.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [extrajudicial killing, EJK, Leila de Lima, Justice and Human Rights Committee, Senate]
+tags: [Leila de Lima, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/JebR6G2keqL37rN
 thumbnail: thumbnail_topic_senate_ejk_hearing.png

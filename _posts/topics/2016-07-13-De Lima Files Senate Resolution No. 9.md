@@ -4,7 +4,7 @@ date: 2016-07-13T16:38:49UTC
 excerpt: Senator Leila de Lima files Senate Resolution No. 9 which seeks to initiate an investigation into the killings under President Duterte in his campaign against illegal drugs.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate resolution 9, extrajudicial killing, EJK, Senate, Justice and Human Rights Committee, Leila de Lima, senate resolution, Senate]
+tags: [Senate Resolution 9, extrajudicial killing, EJK, Justice and Human Rights Committee, Leila de Lima, Senate]
 published: true
 permalink: /news/mzGR96g60m63N9p
 thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg

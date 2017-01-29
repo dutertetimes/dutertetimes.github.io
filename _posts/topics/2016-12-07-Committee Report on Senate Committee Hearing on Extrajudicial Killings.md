@@ -4,7 +4,7 @@ date: 2016-12-07T19:00:43UTC
 excerpt: The Joint Senate Committee on Justice and Human Rights and Committee on Public Order and Dangerous Drugs submitted their report on 7 December 2016 after concluding the investigation in aid of legislation hearings.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [committee report, senate inquiry, extrajudicial killings, ejk]
+tags: [Committee Report, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/q4ZQqgkovBOREwG
 thumbnail: thumbnail_topic_senate_ejk_hearing.png

@@ -4,7 +4,7 @@ date: 2016-09-20T06:59:03UTC
 excerpt: On 19 September 2016, the Senate removed Senator Leila De Lima as Chair of the Justice and Human Rights Committee and reconstituted the committee chaired by Senator Richard Gordon, vice chaired by Senator Panfilo Lacson.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate, justice and human rights committee, de lima]
+tags: [Richard Gordon, Leila de Lima, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 redirect_from: /news/20160920T065903
 permalink: /news/q4ZQq6Dorro1EwG

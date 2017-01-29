@@ -4,7 +4,7 @@ date: 2016-07-22T07:56:47UTC
 excerpt: Senator Leila de Lima issued an official statement on 21 July 2016 regarding maximum security inmates being linked to her when she was the former Department of Justice secretary.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [Jose Calida, extrajudicial killing, EJK, Senate, Leila de Lima, Senate]
+tags: [Leila de Lima, Jose Calida, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/xeVQ5yOXE8AQPap
 thumbnail:

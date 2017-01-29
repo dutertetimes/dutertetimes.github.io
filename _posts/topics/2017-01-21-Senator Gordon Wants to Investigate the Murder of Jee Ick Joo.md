@@ -4,7 +4,7 @@ date: 2017-01-26T06:39:52UTC
 excerpt: Senator Richard J. Gordon yesterday warned that the Senate Blue Ribbon Committee will investigate the kidnapping and slaying of Jee Ick Joo if no one will be investigated, charged and prosecuted for the murder.
 layout: post
 categories: [topic, jee_ick_joo, law_and_order]
-tags: [Jee Ick Joo, Richard Gordon, Blue Ribbon Committee, Senate]
+tags: [Richard Gordon, Jee Ick Joo, Blue Ribbon Committee, Senate]
 published: true
 permalink: /news/JebR6G2kyXA37rN
 thumbnail: thumbnail_topic_senate_jee_ick_joo.png

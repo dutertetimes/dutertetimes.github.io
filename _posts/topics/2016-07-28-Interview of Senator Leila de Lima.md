@@ -4,7 +4,7 @@ date: 2016-07-28T08:01:31UTC
 excerpt: Interview of Senator Leila M. de Lima on 27 July 2016 after the extrajudicial killings investigation in aid of legislation had been referred to the Justice and Human Rights Committe.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [extrajudicial killing, ejk, senate, Justice and Human Rights Committee, Leila de Lima]
+tags: [Leila de Lima, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: false
 permalink: /news/Bnx1B6bEWzA1oqa
 thumbnail: thumbnail_gov_senate_leila_de_lima_00.jpg

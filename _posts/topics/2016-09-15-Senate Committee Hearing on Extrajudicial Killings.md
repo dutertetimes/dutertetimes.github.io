@@ -4,7 +4,7 @@ date: 2016-09-15T18:13:15UTC
 excerpt: The Senate Committee on Justice and Human Rights chaired by Senator Leila de Lima held a hearing on 15 September 2016 to investigate the recent extrajudicial killings and summary executions of suspected criminals.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate inquiry, extrajudicial killings, ejk]
+tags: [extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/xeVQ5yOdNkWQPap
 thumbnail: thumbnail_topic_senate_ejk_hearing.png

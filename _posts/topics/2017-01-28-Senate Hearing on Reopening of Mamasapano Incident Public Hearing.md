@@ -4,7 +4,7 @@ date: 2017-01-28T06:11:56UTC
 excerpt: The Senate conducts a joint-committee hearing on 27 January 2017 regarding the reopening of the Mamasapano Incident public hearing.
 layout: post
 categories: [topic, mamasapano_incident, law_and_order]
-tags: [Mamasapano, Special Action Force, SAF, SAF44, Committee on Public Order and Dangerous Drugs, Senate]
+tags: [Mamasapano, Special Action Force, SAF, SAF44, Committee on Public Order and Dangerous Drugs, Committee on Peace, Unification and Reconciliation, Committee on Finance, Senate]
 published: true
 permalink: /news/xmW1aZGzanXR9Xe
 thumbnail:

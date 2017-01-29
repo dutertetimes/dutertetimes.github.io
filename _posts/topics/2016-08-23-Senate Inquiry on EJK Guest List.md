@@ -4,7 +4,7 @@ date: 2016-08-23T06:15:20UTC
 excerpt: The Senate Committee on Justice and Human Rights, and Committee on Public Order and Dangerous Drugs held a joint inquiry on 22 August 2016 regarding the spate of extrajudicial killings and summary executions of drug suspects.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate inquiry, extrajudicial killings, ejk]
+tags: [extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 redirect_from: /news/20160823T061520
 permalink: /news/nexRZOdeKdd3ABG

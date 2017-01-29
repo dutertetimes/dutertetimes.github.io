@@ -4,7 +4,7 @@ date: 2016-09-20T11:46:08UTC
 excerpt: Senator Leila De Lima delivered her privilege speech on 20 September 2016 after being kicked out as Chairman of the Committee on Justice and Human Rights.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [privilege speech, extrajudicial killing, EJK, Senate, Justice and Human Rights Committee, Leila de Lima, Richard Gordon]
+tags: [Leila de Lima, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 redirect_from: /news/20160920T114608
 permalink: /news/4LK1A6V4WmPR0Py

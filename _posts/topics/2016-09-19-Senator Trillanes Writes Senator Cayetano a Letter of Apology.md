@@ -4,7 +4,7 @@ date: 2016-09-19T18:17:46UTC
 excerpt: After the incident during the Senate Committee hearing on 15 Septemer 2016, Senator Trillanes wrote a letter of apology to Senator Alan Peter Cayetano after exhibiting an ungentlemanly behavior.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate inquiry, extrajudicial killings, ejk]
+tags: [Antonio Trillanes, Alan Peter Cayetano, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/x2oRdb6zkV5Qd6N
 thumbnail: thumbnail_topic_senate_ejk_hearing.png

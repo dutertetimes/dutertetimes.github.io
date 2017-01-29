@@ -4,7 +4,7 @@ date: 2016-12-08T19:27:30UTC
 excerpt: The Senate press release on 8 December 2016 on the investigation in aid of legislation of the recent extrajudicial killings and summary executions of suspected criminals after several joint committee hearings.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [committee report, senate inquiry, extrajudicial killings, ejk]
+tags: [Committee Report, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/9rDR4g8bZML1lwb
 thumbnail: thumbnail_topic_senate_ejk_hearing.png

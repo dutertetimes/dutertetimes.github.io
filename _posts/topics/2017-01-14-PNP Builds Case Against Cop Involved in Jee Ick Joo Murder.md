@@ -4,7 +4,7 @@ date: 2017-01-14T08:45:59UTC
 excerpt: The Philippine National Police Anti-Kidnapping Group believes it has an airtight case against SPO3 Ricky Sta. Isabel and several others for the alleged kidnapping of Jee Ick Joo in Angeles City, Pampanga on 18 October 2016.
 layout: post
 categories: [topic, jee_ick_joo, law_and_order]
-tags: [Jee Ick Joo, Philippine National Police, PNP, Anti-Kidnapping Group AKG]
+tags: [Jee Ick Joo, Philippine National Police, PNP, Anti-Kidnapping Group, AKG]
 published: true
 permalink: /news/jLJ38Bvky8r1GAD
 thumbnail: thumbnail_topic_senate_jee_ick_joo.png

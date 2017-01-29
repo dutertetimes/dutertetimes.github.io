@@ -4,7 +4,7 @@ date: 2016-09-15T19:47:27UTC
 excerpt: Senator Leila de Lima made her opening statement on the resumption of the Senate Committee hearing on 15 September 2016 on the recent extrajudicial killings and summary executions of suspected criminals.
 layout: post
 categories: [topic, senate_ejk_hearing, law_and_order, senate]
-tags: [senate inquiry, extrajudicial killings, ejk]
+tags: [Leila de Lima, extrajudicial killing, EJK, Justice and Human Rights Committee, Senate]
 published: true
 permalink: /news/Bnx1B6bg2a21oqa
 thumbnail: thumbnail_topic_senate_ejk_hearing.png
