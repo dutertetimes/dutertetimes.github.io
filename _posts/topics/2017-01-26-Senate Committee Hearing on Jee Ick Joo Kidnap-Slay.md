@@ -1,7 +1,7 @@
 ---
 title: Senate Committee Hearing on Jee Ick Joo Kidnap-Slay
 date: 2017-01-26T09:41:43UTC
-excerpt: The Senate Committee on Public Order and Dangerous Drugs, chaired by Senator Pampilo M. Lacson, held its scheduled meeting today 26 January 2016 on the Kidnap-Slay of South Korean Jee Ick Joo.
+excerpt: The Senate Committee on Public Order and Dangerous Drugs, chaired by Senator Pampilo M. Lacson, held its scheduled hearing 26 January 2016 on the Kidnap-Slay of South Korean Jee Ick Joo.
 layout: post
 categories: [topic, jee_ick_joo, law_and_order]
 tags: [Jee Ick Joo, senate probe, Committee on Public Order and Dangerous Drugs, Senate]
