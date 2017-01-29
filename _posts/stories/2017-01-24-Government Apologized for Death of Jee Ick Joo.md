@@ -27,7 +27,7 @@ related:
   - /news/ol7Rk8bKmmJ3q5j
 ---
 
-During the Malacañan press briefing on 24 January 2017, Presidential Spokesperson Ernest Abella expressed the Philippine government's apology to the South Korean government over the death of businessman Jee Ick Joo, who was abducted from his residence and allegedly killed inside Camp Crame, the National Headquarters of the Philippine National Police (PNP).
+During the Malacañan press briefing on 24 January 2017, Presidential Spokesperson Ernesto Abella expressed the Philippine government's apology to the South Korean government over the death of businessman Jee Ick Joo, who was abducted from his residence and allegedly killed inside Camp Crame, the National Headquarters of the Philippine National Police (PNP).
 
 "We wish to take this occasion to express the condolences and sympathies of President Rodrigo Roa Duterte and the Filipino people to Mrs. Choi Kyung-jin, the widow of Mr. Jee Ick Joo, the South Korean national who met untimely death while in police custody," Abella said.
 
