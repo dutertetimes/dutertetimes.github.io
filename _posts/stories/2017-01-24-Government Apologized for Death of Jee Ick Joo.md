@@ -24,6 +24,7 @@ sources:
   - label: Presidential Communications Operations Office
     link: http://pcoo.gov.ph/palace-welcomes-moodys-ph-growth-forecast-24-jan-2017/
 related:
+  - /news/ol7Rk8bKmmJ3q5j
 ---
 
 During the Malacañan press briefing on 24 January 2017, Presidential Spokesperson Ernest Abella expressed the Philippine government's apology to the South Korean government over the death of businessman Jee Ick Joo, who was abducted from his residence and allegedly killed inside Camp Crame, the National Headquarters of the Philippine National Police (PNP).
