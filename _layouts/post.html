@@ -44,7 +44,7 @@ layout: default
         {% for link in page.related %}
             {% for post in site.posts %}
                 {% if post.permalink == link %}
-            <p><a href="{{ link }}">{{ post.title }}</a>&nbsp;&ndash;&nbsp;<span class="date">{{ post.date | date: site.data.format.date_only }}</p></li>
+            <p><a href="{{ link }}">{{ post.title }}</a>&nbsp;&ndash;&nbsp;<span class="date">{{ post.date | date: site.data.format.date_only_long_month }}</p></li>
                 {% endif %}
             {% endfor %}
         {% endfor %}
