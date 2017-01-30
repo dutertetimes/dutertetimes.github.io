@@ -1,7 +1,7 @@
 ---
 title: President Calls for an Unscheduled Press Conference
 date: 2017-01-30T18:36:47UTC
-excerpt: The President called on an unscheduled press conference early morning on 30 January 2017.
+excerpt: The President called on an unscheduled press conference early morning of 30 January 2017.
 layout: post
 categories: [news, president]
 tags: [Jee Ick Joo, Rafael Dumlao III, Ronald dela Rosa, Maute Group, PNP Chief, Lanao del Sur, Enhanced Defense and Cooperation Agreement, EDCA, ISIS]
@@ -26,5 +26,5 @@ sources:
 related:
 ---
 
-The President called on an unscheduled press conference early mornin on 30 January 2017.
+The President called on an unscheduled press conference early morning of 30 January 2017.
 &#x25cf;
