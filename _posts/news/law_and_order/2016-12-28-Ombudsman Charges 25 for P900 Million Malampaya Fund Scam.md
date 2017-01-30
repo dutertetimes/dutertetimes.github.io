@@ -1,5 +1,5 @@
 ---
-title: Ombudsman Charges 25 for P900 million Malampaya Fund Scam
+title: Ombudsman Charges 25 for P900 Million Malampaya Fund Scam
 date: 2016-12-28T10:03:08UTC
 excerpt: In a press release on 27 December 20016, the Office of the Ombudsman filed charges against 25 individuals in connection with the illegal diversion of P900 million from Malamaya fund in 2009.
 layout: post
