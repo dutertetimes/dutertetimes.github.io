@@ -30,7 +30,7 @@ The President outlined priorities in chairmanship of the 2017 Association of the
 
 ##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE
 
-##### DURING THEASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN) 2017 BUSINESS AND INVESTMENT PROGRAM LAUNCH
+##### DURING THE ASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN) 2017 BUSINESS AND INVESTMENT PROGRAM LAUNCH
 
 ##### Rizal Hall, Malacañan
 
@@ -42,7 +42,7 @@ Excellencies of the ASEAN member states, former President Gloria Macapagal-Arroy
 
 I guess, I was about three minutes late. I do not live in this building. I live on the other side of the river and I commute to and fro in a tugboat everyday.
 
-Naubusan ho kami ng gasolina midway, (laughter)that's why, I'm late.
+Naubusan ho kami ng gasolina midway, (laughter) that's why, I'm late.
 
 Good afternoon. We're here today to launch ASEAN's Business and Investment Program for the year 2017.
 

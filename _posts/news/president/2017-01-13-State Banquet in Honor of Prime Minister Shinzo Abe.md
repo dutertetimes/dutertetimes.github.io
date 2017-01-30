@@ -4,7 +4,7 @@ date: 2017-01-13T19:00:19UTC
 excerpt: The President held a state banquet in honor of Japanese Prime Minister Shinzō Abe at Malacañan Palace on 12 January 2017 on his state visit to the country.
 layout: post
 categories: [news, president, foreign_affairs]
-tags: [Japanese Prime Minister, Shinzo Abe]
+tags: [Shinzo Abe, Japanese Prime Minister]
 published: true
 permalink: /news/2OW3x2PAeWo1vG0
 image:
@@ -23,15 +23,14 @@ sources:
   - label: RTVM
     link: http://rtvm.gov.ph/main/?p=45352
 related:
+  - /news/GZOQv9wGjz83e8A
 ---
 
 The President held a state banquet in honor of Japanese Prime Minister Shinzō Abe at Malacañan Palace on 12 January 2017 on his state visit to the country.
 
-##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTES
+##### TOAST REMARK OF PRESIDENT RODRIGO ROA DUTERTE
 
-##### DURING THE STATE BANQUET IN HONOR OF
-
-##### JAPANESE PRIME MINISTER SHINZO ABE
+##### DURING THE STATE BANQUET IN HONOR OF JAPANESE PRIME MINISTER SHINZO ABE
 
 ###### Rizal Hall, Malacañan Palace
 
@@ -66,4 +65,32 @@ To His Excellency, Prime Minister Shinzo Abe and his wife, for your strong and w
 To the people of Japan for your generosity and prosperity.
 
 Mabuhay!
+
+##### TOAST REMARK OF JAPANESE PRIME MINISTER SHINZO ABE
+
+##### AT THE STATE BANQUET HELD IN HIS HONOR DURING HIS OFFICIAL VISIT TO THE PHILIPPINES
+
+###### Rizal Hall, Malacañan Palace
+
+###### 12 January 2017
+
+President Duterte, thank you very much for your rousing welcome and heartwarming hospitality and for inviting us to this magnificent banquet tonight.
+
+Since Mr. President took office we had a total of three meetings including the one that we had today. And every time we see each other, we realize deepening friendship between the two and I am extremely delighted to establish such relationship with Mr. President.
+
+The relationship between Japan and the Philippines is deep, warm and brotherly or family-like relationship.
+
+President Duterte built a monument with his own money when he was still serving as the mayor of Davao City in honor of the friendship between Japan and the Philippines. The monument of no regret [Ureinashi No Hi?] has a plaque inscribed with a Japanese message of Mr. President. In English, it says: "Every human being is my brother, my sister and my child."
+
+And I would like to take this opportunity to express my heartfelt appreciation for President Duterte's heartfelt gesture of welcoming our Japanese people as family members here in the Philippines.
+
+Back in October when President Duterte visited Japan, we had an unexpectedly long, long small group discussion way beyond the planned schedule. On that occasion, there was nothing and I did not serve alcoholic drinks but still, we had such an active dialogue and discussion. And I am confident that it was only possible because President Duterte was mesmerized by the Japanese cuisine Washoku that I prepared for him.
+
+As part of my delegation, there are a total of 24 Japanese business leaders representing prominent Japanese corporations. Everyone loves the Philippines and I do hope that my visit this time will pave the way for further expansion of bilateral relationship not only in economic context but also in the areas of cultural and people-to-people exchanges.
+
+Almost everyone in my delegation will visit Davao City, Mr. President's home city, with me tomorrow and as you can imagine everyone is very much looking forward to the visit.
+
+With that, I'd like to now propose a toast for good health and happiness of Mr. Duterte and all of our guests and for the strengthened bond and friendship and cooperation between Japan and the Philippines.
+
+Mabuhay! Kanpai!
 &#x25cf;
