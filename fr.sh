@@ -8,6 +8,9 @@
 #   open double quote   (U+201C) “  ->  "
 #   close double quote  (U+201D) ”  ->  "
 #   ellipses            (U+2026) …  ->  ...
+#   en dash             (U+2013) –  ->  --
+#   em dash             (U+2014) —  ->  ---
+#   em dash             (U+2014) —  ->  ---
 
 filename=""
 
@@ -39,6 +42,16 @@ sed -i -e "s/’/'/g" "$filename"
 sed -i -e 's/“/"/g' "$filename"
 sed -i -e 's/”/"/g' "$filename"
 sed -i -e 's/…/.../g' "$filename"
-sed -i -e 's/\*\*\+/——/g' "$filename"
+sed -i -e 's/–/--/g' "$filename"
+sed -i -e 's/—/---/g' "$filename"
+# More asterisk replaced first
+sed -i -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*\*/\\*\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*\*/\\*\\*\\*/g' "$filename"
+sed -i -e 's/\*\*/\\*\\*/g' "$filename"
 
 echo "Done."
