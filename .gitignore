@@ -24,5 +24,6 @@ _posts/news/*.md
 _posts/news/*.bak
 _posts/op_ed/*.md
 _posts/op_ed/*.bak
+_posts/topics/*.md
 # GitEye project
 .project
