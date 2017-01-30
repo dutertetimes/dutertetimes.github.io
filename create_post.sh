@@ -110,7 +110,7 @@ function create_news_post {
         add_yaml_bar
         add_empty
 
-        echo "News post file created: $filename"
+        echo "News post file created on $current: $filename"
     fi
 }
 
@@ -157,7 +157,7 @@ function create_story_post {
         add_yaml_bar
         add_empty
 
-        echo "Story post file created: $filename"
+        echo "Story post file created on $current: $filename"
     fi
 }
 
@@ -204,7 +204,7 @@ function create_opinion_post {
         add_yaml_bar
         add_empty
 
-        echo "Opinion post file created: $filename"
+        echo "Opinion post file created on $current: $filename"
     fi
 }
 
@@ -251,7 +251,7 @@ function create_topic_post {
         add_yaml_bar
         add_empty
 
-        echo "Topic post file created: $filename"
+        echo "Topic post file created on $current: $filename"
     fi
 }
 
@@ -290,7 +290,7 @@ function create_info_post {
         add_yaml_bar
         add_empty
 
-        echo "Information post file created: $filename"
+        echo "Information post file created on $current: $filename"
     fi
 }
 
@@ -342,7 +342,7 @@ function create_newsbit {
             add_empty
         fi
 
-        echo "News bit file created: $filename"
+        echo "News bit file created on $current: $filename"
     fi
 }
 
@@ -372,7 +372,7 @@ function create_announcement {
         add_yaml_bar
         add_empty
 
-        echo "Announcement file created: $filename"
+        echo "Announcement file created on $current: $filename"
     fi
 }
 
