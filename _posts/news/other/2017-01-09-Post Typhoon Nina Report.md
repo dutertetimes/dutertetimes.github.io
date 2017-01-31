@@ -7,6 +7,7 @@ categories: [news, other]
 tags: [tropical storm, typhoon, Nina, Nock-ten]
 published: true
 permalink: /news/LkMRMMmpgJORVe6
+thumbnail: thumbnail_typhoon_00.png
 image:
   layout: auto_width
   source: typhoon_nina_forecast.png
