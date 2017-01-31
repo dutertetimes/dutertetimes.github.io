@@ -24,6 +24,7 @@ sources:
   - label: Presidential Communications Operations Office
     link: http://pcoo.gov.ph/duterte-honors-wounded-soldiers-in-maguindanao-28-jan-2017/
 related:
+  - /news/q4ZQqgkm7qLREwG
 ---
 
 President Rodrigo Roa Duterte honored 12 wounded soldiers at Camp Siongco Station Hospital during his visit to Datu Odin Sinsuat, Maguindanao on 27 January 2016. The soldiers who belonged to 6th Infantry Division of Philippine Army were injured in a clash with lawless armed group in Ampatuan town the day before while acting as support to law enforcers serving a search warrant against the town mayor, Rasul Sangki.

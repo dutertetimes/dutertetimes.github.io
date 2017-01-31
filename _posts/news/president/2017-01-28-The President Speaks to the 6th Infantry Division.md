@@ -24,6 +24,7 @@ sources:
   - label:
     link:
 related:
+  - /news/4Xp37Pvn20mQOVj
 ---
 
 The President spoke to the 6th Infantry Division at Awang, Maguindanao on 27 January 2017 after a clash with lawless armed group in Ampatuan town the day before that injured 12 soldiers.
