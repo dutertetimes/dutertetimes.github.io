@@ -7,6 +7,10 @@ layout: default
 <section class="post_column_main">
 
     <h1>{{ page.title | markdownify }}</h1>
+    
+    <!-- Meta information -->
+    <!---------------------->
+    
     <div class="meta">
         {% if site.debug %}
             {% if page.image.source %}
@@ -38,6 +42,9 @@ layout: default
         </div>
         {% endif %}
     </div>
+    
+    <!-- End of Meta information -->
+    <!----------------------------->
 
     {% if page.related and page.related.size > 0 %}
     <div class="related_posts">
@@ -51,7 +58,52 @@ layout: default
     </div>
     {% endif %}
 
-    {% include post_operations.html %}
+    <!-- Post Operations -->
+    <!--------------------->
+
+    <div class="post_operations">
+        <ul>
+            <li>
+                <a href="https://twitter.com/share" data-via="{{ twitter }}"
+                    data-url="{{ site.baseurl }}{{ page.url }}"
+                    data-text="{{ page.title }}"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="Tweet this page">
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Tweet</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}"
+                    onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
+                    rel="nofollow"
+                    target="_blank"
+                    title="Share on Facebook">
+                    <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Share&nbsp;</span>
+                </a>
+            </li>
+            <li>
+                {% assign page_title = page.title | markdownify | strip_html | normalize_whitespace %}
+                {% assign page_excerpt = page.excerpt | markdownify | strip_html | normalize_whitespace %}
+                <a href="mailto:your@email.com?subject={{ page_title }}&body=<a href='{{ site.baseurl }}{{ page.url }}'>{{ page_title }}</a></br></br>{{ page_excerpt }}</br></br>Link: {{ site.baseurl }}{{ page.url }}"
+                    alt="E-mail"
+                    title="Send the post link as E-mail to...">
+                    <i class="fa fa-envelope" aria-hidden="true"></i><span class="label">&nbsp;E-mail&nbsp;</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:window.print()"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="Print the page or save as PDF file">
+                    <i class="fa fa-print fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Print</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- End of Post Operations -->
+    <!---------------------------->
 
     {% if page.image.source != nil %}
         {% assign has_video = false %}
@@ -110,7 +162,69 @@ layout: default
         {% include youtube_video.html video_id=video_source attribution=video_attribution %}
     {% endif %}
 
-    {% include post_bottom.html %}
+    <hr class="thin">
+
+    <div id="post_bottom">
+        <div id="post_tags">
+            <ul>
+            {% if page.tags.size == 0 %}
+                <li>no tags</li>
+            {% else %}
+                {% for tag in page.tags %}
+                    <li><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ tag }}</li>
+                {% endfor %}
+            {% endif %}
+            </ul>
+        </div>
+        
+        <!-- Post Operations -->
+        <!--------------------->
+
+        <div class="post_operations">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/share" data-via="{{ twitter }}"
+                        data-url="{{ site.baseurl }}{{ page.url }}"
+                        data-text="{{ page.title }}"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Tweet this page">
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Tweet</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}"
+                        onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"
+                        rel="nofollow"
+                        target="_blank"
+                        title="Share on Facebook">
+                        <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Share&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    {% assign page_title = page.title | markdownify | strip_html | normalize_whitespace %}
+                    {% assign page_excerpt = page.excerpt | markdownify | strip_html | normalize_whitespace %}
+                    <a href="mailto:your@email.com?subject={{ page_title }}&body=<a href='{{ site.baseurl }}{{ page.url }}'>{{ page_title }}</a></br></br>{{ page_excerpt }}</br></br>Link: {{ site.baseurl }}{{ page.url }}"
+                        alt="E-mail"
+                        title="Send the post link as E-mail to...">
+                        <i class="fa fa-envelope" aria-hidden="true"></i><span class="label">&nbsp;E-mail&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:window.print()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Print the page or save as PDF file">
+                        <i class="fa fa-print fa-lg" aria-hidden="true"></i><span class="label">&nbsp;Print</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- End of Post Operations -->
+        <!---------------------------->
+        
+    </div>
 
 </section>
 
