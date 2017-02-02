@@ -1,7 +1,7 @@
 ---
 title: DENR Assures Mining Sector that Due Process Meticulously Observed in Mining Audit
-date: 2017-0-30T17:35:22UTC
-excerpt: "DENR assures the mining sector and the general public on 29 January 2016 that \"due process was meticulously observed\" in the audit of all existing metallic mines in the country.
+date: 2017-01-30T17:35:22UTC
+excerpt: "DENR assures the mining sector and the general public on 29 January 2016 that \"due process was meticulously observed\" in the audit of all existing metallic mines in the country."
 layout: post
 categories: [news, environment]
 tags: [Mining, audit]
