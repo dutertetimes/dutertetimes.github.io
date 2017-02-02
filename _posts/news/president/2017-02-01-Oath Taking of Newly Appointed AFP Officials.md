@@ -1,6 +1,6 @@
 ---
 title: Oath Taking of Newly Appointed AFP Officials
-date: 2017-02-02T11:06:24UTC
+date: 2017-02-01T11:06:24UTC
 excerpt: The President administered the oath taking of the newly appointed Armed Forces of the Philippines officials led by AFP Chief of Staff at the Rizal Hall in Malacañan Palace on 31 January 2017.
 layout: post
 categories: [news, president, military]
