@@ -1,6 +1,6 @@
 ---
 title: DENR to Release Mining Audit on February 2
-date: 2017-02-02T17:45:33UTC
+date: 2017-01-26T17:45:33UTC
 excerpt: The fate of 30 mining companies that failed the initial audit conducted by the Department of Environment and Natural Resources in 2016 will be released on second day of February.
 layout: post
 categories: [news, environment]
