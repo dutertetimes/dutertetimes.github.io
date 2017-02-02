@@ -28,7 +28,7 @@ related:
 
 The President administered the oath taking of the newly appointed Armed Forces of the Philippines officials led by AFP Chief of Staff, General Eduardo Año, at the Rizal Hall in Malacañan Palace on 31 January 2017.
 
-###### Speech of President Rodrigo Roa Duterte<br>During the Mass Oath Taking of the<br>Armed Forces of the Philippines Officials
+##### Speech During the Mass Oath Taking of the<br>Armed Forces of the Philippines Officials
 
 ###### Rizal Hall, Malacañan Palace
 
