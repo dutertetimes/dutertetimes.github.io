@@ -37,11 +37,11 @@
 @mixin common_heading {
     h1,
     h1 > p { font-size: $font_size_page_title - 0; line-height: $font_line_height_page_title - 0; }
-    h2     { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-    h3     { font-size: $font_size_page_title - 3; line-height: $font_line_height_page_title - 3; }
-    h4     { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 4; font-style: italic; }
-    h5     { font-size: $font_size_page_title - 2; line-height: $font_line_height_page_title - 2; }
-    h6     { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 4; }
+    h2     { font-size: $font_size_page_title - 4; line-height: $font_line_height_page_title - 4; }
+    h3     { font-size: $font_size_page_title - 5; line-height: $font_line_height_page_title - 5; }
+    h4     { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 6; font-style: italic; }
+    h5     { font-size: $font_size_page_title - 3; line-height: $font_line_height_page_title - 3; }
+    h6     { font-size: $font_size_page_title - 6; line-height: $font_line_height_page_title - 6; }
 
     h1, h1 > p code { font-size: $font_size_page_title - 0; }
     h2 code { font-size: $font_size_page_title - 6; }
@@ -117,6 +117,9 @@
             font-style: normal;
             line-height: 22px;
         }
+    }
+    h6 {
+        font-weight: normal;
     }
 }
 
