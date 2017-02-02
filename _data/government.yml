@@ -105,6 +105,7 @@ branch:
         abbr: DTI
         head: Ramon Lopez
         url: http://www.dti.gov.ph/
+        
       - title: Department of Transportation
         abbr: DOTr
         head: Arthur Planta Tugade
@@ -415,7 +416,7 @@ branch:
       - title: Anti-Money Laundering Council
         abbr: AMLC
         head:
-        url:
+        url: http://www.amlc.gov.ph/
       - title: Bureau of Customs
         abbr: BOC
         head:
@@ -484,6 +485,10 @@ branch:
         abbr: SBMA
         head: Randy Escolango (OIC)
         url: http://www.mysubicbay.com.ph/
+      - title: Philippine Economic Zone Authority
+        abbr: PEZA
+        head: BGen Charito B. Plaza MNSA, PhD
+        url: http://www.peza.gov.ph/
 
   - title: Military
     description: Armed Forces of the Philippines
@@ -502,3 +507,22 @@ branch:
       - title: Philippine Air Force
         abbr: PAF
         url: http://www.paf.mil.ph/
+  - title: Government Owned and Controlled Corporations
+    description:
+    abbr: GOCC
+    corporation:
+      - title: National Broadcasting Network
+      - title: Clark Development Corporation
+      - title: John Hay Management Corporation
+      - title: Bases Conversion and Development Authority
+      - title: North Luzon Railways Corporation
+      - title: Subic Bay Metropolitan Authority
+      - title: Cagayan Economic Zone Authority
+      - title: Cebu Ports Authority
+      - title: Cottage Industry Technology Center
+      - title: Cultural Center of the Philippines
+      - title: Light Rail Transit Authority
+      - title: Metro Transit Organization, Inc.
+      - title: Northern Foods Corporation
+      - title: Philippine Crop Insurance Corporation
+      
