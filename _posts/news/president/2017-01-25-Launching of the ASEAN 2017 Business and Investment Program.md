@@ -32,9 +32,9 @@ The President outlined priorities in chairmanship of the 2017 Association of the
 
 ##### DURING THE ASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN) 2017 BUSINESS AND INVESTMENT PROGRAM LAUNCH
 
-##### Rizal Hall, Malacañan
+###### Rizal Hall, Malacañan
 
-##### January 24, 2017
+###### January 24, 2017
 
 Thank you. Kindly sit down.
 

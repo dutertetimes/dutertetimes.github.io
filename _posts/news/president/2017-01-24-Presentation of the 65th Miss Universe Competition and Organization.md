@@ -32,9 +32,9 @@ The President welcomed the 65th Miss Universe candidates with great pride and ho
 
 ##### DURING THE CEREMONIAL PRESENTATION OF THE 65THMISS UNIVERSE COMPETITION CONTESTANTS AND MISS UNIVERSE ORGANIZATION
 
-##### Rizal Hall, Malacañang
+###### Rizal Hall, Malacañang
 
-##### January 23, 2017
+###### January 23, 2017
 
 Executive Secretary Salvador Medialdea, Secretary Wanda Corazon Tulfo-Teo, the other members of the Cabinet, former Governor Chavit Singson, Ms. Paula Shugart of the— President of the Miss Universe organization, candidates of the 65thMiss Universe competition, fellow workers in government, my beloved countrymen.
 
