@@ -165,12 +165,12 @@ table {
     thead {
         background: $color_table_th_bg;
         tr > th {
-            @include set_font($font_table_heading, $font_size_table_heading + 2, $color_text, bold);
+            @include set_font($font_table_heading, $font_size_table_heading, $color_text);
             @include max-screen(720px) {
                 font-size: $font_size_table_heading;
             }
             text-transform: uppercase;
-            padding: 6px 6px 5px 6px;
+            padding: 6px 6px 4px 6px;
         }
     }
 
@@ -180,8 +180,8 @@ table {
             td p,
             td a,
             td li {
-                @include set_font($font_table_data, $font_size_table_data + 2, $color_text);
-                line-height: $font_line_height_table_data + 2;
+                @include set_font($font_table_data, $font_size_table_data, $color_text);
+                line-height: $font_line_height_table_data;
 
                 @include max-screen(720px) {
                     font-size: $font_size_table_data;

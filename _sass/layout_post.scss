@@ -427,6 +427,10 @@ section.post_column_main {
     table {
         width: auto;
         overflow: scroll;
+        thead tr {
+            white-space: nowrap;
+            word-wrap: nowrap;
+        }
         tbody tr {
             td,
             td p,
