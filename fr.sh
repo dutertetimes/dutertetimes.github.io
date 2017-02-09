@@ -37,34 +37,36 @@ filename="$1"
 cp "$filename" "$filename".bak
 echo "Processing $filename..."
 
-# * Replace non-breaking space 'U+00A0', UTF-8 'C2A0' with space character 'U+0032'
-# * Delete trailing whitespace at end of each line.
-#   http://vim.wikia.com/wiki/VimTip878
-#   's/\s\+$//g'
-# * Compress consecutive blank lines into one blank line
-#   http://www.unix.com/shell-programming-and-scripting/66836-replacing-multiple-lines-single-line.html
-#   '/./,/^$/!d'
+sed -in                                                     \
+    -e "s/‘/'/g"                                            \
+    -e "s/’/'/g"                                            \
+    -e 's/“/"/g'                                            \
+    -e 's/”/"/g'                                            \
+    -e 's/…/.../g'                                          \
+    -e 's/–/--/g'                                           \
+    -e 's/—/---/g'                                          \
+    -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g' \
+    -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g'      \
+    -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g'           \
+    -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g'                \
+    -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g'                     \
+    -e 's/\*\*\*\*/\\*\\*\\*\\*/g'                          \
+    -e 's/\*\*\*/\\*\\*\\*/g'                               \
+    -e 's/\*\*/\\*\\*/g' "$filename"
 
-sed -in                                                         \
-    -e "s/‘/'/g"                                                \
-    -e "s/’/'/g"                                                \
-    -e 's/“/"/g'                                                \
-    -e 's/”/"/g'                                                \
-    -e 's/…/.../g'                                              \
-    -e 's/–/--/g'                                               \
-    -e 's/—/---/g'                                              \
-    -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g'     \
-    -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g'          \
-    -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g'               \
-    -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g'                    \
-    -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g'                         \
-    -e 's/\*\*\*\*/\\*\\*\\*\\*/g'                              \
-    -e 's/\*\*\*/\\*\\*\\*/g'                                   \
-    -e 's/\*\*/\\*\\*/g'                                        \
-    -e 's/\xC2\xA0/ /g'                                         \
-    -e 's/\xA0/ /g'                                             \
-    -e 's/\s*$//g'                                              \
-    -e '/./,/^$/!d' "$filename"
+# Replace non-breaking space UTF-8 'C2A0' with space character 'U+0032'
+sed -in -e 's/\xC2\xA0/ /g' "$filename"
+
+# Compress consecutive spaces into single space
+sed -in -e 's/ \+/ /g' "$filename"
+
+# Delete trailing whitespace at end of each line.
+sed -in -e 's/\s*$//g' "$filename"
+
+# Compress consecutive blank lines into one blank line
+# http://www.unix.com/shell-programming-and-scripting/66836-replacing-multiple-lines-single-line.html
+# '/./,/^$/!d'
+sed -in -e '/./,/^$/!d' "$filename"
 
 # Delete trailing blank lines
 # http://stackoverflow.com/a/7359879/6091491
