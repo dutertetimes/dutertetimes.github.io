@@ -37,21 +37,40 @@ filename="$1"
 cp "$filename" "$filename".bak
 echo "Processing $filename..."
 
-sed -i -e "s/‘/'/g" "$filename"
-sed -i -e "s/’/'/g" "$filename"
-sed -i -e 's/“/"/g' "$filename"
-sed -i -e 's/”/"/g' "$filename"
-sed -i -e 's/…/.../g' "$filename"
-sed -i -e 's/–/--/g' "$filename"
-sed -i -e 's/—/---/g' "$filename"
-# More asterisk replaced first
-sed -i -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*\*/\\*\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*\*/\\*\\*\\*/g' "$filename"
-sed -i -e 's/\*\*/\\*\\*/g' "$filename"
+# * Replace non-breaking space 'U+00A0', UTF-8 'C2A0' with space character 'U+0032'
+# * Delete trailing whitespace at end of each line.
+#   http://vim.wikia.com/wiki/VimTip878
+#   's/\s\+$//g'
+# * Compress consecutive blank lines into one blank line
+#   http://www.unix.com/shell-programming-and-scripting/66836-replacing-multiple-lines-single-line.html
+#   '/./,/^$/!d'
+
+sed -in                                                         \
+    -e "s/‘/'/g"                                                \
+    -e "s/’/'/g"                                                \
+    -e 's/“/"/g'                                                \
+    -e 's/”/"/g'                                                \
+    -e 's/…/.../g'                                              \
+    -e 's/–/--/g'                                               \
+    -e 's/—/---/g'                                              \
+    -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g'     \
+    -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g'          \
+    -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g'               \
+    -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g'                    \
+    -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g'                         \
+    -e 's/\*\*\*\*/\\*\\*\\*\\*/g'                              \
+    -e 's/\*\*\*/\\*\\*\\*/g'                                   \
+    -e 's/\*\*/\\*\\*/g'                                        \
+    -e 's/\xC2\xA0/ /g'                                         \
+    -e 's/\xA0/ /g'                                             \
+    -e 's/\s*$//g'                                              \
+    -e '/./,/^$/!d' "$filename"
+
+# Delete trailing blank lines
+# http://stackoverflow.com/a/7359879/6091491
+#
+# If combined with the above command, there are instances that
+# empty lines are deleted.
+sed -in -e :a -e '/^\n*$/{$d;N;};/\n$/ba' "$filename"
 
 echo "Done."
