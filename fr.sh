@@ -38,30 +38,31 @@ cp "$filename" "$filename".bak
 echo "Processing $filename..."
 
 sed -in                                                     \
-    -e "s/‘/'/g"                                            \
-    -e "s/’/'/g"                                            \
-    -e 's/“/"/g'                                            \
-    -e 's/”/"/g'                                            \
-    -e 's/…/.../g'                                          \
-    -e 's/–/--/g'                                           \
-    -e 's/—/---/g'                                          \
-    -e 's/\*\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*\\*/g' \
-    -e 's/\*\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*\\*/g'      \
-    -e 's/\*\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*\\*/g'           \
-    -e 's/\*\*\*\*\*\*/\\*\\*\\*\\*\\*\\*/g'                \
-    -e 's/\*\*\*\*\*/\\*\\*\\*\\*\\*/g'                     \
-    -e 's/\*\*\*\*/\\*\\*\\*\\*/g'                          \
-    -e 's/\*\*\*/\\*\\*\\*/g'                               \
-    -e 's/\*\*/\\*\\*/g' "$filename"
+    -e "/‘/ s//'/g"                                            \
+    -e "/’/ s//'/g"                                            \
+    -e '/“/ s//"/g'                                            \
+    -e '/”/ s//"/g'                                            \
+    -e '/…/ s//.../g'                                          \
+    -e '/–/ s//--/g'                                           \
+    -e '/—/ s//---/g'                                          \
+    -e '/\*\*\*\*\*\*\*\*\*/ s//\\*\\*\\*\\*\\*\\*\\*\\*\\*/g' \
+    -e '/\*\*\*\*\*\*\*\*/ s//\\*\\*\\*\\*\\*\\*\\*\\*/g'      \
+    -e '/\*\*\*\*\*\*\*/ s//\\*\\*\\*\\*\\*\\*\\*/g'           \
+    -e '/\*\*\*\*\*\*/ s//\\*\\*\\*\\*\\*\\*/g'                \
+    -e '/\*\*\*\*\*/ s//\\*\\*\\*\\*\\*/g'                     \
+    -e '/\*\*\*\*/ s//\\*\\*\\*\\*/g'                          \
+    -e '/\*\*\*/ s//\\*\\*\\*/g'                               \
+    -e '/\*\*/ s//\\*\\*/g' "$filename"
 
 # Replace non-breaking space UTF-8 'C2A0' with space character 'U+0032'
-sed -in -e 's/\xC2\xA0/ /g' "$filename"
+sed -in -e '/\xC2\xA0/ s// /g' "$filename"
 
-# Compress consecutive spaces into single space
-sed -in -e 's/ \+/ /g' "$filename"
+# Compress consecutive spaces into single space after the yaml front matter
+# sed -in -e 's/ \+/ /g' "$filename"
+sed -in -e '/^---$/,/^---$/ !{ s/ \+/ /g }' "$filename"
 
 # Delete trailing whitespace at end of each line.
-sed -in -e 's/\s*$//g' "$filename"
+sed -in -e '/\s*$/ s///g' "$filename"
 
 # Compress consecutive blank lines into one blank line
 # http://www.unix.com/shell-programming-and-scripting/66836-replacing-multiple-lines-single-line.html
@@ -70,9 +71,6 @@ sed -in -e '/./,/^$/!d' "$filename"
 
 # Delete trailing blank lines
 # http://stackoverflow.com/a/7359879/6091491
-#
-# If combined with the above command, there are instances that
-# empty lines are deleted.
 sed -in -e :a -e '/^\n*$/{$d;N;};/\n$/ba' "$filename"
 
 echo "Done."
