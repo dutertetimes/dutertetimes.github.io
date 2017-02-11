@@ -73,4 +73,6 @@ sed -in -e '/./,/^$/!d' "$filename"
 # http://stackoverflow.com/a/7359879/6091491
 sed -in -e :a -e '/^\n*$/{$d;N;};/\n$/ba' "$filename"
 
+rm -f "$filename".mdn
+
 echo "Done."
