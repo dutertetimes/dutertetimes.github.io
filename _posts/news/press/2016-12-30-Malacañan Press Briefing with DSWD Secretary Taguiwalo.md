@@ -26,7 +26,7 @@ sources:
 related:
 ---
 
-Department of Social Welfare and Development (DSWD) Secretary Judy Taguiwalo speaks before the Malacañan Press Corps on 29 December 2016.
+Department of Social Welfare and Development (DSWD) Secretary Judy Taguiwalo speaks before the Malacañan Press Corps on 29 December 2016 at the Press Briefing Room, New Executive Building, Malacañang
 
 ## Opening Statements
 

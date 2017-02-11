@@ -26,7 +26,7 @@ sources:
 related:
 ---
 
-Department of Energy (DOE) Undersecretary Felix William Fuentebella reports before the Malacañan Press Corps on 10 January 2017.
+Department of Energy (DOE) Undersecretary Felix William Fuentebella reports before the Malacañan Press Corps on 10 January 2017 at the Press Briefing Room, New Executive Building, Malacañang
 
 ## Opening Statements
 

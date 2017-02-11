@@ -28,6 +28,8 @@ related:
 
 Department of Finance Undersecretary, Karl Kendrick Chua, and Assistant Secretary Atty. Paola Alvarez speak before the Malacañan Press Corps on 27 January 2017 at the Press Briefing Room, New Executive Building, Malacañang.
 
+## Opening Statements
+
 PRESIDENTIAL SPOKESPERSON ABELLA: Good morning. This morning we have special resource persons to deal with the tax reform for acceleration and inclusion.
 We have Assistant Secretary Paola Alvarez. And prior to her post at the Department of Finance, she served as the official spokesperson of the PDP-Laban political party during the 2016 campaign.
 
@@ -163,7 +165,7 @@ At kung gamitin po natin itong mga tax revenues para sa mga mahihirap at dahil d
 
 Kami po ni Asec. Paola ang magte-take ng questions.
 
-## Questions and Answers:
+## Questions and Answers
 
 Celerina Monte (Manila Shimbun): Good morning po.
 
