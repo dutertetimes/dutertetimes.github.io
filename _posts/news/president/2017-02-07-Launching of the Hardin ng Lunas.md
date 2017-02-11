@@ -104,13 +104,13 @@ So it reminded me of my mother all along while we were proceeding with the progr
 
 If we can cut on corruption, basta wala lang corruption, at saka magbago lang ang lahat, mawala itong problema sa droga, and I promised you, wala naman akong--- I said, I will stop corruption, I will suppress drugs, crime, pati marami akong ipinangako. I complied with it, even the burial of Marcos.
 
-When I was asked during the debate sa Pangasinan, with the three--- the five of us were asked, "Would you allow the burial of Marcos?" Me and Binay said, "Yes." Ako, without batting an eyelash, I said, "yes," because it's the law. It has nothing to with politics, it's the law. A soldier and a President.
+When I was asked during the debate sa Pangasinan, with the three--- the five of us were asked, "Would you allow the burial of Marcos?" Me and Binay said, "Yes." Ako, without batting an eyelash, I said, "yes," because it's the law. It has nothing to do with politics, it's the law. A soldier and a President.
 
-He might have been a coward, wala na tayong pakialam na coward na sundalo. We were not there during the war. He might have been a bad President but that is for history to decide. Dumaan naman sila lahat, bakit nila hindi tinanggal 'yang batas 'yan? So pagdating sa akin, I just enforced it.
+He might have been a coward, wala na tayong pakialam na coward na sundalo. We were not there during the war. He might have been a bad President but that is for history to decide. Dumaan naman sila lahat, bakit nila hindi tinanggal 'yang batas na 'yan? So pagdating sa akin, I just enforced it.
 
 So dito sa atin, we just follow the law. At 'yung 8888 sa PTV 4, after the news, is reserved for the Filipino citizen to complain. Sabihin ninyo kung anong position, at anong ginawa. Kasi noon, itong NEDA, it would take you three, four years because they sat on it, the longer they sat on it, it means more corruption.
 
-Ngayon lahat ng departamento, pati defense; only one month, one month lang talaga lahat; ke ma-health, education. And 'yung mga director must report first and leave last sa opisina. They must be there all the time. 'Pag wala sila dito, I'm warning you, 'yang heads of offices na maghintay-hintay 'yung tao, I will initiate summary dismissal.
+Ngayon lahat ng departamento, pati defense; only one month, one month lang talaga lahat; ke ma-health, education. And 'yung mga director must report first and leave last sa opisina. They must be there all the time. 'Pag wala sila dito, I'm warning you---'yang heads of offices---na maghintay-hintay 'yung tao, I will initiate summary dismissal.
 
 No second chance ako, no tir--- Wala akong pasensiya-pasensiya. Kasi kung ganoon ang gawin ko, 'yun ang ginagawa noon ng mga dumaang Presidente, walang nangyari sa bayan natin.
 

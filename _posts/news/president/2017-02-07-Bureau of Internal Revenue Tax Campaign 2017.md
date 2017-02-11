@@ -54,7 +54,7 @@ Kaya sabi ko noong ano, but he's bright, anak ng pastor 'yan eh. Buti makilala n
 
 Billy is from Baguio. Bebot is from Isabela. Bebot is a son of a judge. Ma-ano kami, mga---yung Cabinet ko, almost probinsyano 'yan. Hindi ninyo alam. Tugade is from Cagayan Valley, but he's bright. Valedictorian 'yan namin sa law school. Talagang bright. He's a billionaire ngayon. May pera talaga si Tugade.
 
-So pinilit ko lang rin 'yan. Kasi ayaw niyang magtrabaho. Malalaki na anak niya. Sabi niya, na-turnover na niya, sabi niya,"Pagod na ako."
+So pinilit ko lang rin 'yan. Kasi ayaw niyang magtrabaho. Malalaki na anak niya. Sabi niya, na-turnover na niya, sabi niya, "Pagod na ako."
 
 But he was the top honcho of Delgado Shipping when we were students yet. So ibig sabihin, talagang naka-puwesto na sa buhay. Halos lahat 'yan sila, mga bright. Pernia is from UP; si ano naman, si Briones used to be National Treasurer. They're really brilliant people.
 
