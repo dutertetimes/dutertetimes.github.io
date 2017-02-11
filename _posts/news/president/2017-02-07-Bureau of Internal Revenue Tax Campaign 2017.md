@@ -21,8 +21,8 @@ videos:
     attribution:
     layout:
 sources:
-  - label: RTVM
-    link: http://rtvm.gov.ph/main/?p=45758
+  - label: Presidential Communications Operations Office
+    link: http://pcoo.gov.ph/february-06-2017-speech-of-president-rodrigo-roa-duterte-during-the-bureau-of-internal-revenue-large-taxpayer-service-tax-campaign-kick-off/
 related:
 ---
 
@@ -35,7 +35,6 @@ With the cooperation of the Large Taxpayer Service (LTS) and the Department of F
 ###### Reception Hall, PICC, Pasay City<br>February 6, 2017
 
 Maupo po kayo. Do not clap too much. After six years, wala na kami. (laughter)
-
 Secretary Carlos Dominguez; Mr. Caesar Dulay; Mr. Nestor Valleroso (Velasco); Lance Gokongwei, how are you? The Bureau of Internal Revenue officials and employees; large taxpayers officials; fellow workers in government; my beloved countrymen.
 
 In every event, the PMS, Presidential Management Staff, prepares a speech. Ito o. (laughter) Dalawang minuto 'to. Uwi na tayo. (laughter) Problem is, I do not read my speeches because I do not know how. I tend to go out of the ambit or the topic of the day and I usually, pati, nagmumura ako. (laughter)
@@ -49,12 +48,11 @@ Noong Kindergarten pa kami, ang baon niya could buy a turon and a barbecue. Ang 
 Kaya nagkaroon ng hotel 'yung Marco Polo, pati maraming pera. Nadagdagan na ngayon pero hindi sa kanya. And I chose him because he's my childhood friend and I trust him. Though noong nag-third--- second year ako, napaalis ako sa eskwelahan, nagpaiwan sila. It took me seven years to finish high school.
 
 Sila, they were already from---sa labas. I was still struggling to finish high school. But I finished my law course on time. Dulay and Bello were roommates in front of our room. Ang kasama ko, si Yasay. Ito ngayon si Yasay, magsalita akala mo, "Oh, I'd like to talk to you... are we going to..." (laughter) Ganun, even in his dreams when he's talking, (laughter) "I was talking about things that you can hardly hear. Well, discern what I said about---"
-
 Kaya sabi ko noong ano, but he's bright, anak ng pastor 'yan eh. Buti makilala ninyo siya, how I stumbled on to them.
 
 Billy is from Baguio. Bebot is from Isabela. Bebot is a son of a judge. Ma-ano kami, mga---yung Cabinet ko, almost probinsyano 'yan. Hindi ninyo alam. Tugade is from Cagayan Valley, but he's bright. Valedictorian 'yan namin sa law school. Talagang bright. He's a billionaire ngayon. May pera talaga si Tugade.
 
-So pinilit ko lang rin 'yan. Kasi ayaw niyang magtrabaho. Malalaki na anak niya. Sabi niya, na-turnover na niya, sabi niya, "Pagod na ako."
+So pinilit ko lang rin 'yan. Kasi ayaw niyang magtrabaho. Malalaki na anak niya. Sabi niya, na-turnover na niya, sabi niya,"Pagod na ako."
 
 But he was the top honcho of Delgado Shipping when we were students yet. So ibig sabihin, talagang naka-puwesto na sa buhay. Halos lahat 'yan sila, mga bright. Pernia is from UP; si ano naman, si Briones used to be National Treasurer. They're really brilliant people.
 
@@ -85,7 +83,6 @@ All the things that the doctor says, sa kabila ako. Kasi pagkatapos ng sumakit, 
 Noong na-mayor ako, I started with the criminals. And ang problema kasi, malala masyado, because aside from the---mga drug lords, drug, everybody who wanted to be known as an anti-communist, 'yung Alsa Masa, was handed a firearm freely. And in the barracks itself, merong lathe machine doon, they were producing paltik and giving it to everybody. And, of course, it was quite successful kasi lumaban ang tao eh. They were really, maybe, dead tired of the abuses of the communists.
 
 And ako naman on a higher level, magkaibigan kami because we share the same horizon. Maybe not in all points of socialism, but I was never a member of the Communist Party of the Philippines.
-
 Pati 'yung mga land reform, 'yung mga ano, I was there all the time and even as mayor, doon talaga ako sa mga tao. But I also saw to it na I do not antagonize capital. Medyo naglaro-laro lang ako. So ayun.
 
 All those years sinabi ko nang--- I laid down the rule at totoo 'yan, huwag na natin taguin, eh magbobolahan pa tayo eh.
