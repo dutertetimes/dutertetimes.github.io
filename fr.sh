@@ -34,10 +34,10 @@ case $1 in
 esac
 
 filename="$1"
-cp "$filename" "$filename".bak
+cp "$filename" "$filename.bak"
 echo "Processing $filename..."
 
-sed -in                                                     \
+sed -in                                                        \
     -e "/‘/ s//'/g"                                            \
     -e "/’/ s//'/g"                                            \
     -e '/“/ s//"/g'                                            \
@@ -53,26 +53,29 @@ sed -in                                                     \
     -e '/\*\*\*\*/ s//\\*\\*\\*\\*/g'                          \
     -e '/\*\*\*/ s//\\*\\*\\*/g'                               \
     -e '/\*\*/ s//\\*\\*/g' "$filename"
+    
+# Fix: add space after punctuations
+sed -in -e '/^---$/,/^---$/ !{ s/,/, /g }' "$filename"
+sed -in -e '/^---$/,/^---$/ !{ s/\:/\: /g }' "$filename"
 
 # Replace non-breaking space UTF-8 'C2A0' with space character 'U+0032'
-sed -in -e '/\xC2\xA0/ s// /g' "$filename"
+#sed -in -e '/\xC2\xA0/ s// /g' "$filename"
+sed -in -e '/^---$/,/^---$/ !{ s/\xC2\xA0/ /g }' "$filename"
 
 # Compress consecutive spaces into single space after the yaml front matter
 # sed -in -e 's/ \+/ /g' "$filename"
-sed -in -e '/^---$/,/^---$/ !{ s/ \+/ /g }' "$filename"
+sed -in '/^---$/,/^---$/ !{ s/ \+/ /g }' "$filename"
 
 # Delete trailing whitespace at end of each line.
-sed -in -e '/\s*$/ s///g' "$filename"
+sed -in '/^---$/,/^---$/ !{ /\s*$/ s///g }' "$filename"
 
 # Compress consecutive blank lines into one blank line
 # http://www.unix.com/shell-programming-and-scripting/66836-replacing-multiple-lines-single-line.html
 # '/./,/^$/!d'
-sed -in -e '/./,/^$/!d' "$filename"
+sed -in '/./,/^$/!d' "$filename"
 
 # Delete trailing blank lines
 # http://stackoverflow.com/a/7359879/6091491
 sed -in -e :a -e '/^\n*$/{$d;N;};/\n$/ba' "$filename"
-
-rm -f "$filename".mdn
 
 echo "Done."
