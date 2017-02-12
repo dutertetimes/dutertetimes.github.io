@@ -5,7 +5,7 @@ excerpt: Bangko Sentral ng Pilipinas report on Domestic Liquidity in December 20
 layout: post
 categories: [news, economy]
 tags: [Domestic Liquidity]
-published: false
+published: true
 permalink: /news/Ojq1Nvkj8BX1lwx
 thumbnail:
 image:
