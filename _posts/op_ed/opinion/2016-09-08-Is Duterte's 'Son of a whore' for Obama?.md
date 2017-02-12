@@ -32,7 +32,7 @@ The incident even made it into The Late Night Show with Stephen Colbert on 7 Sep
     <div class="video">
         <iframe src="https://www.youtube.com/embed/eDyEGP0FhcQ?start=177;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
-<p>Stephen Colbert should have known better since it is his own government who 'P-H'd Up' the name 'Las Islas Filipinas' during their subjugation of the country and its people which their own anti-imperialist Samuel Clemens (Mark Twain) had strongly opposed and spoken against.</p>
+<p class="aside_caption">Stephen Colbert should have known better since it is his own government who 'P-H'd Up' the name 'Las Islas Filipinas' during their subjugation of the country and its people which their own anti-imperialist Samuel Clemens (Mark Twain) had strongly opposed and spoken against.</p>
 </div>
 
 The Philippine President was set to leave the evening of 5 September 2016 for Vientiane, Lao People's Democratic Republic to participate in the 28th and 29th ASEAN Summits and Related Summits. 
@@ -66,10 +66,15 @@ Duterte then he veered towards those whose writings have become familiar to him 
 > (You know, there are many, among columnists),
 > they look upon Obama and the United States as if we are the lap dogs of this country."
 
+{::options parse_block_html="true" /}
 <div class="aside_right aside_width_45">
-<h4 class="font_italic">"... we have been trying for eight years to take their liberties away from them..."</h4>
-<p>From the official cablegram coming from the Commander of the U.S. in the Philippines to Washington as Samuel Clemens said "The substance of it" in his "Comments on the Moro Massacre", 12 March 1906.</p>
+"*... we have been trying for eight years to take their liberties away from them...*"
+{:.aside_italic}
+
+--- Samuel Clemens said "*The substance of it*" in his "*Comments on the Moro Massacre*", 12 March 1906, referring to the official cablegram from the Commander of the U.S. in the Philippines to Washington.
+{:.aside_caption}
 </div>
+{::options parse_block_html="false" /}
 
 To, but unlike, them who harbor a derogative feeling towards their own country, believing that the Republic is subject to the United States and that the Philippine government is somehow answerable to the President of the U.S., Duterte made his position clear, saying,
 
@@ -91,11 +96,18 @@ To make people think twice and demolish that unpatriotic idea, he presented a hi
 > (there were about six million Moros.)
 > How many died? Six hundred!"
 
+{::options parse_block_html="true" /}
 <div class="aside_right">
-<p>"... But I have thought some more, since then, and I have read carefully the treaty of Paris [of 1898 that ended the Spanish-American War], and I have seen that we do not intend to free, but to subjugate the people of the Philippines. We have gone there to conquer, not to redeem.</p>
-<p>... And so I am an anti-imperialist. I am opposed to having the eagle put its talons on any other land."</p>
-<p>— "<a href="http://fultonhistory.com/Newspaper%2014/New%20York%20NY%20Herald/New%20York%20NY%20Herald%201900/New%20York%20NY%20Herald%201900%20-%208960.pdf">Mark Twain Home, An Anti-Imperialist</a>" (PDF). New York Herald. October 16, 1900. p. 4. Retrieved September 14, 2016.</p>
+"... But I have thought some more, since then, and I have read carefully the treaty of Paris [of 1898 that ended the Spanish-American War], and I have seen that we do not intend to free, but to subjugate the people of the Philippines. We have gone there to conquer, not to redeem.
+{:.aside_italic}
+
+... And so I am an anti-imperialist. I am opposed to having the eagle put its talons on any other land."
+{:.aside_italic}
+
+--- "[Mark Twain Home, An Anti-Imperialist](http://fultonhistory.com/Newspaper%2014/New%20York%20NY%20Herald/New%20York%20NY%20Herald%201900/New%20York%20NY%20Herald%201900%20-%208960.pdf)" (PDF). New York Herald. October 16, 1900. p. 4. Retrieved September 14, 2016.
+{:.aside_caption}
 </div>
+{::options parse_block_html="false" /}
 
 He referred to one painful past of the Moros and of the Filipino people as a whole, the Bud Dajo Massacre of 1906, during the Moro Rebellion against the United States military which lasted from from 1899 to 1913.
 Others have called it "The Battle of Bud Dajo" wherein, as said, 600 Moros were slaughtered in that dormant crater by American soldiers.
@@ -122,15 +134,16 @@ Duterte said firmly,
 
 He advised,
 
-> You must be respectful.
-> Do not just throw away questions and statements.
+> "You must be respectful.
+> Do not just throw away questions and statements."
 
+{::options parse_block_html="true" /}
 <div class="aside_right">
-<a href="http://rarehistoricalphotos.com/moro-insurgents-1906/" target="_blank">
-    <img src="http://4.bp.blogspot.com/-oE1Xe0pOsyE/VqsWjQmFrhI/AAAAAAAAKNs/X7qzrZeq4C4/s1600/US%2Bsoldiers%2Bpose%2Bwith%2Bthe%2Bbodies%2Bof%2BMoro%2Binsurgents%252C%2BPhilippines%252C%2B1906.jpg" />
-</a>
-<p>The bodies of Moro insurgents and civilians killed by U.S. troops during the Battle of Bud Dajo in the Philippines, March 7, 1906.</p>
+[![Battle of Bud Dajo, Philippines, March 7, 1906](http://4.bp.blogspot.com/-oE1Xe0pOsyE/VqsWjQmFrhI/AAAAAAAAKNs/X7qzrZeq4C4/s1600/US%2Bsoldiers%2Bpose%2Bwith%2Bthe%2Bbodies%2Bof%2BMoro%2Binsurgents%252C%2BPhilippines%252C%2B1906.jpg)](http://rarehistoricalphotos.com/moro-insurgents-1906/){:target="_blank"}
+The bodies of Moro insurgents and civilians killed by U.S. troops during the Battle of Bud Dajo in the Philippines, March 7, 1906.
+{:.aside_caption}
 </div>
+{::options parse_block_html="false" /}
 
 And to whom did he send his advise to?
 He could not have given that advise to Obama, did he?
@@ -141,7 +154,18 @@ If not directed towards Obama, could his advise therefore be for his audience? �
 The following statement of President Duterte is where the swearing was heard.
 One cannot ignore that up to this point, his subject was the columnists who write things he did not said and who think we are a vassal state and subject to the United States; and to whom he ad directed all his messages and to whom he had been trying to explain where the Philippines and the President stands.
 
-> Puta'ng-ina, mumurahin kita diyan sa forum na 'yan ([son of a] bitch, I will swear at you in that forum).
+> "Puta'ng-ina, mumurahin kita diyan sa forum na 'yan
+> ([son of a] bitch, I will swear at you in that forum)."
+
+{::options parse_block_html="true" /}
+<div class="aside_right">
+The Philippine Supreme Court ruled in 1969, and affirmed in another decision in 2006, that the term "'Putang ina mo' is a common enough expression in the dialect that is often employed, not really to slander but rather to express anger or displeasure. It is seldom, if ever, taken in its literal sense by the hearer, that is, as a reflection on the virtues of a mother.
+{:.aside_italic}
+
+--- "[Supreme Court ruling: 'Putang ina mo' doesn't mean 'your mother is a whore'" by Rigoberto Tiglao](http://www.rigobertotiglao.com/2016/09/09/supreme-court-ruling-putang-ina-mo-doesnt-mean-your-mother-is-a-whore/)"
+{:.aside_caption}
+</div>
+{::options parse_block_html="false" /}
 
 He said, 'Puta'ng-ina' meaning 'Puta'ng [Puta ang] (the whore, the bitch, but 'the' is usually not translated); 'ina' (mother).
 If you translate that literally, 'Whore mother', but you don't say it that way in english.
@@ -155,14 +179,9 @@ She argued that if Duterte was referring to columnists, he should have used the 
 Both words are translated to english as 'you'.
 The former singular and the latter plural, depending on the context it is used.
 
-<div class="aside_right">
-<p>The Philippine Supreme Court ruled in 1969, and affirmed in another decision in 2006, that the term "'Putang ina mo' is a common enough expression in the dialect that is often employed, not really to slander but rather to express anger or displeasure. It is seldom, if ever, taken in its literal sense by the hearer, that is, as a reflection on the virtues of a mother.</p>
-<p>— <a href="http://www.rigobertotiglao.com/2016/09/09/supreme-court-ruling-putang-ina-mo-doesnt-mean-your-mother-is-a-whore/">"Supreme Court ruling: 'Putang ina mo' doesn't mean 'your mother is a whore'" by Rigoberto Tiglao"</a></p>
-</div>
-
 In his next statement, he counseled,
 
-> Huwag mo akong ganunin (Don't do that kind of thing to me).
+> "Huwag mo akong ganunin (Don't do that kind of thing to me)."
 
 What thing should not be done? Duterte referred to throwing away of questions and statements.
 The original Filipino sentence for that could only mean that the speaker is speaking to his audience.
@@ -171,7 +190,7 @@ So far, Duterte was not speaking to Obama.
 He used the word 'mo', again translated into 'you' in english, and contextually 'you' refers to his audience or to whom he is speaking to.
 So, when he said, "Don't you do that kind of thing to me," he could not have meant Obama because he is not speaking to him.
 
-> Tell that to everybody.
+> "Tell that to everybody."
 
 Is this statement bidding Obama to tell everybody what he just said?
 If he was directing his son-of-a-whore words to Obama, would directing his audience to tell that to everybody make any sense?
