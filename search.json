@@ -8,14 +8,14 @@
       "date": "{{ post.date | date: site.data.format.date_only }}",
       "excerpt": "{{ post.excerpt | markdownify | strip_html | normalize_whitespace }}",
       "tags": "{{ post.tags | join: ', ' }}",
-      "content": "{{ post.content | markdownify | strip_html | normalize_whitespace }}",
+      "content": "{{ post.content | markdownify | strip_html | normalize_whitespace | replace: '(laughter)', '' | replace: ' ●', '' }}",
       "url": "{{ post.url | absolute_url }}" } {% unless forloop.last %},{% endunless %}
     {% endfor %}{% else %}{% for post in site.posts %}
     { "title": "{{ post.title | markdownify | strip_html | normalize_whitespace }}",
       "date": "{{ post.date | date: site.data.format.date_only }}",
       "excerpt": "{{ post.excerpt | markdownify | strip_html | normalize_whitespace }}",
       "tags": "{{ post.tags | join: ', ' }}",
-      "content": "{{ post.content | markdownify | strip_html | normalize_whitespace }}",
+      "content": "{{ post.content | markdownify | strip_html | normalize_whitespace | replace: '(laughter)', '' | replace: ' ●', '' }}",
       "url": "{{ post.url | absolute_url }}" } {% unless forloop.last %},{% endunless %}
     {% endfor %}{% endif %}
 ]}
