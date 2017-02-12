@@ -335,9 +335,9 @@ section.post_column_main {
             margin: 0;
             padding: 0;
             font-family: $font_page_text;
-            font-size: $font_size_page_text + 1;
+            font-size: $font_size_page_text;
             color: $color_aside_text;
-            line-height: $font_line_height_page_text + 1;
+            line-height: $font_line_height_page_text;
         }
 
         & > p.excerpt,
@@ -368,6 +368,10 @@ section.post_column_main {
         & a > img {
             width: 100%;
         }
+        // no image link bottom border
+        & a {
+            border-bottom: none;
+        }
 
         & > a {
             border-bottom: none;
@@ -378,6 +382,20 @@ section.post_column_main {
         }
         .font_italic {
             font-style: italic;
+        }
+        
+        p.aside_italic {
+            font-style: italic;
+        }
+        p.aside_highlight {
+            //font-size: $font_size_page_text;
+            font-style: italic;
+            font-weight: bold;
+        }
+        p.aside_caption,
+        p.aside_caption > a {
+            font-size: $font_size_page_text - 4;
+            line-height: $font_size_page_text - 2;
         }
     }
 
@@ -605,7 +623,7 @@ section.post_column_main {
         @include max-screen(720px) {
             margin-left: 15px;
         }
-        padding: 10px 12px 2px 12px;
+        padding: 14px 12px 1px 12px;
         border-radius: 0 4px 4px 0;
         width: 80%;
         background: $color_blockquote_bg;
