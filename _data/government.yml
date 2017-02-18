@@ -178,11 +178,60 @@ branch:
     url: /info/gov/legislative.html
     heads:
       - title: Senate President
-        head: Aquilino Pimentel
+        head: Aquilino Pimentel III
         description:
       - title: Speaker of the House of Representatives
         head: Pantaleon Alvarez
         description:
+    senators:
+      - title: Aquilino Pimentel III
+        url:
+      - title: Richard J. Gordon
+        url:
+      - title: Panfilo M. Lacson
+        url:
+      - title: Alan Peter S. Cayetano
+        url:
+      - title: Francis Pangilinan
+        url:
+      - title: Francis G. Escudero
+        url:
+      - title: Antonion Trillanes IV
+        url: http://trillanes.com.ph/
+      - title: Loren B. Legarda
+        url: http://lorenlegarda.com.ph/
+      - title: Franklin M. Drilon
+        url:
+      - title: Juan Miguel F. Zubiri
+        url:
+      - title: Maria Lourdes Nancy S. Binay
+        url:
+      - title: Sherwin T. Gatchalian
+        url:
+      - title: Paolo Benigno A. Aquino IV
+        url:
+      - title: Leila De Lima
+        url: https://www.facebook.com/leiladelimaofficial/
+      - title: Cynthia A. Villar
+        url:
+      - title: Vicente C. Sotto III
+        url:
+      - title: Ana Theresia Hontiveros-Baraquel
+        url:
+      - title: Joel Villanueva
+        url:
+      - title: Juan Edgardo M. Angara
+        url:
+      - title: Gregorio B. Honasan II
+        url:
+      - title: Emmanuel D. Pacquiao
+        url:
+      - title: Grace Poe
+        url:
+      - title: Joseph Victor G. Ejercito
+        url:
+      - title: Ralph G. Recto
+        url:
     committees:
       - title: Accountability of Public Officers and Investigations
         abbr:

@@ -21,7 +21,11 @@ permalink: /info/gov/legislative.html
         {% assign list = site.data.government.branch[1].heads %}
         {% include block_list.html posts=list show=show_items entry_class="bottom_margin_10" %}
     </div>
-    
+    <div class="section_container">
+        <h1>Committees</h1>
+        {% assign list = site.data.government.branch[1].senators %}
+        {% include block_list.html posts=list show=show_items counter="yes" entry_class="bottom_margin_10" %}
+    </div>
     <div class="section_container">
         <h1>Committees</h1>
         {% assign list = site.data.government.branch[1].committees %}
