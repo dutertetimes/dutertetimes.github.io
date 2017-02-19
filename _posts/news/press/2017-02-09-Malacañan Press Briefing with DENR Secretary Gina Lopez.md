@@ -7,7 +7,7 @@ categories: [news, press]
 tags: [Department of Environment and Natural Resources, DENR, Gina Lopez]
 published: true
 permalink: /news/w8lQwqGwd2kRNX4
-thumbnail:
+thumbnail: thumbnail_gov_denr_gina_lopez.png
 image:
   layout: auto_width
   source: 
