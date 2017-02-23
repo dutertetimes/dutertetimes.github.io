@@ -17,9 +17,11 @@ branch:
       - title: President
         head: Rodrigo Roa Duterte
         description:
+        url: https://op-proper.gov.ph/
       - title: Vice President
         head: Maria Leonor Santo Tomas Robredo
         description:
+        url: http://ovp.gov.ph/
     departments:
       - title: Executive Secretary
         abbr: ES
