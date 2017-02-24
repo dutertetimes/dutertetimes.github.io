@@ -5,7 +5,7 @@ excerpt: Sarah Duterte Reacts to the open letter of Archbishop Socrates Villegas
 layout: post
 categories: [news, other]
 tags: [EDSA People Power, Sarah Duterte, Archbishop Socrates Villegas]
-published: true
+published: false
 permalink: /news/Bnx1B6bBnnB1oqa
 thumbnail:
 image:
