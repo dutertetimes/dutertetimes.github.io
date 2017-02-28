@@ -36,6 +36,41 @@ function add_yaml_bar {
     echo "---" >> $filename
 }
 
+function add_yaml_categories {
+    echo "categories: [news, governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+}
+
+function add_yaml_image {
+    echo "image:" >> $filename
+    echo "  layout: auto_width" >> $filename
+    echo "  source: " >> $filename
+    echo "  attribution: " >> $filename
+}
+
+function add_yaml_video {
+    echo "video:" >> $filename
+    echo "  source: " >> $filename
+    echo "  attribution: RTVM" >> $filename
+    echo "  layout: top" >> $filename
+}
+
+function add_yaml_videos {
+    echo "videos:" >> $filename
+    echo "  - source: " >> $filename
+    echo "    attribution: " >> $filename
+    echo "    layout: " >> $filename
+}
+
+function add_yaml_sources {
+    echo "sources:" >> $filename
+    echo "  - label: article title (source)" >> $filename
+    echo "    link:" >> $filename
+}
+
+function add_yaml_related {
+    echo "related:" >> $filename
+}
+
 function add_default {
     if [ $# -eq 0 ]; then
         echo "title: " >> $filename
@@ -47,6 +82,7 @@ function add_default {
 
 function add_empty {
     echo >> $filename
+    echo "Download: [](){:target='_blank'}" >> $filename
     echo "Malacañan" >> $filename
     echo "   dash-" >> $filename
     echo "en dash–" >> $filename
@@ -78,7 +114,7 @@ function create_news_post {
         add_default "News"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [news, governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        add_yaml_categories
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -91,22 +127,11 @@ function create_news_post {
         fi
         echo "permalink: /news/$hashid" >> $filename
         echo "thumbnail:" >> $filename
-        echo "image:" >> $filename
-        echo "  layout: auto_width" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "video:" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "  layout: top" >> $filename
-        echo "videos:" >> $filename
-        echo "  - source: " >> $filename
-        echo "    attribution: " >> $filename
-        echo "    layout: " >> $filename
-        echo "sources:" >> $filename
-        echo "  - label:" >> $filename
-        echo "    link:" >> $filename
-        echo "related:" >> $filename
+        add_yaml_image
+        add_yaml_video
+        add_yaml_videos
+        add_yaml_sources
+        add_yaml_related
         add_yaml_bar
         add_empty
 
@@ -125,7 +150,7 @@ function create_story_post {
         add_default "Story"
         echo "excerpt: " >> $filename
         echo "layout: post" >> $filename
-        echo "categories: [story, governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        add_yaml_categories
         echo "tags: []" >> $filename
         if [ $# -eq 0 ]; then
             echo "published: true" >> $filename
@@ -138,22 +163,11 @@ function create_story_post {
         fi
         echo "permalink: /stories/$hashid" >> $filename
         echo "thumbnail:" >> $filename
-        echo "image:" >> $filename
-        echo "  layout: none | auto_width" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "video:" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "  layout: top" >> $filename
-        echo "videos:" >> $filename
-        echo "  - source: " >> $filename
-        echo "    attribution: " >> $filename
-        echo "    layout: " >> $filename
-        echo "sources:" >> $filename
-        echo "  - label:" >> $filename
-        echo "    link:" >> $filename
-        echo "related:" >> $filename
+        add_yaml_image
+        add_yaml_video
+        add_yaml_videos
+        add_yaml_sources
+        add_yaml_related
         add_yaml_bar
         add_empty
 
@@ -185,22 +199,11 @@ function create_opinion_post {
         fi
         echo "permalink: /opinion/$hashid" >> $filename
         echo "thumbnail:" >> $filename
-        echo "image:" >> $filename
-        echo "  layout: none | auto_width" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "video:" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "  layout: top" >> $filename
-        echo "videos:" >> $filename
-        echo "  - source: " >> $filename
-        echo "    attribution: " >> $filename
-        echo "    layout: " >> $filename
-        echo "sources:" >> $filename
-        echo "  - label:" >> $filename
-        echo "    link:" >> $filename
-        echo "related:" >> $filename
+        add_yaml_image
+        add_yaml_video
+        add_yaml_videos
+        add_yaml_sources
+        add_yaml_related
         add_yaml_bar
         add_empty
 
@@ -232,22 +235,11 @@ function create_topic_post {
         fi
         echo "permalink: /.../$hashid" >> $filename
         echo "thumbnail:" >> $filename
-        echo "image:" >> $filename
-        echo "  layout: none | auto_width" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "video:" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "  layout: top" >> $filename
-        echo "videos:" >> $filename
-        echo "  - source: " >> $filename
-        echo "    attribution: " >> $filename
-        echo "    layout: " >> $filename
-        echo "sources:" >> $filename
-        echo "  - label:" >> $filename
-        echo "    link:" >> $filename
-        echo "related:" >> $filename
+        add_yaml_image
+        add_yaml_video
+        add_yaml_videos
+        add_yaml_sources
+        add_yaml_related
         add_yaml_bar
         add_empty
 
@@ -279,14 +271,9 @@ function create_info_post {
         fi
         echo "permalink: /info/$hashid" >> $filename
         echo "thumbnail:" >> $filename
-        echo "image:" >> $filename
-        echo "  layout: none | auto_width" >> $filename
-        echo "  source: " >> $filename
-        echo "  attribution: " >> $filename
-        echo "sources:" >> $filename
-        echo "  - label:" >> $filename
-        echo "    link:" >> $filename
-        echo "related:" >> $filename
+        add_yaml_image
+        add_yaml_sources
+        add_yaml_related
         add_yaml_bar
         add_empty
 
@@ -314,7 +301,7 @@ function create_newsbit {
 
         add_yaml_bar
         add_default "News Bit"
-        echo "categories: [ newsbit | governance | economy | mining | manufacturing | services | agrarian | agriculture | agrarian reform | education | environment | transport | scitech | foreign_affairs | culture | energy | social_welfare | peace_process | insurgency | cpp | mnlf | milf | senate | law_and_order | military | pnp | pcg | ofw | press ]" >> $filename
+        add_yaml_categories
         if [ $# -gt 0 ]; then
             echo "published: true" >> $filename
         else
@@ -367,7 +354,7 @@ function create_announcement {
         echo "  source: " >> $filename
         echo "  attribution: " >> $filename
         echo "sources:" >> $filename
-        echo "  - label:" >> $filename
+        echo "  - label: article title (source)" >> $filename
         echo "    link:" >> $filename
         add_yaml_bar
         add_empty
