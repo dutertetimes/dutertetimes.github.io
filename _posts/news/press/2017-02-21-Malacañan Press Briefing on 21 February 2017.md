@@ -4,7 +4,7 @@ date: 2017-02-21T12:54:31UTC
 excerpt: Malacañan Press Briefing with PCOO Secretary, Senior Deputy Executive Secretary, EDSA People Power Commission Vice Chairperson, and Ms. Cecile Guidote-Alvarez on 21 February 2017.
 layout: post
 categories: [news, press]
-tags: [Philippine Communications Operations Office, PCOO, ]
+tags: [Philippine Communications Operations Office, PCOO, EDSA People Power]
 published: true
 permalink: /news/76p1Jkz2gqgRaMm
 thumbnail:
@@ -87,9 +87,7 @@ ALVAREZ: I'm representing the "Spirit of EDSA". It's an NGO that was founded by 
 
 So we are very happy to be always collaborating with the government for remembering and protecting the integrity of history.
 
-I think what's very important and we're glad that
-
-we have this 31st anniversary because the brilliant, gallant moment of the Filipino nation is inscribed in the "UNESCO Memory of the World". All over the world, major historic events like Mandela's and many of the programs that are so relevant to the growth and development of a nation is inscribed, it's selected and the Philippines' EDSA People Power is here [shows the book], it is on page 554, the radio broadcast of the Philippine People Power Revolution.
+I think what's very important and we're glad that we have this 31st anniversary because the brilliant, gallant moment of the Filipino nation is inscribed in the "UNESCO Memory of the World". All over the world, major historic events like Mandela's and many of the programs that are so relevant to the growth and development of a nation is inscribed, it's selected and the Philippines' EDSA People Power is here [shows the book], it is on page 554, the radio broadcast of the Philippine People Power Revolution.
 
 So it is recorded in world history and it is a glorious moment that really must be carried on the spirit. And as we feel that we were liberated from oppression and tyranny, now our concern is to seek freedom: freedom from drugs, freedom from corruption, freedom from pollution, freedom from terrorism, freedom from disease that more or less the Duterte government has been elucidating or focusing on. And particularly as one involved with the cultural programming, we feel that the arts is so important as a conscientisizing force and the need for education of the young to carry on memory.
 
