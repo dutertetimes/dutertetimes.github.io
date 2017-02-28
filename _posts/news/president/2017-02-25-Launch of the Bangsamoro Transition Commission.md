@@ -28,6 +28,34 @@ related:
 
 The President led the launch of the expanded Bangsamoro Transition Commission (BTC) on 24 February 2017 which was held at the Waterfront Insular Hotel in Lanang, Davao City.
 
+The BTC is the body that would draft the Bangsamoro enabling law. The creation of the enabling law is part of the implementation of the Comprehensive Agreement on the Bangsamoro (CAB) which was signed between the government of the Philippines and the Moro Islamic Liberation Front way back in March 2014.
+
+The commission is expected to submit the draft of the new enabling law on July of this year. The enactment of the law will create new political entity replacing the Autonomous Region of Muslim Mindanao (ARMM) in which it will have greater autonomy than the present ARMM but will still remain part of the Republic of the Philippines.
+
+The 21 BTC members presented to the President are:
+
+* Haron M. Abas
+* Firdausi Ismail Y. Abbas
+* Ibrahim D. Ali
+* Hussin Amin
+* Maisara Dandamun-Latiph
+* SamiraGutoc-Tomawis
+* Hatimil Hassan
+* Mohagher M. Iqbal
+* Ghadzali Jaafar
+* Raissa H. Jajurie
+* Gafur A. Kanain
+* Datu Mussolini Sinsuat Lidasan
+* Jose I. Lorena
+* Abdulraof Abdul Macacua
+* Hussein P. Munoz
+* Romeo Saliga
+* Susana Salvador-Anayatin
+* Omar Yasser C. Sema
+* Said M. Shiek
+* Ammal D. Solaiman
+* Melanio U. Ulama
+
 ##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE DURING THE LAUNCHING OF BANGSAMORO TRANSITION COMMISSION
 
 ###### Garden Pavilion, Waterfront Insular Hotel, Lanang, Davao City<br>February 24, 2017
