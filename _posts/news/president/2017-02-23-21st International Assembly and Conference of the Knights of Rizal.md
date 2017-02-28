@@ -1,7 +1,7 @@
 ---
 title: 21st International Assembly and Conference of the Knights of Rizal
 date: 2017-02-23T14:40:52UTC
-excerpt: The President was conferred as Knight Grand of Rizal during the Knights of Rizal 21st International Assembly and Conference on 23 February 2017 held in Davao City.
+excerpt: The President was conferred as Knight Grand Cross of Rizal during the Knights of Rizal 21st International Assembly and Conference on 23 February 2017 held in Davao City.
 layout: post
 categories: [news, other]
 tags: [Knights of Rizal]
@@ -26,5 +26,5 @@ sources:
 related:
 ---
 
-The President was conferred as Knight Grand of Rizal during the Knights of Rizal 21st International Assembly and Conference on 23 February 2017 held in Davao City.
+The President was conferred as Knight Grand Cross of Rizal during the Knights of Rizal 21st International Assembly and Conference on 23 February 2017 held in Davao City.
 &#x25cf;
