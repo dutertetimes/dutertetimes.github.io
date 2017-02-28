@@ -1,5 +1,5 @@
 ---
-title: Launching Ceremony of the First Vehicle under the CARS Program
+title: Launching Ceremony of the First Vehicle Under the CARS Program
 date: 2017-02-28T06:55:17UTC
 excerpt: The President formally launched the first locally manufactured Mitsubishi Mirage G4 for the Comprehensive Automotive Resurgence Strategy Program in a ceremony held at Rizal Hall, Malacañan Palace on 27 February 2017.
 layout: post
