@@ -24,6 +24,7 @@ sources:
   - label:
     link:
 related:
+  - /info/aWARXlNxywaR8Bb
 ---
 
 The President formally launched the first locally manufactured Mitsubishi Mirage G4 and Mirage hatchback for the Comprehensive Automotive Resurgence Strategy Program in a ceremony held at Rizal Hall, Malacañan Palace on 27 February 2017.
