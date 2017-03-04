@@ -1,6 +1,6 @@
 ---
 title: Edgar Chua of Shell as New Makati Business Club Chairman
-date: 2017-11-09T04:42:16UTC
+date: 2016-11-09T04:42:16UTC
 excerpt: The Makati Business Club announced on 8 November its new chairman, Edgar O. Chua, chairman of the Pilipinas Shell Petroleum Corporation succeeding Ramon del Rosario Jr., Phinma, Inc. president and CEO.
 layout: post
 categories: [news, economy]

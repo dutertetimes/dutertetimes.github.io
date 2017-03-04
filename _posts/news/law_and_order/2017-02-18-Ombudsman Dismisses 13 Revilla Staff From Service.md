@@ -7,7 +7,7 @@ categories: [news, law_and_order]
 tags: [Priority Development Assistance Fund, PDAF]
 published: true
 permalink: /news/2Md1pvkNnLn3reB
-thumbnail:
+thumbnail: thumbnail_gov_ombudsman_conchita_carpio_morales_00.jpg
 image:
   layout: auto_width
   source: 
