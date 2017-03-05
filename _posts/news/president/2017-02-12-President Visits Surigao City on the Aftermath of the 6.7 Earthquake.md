@@ -13,7 +13,7 @@ image:
   source: 
   attribution: 
 video:
-  source: OYeKgYCEVjc
+  source: 4IZZjOjBvu8
   attribution: RTVM
   layout: top
 videos:
@@ -27,6 +27,8 @@ related:
 ---
 
 The President visits Surigao City on 12 February 2017 at the Surigao City Hall Gymnasium, Surigao City after the city was hard hit by a 6.7 magnitude earthquake on the night of 10 February 2017.
+
+...
 
 Iyo iyo ba. Unsa manang iyo iyo? (laughter) Bata nga sinultian ba. Ayaw nang dako kay lisod na na. So pasalamat ko sa inyong pagdawat kanamo. Ania atong mga sekretaryo, naa naman si congressman, naa naman siguro. Mao ni si Diokno sa budget. (Claps)
 
@@ -87,5 +89,4 @@ Kanang mag malinawon ta, kanang tanang bukid nang yawa wala nay silbi. Bahin-bah
 Lima ka tuig kapin mubalik ko diri. Istorya ta unsay kaayuhan nato tanang Pilipino. Pero maningkamot lang ko ug trabaho basta way korapsyon unya ayaw mo ug sugot nga naay droga. Kay akong mentras naay pusher unya naay drug lord, di gyud na mahuman ang patay. Di gyud na mahuman ang patay. Ako may gipasanginlan nila edi ako nalang derechoon. Edi sige. Ako man kaha. Edi sige. Basta naay makadaot diha sa Pilipino...
 
 Mao na akong sulti ayaw mog sulod diha. Ayawg dauta ang akong nasod. Ayawg dauta ang kinabuhi samong gagmay nga anak kay patyun ta gyud ka. Wala tay istoryahan diha. Kutob ra ta.. ma priso kung ma priso ok lang. basta ayaw lang kog kalimti ug bisita. Naa man imong bana. Maayo imong lawas? Bitaw. ... adto na ko ha. Unya ikaw, reserban lang ka. Daghang salamat.
-
 &#x25cf;
