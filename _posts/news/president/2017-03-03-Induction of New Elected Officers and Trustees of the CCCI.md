@@ -26,6 +26,8 @@ sources:
 related:
 ---
 
+The President led the induction of new elected officers and trustees for 2017-2018 of the Cebu Chamber of Commerce and Industry on 2 March 2017 at the Waterfront Airport Hotel and Casino, Lapu-Lapu City, Cebu.
+
 ##### SPEECH OF PRESIDENT RODRIGO ROA DUTERTE DURING THE INDUCTION OF NEW ELECTED OFFICERS AND TRUSTEES OF THE CEBU CHAMBER OF COMMERCE AND INDUSTRY INC.
 
 ###### Gloria Maris Room, Waterfront Hotel, Mactan Island, Lapu-Lapu City, Cebu<br>02 March 2017
