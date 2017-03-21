@@ -14,12 +14,9 @@ Example:
     {% include block_entry.html post=post show=show_items %}
 {% endcomment %}
 
+{% assign category = include.post.categories[1] %}
+
 {% if include.show contains "thumbnail" %}
-
-    {% if include.post.categories %}
-    {% assign post_image = post.categories[1] | prepend: "post_16_9_" | append: ".png" %}
-    {% endif %}
-
     {% if site.debug %}
         {% if include.post.video.source %}
 <img src="/images/offline/thumbnail_post_image.png" />
@@ -32,12 +29,12 @@ Example:
         {% endif %}
     {% else %}
         {% if include.post.thumbnail %}
-<img src="{{ site.image_source }}/site/thumbnail/{{ include.post.thumbnail }}" />
+<img src="{{ site.image_source }}{{ site.data.images[include.post.thumbnail] }}" />
         {% else %}
             {% if include.post.video.source %}
 <img src="http://img.youtube.com/vi/{{ include.post.video.source }}/mqdefault.jpg" />
             {% else %}
-<img src="{{ site.image_source }}/site/{{ post_image }}" />
+<img src="{{ site.image_source }}{{ site.data.images[category] }}" />
             {% endif %}
         {% endif %}
     {% endif %}
@@ -62,7 +59,7 @@ Example:
 {% endif %}
 
 {% if include.show contains "excerpt" %}
-{% if include.post.excerpt %}<p class="excerpt">{{ include.post.excerpt | markdownify | strip_html }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>{% endif %}
+{% if include.post.excerpt %}<p class="excerpt">{{ site.data.images[include.category] }}{{ include.post.excerpt | markdownify | strip_html }}{% if post.video.source %} <i class="fa fa-video-camera" aria-hidden="true"></i>{% endif %}</p>{% endif %}
 {% endif %}
 
 {% if include.show contains "categories" %}
