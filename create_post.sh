@@ -19,7 +19,7 @@ filename=""
 
 function show_usage {
     echo "create_post"
-    echo "  Create file in current directory in 'YYYY-MM-DD-YYYYMMDDThhmmss.md' format."
+    echo "  Create a jekyll post file in current directory in 'YYYY-MM-DD-YYYYMMDDThhmmss.md' format."
     echo "Usage: create_post [option]"
     echo ""
     echo "Options:"
