@@ -112,7 +112,7 @@
     {% if page.image.source %}
     <meta name="twitter:image:src" content="{{ site.image_source }}{{ page.image.source }}">
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.image_source }}{{ site.data.images[twitter_card_small] }}?{{ site.time | date: '%Y%m%d%H%M%S' }}">
+    <meta name="twitter:image:src" content="{{ site.image_source }}{{ site.data.images['twitter_card_small'] }}?{{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% endif %}
 
     <!-- Stylesheets -->
