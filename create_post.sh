@@ -63,6 +63,7 @@ function add_yaml_videos {
 
 function add_yaml_sources {
     echo "sources:" >> $filename
+    echo "  - label: Presidential Communications Operations Office" >> $filename
     echo "  - label: article title (source)" >> $filename
     echo "    link:" >> $filename
 }
