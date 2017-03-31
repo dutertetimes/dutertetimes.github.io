@@ -3,7 +3,7 @@ title: Press Interview in Cagayan de Oro
 date: 2017-03-04T08:00:27UTC
 excerpt: The President was interviewed by the press in Cagayan de Oro on 3 March 2017.
 layout: post
-categories: [news, president]
+categories: [news, press]
 tags: [press, interview]
 published: true
 permalink: /news/76p1JkvMl4rRaMm
