@@ -225,6 +225,11 @@
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "During 2016 presidential campaign"
   qdate:
+  
+- qtext: "Dili ko katoo. Kinsa ra man ako. (I cannot believe this. Who am I? I am just a nobody.)"
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "Hours after the 2016 Presidential Election at the grave of his parents Davao Governor Vicente Duterte and Soledad Roa Duterte"
+  qdate: "10 May 2016 3:00 am"
 
 # ----------
 # as president
@@ -233,7 +238,6 @@
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "Exclusive talk with Mocha Uson"
   qdate: "25 June 2016"
-
 
 - qtext: "It will be a clean and peaceful government."
   qauthor: "Rodrigo Roa Duterte"
