@@ -148,6 +148,7 @@
 # ----------
 # others
 
+
 - qtext: "The trouble with us in government is that we talk too much, act too slow, and do too little."
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "During a Senate hearing on Rice Smuggling"
@@ -157,9 +158,23 @@
   qauthor: "Rodrigo Roa Duterte"
   qcontext: "After visiting victims of typhoon Yolanda (I.N. Haiyan) in Tacloban City, Leyte and other parts of the island."
   qdate:
+  
+- qtext: "I have crossed the bridge of Rubicon and there is no turning back. I place my future entirely in the hands of God."
+  qauthor: "Rodrigo Roa Duterte"
+  qdate: "27 November 2016"
 
 # ----------
 # campaign
+
+- qtext: "I would rather lose the election than lose my identity. My character is my identity."
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "Rodrigo Duterte: Guns, goons and the presidency (101 East - Al Jazeera)"
+  qdate: "7 April 2016"
+
+- qtext: "I am the only remaining card left for the Filipinos to deal with the situation. I hold it. It's my ace."
+  qauthor: "Rodrigo Roa Duterte"
+  qcontext: "Rodrigo Duterte: Guns, goons and the presidency (101 East - Al Jazeera)"
+  qdate: "7 April 2016"
 
 - qtext: "I could make this sacrifice if only to save this country from being fractured."
   qauthor: "Rodrigo Roa Duterte"
